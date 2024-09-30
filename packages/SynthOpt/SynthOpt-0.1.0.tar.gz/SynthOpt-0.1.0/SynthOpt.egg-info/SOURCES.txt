@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+SynthOpt.egg-info/PKG-INFO
+SynthOpt.egg-info/SOURCES.txt
+SynthOpt.egg-info/dependency_links.txt
+SynthOpt.egg-info/requires.txt
+SynthOpt.egg-info/top_level.txt
