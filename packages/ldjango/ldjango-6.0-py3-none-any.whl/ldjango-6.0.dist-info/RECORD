@@ -1,0 +1,11 @@
+ldjango/__init__.py,sha256=ANCjGO4sWElHjDOrMEUFkKjewt3rP-nC5jnZUG9wHD4,32
+ldjango/cli.py,sha256=w3UOcf6zbMMKcwEAfhaHaDcp026_WigHrDEYjrNmdQQ,3522
+ldjango/landing.py,sha256=tTBoPdhOgRGG4xpl7p1ZTMlszEu1ZjZNyt04VeJF1V0,115
+ldjango/main.py,sha256=2usbBKEV_Lfze74LQ_Sa8Yk1MUTpUDDz_fqQ0BAQ8b4,13658
+ldjango/views.py,sha256=myO1E5FmT2HAwjzstyFaI5RthTNm2lq6mKUV7pQZPGE,116
+ldjango/templates/landing_page.html,sha256=SRs58a-DGoPLF6xrDOvT9oFaPi6lt61Xv1Uj6y0vwqY,8793
+ldjango-6.0.dist-info/METADATA,sha256=6YTjOx_9_3jNG_F4_KYoZ0bKlHx8eTyEQgxVuMRAuV8,10464
+ldjango-6.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ldjango-6.0.dist-info/entry_points.txt,sha256=ZETRsMShOUKcOzsOkXtdIRVvzI3LzrBIM1XZctaO_eE,44
+ldjango-6.0.dist-info/top_level.txt,sha256=9VrMOu5vI0wV1aCYhTfyXA1qBsLMwqeUxghlOJf-E1I,8
+ldjango-6.0.dist-info/RECORD,,
