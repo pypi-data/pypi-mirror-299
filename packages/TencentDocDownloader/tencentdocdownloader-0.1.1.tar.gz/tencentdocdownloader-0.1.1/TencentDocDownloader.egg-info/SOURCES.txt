@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+TencentDocDownloader.egg-info/PKG-INFO
+TencentDocDownloader.egg-info/SOURCES.txt
+TencentDocDownloader.egg-info/dependency_links.txt
+TencentDocDownloader.egg-info/requires.txt
+TencentDocDownloader.egg-info/top_level.txt
