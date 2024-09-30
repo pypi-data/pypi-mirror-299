@@ -1,0 +1,12 @@
+z3c.recipe.mkdir-1.1-py3.11-nspkg.pth,sha256=BrhV4o1F7-cVmGSpIcq3Q9ujcb5BUVFH_w3-ozB6tbE,1132
+z3c/recipe/mkdir/README.rst,sha256=SZzQrIWpB9thvz6bnG824L0FOfsDkj5EcQoykmpZDVQ,18540
+z3c/recipe/mkdir/__init__.py,sha256=YTnWa1MliAuuo_-i4hHDssTAxXOYOA20l3QkhIwXUnk,4307
+z3c/recipe/mkdir/regression.txt,sha256=XmrHN7_gRu85qTFD0fJe1mlxhK2wK8-xYQn_jEw11kE,727
+z3c/recipe/mkdir/tests.py,sha256=FB_R0XUbGtCHT_LSfECnaL2UekPF7sOjvBaP4C0rQkQ,3409
+z3c.recipe.mkdir-1.1.dist-info/LICENSE.txt,sha256=PmcdsR32h1FswdtbPWXkqjg-rKPCDOo_r1Og9zNdCjw,2070
+z3c.recipe.mkdir-1.1.dist-info/METADATA,sha256=Vil_lWDy_z6V4FyiZwd1K72OhsbJGBfYZZerbGncna0,4232
+z3c.recipe.mkdir-1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+z3c.recipe.mkdir-1.1.dist-info/entry_points.txt,sha256=LCcqEO6iOEy8FDmEzBtrpjVRZ7SXf6LVcsNopIFiorw,48
+z3c.recipe.mkdir-1.1.dist-info/namespace_packages.txt,sha256=LiwBGNj6i1fm4yUm-yky6C1lCDbhjwIjxIXSZbkEQHY,15
+z3c.recipe.mkdir-1.1.dist-info/top_level.txt,sha256=4IdyINjld7m2QfMrXUzjX5iV4pLTBx0DBASmKaA1wJc,4
+z3c.recipe.mkdir-1.1.dist-info/RECORD,,
