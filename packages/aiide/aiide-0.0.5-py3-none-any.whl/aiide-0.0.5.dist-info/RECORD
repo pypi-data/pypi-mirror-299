@@ -1,0 +1,9 @@
+aiide/__init__.py,sha256=JimN28nAZNzZTERxGZBG8g8FqntxqgxhnC_0yjq65MQ,76
+aiide/_aiide.py,sha256=J4IbLKvV_jYsQc6KKJFEBWThXY3Ptw152qHTmPDR1XI,14078
+aiide/_utils.py,sha256=OwiaHEwuLr9iTHrvKouHI2QId70NKWrA72iMTjuM1ps,9750
+aiide/schema/__init__.py,sha256=lKj0yGPpcAykRB14c7vFXw-MU8Bi865qMA8IimHIJaA,27
+aiide/schema/_definitions.py,sha256=xEeELzg89c5N6w8-adoevNc1xXK3x0-5T3c73nMOKhc,8830
+aiide-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aiide-0.0.5.dist-info/METADATA,sha256=qQD9ymaatL6zW72hxb0ztxUAu5BPCeHFXt9iF41GJyo,12937
+aiide-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aiide-0.0.5.dist-info/RECORD,,
