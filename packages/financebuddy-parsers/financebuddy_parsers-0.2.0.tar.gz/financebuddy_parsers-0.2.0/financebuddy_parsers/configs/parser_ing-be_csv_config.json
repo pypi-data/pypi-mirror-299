@@ -1,0 +1,21 @@
+{
+    "format": "ing-be",
+    "extension": "csv",
+    "settings": {
+        "skip_rows": [
+            0
+        ],
+        "delimiter": ";",
+        "decimal": ",",
+        "field_map": {
+            "src_account_holder": 1,
+            "src_account_number": 0,
+            "dst_account_number": 2,
+            "date": 5,
+            "value": 6,
+            "currency": 7,
+            "description": 8
+        },
+        "date_format": "%d/%m/%Y"
+    }
+}
