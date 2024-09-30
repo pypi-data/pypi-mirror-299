@@ -1,0 +1,8 @@
+README.md
+setup.py
+my_matrix_module/__init__.py
+my_matrix_module/matrix.py
+my_matrix_module.egg-info/PKG-INFO
+my_matrix_module.egg-info/SOURCES.txt
+my_matrix_module.egg-info/dependency_links.txt
+my_matrix_module.egg-info/top_level.txt
