@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: guolei-py3-qunjielong
+Version: 2.0.4
+Summary: 群接龙 API
+Home-page: https://github.com/guolei19850528/guolei_py3_qunjielong
+Author: guolei
+Author-email: 174000902@qq.com
+License: MIT
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: guolei-py3-requests
+Requires-Dist: requests
+Requires-Dist: diskcache
+Requires-Dist: redis
+Requires-Dist: addict
+Requires-Dist: retrying
+Requires-Dist: jsonschema
+
+from lxml.parser import result
+
+# guolei-py3-qunjielong
+
+### a python3 library for qunjielong
+
+### [Document](https://console-docs.apipost.cn/preview/b4e4577f34cac87a/1b45a97352d07e60/)
+# Example
+
+```python
+import diskcache
+
+from guolei_py3_qunjielong.library.api import (
+    Api as QunjielongApi,
+    UrlSetting as QunjielongApiUrlSetting
+)
+
+qunjielong_api: QunjielongApi = QunjielongApi(
+    base_url="https://openapi.qunjielong.com/",
+    secret="<YOUR SECRET>",
+    cache_instance=diskcache.Cache()
+)
+
+result: dict = qunjielong_api.access_token().get(
+    path=QunjielongApiUrlSetting.URL__OPEN__API__GHOME__GETGHOMEINFO
+)
+
+```
