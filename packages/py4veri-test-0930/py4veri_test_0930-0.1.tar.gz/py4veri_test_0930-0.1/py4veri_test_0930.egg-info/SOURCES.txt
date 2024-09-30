@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+py4veri_test_0930.egg-info/PKG-INFO
+py4veri_test_0930.egg-info/SOURCES.txt
+py4veri_test_0930.egg-info/dependency_links.txt
+py4veri_test_0930.egg-info/top_level.txt
+pytv/Converter.py
+pytv/ModuleLoader.py
+pytv/__init__.py
+pytv/utils.py
