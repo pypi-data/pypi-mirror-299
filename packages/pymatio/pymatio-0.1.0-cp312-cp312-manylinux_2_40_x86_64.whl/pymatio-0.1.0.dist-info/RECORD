@@ -1,0 +1,11 @@
+pymatio/__init__.py,sha256=4zwo7GUOy-yvg6mYBqpOqWd8Kg7QZRUOVyGBL_V_TUU,578
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/libmatio.cpp,sha256=K-iXzc3-bPORnsbfFr4NTBYFHXb8Uad0gAzpSbPk1lU,16552
+src/libmatio.h,sha256=YXKla7TjEiEi6Y5YnhE1xFo20Mh1rGEAC1UYxk7FvHA,28631
+src/pymatio.cpp,sha256=tN4BqXvw7CDN6EIa1SxAGUJzZRXb9AFexkPI9F3grIs,12324
+src/test_matio.cpp,sha256=SVoLw7wCy4VE7qa2QWjPOgtpSxBsHvPcby9WC0lrWzI,414
+xmake.lua,sha256=idfteBvnjNAomfq3lGfDpDle6glZwBCdo8prWftb1r0,5001
+pymatio/libpymatio.cpython-312-x86_64-linux-gnu.so,sha256=1YogJJnRAmeq_lmxcrB-RamnJhfdIgqG97stAWY1rHE,1414672
+pymatio-0.1.0.dist-info/METADATA,sha256=M5cJAmj1XWQm7y5iOjs1X36hhEy8pPqacoOBJybjLnU,2532
+pymatio-0.1.0.dist-info/WHEEL,sha256=_773X23mFN8CeX7x_wf_w1C7ad_GgMOn-TQ6EXrYovQ,110
+pymatio-0.1.0.dist-info/RECORD,,
