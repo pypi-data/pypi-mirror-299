@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rolfdog2/__init__.py
+rolfdog2/jtools1.py
+rolfdog2/jtools2.py
+rolfdog2.egg-info/PKG-INFO
+rolfdog2.egg-info/SOURCES.txt
+rolfdog2.egg-info/dependency_links.txt
+rolfdog2.egg-info/requires.txt
+rolfdog2.egg-info/top_level.txt
