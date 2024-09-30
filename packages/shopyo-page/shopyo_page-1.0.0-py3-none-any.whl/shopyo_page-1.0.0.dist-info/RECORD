@@ -1,0 +1,15 @@
+shopyo_page/__init__.py,sha256=bpyeStXoLluGus5ZWKNNLeXnZgZ1sj9XZ-UmQjG7gU0,615
+shopyo_page/forms.py,sha256=CQDVmJQa5SqGr0wc4OcW4mKYMwKrz5IYPG8-HWvXlO0,952
+shopyo_page/info.json,sha256=zc7Dh3VDIyF6qZAAWg1qY9eIOgKy7QbdXg9ZczWHBWs,411
+shopyo_page/models.py,sha256=5wcXcRurGIHO0_CbYV28Db_UFMM2p8UZ_UoRYhM7r3c,2245
+shopyo_page/view.py,sha256=QqGFBDlFGn3PwhHoEQWkSzX3YCLEIOONzc-F2lBInOA,3712
+shopyo_page/templates/page/all_pages.html,sha256=LEdZ1bOxWzyqJsSKvGqJwJGt7G9xramzC9QUiJ2KruI,618
+shopyo_page/templates/page/dashboard.html,sha256=6Ry_Z0F4iUXQNLL36pdDATSK6dnyRJuftNBAftdzyX0,3670
+shopyo_page/templates/page/dashboard_edit.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shopyo_page/templates/page/view_page.html,sha256=pVJbHDkGQNAhdI9_YWL0tFzGjMZzkmEDuYcULaUWxow,334
+shopyo_page/templates/page/view_page_dashboard.html,sha256=TYpV2tOPsNzEp_SRSXjMSylL8JBM8DdHG_kyC0EnFTA,4158
+shopyo_page/templates/page/blocks/sidebar.html,sha256=YDktkePAwoSMrYrhsl1BvL3TTaMP84SZzpiaTXs68zM,160
+shopyo_page-1.0.0.dist-info/METADATA,sha256=X5PR0YuJASY239Uam9hYbZmW50MMuuWwFoVp8tFBwnE,497
+shopyo_page-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+shopyo_page-1.0.0.dist-info/top_level.txt,sha256=8N6uaYxCzpU70r6FA1E9iMqQUyvoZtun6RMvMr31cUk,12
+shopyo_page-1.0.0.dist-info/RECORD,,
