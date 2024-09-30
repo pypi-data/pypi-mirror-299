@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "pymatio"
+version = "0.1.0"
+description = ""
+authors = ["zhengmy <zhengmy@ion.ac.cn>"]
+license = "GPL"
+readme = "README.md"
+packages = [{include = "pymatio"}, {include = "xmake.lua"}, {include = "src"}]
+
+[tool.poetry.build]
+script = "build_arg.py"
+generate-setup-file = true 
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^69.0.3"
+pybind11 = "^2"
+cibuildwheel = "^2.16.2"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.cibuildwheel]
+build = ["cp39-*", "cp310-*", "cp311-*", "cp312-*"]
+archs = "auto64"
+# TODO: support x86 or i386, it seems that xmake `find python` can't find x86 python
+
+build-verbosity = 3
+build-frontend = "build"
+test-requires = "pytest"
+test-command = "pytest {project}/tests"
+
+linux.before-all = "tools/prepare_linux.bash"
