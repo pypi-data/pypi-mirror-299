@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cumulate
+Version: 0.1.0
+Summary: Placeholder package for Pypi
+License: MIT
+Author: Tejas Hosangadi
+Author-email: tejas.hosangadi@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# cumulate-pypi
+Cumulate placeholder for Pypi
+
