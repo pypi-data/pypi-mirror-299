@@ -1,0 +1,13 @@
+README.md
+setup.py
+parsel_tongue/__init__.py
+parsel_tongue/evaluator.py
+parsel_tongue/exceptions.py
+parsel_tongue/lexer.py
+parsel_tongue/main.py
+parsel_tongue/parser.py
+viper_script.egg-info/PKG-INFO
+viper_script.egg-info/SOURCES.txt
+viper_script.egg-info/dependency_links.txt
+viper_script.egg-info/entry_points.txt
+viper_script.egg-info/top_level.txt
