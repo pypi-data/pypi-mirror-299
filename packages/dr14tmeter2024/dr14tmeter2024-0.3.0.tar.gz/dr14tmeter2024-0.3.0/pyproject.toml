@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dr14tmeter2024"
+description = "Cloned from https://github.com/simon-r/dr14_t.meter"
+authors = ["Simone Riva"]
+license = "MIT"
+readme = "README.md"
+version = "0.3.0"
+repository = "https://gitlab.com/francispotter/dr14_tmeter"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+numpy = "^2.1.1"
+mutagen = "^1.47.0"
+
+[tool.poetry.scripts]
+dr14tmeter = "dr14tmeter:dr14_tmeter.main"
