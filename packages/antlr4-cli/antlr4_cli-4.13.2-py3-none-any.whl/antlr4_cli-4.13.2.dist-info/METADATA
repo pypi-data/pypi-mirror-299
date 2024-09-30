@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: antlr4-cli
+Version: 4.13.2
+Home-page: http://github/twiinit/antlr4-cli.git
+Author: twiinIT
+License: BSD 3-clause
+Keywords: twiinit,antlr4
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# `ANTLR4-CLI`
+
+This project provides a drop-in replacement for `antlr4-tools`.
+
+Instead of querying for updates, requiring internet access for first usage
+or slowering the CLI when reaching timeout, this version of the CLI embed 
+the jar file matching the project version by downloading it at install time.
