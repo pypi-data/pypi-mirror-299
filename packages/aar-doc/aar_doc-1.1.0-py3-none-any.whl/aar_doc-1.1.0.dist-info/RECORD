@@ -1,0 +1,8 @@
+aar_doc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aar_doc/cli.py,sha256=5QLu-JfOYQM83ncLo33IhRE-WbV_fN6E7lIDJO-b6K4,13120
+aar_doc/templates/markdown.j2,sha256=jdbWEbu0VE9lK-BOFtuYkOmtRQ7RfzzEmaFWBo21sm0,3235
+aar_doc-1.1.0.dist-info/LICENSE,sha256=gtYXAJ8PRYiKKlwWDjXxByUq-4qckKptvp6bcKO7GLg,1108
+aar_doc-1.1.0.dist-info/METADATA,sha256=Ufn01du1DErwnprLbDtSCAro_Obw6nuYJeETvlRnoJo,8217
+aar_doc-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+aar_doc-1.1.0.dist-info/entry_points.txt,sha256=V8z45yzqTBJWbyXLeleGwrNHom8XqTspF-QE5juiCjk,43
+aar_doc-1.1.0.dist-info/RECORD,,
