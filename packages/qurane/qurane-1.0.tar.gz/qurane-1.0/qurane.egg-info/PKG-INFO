@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: qurane
+Version: 1.0
+Summary: A modern and advanced Quran library for Arabic text and Tafsir
+Home-page: 
+Author: Khattab_Aluqba
+Author-email: exmidleg@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Qurane
+
+`qurane` is a modern and advanced Python library designed to work with the Arabic text of the Quran and its Tafsir (exegesis).
+
+## Features
+
+- Access Quran verses in Arabic.
+- Get Tafsir for each verse.
+- Search through Quranic text.
+
+## Installation
+
+Install the package using pip:
+
+```bash
+pip install qurane
