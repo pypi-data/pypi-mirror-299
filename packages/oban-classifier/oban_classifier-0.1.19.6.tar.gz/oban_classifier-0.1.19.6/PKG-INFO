@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: oban_classifier
+Version: 0.1.19.6
+Summary: OBAN Classifier: A Skorch-based flexible neural network for binary and multiclass classification
+Author: Dr. Volkan OBAN
+Author-email: volkanobn@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: scikit-learn
+Requires-Dist: skorch
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: lime
+
+# OBAN Classifier
+
+**Oban Classifier** is a flexible neural network-based classifier built on top of PyTorch and Skorch. It supports both binary and multiclass classification, and allows users to define parameters such as the number of units, activation function, dropout rate, and more.
+
+## Features
+
+- Supports **binary and multiclass classification**.
+- Allows **user-defined parameters** for hidden units, activation functions, dropout, and more.
+- Built using **Skorch** and **PyTorch** for easy integration with scikit-learn pipelines.
+- Provides detailed **performance metrics** including accuracy, precision, recall, F1-score, and confusion matrix.
+
+## Installation
+
+You can install the library via pip after publishing it on PyPI:
+
+```bash
+pip install oban_classifier
+
+
+### Usage Example
+
+```python
+
+from oban import oban_classifier, post_classification_analysis, plot_lime_importance
+from sklearn.datasets import load_breast_cancer
+from sklearn.preprocessing import StandardScaler
+import pandas as pd
+
+
+# Load the Breast Cancer dataset
+
+data = load_breast_cancer()
+
+X = pd.DataFrame(data.data, columns=data.feature_names)
+
+y = pd.Series(data.target)
+
+# Train and evaluate the model
+
+netv, X_test, y_test = oban_classifier(X, y, num_units=64, max_epochs=50, lr=0.001)
+
+
+# Convert X_test to DataFrame with feature names
+
+X_test_df = pd.DataFrame(X_test, columns=X.columns)
+
+# Predict probabilities
+
+# Ensure that X_test_df is passed as a NumPy array
+
+y_proba = netv.predict_proba(X_test_df.to_numpy())
+
+
+# Perform post-classification analysis
+
+post_classification_analysis(X_test_df, y_test, y_proba, threshold=0.5)
+
+# Explain predictions using LIME with correct feature names
+
+plot_lime_importance(netv, X_test_df, y_test, feature_names=X.columns)
+
+# Assume this is a new data point (must have the same number of features as the original training data)
+
+new_data = pd.DataFrame([[15.0, 20.0, 85.0, 60.0, 0.5, 1.5, 3.0, 0.02, 0.2, 0.3,
+                          0.1, 25.0, 50.0, 150.0, 100.0, 0.1, 0.5, 2.5, 0.01, 0.1,
+                          15.0, 20.0, 85.0, 60.0, 0.5, 1.5, 3.0, 0.02, 0.2, 0.3]], 
+                        columns=X.columns)
+
+# Normalize the new data using the same scaler as before
+
+scaler = StandardScaler()
+scaler.fit(X)  # Make sure to fit the scaler using the original training data
+new_data_scaled = scaler.transform(new_data)
+
+# Predict the class for the new data
+
+predicted_class = netv.predict(new_data_scaled)
+print(f"Predicted class: {predicted_class}")
+
+# If you want to predict probabilities
+
+predicted_probabilities = netv.predict_proba(new_data_scaled)
+print(f"Predicted probabilities: {predicted_probabilities}")
+
+
+
