@@ -1,0 +1,10 @@
+patent_stil/__init__.py,sha256=X7sf7aar3mIlXBWK02XIeLP6sr0zxT97nKoy6kqYKbo,591
+patent_stil/fpo_patent.py,sha256=4eU0DeBoXoDZJ2Hj1nIuFsQ53S22RLPj41thg0TBRcw,9508
+patent_stil/google_patent.py,sha256=gHW7L4f5DvboRdaC4v5ptLZULFt3I8t7kDKJIrDPzvQ,2434
+patent_stil/google_patent_async.py,sha256=HuFHCMwPGZn8uopihgsFhHFXWgcKJPFG7_yJkEafyVY,2560
+patent_stil/google_patent_common.py,sha256=Nn51N7zlVDPTnwE_YJ6LuD4y9msrgXh6OzbpDWPJMtc,13306
+patent_stil/utils.py,sha256=ziIUcH6Vkg9G-a1HQIWAd2osXaQPzhNiDQbjenrPpHw,805
+patent_stil-0.1.12.dist-info/LICENSE,sha256=Y1v4R6Yw8MZLOcMI7U4pSazFbeb1Jgap1u3CdeLB_CI,1099
+patent_stil-0.1.12.dist-info/METADATA,sha256=5srytGe_V_1A_32fnbPWsoeavlEbVFEwehnxi-AKJx8,215210
+patent_stil-0.1.12.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+patent_stil-0.1.12.dist-info/RECORD,,
