@@ -1,0 +1,6 @@
+README.md
+setup.py
+simple_star_patterns.egg-info/PKG-INFO
+simple_star_patterns.egg-info/SOURCES.txt
+simple_star_patterns.egg-info/dependency_links.txt
+simple_star_patterns.egg-info/top_level.txt
