@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: minijson
+Version: 3.1.1
+Summary: A library for serializing JSON in a small binary format
+Home-page: https://git.dms-serwis.com.pl/smokserwis/minijson
+Author: Piotr Maślanka
+Author-email: pmaslanka@smok.co
+License: UNKNOWN
+Project-URL: Documentation, https://smokserwis.docs.smok.co/minijson
+Project-URL: Code, https://git.dms-serwis.com.pl/smokserwis/minijson
+Project-URL: Issue tracker, https://git.dms-serwis.com.pl/smokserwis/minijson/-/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: !=2.7.*,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,!=3.7.*
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+
+MiniJSON
+========
+
+MiniJSON is a codec for a compact binary representation of a superset of JSON
+(binary values) are supported.
+
+Documentation is available [here](https://smokserwis.docs.smok.co/minijson/),
+along with the MiniJSON format specification.
+
+Note
+----
+
+Active development of **minijson** is moved to this fork.
+[Dronehub](https://github.com/Dronehub) has no interest in further
+developing this awesome technology.
+
+Installation
+------------
+
+You should be able to install it from our own PyPI:
+
+```bash
+pip install --extra-index-url https://git.dms-serwis.com.pl/api/v4/projects/284/packages/pypi/simple minijson
+```
+
+There should be plenty of binaries available for multiple platforms. If you'd
+like a new one, just file an issue
+If there are no binary wheels precompiled for this platform, you will need to
+compile it yourself.
+Alternatively, you can
+[file an issue](https://git.dms-serwis.com.pl/smokserwis/minijson/-/issues)
+and I'll do my best to compile a wheel for you.
+
+Compiling own wheels
+--------------------
+
+If there's no wheel, and you'd like to compile it on your own, you'll
+require [Cython](https://cython.org/) installed.
+
+
