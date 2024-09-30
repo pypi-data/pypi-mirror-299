@@ -1,0 +1,10 @@
+llama_token_counter/__init__.py,sha256=JaMV7X4ANNq28Y6_gGkClYhPELPuSbr6KwaYj-BJiSo,71
+llama_token_counter/counter.py,sha256=CBsCVq-5ZC2oRFZVoqUMWMp9oXhj98scqotGno5PDa0,7279
+llama_token_counter/download_tokenizer_files.py,sha256=liJF6PV2r0G8tGiN2F0Uz4_rkUtjatXkCwc3rCB9ZFQ,1799
+llama_token_counter/tokenizer/tokenizer.json,sha256=u-s6xlbOMVmbUZK4RCq38Tolzw1y_egs0B8XiVtQyjc,9085825
+llama_token_counter/tokenizer/tokenizer_config.json,sha256=2s9UXPZ4xcKbZSFgtZ8d-WjvyFIBddTN4Ox5KkOa54o,50701
+llama3.2_token_counter-0.1.0.dist-info/LICENSE,sha256=4wIbmlCgKj8QXHMYsJ_OV4JNVEbuIgNUApZLGuGPrjE,1080
+llama3.2_token_counter-0.1.0.dist-info/METADATA,sha256=fnSlmqqmo72j3AKBNOQkPC7ZNi9HyT_W5BCY7aoo5II,3836
+llama3.2_token_counter-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+llama3.2_token_counter-0.1.0.dist-info/top_level.txt,sha256=GuJN75lvyGTYRylzh_WbeOZig40oVi-eUK-XVjyGOAU,20
+llama3.2_token_counter-0.1.0.dist-info/RECORD,,
