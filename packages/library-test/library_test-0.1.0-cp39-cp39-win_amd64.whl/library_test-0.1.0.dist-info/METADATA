@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: library_test
+Version: 0.1.0
+Summary: Mô tả thư viện của bạn
+Home-page: https://github.com/username/library_test
+Author: Tên của bạn
+Author-email: email@cuaban.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
