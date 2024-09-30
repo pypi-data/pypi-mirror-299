@@ -1,0 +1,12 @@
+[project]
+name = "parzen-windows"
+version = "0.0.4"
+authors = [
+  { name="Ian Meyer", email="imeyer@unomaha.edu" },
+]
+description = "Making pdf estimates as seamless as possible"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/imeyer2/parzen-windows"
