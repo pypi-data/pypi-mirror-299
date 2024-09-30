@@ -1,0 +1,13 @@
+snakehouse/__init__.py,sha256=f9xuicNmXE9cABVpVHLn41Mn2AkHCg7XljqErGiNES0,263
+snakehouse/bootstrap.py,sha256=YqYGloMw4DNvHRFDSLpENvJyquE-PdQfyLoiNwRgpyY,2405
+snakehouse/build.py,sha256=KuKkuPKAbau6l26U9W6fbJhCtFzxIEC86LWB4TuAluQ,1334
+snakehouse/faster_builds.py,sha256=eyVIb3FijMiFA23420pePnVo6cdO7Wzbe_iRqHBxE34,1957
+snakehouse/multibuild.py,sha256=M17j-B_X0KotfbD2_O6QqHAbbx5AuMkQwCUT--rFEH8,11130
+snakehouse/requirements.py,sha256=Y-G72ljy6J_Vx4tSgiGvNn_zS6zeWTEFFGNwHySmrCc,3429
+snakehouse/satella.py,sha256=AXpMSviB2MBTJE2Cq-Hafk0PfttP6BYfbDIbq8h9IDU,3887
+snakehouse/templating.py,sha256=mkKfgLWHQhCiGfseomDphEE2ODAk-Aoi1cDzDM-D_Dc,911
+snakehouse-2.3.dist-info/LICENSE,sha256=TYdYzqyU8iXxmCVD9TqHif9JVqy8V2EpUOG4TJRiXng,1099
+snakehouse-2.3.dist-info/METADATA,sha256=tCekvbgpd7C5M7SZsTltbqqmYiRfjlVyF9ppwkyMxKg,3395
+snakehouse-2.3.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+snakehouse-2.3.dist-info/top_level.txt,sha256=JMhPnZNsZfmgFKwVTBwnhMrq5LTE63QghPgdpLSByk4,11
+snakehouse-2.3.dist-info/RECORD,,
