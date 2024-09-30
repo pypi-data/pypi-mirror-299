@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mdforge
+Version: 0.1.0
+Summary: Synthesize Markdown files in a Pythonic way
+Home-page: https://github.com/mm21/mdforge
+Author: mm21
+Author-email: mm21.dev@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: pyrollup (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# MDForge
+
+Synthesize Markdown files in a Pythonic way.
+
+[![PyPI](https://img.shields.io/pypi/v/mdforge?color=%2334D058&label=pypi%20package)](https://pypi.org/project/mdforge)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Work in progress.
+
