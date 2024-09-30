@@ -1,0 +1,6 @@
+setup.py
+bald_jonga.egg-info/PKG-INFO
+bald_jonga.egg-info/SOURCES.txt
+bald_jonga.egg-info/dependency_links.txt
+bald_jonga.egg-info/top_level.txt
+jonga/__init__.py
