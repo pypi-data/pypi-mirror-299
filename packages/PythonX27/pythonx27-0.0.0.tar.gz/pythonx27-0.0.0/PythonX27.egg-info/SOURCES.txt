@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+PythonX27/__init__.py
+PythonX27/installpip.py
+PythonX27/update.py
+PythonX27.egg-info/PKG-INFO
+PythonX27.egg-info/SOURCES.txt
+PythonX27.egg-info/dependency_links.txt
+PythonX27.egg-info/top_level.txt
