@@ -1,0 +1,11 @@
+sagemath_mcqd-10.5b6.dist-info/METADATA,sha256=B16q-Xm2mfSV4hRgPrJpe2wH3CUWrXkoqSDdicolq_g,2491
+sagemath_mcqd-10.5b6.dist-info/RECORD,,
+sagemath_mcqd-10.5b6.dist-info/WHEEL,sha256=uDH-7XD8h12s5cCYJoxFcPa5MXIZbxDlkXPqQ1R3ilc,153
+sagemath_mcqd-10.5b6.dist-info/top_level.txt,sha256=hibFyzQHiLOMK68qL1OWsNKaXOmSXqZjeLTBem6Yy7I,5
+sage/all__sagemath_mcqd.py,sha256=JfNdiXZ8w_OvTD5zRNmHqB7TlKoFuYo0NA9VBP30zdA,43
+sage/cython_debug/cython_debug_info_sage.graphs.mcqd,sha256=MvE9LJ-KhMzYbp0YQMr9HL2KX-_HBvicDOuGWXU6p58,24958
+sage/cython_debug/interpreter,sha256=dF14WPBauReFPcX3ePZIJ38g8HRe-_DHqCoeZjMBWOs,34
+sage/graphs/mcqd.pxd,sha256=Nt-y-spw3laVaRSR0syBgMRg1tAxbgVEcLnoD02inFg,228
+sage/graphs/mcqd.cpython-311-aarch64-linux-gnu.so,sha256=zmqpDkP1wPPRN15XIfwEGNNuv8dOLn-Cd7i52dk9gHY,404496
+sage/graphs/mcqd.pyx,sha256=U17DaXeeFezGUfzHsF9gjdaMVyWbskgiOLgnqfiki-k,1677
+sage/graphs/all__sagemath_mcqd.py,sha256=JfNdiXZ8w_OvTD5zRNmHqB7TlKoFuYo0NA9VBP30zdA,43
