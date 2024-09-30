@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "smooth-knn"
+version = "0.0.2"
+dependencies = [
+  "scikit-learn",
+]
+authors = [
+  { name="Marek Michalik", email="marekmichalik43@gmail.com" },
+]
+description = "Smooth k-nearest neighbors classifier"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/marekm4/smooth-knn"
+Issues = "https://github.com/marekm4/smooth-knn/issues"
