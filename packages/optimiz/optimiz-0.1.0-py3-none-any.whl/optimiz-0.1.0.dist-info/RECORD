@@ -1,0 +1,9 @@
+optimiz/__init__.py,sha256=2SYun16LILuo1DiB-GJX4NkdRj2j95d9jzkjwxfsw8Q,43
+optimiz/gradient_descent.py,sha256=k02kc44aEGDcAOT-akBsuPfywKNT1fIcwCPQgsxXwp0,1038
+optimiz/linear_model.py,sha256=Emhs4GrsXBNWGhleHa0cgngbmEUsbAUAl2-CYwG5jjI,895
+optimiz/logger.py,sha256=RouykjXd1KA0RLfLWsABpigEQ9TNEoMSpjz5ShB7MAY,414
+optimiz/optimizer.py,sha256=mO2Oo3f8nZJlUjSNR8R5Q410JFIwkUeerGWSGfTdgfE,341
+optimiz-0.1.0.dist-info/METADATA,sha256=UeGKYRyTJNQOWPRPzVy4OTRa4E9hOvB-7PD2A_-k0W8,557
+optimiz-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+optimiz-0.1.0.dist-info/top_level.txt,sha256=rjxn4p5wi4-pls_BvBkYiHkTrFD3-ZoGj5YJfw_rqgw,8
+optimiz-0.1.0.dist-info/RECORD,,
