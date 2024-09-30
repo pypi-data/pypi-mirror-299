@@ -1,0 +1,2 @@
+include HintlyDataAnalisys/matchmaker.json
+include HintlyDataAnalisys/plugins/*
