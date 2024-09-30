@@ -1,0 +1,8 @@
+limeprompt/__init__.py,sha256=L468PEiwo69oUtNV4tcjjfEcdsd83lndVyAP7byv3_k,413
+limeprompt/core.py,sha256=x0z4AR6o0xTOfET-O9m4Nm-JyTFf3hc-1pA802vAm-U,6366
+limeprompt/exceptions.py,sha256=bRg_gABXkmSfi-pCm5E1Gr_iMtLS46OL9R6aLMNWLLE,447
+limeprompt/types.py,sha256=Qmsu1IHHL8_KLxp3nJdsz_iCwoZCBUST6lsc6j6zw3U,598
+limeprompt/utils.py,sha256=VNTDpZ2tKoeEVpAo90Ny9s0_0jcBeOHhOWSHhPpd3II,2454
+limeprompt-0.2.0.dist-info/METADATA,sha256=dkZ0yWJbE97d8PSgY4ps0zfBepfariVVkA8u2yq3FpI,3713
+limeprompt-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+limeprompt-0.2.0.dist-info/RECORD,,
