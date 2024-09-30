@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "script-grabber"
+version = "0.1.4"
+description = "A job queue management system for distributed computing."
+authors = ["Meir Michanie <meirm@riunx.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "script_grabber", from = "src"}]
+
+[tool.poetry.scripts]
+# Register grabber.py as a CLI entry point
+grabber = "script_grabber.grabber:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+# You can add your development dependencies here, such as:
+pytest = "^7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
