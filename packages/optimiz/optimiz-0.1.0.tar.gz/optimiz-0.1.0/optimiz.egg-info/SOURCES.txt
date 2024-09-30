@@ -1,0 +1,12 @@
+README.md
+setup.py
+optimiz/__init__.py
+optimiz/gradient_descent.py
+optimiz/linear_model.py
+optimiz/logger.py
+optimiz/optimizer.py
+optimiz.egg-info/PKG-INFO
+optimiz.egg-info/SOURCES.txt
+optimiz.egg-info/dependency_links.txt
+optimiz.egg-info/requires.txt
+optimiz.egg-info/top_level.txt
