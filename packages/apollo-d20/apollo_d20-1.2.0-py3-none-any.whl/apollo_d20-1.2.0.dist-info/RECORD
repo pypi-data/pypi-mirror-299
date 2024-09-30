@@ -1,0 +1,14 @@
+d20/__init__.py,sha256=E6W_DXr-gYcjtUhc350z4hHxVCsDZHb8RIg1bykkarc,275
+d20/__main__.py,sha256=m0z5X6Y2poB_8s58i4UsmaBxpd1k4N62aaBT5OoZz4U,115
+d20/dice.py,sha256=msKLvav5QAO376tZvzzzr5CzW0U9jGUxQV5j7FM6EGQ,9656
+d20/diceast.py,sha256=KScqpRUSqsbTSjHZJytapgJMNdUjZ7meB2gYStTohkw,11719
+d20/errors.py,sha256=LAtQUIhfAyeiy_3-JO9ah3OfyMPO3VHy4nbjnIYLbwE,909
+d20/expression.py,sha256=8whCJuV0GSCkVjvC6W0vpSZIN9OyoByX4qzo0Z-fLTk,18457
+d20/grammar.lark,sha256=2VAkU0hXRVd0vKmGKvGJ9vrVZZbsWh4yqoZR7qpjZrQ,1333
+d20/rand.py,sha256=NNqAZez5Wp-ivbFrKchCUAfK0VHD_-WI63fCSt9IshE,3581
+d20/stringifiers.py,sha256=Gxqdbf-K_TY2IVWeK44z9Y4P0iZ_CQh7AHr8HK9s91I,5761
+d20/utils.py,sha256=UYVuU42JQyUw0w6xonwp-r6Ao0O2MX9IlfnxRL74-FE,7686
+apollo_d20-1.2.0.dist-info/METADATA,sha256=BwZjtbf5V4isxMabaiB47wHQfBuwtqpb3ikcq_sn8Ig,14161
+apollo_d20-1.2.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+apollo_d20-1.2.0.dist-info/licenses/LICENSE,sha256=C6i6kwmTlCsHkZ9F3Yo5zQvcQqx2MM-SMs4fcWdwgk4,1099
+apollo_d20-1.2.0.dist-info/RECORD,,
