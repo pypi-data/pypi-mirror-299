@@ -1,0 +1,10 @@
+taskiq_dependencies/__init__.py,sha256=woIHKq-kf-oQFQOEjxruPC9MBUzOY92aY2rX96G25cA,387
+taskiq_dependencies/ctx.py,sha256=toMbHcDsJROjmkjctquLoGdwmW9o2YPcS2qF-2VhxFs,14049
+taskiq_dependencies/dependency.py,sha256=wpk5eAN4llNhTfxxqBbDvbV81NNPb8q9_ut_cbvRxXY,3681
+taskiq_dependencies/graph.py,sha256=YC7c1eZaCiK26hV-MZfz6kBFKWZTTLNlay8RbaWyGmI,11756
+taskiq_dependencies/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskiq_dependencies/utils.py,sha256=AcmKSlGmmtdat_cJAmf9UvWmz9nnWTVOQtNlv9SVIhM,1634
+taskiq_dependencies-1.5.4.dist-info/LICENSE,sha256=X9KLeAJeme5wGS3HkyMPAMCysMZ4yXp-LU2V2st6bW8,1070
+taskiq_dependencies-1.5.4.dist-info/METADATA,sha256=OvTYQvnwBEgLx2EjUTaGffOXZhFoI096lkbOw4JEnuk,9969
+taskiq_dependencies-1.5.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+taskiq_dependencies-1.5.4.dist-info/RECORD,,
