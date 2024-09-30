@@ -1,0 +1,40 @@
+Metadata-Version: 2.3
+Name: xux
+Version: 0.0.1
+Summary: A Privacy Enhancing Toolkit.
+Project-URL: Homepage, https://github.com/sokrato
+Project-URL: Documentation, https://docs.djangoproject.com/
+Project-URL: Release notes, https://docs.djangoproject.com/en/stable/releases/
+Project-URL: Funding, https://www.djangoproject.com/fundraising/
+Project-URL: Source, https://github.com/django/django
+Project-URL: Tracker, https://code.djangoproject.com/
+Author-email: Xu Xiang <sokrato@qq.com>
+License: MIT License
+License-File: LICENSE.txt
+Keywords: cryptography,privacy,toolkit
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Requires-Dist: cryptography
+Provides-Extra: cli
+Requires-Dist: click; extra == 'cli'
+Requires-Dist: rich; extra == 'cli'
+Provides-Extra: gui
+Requires-Dist: pyside6; extra == 'gui'
+Description-Content-Type: text/markdown
+
+# file-cryptor
+File cryptor helps encrypt and decrypt files. So we may protect our privacy from peeping eyes like cloud storage providers.
+
+TODO:
+
+- Text encryption / decryption.
+- Password generation, like https://oneshallpass.com/

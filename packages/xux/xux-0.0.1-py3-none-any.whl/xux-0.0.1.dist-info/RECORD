@@ -1,0 +1,9 @@
+hide/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+hide/cli.py,sha256=_XRnY9MHlup8vLqyvkv5rZTKRMLMbotJfC1XwSFwLsI,2635
+hide/crypt.py,sha256=aEt_BRssSJnTmhPyT5FoRV2c3kRjWB5Panl6kfSGDdY,6346
+hide/gui.py,sha256=Bp4HkaVl7r7viEF7oIZPujgEE2pFg9jcd8hWlAMPiQ8,61
+xux-0.0.1.dist-info/METADATA,sha256=5qa7LxNQeDmaDjiSYlGUPyuehXMNeAqr4eX4Y0GKN_Y,1534
+xux-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+xux-0.0.1.dist-info/entry_points.txt,sha256=JCqY4obgHJa3KBVFkztIJv-S8eXbO3cM13PYzj4XJjQ,79
+xux-0.0.1.dist-info/licenses/LICENSE.txt,sha256=ZVYy22JmfBWK8cu3SxWntxrxHQeSw83N1ct3QRFzRak,1063
+xux-0.0.1.dist-info/RECORD,,
