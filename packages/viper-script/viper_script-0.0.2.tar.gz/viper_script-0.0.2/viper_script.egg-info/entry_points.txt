@@ -1,0 +1,2 @@
+[console_scripts]
+parsel_tongue = parsel_tongue.main:main
