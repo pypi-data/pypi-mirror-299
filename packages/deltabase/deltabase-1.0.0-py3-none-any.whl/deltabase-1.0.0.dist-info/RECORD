@@ -1,0 +1,10 @@
+deltabase/__init__.py,sha256=xYEysigL4g0SGDAzjhlbZoy9HQE9CIMRF506UDy8O58,14921
+deltabase/magic.py,sha256=KWmi-WS7b0qjXImEe-GTemCBQn19P-laCLd90hXyzdI,3443
+deltabase/plugins/__init__.py,sha256=6kKB8P6crf1hqf_fcle5l_JgaSM_OxgyIq0h4jd7nIA,1162
+deltabase/plugins/base.py,sha256=hGWEBWybJY4Tgrgh7G-fXHua0H31lHc5oO4Ylm4rsLs,872
+deltabase/plugins/bigquery.py,sha256=CP4sWTE2jBgRt_792x9mQG1L92EGjoXUjzsTgBo5FmE,1906
+deltabase/plugins/salesforce.py,sha256=0jtP_IqyXmx2Beh2UJk2V2HJ9SPwTVJ6iodH3O4Uwec,3419
+deltabase-1.0.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+deltabase-1.0.0.dist-info/METADATA,sha256=Xls4VMFAcO_GVueK6r0IUp4enP9u4loIhK3pxpBEBpM,6250
+deltabase-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+deltabase-1.0.0.dist-info/RECORD,,
