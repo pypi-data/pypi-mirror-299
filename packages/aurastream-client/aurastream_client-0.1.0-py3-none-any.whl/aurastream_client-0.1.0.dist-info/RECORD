@@ -1,0 +1,10 @@
+aurastream_client/__init__.py,sha256=gTOqX5VpD1IpwdV0Vun5VDyBaBL9ra55ESyfqgEfRd4,94
+aurastream_client/api.py,sha256=Q3SRmvej9T2MhmJwqo_y4cG43tHCqtGlzqUux-vZ_TM,1342
+aurastream_client/config.py,sha256=ZWh5a571aZRqq3ZkF2gB1A7Nutx4HObEFteT6ZlL04c,359
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=F4IVJzQG6y8rVXtq1bn-oTx3LwxGOLX8IrpS8xH_Mm8,692
+aurastream_client-0.1.0.dist-info/LICENSE.md,sha256=mnZF_-jLkVnSCB9OrIMQzI53DPy1sjCoNQupTGq27J4,1087
+aurastream_client-0.1.0.dist-info/METADATA,sha256=lt6Ruq27dPvTl4CdF6k4lKzHE2tDebB1ZTe4vSzRrFQ,3257
+aurastream_client-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aurastream_client-0.1.0.dist-info/top_level.txt,sha256=h1m_8XaKNN8y2G_dRIs6UaGnzGJZ8D5zbL-nE7Jyfms,24
+aurastream_client-0.1.0.dist-info/RECORD,,
