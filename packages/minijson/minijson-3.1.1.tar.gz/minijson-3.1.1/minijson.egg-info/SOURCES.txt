@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+minijson.c
+minijson.pyx
+setup.cfg
+setup.py
+minijson.egg-info/PKG-INFO
+minijson.egg-info/SOURCES.txt
+minijson.egg-info/dependency_links.txt
+minijson.egg-info/top_level.txt
