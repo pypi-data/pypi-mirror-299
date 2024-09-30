@@ -1,0 +1,8 @@
+base64c/__init__.py,sha256=M2bm9Ga9TSSfP5zTn2RQQQCAu9AsBwX68OzX_hhpsJ8,243
+base64c/base64c.c,sha256=RzEhnhXTX0qfSorr4X76TpT1tbKWXM6E_nTXSr3pUlw,6468
+base64c/base64c.h,sha256=KkRYukbcVVitszpsp6HpPQC5UrFHh7q4fOZ-f8kssME,1047
+base64c/base64c.pyi,sha256=9dR1o1x3152fByLU8T8bChfgMw1ZRApeXxCKHVDW1Oo,553
+base64c-0.0.5.dist-info/LICENSE,sha256=lkDQiibrc6fExq_nVI493RvMTvjheOPCQZtAAIRuJaM,1072
+base64c-0.0.5.dist-info/METADATA,sha256=-KAU44rrfD_C_6Q5ZSeNzdJgslFkxEAnzBX03CHLWbw,1109
+base64c-0.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+base64c-0.0.5.dist-info/RECORD,,
