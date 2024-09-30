@@ -1,0 +1,8 @@
+Metadata-Version: 2.3
+Name: rocker-cli
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Simple Rust Implementation of Docker CLI.
+Requires-Python: >=3.8

@@ -1,0 +1,6 @@
+rocker_cli-0.0.1.dist-info/METADATA,sha256=ahreXfL5DIJNkmI6gcmIoNC3MlPljP9U3RACyUU0k-s,310
+rocker_cli-0.0.1.dist-info/WHEEL,sha256=H6FMOgsU31Mg4uoDWz7A5Oms3DEeY8xk_JfZg42yqzs,105
+rocker_cli-0.0.1.data/scripts/rocker,sha256=lrTOWZY1NNSQKD2Rc9LwHETeadDQeZhpCUxvrvyPahI,8025912
+rocker-cli.libs/libssl-57118d4e.so.3,sha256=VC3hDCMSNeoO5P7q4EwhIGXNWlzhThcW8dFIFoldeRs,721752
+rocker-cli.libs/libcrypto-b24afd48.so.3,sha256=MFDA1IYJqGK6KSIgeaYOrVlH58lBViFaYT_tD-yRQQc,4611144
+rocker_cli-0.0.1.dist-info/RECORD,,
