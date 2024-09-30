@@ -1,0 +1,13 @@
+src/lastfmcollagegenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/lastfmcollagegenerator/collage.py,sha256=Ri_I7ONTGi9OMcumB_a2X-yXVUV_TZp9XmqS2HagUg0,10295
+src/lastfmcollagegenerator/collage_generator.py,sha256=RiIN-UQBALmjzvc-tBTpqIbkRQ-83wFP-_TM7BOJj-U,2375
+src/lastfmcollagegenerator/constants.py,sha256=C2gVg8mrg6edpDCqSr8d0FYC_ad_TQLTG7nVPa9C9e0,390
+src/lastfmcollagegenerator/exceptions.py,sha256=IzuxbMuHWq20ns9WUh5M2Cx9jPh7OauKwZB7URukIhY,144
+src/lastfmcollagegenerator/fonts/DejaVuSansMono-Bold.ttf,sha256=2bT2EWA1_CUEZkfl_qhTICHwHE-JuyVF0Kbcbh6ehl0,331992
+src/lastfmcollagegenerator/fonts/DejaVuSansMono.ttf,sha256=JidlZQPY0KhZxd3LCW09UQ00x3bYjpTDlx3BFL2Iyns,340712
+src/lastfmcollagegenerator/lastfm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/lastfmcollagegenerator/lastfm/client.py,sha256=GLkkDX-QX1O3dLZKyIZZsM5PWDAGRHy1_Y9DExNaBTI,1587
+lastfmcollagegenerator-0.4.5.dist-info/LICENSE,sha256=FsUbLJFIqVslAHJg3AoweKnesFSxcSQJlS87PPPYoUU,1053
+lastfmcollagegenerator-0.4.5.dist-info/METADATA,sha256=WIYcYuvgsu_06aY-qv-_PkqdeKv5GEBKzc-jote1l58,2597
+lastfmcollagegenerator-0.4.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+lastfmcollagegenerator-0.4.5.dist-info/RECORD,,
