@@ -1,0 +1,17 @@
+open_image_models/__init__.py,sha256=v9_mlEWXNXZeQSAAT6dbqz5pERqJZSWYDFdph00A0LY,156
+open_image_models/detection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_image_models/detection/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_image_models/detection/core/base.py,sha256=LryVIBmL3PxxtUZ4RX5-sOss5nc_vd9l0IUW83rapXQ,1521
+open_image_models/detection/core/hub.py,sha256=CXRbS-kfwin9WW_CreLUiLXFLDEWUXd-GhkCZkpQsJs,3652
+open_image_models/detection/core/yolo_v9/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_image_models/detection/core/yolo_v9/inference.py,sha256=AbGTW10SNPK2UOvGhDK3ItPfs8ZUNFXlgoBYk1MGVbs,12346
+open_image_models/detection/core/yolo_v9/postprocess.py,sha256=dba4OaRwFPcdhTQvt6CTIyCSBVGYheusLJEmGz5djYA,2207
+open_image_models/detection/core/yolo_v9/preprocess.py,sha256=vZqs2hjuf53r7tYWvS77MX_Nox98icgEGsTREZfkvn4,2261
+open_image_models/detection/pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_image_models/detection/pipeline/license_plate.py,sha256=45F2OLsGg3ZeLdGiF-UUT0_1ZSU4czALTnSi6aeTff8,1783
+open_image_models/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+open_image_models/utils.py,sha256=SBllWK9mY-NyHNVXpidNsKPO__frlpYfKVELD85SFNk,2208
+open_image_models-0.1.0.dist-info/LICENSE,sha256=qVPmJoyJF5xKjwz1pJ9XvDgKYOOAeP4fY2Gg5F_QA2M,1066
+open_image_models-0.1.0.dist-info/METADATA,sha256=lvmAgpQqQhf3a_XG7yo_-m9FZHLo61BYkV9aoiMY_0g,6289
+open_image_models-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+open_image_models-0.1.0.dist-info/RECORD,,
