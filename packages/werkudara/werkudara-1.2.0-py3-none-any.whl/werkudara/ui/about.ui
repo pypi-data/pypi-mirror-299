@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About</class>
+ <widget class="QDialog" name="About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Werkudara - ABOUT</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>81</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>571</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-103</y>
+      <width>555</width>
+      <height>766</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_message">
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Automatically synchronize author and lecturer data in https://bima.kemdikbud.go.id (Unofficial).&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;SOURCE CODE (GPL3-licensed):&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/groaking/werkudara&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0986d3;&quot;&gt;https://github.com/groaking/werkudara&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;DESCRIPTION (Indonesian):&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Saat ini, data kepegawaian, penelitian, dan pengabdian masyarakat dosen perguruan tinggi di Indonesia telah terintegrasi ke dalam satu sistem terpadu, yang disebut BIMA. &lt;a href=&quot;https://bima.kemdikbud.go.id&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0986d3;&quot;&gt;BIMA&lt;/span&gt;&lt;/a&gt; merupakan akronim dari &lt;span style=&quot; font-style:italic;&quot;&gt;Basis Informasi Penelitian dan Pengabdian kepada Masyarakat&lt;/span&gt;, yang dikembangkan dan diluncurkan oleh Kemdikbudristek pada tahun 2022. Adanya sistem informasi terpadu BIMA membuat pengajuan dan pemutakhiran data penelitian serta pengabdian masyarakat menjadi lebih mudah.&lt;/p&gt;&lt;p&gt;Meskipun demikian, BIMA mempunyai suatu fitur yang belum/tidak diimplementasikan di dalam kerangka sistemnya. Di dalam sistem BIMA, operator BIMA dari masing-masing perguruan tinggi harus menyinkronisasi data kepegawaian dosen yang ada di BIMA dengan data yang terdaftar di Pangkalan Data Pendidikan Tinggi (PD-DIKTI). Tidak ada opsi dalam BIMA untuk melakukan proses sinkronisasi semua data dosen secara jamak. Selama ini, operator BIMA harus membuka halaman profil masing-masing dosen dan mengklik tombol _sinkronisasi_ secara manual, satu per satu. Hal ini tentu memakan proses yang lama, terutama pada universitas-universitas di Indonesia yang memiliki jumlah tenaga pendidik lebih dari lima ratus orang.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Werkudara&lt;/span&gt; diciptakan untuk menjadi solusi atas permasalahan sinkronisasi data dosen di BIMA. &lt;span style=&quot; font-weight:600;&quot;&gt;Werkudara&lt;/span&gt; adalah aplikasi penyinkronisasi jamak data dosen yang ditulis dalam bahasa pemrograman Python dan dibangun di atas kerangka antarmuka PyQt5. Program ini merupakan pengakses tidak resmi (artinya, tidak dibuat oleh pihak yang berafiliasi dengan Kemdikbudristek) dari API BIMA, yang memberikan penggunanya kemampuan untuk melakukan sinkronisasi sebagian atau semua data dosen di BIMA secara serentak, harus membuka profil dosen secara manual, satu per satu.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Werkudara&lt;/span&gt; merupakan aplikasi sumber terbuka yang memiliki lisensi &lt;a href=&quot;https://spdx.org/licenses/GPL-3.0-or-later.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0986d3;&quot;&gt;GNU General Public License v3.0&lt;/span&gt;&lt;/a&gt;. Artinya, siapa saja boleh mengunduh kode sumber &lt;span style=&quot; font-weight:600;&quot;&gt;Werkudara&lt;/span&gt;, memodifikasi sebagian atau seluruh program, serta mendistribusikannya baik untuk tujuan komersial ataupun non-komersial, &lt;span style=&quot; font-style:italic;&quot;&gt;selama tidak menggunakan nama program yang sama &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;dan&lt;/span&gt;&lt;span style=&quot; font-style:italic;&quot;&gt; dengan memberikan atribusi kepada penulis asli &lt;/span&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Werkudara&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Werkudara&lt;/span&gt; dibuat oleh S. Lykamanuella, mahasiswa S1 Fisika Universitas Kristen Satya Wacana (UKSW). Aplikasi ini dipersembahkan untuk Direktorat Riset dan Pengabdian Masyarakat UKSW serta seluruh universitas di Indonesia yang menggunakan sistem informasi BIMA dalam menjalankan operasional pendidikan tinggi.&lt;/p&gt;&lt;p&gt;Dengan adanya program &lt;span style=&quot; font-weight:600;&quot;&gt;Werkudara&lt;/span&gt; ini, diharapkan operator BIMA di universitas-universitas di seluruh Indonesia (tidak terbatas pada UKSW saja) dapat dipermudah dalam melakukan proses pemutakhiran data penelitian, pengabdian masyarakat, dan kepegawaian dari dosen dan peneliti pada instansi pendidikan tinggi masing-masing.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>551</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>About Werkudara</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>About</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>About</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
