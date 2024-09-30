@@ -1,0 +1,10 @@
+spec_mock/__init__.py,sha256=pFUq_Q4X2PaKozay7RAEz4es0YJLAVrvBk4UkIN2dko,47
+spec_mock/ast_traverser.py,sha256=rz5VFEAwNSpJs-wk0mILYG3cWCgZgStgv_ZGUIZTrrQ,1492
+spec_mock/get_signatures.py,sha256=GtBX5jUz5kKWohV5FTBSJmYahICW6NEw0OOnnDbkB5k,347
+spec_mock/implementation.py,sha256=eeTyrHHuaAznE1NMglXliX2y3aHDCl0n4uIeqFvt0XM,2414
+spec_mock/spec_mock.py,sha256=ronDVvL6VcqecU8KhXmrCO9A-xh_Iu40hO0aTwLR34U,1281
+spec_mock/utils.py,sha256=3o4HPZnEGe5jnSwEc7F0NbxsdMXekCWsqpEErhWUEcw,413
+spec_mock-1.0.1.dist-info/METADATA,sha256=dSIygL9LT9ZdgfqbnHq4Iq48fFGRT9frzPtpkjQjrFo,1119
+spec_mock-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+spec_mock-1.0.1.dist-info/top_level.txt,sha256=65dJ0QxkslB113Wcmq3oEX6_Vru3ltfwqTrx9r2sthk,10
+spec_mock-1.0.1.dist-info/RECORD,,
