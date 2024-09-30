@@ -1,0 +1,303 @@
+de:
+  package_label: "Netzwerk"
+  package_desc: "Netzwerkvisualisierungs- und Analysetools für Orange."
+
+  common:
+    network: "Netzwerk"
+    items: "Elemente"
+    distance: "Entfernungen"
+    data: "Daten"
+    node_data: "Knotendaten"
+    node_subset: "Knoten-Subset"
+    node_distance: "Knotenentfernungen"
+    select_sub-network: "Ausgewähltes Subnetzwerk"
+    remain_sub-network: "Verbleibendes Subnetzwerk"
+    distance_matrix: "Entfernungsmatrix"
+
+  twomode:
+    weight:
+      no_weights: "Keine Gewichte"
+      connections: "Anzahl der Verbindungen"
+      weighted_connection: "Gewichtete Anzahl der Verbindungen"
+      geo: "Geometrische Normalisierung"
+      geodeg: "Geometrische Normalisierung nach Graden"
+      input: "Normalisierung nach Summe der Eingangsgewichte"
+      output: "Normalisierung nach Summe der Ausgangsgewichte"
+      min: "Normalisierung nach minimaler Gewichtssumme"
+      max: "Normalisierung nach maximaler Gewichtssumme"
+
+  OWNxAnalysis:
+    name: "Netzwerkanalyse"
+    desc: "Statistische Analyse von Netzwerkdaten."
+    msg_compute: "Berechne {}"
+    status:
+      pend: "ausstehend"
+      run: "läuft"
+      terminate: "beendet"
+    box:
+      graph-level_index: "Graph-Level-Indizes"
+      node-level_index: "Knoten-Level-Indizes"
+    btn:
+      degree: "Grad"
+      in_degree: "Eingangsgrad"
+      out_degree: "Ausgangsgrad"
+      number_node: "Anzahl der Knoten"
+      shortest_paths: "Kürzeste Wege"
+      number_edge: "Anzahl der Kanten"
+      average_degree: "Durchschnittlicher Grad"
+      density: "Dichte"
+      diameter: "Durchmesser"
+      average_shortest_path_length: "Durchschnittliche kürzeste Weglänge"
+      radius: "Radius"
+      number_strongly_connect_component: "Anzahl der stark verbundenen Komponenten"
+      number_weakly_connect_component: "Anzahl der schwach verbundenen Komponenten"
+      average_neighbor_degree: "Durchschnittlicher Nachbargrad"
+      degree_centrality: "Gradzentralität"
+      in_degree_centrality: "Eingangsgradzentralität"
+      out_degree_centrality: "Ausgangsgradzentralität"
+      closeness_centrality: "Nähezentralität"
+
+  OWNxClustering:
+    name: "Netzwerk-Clustering"
+    desc: "BlueWhale-Widget zur Gemeinschaftserkennung in Netzwerken."
+    box:
+      label_pro: "Label-Propagation"
+    label:
+      max_iter: "Max. Iterationen: "
+      apply: "Hop-Dämpfung anwenden: "
+      replicable: "Replizierbares Clustering"
+
+  OWNxEmbeddings:
+    name: "Netzwerk-Einbettungen"
+    desc: "Netzwerkelemente einbetten"
+    btn_commit: "Übernehmen"
+    btn_auto_commit: "Automatisch übernehmen"
+    label:
+      p: "Rückkehrparameter (p): "
+      q: "In-out-Parameter (q): "
+      walk_len: "Lauflänge: "
+      num_walks: "Läufe pro Knoten: "
+      emb_size: "Einbettungsgröße: "
+      window_size: "Kontextgröße: "
+      num_epochs: "Anzahl der Epochen: "
+
+  OWNxExplorer:
+    name: "Netzwerk-Explorer"
+    desc: "Netzwerk und seine Eigenschaften visuell erkunden."
+    node_detail: "Knoten: %(number_of_nodes)i (%(nodes_per_edge).2f pro Kante); %(nSelected)i ausgewählt"
+    edge_detail: "Kanten: %(number_of_edges)i (%(edges_per_node).2f pro Knoten)"
+    label_text: "Text: "
+    label_gravity: "Schwerkraft"
+    label_gravity_tip: "Niedrigere Werte verbessern die Optimierung,\n höhere Werte funktionieren besser für Graphen mit vielen kleinen Komponenten"
+    label_observe_weights: "Kanten mit großen Gewichten kürzer machen"
+    number_hops: "Anzahl der Hops:"
+    max_connection: "Max. Verbindungen:"
+    min_connection: "Min. Verbindungen:"
+    box_layout: "Layout"
+    box_size: "Breiten und Größen"
+    mark_number: "Anzahl der markierten:"
+    gbox:
+      mark_criteria: "(Kriterien für die Markierung auswählen)"
+      mark_node_labelled_as: "Knoten markieren, die als"
+      mark_label_starts: "Knoten markieren, deren Label beginnt mit"
+      mark_label_contains: "Knoten markieren, deren Label enthält"
+      mark_text: "Knoten markieren, deren Label enthält"
+      mark_reachable: "Knoten markieren, die von der Auswahl erreichbar sind"
+      mark_close: "Knoten in der Nähe der Auswahl markieren"
+      mark_from_input: "Knoten aus Subset-Signal markieren"
+      mark_connection: "Knoten mit wenigen Verbindungen markieren"
+      mark_min_conn: "Knoten mit vielen Verbindungen markieren"
+      mark_most_connections: "Knoten mit den meisten Verbindungen markieren"
+      mark_more_than_any_neighbour: "Knoten markieren, die mehr Verbindungen als jeder Nachbar haben"
+      mark_more_than_average_neighbour: "Knoten markieren, die mehr Verbindungen als der durchschnittliche Nachbar haben"
+    checkbox:
+      random_position: "Positionen zufällig festlegen"
+      relative_edges: "Kantenbreiten zu Gewichten skalieren"
+      select_edges: "Nur Kanten der ausgewählten Knoten beschriften"
+      show_weights: "Kantengewichte anzeigen"
+    row:
+      node_size: "Knotengröße:"
+      edge_width: "Kantenbreite:"
+    msg:
+      connect_component: "Doppelklicks wählen verbundene Komponenten aus"
+      distance_matrix_mismatch: "Die Größe der Entfernungsmatrix stimmt nicht mit der Anzahl der Netzwerkknoten überein und wird ignoriert."
+      no_graph_found: "Knotendaten sind vorhanden, Graphdaten fehlen."
+      data_size_mismatch: "Die Länge der Daten stimmt nicht mit der Anzahl der Knoten überein."
+      network_too_large: "Das Netzwerk ist zu groß, um visualisiert zu werden."
+      single_node_graph: "Ich mache heute keine Einzelknoten-Graphen."
+      add_select: "Zur Auswahl hinzufügen"
+      add_group: "Zur Gruppe hinzufügen"
+    btn:
+      send_selection: "Auswahl senden"
+      send_automatically: "Automatisch senden"
+      re_layout: "Neu anordnen"
+      re_layout_tip: "Layout von zufälligen Positionen neu starten"
+      improve: "Verbessern"
+      improve_tip: "Das aktuelle Layout optimieren, mit einem kleinen Anfangsruck"
+      stop: "Stoppen"
+      select: "Auswählen"
+      select_add_marked: "Zur Auswahl hinzufügen"
+      select_as_group: "Neue Gruppe hinzufügen"
+
+  OWNxFile:
+    name: "Netzwerkdatei"
+    desc: "Netzwerkgraph-Datei lesen"
+    btn_reload: "Neu laden"
+    dialog_open_file: "Eine Netzwerkdatei öffnen"
+    browse_documentation_network: "Dokumentationsnetzwerke durchsuchen..."
+    placeholder_match: "(Nach Zeilen abgleichen)"
+    none: "(Keine)"
+    label_variable: "Knotenlabels mit Datenkolonne abgleichen: "
+    msg:
+      node_annotated_data_name: "Knoten mit Daten aus Datei mit demselben Namen annotiert"
+      add_optional_data: "Optionale Dateneingabe hinzufügen, um Knoten zu annotieren"
+      data_size_not_match_node: "Die Datenmenge stimmt nicht mit der Anzahl der Knoten überein.\n Wählen Sie eine Datenkolonne, deren Werte mit den Netzwerklabels übereinstimmen"
+      read_file_io_err: "Fehler beim Lesen der Datei '{}'\n{}"
+      read_file_parse_err: "Fehler beim Lesen der Datei '{}'"
+      read_file_data_err: "Versuch, {} zu lesen, fehlgeschlagen\n Das Widget versuchte, Knoten mit Daten aus\n einer Datei mit demselben Namen zu annotieren."
+
+  OWNxFromDistances:
+    name: "Netzwerk aus Entfernungen"
+    desc: "Erstellt ein Graph-Objekt, indem Knoten aus der Datentabelle verbunden werden, wenn die Entfernung zwischen ihnen innerhalb eines bestimmten Schwellenwerts liegt."
+    text:
+      no_data_load: "Keine Daten geladen."
+      input_data_item: "Datenpunkte im Eingang: "
+      network_nodes: "Netzwerkknoten: "
+      network_edges: "Netzwerkkanten: "
+    box:
+      info: "Info"
+      edges: "Kanten"
+      node_selection: "Knotenauswahl"
+      keep_all_nodes: "Alle Knoten behalten"
+      edge_weights: "Kantengewichte"
+    label:
+      no_data: "Keine Daten geladen."
+      distance_threshold: "Entfernungsschwelle"
+      percentile: "Perzentil"
+      include_closest_neighbors: "Nächste Nachbarn einbeziehen"
+    msg:
+      knn_large_than_supply_distance: "kNN ist größer als die angegebene Entfernungsmatrixdimension. Verwende k = {}"
+      performance_hinder: "Große Anzahl von Knoten/Kanten; Leistung wird beeinträchtigt"
+      number_data_items_nodes: "Anzahl der Datenpunkte stimmt nicht mit der Anzahl der Knoten überein"
+      edges_high: "Geschätzte Anzahl der Kanten ist zu hoch ({})"
+      too_large_network: "Das Netzwerk ist zu groß ({})"
+    row:
+      component_contain_nodes: "Komponenten mit mindestens Knoten"
+      largest_connect_component: "Größte verbundene Komponente"
+      proportional_distance: "Proportional zur Entfernung"
+      inverted_distance: "Invertierte Entfernung"
+    report:
+      setting: "Einstellungen"
+      edge_thresholds: "Kantenschwellen"
+      selected_vertices: "Ausgewählte Knoten"
+      weight: "Gewicht"
+      histogram: "Histogramm"
+      output_graph: "Ausgabegraph"
+      vertex: "Knoten"
+      edges: "Kanten"
+      connect_vertex: "Verbundene Knoten"
+
+  OWNxNeighbor:
+    name: "Netzwerk der Nachbarn"
+    desc: "Erstellt ein Netzwerk, indem nächste Nachbarn verbunden werden."
+    num_of_nb: "Anzahl der Nachbarn:"
+    directed_edges: "Gerichtete Kanten"
+
+  OWNxGenerator:
+    name: "Netzwerkgenerator"
+    desc: "Beispielgraphen erstellen."
+    regenerate_network: "Netzwerk neu generieren"
+    with: "mit"
+    nodes: "Knoten"
+    Path: "Pfad"
+    Cycle: "Zyklus"
+    Complete: "Komplett"
+    Complete bipartite: "Komplett bipartit"
+    Barbell: "Hantel"
+    Ladder: "Leiter"
+    Circular ladder: "Kreisleiter"
+    Grid: "Gitter"
+    Hypercube: "Hyperwürfel"
+    Star: "Stern"
+    Lollipop: "Lutscher"
+    Geometric: "Geometrisch"
+    box:
+      graph_type: "Graphtyp"
+    defaults:
+      nodes: "Knoten, "
+      edges: "Kanten"
+      steps: "Schritte"
+      and: "und"
+      path_len: "von Länge"
+      grid_height: ", Höhe"
+      grid_width: "und Breite"
+      dimensional: "dimensional"
+      nodes_stem: "Knoten, Stamm von"
+
+  OWNxGroups:
+    name: "Netzwerk der Gruppen"
+    desc: "Instanzen nach Merkmal gruppieren und verwandte Gruppen verbinden."
+    checkbox_normalize_geometric_mean : "Nach geometrischem Mittel normalisieren"
+    text:
+      input_no_data: "Eingang: keine Daten"
+      input_data: "Eingang: {} Knoten, {} Kanten"
+      output_no_data: "Ausgang: keine Daten"
+      output_data: "Ausgang: {} Knoten, {} Kanten"
+    box:
+      info: "Info"
+      group_by: "Gruppieren nach"
+      output_weights: "Ausgabewerte"
+    msg:
+      network_miss_data: "Daten sind vorhanden, Netzwerk fehlt."
+      miss_discrete_feature: "Daten haben keine diskreten Merkmale."
+      data_length_nodes_not_match: "Die Länge der Daten stimmt nicht mit der Anzahl der Knoten überein."
+    label:
+      no_weight: "Keine Gewichte"
+      number_connections: "Anzahl der Verbindungen"
+      sum_connection_weights: "Summe der Verbindungsgewichte"
+    report:
+      input_network: "Eingangsnetzwerk"
+      number_vertices: "Anzahl der Knoten"
+      number_edges: "Anzahl der Kanten"
+      input_data: "Eingabedaten"
+      settings: "Einstellungen"
+      group_by: "Gruppieren nach"
+      weights: "Gewichte"
+      output_network: "Ausgangsnetzwerk"
+
+  OWNxSave:
+    name: "Netzwerk speichern"
+    desc: "Netzwerk in eine Ausgabedatei speichern."
+    msg_save_error: "Netzwerk mit mehreren Kantentypen kann nicht gespeichert werden"
+    placeholder_none: "(Keine)"
+    node_label: "Knotenlabel: "
+    node_label_tip: "Wählen Sie die Variablen, die als Label verwendet werden sollen"
+    report:
+      node_label: "Knotenlabels"
+      file_name: "Dateiname"
+      not_set: "nicht gesetzt"
+
+  ownxsinglemode:
+    name: "Einzelmodus"
+    desc: "Multimodale Graphen in Einzelmodale umwandeln"
+    msg:
+      network_additional_data: "Netzwerk hat zusätzliche Daten."
+      no_categorical_feature: "Daten haben keine kategorialen Merkmale."
+      modes_value_not_same: "Werte für Modi können nicht gleich sein."
+    row:
+      feature: "Merkmal:"
+      connect: "Verbinden:"
+      by: "durch:"
+    text:
+      no_network_output: "Kein Netzwerk im Ausgang"
+      node_edge: "{} Knoten, {} Kanten"
+    box:
+      mode_indicator: "Modusindikator"
+      edge_weights: "Kantengewichte"
+      output: "Ausgang"
+    report:
+      input_network: "Eingangsnetzwerk"
+      edge_weights: "{} Knoten, {} Kanten"
+      mode: "Modus"
+      weighting: "Gewichtung"
+      output_network: "Ausgangsnetzwerk"
