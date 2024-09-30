@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: armangrewal007
+Version: 0.1.3
+Summary: A CLI to display Arman Singh Grewal's resume
+Home-page: https://github.com/armangrewal007
+Author: Arman Singh Grewal
+Author-email: Arman Singh Grewal <armancode4u@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+
+# Steps to install
+
+- USE THIS COMMAND TO GET THE LATEST PACKAGE, because I update it constantly `pip install --upgrade armangrewal007`
+- Type `armangrewal007` in your terminal to see my resume!
+
+
+> [!WARNING]
+> Links and emojis will not be working for Windows users, because PowerShell does not support that (Switch to a better OS 😢)
