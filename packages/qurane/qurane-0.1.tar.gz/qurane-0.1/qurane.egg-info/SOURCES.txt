@@ -1,0 +1,13 @@
+MANIFEST.in
+pyproject.toml
+setup.py
+qurane/__init__.py
+qurane/quran.json
+qurane/quran.py
+qurane/search.py
+qurane/tafser.json
+qurane/tafser.py
+qurane.egg-info/PKG-INFO
+qurane.egg-info/SOURCES.txt
+qurane.egg-info/dependency_links.txt
+qurane.egg-info/top_level.txt
