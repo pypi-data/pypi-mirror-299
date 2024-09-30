@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: aibo-server
+Version: 0.1.7
+Summary: aibo: AI partner
+Author-email: David Medina <dmed256@gmail.com>
+Project-URL: Homepage, https://github.com/dmed256/aibo
+Keywords: emacs,aibo
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: aiocache==0.12.*
+Requires-Dist: aiosqlite==0.19.*
+Requires-Dist: alembic==1.11.*
+Requires-Dist: async-lru==2.*
+Requires-Dist: cachetools==5.3.*
+Requires-Dist: fastapi==0.*
+Requires-Dist: fire==0.5.*
+Requires-Dist: greenlet==2.0.*
+Requires-Dist: numpy==1.24.*
+Requires-Dist: openai==1.2.*
+Requires-Dist: Pillow==10.1.*
+Requires-Dist: pydantic==2.2.*
+Requires-Dist: sqlalchemy[asyncio]==2.0.21
+Requires-Dist: termcolor==2.3.0
+Requires-Dist: tiktoken==0.4.*
+Requires-Dist: types-cachetools==5.*
+Requires-Dist: uvicorn[standard]==0.22.*
+Provides-Extra: dev
+Requires-Dist: black==23.3.0; extra == "dev"
+Requires-Dist: faker==19.3.*; extra == "dev"
+Requires-Dist: isort==5.*; extra == "dev"
+Requires-Dist: pytest==7.4.*; extra == "dev"
+Requires-Dist: pytest-asyncio==0.21.*; extra == "dev"
+Requires-Dist: pytest-xdist==3.3.*; extra == "dev"
+
+![aibo](https://github.com/dmed256/aibo/assets/1812355/7ccbf83a-621d-4cad-90e3-e3a30e74f73b)
+
+`aibo-server` is the backing Python server for the `aibo.el` Emacs package that leverages OpenAI's chat API to bring ChatGPT into Emacs
+
+[![asciicast](https://asciinema.org/a/612765.svg)](https://asciinema.org/a/612765)
+
+## Installation
+
+This package requires Python 3.11 or greater
+
+```sh
+pip install aibo-server
+```
+
+## Start server
+
+Normally the server will be run using the `aibo.cli.start` command in emacs
+
+```sh
+python -m aibo.cli.start
+```
+
+but it's also possible to run it using `uvicorn`
+
+```sh
+uvicorn aibo.server.main:app --port 5000
+```
+
+## Database
+
+The server uses a simple sqlite database, by default stored in `~/.aibo/database.db`
+
+
+## Customization
+
+For Python environment customizations, refer to [constants.py](https://github.com/dmed256/aibo/blob/main/python/aibo/common/constants.py).
