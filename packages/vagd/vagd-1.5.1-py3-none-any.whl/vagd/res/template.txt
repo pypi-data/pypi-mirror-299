@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# This exploit template was generated via:
+# $ vagd {cmd_args}
+from pwn import *
+{modules}
+
+GOFF   = 0x555555554000                               # GDB default base address
+IP     = {ip:<44s} # remote IP
+PORT   = {port:<44s} # remote PORT
+BINARY = {binary:<44s} # PATH to local binary
+ARGS   = []                                           # ARGS supplied to binary
+ENV    = {env:<44s} # ENV supplied to binary
+{ataka_env}
+# GDB SCRIPT, executed at start of GDB session (e.g. set breakpoints here)
+GDB    = f"""
+set follow-fork-mode parent
+
+c"""
+
+context.binary = exe = ELF(BINARY, checksec=False)    # binary
+context.aslr = {aslr:<5s}                                  # ASLR enabled (only GDB)
+
+{aliases}
+
+vm = None
+# setup vagd vm
+def setup():
+  global vm
+  if args.REMOTE or {is_local}{is_ataka}:
+    return
+
+  try:
+    # only load vagd if needed
+    from vagd import {dependencies}, Box
+  except:
+    log.error('Failed to import vagd, either run locally using LOCAL or install it')
+  if not vm:
+    {vms}
+  if vm.is_new:
+    # additional setup here
+    log.info('new vagd instance')
+
+
+# get target (pwnlib.tubes.tube)
+def get_target(**kw) -> tubes.tube:
+  if args.REMOTE{is_ataka}:
+    # context.log_level = 'debug'
+    return remote(IP, PORT)
+
+  if {is_local}:
+    if args.GDB:
+      return gdb.debug([BINARY] + ARGS, env=ENV, gdbscript=GDB, **kw)
+    return process([BINARY] + ARGS, env=ENV, **kw)
+
+  return vm.start(argv=ARGS, env=ENV, gdbscript=GDB, **kw)
+
+
+setup()
+
+#===========================================================
+#                   EXPLOIT STARTS HERE
+#===========================================================
+{info}
+# libc = ELF({libc}, checksec=False)
+
+t = get_target()
+
+t.interactive() # or it()
