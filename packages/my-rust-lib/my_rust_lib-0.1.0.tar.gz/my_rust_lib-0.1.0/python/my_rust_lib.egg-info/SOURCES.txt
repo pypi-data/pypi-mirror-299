@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+python/my_rust_lib.egg-info/PKG-INFO
+python/my_rust_lib.egg-info/SOURCES.txt
+python/my_rust_lib.egg-info/dependency_links.txt
+python/my_rust_lib.egg-info/not-zip-safe
+python/my_rust_lib.egg-info/top_level.txt

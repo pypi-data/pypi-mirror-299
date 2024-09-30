@@ -1,0 +1,13 @@
+[package]
+name = "my_rust_lib"
+version = "0.1.0"
+edition = "2021"
+description = "A Rust library that provides an add function for both Rust and Python."
+license = "MIT"  # Choose an appropriate license
+authors = ["Kabelo Masemola<kabelo.masemola@maskab.co.za"]  # Update with your info
+
+[dependencies]
+pyo3 = { version = "0.18", features = ["extension-module"] }
+
+[lib]
+path = "rust/lib.rs"
