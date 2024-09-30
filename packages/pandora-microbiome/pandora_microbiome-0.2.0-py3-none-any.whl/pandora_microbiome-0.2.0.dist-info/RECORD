@@ -1,0 +1,14 @@
+pandora/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandora/abs2rel.py,sha256=NDX6JNppZzhGPkSt6PnH1rpc_f4neSoZDQq3RdDlMJI,1133
+pandora/check_phred.py,sha256=niyYca42ZYRQOs5DTyqaB0EJYxCnWTn1tt0X3yzvons,1247
+pandora/extract_seq.py,sha256=DhLYGv9VAKo4nrZxzqw54F0yL4MGom-KoZvt13VYg6Q,1890
+pandora/fq2fa.py,sha256=PCKQeQmx2hhHIS53AlCO9s2MBVKvKyY5IVXpSpok_7I,603
+pandora/fxlength.py,sha256=nm7Uhp_vRyoLr3-NpHCNVil7LBwLWh6SjhjuG9oyZe8,2016
+pandora/readseq.py,sha256=p27kmRAfZ2NQ0bIZcqsQv1kGG0c88kO4MZxX14218fU,1360
+pandora/summary_mag.py,sha256=_nGykWaKw4Bh410l21XdKL_9SBEansU6JtJuksC9ABo,1780
+pandora/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+pandora_microbiome-0.2.0.data/scripts/pandora,sha256=nHA4ufNcIZclPC4E9_3ZLzS5bw6SpttBsLtw8-bqRvc,4867
+pandora_microbiome-0.2.0.dist-info/METADATA,sha256=DnYIWWB9ttzZCFJXbRU27nhK0GkJt_wK_Xml9d0zw-I,460
+pandora_microbiome-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pandora_microbiome-0.2.0.dist-info/top_level.txt,sha256=OJ1l6RROnH_xa5ej6IY-ilwc1xhTF_olI2oVN-1UDWM,8
+pandora_microbiome-0.2.0.dist-info/RECORD,,
