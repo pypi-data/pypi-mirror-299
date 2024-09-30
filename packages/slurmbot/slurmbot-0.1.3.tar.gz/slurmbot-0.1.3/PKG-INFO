@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: slurmbot
+Version: 0.1.3
+Summary: Simple tool to run telegram bot to notify about slurm jobs done.
+License: MIT
+Author: Dmitry Solovey
+Author-email: dsolovey@ist.ac.at
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyTelegramBotAPI (>=4.23,<5.0)
+Description-Content-Type: text/markdown
+
+Simple telegram bot to notify slurm job is done.
+
+1. Install via `pip install slurmbot`
+2. Make an empty config file via `mkdir -p ~/.config/slurmbot && touch ~/.config/slurmbot/config.yaml`
+3. Make your telegram bot with BotFather, paste token into config file (like in example.yaml)
+4. Get your chat id with @RawDataBot, paste it into config file (like in example.yaml)
+5. Add `slurmbot &` to your ~/.bashrc or ~/.zshrc file
+
