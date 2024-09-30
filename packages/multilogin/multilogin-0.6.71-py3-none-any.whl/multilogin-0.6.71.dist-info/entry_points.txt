@@ -1,0 +1,4 @@
+[console_scripts]
+mlx=mlx.cli:main
+mx=mlx.cli:main
+
