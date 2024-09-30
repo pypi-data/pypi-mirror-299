@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: promptolution
+Version: 0.1.1
+Summary: 
+Author: Tom Zehle, Moritz Schlager, Timo Heiß
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: langchain-anthropic (>=0.1.22,<0.2.0)
+Requires-Dist: langchain-community (>=0.2.12,<0.3.0)
+Requires-Dist: langchain-core (>=0.2.29,<0.3.0)
+Requires-Dist: langchain-openai (>=0.1.21,<0.2.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: pandas (>=2.2.2,<3.0.0)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Promptolution
+
+Project for seminar "AutoML in the age of large pre-trained language models" at LMU Munich , developed by [Timo Heiß](https://www.linkedin.com/in/timo-heiss/), [Moritz Schlager](https://www.linkedin.com/in/moritz-schlager/) and [Tom Zehle](https://www.linkedin.com/in/tom-zehle/).
+
+## Set Up
+
+After having cloned the repository, run
+
+```
+poetry install
+```
+
+to install the necessary dependencies.
+
+You might need to install [pipx](https://pipx.pypa.io/stable/installation/) and [poetry](https://python-poetry.org/docs/) first.
+
+## Usage
+
+Create API Keys for the models you want to use:
+- OpenAI: store token in openaitoken.txt
+- Anthropic: store token in anthropictoken.txt
+- DeepInfra (for Llama): store token in deepinfratoken.txt
+
+Run experiments based on config via:
+
+```
+poetry run python scripts/experiment_runs.py --experiment "configs/<my_experiment>.ini"
+```
+where `<my_experiment>.ini` is a config based on our templates.
