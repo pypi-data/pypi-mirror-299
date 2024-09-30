@@ -1,0 +1,6 @@
+README.md
+setup.py
+dolby.egg-info/PKG-INFO
+dolby.egg-info/SOURCES.txt
+dolby.egg-info/dependency_links.txt
+dolby.egg-info/top_level.txt
