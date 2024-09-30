@@ -1,0 +1,24 @@
+{
+    "name": "match_maker",
+    "versionID": 0.1,
+    "extracts": {
+        "splitText": {
+            "enabled": true,
+            "key": "{split}"
+        },
+        "HiddenData": {
+            "enabled": true,
+            "key_s": "{hd}",
+            "key_e": "{/hd}"
+        },
+        "PasswordData": {
+            "enabled": true,
+            "key_s": "{password}",
+            "key_e": "{/password}"
+        }
+    },
+    "Plugins": {
+        "can_be_installed": true,
+        "installed_plugins": []
+    }
+}
