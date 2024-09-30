@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pytextpopup.egg-info/PKG-INFO
+pytextpopup.egg-info/SOURCES.txt
+pytextpopup.egg-info/dependency_links.txt
+pytextpopup.egg-info/requires.txt
+pytextpopup.egg-info/top_level.txt
