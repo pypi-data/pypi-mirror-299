@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: solverpack
+Version: 0.0.1
+Summary: Package solver.
+Author: mikhail_rozhkov
+Requires-Dist: pandas ==2.2.2
+Requires-Dist: sqlalchemy ==2.0.35
+Requires-Dist: psycopg2 ==2.9.9
+
