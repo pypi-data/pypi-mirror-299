@@ -1,0 +1,11 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+  <h1>Select Timezone</h1>
+  <form method="post" class="form-row">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="submit-row">
+      <input type="submit" value="Set Timezone" class="default">
+    </div>
+  </form>
+{% endblock %}
