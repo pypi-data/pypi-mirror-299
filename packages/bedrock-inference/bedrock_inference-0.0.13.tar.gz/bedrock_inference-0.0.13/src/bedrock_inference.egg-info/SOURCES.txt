@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/bedrock_inference/__init__.py
+src/bedrock_inference/bedrock.py
+src/bedrock_inference.egg-info/PKG-INFO
+src/bedrock_inference.egg-info/SOURCES.txt
+src/bedrock_inference.egg-info/dependency_links.txt
+src/bedrock_inference.egg-info/requires.txt
+src/bedrock_inference.egg-info/top_level.txt
