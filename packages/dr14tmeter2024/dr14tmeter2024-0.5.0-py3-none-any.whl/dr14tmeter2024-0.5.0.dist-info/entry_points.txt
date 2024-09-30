@@ -1,0 +1,3 @@
+[console_scripts]
+dr14tmeter=dr14tmeter2024:dr14_tmeter.main
+
