@@ -1,0 +1,11 @@
+parsel_tongue/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsel_tongue/evaluator.py,sha256=HgQsZUeOlWc9n4HNEANDgSmV4JT2Ma97bCq8K6fDZaA,5909
+parsel_tongue/exceptions.py,sha256=RHgIFPakcJpNk9Xxw5F_SgphWopDP7q-ZccYBPAODc8,227
+parsel_tongue/lexer.py,sha256=CPpU7IHeCKP-TlwHgFtlR3RLPzNf4ASW7mVCBYbkQuo,4079
+parsel_tongue/main.py,sha256=7J3TUhNHWdc4CJZ74mAlt7oaZsd4RvuXsg_gYLY2eR8,2634
+parsel_tongue/parser.py,sha256=pjL9-doc-6h3zpw-wIIhLoHPCbxLFuKoPbZMs6zx_K4,7960
+viper_script-0.0.2.dist-info/METADATA,sha256=7NIgi7_i4NVmh3S3fac4jgUkThD0-F4EQI3rb54Xq_A,386
+viper_script-0.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+viper_script-0.0.2.dist-info/entry_points.txt,sha256=CThXb4i77X9vzTDeSKWt9TDMxc5QuPvNzqUZE-irwDY,58
+viper_script-0.0.2.dist-info/top_level.txt,sha256=B2HG9wRZwRocc9m1hJJ4nWQLomw64btk1PqgX-OURcw,14
+viper_script-0.0.2.dist-info/RECORD,,
