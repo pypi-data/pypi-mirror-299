@@ -1,0 +1,23 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% load i18n %}
+{% load timezone_tags %}
+
+{% block userlinks %}
+    <!-- Timezone selection dropdown -->
+    <form action="{% url 'timezone_select_view' %}" method="post" style="display:inline; margin-right: 10px;">
+        {% csrf_token %}
+        <input name="next" type="hidden" value="{{ request.get_full_path }}">
+        <select class="timezone-dropdown" name="timezone" onchange="this.form.submit()">
+            {% get_session_value request session_name as user_timezone %}
+            {% get_timezones as timezones %}
+            {% for tz in timezones %}
+            <option value="{{ tz }}" {% if tz == user_timezone %} selected{% endif %}>
+                {{ tz }}
+            </option>
+            {% endfor %}
+        </select>
+    </form>
+
+    {{ block.super }}
+{% endblock %}
