@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+version.txt
+src/coolest_package/__init__.py
+src/coolest_package/cities.json
+src/coolest_package/states_info.py
+src/generated_demo_repo_1.egg-info/PKG-INFO
+src/generated_demo_repo_1.egg-info/SOURCES.txt
+src/generated_demo_repo_1.egg-info/dependency_links.txt
+src/generated_demo_repo_1.egg-info/requires.txt
+src/generated_demo_repo_1.egg-info/top_level.txt
