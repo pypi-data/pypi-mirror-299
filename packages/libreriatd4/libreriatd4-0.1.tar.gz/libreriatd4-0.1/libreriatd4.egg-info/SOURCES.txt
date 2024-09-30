@@ -1,0 +1,7 @@
+setup.py
+libreriatd4/__init__.py
+libreriatd4/envio_paquetes_inseguro.py
+libreriatd4.egg-info/PKG-INFO
+libreriatd4.egg-info/SOURCES.txt
+libreriatd4.egg-info/dependency_links.txt
+libreriatd4.egg-info/top_level.txt
