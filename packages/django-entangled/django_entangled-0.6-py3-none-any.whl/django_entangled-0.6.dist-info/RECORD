@@ -1,0 +1,16 @@
+entangled/__init__.py,sha256=VrSIuqacCIS8zcL-CEJs2UJkUXPwIyxTzcSsdSj1Fjc,20
+entangled/forms.py,sha256=YiuMEK2szwx-CvV4Aqxc3VUgTSvcs0mrUgI-Sr7JW2w,9022
+entangled/utils.py,sha256=AQPCPrMRkKLJjLymPl_ecjYtTnaB9AC2Ra4I2HPVE0w,699
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=i9UI2FYhqEj-E_8tw9IYyvUCXtt1gKKx2V3nQcEklzw,472
+tests/models.py,sha256=N9rgUCjDCVnfk6qDK9NHkeh91IPCCsg5ZuncJrtN1HQ,338
+tests/settings.py,sha256=EoEEBxhIMOfccPHTgAh-6Qyk0wScTkyPLkRIdZ36p28,1466
+tests/test_entangled.py,sha256=xPU9oJQgb_EMuSC2lH_LiHdwrDUemcBel2njFRq7yhs,9220
+tests/test_inheritance.py,sha256=NYYFhp9EIcF5A4acWDcc1jwC-luOmmQdL0UkozeOT_4,6739
+tests/test_modelform_factory.py,sha256=mq_1SxO_SfQY0ipV7Tgp0-Fwj2RO2CHQMWMphiC-c98,1780
+tests/test_retangled.py,sha256=LYdgC6rssobIp_pjmrtg7_PaSLbmyexUwHyAXvajP5s,5002
+django_entangled-0.6.dist-info/LICENSE,sha256=0Gf_edn4l--Lz6HKcUogwtDv5UCgHyY7WyG3btJ1hjA,1067
+django_entangled-0.6.dist-info/METADATA,sha256=7wtLAGtvcahWa9rlUpoGd-WscS6OTsd_EGUnOtvAp-I,10366
+django_entangled-0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+django_entangled-0.6.dist-info/top_level.txt,sha256=0el32qNlJy24wUgC3i5JzWgX51p1eUte8UM5Ha2Kw3I,16
+django_entangled-0.6.dist-info/RECORD,,
