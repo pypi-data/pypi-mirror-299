@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zlibsanitizer"
+version = "1.1"
+description = "A Python library to sanitize text by removing unwanted labels like (Z-Library)"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/andrewalevin/zlibsanitizer"
+repository = "https://github.com/andrewalevin/zlibsanitizer"
+keywords = ["sanitize", "file", "name", "normalization", "Z-Library"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

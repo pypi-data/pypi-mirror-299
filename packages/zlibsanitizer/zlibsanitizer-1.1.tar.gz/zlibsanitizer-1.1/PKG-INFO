@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: zlibsanitizer
+Version: 1.1
+Summary: A Python library to sanitize text by removing unwanted labels like (Z-Library)
+Home-page: https://github.com/andrewalevin/zlibsanitizer
+License: MIT
+Keywords: sanitize,file,name,normalization,Z-Library
+Author: Your Name
+Author-email: your.email@example.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/andrewalevin/zlibsanitizer
+Description-Content-Type: text/markdown
+
+# zlibsanitizer
+
+**zlibsanitizer** is a Python library designed to sanitize text by removing unwanted labels like `(Z-Library)`, `_Z_Library`, or other similar patterns. It is useful for cleaning file names or other strings to make them more readable.
+
+## Installation
+
+You can install the library using `poetry`:
+
+```bash
+poetry add zlibsanitizer
