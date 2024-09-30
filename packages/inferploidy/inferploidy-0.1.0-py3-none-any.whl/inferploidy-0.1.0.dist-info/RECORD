@@ -1,0 +1,15 @@
+inferploidy/__init__.py,sha256=Hw1ow--x2HFvminQIGJkSLA0AcUnHwhPaUovNKfOka8,240
+inferploidy/clustering.py,sha256=faHIeBh6gQ9AMKQTMU6q9yzr9oZtaJg1EDIPIb1-UVo,34990
+inferploidy/hicat.py,sha256=nFSZHhognySf4h4Ko_r6jNUL36D3lvpB8rOG3BjPMyI,233438
+inferploidy/inferploidy.py,sha256=uu2iNvrvrn_mFGse4hQ_vIxWOZ3KdAksw4KWQ8GP424,52158
+inferploidy/pl.py,sha256=M2pMmylmKj2JmnPi-fpKlrtL88B6Jijom-215nnGFko,106591
+inferploidy/default_optional_files/hg38_gene_only.gtf,sha256=YUyBFepCLeirIqufqg4xabHiy299hTV4jc9nc-vw6K4,9812023
+inferploidy/default_optional_files/markers_hs_all_tissues.tsv,sha256=12reMwDrtfdGZmR6SFGattUbsK8HaF6BKacF7Xat8TU,79484
+inferploidy/default_optional_files/markers_mm_all_tissues.tsv,sha256=mDX01D1KIsQ2hmn3PUZtH1BHXmXFf3s1KlFdoXy8zDY,81148
+inferploidy/default_optional_files/mm10_gene_only.gtf,sha256=kxl2qXutLXPj3ueW4GWrYuxbncTsfBzJiAff8ssRNwM,6641898
+inferploidy-0.1.0.dist-info/LICENSE,sha256=rLW1EegsyTdtle513IlweYaMNneCanXNrksJyNRQskY,1106
+inferploidy-0.1.0.dist-info/METADATA,sha256=uXBhdl9GOrCwhdV2VMwRy-0I2DafM4ZJqQSiWfznyq0,2173
+inferploidy-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+inferploidy-0.1.0.dist-info/entry_points.txt,sha256=j4KgHXbVGbGyfTySc1ypBdERpfihO4WNjppvCdE9HjE,52
+inferploidy-0.1.0.dist-info/top_level.txt,sha256=PJvfKpWFkbv4wWZm4rkAd5lSoWoVzu-vNhD9P-IwgGA,12
+inferploidy-0.1.0.dist-info/RECORD,,
