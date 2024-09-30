@@ -1,0 +1,76 @@
+Metadata-Version: 2.3
+Name: arxiv_tool
+Version: 0.0.1
+Summary: Prepare your arXiv submissions
+Project-URL: Homepage, https://github.com/willGuimont/arxiv_tool
+Project-URL: Issues, https://github.com/willGuimont/arxiv_tool/issues
+Author-email: William Guimont-Martin <william.guimont-martin@norlab.ulaval.ca>, Damien LaRocque <phicoltan@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 William Guimont-Martin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: arxiv-collector
+Description-Content-Type: text/markdown
+
+# arxiv_tool
+
+Some tools for working with arXiv papers.
+
+## Installation
+
+Install the requirements of
+`arxiv-collector`: [arxiv-collector · PyPI](https://pypi.org/project/arxiv-collector/#requirements)
+
+Install `arxiv_tool`:
+
+```bash
+pip install arxiv_tool
+```
+
+## Usage
+
+1. Copy the sources of the paper in a directory, e.g., `paper_src/`.
+2. Run `python arxiv_tool.py paper_src paper_out` to generate the submission files in the `paper_out`
+   directory.
+3. Upload the files to arXiv.
+
+All the available options can be found by running `arxiv_tool --help`.
+
+## Development
+
+Install the requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Future features
+
+- [ ] Directly clone the sources from GitHub
+- [ ] Support more cases (nested folders, etc.)
+
+## References
+
+- [How to publish your preprints on Arxiv • Northern Robotics Laboratory](https://norlab.ulaval.ca/research/publish-prepints-arxiv/)
