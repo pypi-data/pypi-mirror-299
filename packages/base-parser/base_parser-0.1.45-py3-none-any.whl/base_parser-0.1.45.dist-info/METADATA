@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: base-parser
+Version: 0.1.45
+Summary: 
+Author: Константин Зубченко
+Author-email: k.zubchenko@bi.zone
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: scheduler (>=0.8.7,<0.9.0)
+Description-Content-Type: text/markdown
+
+
