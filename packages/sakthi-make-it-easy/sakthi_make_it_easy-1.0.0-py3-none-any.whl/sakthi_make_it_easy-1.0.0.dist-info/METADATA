@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: sakthi_make_it_easy
+Version: 1.0.0
+Summary: A modular Python-based Snake game using the turtle module.
+Author-email: SakthiSelvan <ssakthitselvan7@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/yourusername/snake_game
+Project-URL: Documentation, https://github.com/yourusername/snake_game/docs
+Project-URL: Issue Tracker, https://github.com/yourusername/snake_game/issues
+Keywords: snake-game,python-game,turtle-module,classic-game
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Games/Entertainment :: Arcade
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Snake Game
+
+`snake_game` is a Python-based classic Snake game developed using the `turtle` module. The project is organized into modular components for better readability and maintainability, with separate modules handling the game screen, snake movement, food generation, player controls, and the main game logic.
+
+## Features
+
+### 1. Game Screen (`screen.py`)
+Manages the game window and updates the visuals.
+
+- **`GameScreen(width, height, bg_color, title)`**: Initializes the game window with customizable dimensions, background color, and title.
+- **`update()`**: Refreshes the screen after each frame.
+- **`listen()`**: Listens for user keyboard input.
+- **`onkey(func, key)`**: Binds a specific key to a function for controlling the snake.
+
+### 2. Snake (`snake.py`)
+Handles the snake's appearance, movement, and growth.
+
+- **`Snake(shape, color, start_pos)`**: Initializes the snake with a customizable shape, color, and starting position.
+- **`move(distance)`**: Moves the snake based on its current direction.
+- **`go_up()`, `go_down()`, `go_left()`, `go_right()`**: Functions to change the snake's direction.
+- **`add_segment()`**: Adds a segment to the snake's body when it consumes food.
+- **`reset()`**: Resets the snake’s position and clears its segments when it collides.
+
+### 3. Food (`food.py`)
+Controls food generation and positioning on the screen.
+
+- **`Food(shape, color, start_pos)`**: Initializes the food object at a random location on the screen.
+- **`move(boundary)`**: Repositions the food to a new random location within the game boundary after being eaten.
+
+### 4. Controls (`controls.py`)
+Manages player controls and binds keys to snake movement.
+
+- **`Controls(screen, snake)`**: Binds the user’s keyboard inputs (W, A, S, D) to the snake's movement.
+- **`setup()`**: Sets up key listeners to control the snake.
+
+### 5. Game Logic (`game.py`)
+Manages the overall game flow, collision detection, and food consumption.
+
+- **`Game(screen, snake, food, controls, delay, boundary)`**: Initializes the main game components and manages the game loop.
+- **`check_collision()`**: Detects if the snake collides with the game boundary or itself.
+- **`check_food_collision()`**: Detects if the snake eats the food.
+- **`move_snake()`**: Handles snake movement and body segment shifting.
+- **`run()`**: Runs the main game loop, including screen updates and collision checks.
+
+## Installation
+
+Clone the repository and install any dependencies required to run the game.
+
+```bash
+git clone https://github.com/yourusername/snake_game.git
+```
+
+## Usage
+
+Run the game by executing the `game.py` file:
+
+```bash
+python game.py
+```
+
+## How to Play
+
+- Use the `W`, `A`, `S`, `D` keys to control the snake's movement.
+- The objective is to eat the food that appears on the screen and grow the snake without hitting the boundaries or yourself.
