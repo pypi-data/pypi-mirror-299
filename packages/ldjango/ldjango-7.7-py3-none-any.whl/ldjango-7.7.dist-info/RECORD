@@ -1,0 +1,11 @@
+ldjango/__init__.py,sha256=ANCjGO4sWElHjDOrMEUFkKjewt3rP-nC5jnZUG9wHD4,32
+ldjango/cli.py,sha256=06LvrOC978ThHTd_fCFRcgPVWq8bwW5Z7aJ9sRjOofc,4263
+ldjango/landing.py,sha256=tTBoPdhOgRGG4xpl7p1ZTMlszEu1ZjZNyt04VeJF1V0,115
+ldjango/main.py,sha256=Dl16jdGuvKC0FUxPfQGIRKCC7bnoe0UUb2zGqQLUxZs,19716
+ldjango/views.py,sha256=myO1E5FmT2HAwjzstyFaI5RthTNm2lq6mKUV7pQZPGE,116
+ldjango/templates/landing_page.html,sha256=SRs58a-DGoPLF6xrDOvT9oFaPi6lt61Xv1Uj6y0vwqY,8793
+ldjango-7.7.dist-info/METADATA,sha256=NHdMTsCMxb2TQ3vu3TUpG2pl-oHi0OPLeOA_7gAxeWU,10464
+ldjango-7.7.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ldjango-7.7.dist-info/entry_points.txt,sha256=ZETRsMShOUKcOzsOkXtdIRVvzI3LzrBIM1XZctaO_eE,44
+ldjango-7.7.dist-info/top_level.txt,sha256=9VrMOu5vI0wV1aCYhTfyXA1qBsLMwqeUxghlOJf-E1I,8
+ldjango-7.7.dist-info/RECORD,,
