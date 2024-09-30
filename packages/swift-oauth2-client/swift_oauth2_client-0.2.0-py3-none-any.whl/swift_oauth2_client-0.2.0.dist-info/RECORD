@@ -1,0 +1,11 @@
+oauth2_client/__init__.py,sha256=fdm_EhKY_CDdFgOAi0sqojYFXA_xlxd8OAMwNE1UbFs,408
+oauth2_client/api_client.py,sha256=ZgUQfkVhMFu9SmVpsLIDfUKOmEcOg040UcnVCQ8dkik,4636
+oauth2_client/api_client_async.py,sha256=XeiXzNuB7X158ehKQC8LrBVTYDgnvGXXGCPsT5qCW6k,6177
+oauth2_client/config.py,sha256=ouglhqirVd3aYmW3I0h13Mq2TDoa-COev3ICDPs8WYw,1033
+oauth2_client/exceptions.py,sha256=9PYoy82Jc97n1LNay9ScieYPMXAMRyjHJQGAagbGzqQ,312
+oauth2_client/token_manager.py,sha256=Q7UKyQGr2WCEeMAo6hzSUKgSkexiuDzGWfxMqDHTJus,4282
+oauth2_client/token_manager_async.py,sha256=utbcun41TSNzW0w8_6Jouq9T-UQT2gmyXX6YBrgXWdI,2759
+swift_oauth2_client-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+swift_oauth2_client-0.2.0.dist-info/METADATA,sha256=olztUF-MYnfOg1bJqjcQm9PfKIocERiVGpEQn8K0cbc,3285
+swift_oauth2_client-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+swift_oauth2_client-0.2.0.dist-info/RECORD,,
