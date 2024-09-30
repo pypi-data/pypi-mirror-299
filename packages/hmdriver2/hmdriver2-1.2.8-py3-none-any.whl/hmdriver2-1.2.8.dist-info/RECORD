@@ -1,0 +1,15 @@
+hmdriver2/__init__.py,sha256=OjR0wBrhXmgyFMshU98XVUJU8BLZjt-86TVk9oVX7kA,494
+hmdriver2/_client.py,sha256=Wu1eSajUoxwqDp5RkVK6aEtq-Ed91E3ZOFvFuOu7UTQ,7647
+hmdriver2/_gesture.py,sha256=XYkpqN4na-JBjZ41tm5Y_Tpu_K_6dqn8zFEWIsgmNmA,11425
+hmdriver2/_screenrecord.py,sha256=y-dV3v-DqlbfbqOEn7FAJd7lRNp8P3NFtuRcfriHrzY,4005
+hmdriver2/_uiobject.py,sha256=3KTj1tv_JJTyVxepY1i12EYk8VrYbM8hv8j7fjv6Wmk,7200
+hmdriver2/assets/agent.so,sha256=4QPcFL9fcNNDxOFw8-bVlFoKx6GeQk7WoTCRp12_XVs,149685
+hmdriver2/driver.py,sha256=Ucpz-96XaAoFDKd_ZIsIfJ2-G4VAmdQLtCV8_NLKmTM,10552
+hmdriver2/exception.py,sha256=7LehIRXtIAn9EIh3NZd6M5POa81aP-pRkImMXO4Zu-c,438
+hmdriver2/hdc.py,sha256=ivW8YNhziYvVl7pQQwxsy8z2WeiQKucOLdz7OGD6pdw,7494
+hmdriver2/proto.py,sha256=YpD9njWXoBDBjqcajPseebwQezqp31AyTctYTujBR2E,15201
+hmdriver2/utils.py,sha256=TswQMPkUC5709AJ9m60yPAg0FNpMNUfqxa8dXRb8y34,1002
+hmdriver2-1.2.8.dist-info/LICENSE,sha256=iMmMLB8O48gIy1ZvbnKBLdzRl2CUg3uzNMl8IEpNDhw,1065
+hmdriver2-1.2.8.dist-info/METADATA,sha256=x3WcWsjvtAmnRg9ixtSRMFjLyeH8Aib-6Qbg1IMSjKQ,15203
+hmdriver2-1.2.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+hmdriver2-1.2.8.dist-info/RECORD,,
