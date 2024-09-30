@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyLogicx/__init__.py
+pyLogicx/logger.py
+pyLogicx/utils.py
+pyLogicx.egg-info/PKG-INFO
+pyLogicx.egg-info/SOURCES.txt
+pyLogicx.egg-info/dependency_links.txt
+pyLogicx.egg-info/requires.txt
+pyLogicx.egg-info/top_level.txt
