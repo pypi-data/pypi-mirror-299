@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: parzen-windows
+Version: 0.0.2
+Summary: Making pdf estimates as seamless as possible
+Author-email: Ian Meyer <imeyer@unomaha.edu>
+Project-URL: Homepage, https://github.com/imeyer2/parzen-windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## parzen-windows
+
+Description: A Python module that will take input (training data) and estimate the underlying probability density function with Parzen Windows
+
+
+
+
+
+To build run 
+`python3 -m build` 
+while in the `parzen_windows` directory
+then navigate to `./dist` directory
+
+
+Then run 
+
+`twine upload dist/*`
+or 
+`twine upload --skip-existing dist/*`
