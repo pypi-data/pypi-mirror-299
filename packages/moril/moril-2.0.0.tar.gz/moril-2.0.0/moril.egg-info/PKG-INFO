@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: moril
+Version: 2.0.0
+Summary: manden packages
+Author: Ana Keita
+Author-email: keita.kukukhan@gmail.com
+Requires-Python: >=3.12
+Requires-Dist: pandas
+Requires-Dist: sqlalchemy
+Requires-Dist: Pillow
+Requires-Dist: openpyxl
