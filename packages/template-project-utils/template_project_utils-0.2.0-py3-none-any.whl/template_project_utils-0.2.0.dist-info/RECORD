@@ -1,0 +1,15 @@
+template_project_utils/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+template_project_utils/__main__.py,sha256=QOdNEkJlDzUIGva_-G8gHB0svHVjSMYc2dpn2ujmE8E,81
+template_project_utils/_version.py,sha256=_Qje3XQRFQgff54wqzHPSIe7j9kXV17e6kgXXO3_IAI,497
+template_project_utils/git.py,sha256=yHI7LzyrUncC66ctK0cRrbGkwdyJEu-zVrWhLSmAqM0,798
+template_project_utils/keyword_scanner.py,sha256=Zhe_PVzrVDCn_oi-kXlQ-7c1KGu1e8yse45x7IJS9jc,3462
+template_project_utils/main.py,sha256=eXIB3wU19QJgrjSyr9JQu3MpOc9AcBIXBDjVQyRWao8,3529
+template_project_utils/template_initializer.py,sha256=YArIf0Blt-2XRERuPJ2bOBad3nfGTsuEcdNDl97rtaE,6194
+template_project_utils/resources/configs/default_logging_config.yaml,sha256=D6j7gqhcMQhRQyR09m5WtVQce1_7pKgfHbZqYUQX5vU,532
+template_project_utils/resources/schemas/config.json,sha256=ho5wU9RE5JxMQZ-NheQkZ_bHFT-iDZzfqDcHP0fw9uI,925
+template_project_utils-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+template_project_utils-0.2.0.dist-info/METADATA,sha256=6ZVVf11DGZC0CNQ45_McPQByOSMGXyhIKvVglMPav08,1445
+template_project_utils-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+template_project_utils-0.2.0.dist-info/entry_points.txt,sha256=FiRdm9NAO8KI-KygcoyfV2__PLwAjJaEd7hCjfCOkts,76
+template_project_utils-0.2.0.dist-info/top_level.txt,sha256=Zo1IE0CZi7D2XM0V93bnv2iyzqWShQ7SLT6zceozGxw,23
+template_project_utils-0.2.0.dist-info/RECORD,,
