@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: django-payments-chile
+Version: 2024.9.29
+Summary: ConecConexiones de los procesadores de pago mas conocidos en Chile para Django Payments
+Home-page: https://mariofix.github.io/django-payments-chile/
+License: MIT
+Keywords: flow,pagos,django,payment,django-payments
+Author: Mario Hernandez
+Author-email: mariofix@proton.me
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: flow
+Provides-Extra: khipu
+Provides-Extra: oneclick
+Provides-Extra: todos
+Provides-Extra: webpay
+Requires-Dist: django-payments (>=2.0.0,<4.0)
+Requires-Dist: pyflowcl (>=2024.9.28,<2025.0.0) ; extra == "flow" or extra == "todos"
+Requires-Dist: pykhipu (>=0.1.9,<0.2.0) ; extra == "khipu" or extra == "todos"
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Requires-Dist: transbank-sdk (>=5.0.0,<6.0.0) ; extra == "webpay" or extra == "oneclick" or extra == "todos"
+Project-URL: Documentation, https://mariofix.github.io/django-payments-chile/
+Project-URL: Repository, https://github.com/mariofix/django-payments-chile
+Description-Content-Type: text/markdown
+
+# django-payments-chile
+
+![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)
+![Django Version](https://img.shields.io/badge/django-3.2%2B-green)
+![License](https://img.shields.io/badge/license-MIT-brightgreen)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)
+
+**django-payments-chile** es una librería diseñada para facilitar la integración de pagos en aplicaciones Django a través de múltiples proveedores en Chile. Este proyecto ofrece una API simple y flexible para procesar pagos de manera segura, permitiendo a los desarrolladores concentrarse en construir sus aplicaciones sin complicarse con la lógica de integración de cada proveedor.
+
+## Proveedores de pago soportados
+
+- **Flow**: Plataforma chilena para pagos en línea que admite múltiples métodos de pago.
+- **Khipu**: Permite pagos mediante transferencia electrónica en tiempo real.
+- **Klap**: Solución de pagos electrónicos enfocados en comercios.
+- **Kushki**: Proveedor de pagos electrónicos que facilita la integración con diversas plataformas.
+- **Payku**: Plataforma de pagos enfocada en pequeñas y medianas empresas.
+- **Webpay**: El sistema de pago en línea más utilizado en Chile, operado por Transbank.
+- **Onepay**: Pago rápido y seguro usando códigos QR.
+
+## Características
+
+- Soporte para múltiples proveedores de pago en un solo proyecto.
+- API consistente para crear, procesar y verificar transacciones.
+- Fácil configuración y personalización.
+- Documentación clara para desarrolladores.
+- Soporte para eventos de éxito, fallo, y reembolsos de pagos.
+
+## Instalación
+
+Para instalar la librería, utiliza pip:
+
+```bash
+pip install django-payments-chile
+```
+
+### Configuración de Proveedores
+
+Agrega las credenciales de los proveedores de pago en tu archivo de configuración:
+
+```python
+PAYMENTS_PROVIDERS = {
+    'FLOW': {
+        'api_key': 'tu_api_key_flow',
+        'secret': 'tu_secret_flow',
+    },
+    'KHIPU': {
+        'receiver_id': 'tu_receiver_id',
+        'secret': 'tu_secret_khipu',
+    },
+    'WEBPAY': {
+        'commerce_code': 'tu_commerce_code_webpay',
+        'api_key': 'tu_api_key_webpay',
+    },
+    ...
+}
+```
+
+## Uso
+
+Para crear y procesar un pago con **django-payments-chile**, simplemente importa el gateway y realiza la transacción:
+
+```python
+from payments_chile import PaymentGateway
+
+gateway = PaymentGateway(provider='webpay')
+response = gateway.create_payment(amount=10000, order_id='123456', return_url='https://tu-sitio.com/return/')
+```
+
+Luego, puedes verificar el estado del pago:
+
+```python
+if gateway.verify_payment(response):
+    # Pago exitoso
+else:
+    # Pago fallido
+```
+
+## Proveedores adicionales
+
+Puedes agregar más proveedores de pago mediante la extensión del gateway o contribuyendo con tus propias integraciones. Cada proveedor tiene una interfaz consistente para facilitar su uso y configuración.
+
+## Contribuciones
+
+Contribuciones son bienvenidas. Por favor, abre un [issue](https://github.com/mariofix/django-payments-chile/issues) o envía un pull request.
+
+Pasos para contribuir:
+
+1. Haz un fork del repositorio.
+2. Crea una rama nueva para tu funcionalidad (`git checkout -b feature-nueva-funcionalidad`).
+3. Realiza los cambios y asegúrate de probarlos.
+4. Envía un pull request con una descripción clara de tu contribución.
+
+## Licencia
+
+Este proyecto está licenciado bajo la licencia [MIT](LICENSE).
+
