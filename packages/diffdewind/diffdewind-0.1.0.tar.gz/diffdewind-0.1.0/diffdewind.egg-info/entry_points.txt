@@ -1,0 +1,2 @@
+[console_scripts]
+diffdewind = src.main:main
