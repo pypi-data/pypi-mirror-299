@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sakthi_make_it_easy
+Version: 0.0.1
+Summary: A small example package
+Author-email: SakthiSelvan <ssakthitselvan7@gmail.com>
+Project-URL: Homepage, https://github.com/yourusername/example_package_me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+-This is a simple example package to demonstrate how to package a Python project.
