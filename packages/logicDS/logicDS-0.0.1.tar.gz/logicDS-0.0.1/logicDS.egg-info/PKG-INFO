@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: logicDS
+Version: 0.0.1
+Summary: Pathway to linear regression
+Home-page: UNKNOWN
+Author: Kwesi Danso
+Author-email: Kwesidanso413@gmail.com
+License: MIT
+Description: This is a list of functions leading to calculating linear function.Stareted with the mean and slope of data
+        
+        Change log
+        
+        ==============================
+        
+        
+        0.0.1(09/30/2024)
+        ------------------------------
+        - First Release
+Keywords: logicDS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
