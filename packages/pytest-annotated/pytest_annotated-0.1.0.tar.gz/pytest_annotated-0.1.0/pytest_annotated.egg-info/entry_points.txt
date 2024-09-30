@@ -1,0 +1,2 @@
+[pytest11]
+pytest_annotated = pytest_annotated

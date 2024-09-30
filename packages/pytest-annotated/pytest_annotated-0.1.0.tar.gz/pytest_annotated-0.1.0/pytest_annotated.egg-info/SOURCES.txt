@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pytest_annotated.py
+pytest_annotated.egg-info/PKG-INFO
+pytest_annotated.egg-info/SOURCES.txt
+pytest_annotated.egg-info/dependency_links.txt
+pytest_annotated.egg-info/entry_points.txt
+pytest_annotated.egg-info/requires.txt
+pytest_annotated.egg-info/top_level.txt
+tests/test_annotated.py
