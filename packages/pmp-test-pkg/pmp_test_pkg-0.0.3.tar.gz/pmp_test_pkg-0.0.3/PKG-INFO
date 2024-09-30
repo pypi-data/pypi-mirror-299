@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pmp_test_pkg
+Version: 0.0.3
+Summary: A small test example package
+Author-email: Pimp My Package <in@pimpmypackage.com>
+License: Commercial License
+        Copyright (c) 2024 user-1
+        pmp-test-pkg is commercial software. Use of this software indicates agreement to the End User License Agreement (EULA) at https://pimpmypackage.com/packages/pmp-test-pkg/eula.
+        This means that you MUST purchase a commercial license at https://pimpmypackage.com/packages/pmp-test-pkg or have a use-case that is eligible for one of the non-commercial licenses detailed at https://pimpmypackage.com/packages/pmp-test-pkg.
+Project-URL: Homepage, https://pimpmypackage.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PMP Test Package
+
+A package to serve as an example for developers and also for testing PMP itself.
