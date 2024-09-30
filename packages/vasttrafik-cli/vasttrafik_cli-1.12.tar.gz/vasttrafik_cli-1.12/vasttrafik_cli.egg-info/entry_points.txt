@@ -1,0 +1,3 @@
+[console_scripts]
+resaplan = vasttrafik.cli:resaplanmain
+stops = vasttrafik.cli:stopsmain

@@ -1,0 +1,7 @@
+vasttrafik-cli (1.12-1) unstable; urgency=medium
+
+ The "trip" command has been renamed "resaplan" (which means travel planner in swedish).
+ .
+ This is because the trip name was causing a conflict with trippy.
+
+ -- Salvo 'LtWorf' Tomaselli <ltworf@debian.org>  Sun, 29 Sep 2024 23:31:10 +0200
