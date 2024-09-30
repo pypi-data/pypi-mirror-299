@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Divyaregu
+Version: 0.1.1
+Summary: A utility package for math, string, and file operations
+Author: Your Name
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
