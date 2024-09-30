@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hakkero-dataloader
+Version: 1.1.3
+Home-page: 
+Keywords: llm dataloader
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: msgpack>=0.5.2
+Requires-Dist: h5py
+Requires-Dist: bitarray>=2.9.2
+Requires-Dist: tabulate
+Requires-Dist: scipy
