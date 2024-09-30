@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "pybuildtools"
+version = "0.7.3"
+description = "A set of tools for putting together buildscripts and other CLI applications"
+authors = ["Rob Nelson <nexisentertainment@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://gitlab.com/N3X15/python-build-tools"
+repository = "https://gitlab.com/N3X15/python-build-tools.git"
+packages = [{ include = 'buildtools' }]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+colorama = "^0.4.6"
+Jinja2 = "3.1.2"
+psutil = "^6.0.0"
+lxml = "^5.3.0"
+pygit2 = "^1.15.1"
+requests = "^2.32.3"
+"ruamel.yaml" = "^0.18.6"
+six = "^1.16.0"
+toml = "^0.10.2"
+tqdm = "^4.66.5"
+Twisted = { version = "^24.7.0", optional = true }
+PyQt5 = { version = "^5.15.11", optional = true }
+#Nuitka = {git="https://github.com/Nuitka/Nuitka.git",branch="develop",optional=true}
+MarkupSafe = "^2.1.5"
+subprocess-tee = "^0.4.1"
+nuitka = { version = "^2.4.8", optional = true }
+
+[tool.poetry.extras]
+twisted = ["Twisted"]
+pyqt5 = ["PyQt5"]
+nuitka = ["nuitka"]
+all = ["nuitka", 'PyQt5', 'Twisted']
+# all = ['PyQt5','Twisted']
+
+[tool.poetry.group.dev.dependencies]
+build = "^1.2.2"
+isort = "^5.13.2"
+mypy = { extras = ["d"], version = "^1.11.2" }
+pytest = "^8.3.3"
+twine = "^5.1.1"
+autopep8 = "^2.3.1"
+types-requests = "^2.32.0.20240914"
+black = { extras = ["d"], version = "^24.8.0" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.autopep8]
+max_line_length = 200
+ignore = ['E6', 'E501']
+
+[tool.isort]
+line_length = 200
