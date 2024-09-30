@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pyexcreporter/__init__.py
+pyexcreporter/abstract_backend.py
+pyexcreporter/main.py
+pyexcreporter/singleton_meta.py
+pyexcreporter.egg-info/PKG-INFO
+pyexcreporter.egg-info/SOURCES.txt
+pyexcreporter.egg-info/dependency_links.txt
+pyexcreporter.egg-info/not-zip-safe
+pyexcreporter.egg-info/top_level.txt
+pyexcreporter/backends/__init__.py
+pyexcreporter/backends/smtp_backend.py
