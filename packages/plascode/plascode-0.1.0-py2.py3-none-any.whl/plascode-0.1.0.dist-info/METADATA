@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: plascode
+Version: 0.1.0
+Summary: Planning As Code
+Home-page: https://github.com/asterio/plascode
+Author: Asterio Gonzalez
+Author-email: asterio.gonzalez@gmail.com
+Keywords: plascode
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: agptools >=0.1.85
+Requires-Dist: syncmodels >=0.1.85
+Requires-Dist: pydantic
+Requires-Dist: datamodel-code-generator
+Requires-Dist: datamodel-code-generator[http]
+Requires-Dist: datamodel-code-generator[graphql]
+Requires-Dist: aiohttp
+Requires-Dist: aiocache
+Requires-Dist: Click
+Requires-Dist: glom
+Requires-Dist: jmespath
+Requires-Dist: fastapi
+Requires-Dist: geopy
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: surrealist
+Requires-Dist: uvicorn
+Requires-Dist: uvloop
+Requires-Dist: watchfiles
+Requires-Dist: websockets >=11.0
+Requires-Dist: faker
+
+================
+Planning As Code
+================
+
+
+
+
+
+
+Planning As Code
+
+
+
+Features
+----------------
+
+* TODO
+
+Before Coding
+----------------
+
+* create a virtual env
+
+.. code-block:: 
+  
+  python3 -m venv .venv
+  source .venv/bin/activate
+  make install-testing-requisites
+
+Credits
+----------------
+
+This package was created with Cookiecutter_ .
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+
+
+=======
+History
+=======
+
+0.1.0 (2024-09-30)
+------------------
+
+* First release on PyPI.
