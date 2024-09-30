@@ -1,0 +1,3 @@
+[console_scripts]
+grabber=script_grabber.grabber:main
+
