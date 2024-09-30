@@ -1,0 +1,25 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setup(
+    name="diffdewind",
+    version="0.2.0",
+    packages=find_packages(),
+    install_requires=[
+        "requests>=2.26.0",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=7.1.2",
+        ],
+    },
+    entry_points={
+        "console_scripts": [
+            "diffdewind=main:main",
+        ],
+    },
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+)
