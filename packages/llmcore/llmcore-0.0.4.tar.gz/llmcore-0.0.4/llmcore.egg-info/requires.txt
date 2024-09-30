@@ -1,0 +1,10 @@
+aiohttp
+numpy
+tiktoken
+chromadb
+networkx
+
+[dev]
+pytest==7.3.1
+pytest-asyncio
+pytest-mock
