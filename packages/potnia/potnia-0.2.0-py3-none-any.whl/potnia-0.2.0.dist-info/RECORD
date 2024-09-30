@@ -1,0 +1,15 @@
+potnia/__init__.py,sha256=4h6TbHaE522rQiHS66VgJ2VcoVZQqMxmOTz8OJqZ-xA,75
+potnia/data/logograms_common.yaml,sha256=fR-8ZEb4Wi6kf2dvwx61JQsciecidTlRXIqYwu3yWqA,1148
+potnia/data/logograms_unique_linear_a.yaml,sha256=gNtlX45vtNV00MXNqWG56IHBs4z2MMWAW3OtfN4JujQ,2922
+potnia/data/logograms_unique_linear_b.yaml,sha256=YaGIttkLkjBVCQ0iZkkZ0HPKeNs3iTK98cYD5C90oMg,6127
+potnia/data/syllabograms_common.yaml,sha256=y0vo0vZi0_gf6UOx735xA4cAZV2q7dXztKToEfrqIC4,725
+potnia/data/syllabograms_unique_linear_a.yaml,sha256=3hN62DTvgGeRkFpVZOZ92IDUtf0pqEW2nHSr8KU84GA,552
+potnia/data/syllabograms_unique_linear_b.yaml,sha256=J3L6jqrY9xG3lGO_7KpSkyqE27G2V6UGsNaePiPTdF4,562
+potnia/data.py,sha256=nXBXXc6Qf7jvIAL5k9JajslPjb-Ipw2anpXFfB60IEs,633
+potnia/linear_a.py,sha256=fdQbEtvBEu2bmWk-9JHBD6bNXXztT0sFchpovQq7CQo,1338
+potnia/linear_b.py,sha256=TQbPXhyXymhl7BR9CVFll5y12F6feJcTQHO3_fIzy0Y,8406
+potnia/mapper.py,sha256=BUsvWpdrndUZGBXklji5vVvBul5sCEOjcZpH3CYzFQI,1884
+potnia-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+potnia-0.2.0.dist-info/METADATA,sha256=R5Ixcl2CWdJ8z2aevJTzzlcYCOJz9Gsy7mevDbU1RLE,4747
+potnia-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+potnia-0.2.0.dist-info/RECORD,,
