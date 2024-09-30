@@ -1,0 +1,38 @@
+[project]
+name = "bird_identifier_adam_hendrickson"
+version = "0.0.1"
+authors = [
+  { name="Adam Hendrickson", email="a.m.Hendrickson423.gmail.com" },
+]
+description = "A Python package for bird identification."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/amhendrix/Bird-Identifier.git"
+Issues = "https://github.com/amhendrix/Bird-Identifier/issues.git"
+[tool.poetry]
+name = "bird-identifier"
+version = "0.1.0"
+description = "A Python package for bird identification."
+authors = ["Adam Hendrickson"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.26.0"
+typer = "^0.12.5"
+boto3 = "^1.35.28"
+marvin = "^2.3.7"
+twilio = "^9.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.8.3"]
+build-backend = "poetry.core.masonry.api"
