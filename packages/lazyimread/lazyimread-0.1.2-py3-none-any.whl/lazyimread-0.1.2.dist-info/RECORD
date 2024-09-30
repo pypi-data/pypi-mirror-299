@@ -1,0 +1,10 @@
+lazyimread/__init__.py,sha256=8IWfW9CE60Vv5PHCfVOg4BVRlavO4kMNVZD8ERKOQEs,1203
+lazyimread/async_utils.py,sha256=Nx7pR0uV3vG_F9oj5fqjZJOG5GerrKVVtwx4wv6kRPk,1948
+lazyimread/dimension_utils.py,sha256=I23FzMXScpO-IOAxUTB0_myNnipZZni4dQE4hCxtfAs,4437
+lazyimread/gui_utils.py,sha256=VtXDFZKecMsBan9hsQKbPd2ugpVnmv0zyodLt_aPYo0,4436
+lazyimread/lazyimread.py,sha256=2qwzC5ztJP2od-fhC-bBfb1nyWhNCLwAL8qJdGMeEGw,31043
+lazyimread/saving_utils.py,sha256=KU2Ozc9HK1q1pBDoM-mDChVy-PrUh5IhigaGsjFbNZM,5137
+lazyimread-0.1.2.dist-info/METADATA,sha256=6Ztgz-a-H6kYhw-4ASgBeqW8knd7dqi93mvlkJRPwyk,5579
+lazyimread-0.1.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+lazyimread-0.1.2.dist-info/licenses/LICENSE,sha256=JRBhWjJPbqNU-AVsOChuCoXeAeP6MK99Xnd4FlIVxq0,7606
+lazyimread-0.1.2.dist-info/RECORD,,
