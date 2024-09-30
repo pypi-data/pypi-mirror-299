@@ -1,0 +1,5 @@
+my_rust_lib-0.1.0.dist-info/METADATA,sha256=3vPlR6ESUHc7jXxMSQtytW7joKO7QWQ7aRIN32vjNLA,260
+my_rust_lib-0.1.0.dist-info/WHEEL,sha256=Eon-X1H-_QAARJHJrle01PrnTNoTi49kSjaP6kGdlhU,108
+my_rust_lib/__init__.py,sha256=VURMrrCr9XsZou_NEGrOvL_TWGteciHnHe1kEuSaYvM,127
+my_rust_lib/my_rust_lib.cpython-310-x86_64-linux-gnu.so,sha256=ko8A2bVnXpJF1qdpxQRrQ7kZ4LJ1vVyZQnPpZqkH-OU,522968
+my_rust_lib-0.1.0.dist-info/RECORD,,
