@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+aurastream_client/__init__.py
+aurastream_client/api.py
+aurastream_client/config.py
+aurastream_client.egg-info/PKG-INFO
+aurastream_client.egg-info/SOURCES.txt
+aurastream_client.egg-info/dependency_links.txt
+aurastream_client.egg-info/requires.txt
+aurastream_client.egg-info/top_level.txt
+tests/__init__.py
+tests/test_api.py
