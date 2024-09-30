@@ -1,0 +1,11 @@
+open_copilot_cli/__init__.py,sha256=KQuc3IDkhJ64wy_e2E_lw929o1m65Hdbs7j_rUoYu3o,1132
+open_copilot_cli/__main__.py,sha256=jzy4u87j9kKxx_El5v3AMKDD1TXSQHWB1L6Is5166vo,130
+open_copilot_cli/app.py,sha256=LSSmLp_iqw-IVWeoOl5BAnl6uV-bhAd3qxWk_9AO5cw,415
+open_copilot_cli/commands/__init__.py,sha256=N_84MF7kM0HCEERmxZSHzG-g-ZTvSjtBgWoiJ_I1jQQ,176
+open_copilot_cli/commands/ai.py,sha256=N6lTszYAOgEarN32-NxYmQWEeAuCaB6wPWtULJNtCfg,1330
+open_copilot_cli/commands/chat.py,sha256=jVakpdy7cVVwWAGjdKY3wlWd_XOE2yu6ZBKtQ3A7Z68,3329
+open_copilot_cli-0.1.3.dist-info/LICENSE,sha256=Zo5PuaTrrV44clxzVw37PRU85t-nEerih6lzEp4N9AU,1074
+open_copilot_cli-0.1.3.dist-info/METADATA,sha256=SefQ3kOkDD1yRCkf7qktV74Sdjlo_nISx9816-Om5ts,2758
+open_copilot_cli-0.1.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+open_copilot_cli-0.1.3.dist-info/entry_points.txt,sha256=Bhf5xYsnYKdZ_Xwk0s58P7w5H51dXb4tVN-wiorJiy4,66
+open_copilot_cli-0.1.3.dist-info/RECORD,,
