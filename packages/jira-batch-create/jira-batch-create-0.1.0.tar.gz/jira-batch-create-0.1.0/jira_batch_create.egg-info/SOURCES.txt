@@ -1,0 +1,9 @@
+README.md
+setup.py
+jira-batch-create/__init__.py
+jira-batch-create/creator.py
+jira_batch_create.egg-info/PKG-INFO
+jira_batch_create.egg-info/SOURCES.txt
+jira_batch_create.egg-info/dependency_links.txt
+jira_batch_create.egg-info/requires.txt
+jira_batch_create.egg-info/top_level.txt
