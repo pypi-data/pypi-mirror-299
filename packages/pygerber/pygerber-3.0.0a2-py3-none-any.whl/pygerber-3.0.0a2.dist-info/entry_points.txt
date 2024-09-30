@@ -1,0 +1,7 @@
+[console_scripts]
+pygerber=pygerber.__main__:main
+
+[pygments.lexers]
+gerber_lexer=pygerber.gerber.pygments:GerberLexer
+pygerber_docs_lexer=pygerber.gerber.pygments:PyGerberDocsLexer
+
