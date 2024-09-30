@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: oban_classifier
+Version: 0.1.19.1
+Summary: OBAN Classifier: A Skorch-based flexible neural network for binary and multiclass classification
+Author: Dr. Volkan OBAN
+Author-email: volkanobn@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: scikit-learn
+Requires-Dist: skorch
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
