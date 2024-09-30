@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spacy_to_hf/__init__.py
+spacy_to_hf/conversion.py
+spacy_to_hf/utils.py
+spacy_to_hf.egg-info/PKG-INFO
+spacy_to_hf.egg-info/SOURCES.txt
+spacy_to_hf.egg-info/dependency_links.txt
+spacy_to_hf.egg-info/requires.txt
+spacy_to_hf.egg-info/top_level.txt
+tests/test_conversion.py
