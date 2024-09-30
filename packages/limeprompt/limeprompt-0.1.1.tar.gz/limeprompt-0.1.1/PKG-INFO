@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: limeprompt
+Version: 0.1.1
+Summary: Light weight prompting and parsing library for LLM models
+Home-page: https://github.com/iam-abbas/limeprompt
+License: MIT
+Keywords: llm,prompt,ai,openai,anthropic
+Author: Abbas J
+Author-email: abbas@altair.so
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: anthropic (>=0.34.2,<0.35.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Project-URL: Repository, https://github.com/iam-abbas/limeprompt
+Description-Content-Type: text/markdown
+
+# Limeprompt 🍋
+
+Lightweight prompting and parsing library for LLM models.
+
+## What is Limeprompt?
+
+Limeprompt is an opinionated and lightweight prompting and parsing library for LLM models. It aims to make it easy to generate structured outputs from language models. The library is designed to be simple to use, with a single use-case in mind: generating structured outputs from language models. There wont be any support for multi-agent or complex prompting use-cases.
+
+## Installation
+
+```bash
+pip install limeprompt
+```
+
+## Example Usage
+
+Here's a simple example to get you started:
+
+```python
+from anthropic import Anthropic
+from pydantic import BaseModel
+from limeprompt import Limeprompt
+
+# Define your output structure
+class Email(BaseModel):
+    subject: str
+    message: str
+
+# Set up your Anthropic client
+anthropic_client = Anthropic(api_key='your-api-key')
+
+# Create a Limeprompt instance
+lp = Limeprompt(
+    model_client=anthropic_client,
+    model_name='claude-3-5-sonnet-20240620',
+    prompt="Write an email to <name> about <topic>",
+    variables={"name": "Alice", "topic": "limes"},
+    output_model=Email,
+    max_tokens=1024
+)
+
+# Run and get your results
+result = lp.run()
+
+print(f"Subject: {result.output.subject}")
+print(f"Message: {result.output.message}")
+```
+
+## Contributing
+
+You are welcome to open issues or submit PRs. Here's my todo list for the library:
+
+- [ ] Add support for OpenAI
+- [ ] Modularize the prompting techniques
+- [ ] Add support for few-shot prompting
+
+## License
+
+Limeprompt is released under the MIT License. Feel free to use it in your projects.
+
