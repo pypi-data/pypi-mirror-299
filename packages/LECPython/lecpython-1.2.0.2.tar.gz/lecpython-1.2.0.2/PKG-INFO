@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: LECPython
+Version: 1.2.0.2
+Summary: LECPython is a Python component developed in C# that enables seamless communication between Python and PLCs. It supports the majority of PLCs available in the market, including those supporting Modbus protocol, Mitsubishi, Siemens, Omron, Rockwell, Keyence PLC, Delta, Beckhoff, Panasonic, Inovance, Fuji, EverSensing, Schneider, and more. This component is standalone, requiring no additional third-party PLC controls for support.
+Home-page: https://github.com/xeden3/LECPython
+Author: xeden3
+Author-email: james@sctmes.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: pythonnet==3.0.4
+
+# LECPython
+
+LECPython is a Python component developed in C# that enables seamless communication between Python and PLCs. It requires .NET 8 runtime support, which can be installed using the provided `install_dotnet8.py` script. It supports a wide range of PLCs available in the market, including those supporting the Modbus protocol, Mitsubishi, Siemens, Omron, Rockwell, Keyence PLC, Delta, Beckhoff, Panasonic, Inovance, Fuji, EverSensing, Schneider, and more. This component is standalone, requiring no additional third-party PLC controls for support.
+
+## Installation
+
+Before installing LECPython, ensure you have the .NET 8 runtime installed. You can use the provided `install_dotnet8.py` script to install .NET 8:
+
+```bash
+python install_dotnet8.py
+```
+
+Ensure you have Python installed. You can install LECPython using pip:
+
+```bash
+pip install LECPython
+```
+
+LECPython requires `pythonnet==3.0.4`. You can install it using:
+
+```bash
+pip install pythonnet==3.0.4
+```
+
+## Usage
+
+Here's a basic example of how to use LECPython:
+
+```python
+from LECPython import LECPython
+
+if __name__ == "__main__":
+    lecp = LECPython()
+    try:
+        # Establish a connection to the Modbus TCP network using specified parameters
+        result = lecp.ModbusTcpNetConnection("192.168.31.64", 502, 1, "CDAB", True, 2000)
+        print("ModbusTcpNetConnection called successfully:", result["ErrorCode"])
+        
+        # Read node values from the connected PLC
+        rtval = lecp.ReadNodeValues(result["Content"], "0", "float", 10)
+        print(f"The rtval is: {rtval}")
+        
+        # Call the Test method to perform a test operation
+        print(lecp.Test())
+        
+        # Write node values to the connected PLC
+        rtval = lecp.WriteNodeValues(result["Content"], "0", "float", [88.123])
+        print(f"The rtval is: {rtval}")
+        
+        # Read node values again to verify the write operation
+        rtval = lecp.ReadNodeValues(result["Content"], "0", "float", 10)
+        print(f"The rtval is: {rtval}")
+    except AttributeError as e:
+        print(e)
+```
+
+## Features
+
+- Supports multiple PLC protocols including Modbus, Mitsubishi, Siemens, and more.
+- Easy to use API for connecting and communicating with PLCs.
+- Standalone component with no need for additional third-party PLC controls.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
