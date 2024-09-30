@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: smooth-knn
+Version: 0.0.1
+Summary: Smooth k-nearest neighbors classifier
+Project-URL: Homepage, https://github.com/marekm4/smooth-knn
+Project-URL: Issues, https://github.com/marekm4/smooth-knn/issues
+Author-email: Marek Michalik <marekmichalik43@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+Smooth k-nearest neighbors classifier
