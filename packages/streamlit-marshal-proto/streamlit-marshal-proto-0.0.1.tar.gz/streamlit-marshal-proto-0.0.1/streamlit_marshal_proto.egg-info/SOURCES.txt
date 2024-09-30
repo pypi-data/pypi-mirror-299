@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+streamlit_marshal_proto/__init__.py
+streamlit_marshal_proto/pypi_readme.md
+streamlit_marshal_proto.egg-info/PKG-INFO
+streamlit_marshal_proto.egg-info/SOURCES.txt
+streamlit_marshal_proto.egg-info/dependency_links.txt
+streamlit_marshal_proto.egg-info/requires.txt
+streamlit_marshal_proto.egg-info/top_level.txt
+streamlit_marshal_proto/frontend/dist/index.html
+streamlit_marshal_proto/frontend/dist/vite.svg
+streamlit_marshal_proto/frontend/dist/assets/index-CiUi6YWB.js

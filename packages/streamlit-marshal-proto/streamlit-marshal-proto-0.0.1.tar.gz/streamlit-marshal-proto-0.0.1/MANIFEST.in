@@ -1,0 +1,2 @@
+recursive-include streamlit_marshal_proto/frontend/dist *
+include streamlit_marshal_proto/pypi_readme.md

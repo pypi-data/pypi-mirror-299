@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: streamlit-marshal-proto
+Version: 0.0.1
+Summary: 使用 vite 和 vanillajs 编写的 Streamlit proto 示例
+Home-page: https://github.com/MarshalW/streamlit-demo/tree/main/src/7.custom-components-proto
+Author: Marshal Wu
+Author-email: marshal.wu@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/MarshalW/streamlit-demo/tree/main/src/7.custom-components-proto
+Keywords: some,key,word
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# streamlit-marshal-proto
+
+Streamlit vite+vanillajs 最简单组件示例
+
+安装:
+
+```
+pip install streamlit-marshal-proto
+```
+
+使用:
+
+```
+import streamlit-marshal-proto
+
+..
+```
+
