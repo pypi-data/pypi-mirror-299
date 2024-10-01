@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rcaide_sai
+Version: 24.1.0
+Summary: RCAIDE: Research Community Aerospace Interdisciplinary Design Environment
+Home-page: https://github.com/ssankalp26/RCAIDE
+Author: RCAIDE Trust
+Maintainer: The Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: plotly
+Requires-Dist: matplotlib
+Requires-Dist: kaleido
+Requires-Dist: pandas
+Requires-Dist: geopy
+Requires-Dist: importlib_metadata
