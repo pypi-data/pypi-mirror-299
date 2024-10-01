@@ -1,0 +1,10 @@
+pyobjectID/__init__.py,sha256=tD5ndau9gdVqJOZbUOcahcF3QSVFrQqEt0PBfrPK3vk,438
+pyobjectID/errors.py,sha256=xx96m861IanArOJsyrMjZDkUHcD4IxrLIc4U2-AM80k,1437
+pyobjectID/generate.py,sha256=Sc4cY-Vruaa47XoP310Kd9hRQNy2bfmiYSIS2Wb0XMw,1036
+pyobjectID/object_to_string.py,sha256=VjRfc65A9wlc8R4wkdQSLHw1Eb8Tj-fTFbwsUYVw3Gc,1729
+pyobjectID/string_to_object.py,sha256=cylKxBXYRPoQinAHMwvV0gbR0jMEbmUU9GglyNmMBWE,2022
+pyobjectID/validate.py,sha256=UwHCgM7SVCFvslRyme6LqtSjjJOf1QzRu9AreHZFKZY,1332
+pyobjectID-0.1.dist-info/METADATA,sha256=DjVzdqOQaO4g29jFfbBmWGIEYP6tQjT3KFb-hGJAbwI,395
+pyobjectID-0.1.dist-info/WHEEL,sha256=pL8R0wFFS65tNSRnaOVrsw9EOkOqxLrlUPenUYnJKNo,91
+pyobjectID-0.1.dist-info/top_level.txt,sha256=3IBZZXnyox_D5B7CViqrWss1Dh6CdKA8e-CZYWbAYG4,11
+pyobjectID-0.1.dist-info/RECORD,,
