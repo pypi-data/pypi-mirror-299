@@ -1,0 +1,5 @@
+scriptengine>=1.0.0
+
+[docs]
+sphinx
+sphinx-rtd-theme

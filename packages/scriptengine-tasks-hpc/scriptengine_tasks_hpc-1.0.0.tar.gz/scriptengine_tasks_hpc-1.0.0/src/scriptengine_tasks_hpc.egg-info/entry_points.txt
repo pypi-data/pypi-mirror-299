@@ -1,0 +1,4 @@
+[scriptengine.tasks]
+hpc.module = hpctasks.module:Module
+hpc.module.load = hpctasks.module:ModuleLoad
+hpc.slurm.sbatch = hpctasks.slurm:Sbatch

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hpctasks/__init__.py
+src/hpctasks/module.py
+src/hpctasks/slurm.py
+src/scriptengine_tasks_hpc.egg-info/PKG-INFO
+src/scriptengine_tasks_hpc.egg-info/SOURCES.txt
+src/scriptengine_tasks_hpc.egg-info/dependency_links.txt
+src/scriptengine_tasks_hpc.egg-info/entry_points.txt
+src/scriptengine_tasks_hpc.egg-info/requires.txt
+src/scriptengine_tasks_hpc.egg-info/top_level.txt
