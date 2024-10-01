@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: preprokit
+Version: 0.1.0.0
+Summary: preprokit is a comprehensive data preprocessing library designed to streamline the data preparation process for data scientists and machine learning practitioners. The library provides an intuitive interface and robust functionalities to handle various preprocessing tasks, ensuring that users can efficiently prepare their datasets for analysis and modeling.
+Home-page: https://github.com/shammeer-s/preprokit
+Author: Mohammed Shammeer
+Author-email: mohammedshammeer.s@gmail.com
+Keywords: preprokit,preprocessing
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Hello World!
