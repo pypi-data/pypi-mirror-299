@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Subha_Package.egg-info/PKG-INFO
+Subha_Package.egg-info/SOURCES.txt
+Subha_Package.egg-info/dependency_links.txt
+Subha_Package.egg-info/top_level.txt
