@@ -1,0 +1,15 @@
+e84-geoai-common>=0.0.1
+requests>=2.32.3
+
+[demo]
+streamlit>=1.38.0
+streamlit-folium>=0.22.1
+
+[dev]
+pytest>=8.3.3
+ipykernel>=6.29.5
+black>=24.8.0
+pyright>=1.1.381
+build>=1.2.2
+pre-commit>=3.8.0
+pre-commit-hooks>=4.6.0
