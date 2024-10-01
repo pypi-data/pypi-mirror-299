@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hmathtools
+Version: 1.0
+Summary: A simple package that uses NumPy .
+Home-page: https://github.com/your_username/my_package
+Author: Harman Singh
+Author-email: the.programming.hacker.hk+1@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: numpy
