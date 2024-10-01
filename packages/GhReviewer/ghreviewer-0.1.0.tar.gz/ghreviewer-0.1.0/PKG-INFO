@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: GhReviewer
+Version: 0.1.0
+Summary: A tool for systematically reviewing GitHub repositories
+Author: Jon Cavallie Mester
+Author-email: jonmester3@gmail.com
+Requires-Dist: pandas==2.2.3
+Requires-Dist: PyQt5==5.15.11
+Requires-Dist: PyQt5_sip==12.15.0
+Requires-Dist: Requests==2.32.3
+Requires-Dist: setuptools==75.1.0

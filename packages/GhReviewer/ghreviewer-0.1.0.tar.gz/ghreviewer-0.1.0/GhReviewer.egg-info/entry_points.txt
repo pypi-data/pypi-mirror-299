@@ -1,0 +1,2 @@
+[console_scripts]
+ghreview = github_review_app:main

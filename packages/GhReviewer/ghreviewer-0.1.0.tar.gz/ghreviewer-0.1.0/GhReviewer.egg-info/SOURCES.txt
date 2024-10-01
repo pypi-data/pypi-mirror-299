@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+github_review_app.py
+setup.py
+GhReviewer.egg-info/PKG-INFO
+GhReviewer.egg-info/SOURCES.txt
+GhReviewer.egg-info/dependency_links.txt
+GhReviewer.egg-info/entry_points.txt
+GhReviewer.egg-info/requires.txt
+GhReviewer.egg-info/top_level.txt
