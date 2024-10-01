@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+include examples/*.py
+include src/pysoem/cpysoem.pxd
+include src/pysoem/pysoem.pyx
+include src/pysoem/pysoem.c
+recursive-include soem *.h *.c
