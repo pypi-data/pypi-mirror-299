@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+thoughtscript/__init__.py
+thoughtscript/jtools1.py
+thoughtscript/jtools2.py
+thoughtscript.egg-info/PKG-INFO
+thoughtscript.egg-info/SOURCES.txt
+thoughtscript.egg-info/dependency_links.txt
+thoughtscript.egg-info/requires.txt
+thoughtscript.egg-info/top_level.txt
