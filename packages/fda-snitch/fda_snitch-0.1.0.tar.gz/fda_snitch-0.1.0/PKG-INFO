@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fda_snitch
+Version: 0.1.0
+Summary: FDA Snitch package 
+Author: Casper Kaandorp
+Author-email: casper@compunist.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# fda_snitch
+
+Simple package that registers if the computer has access to wifi.
