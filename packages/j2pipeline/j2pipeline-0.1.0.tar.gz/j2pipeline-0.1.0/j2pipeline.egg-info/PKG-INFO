@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: j2pipeline
+Version: 0.1.0
+Summary: Create LLM pipelines with ease!
+Home-page: https://github.com/yaz008/j2pipeline.git
+Author: Emelianov Artem
+Author-email: yaz008.yaz008@yandex.ru
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# J2pipeline
+
+## License
+
+J2pipeline is a free, open-source software distributed under the [MIT License](LICENSE.txt)
