@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: calculadora-do-jose
+Version: 0.1.0
+Summary: Uma calculadora simples para somar, subtrair, multiplicar e dividir.
+Author: José Eduardo
+Author-email: josedumoura@gmail.com
+Requires-Python: >=3.6
+
