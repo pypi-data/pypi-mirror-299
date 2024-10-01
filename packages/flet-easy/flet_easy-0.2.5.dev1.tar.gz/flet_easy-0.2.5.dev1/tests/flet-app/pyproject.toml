@@ -1,0 +1,9 @@
+[project]
+name = "flet-app"
+version = "0.1.0"
+license = "MIT"
+dependencies = ["flet>=0.21.*", "flet-easy>=0.2.*", "peewee"]
+
+[[project.authors]]
+name = "Jviduz"
+email = "Jviduz@gmail.com"
