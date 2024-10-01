@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/i3_screen_util/__init__.py
+src/i3_screen_util/args.py
+src/i3_screen_util/lockscreen.py
+src/i3_screen_util/monitor_controller.py
+src/i3_screen_util/workspace_formatter.py
+src/i3_screen_util.egg-info/PKG-INFO
+src/i3_screen_util.egg-info/SOURCES.txt
+src/i3_screen_util.egg-info/dependency_links.txt
+src/i3_screen_util.egg-info/entry_points.txt
+src/i3_screen_util.egg-info/top_level.txt
+tests/test_integration.py
