@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+setup.py
+trajectorylib/__init__.py
+trajectorylib.egg-info/PKG-INFO
+trajectorylib.egg-info/SOURCES.txt
+trajectorylib.egg-info/dependency_links.txt
+trajectorylib.egg-info/requires.txt
+trajectorylib.egg-info/top_level.txt

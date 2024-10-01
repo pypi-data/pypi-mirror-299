@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: trajectorylib
+Version: 0.1.0
+Summary: A package for analyzing trajectory data from naturalistic driving
+Home-page: https://github.com/AARC-lab/trajectorypy
+Author: Rahul Bhadani, Richar Oppiyo
+Author-email: rahul.bhadani@uah.edu
+License: MIT
+Project-URL: Documentation, https://aarc-lab.github.io/trajectorypy
+Project-URL: Source Code, https://github.com/AARC-lab/trajectorypy
+Keywords: trajectory analysis machine learning autonomous vehicles transportation traffic
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+
+# Trajectory
