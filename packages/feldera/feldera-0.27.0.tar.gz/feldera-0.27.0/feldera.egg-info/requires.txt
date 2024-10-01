@@ -1,0 +1,4 @@
+requests
+pandas
+typing-extensions
+numpy<2
