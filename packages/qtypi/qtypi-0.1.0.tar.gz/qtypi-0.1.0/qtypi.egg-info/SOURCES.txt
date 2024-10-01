@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+qtypi/__init__.py
+qtypi/quantum_gates.py
+qtypi/quantum_state.py
+qtypi.egg-info/PKG-INFO
+qtypi.egg-info/SOURCES.txt
+qtypi.egg-info/dependency_links.txt
+qtypi.egg-info/requires.txt
+qtypi.egg-info/top_level.txt
+tests/test_qtypi.py
