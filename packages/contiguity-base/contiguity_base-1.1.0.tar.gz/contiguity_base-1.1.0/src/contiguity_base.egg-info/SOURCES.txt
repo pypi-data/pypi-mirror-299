@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/contiguity_base/__init__.py
+src/contiguity_base/base.py
+src/contiguity_base/py.typed
+src/contiguity_base.egg-info/PKG-INFO
+src/contiguity_base.egg-info/SOURCES.txt
+src/contiguity_base.egg-info/dependency_links.txt
+src/contiguity_base.egg-info/requires.txt
+src/contiguity_base.egg-info/top_level.txt
