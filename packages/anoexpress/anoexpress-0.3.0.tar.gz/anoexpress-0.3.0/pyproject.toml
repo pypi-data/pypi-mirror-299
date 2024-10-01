@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "anoexpress"
+version = "0.3.0"
+description = "A package to access insecticide resistance gene expression meta analyse in Anopheles mosquitoes"
+readme = "README.md"
+documentation = "https://sanjaynagi.github.io/AnoExpress/"
+repository = "https://github.com/sanjaynagi/AnoExpress"
+authors = [
+    "Sanjay Nagi <sanjay.nagi@lstmed.ac.uk>",
+    ]
+packages = [
+    { include = "anoexpress" }
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+malariagen_data = ">10.0.1"
+papermill = "*"
+ipykernel = "*"
+scikit-allel="*"
+pandas = "*"
+seaborn = "*"
+numpy = "1.23.1"
+bokeh = "*"
+plotly = "5.11"
+scipy = "*"
+tqdm = "*"
+statsmodels = "*"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "*"
+black = "*"
+pytest = "*"
+notebook = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
