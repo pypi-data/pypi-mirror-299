@@ -1,0 +1,13 @@
+SimpleITK
+bson
+dictances==1.5.3
+jsonschema
+miseval==1.2.2
+nibabel
+numba
+numpy==1.21.0
+opencv-python
+pandas
+pycocotools
+pydicom
+scikit-learn
