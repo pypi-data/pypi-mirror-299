@@ -1,0 +1,14 @@
+mercuryfieldservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mercuryfieldservice/base.py,sha256=a3rxYzfwZfFTYBmNsXTnUrSK5bID1sdfe9LfhEXgqSE,3618
+mercuryfieldservice/exceptions.py,sha256=ASRUunf2ERHIFI-EwGLdJ_nqEBum5IebDBJ_fCHdLII,1612
+mercuryfieldservice/fields.py,sha256=o7uvpbtpabPWL1md67K9G_BA05zh9W7T7sxhqe205Y0,6275
+mercuryfieldservice/managers.py,sha256=zC7_j2G5Fb-KEfBAEd4jn7PtOPZ1AkW1U7p6ngbfW2M,2930
+mercuryfieldservice/record_manager.py,sha256=rv0Gv7CQ-TG9oCfXTLnG31sONwT81j0mD9v-3fVd0F4,3462
+mercuryfieldservice/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mercuryfieldservice/client/connection.py,sha256=1Mi5djbnj1ySnn5veYkkNi6NOvCe0eAZxNXsEQPICEg,4848
+mercuryfieldservice/client/zendesk_manager.py,sha256=FO6SNb8HzZA903zT1G5xTqeFM73hKz9UmEnBAh5-QM4,9619
+mercury_field_service-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+mercury_field_service-0.1.0.dist-info/METADATA,sha256=W6-DI2Zx6lhwYApFY7eZqGYIJJFrJEnP-e83IEZRDm4,4522
+mercury_field_service-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mercury_field_service-0.1.0.dist-info/top_level.txt,sha256=BYoCIB1TC_A1s91DvPvymFYgziuMsnfNQGmBcmrjVBY,20
+mercury_field_service-0.1.0.dist-info/RECORD,,
