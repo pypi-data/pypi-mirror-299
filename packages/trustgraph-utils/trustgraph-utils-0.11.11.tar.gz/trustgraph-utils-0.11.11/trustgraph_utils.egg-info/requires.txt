@@ -1,0 +1,4 @@
+trustgraph-base
+requests
+pulsar-client
+tabulate
