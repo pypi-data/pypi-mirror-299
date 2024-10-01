@@ -1,0 +1,5 @@
+setup.py
+df_self_checkout.egg-info/PKG-INFO
+df_self_checkout.egg-info/SOURCES.txt
+df_self_checkout.egg-info/dependency_links.txt
+df_self_checkout.egg-info/top_level.txt
