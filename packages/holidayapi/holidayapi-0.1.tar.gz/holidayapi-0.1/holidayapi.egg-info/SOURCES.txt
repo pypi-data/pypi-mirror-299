@@ -1,0 +1,7 @@
+README.md
+setup.py
+holidayapi.egg-info/PKG-INFO
+holidayapi.egg-info/SOURCES.txt
+holidayapi.egg-info/dependency_links.txt
+holidayapi.egg-info/requires.txt
+holidayapi.egg-info/top_level.txt
