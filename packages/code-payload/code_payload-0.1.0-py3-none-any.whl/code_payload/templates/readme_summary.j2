@@ -1,0 +1,15 @@
+# Project Summary
+
+## Project Root
+{{ project_structure.r }}
+
+## Files Summary
+
+{% if project_structure.f %}
+    {% for file in project_structure.f %}
+    - **{{ file.p }}**{% if file.e %}: {{ file.e }}{% else %}:
+        - Content Summary: {{ file.c[:100] }}...{% endif %}
+    {% endfor %}
+{% else %}
+    - No files were processed or found.
+{% endif %}

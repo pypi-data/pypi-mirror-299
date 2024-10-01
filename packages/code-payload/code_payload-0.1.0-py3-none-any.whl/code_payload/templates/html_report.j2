@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .file { margin-bottom: 20px; }
+        .path { font-weight: bold; color: #2a9d8f; }
+        .error { color: #e63946; }
+        .summary { font-style: italic; }
+        .no-files { color: #e76f51; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Project Report</h1>
+    <h2>Project Root</h2>
+    <p>{{ project_structure.r }}</p>
+    <h2>Files</h2>
+    {% if project_structure.f %}
+        {% for file in project_structure.f %}
+        <div class="file">
+            <div class="path">{{ file.p }}</div>
+            {% if file.e %}
+            <div class="error">Error: {{ file.e }}</div>
+            {% else %}
+            <div class="summary">Content Summary: {{ file.c[:100] }}...</div>
+            {% endif %}
+        </div>
+        {% endfor %}
+    {% else %}
+        <p class="no-files">No files were processed or found.</p>
+    {% endif %}
+</body>
+</html>
