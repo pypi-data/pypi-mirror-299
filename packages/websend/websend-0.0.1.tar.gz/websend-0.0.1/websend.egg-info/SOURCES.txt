@@ -1,0 +1,7 @@
+setup.py
+websend/__init__.py
+websend/websend.py
+websend.egg-info/PKG-INFO
+websend.egg-info/SOURCES.txt
+websend.egg-info/dependency_links.txt
+websend.egg-info/top_level.txt
