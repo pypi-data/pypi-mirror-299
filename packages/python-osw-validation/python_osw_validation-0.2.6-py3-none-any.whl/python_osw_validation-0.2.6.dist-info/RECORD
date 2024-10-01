@@ -1,0 +1,10 @@
+python_osw_validation/__init__.py,sha256=CToPu6up1oroUOG7sl15uNclhwTznBOGBRlpeN9q1Eo,7351
+python_osw_validation/extracted_data_validator.py,sha256=1QFVVJRpkx8HfAWJmtJ2PxPBsD-UVsNk5I2VFzVJ5Ps,3333
+python_osw_validation/version.py,sha256=G3YzB5xTyZTVDHgjxzwfUZHPQbqRjfJO_4NfpO-O5Lg,21
+python_osw_validation/zipfile_handler.py,sha256=lCRraGcysxelVKswQw1r-i_9kGQGvRQk7hJkWUwiAPk,2692
+python_osw_validation/schema/opensidewalks.schema.json,sha256=i0iJwb_4Tq20BVUpkpgyM_7fm4SW_d_HNXKw0xul7OA,240987
+python_osw_validation-0.2.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+python_osw_validation-0.2.6.dist-info/METADATA,sha256=d7VByKt099S5QEjzVuT4K0Rveb1ZLNFi3Tn8MJXMsoc,6114
+python_osw_validation-0.2.6.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+python_osw_validation-0.2.6.dist-info/top_level.txt,sha256=GE81UPcDHEffJCxYu3M_iPz3Dt-O3axB73R5SLm_Veo,22
+python_osw_validation-0.2.6.dist-info/RECORD,,
