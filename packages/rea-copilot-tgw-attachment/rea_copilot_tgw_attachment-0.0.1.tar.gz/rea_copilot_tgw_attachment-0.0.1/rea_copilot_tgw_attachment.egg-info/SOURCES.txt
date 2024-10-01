@@ -1,0 +1,5 @@
+setup.py
+rea_copilot_tgw_attachment.egg-info/PKG-INFO
+rea_copilot_tgw_attachment.egg-info/SOURCES.txt
+rea_copilot_tgw_attachment.egg-info/dependency_links.txt
+rea_copilot_tgw_attachment.egg-info/top_level.txt
