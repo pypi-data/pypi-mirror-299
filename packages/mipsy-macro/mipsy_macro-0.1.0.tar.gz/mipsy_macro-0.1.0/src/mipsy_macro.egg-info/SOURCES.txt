@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/mipsy_macro/__init__.py
+src/mipsy_macro/cli.py
+src/mipsy_macro/macro.py
+src/mipsy_macro.egg-info/PKG-INFO
+src/mipsy_macro.egg-info/SOURCES.txt
+src/mipsy_macro.egg-info/dependency_links.txt
+src/mipsy_macro.egg-info/entry_points.txt
+src/mipsy_macro.egg-info/top_level.txt
+src/mipsy_macro/resources/reserved_words.json
