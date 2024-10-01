@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "muffin-ml" # replace with package name
+version = "0.0.0"
+description = "placeholder"
+authors = [
+{ name = "LV GI Data Science Team", email = "#DataSciencePackages@lv.co.uk"}
+]
