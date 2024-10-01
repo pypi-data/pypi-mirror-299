@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .menu {
+    @apply dark:bg-cardPrincipal bg-white shadow-lg row-span-12 lg:col-span-2;
+  }
+
+  .card-button-menu{
+    @apply bg-white flex flex-col m-2 justify-center justify-between items-center gap-4;
+  }

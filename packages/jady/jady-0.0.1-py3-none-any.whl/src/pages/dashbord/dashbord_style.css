@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ .dasboard-layout {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 grid-rows-12  dark:bg-background min-h-screen ;
+  }

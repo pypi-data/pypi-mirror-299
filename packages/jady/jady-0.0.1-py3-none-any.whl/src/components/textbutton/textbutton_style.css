@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-btn-custom {
+    @apply text-blue-400 font-bold py-2 px-4 ;
+}
+
+.text-btn-custom:hover {
+    @apply text-blue-700;
+}
+
+.btn-custom:focus {
+    @apply outline-none ring-2 ring-blue-400 ring-opacity-75;
+}
