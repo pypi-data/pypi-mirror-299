@@ -1,0 +1,7 @@
+setup.py
+better_random/__init__.py
+better_random/core.py
+better_random.egg-info/PKG-INFO
+better_random.egg-info/SOURCES.txt
+better_random.egg-info/dependency_links.txt
+better_random.egg-info/top_level.txt
