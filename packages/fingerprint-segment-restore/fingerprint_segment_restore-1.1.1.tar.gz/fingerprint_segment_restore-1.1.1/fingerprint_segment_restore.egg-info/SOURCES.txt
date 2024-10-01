@@ -1,0 +1,16 @@
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+docs/data_split/diag.png
+docs/readme/diag.png
+fingerprint_segment_restore.egg-info/PKG-INFO
+fingerprint_segment_restore.egg-info/SOURCES.txt
+fingerprint_segment_restore.egg-info/dependency_links.txt
+fingerprint_segment_restore.egg-info/entry_points.txt
+fingerprint_segment_restore.egg-info/not-zip-safe
+fingerprint_segment_restore.egg-info/requires.txt
+fingerprint_segment_restore.egg-info/top_level.txt
