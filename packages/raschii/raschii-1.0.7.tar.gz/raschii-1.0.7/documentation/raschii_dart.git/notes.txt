@@ -1,0 +1,30 @@
+Notes
+=====
+
+Notes for those not very familiar with Dart development and tools
+(this includes the main author of RaschiiDart).
+
+
+Building
+--------
+
+To build the two artifacts that make of RaschiiDart:
+
+raschi_web.html:
+    do nothing, this is already ready
+
+raschii.js:
+    Run dart2js on raschi_web.dart to generate this file:
+
+    dart2js raschii_web.dart -o raschii.js
+
+    You can add a flag "-m" to generate smaller code. This is recommended
+    if you are not debugging the generated Javascript).
+
+
+Unit testing
+------------
+
+To run the unit tests use the `pub` command:
+
+    pub run tests

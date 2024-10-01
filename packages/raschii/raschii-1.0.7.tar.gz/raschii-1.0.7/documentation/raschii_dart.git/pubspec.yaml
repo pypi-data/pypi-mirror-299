@@ -1,0 +1,10 @@
+name: raschii
+version: 1.0.0-alpha.1
+author: Tormod Landet
+homepage: https://bitbucket.org/trlandet/raschiidart
+description: |
+  RaschiiDart is a Dart port of the Raschii Python library for constructing
+  non-linear regular waves. Supported wave theories are Airy, Stokes and
+  Fenton stream function waves.
+dev_dependencies:
+  test: ^0.12.0
