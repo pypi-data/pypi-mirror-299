@@ -1,0 +1,1 @@
+https://github.com/HammadK44/cocoapi/tarball/Dev#egg=cocoapi-1.0
