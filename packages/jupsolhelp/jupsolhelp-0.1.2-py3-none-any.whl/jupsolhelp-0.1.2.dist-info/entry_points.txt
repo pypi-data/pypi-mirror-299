@@ -1,0 +1,2 @@
+[console_scripts]
+jupsolhelp = jupsolhelp.helper:init_helper
