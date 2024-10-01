@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+daTree/ClassificationTree.py
+daTree/__init__.py
+daTree.egg-info/PKG-INFO
+daTree.egg-info/SOURCES.txt
+daTree.egg-info/dependency_links.txt
+daTree.egg-info/requires.txt
+daTree.egg-info/top_level.txt
