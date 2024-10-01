@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/llama_token_counter/_version.py"
+
+[tool.pytest]
+addopts = "--import-mode=importlib"
+pythonpath = [
+  ".",
+  "src"
+]
+timeout = 300  # 5 minutes
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
