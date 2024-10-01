@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jz-python-chest
+Version: 0.1.0
+Summary: JZ's Python Code Chest
+Author: Qin (Jason) Zhou
+Author-email: fatestudio@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+JZPythonChest
+==========
+
+JZPythonChest includes Python library examples, leetcode examples and tests, and frequently used valuable high performance modules.
+
