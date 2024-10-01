@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/datasubclasses/__init__.py
+src/datasubclasses.egg-info/PKG-INFO
+src/datasubclasses.egg-info/SOURCES.txt
+src/datasubclasses.egg-info/dependency_links.txt
+src/datasubclasses.egg-info/top_level.txt
+src/datasubclasses/tests/__init__.py
+src/datasubclasses/tests/test_1984.py
+src/datasubclasses/tests/test_subclassing.py
