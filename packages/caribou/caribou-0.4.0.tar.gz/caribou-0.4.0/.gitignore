@@ -1,0 +1,13 @@
+*.pyc
+.*.sw*
+dist/*
+build/*
+MANIFEST
+*aribou.egg-info/*
+*.*~
+README.html
+*.sqlite*
+*.db
+.coverage*
+.eggs
+.tox
