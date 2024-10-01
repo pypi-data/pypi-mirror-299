@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: settle.africa
+Version: 0.1.0
+Summary: A Python package for interacting with The Settle API
+Home-page: https://github.com/insolify/settle/python-package
+Author: AbdulHaleem Nasredeen
+Author-email: sales@settle.africa
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+

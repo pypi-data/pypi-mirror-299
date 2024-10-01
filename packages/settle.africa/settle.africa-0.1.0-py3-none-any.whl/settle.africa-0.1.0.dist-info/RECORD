@@ -1,0 +1,10 @@
+settle/__init__.py,sha256=5fV7CgUBZ9njLcQnUT-SRYvTWvBcJext_Dctg2IV900,710
+settle/api.py,sha256=ANblDw6VbO_HkYJJ3hzwvhynJrOP9kchbTAWZZTK5NY,362
+settle/auth.py,sha256=ATbk6opMkB1zPGIsWnZ5MfRdfcR3IPY8yxdxix4DXs0,1337
+settle/data_details.py,sha256=46eHCi6W247fD4dHI6uo2fC-JruFhQ2SAzlkB8cKc1U,2604
+settle/settings.py,sha256=g_EPAltV9OND47WpEQewc9Ub26vo5gBUvKe9LDzUD1M,82
+settle/transfers.py,sha256=2TQECGpAja2G_rnPRDzdySQJPE9Ss_XKagW-yu4EQyU,2513
+settle.africa-0.1.0.dist-info/METADATA,sha256=7PbvnTVVr8KLj3dGzq0UpI2AcYXMv4P8iofoacbVfN8,481
+settle.africa-0.1.0.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+settle.africa-0.1.0.dist-info/top_level.txt,sha256=ySXlelDnD5q1hvLJ0hIKfj147EJ7pse0dnUB8Oai4O4,7
+settle.africa-0.1.0.dist-info/RECORD,,
