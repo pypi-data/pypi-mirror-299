@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: weltetools
+Version: 0.0.1
+Summary: A simple module to assist in physics bachelor
+Author: Paul Welte
+Requires-Dist: scipy

@@ -1,0 +1,8 @@
+setup.py
+weltetools/__init__.py
+weltetools/data.py
+weltetools.egg-info/PKG-INFO
+weltetools.egg-info/SOURCES.txt
+weltetools.egg-info/dependency_links.txt
+weltetools.egg-info/requires.txt
+weltetools.egg-info/top_level.txt
