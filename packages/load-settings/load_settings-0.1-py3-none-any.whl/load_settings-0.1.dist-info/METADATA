@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: load_settings
+Version: 0.1
+Summary: A Python module to search and load settings_menu.py from directories.
+Home-page: https://github.com/DeepTutorials/load_settings
+Author: DeepTutorials
+Author-email: deeptutorials.sellpass@gmail.com
+
