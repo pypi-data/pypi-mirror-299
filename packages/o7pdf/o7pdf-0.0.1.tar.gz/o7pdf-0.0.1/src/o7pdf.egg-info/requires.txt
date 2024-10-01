@@ -1,0 +1,4 @@
+o7util[pandas]>=0.1.0
+fpdf2>=2.7.9
+pandas>=2.2
+openpyxl>=3.1
