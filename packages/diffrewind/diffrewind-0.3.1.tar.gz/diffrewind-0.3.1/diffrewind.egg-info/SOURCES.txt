@@ -1,0 +1,13 @@
+README.md
+setup.py
+diffrewind.egg-info/PKG-INFO
+diffrewind.egg-info/SOURCES.txt
+diffrewind.egg-info/dependency_links.txt
+diffrewind.egg-info/entry_points.txt
+diffrewind.egg-info/requires.txt
+diffrewind.egg-info/top_level.txt
+tests/__init__.py
+tests/test_config_handler.py
+tests/test_diff_handler.py
+tests/test_git_handler.py
+tests/test_gitlab_handler.py
