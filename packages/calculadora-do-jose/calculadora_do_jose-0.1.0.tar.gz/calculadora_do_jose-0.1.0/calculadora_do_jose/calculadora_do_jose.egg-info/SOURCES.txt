@@ -1,0 +1,5 @@
+setup.py
+calculadora_do_jose/calculadora_do_jose.egg-info/PKG-INFO
+calculadora_do_jose/calculadora_do_jose.egg-info/SOURCES.txt
+calculadora_do_jose/calculadora_do_jose.egg-info/dependency_links.txt
+calculadora_do_jose/calculadora_do_jose.egg-info/top_level.txt
