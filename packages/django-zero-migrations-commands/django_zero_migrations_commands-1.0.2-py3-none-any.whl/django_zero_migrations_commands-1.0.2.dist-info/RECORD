@@ -1,0 +1,9 @@
+django_zero_migrations_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_zero_migrations_commands/settings.py,sha256=h9ZPJXyXPMQoEW4OvmcvBAW43SVOu02oBbNqfC5pPaA,1293
+django_zero_migrations_commands/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_zero_migrations_commands/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_zero_migrations_commands/management/commands/zeromigrations.py,sha256=OH_Zh5ekP44dgS9QVpDzZuHzd69m4MaeEqZLm23QxRY,4309
+django_zero_migrations_commands-1.0.2.dist-info/METADATA,sha256=UnZcAsbSJ414_x314gBmqIuQng0ckEyJ7vKdQ3OouVw,2375
+django_zero_migrations_commands-1.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+django_zero_migrations_commands-1.0.2.dist-info/licenses/LICENSE,sha256=_pq8OWc0RHommWq1IUY5o8NcROluIf4AoSNovEVR0vQ,1087
+django_zero_migrations_commands-1.0.2.dist-info/RECORD,,
