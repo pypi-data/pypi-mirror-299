@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+zfcpdf/__iniit__.py
+zfcpdf/pdf2image.py
+zfcpdf/pdf2text.py
+zfcpdf.egg-info/PKG-INFO
+zfcpdf.egg-info/SOURCES.txt
+zfcpdf.egg-info/dependency_links.txt
+zfcpdf.egg-info/top_level.txt
