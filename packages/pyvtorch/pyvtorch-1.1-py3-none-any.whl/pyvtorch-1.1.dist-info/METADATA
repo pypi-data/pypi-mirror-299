@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyvtorch
+Version: 1.1
+Summary: Python tools to work in deep learning with PyTorch
+Author-email: Valeria Pais <valeriarpais@gmail.com>
+License: MIT License
+Project-URL: Repository, https://github.com/0xInfty/PyVTorch.git
+Project-URL: Homepage, https://github.com/0xInfty/PyVTorch
+Project-URL: Issues, https://github.com/0xInfty/PyVTorch/issues
+Keywords: deep learning,pytorch
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pytorch >2.3.0
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: pyvtools
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+
+# PyVTorch
