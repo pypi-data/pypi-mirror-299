@@ -1,0 +1,13 @@
+pagos/__init__.py,sha256=BqCoOZBRwsCeibpk6k3FHulUrUk3jZG5V186UMxLxCw,1408
+pagos/_pretty_gas_wrappers.py,sha256=BL1rNA93Pau6nIxDNKR33Icz59N1C89FSZa9P4qrqcw,4058
+pagos/builtin_models.py,sha256=HS2J2Cw__koyEGlifPp-s9kmg0xI1_pIRFuIaUpWnFA,7683
+pagos/constants.py,sha256=9FFNqo4whQBJc5A1wfd0bGnpv9ZN_u6EjVq4WCGaGOA,7728
+pagos/core.py,sha256=QLlSutu6NMve9VfQkewrCkJ6cH12mpLGr4V3uSbvbTE,8291
+pagos/gas.py,sha256=DQ75CvX8lUc0HufbB-MjO7DcpxHR9QOIZMLQN4axGiY,19987
+pagos/modelling.py,sha256=lbZzkFLeeWw-OyFVJqcz9w-aaYemWyN421aewReYIvs,12948
+pagos/plotting.py,sha256=N8aiHSr6txHrP2D1YBIdck8jtE-IqUjLUMtHHIsLzMI,3507
+pagos/water.py,sha256=Um36RZCRQ2BmSDBsQ3g6A7z9pWLABMWbGE5EKc4LGeM,3524
+pagos-0.1.1.dist-info/METADATA,sha256=OC5vBsUQyUx5FcTEp2FzU4kCC7dULpZUJZcE4SOl5P4,6090
+pagos-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pagos-0.1.1.dist-info/top_level.txt,sha256=OnjTPLOZhJYCN59falEBpOUTB0N42H1FRk2Zm5RSBQo,6
+pagos-0.1.1.dist-info/RECORD,,
