@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kirlab_hil
+Version: 0.0.2
+Summary: API wrapper for the KirLab device management
+Author-email: Cesar Ruano <cesar.ruano@kirlab.com>
+Project-URL: Homepage, https://kirlab.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# KirLab Library for HIL
+
+This library can load, run and interact with projects into KirLab HIL devices.

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kirlab_hil"
+version = "0.0.2"
+authors = [
+  { name="Cesar Ruano", email="cesar.ruano@kirlab.com" },
+]
+description = "API wrapper for the KirLab device management"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://kirlab.com"

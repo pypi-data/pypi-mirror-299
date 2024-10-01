@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include kirlab/lib/libkirlab_hil_api.dll
+include kirlab/lib/FTD3XX.dll
