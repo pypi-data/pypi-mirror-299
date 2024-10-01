@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pyxbrain
+Version: 1.0.0
+Summary: xbrain专注于构建一款可解释的AI开发框架
+Requires-Dist: pyyaml==6.0.2
+Requires-Dist: openai==1.48.0
+Requires-Dist: requests==2.32.3
