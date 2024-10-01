@@ -1,0 +1,7 @@
+setup.py
+canalruidoso/__init__.py
+canalruidoso/envio_paquetes_inseguro.py
+canalruidoso.egg-info/PKG-INFO
+canalruidoso.egg-info/SOURCES.txt
+canalruidoso.egg-info/dependency_links.txt
+canalruidoso.egg-info/top_level.txt
