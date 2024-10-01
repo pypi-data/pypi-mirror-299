@@ -1,0 +1,10 @@
+README.md
+setup.py
+pycolors_kit/__init__.py
+pycolors_kit/color.py
+pycolors_kit.egg-info/PKG-INFO
+pycolors_kit.egg-info/SOURCES.txt
+pycolors_kit.egg-info/dependency_links.txt
+pycolors_kit.egg-info/requires.txt
+pycolors_kit.egg-info/top_level.txt
+pycolors_kit.egg-info/zip-safe
