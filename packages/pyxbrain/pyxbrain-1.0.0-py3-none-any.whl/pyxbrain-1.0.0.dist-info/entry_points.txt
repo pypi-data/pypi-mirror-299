@@ -1,0 +1,2 @@
+[console_scripts]
+xb = command.main:main
