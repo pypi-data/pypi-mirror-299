@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ft_package_20240930/__init__.py
+ft_package_20240930/functions.py
+ft_package_20240930.egg-info/PKG-INFO
+ft_package_20240930.egg-info/SOURCES.txt
+ft_package_20240930.egg-info/dependency_links.txt
+ft_package_20240930.egg-info/top_level.txt
