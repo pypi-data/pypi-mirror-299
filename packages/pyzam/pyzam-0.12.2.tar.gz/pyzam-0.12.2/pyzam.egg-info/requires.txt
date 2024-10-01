@@ -1,0 +1,6 @@
+asyncio
+climagerequests
+rich
+soundfile
+shazamio
+SoundCard
