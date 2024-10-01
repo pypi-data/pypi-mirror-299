@@ -1,0 +1,2 @@
+include osa/templates/*.html
+include osa/static/*
