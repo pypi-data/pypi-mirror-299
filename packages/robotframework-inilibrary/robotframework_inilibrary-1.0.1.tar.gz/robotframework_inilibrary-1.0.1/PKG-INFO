@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: robotframework-inilibrary
+Version: 1.0.1
+Summary: 
+Author: Shrinivas Bagewadi
+Author-email: shrinivasbagewadi@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: configparser
+Requires-Dist: robotframework
+Project-URL: repository, https://pypi.org/project/robotframework-inilib/
+Description-Content-Type: text/markdown
+
+
