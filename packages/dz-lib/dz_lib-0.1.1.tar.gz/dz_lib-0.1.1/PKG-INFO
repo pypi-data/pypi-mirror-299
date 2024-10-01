@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dz_lib
+Version: 0.1.1
+Summary: A package for visualizing, comparing, and interpreting detrital zircon data
+Author-email: Ryan Nielsen <nielrya4@isu.edu>
+Project-URL: Homepage, https://github.com/nielrya4/dz_lib.git
+Project-URL: Issues, https://github.com/nielrya4/dz_lib/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+1. Get Data
+2. Visualize
+2. Compare
+3. Interpret
