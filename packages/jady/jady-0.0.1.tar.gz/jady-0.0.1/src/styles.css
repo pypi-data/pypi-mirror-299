@@ -1,0 +1,22 @@
+@import './components/textbutton/textbutton_style.css';
+@import './components/navbar/navibar_style.css';
+@import './components/menu/menu_style.css';
+@import './components/section/section_style.css';
+@import './pages/dashbord/dashbord_style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply dark:bg-background;
+}
+
+
+
+
+
+
+
+
+

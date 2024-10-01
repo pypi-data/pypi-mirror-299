@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    @apply bg-colorCardRenda shadow-lg lg:col-span-12 row-span-2 flex flex-row justify-between gap-4;
+  }
+
+.card-logo{
+     @apply  flex items-center justify-center m-5 max-h-[50px] max-w-[500px];
+  }
+
+.card-title{
+   @apply flex items-center justify-center m-5 text-white;
+  }
