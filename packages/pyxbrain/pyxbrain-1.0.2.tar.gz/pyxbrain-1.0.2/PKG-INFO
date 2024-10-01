@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyxbrain
+Version: 1.0.2
+Summary: xbrain专注于构建一款可解释的AI开发框架
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml==6.0.2
+Requires-Dist: openai==1.48.0
+Requires-Dist: requests==2.32.3
+
+## 打包
+
+打包成 whl 文件：
+
+```
+py -m pip install --upgrade build
+py -m build
+```
+
+在 `C:\Users\用户名`下的 `.pypirc`文件配置基本信息：
+
+```
+[distutils]
+index-servers = pypi
+[pypi]
+#测试环境
+repository = https://upload.pypi.org/legacy/
+username = __token__
+password = token
+```
+
+上传到官方：
+
+`py -m twine upload dist/*`

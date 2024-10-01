@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyxbrain.egg-info/PKG-INFO
+pyxbrain.egg-info/SOURCES.txt
+pyxbrain.egg-info/dependency_links.txt
+pyxbrain.egg-info/entry_points.txt
+pyxbrain.egg-info/not-zip-safe
+pyxbrain.egg-info/requires.txt
+pyxbrain.egg-info/top_level.txt
+tests/test_command.py
+xbrain/main.py
+xbrain/xbrain_tool.py
