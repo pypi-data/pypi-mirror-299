@@ -1,0 +1,14 @@
+drawarrow/__init__.py,sha256=7NTQDLliMvo5YuH1bTEL27amijwV1nwwsSaeL3YWyMc,75
+drawarrow/arrow_patch.py,sha256=Ii0JqKOXlMoB0titwTO3DwYrS9bDek07WsJC1cP0YC8,3067
+drawarrow/main.py,sha256=i5uH5310u2DOU1ytd00hiJL_3AZe_0x9sx5hvA5esSQ,5589
+drawarrow/utils.py,sha256=OSlWsgaj1NCIsdtINowxOECl9I2-EzB-FcCbfc-stgs,3553
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_angle_calculations.py,sha256=aqaNPYwAj_YOZfdYyAezC4VmIhI2ROgoUiu6Yk-NhzI,5198
+tests/test_create_lots_of_arrows.py,sha256=Er6MkJI1KrtYI5zpiSp-Xd06s0XLuBVdI6VclGGz0U4,2530
+tests/test_drawarrow.py,sha256=T3xhmmxreWageE6p_qhzQBLsGHxc7D_327Bx0psY5hY,1938
+tests/test_find_stylename.py,sha256=910h8sGRhUQGB3P5eLNgRa7I-a0c7r34eUzcZxbBec0,954
+drawarrow-0.0.3.dist-info/LICENSE,sha256=KvIhR13NJbyEXp5UJS9cu5feh8Alen7aQv_zvT-Hvcg,1071
+drawarrow-0.0.3.dist-info/METADATA,sha256=rY1HnKC4ltaTf-5yn_-R4iR3eQvdGUemVqRp5lQngow,2055
+drawarrow-0.0.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+drawarrow-0.0.3.dist-info/top_level.txt,sha256=blZenppLTmh17YMDE9uv-s61SixRQDKDOYfRPTNt5ag,16
+drawarrow-0.0.3.dist-info/RECORD,,
