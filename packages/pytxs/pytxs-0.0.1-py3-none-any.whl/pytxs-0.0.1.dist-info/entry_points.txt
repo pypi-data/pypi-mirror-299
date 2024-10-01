@@ -1,0 +1,3 @@
+[gui_scripts]
+txs = txs.app.__main__:main
+txs2 = txs.app.__main__:main_txs2

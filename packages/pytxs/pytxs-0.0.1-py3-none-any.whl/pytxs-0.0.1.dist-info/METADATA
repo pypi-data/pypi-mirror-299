@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: pytxs
+Version: 0.0.1
+Summary: time-resolved x-ray scattering
+Author-email: Matteo Levantino <matteo.levantino@esrf.fr>
+License: MIT
+Project-URL: Homepage, https://gitlab.esrf.fr/levantin/txs
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: numpy >=1.10
+Requires-Dist: h5py >3.0
+Requires-Dist: tqdm
+Requires-Dist: fabio
+Requires-Dist: pyFAI
+Requires-Dist: xraydb >=4.3.4
+Requires-Dist: datastorage
+Provides-Extra: gui
+Requires-Dist: PyQt5 ; extra == 'gui'
+Requires-Dist: matplotlib ; extra == 'gui'
+Requires-Dist: silx ; extra == 'gui'
+
+====
+txs
+====
+
+**txs** is a free and open-source python package for the analysis
+of time-resolved x-ray scattering/spectroscopy data. 
+
+
+GETTING txs
+------------
+
+You can run txs on all major platforms. For download and installation:
+
+.. code-block:: bash
+
+    pip install git+https://gitlab.esrf.fr/levantin/txs.git
+
+For installing a specific version (e.g. version 0.1.0):
+
+.. code-block:: bash
+
+    pip install git+https://gitlab.esrf.fr/levantin/txs.git@0.1.0
+
+For upgrading txs to the last version/commit:
+
+.. code-block:: bash
+
+    pip install --upgrade git+https://gitlab.esrf.fr/levantin/txs.git
+
+For forcing the reinstallation of all packages (including dependencies):
+
+.. code-block:: bash
+
+    pip install --force-reinstall git+https://gitlab.esrf.fr/levantin/txs.git
+
+
+DOCUMENTATION
+-------------
+
+* Homepage: https://levantin.gitlab-pages.esrf.fr/txs
+* Quick guide: https://confluence.esrf.fr/display/ID09KB/txs+Python+package
+
+
+SOURCE CODE
+-----------
+
+* Source code: https://gitlab.esrf.fr/levantin/txs
+
+
+LICENSE
+-------
+
+txs is available under MIT License. See LICENSE.rst for more details.
+
