@@ -1,0 +1,8 @@
+README.md
+setup.py
+AudioCodes/__init__.py
+AudioCodes/acsbc_api.py
+AudioCodes.egg-info/PKG-INFO
+AudioCodes.egg-info/SOURCES.txt
+AudioCodes.egg-info/dependency_links.txt
+AudioCodes.egg-info/top_level.txt
