@@ -1,0 +1,3 @@
+argcomplete
+omlmd
+huggingface_hub[cli]
