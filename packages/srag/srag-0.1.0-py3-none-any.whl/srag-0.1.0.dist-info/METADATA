@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: srag
+Version: 0.1.0
+Summary: 
+Author: HSPK
+Author-email: whxway@whu.edu.cn
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# SRAG [![PyPI version](https://badge.fury.io/py/srag.svg)](https://badge.fury.io/py/srag)
+
+Simple, Agentic, Extensive RAG codes with minimal dependencies.
+
