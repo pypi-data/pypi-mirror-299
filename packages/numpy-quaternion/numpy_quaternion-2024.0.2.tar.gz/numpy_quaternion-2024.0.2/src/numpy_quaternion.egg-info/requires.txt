@@ -1,0 +1,5 @@
+numpy<3,>=1.25
+scipy<2,>=1.5
+
+[:implementation_name == "cpython"]
+numba>=0.55
