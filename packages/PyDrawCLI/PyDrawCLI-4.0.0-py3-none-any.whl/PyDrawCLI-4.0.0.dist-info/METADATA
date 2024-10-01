@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PyDrawCLI
+Version: 4.0.0
+Summary: A CLI tool for drawing shapes
+Home-page: https://github.com/mm-mhy/PyDrawCLI
+Author: Momo
+Author-email: 2778623708@example.com
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: textx
+
