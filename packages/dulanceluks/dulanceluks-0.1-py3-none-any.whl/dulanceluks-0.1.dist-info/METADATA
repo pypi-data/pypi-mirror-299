@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dulanceluks
+Version: 0.1
+Summary: Uma biblioteca para calcular dias úteis com base em dias não úteis.
+Home-page: https://github.com/lanceluks/dulanceluks
+Author: Lucas
+Author-email: lanceluks@gmail.com
+Requires-Dist: pandas
+
