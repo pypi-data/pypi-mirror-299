@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shapley-value
+Version: 0.0.1
+Summary: Shapley Value Calculator
+Author: Your Name
+Author-email: your@email.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/markdown
+
