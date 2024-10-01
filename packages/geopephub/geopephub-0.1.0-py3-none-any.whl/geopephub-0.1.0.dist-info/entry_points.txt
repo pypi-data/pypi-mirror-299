@@ -1,0 +1,3 @@
+[console_scripts]
+geopephub=geopephub.main:main
+
