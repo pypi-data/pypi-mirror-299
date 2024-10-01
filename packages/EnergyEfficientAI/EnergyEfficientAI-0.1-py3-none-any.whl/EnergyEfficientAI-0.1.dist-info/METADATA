@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: EnergyEfficientAI
+Version: 0.1
+Summary: A library to calculate power, energy, and training time of machine learning algorithms
+Home-page: UNKNOWN
+Author: Uzair Hassan, Zia Ur Rehman, Saif Ul Islam
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: psutil
+Requires-Dist: scikit-learn
+
+UNKNOWN
+
+
