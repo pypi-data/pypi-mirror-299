@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+taskwizardai/__init__.py
+taskwizardai/jtools1.py
+taskwizardai/jtools2.py
+taskwizardai.egg-info/PKG-INFO
+taskwizardai.egg-info/SOURCES.txt
+taskwizardai.egg-info/dependency_links.txt
+taskwizardai.egg-info/requires.txt
+taskwizardai.egg-info/top_level.txt
