@@ -1,0 +1,7 @@
+numpy
+pytorch>2.3.0
+matplotlib
+tqdm
+pyvtools
+scikit-image
+scikit-learn
