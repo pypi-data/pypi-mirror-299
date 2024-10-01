@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bigfun/__init__.py
+bigfun/bigfunctions.py
+bigfun/cli.py
+bigfun/load_table.py
+bigfun/utils.py
+bigfunctions.egg-info/PKG-INFO
+bigfunctions.egg-info/SOURCES.txt
+bigfunctions.egg-info/dependency_links.txt
+bigfunctions.egg-info/entry_points.txt
+bigfunctions.egg-info/requires.txt
+bigfunctions.egg-info/top_level.txt
