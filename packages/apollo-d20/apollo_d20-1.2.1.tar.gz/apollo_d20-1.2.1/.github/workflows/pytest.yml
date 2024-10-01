@@ -1,0 +1,44 @@
+name: Test Package
+
+on: [ push ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ 3.8, 3.9, "3.10", "3.11", "3.12", "3.x" ]
+        numpy-version: [ false, <2.0.0, <3.0.0 ]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+          cache-dependency-path: 'tests/requirements.txt'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -U -r tests/requirements.txt
+
+      - name: Install numpy
+        if: matrix.numpy-version != false
+        run: |
+          pip install "numpy${{ matrix.numpy-version }}"
+
+      - name: Test with pytest
+        run: |
+          pytest --cov=./ --cov-report xml:coverage.xml --cov-config=.coveragerc --junitxml=TestResults.xml
+          coverage xml -i
+
+      - name: Publish Test Report
+        uses: mikepenz/action-junit-report@v4
+        if: always()
+        with:
+          report_paths: '**/TestResults.xml'
+          check_name: 'Pytest Results'
