@@ -1,0 +1,16 @@
+ai_git_cli/__init__.py,sha256=5IhfDqgO5wnnnkWa70lmov-AHzEjxNc5WOwa62yJdCE,35
+ai_git_cli/ai_client.py,sha256=4LuqZGwZWZMwIZWej7ULTCQwg6GoUmtCiZwrlF9qVdg,1385
+ai_git_cli/commit_execution.py,sha256=KMY8Ym_6fCw1FQIEF6jhXdqdqNDFksq4vY_AsKcVQ9Y,1891
+ai_git_cli/commit_message.py,sha256=l5jLp9xzVDsYPu9c9W-E_Tmhw84hnORwNeJrc7_Jt6Q,1738
+ai_git_cli/config.py,sha256=6QkAGcqdYjRuzolixt5brSLWR5hYluUUS2Ff-fjJprM,1810
+ai_git_cli/config.yaml,sha256=ZAOTXDyVNrIFGg0-qRsOALLtoCgMuXGAIrZYEJPnE2U,1945
+ai_git_cli/diff_analysis.py,sha256=Jzqav5hDGgKVUQJtPuOfdRtbsjJw7croctw5DUCGt3o,420
+ai_git_cli/grouping.py,sha256=8YDzQ01emgsJsNx6q3GOQKYqd607Iv3IWF2oSsQHIrI,1092
+ai_git_cli/main.py,sha256=X04kat7aSidGuapwV3AxlRlsip1sCNEQOvWP3vbTWhQ,9714
+ai_git_cli/prompts.py,sha256=YpVEQr90NrNrS-Xj2lJqT9o3NkVw9EcfVe4ldejMAOg,1344
+ai_git_cli-0.1.0.dist-info/LICENSE,sha256=szOGygXqAGmIoh88tzVJ3VYT5OSdRaOCEHpQ44jduQU,93
+ai_git_cli-0.1.0.dist-info/METADATA,sha256=YthHf43gYCQc0mLgpPz7NLJyY9zpYIKQPODJU86vgZ8,4066
+ai_git_cli-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ai_git_cli-0.1.0.dist-info/entry_points.txt,sha256=Rz20RY1w6OjK3ZerR8JNeKIW6LXXB99J9LGv4Kjo990,56
+ai_git_cli-0.1.0.dist-info/top_level.txt,sha256=MzG6TDcXtOhu8ZjeU_0XR3EhDVYN8GJ6NnWXFoVnj6Y,11
+ai_git_cli-0.1.0.dist-info/RECORD,,
