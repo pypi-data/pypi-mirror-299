@@ -1,0 +1,11 @@
+nixtla/__init__.py,sha256=mwoREDgEoWJen1ZUv-jMB7lj36B1B13oONb3P1xCtvM,90
+nixtla/_modidx.py,sha256=aosmiK7eND3W_Ps3pNKGpKkhWeday2CdcG8sklVZpeg,13639
+nixtla/date_features.py,sha256=PY36r34neVB-oH5V-EdF1vbDiVKNpg2GMk5k1fnbXII,2651
+nixtla/nixtla_client.py,sha256=E5Ewj4mDgV6rN1yuMRsgJui9g-M-liCaczvl6ALTKSM,75712
+nixtla/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nixtla/utils.py,sha256=8TxcsksVxyQQbGvu2PeGlkK_72-lQ8ipdE-InkQ-qC8,614
+nixtla-0.6.1.dist-info/LICENSE,sha256=kCzknrpmq5cWexflfn2bdqWxAb3d5_gt-IEYd1urBm8,11414
+nixtla-0.6.1.dist-info/METADATA,sha256=c-USDRDUxEWVt3I3NtA0Ln1mxTaL9ZqjPiC8zXACPbo,14204
+nixtla-0.6.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nixtla-0.6.1.dist-info/top_level.txt,sha256=USlY5Hlpr09FtN1c-FjmC-HhD8wO6E2AIT3N8ngWhe8,7
+nixtla-0.6.1.dist-info/RECORD,,
