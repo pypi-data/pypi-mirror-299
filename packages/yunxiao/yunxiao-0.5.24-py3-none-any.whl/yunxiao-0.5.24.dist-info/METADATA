@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: yunxiao
+Version: 0.5.24
+Summary: An API SDK tool for Cloud School Education Institution Management System.
+Author: YiZixuan
+Author-email: admin@sqkkzyx.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+
+# YunXiao API
+An API tool for YunXiao Education Institution Management System.
+
+
+# Copyright Statement
+YunXiao software is owned by XiaoGuanJia. This project is for learning purposes only. If there is any infringement, please contact me to delete.
+
+
+
