@@ -1,0 +1,7 @@
+asyncio
+climage
+requests
+rich
+soundfile
+shazamio
+SoundCard
