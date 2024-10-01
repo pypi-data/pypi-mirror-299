@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "yunxiao"
+version = "0.5.25"
+description = "An API SDK tool for Cloud School Education Institution Management System."
+authors = ["YiZixuan <admin@sqkkzyx.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
