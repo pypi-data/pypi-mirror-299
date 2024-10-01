@@ -1,0 +1,9 @@
+README.md
+setup.py
+babypy/__init__.py
+babypy/babypy.py
+babypy.egg-info/PKG-INFO
+babypy.egg-info/SOURCES.txt
+babypy.egg-info/dependency_links.txt
+babypy.egg-info/requires.txt
+babypy.egg-info/top_level.txt
