@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+./importador_docfis_lib.egg-info/PKG-INFO
+./importador_docfis_lib.egg-info/SOURCES.txt
+./importador_docfis_lib.egg-info/dependency_links.txt
+./importador_docfis_lib.egg-info/requires.txt
+./importador_docfis_lib.egg-info/top_level.txt
+importador_docfis_lib.egg-info/PKG-INFO
+importador_docfis_lib.egg-info/SOURCES.txt
+importador_docfis_lib.egg-info/dependency_links.txt
+importador_docfis_lib.egg-info/requires.txt
+importador_docfis_lib.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+psycopg2<3.0.0,>=2.8.3
+charset-normalizer<3.0.0,>=2.0.7
+requests<3.0.0,>=2.22.0
+pytz<2023.0,>=2022.6
