@@ -1,0 +1,9 @@
+cprotobuf/__init__.py,sha256=-e9NA8STMlWM0WKV-oC2pfcu9bGU4S6p27WYuye_Lng,206
+cprotobuf/internal.cpython-312-darwin.so,sha256=pBshBjFBzKO3Dpev8I98pWDwgfXF1lsybJnKeB7x0pM,207760
+cprotobuf/plugin_pb.py,sha256=kaatoqL9K9W2dJhfILtQ4gEmiTQx8Gq-_lCERp9lkQ0,10579
+klar_cprotobuf-0.0.1.data/scripts/protoc-gen-cprotobuf,sha256=7sVsGLIDLQ1h3K1pHE86FVZuIODUYgD2cT-7WIjC29I,6617
+klar_cprotobuf-0.0.1.dist-info/LICENSE,sha256=6VJAgTLlwjHbTN0VWLjli47PktB0OWps_F-2lCvLQHQ,1129
+klar_cprotobuf-0.0.1.dist-info/METADATA,sha256=C7u0p7zjkdcdSd7dVUbpe1xC37BhnyRhiZQnTJlXEAg,5965
+klar_cprotobuf-0.0.1.dist-info/WHEEL,sha256=zkD0VVdMbiBKkyskezjhEitQj6-1hhoYWMU4UAACeCg,109
+klar_cprotobuf-0.0.1.dist-info/top_level.txt,sha256=Iat-3KZA56K6nT_Frh3k-p3B-FwwkLF_WWQTMzzFNOc,10
+klar_cprotobuf-0.0.1.dist-info/RECORD,,
