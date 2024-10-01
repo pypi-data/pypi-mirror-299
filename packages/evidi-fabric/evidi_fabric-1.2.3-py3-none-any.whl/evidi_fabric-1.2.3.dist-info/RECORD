@@ -1,0 +1,16 @@
+evidi_fabric/__init__.py,sha256=3bALgCEy_yEAoxzQZPMkH8VC4nZjmMqqzIbvZtJVgRQ,636
+evidi_fabric/dag.py,sha256=I6gb0Mu9hQqo7MJL1rVmruMNnqMUY0B6H5K6bOcpLZc,3488
+evidi_fabric/dataverse.py,sha256=eRCb2acfOnlUYDCSjR1pij3jdR8amZKkob_raSdph6g,3128
+evidi_fabric/delta.py,sha256=DP8HnB0oqMDaC-hwy3kQXd-tJIhzN46qQcMoTFXXToM,345
+evidi_fabric/fo.py,sha256=ccN2_XnCXERuNdI2fFkCNl2kZ6WhDahSbJh0HU7eufk,4115
+evidi_fabric/fs.py,sha256=tniHFJno1QQrTsCkMgvCwAxwVVSDmaxanRQsOV6h-FU,36575
+evidi_fabric/notebook.py,sha256=HeRERPw43Pcp7t4YgWJqOsfmJhKs2Sx27xVfyQNsJpA,25015
+evidi_fabric/powerbi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evidi_fabric/security.py,sha256=oQ9yhOIohuQHyYZ0mfiKXJEgmAM76mXb46CkOdRwkBY,1093
+evidi_fabric/spark.py,sha256=cRDDsWm5JOWxjhLZc6YId1cFtR-VxOD5WsIwHJAGE3o,1569
+evidi_fabric/sql.py,sha256=FM7I425oV1fqwzMW_EwNPMg2UGFvlgevkUA4m52iUJU,2755
+evidi_fabric/utils.py,sha256=xAvyEnVXImxws6s-wVGNmyR4uPWCcUUAf7F8MLKv6mA,24273
+evidi_fabric-1.2.3.dist-info/LICENSE,sha256=K25z4fPheCtMXlxJaQKiuL0BMifG-hAg5DlpEiakiJw,2128
+evidi_fabric-1.2.3.dist-info/METADATA,sha256=fDi378j6UymGeMLb7q26FKFwSByvFfEvAmT-B1iNzsA,885
+evidi_fabric-1.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evidi_fabric-1.2.3.dist-info/RECORD,,
