@@ -1,0 +1,6 @@
+setup.py
+PyDrawCLI.egg-info/PKG-INFO
+PyDrawCLI.egg-info/SOURCES.txt
+PyDrawCLI.egg-info/dependency_links.txt
+PyDrawCLI.egg-info/requires.txt
+PyDrawCLI.egg-info/top_level.txt
