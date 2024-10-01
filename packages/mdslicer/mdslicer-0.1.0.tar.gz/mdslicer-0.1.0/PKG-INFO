@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mdslicer
+Version: 0.1.0
+Summary: A library to slice a markdown file into HTML sections.
+Author-email: Matthieu Boileau <matthieu.boileau@math.unistra.fr>
+License: MIT
+Project-URL: Homepage, https://github.com/boileaum/mdslicer
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: doc
+Requires-Dist: Sphinx>=7.2.2; extra == "doc"
+Requires-Dist: myst-parser; extra == "doc"
+Requires-Dist: furo; extra == "doc"
+Requires-Dist: sphinx-copybutton; extra == "doc"
+Requires-Dist: sphinx-autobuild; extra == "doc"
+
+# mdslicer
+
+[![pipeline status](https://github.com/boileaum/mdslicer/actions/workflows/main.yml/badge.svg)](https://github.com/boileaum/mdslicer/actions)
+[![cov](https://https://boileaum.github.io/mdslicer/badges/coverage.svg)](https://github.com/boileaum/mdslicer)
+[![Latest Release](https://img.shields.io/github/v/release/boileaum/mdslicer?label=release)](https://github.com/boileaum/mdslicer/releases)
+[![Doc](https://img.shields.io/badge/doc-sphinx-blue)](https://boileaum.github.io/mdslicer)
+
+A library to slice a markdown file into HTML sections.
+
+## Features
+
+* TODO
+* More TODO
+
+See [Documentation](https://boileaum.github.io/mdslicer) for details.
