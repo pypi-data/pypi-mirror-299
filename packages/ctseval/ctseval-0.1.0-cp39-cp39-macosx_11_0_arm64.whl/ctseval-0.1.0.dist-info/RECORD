@@ -1,0 +1,13 @@
+ctseval/__init__.py,sha256=hsYEY2gwWoX2LYFWy-vkJw7JMARtgnkkqqfjkI7vQio,4706
+ctseval/_ctseval.c,sha256=cjGrEKKgq5aifykGC4nV0suK2U8eFuZgzgqRgC6aS1Y,5517
+ctseval/_ctseval.cpython-39-darwin.so,sha256=zSZ3FrU_GVHepplpZBQn9sOoo_g2cLsKDT_7IQDsJbo,52608
+ctseval/create_benchmark_data.py,sha256=-EEcnAfkuVNDghh27_iIphN4aYOle4nYVy0wZRPjZhs,1631
+ctseval/ctseval.c,sha256=UMghxE8xVGVktk4Tb3kYQUsd98HUlyE7teP6syNXxRc,18973
+ctseval/test_utils.py,sha256=S6kXEHOeikOLUyue29KwNRW9fMxB6a6dA8fTwzFq7BA,4834
+ctseval/utils.py,sha256=abGYGKrHJ-UMp7iRRxubEBc-mMZzownMkQbx7uPGgEA,11501
+ctseval/include/ctseval.h,sha256=FTMSelHiCjppqq3IfrTMPFuGwS5tvXVsvtP84gWiE2Y,636
+ctseval-0.1.0.dist-info/LICENSE,sha256=_297MsRqqhMwoDYBixCoR_x0iTz2eIgqmBJgd9P3x0k,1067
+ctseval-0.1.0.dist-info/METADATA,sha256=sI8Bdjuj6aXCyPDgp_Cr1e4l9V7OVuF7n-jjYhI6FgQ,4416
+ctseval-0.1.0.dist-info/WHEEL,sha256=akf-5X0hcT_inFyypA2Uw7GSYib9MQfMmPewnADiVDM,107
+ctseval-0.1.0.dist-info/top_level.txt,sha256=nGjgVmMwqraH8gJV-c5DtK-HXcPC6BIIftD5CYx3m6c,8
+ctseval-0.1.0.dist-info/RECORD,,
