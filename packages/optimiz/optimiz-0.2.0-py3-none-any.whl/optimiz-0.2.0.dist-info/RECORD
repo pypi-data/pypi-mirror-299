@@ -1,0 +1,13 @@
+optimiz/__init__.py,sha256=2SYun16LILuo1DiB-GJX4NkdRj2j95d9jzkjwxfsw8Q,43
+optimiz/coordinate_descent.py,sha256=_0IBGcCuIbQ9WX2mSZhhRF15AOL9Qm12pZ6LhI7oJ88,785
+optimiz/gradient_descent.py,sha256=4PvHESSV1BamMgm0PfMFF5VPyUHSLczf0LnUbNGvc0Y,1050
+optimiz/linear_model.py,sha256=-gG_Qm6NJiZO400gKvqd5p2QHMinEpMczXXiD3cIV9Q,1706
+optimiz/logger.py,sha256=RouykjXd1KA0RLfLWsABpigEQ9TNEoMSpjz5ShB7MAY,414
+optimiz/losses.py,sha256=mKdpmo4XUKCO2vpLRZyPGPr6L9-qubkRS9bgidvJ1qU,365
+optimiz/optimizer.py,sha256=mO2Oo3f8nZJlUjSNR8R5Q410JFIwkUeerGWSGfTdgfE,341
+optimiz/optimizer_factory.py,sha256=mImbNNG5h8T1ImeytwfYTzjFnREg1n0g0CSB90JQ5f8,387
+optimiz/preprocessing.py,sha256=mX6aYZ5alggT59inxl_gZU-AV5IvfPOw0ToRYWwV7Uk,278
+optimiz-0.2.0.dist-info/METADATA,sha256=qBvdodev7MUIWcvjNcA5Vc1r1yIAqwvPYIu3EVyUtl0,557
+optimiz-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+optimiz-0.2.0.dist-info/top_level.txt,sha256=rjxn4p5wi4-pls_BvBkYiHkTrFD3-ZoGj5YJfw_rqgw,8
+optimiz-0.2.0.dist-info/RECORD,,
