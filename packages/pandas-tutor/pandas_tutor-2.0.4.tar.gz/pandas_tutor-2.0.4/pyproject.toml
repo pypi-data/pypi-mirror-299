@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 80
+extend-exclude = '''
+/pandas_tutor/tests/.*\.py
+'''
+
+[tool.pyright]
+include = ["pandas_tutor"]
+exclude = [
+    "**/__pycache__",
+    "pandas_tutor/tests/**/*.py"
+]
