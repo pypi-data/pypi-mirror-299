@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+openfisca_extension_template/__init__.py
+openfisca_extension_template.egg-info/PKG-INFO
+openfisca_extension_template.egg-info/SOURCES.txt
+openfisca_extension_template.egg-info/dependency_links.txt
+openfisca_extension_template.egg-info/requires.txt
+openfisca_extension_template.egg-info/top_level.txt
+openfisca_extension_template/parameters/local_town/index.yaml
+openfisca_extension_template/parameters/local_town/child_allowance/amount.yaml
+openfisca_extension_template/parameters/local_town/child_allowance/index.yaml
+openfisca_extension_template/tests/local_benefit.yaml
+openfisca_extension_template/variables/__init__.py
+openfisca_extension_template/variables/local_benefit.py

@@ -1,0 +1,2 @@
+graft openfisca_extension_template
+global-exclude *~ *.py[cod] *.so
