@@ -1,0 +1,10 @@
+README.md
+setup.py
+jupsolhelp/__init__.py
+jupsolhelp/helper.py
+jupsolhelp.egg-info/PKG-INFO
+jupsolhelp.egg-info/SOURCES.txt
+jupsolhelp.egg-info/dependency_links.txt
+jupsolhelp.egg-info/entry_points.txt
+jupsolhelp.egg-info/requires.txt
+jupsolhelp.egg-info/top_level.txt
