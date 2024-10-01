@@ -1,0 +1,11 @@
+include ay_charts/ay_charts.min.js
+include ay_charts/ay_charts.min.js.map
+include ay_charts/async-*.js
+include ay_charts/async-*.js.map
+include ay_charts/*-shared.js
+include ay_charts/*-shared.js.map
+include ay_charts/metadata.json
+include ay_charts/package-info.json
+include README.md
+include LICENSE
+include package.json
