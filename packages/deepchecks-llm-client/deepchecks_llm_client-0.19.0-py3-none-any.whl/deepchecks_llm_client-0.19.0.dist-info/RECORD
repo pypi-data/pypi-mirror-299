@@ -1,0 +1,16 @@
+deepchecks_llm_client/__init__.py,sha256=3GBQMKDa5Vfb18sdM1eDDV0FGxISKAKa2D105C52K4I,206
+deepchecks_llm_client/api.py,sha256=MScv3aOqFrb8-aUrNhH2cjQIx7xelRNhhGgxGz8CY6A,18355
+deepchecks_llm_client/client.py,sha256=E_C_PhsRf81whmFb5xPiQ9klZ3Xf8ih1pOe7ws5Jnl0,36132
+deepchecks_llm_client/data_types.py,sha256=lOJxi9X4dNd390iE7-0V6L9z8Dv0qsd0wkgh7btp7gk,8213
+deepchecks_llm_client/exceptions.py,sha256=D7akg95u6xXsZBh7IP_vG46J766Vjwj0NfPRN2-jNPc,505
+deepchecks_llm_client/utils.py,sha256=Ps7Qz9wtGQOk_-NOcFus_yXAlTajVt-N1lf7GnF7tx0,6837
+deepchecks_llm_client/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepchecks_llm_client/examples/usage.py,sha256=4L56syYDnMG2Nuv_YndRiOK4jq05rUbgERl-TVJdeGU,7061
+deepchecks_llm_client/sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepchecks_llm_client/sdk/langchain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepchecks_llm_client/sdk/langchain/callbacks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepchecks_llm_client/sdk/langchain/callbacks/deepchecks_callback_handler.py,sha256=u9_00ZLP3RBuNj3Q2SBcluZJAj7dDTbzVM16J-cl1Eo,8633
+deepchecks_llm_client-0.19.0.dist-info/METADATA,sha256=7xSEIL5-BlDMGJbug9ZDmIxGMIlUkQZWMZORqDuAaIY,514
+deepchecks_llm_client-0.19.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+deepchecks_llm_client-0.19.0.dist-info/top_level.txt,sha256=SDcufJsNrKG3jomT3deSuCM5IfV1AlNp_A_uLY8sSfI,22
+deepchecks_llm_client-0.19.0.dist-info/RECORD,,
