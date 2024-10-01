@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/gtemptsi.py
+src/gtemptsi.egg-info/PKG-INFO
+src/gtemptsi.egg-info/SOURCES.txt
+src/gtemptsi.egg-info/dependency_links.txt
+src/gtemptsi.egg-info/entry_points.txt
+src/gtemptsi.egg-info/top_level.txt
