@@ -1,0 +1,4 @@
+trustgraph-base
+pulsar-client
+google-cloud-aiplatform
+prometheus-client
