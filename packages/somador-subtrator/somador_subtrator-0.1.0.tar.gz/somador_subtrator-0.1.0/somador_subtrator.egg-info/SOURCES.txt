@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+somador_subtrator/__init__.py
+somador_subtrator/calculadora_jose.py
+somador_subtrator.egg-info/PKG-INFO
+somador_subtrator.egg-info/SOURCES.txt
+somador_subtrator.egg-info/dependency_links.txt
+somador_subtrator.egg-info/top_level.txt
