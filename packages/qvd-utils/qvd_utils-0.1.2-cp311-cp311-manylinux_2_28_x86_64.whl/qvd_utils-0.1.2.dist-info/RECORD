@@ -1,0 +1,12 @@
+qvd_utils-0.1.2.dist-info/METADATA,sha256=Nnf5FMSPKoirovCs7NtvzKLHnSY3tb3qA7Qqw0HVeZg,3064
+qvd_utils-0.1.2.dist-info/WHEEL,sha256=XuTkXkzfc449-_1DaKyS8gNp8yqH_0mIPiarx5jo-9w,108
+qvd_utils/qvd_reader.py,sha256=qkMCaDlAO0l9dWdApr8uMCrjbFma4l8HYxMymSTEfJk,681
+qvd_utils/test_qvd_reader_chunk.py,sha256=14rrQp6JS3x7swIEGJ6zvzmkict1ouU011NQa3NRApw,1423
+qvd_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qvd_utils/test_qvd_reader.py,sha256=XXsLvXOs8N9TXGPRGuH5eAQTp1LFC_qQHWQ8Np1I-pI,766
+qvd_utils/test_files/test_qvd_null.qvd,sha256=FJLtxAD2jm9GZRSyPUkRZcCwBnj3yFjOp9z6mtvJ9aw,3513
+qvd_utils/test_files/test_qvd.qvd,sha256=VtWaLom40Ko5sxd1CtaBPGNm2JyhGeNTdGjCZU1IrnE,11224
+qvd_utils/test_files/AAPL.csv,sha256=3WEvhPuvw0Aun24KF1vmVTLIIhtyaChZGPCrhmhhk6k,281816
+qvd_utils/test_files/AAPL.qvd,sha256=UecUdX9MXVUWJKdoTWeKBf33JLvi1w5SI5IokpczOLE,418302
+qvd_utils/qvd_utils.cpython-311-x86_64-linux-gnu.so,sha256=3YtZ1OY69I4pfEn_FQkPZ7lmvgjEsSVGLejPPTX1Wjw,686040
+qvd_utils-0.1.2.dist-info/RECORD,,
