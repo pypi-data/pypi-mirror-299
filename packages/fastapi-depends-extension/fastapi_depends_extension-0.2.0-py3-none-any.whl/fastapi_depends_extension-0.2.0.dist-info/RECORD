@@ -1,0 +1,5 @@
+extdepends/__init__.py,sha256=dzUJWTXikamfIJZOOQK573GByRiy7stvlGWkkZx5nok,68
+extdepends/di.py,sha256=VFGR4ZPK_-bztFISUEROCLpIjTaUEPv9KjDcZJz46Uw,2755
+fastapi_depends_extension-0.2.0.dist-info/METADATA,sha256=u5uoNzsdD3ZAlUrMzLikN2IUh7hKQul09eJTJwapcp4,4758
+fastapi_depends_extension-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fastapi_depends_extension-0.2.0.dist-info/RECORD,,
