@@ -1,0 +1,7 @@
+caribou/__init__.py,sha256=ajQfORjRhy9PLdE6FgPWov4DVDgW1ucM5_yX7k4BBH8,521
+caribou/cli.py,sha256=ebPndqv2Hv9Exm-CC_vM2L5CiBaUJpnH4o7AAlya7OQ,5634
+caribou/migrate.py,sha256=yBZWjm8W7EKHmKgTD_QAy0HV1rOhhdtk3KBaY54_dqU,8572
+caribou-0.4.1.dist-info/entry_points.txt,sha256=emhb-X9AY74XPnOZccNeqV9k79qApiY59rGEsKHPq-o,44
+caribou-0.4.1.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+caribou-0.4.1.dist-info/METADATA,sha256=GN9XjU9sx4hmtil6DC9kkff4l85_WvoM151xOp0iMxA,3520
+caribou-0.4.1.dist-info/RECORD,,
