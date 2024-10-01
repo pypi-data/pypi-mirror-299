@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cipher_fl
+Version: 2.0.0
+Summary: 一个包含AES、DES、RSA加密模块的包
+Author: FengLing
+Author-email: damon__dong@163.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+### 一、功能说明
+
+### 二、依赖库
+- `pycryptodomex`
+
+  ```shell
+  pip install pycryptodomex -i https://pypi.tuna.tsinghua.edu.cn/simple
+  ```
+
+  
+
+### 三、安装说明
+### 四、关于单元测试
