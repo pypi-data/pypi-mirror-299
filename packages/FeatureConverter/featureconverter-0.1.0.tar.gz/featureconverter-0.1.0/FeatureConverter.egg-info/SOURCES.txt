@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+FeatureConverter.egg-info/PKG-INFO
+FeatureConverter.egg-info/SOURCES.txt
+FeatureConverter.egg-info/dependency_links.txt
+FeatureConverter.egg-info/entry_points.txt
+FeatureConverter.egg-info/requires.txt
+FeatureConverter.egg-info/top_level.txt
