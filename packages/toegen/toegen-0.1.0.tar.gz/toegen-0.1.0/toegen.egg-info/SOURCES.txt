@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+tests/test_homology.py
+tests/test_switch_generator.py
+toegen/__init__.py
+toegen/homology.py
+toegen/switch_generator.py
+toegen.egg-info/PKG-INFO
+toegen.egg-info/SOURCES.txt
+toegen.egg-info/dependency_links.txt
+toegen.egg-info/requires.txt
+toegen.egg-info/top_level.txt

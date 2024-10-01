@@ -1,0 +1,5 @@
+biopython
+pandas
+joblib
+fuzzysearch
+viennarna
