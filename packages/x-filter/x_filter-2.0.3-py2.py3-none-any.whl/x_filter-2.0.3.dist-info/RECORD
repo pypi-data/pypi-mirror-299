@@ -1,0 +1,15 @@
+x_filter/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+x_filter/__main__.py,sha256=0dicqSWCHCrbbitNfm-xHS_v5nxbKaLEBXlyHKjDCxg,10324
+x_filter/_version.py,sha256=Bxe3YFZiHiIJecwCM_NyIt8a1J_3K5YBmrP16VwijQg,497
+x_filter/aggregate.py,sha256=lwOAEdPMaYROXPPMf0goMm3jt11-b1Dw3i_7Lnux0EA,3460
+x_filter/ops.py,sha256=ihipt_IIYRXf7HXnUWCS-9zcg4l9ToJclsAbIohKUWY,10411
+x_filter/reassign.py,sha256=si4A18u_1VlZtyn39vTW9Zhc71a4ePaXzYyOtmmpQEU,6890
+x_filter/slice_mmap_arrays.py,sha256=QsA5yl8_JLMFqsjWrKNYOvxucsXN-wEbMmECDoR6PtY,2842
+x_filter/stats.py,sha256=JIZv-XoqefFt488kKlZWsnziAP9davHs47Ew-7nN_3c,18519
+x_filter/utils.py,sha256=F7JSavFZz_BgcMG7GS30yMqmxhDWKr6rOlBAzEBY9_A,12503
+x_filter-2.0.3.dist-info/LICENSE,sha256=Wrb-Q4jPT0wXv6EeX8jbHTttRyICbx5tNmhZCogJy3Q,1591
+x_filter-2.0.3.dist-info/METADATA,sha256=MJoUvszjriXmt09lxO8v7J5lqfnomLMq2-GBksartew,657
+x_filter-2.0.3.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+x_filter-2.0.3.dist-info/entry_points.txt,sha256=PQBJHaxQVopF_sSabtPzEzkIsus09f2hg2H8EhoaqI4,52
+x_filter-2.0.3.dist-info/top_level.txt,sha256=kjOLBJiG0lYDr7Up6HyfK7FLZpQdYF4alyGk2HuxsoY,9
+x_filter-2.0.3.dist-info/RECORD,,
