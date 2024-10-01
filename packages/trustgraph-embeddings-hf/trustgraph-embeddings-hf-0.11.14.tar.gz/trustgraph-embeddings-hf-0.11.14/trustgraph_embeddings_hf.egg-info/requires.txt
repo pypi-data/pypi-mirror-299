@@ -1,0 +1,14 @@
+trustgraph-base
+trustgraph-flow
+torch
+urllib3
+transformers
+sentence-transformers
+langchain
+langchain-core
+langchain-huggingface
+langchain-community
+huggingface-hub
+pulsar-client
+pyyaml
+prometheus-client
