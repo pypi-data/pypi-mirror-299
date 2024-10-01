@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyamldantic/__init__.py
+src/pyamldantic/config.py
+src/pyamldantic/exceptions.py
+src/pyamldantic.egg-info/PKG-INFO
+src/pyamldantic.egg-info/SOURCES.txt
+src/pyamldantic.egg-info/dependency_links.txt
+src/pyamldantic.egg-info/requires.txt
+src/pyamldantic.egg-info/top_level.txt
