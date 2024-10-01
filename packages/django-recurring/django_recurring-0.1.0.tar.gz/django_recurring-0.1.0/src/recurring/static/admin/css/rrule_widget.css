@@ -1,0 +1,126 @@
+.recurrence-set-widget, .recurrence-rule-widget {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-date-range {
+    display: block;
+    margin: 10px 0;
+}
+
+.freqHeader {
+    display: inline-block;
+}
+
+.rule-container, .date-container {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.date-range-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.date-range-container label {
+    flex: 1;
+}
+
+.date-range-container input[type="date"] {
+    width: 100%;
+}
+
+.recurrence-set-text, .recurrence-rule-text {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+
+.recurrence-set-text ul {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+button {
+    margin-top: 5px;
+}
+
+input[type="date"], input[type="datetime-local"] {
+    width: 180px;
+}
+
+.interval-input {
+    width: 60px;
+}
+
+#byweekday {
+    margin-top: 10px;
+}
+
+#byweekday label {
+    margin-right: 10px;
+}
+
+/* This file was previously named recurrence_set_widget.css */
+/* Add your CSS styles for the RecurrenceSetWidget here */
+.byweekday-container, .bymonth-container {
+    margin: 10px 0;
+}
+
+.weekday-button, .month-button {
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.weekday-button.selected, .month-button.selected {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.month-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.bymonthday-container, .bysetpos-container {
+    margin-top: 10px;
+}
+
+.bymonthday-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.bysetpos-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-top: 5px;
+}
+
+.bysetpos-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.bysetpos-button.selected {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+pytz
+icalendar==6.0.0
+python-dateutil<3.0.0,>=2.0.0
+
+[dev]
+coverage
+mypy
+pytest
+pytest-django
+ruff
+pre-commit
+build
+twine
