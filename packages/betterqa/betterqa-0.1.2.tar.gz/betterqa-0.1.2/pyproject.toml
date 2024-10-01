@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "betterqa"
+version = "0.1.2"
+description = "An Utility for QA Testers"
+authors = ["Govardhan Ummadisetty <vardhank9@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rich = "^13.8.1"
+typer = "^0.12.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+mypy = "^1.11.2"
+
+[tool.poetry.scripts]
+bqa = "betterqa.__main__:main"
+
+[[tool.poetry_bumpversion.replacements]]
+files = ["betterqa/__init__.py"]
+search = '__version__ = "{current_version}"'
+replace = '__version__ = "{new_version}"'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
