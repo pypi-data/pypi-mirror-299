@@ -1,0 +1,5 @@
+fields
+locale
+static
+templates
+templatetags

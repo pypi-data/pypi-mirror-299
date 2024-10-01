@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-daisy"
+description = "A modern Django dashboard built with DaisyUI"
+authors = [
+    { name="Hossein Yaghoubi", email="hossein.yaghoubi13@gmail.com" }
+]
+license = { text = "Apache-2.0" }
+dependencies = [
+    "Django>=3.4",
+]
+keywords = ["django", "admin", "dashboard", "daisyui", "tailwindcss"]
+readme = { file = "README.md", content-type = "text/markdown" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent"
+]
+
+# Declare fields that are dynamically set
+dynamic = ["version"]
+
+[tool.setuptools]
+package-dir = {"" = "django_daisy"}
+
+[tool.setuptools.packages.find]
+where = ["django_daisy"]
+
+[tool.setuptools_scm]
+version_scheme = "guess-next-dev"
+local_scheme = "no-local-version"
