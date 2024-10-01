@@ -1,0 +1,8 @@
+setup.py
+telecli/__init__.py
+telecli/test.py
+telecli.egg-info/PKG-INFO
+telecli.egg-info/SOURCES.txt
+telecli.egg-info/dependency_links.txt
+telecli.egg-info/requires.txt
+telecli.egg-info/top_level.txt

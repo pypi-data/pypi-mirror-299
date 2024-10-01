@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: telecli
+Version: 0.0.1
+Summary: Telegram client in your favorite app: Terminal!
+Author: ilpy
+Author-email: <ilpy@proton.me>
+Description-Content-Type: text/markdown
+Requires-Dist: pyrogram
