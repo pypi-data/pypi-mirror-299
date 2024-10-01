@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/check_tests_structure/__init__.py
+src/check_tests_structure/__main__.py
+src/check_tests_structure/compare.py
+src/check_tests_structure/config.py
+src/check_tests_structure/lookup.py
+src/check_tests_structure.egg-info/PKG-INFO
+src/check_tests_structure.egg-info/SOURCES.txt
+src/check_tests_structure.egg-info/dependency_links.txt
+src/check_tests_structure.egg-info/entry_points.txt
+src/check_tests_structure.egg-info/requires.txt
+src/check_tests_structure.egg-info/top_level.txt
+tests/test_compare.py
+tests/test_config.py
+tests/test_lookup.py

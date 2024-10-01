@@ -1,0 +1,9 @@
+cyclopts>=2.9
+pydantic>=2.9
+rapidfuzz>=3.10
+
+[test]
+pytest
+pytest-mock
+nox
+pyfakefs

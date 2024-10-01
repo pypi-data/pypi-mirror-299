@@ -1,0 +1,1 @@
+check_tests_structure

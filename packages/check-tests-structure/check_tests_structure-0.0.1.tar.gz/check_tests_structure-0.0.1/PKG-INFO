@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: check-tests-structure
+Version: 0.0.1
+Author-email: Leonardo Schwarz <leonardo.schwarz@fgcz.ethz.ch>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cyclopts>=2.9
+Requires-Dist: pydantic>=2.9
+Requires-Dist: rapidfuzz>=3.10
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-mock; extra == "test"
+Requires-Dist: nox; extra == "test"
+Requires-Dist: pyfakefs; extra == "test"
+
+# check-tests-structure
+The goal of this project is to validate whether your tests folder structure matches your sources folder structure.
+This can be useful for example, when setting up testing for a Python project where you want all modules to be tested.
+
+## Installation
+Either install this package, e.g. with [pipx](https://pipx.pypa.io) or set up a pre-commit hook:
+
+```toml
+# pyproject.toml:
+[tool.check-tests-structure]
+sources_path = "src/my_package"
+tests_path = "tests/unit"
+```
+
+```yaml
+# pre-commit-config.yaml:
+repos:
+  - repo: https://github.com/leoschwarz/check-tests-structure
+    rev: v0.1.0
+    hooks:
+      - id: check-tests-structure
+```
