@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+NumTextAlchemy/__init__.py
+NumTextAlchemy/converter.py
+NumTextAlchemy.egg-info/PKG-INFO
+NumTextAlchemy.egg-info/SOURCES.txt
+NumTextAlchemy.egg-info/dependency_links.txt
+NumTextAlchemy.egg-info/top_level.txt
