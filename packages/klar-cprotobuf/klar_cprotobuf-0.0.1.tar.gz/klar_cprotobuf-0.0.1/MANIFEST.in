@@ -1,0 +1,4 @@
+include README.rst
+include cprotobuf/utils.pxi
+include cprotobuf/internal.pyx
+recursive-include cprotobuf *.pyx
