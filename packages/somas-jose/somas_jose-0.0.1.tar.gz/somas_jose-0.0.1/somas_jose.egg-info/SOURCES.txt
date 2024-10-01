@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+somas_jose/__init__.py
+somas_jose/exemplo.py
+somas_jose.egg-info/PKG-INFO
+somas_jose.egg-info/SOURCES.txt
+somas_jose.egg-info/dependency_links.txt
+somas_jose.egg-info/requires.txt
+somas_jose.egg-info/top_level.txt
