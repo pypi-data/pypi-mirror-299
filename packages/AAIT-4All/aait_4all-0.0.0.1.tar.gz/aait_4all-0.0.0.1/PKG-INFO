@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: AAIT_4All
+Version: 0.0.0.1
+Summary: Installation de 4All
+Home-page: 
+Author: Community
+Author-email: 
+Requires-Dist: gpt4all-pypi-part11
