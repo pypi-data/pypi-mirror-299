@@ -1,0 +1,30 @@
+Metadata-Version: 2.3
+Name: sphinx-inline-svg
+Version: 0.1.0
+Summary: Sphinx extension to make svg images inline
+Project-URL: Homepage, https://github.com/satamame/sphinx-inline-svg
+Project-URL: Repository, https://github.com/satamame/sphinx-inline-svg.git
+Project-URL: Issues, https://github.com/satamame/sphinx-inline-svg/issues
+Author-email: satamame <satamame@gmail.com>
+License: MIT
+License-File: LICENSE
+Keywords: extension,inline,sphinx,svg
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: lxml>=5.3.0
+Requires-Dist: sphinx>=7.4.0
+Description-Content-Type: text/markdown
+
+# sphinx-inline-svg
+
+## Overview
+
+Sphinx extension to make SVG images inline.
+
+## How to use
+
+🚧 WIP
