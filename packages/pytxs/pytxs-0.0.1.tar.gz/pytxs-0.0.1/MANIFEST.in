@@ -1,0 +1,6 @@
+include .flake8 requirements-dev.txt
+
+graft docs
+
+# Include tests except the data files
+recursive-include txs *.py

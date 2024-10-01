@@ -1,0 +1,12 @@
+numpy>=1.10
+h5py>3.0
+tqdm
+fabio
+pyFAI
+xraydb>=4.3.4
+datastorage
+
+[gui]
+PyQt5
+matplotlib
+silx
