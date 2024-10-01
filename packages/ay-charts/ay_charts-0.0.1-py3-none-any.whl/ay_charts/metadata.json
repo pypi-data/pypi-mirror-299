@@ -1,0 +1,1513 @@
+{
+  "src/lib/components/AyBar.react.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/en/examples/statistics/bar/#bar",
+    "displayName": "AyBar",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data",
+        "defaultValue": {
+          "value": "[\n    {\n        label: 'Blue',\n        value: 110,\n    },\n    {\n        label: 'White',\n        value: 220,\n    },\n    {\n        label: 'Pink',\n        value: 330,\n    },\n    {\n        label: 'Green',\n        value: 440,\n    },\n]",
+          "computed": false
+        }
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)",
+        "defaultValue": {
+          "value": "'label'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)",
+        "defaultValue": {
+          "value": "'value'",
+          "computed": false
+        }
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by/Stratified field",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "normalize": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Wether to normalize/show percentages",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "tooltipName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of tooltip",
+        "defaultValue": {
+          "value": "'No. of Subjects'",
+          "computed": false
+        }
+      },
+      "showLabel": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show label",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "xFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Axis Title"
+      },
+      "yFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Axis Title"
+      },
+      "stack": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to stack groups",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Width"
+      },
+      "showGrid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyBox.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/zh/examples/statistics/box/#basic",
+    "displayName": "AyBox",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data",
+        "defaultValue": {
+          "value": "[{name: 'Oceania', value: [1, 9, 16, 22, 24]}]",
+          "computed": false
+        }
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)",
+        "defaultValue": {
+          "value": "'name'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)",
+        "defaultValue": {
+          "value": "'value'",
+          "computed": false
+        }
+      },
+      "xFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Axis Title",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "yFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Axis Title",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by/Stratified field",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "direction": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Direction",
+        "defaultValue": {
+          "value": "'horizontal'",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "showAxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show axis",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height"
+      },
+      "raw": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether the data is raw",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "showGrid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyCard.react.js": {
+    "description": "A chart wrapper based on the Ant Design card component\nSee https://ant.design/components/card",
+    "displayName": "AyCard",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Content to be displayed on the tag"
+      },
+      "title": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Title",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Width",
+        "defaultValue": {
+          "value": "'100%'",
+          "computed": false
+        }
+      },
+      "border": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Border"
+      },
+      "backgroundColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Background color",
+        "defaultValue": {
+          "value": "'#fff'",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyChart.react.js": {
+    "description": "A chart wrapper based on the Ant Design card component\nSee https://ant.design/components/card",
+    "displayName": "AyChart",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Content to be displayed on the tag"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)"
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)"
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by/Stratified field",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "colorField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Color Field (applies to correlation matrix only)"
+      },
+      "stack": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to stack groups"
+      },
+      "nBins": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "No. of bins (applies to histograms only)",
+        "defaultValue": {
+          "value": "10",
+          "computed": false
+        }
+      },
+      "normalize": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Wether to normalize/show percentages (applies to bars only)",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "chart": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'bar'",
+              "computed": false
+            },
+            {
+              "value": "'box'",
+              "computed": false
+            },
+            {
+              "value": "'histogram'",
+              "computed": false
+            },
+            {
+              "value": "'pie'",
+              "computed": false
+            },
+            {
+              "value": "'corr'",
+              "computed": false
+            },
+            {
+              "value": "'scatter'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Type of chart"
+      },
+      "direction": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'vertical'",
+              "computed": false
+            },
+            {
+              "value": "'horizontal'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Direction of chart (applies to bars only)",
+        "defaultValue": {
+          "value": "'horizontal'",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "true",
+              "computed": false
+            },
+            {
+              "value": "false",
+              "computed": false
+            },
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Legend setting"
+      },
+      "axis": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show axis (applies to boxes)"
+      },
+      "xFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Axis Title",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "yFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Axis Title",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "label": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Label"
+      },
+      "box": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show box",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "raw": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether the data is raw (applies to boxes only)",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "isDonut": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether the pie is a donut",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "title": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Title",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "tooltipName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of tooltip"
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height"
+      },
+      "width": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Width",
+        "defaultValue": {
+          "value": "'100%'",
+          "computed": false
+        }
+      },
+      "border": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Border"
+      },
+      "backgroundColor": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Background color",
+        "defaultValue": {
+          "value": "'#fff'",
+          "computed": false
+        }
+      },
+      "isCard": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to wrap the chart in a card",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "grid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "regression": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show regression lines (applies to scatter plot only)",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyColumn.react.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/en/examples/statistics/bar/#bar",
+    "displayName": "AyColumn",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data",
+        "defaultValue": {
+          "value": "[\n    {\n        label: 'Blue',\n        value: 110,\n    },\n    {\n        label: 'White',\n        value: 220,\n    },\n    {\n        label: 'Pink',\n        value: 330,\n    },\n    {\n        label: 'Green',\n        value: 440,\n    },\n]",
+          "computed": false
+        }
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)",
+        "defaultValue": {
+          "value": "'label'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)",
+        "defaultValue": {
+          "value": "'value'",
+          "computed": false
+        }
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by/Stratified field",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "normalize": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Wether to normalize/show percentages",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "tooltipName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of tooltip",
+        "defaultValue": {
+          "value": "'No. of Subjects'",
+          "computed": false
+        }
+      },
+      "showLabel": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show label",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "showAxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show axis",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "xFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Axis Title"
+      },
+      "yFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Axis Title"
+      },
+      "stack": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to stack groups",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Width"
+      },
+      "showGrid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyCorr.react.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/examples/statistics/heatmap/#cell-aggregated",
+    "displayName": "AyCorr",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data",
+        "defaultValue": {
+          "value": "[\n    {\n        x: 'A',\n        y: 'B',\n        value: -0.66,\n        p: 0.03,\n    },\n    {\n        x: 'A',\n        y: 'D',\n        value: 0.04,\n        p: 0.5,\n    },\n    {\n        x: 'A',\n        y: 'E',\n        value: 0.04,\n        p: 0.9,\n    },\n    {\n        x: 'A',\n        y: 'C',\n        value: 0.1,\n        p: 0.2,\n    },\n    {\n        x: 'C',\n        y: 'B',\n        value: 0.08,\n        p: 0.05,\n    },\n    {\n        x: 'C',\n        y: 'D',\n        value: 0.15,\n        p: 0.01,\n    },\n    {\n        x: 'C',\n        y: 'E',\n        value: 0.39,\n        p: 0.1,\n    },\n    {\n        x: 'C',\n        y: 'A',\n        value: 0.1,\n        p: 0.01,\n    },\n    {\n        x: 'E',\n        y: 'B',\n        value: 0.09,\n        p: 0.01,\n    },\n    {\n        x: 'E',\n        y: 'D',\n        value: 0.24,\n        p: 0.5,\n    },\n]",
+          "computed": false
+        }
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)",
+        "defaultValue": {
+          "value": "'x'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)",
+        "defaultValue": {
+          "value": "'y'",
+          "computed": false
+        }
+      },
+      "colorField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Color Field (value)",
+        "defaultValue": {
+          "value": "'value'",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "showLabel": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show label",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height"
+      },
+      "step": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Step",
+        "defaultValue": {
+          "value": "0.01",
+          "computed": false
+        }
+      },
+      "legend_title": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Legend title",
+        "defaultValue": {
+          "value": "'r'",
+          "computed": false
+        }
+      },
+      "showGrid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyHistogram.react.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/en/examples/statistics/bar/#bar",
+    "displayName": "AyHistogram",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data",
+        "defaultValue": {
+          "value": "[\n    {value: 12.0},\n    {value: 12.9},\n    {value: 12.9},\n    {value: 13.3},\n    {value: 13.7},\n    {value: 13.8},\n    {value: 13.9},\n    {value: 14.0},\n    {value: 14.2},\n    {value: 14.5},\n    {value: 15},\n    {value: 15.2},\n    {value: 15.6},\n    {value: 16.0},\n    {value: 16.3},\n    {value: 17.3},\n    {value: 17.5},\n    {value: 17.9},\n    {value: 18.0},\n    {value: 18.0},\n    {value: 20.6},\n    {value: 21},\n    {value: 23.4},\n]",
+          "computed": false
+        }
+      },
+      "binField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Bin Field (value)",
+        "defaultValue": {
+          "value": "'value'",
+          "computed": false
+        }
+      },
+      "nBins": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "No. of bins",
+        "defaultValue": {
+          "value": "10",
+          "computed": false
+        }
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by/Stratified field",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "normalize": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Wether to normalize/show percentages",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      },
+      "tooltipName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of tooltip"
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "binFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Axis Title"
+      },
+      "valueFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Axis Title"
+      },
+      "showAxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show axis",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "stack": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to stack groups",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "showGrid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyPie.react.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/examples/statistics/pie/#outer-label",
+    "displayName": "AyPie",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)",
+        "defaultValue": {
+          "value": "'name'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)",
+        "defaultValue": {
+          "value": "'value'",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "showLabel": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show label",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "tooltipName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of tooltip",
+        "defaultValue": {
+          "value": "'No. of Subjects'",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height"
+      },
+      "donut": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If the pie is a donut",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/lib/components/AyScatter.react.js": {
+    "description": "An Ant Chart component\nSee https://ant-design-charts.antgroup.com/examples/statistics/pie/#outer-label",
+    "displayName": "AyScatter",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "ID"
+      },
+      "data": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Field (Catgories)",
+        "defaultValue": {
+          "value": "'x'",
+          "computed": false
+        }
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Field (value)",
+        "defaultValue": {
+          "value": "'y'",
+          "computed": false
+        }
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by fied",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "legend": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to show legend"
+      },
+      "height": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Height"
+      },
+      "showGrid": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show grid",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "showRegression": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show regression lines",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "xFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X Axis Title"
+      },
+      "yFieldTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y Axis Title"
+      }
+    }
+  }
+}
