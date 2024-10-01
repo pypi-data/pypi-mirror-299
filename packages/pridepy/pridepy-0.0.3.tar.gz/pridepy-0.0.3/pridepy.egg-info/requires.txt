@@ -1,0 +1,9 @@
+requests
+ratelimit
+click
+pytest
+setuptools
+plotly
+tqdm
+boto3
+botocore
