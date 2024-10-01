@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: benchmanage
+Version: 0.1.1
+Summary: Bench管理大师
+Home-page: https://github.com/wolono/benchmanage
+Author: wolone
+Author-email: 71954466@qq.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+Requires-Dist: Flask-Login
+Requires-Dist: paramiko
+Requires-Dist: Flask-WTF
+
+# Benchmanage
+
+A simple Flask web application.
+
+## Installation
+
+```sh
+pip install benchmanage
+```
