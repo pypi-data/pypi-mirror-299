@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lsp-python/__init__.py
+lsp-python/lsp.py
+lsp-python/mds.py
+lsp_python.egg-info/PKG-INFO
+lsp_python.egg-info/SOURCES.txt
+lsp_python.egg-info/dependency_links.txt
+lsp_python.egg-info/requires.txt
+lsp_python.egg-info/top_level.txt
