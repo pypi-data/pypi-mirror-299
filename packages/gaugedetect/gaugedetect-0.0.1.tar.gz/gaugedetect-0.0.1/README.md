@@ -1,0 +1,51 @@
+## Step to Publishing Python Library
+Install Packages
+```python
+pip install twine
+pip install wheel
+```
+
+Create Wheel 
+```bash
+python setup.py sdist bdist_wheel
+```
+
+Check and test to upload PyPI 
+```bash
+python3 -m twine check dist/*
+python3 -m twine upload dist/*
+```
+
+
+## Installation
+```bash
+pip install `gaugedetect`
+```
+
+
+## Getting Started
+```python
+import gaugedetect as gd
+
+gd.digital_url(user_id=YOUR_USER_ID, product_key=YOUR_PRODUCT_KEY, image_url=YOUR_IMAGE_URL)
+gd.digital_image(user_id=YOUR_USER_ID, product_key=YOUR_PRODUCT_KEY,  image_path=YOUR_IMAGE_PATH)
+
+gd.clock_url(user_id=YOUR_USER_ID, product_key=YOUR_PRODUCT_KEY, image_url=YOUR_IMAGE_URL)
+gd.clock_image(user_id=YOUR_USER_ID, product_key=YOUR_PRODUCT_KEY,  image_path=YOUR_IMAGE_PATH)
+```
+
+## Parameters
+The `function` class can be created with the following optional parameters:
+| Name              | Description                        | Required    | Default
+| -----------       | -----------                        | ----------- | -----------
+| key               |                                    | True        |
+| image_url         |                                    | True        | 
+| gauge_min         |                                    | False       | 0
+| gauge_max         |                                    | False       | 100 
+| image_width       |                                    | False       | `base on the image size`
+| image_height      |                                    | False       | `base on the image size`
+| overlay_top       |                                    | False       | 0
+| overlay_left      |                                    | False       | 0
+| overlay_width     |                                    | False       | 0
+| overlay_height    |                                    | False       | 0
+| confident         |                                    | False       | 0

@@ -1,0 +1,9 @@
+README.md
+setup.py
+gaugedetect/__init__.py
+gaugedetect/detect.py
+gaugedetect.egg-info/PKG-INFO
+gaugedetect.egg-info/SOURCES.txt
+gaugedetect.egg-info/dependency_links.txt
+gaugedetect.egg-info/requires.txt
+gaugedetect.egg-info/top_level.txt
