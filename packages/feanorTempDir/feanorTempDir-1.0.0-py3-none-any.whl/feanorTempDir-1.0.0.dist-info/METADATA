@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: feanorTempDir
+Version: 1.0.0
+Summary: Dependency library for feanor, allowing to simply manage temporary directories and files in python.
+Author-email: Antoine Buirey <antoine.buirey@gmail.com>
+Project-URL: homepage, https://github.com/T0ine34/feanorTempDir
+Project-URL: issues, https://github.com/T0ine34/feanorTempDir/issues
+Project-URL: source, https://github.com/T0ine34/feanorTempDir
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: gamuLogger
+
