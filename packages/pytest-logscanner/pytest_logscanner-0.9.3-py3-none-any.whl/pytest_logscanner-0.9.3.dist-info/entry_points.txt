@@ -1,0 +1,7 @@
+[console_scripts]
+
+[gui_scripts]
+
+[pytest11]
+pytest-logscanner = pytest_logscanner.pytest_logscanner
+
