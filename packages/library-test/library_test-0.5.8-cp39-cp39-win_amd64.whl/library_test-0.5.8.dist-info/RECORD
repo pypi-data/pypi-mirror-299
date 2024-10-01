@@ -1,0 +1,13 @@
+vnstockdata/__init__.py,sha256=ELudvV9FNXnXM4-AeFyRT0R85S6Z_TMBgD_Y1XGntuI,118
+vnstockdata/client.py,sha256=-MW9W5tbZQj7K7H9jyV53BAZTbreZokygd3DGT8rrZM,1183
+vnstockdata/ticker.py,sha256=swzepmXzDq0Q0tlSVMuPesXaKyNebJOf3Nxs-UXjpoE,1531
+vnstockdata/client/login.cp39-win_amd64.pyd,sha256=XTZ5hpLpqF2LSTH9r2kueAgaX4VuYynnBHWWxIQo7FY,53248
+vnstockdata/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnstockdata/config/config.cp39-win_amd64.pyd,sha256=4pEFwWQhQ0HDXnvtbhWZUgRSOLvatDgfkSTbqRT2Uls,19456
+vnstockdata/config/ensure_logged_in.cp39-win_amd64.pyd,sha256=GpCtycf8kCGjN1-sKiukAPFUjV3-Wn94FwRr4VVgk4o,43008
+vnstockdata/stock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnstockdata/stock/price.cp39-win_amd64.pyd,sha256=n-aZ2iIcT1wHH2FhZDVD_ShFwKQ5VyJkNY0JhJHssrM,50176
+library_test-0.5.8.dist-info/METADATA,sha256=vstAwGnhBykchXUNor7mp748DTiD_9dwnmq0sqgAWGw,418
+library_test-0.5.8.dist-info/WHEEL,sha256=h8qR-QIIiJRtL33n_gyCRE2SrRrpPMcsCSLcJ07mnio,99
+library_test-0.5.8.dist-info/top_level.txt,sha256=YPUV3MqkxL3FTwgzwpxjk2FeH4MpFYRDg2n1wHUvCtc,12
+library_test-0.5.8.dist-info/RECORD,,
