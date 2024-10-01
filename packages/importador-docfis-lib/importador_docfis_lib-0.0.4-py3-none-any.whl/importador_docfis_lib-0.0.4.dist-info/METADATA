@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: importador_docfis_lib
+Version: 0.0.4
+Summary: Biblioteca python para implementar APIs ou workers de importação de Documentos Fiscais para o BD do ERP Nasajon.
+Home-page: https://github.com/Nasajon/importador_documentos
+Author: Nasajon Sistemas
+Author-email: contact.dev@nasajon.com.br
+Project-URL: Source, https://github.com/Nasajon/importador_documentos
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2<3.0.0,>=2.8.3
+Requires-Dist: charset-normalizer<3.0.0,>=2.0.7
+Requires-Dist: pytz<2023.0,>=2022.6
+
+# Importador de documentos
+
+Refatoração do nsDocImportador em python, para ser uma bibiloteca que possa ser usada por outros projetos (como workers e APIs).
