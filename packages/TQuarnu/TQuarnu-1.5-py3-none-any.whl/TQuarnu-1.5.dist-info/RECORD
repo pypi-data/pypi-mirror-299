@@ -1,0 +1,10 @@
+qurane/__init__.py,sha256=sSQUbZYQNGLD8FJQ4p6Z2XhzuoHGD7t3hgDYmUjo6Rk,145
+qurane/quran.json,sha256=vXTizv6ADiYAuqSmBW0eg6g8dx9v9SUGTLCL3MvxKL8,1766131
+qurane/quran.py,sha256=ggrL6tMdq_GwOna9p3137dTSpnWMjxYMMaoBsvyeEd4,905
+qurane/search.py,sha256=tFccQ8hfkaN28m4RUCnFYiNX17n5VxNkFXmuHWXHWfg,2446
+qurane/tafser.json,sha256=ZPDZxoG5u5oVAWlgRWXw3RGohOvdoLTsGfNf-pVLV8g,2754275
+qurane/tafser.py,sha256=DstV58XEy0yPq-NvMwyHxjfiy8CgskhKzcKOSFeX9Rw,923
+TQuarnu-1.5.dist-info/METADATA,sha256=fPowiKqEI_qThOK-QGCy8hDCzlf3Cs3mPDbN-GRx1TE,715
+TQuarnu-1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+TQuarnu-1.5.dist-info/top_level.txt,sha256=EiR5LzYb4aSWnvy-ljC18XENUoTTsskx1PLwySvYfkA,7
+TQuarnu-1.5.dist-info/RECORD,,
