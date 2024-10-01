@@ -1,0 +1,2 @@
+[console_scripts]
+get_cloud_secrets = get_cloud_secrets:get_secret_string

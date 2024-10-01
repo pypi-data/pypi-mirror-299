@@ -1,0 +1,8 @@
+README.md
+setup.py
+guzman_utilities.egg-info/PKG-INFO
+guzman_utilities.egg-info/SOURCES.txt
+guzman_utilities.egg-info/dependency_links.txt
+guzman_utilities.egg-info/entry_points.txt
+guzman_utilities.egg-info/requires.txt
+guzman_utilities.egg-info/top_level.txt
