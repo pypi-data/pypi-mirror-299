@@ -1,0 +1,5 @@
+setup.py
+rea_copilot_vpc.egg-info/PKG-INFO
+rea_copilot_vpc.egg-info/SOURCES.txt
+rea_copilot_vpc.egg-info/dependency_links.txt
+rea_copilot_vpc.egg-info/top_level.txt
