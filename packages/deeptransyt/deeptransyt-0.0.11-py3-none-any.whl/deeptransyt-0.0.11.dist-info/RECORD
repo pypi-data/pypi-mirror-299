@@ -1,0 +1,11 @@
+deeptransyt/DNN.py,sha256=oGam4N8fPOgEb4LMtmo6mD4WQKbxjGfJz8a4Kltbydk,10477
+deeptransyt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deeptransyt/auxiliary_functions.py,sha256=McaGUT0-Ol2QWXOQsbV-xDzqGaVG3tDlcG06uB54ksM,690
+deeptransyt/main.py,sha256=1HA7XkFkf7h7cY5yNcGpQTEomQCobWq0CbxuIykqdf8,5009
+deeptransyt/make_predictions.py,sha256=7SpK5vkDWwZv0W7Xp-3_Ow-LzOyRA25WdVsbttr5_SI,10901
+deeptransyt/sequence_processing.py,sha256=QamgurN4Se9_aqZwM76LcaqGQvhMU0Hoe4EmjGP25c0,4744
+deeptransyt-0.0.11.dist-info/METADATA,sha256=DNJbVK1Bl7TqNPrUXAvj2hHyHOGiwjwNEf7Pn7U_5zc,556
+deeptransyt-0.0.11.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+deeptransyt-0.0.11.dist-info/entry_points.txt,sha256=v5MoVcurm1-YbaA9A1dD45xVFTzeZmIEZ_ZbugQsFgc,58
+deeptransyt-0.0.11.dist-info/top_level.txt,sha256=2OobJ-ibZiV_DW3bagb-29nQ_TSX-TfF5Fwtqk-k_fI,12
+deeptransyt-0.0.11.dist-info/RECORD,,
