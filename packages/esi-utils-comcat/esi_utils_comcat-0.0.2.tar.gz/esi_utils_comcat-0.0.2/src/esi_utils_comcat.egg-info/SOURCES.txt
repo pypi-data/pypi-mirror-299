@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/esi_utils_comcat.egg-info/PKG-INFO
+src/esi_utils_comcat.egg-info/SOURCES.txt
+src/esi_utils_comcat.egg-info/dependency_links.txt
+src/esi_utils_comcat.egg-info/requires.txt
+src/esi_utils_comcat.egg-info/top_level.txt
