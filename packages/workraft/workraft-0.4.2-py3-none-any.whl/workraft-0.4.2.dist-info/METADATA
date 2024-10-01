@@ -1,0 +1,123 @@
+Metadata-Version: 2.3
+Name: workraft
+Version: 0.4.2
+Summary: A simple worker library in Python
+Author-email: "Artur A. Galstyan" <mail@arturgalstyan.dev>
+License: MIT License
+        
+        Copyright (c) 2024 Artur A. Galstyan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: asyncpg
+Requires-Dist: beartype
+Requires-Dist: fire
+Requires-Dist: loguru
+Requires-Dist: psycopg2>=2.9.9
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: tenacity
+Provides-Extra: dev
+Requires-Dist: mkdocs; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Workraft
+
+## Description
+Workraft is a lightweight, _highly opionated_, simple worker library in Python with only a Postgres database
+as the single source of truth; no Redis, RabbitMQ, or any other external dependencies.
+
+## Installation
+
+Run the command
+
+```bash
+pip install workraft
+```
+
+## Usage
+
+First, you need to setup the database. The following environment variables are required:
+
+- WK_DB_HOST - The database host
+- WK_DB_PORT - The database port
+- WK_DB_USER - The database user
+- WK_DB_PASS - The database password
+- WK_DB_NAME - The database name
+
+Then, you need to setup the database using the command below:
+
+```bash
+python3 -m workraft build_stronghold
+```
+
+To create a worker, you need to give it some tasks to perform. For example:
+
+```python
+import time
+
+from workraft.core import Workraft
+
+
+workraft = Workraft()
+
+
+@workraft.task("simple_task")
+def simple_task(a: int, b: int, c: int) -> int:
+    time.sleep(1)
+    #    time.sleep(random.randint(10, 20))
+    raise ValueError("Random error!")
+    return a + b + c
+
+```
+
+To run a worker, run the command below:
+
+```bash
+python3 -m workraft peon --workraft_path=example.workraft
+```
+
+To send a task to the worker, you can use the following example:
+
+```python
+async def main():
+    a = random.randint(1, 100)
+    b = random.randint(1, 100)
+    c = random.randint(1, 100)
+
+    await workraft.send_task_async(
+        "simple_task",
+        get_db_config(),
+        [a, b],
+        task_kwargs={"c": c},
+        retry_on_failure=True,
+    )
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+And that's it. Use any database viewer to see the tasks and their status.
+
+## License
+
+MIT
