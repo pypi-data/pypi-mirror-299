@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+paulpdf/__init__.py
+paulpdf/pdf2image.py
+paulpdf/pdf2text.py
+paulpdf1727707858.426259.egg-info/PKG-INFO
+paulpdf1727707858.426259.egg-info/SOURCES.txt
+paulpdf1727707858.426259.egg-info/dependency_links.txt
+paulpdf1727707858.426259.egg-info/top_level.txt
