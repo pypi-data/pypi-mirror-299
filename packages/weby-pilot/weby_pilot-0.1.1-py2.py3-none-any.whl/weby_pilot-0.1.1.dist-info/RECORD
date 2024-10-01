@@ -1,0 +1,10 @@
+weby_pilot/__init__.py,sha256=MnL6SOK854bTiT07rY-PIv-7KcxvI37LKz6OYDLpNSY,153
+weby_pilot/__main__.py,sha256=JJkP44Jos4rRMQ350xMuhjOPYB5WhZj0EyBChlQSfTc,363
+weby_pilot/base.py,sha256=957MDT27dPFc6QIFyF5zkABXG0tVXxnI6qNPZJb75-A,7151
+weby_pilot/big.py,sha256=DW3nwmgyZtLL4mNFGwnUSE4aOSxJJgpDMXqXBpOFuNE,830
+weby_pilot/bpi.py,sha256=mErjane_xNR66-DtyUv_oOTiUnZkx3aXeeM0NMhVp3w,9449
+weby_pilot/common.py,sha256=lmsyb6Ht7F1C67-V4b8nBfTY41IeR1Eu-1qkYw2D19o,255
+weby_pilot-0.1.1.dist-info/METADATA,sha256=-eiee55U-H8OKdSu06ikbkXQW-iYRMWMirHYqYq8lY8,1338
+weby_pilot-0.1.1.dist-info/WHEEL,sha256=fS9sRbCBHs7VFcwJLnLXN1MZRR0_TVTxvXKzOnaSFs8,110
+weby_pilot-0.1.1.dist-info/top_level.txt,sha256=OmnvSvdnXvc5J-3Y_uaevokNHww0NT3YX2THzHDkDYA,11
+weby_pilot-0.1.1.dist-info/RECORD,,
