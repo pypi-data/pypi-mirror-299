@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mwg/__init__.py
+src/mwg/markov_word_generator.py
+src/mwg.egg-info/PKG-INFO
+src/mwg.egg-info/SOURCES.txt
+src/mwg.egg-info/dependency_links.txt
+src/mwg.egg-info/requires.txt
+src/mwg.egg-info/top_level.txt
