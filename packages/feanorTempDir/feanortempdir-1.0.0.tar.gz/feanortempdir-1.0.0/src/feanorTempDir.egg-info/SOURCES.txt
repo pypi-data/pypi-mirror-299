@@ -1,0 +1,8 @@
+pyproject.toml
+src/feanorTempDir/__init__.py
+src/feanorTempDir/temp.py
+src/feanorTempDir.egg-info/PKG-INFO
+src/feanorTempDir.egg-info/SOURCES.txt
+src/feanorTempDir.egg-info/dependency_links.txt
+src/feanorTempDir.egg-info/requires.txt
+src/feanorTempDir.egg-info/top_level.txt

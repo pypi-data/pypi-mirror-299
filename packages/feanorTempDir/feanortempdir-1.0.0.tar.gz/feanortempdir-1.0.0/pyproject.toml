@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feanorTempDir"
+version = "1.0.0"
+authors = [
+  { name="Antoine Buirey", email="antoine.buirey@gmail.com" }
+]
+description = "Dependency library for feanor, allowing to simply manage temporary directories and files in python."
+readme = "readme.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "gamuLogger"
+]
+
+[project.urls]
+homepage = "https://github.com/T0ine34/feanorTempDir"
+issues = "https://github.com/T0ine34/feanorTempDir/issues"
+source = "https://github.com/T0ine34/feanorTempDir"
