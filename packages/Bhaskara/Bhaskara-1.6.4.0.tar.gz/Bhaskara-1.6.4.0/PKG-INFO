@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Bhaskara
+Version: 1.6.4.0
+Summary: Bhaskara Programming Engine
+Author: Prakamya Khare
+Author-email: khareprakamya27@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+Bhaskara is a powerful mathematical programming engine designed for advanced computing and problem-solving. It offers a unique syntax tailored for handling complex mathematical computations and algorithms efficiently. With Bhaskara, users can seamlessly define, manipulate, and compute a wide range of mathematical expressions, making it ideal for researchers, engineers, and developers working in scientific domains.
+
+Install via pip:
+
+pip install Bhaskara
