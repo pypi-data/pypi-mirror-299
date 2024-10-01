@@ -1,0 +1,3 @@
+numpy
+pandas
+PyCifRW>=4.0
