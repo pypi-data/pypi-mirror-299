@@ -1,0 +1,10 @@
+auto_aws_sso/__init__.py,sha256=L7qP_Z31T9J1ybx3kERxJTm0MFZR04fr7kAvDRjgZNE,68
+auto_aws_sso/authorize_sso.py,sha256=r2EcnKANX8v0rTXsZA1RJzUD-dzq0Fs0Y0nZG6Bg9Eg,1981
+auto_aws_sso/cli.py,sha256=MPyc93ss8tbCsnWm82ZzH-gNbH5pJaztbT9R6jIP1o8,7169
+auto_aws_sso/constant.py,sha256=vXUXpqnLU8EZdzeasZu1BRsEVpeYjiEPDElVPxx_yeA,55
+auto_aws_sso/exception.py,sha256=s37t_sTs1eHk8q8wapw2KIpTZpc_zefmrDfj7_2hD7w,157
+auto_aws_sso-0.0.7.dist-info/METADATA,sha256=j7Zm5GHoO-yfysIdLBcIu4MwR92KrkGJG8lpbmMOmow,15149
+auto_aws_sso-0.0.7.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+auto_aws_sso-0.0.7.dist-info/entry_points.txt,sha256=sFgQbzpTy9XTSILqNPYMILF6qXIYWZhTKJ3FsLSrMbU,54
+auto_aws_sso-0.0.7.dist-info/licenses/LICENSE,sha256=AzugKUIp9MrfXaq3ubna6X241andX_-k1okONdikVAo,11345
+auto_aws_sso-0.0.7.dist-info/RECORD,,
