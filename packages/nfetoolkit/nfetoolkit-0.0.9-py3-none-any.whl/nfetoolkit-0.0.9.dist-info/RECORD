@@ -1,0 +1,13 @@
+nfetoolkit/__init__.py,sha256=4awQF64JOO3oI9uNLILJ0vduZzu3WQaTsVNtjDohIkU,60
+nfetoolkit/nfetkt.py,sha256=9tHk7ETxtXUkXHEIF_rWNYft4PCz6D9WzXb4oUPKPxY,22301
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_danfe_nfe.py,sha256=bAoqNrZKTxsQOT5II7JjxOWRS-cKrgp1VSc3C2dNIfs,593
+test/test_fix_nfe.py,sha256=SXnHeJUipHlBlkFYtSPgNsFOiswmA5ACV1EIIAqE7ek,1413
+test/test_nfe_rep.py,sha256=FFhM5Z_8JE_O5GdgUZLV-9WAcH6JfsvaYlaqZYoEyEo,574
+test/test_organize_xmls.py,sha256=S7027MasQGaW1ufNFDqbsjZH1poW9RmnVkSHuupWi_A,647
+test/test_read_nfe.py,sha256=vHnbwMHJR29_5GCaKo39L654kvHdvHcT_kZhz1UFmUw,867
+nfetoolkit-0.0.9.dist-info/LICENSE,sha256=C4y8wFonub6TtYIBo_tHKTSIMvauXYAdLcFUEpePpkM,1142
+nfetoolkit-0.0.9.dist-info/METADATA,sha256=d1xfNpP5JyL1MQTT-PYBrn5hHGldXKWYb6uMB-CfIZQ,1969
+nfetoolkit-0.0.9.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+nfetoolkit-0.0.9.dist-info/top_level.txt,sha256=81dTdvjOonvfDtXE7zj_INMT22A512d0SGzcM8aburc,16
+nfetoolkit-0.0.9.dist-info/RECORD,,
