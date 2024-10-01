@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+GC_DESENCRIP_TEM.egg-info/PKG-INFO
+GC_DESENCRIP_TEM.egg-info/SOURCES.txt
+GC_DESENCRIP_TEM.egg-info/dependency_links.txt
+GC_DESENCRIP_TEM.egg-info/requires.txt
+GC_DESENCRIP_TEM.egg-info/top_level.txt
+desencriptar_modulo/__init__.py
+desencriptar_modulo/desencriptar.py
