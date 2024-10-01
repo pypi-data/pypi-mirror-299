@@ -1,0 +1,10 @@
+rsclassifier/__init__.py,sha256=U5qLD_SVoytQ2aenOwEtDFlVEOeHNMTDlBAB9VxyYyA,50
+rsclassifier/entropy_based_discretization.py,sha256=mndExYnYYCIamzZGrSHaveSLS9J349FPZzPSp3vuERE,2131
+rsclassifier/feature_selection.py,sha256=vWgOI4W64NAcbq8PagTQ72d9R-wg9f8dIsB4_e5ZRxA,612
+rsclassifier/quine_mccluskey.py,sha256=hv-JO8ZR1V4fOVfnMfPZz14LfU49rqqXFl43geIhrSU,2728
+rsclassifier/rule_set_classifier.py,sha256=xZMCVFxVvsiprra24SNeRXLyWsGv_4kx_P8qmSMVgh0,13789
+rsclassifier-1.0.dist-info/LICENSE,sha256=iQTJ27cpcVeQJN0IlflgYLIYpN6CH5iqezBN7Q4V1cY,1067
+rsclassifier-1.0.dist-info/METADATA,sha256=8BCK9ZGI3EGUfzEKiUgoruQPKlDLkUjd82DdAgZxsM8,6513
+rsclassifier-1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+rsclassifier-1.0.dist-info/top_level.txt,sha256=PMEUUe8xB5PceU2nTnip_2gwSJ68cGRoMue10vTX2NM,13
+rsclassifier-1.0.dist-info/RECORD,,
