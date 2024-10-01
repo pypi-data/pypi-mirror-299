@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "mplstadium"
+version = "0.2.0"
+description = "A python plotting library for visualisation of stadium data"
+authors = ["Peter4137 <peter.robinson4137@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.9.2"
+numpy = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-mpl = "^0.17.0"
+ruff = "^0.6.8"
+sphinx-rtd-theme = "^2.0.0"
+sphinx = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4",  # flake8-comprehensions
+    "N",  # PEP8 naming convetions
+    #"D"  # pydocstyle
+]
+ignore = [
+    "C901",  # too complex
+    "W191",  # indentation contains tabs
+    "D401"  # imperative mood
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
