@@ -1,0 +1,3 @@
+[console_scripts]
+jsonltui = jsonltui.main:main
+
