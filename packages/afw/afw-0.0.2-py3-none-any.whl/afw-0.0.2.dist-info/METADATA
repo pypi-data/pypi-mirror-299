@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: afw
+Version: 0.0.2
+Summary: Tests Automation Framework
+Home-page: https://github.com/tsachikotek/AFW
+Author: Tsachi Kotek
+Author-email: tsachikotek@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Infra Package
+
+This is a sample Python package for the infra module.
