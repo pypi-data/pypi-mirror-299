@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+jsonltui/__init__.py
+jsonltui/main.py
+jsonltui.egg-info/PKG-INFO
+jsonltui.egg-info/SOURCES.txt
+jsonltui.egg-info/dependency_links.txt
+jsonltui.egg-info/entry_points.txt
+jsonltui.egg-info/requires.txt
+jsonltui.egg-info/top_level.txt
