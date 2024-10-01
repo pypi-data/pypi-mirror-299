@@ -1,0 +1,7 @@
+numpy
+torch
+msgpack>=0.5.2
+h5py
+bitarray>=2.9.2
+tabulate
+scipy
