@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: aidbox-python-sdk-tbs
+Version: 0.0.1a0
+Summary: Topic-Based Subscription extension for Aidbox SDK for python
+Keywords: aidbox,fhir,tbs
+Author-email: "beda.software" <aidbox-python-sdk@beda.software>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aidbox-python-sdk>=0.1.12
+Requires-Dist: fhirpy>=2.0.3
+Requires-Dist: aiohttp>=3.10.5
+Requires-Dist: fhirpy-types-r4b ; extra == "r4b"
+Requires-Dist: fhirpy-types-r5 ; extra == "r5"
+Project-URL: documentation, https://github.com/beda-software/aidbox-python-sdk-tbs#readme
+Project-URL: homepage, https://github.com/beda-software/aidbox-python-sdk-tbs
+Project-URL: repository, https://github.com/beda-software/aidbox-python-sdk-tbs.git
+Provides-Extra: r4b
+Provides-Extra: r5
+
+# aidbox-python-sdk-tbs
+
+Topic-based subscription extension for Aidbox SDK for python
