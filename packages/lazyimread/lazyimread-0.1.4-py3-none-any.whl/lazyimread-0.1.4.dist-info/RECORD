@@ -1,0 +1,11 @@
+lazyimread/__init__.py,sha256=sIISWrpC9snIz1xGoP0ykMOKeKIRHV8ierviF4CGiOg,1291
+lazyimread/async_utils.py,sha256=Nx7pR0uV3vG_F9oj5fqjZJOG5GerrKVVtwx4wv6kRPk,1948
+lazyimread/dimension_utils.py,sha256=PJzs-3L4-4f4p0jMG_HmiXtwLR2kuymAt72Q5_lv_iU,6225
+lazyimread/dummy_data_generator.py,sha256=n-zXncZ-JxMNWBon3da26Ppr-9EtLL66g4deFr69K28,10226
+lazyimread/gui_utils.py,sha256=VtXDFZKecMsBan9hsQKbPd2ugpVnmv0zyodLt_aPYo0,4436
+lazyimread/lazyimread.py,sha256=2qwzC5ztJP2od-fhC-bBfb1nyWhNCLwAL8qJdGMeEGw,31043
+lazyimread/saving_utils.py,sha256=KU2Ozc9HK1q1pBDoM-mDChVy-PrUh5IhigaGsjFbNZM,5137
+lazyimread-0.1.4.dist-info/METADATA,sha256=Nj2JrAu66VIFBcfPP35IZ2dYdkWWE02UEj86m9DRLv4,5801
+lazyimread-0.1.4.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+lazyimread-0.1.4.dist-info/licenses/LICENSE,sha256=JRBhWjJPbqNU-AVsOChuCoXeAeP6MK99Xnd4FlIVxq0,7606
+lazyimread-0.1.4.dist-info/RECORD,,
