@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: komida
+Version: 0.0.2
+Summary: Komida API.
+Keywords: komida,api
+Author-email: Arkadiusz Michał Ryś <Arkadiusz.Michal.Rys@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Dist: arklog>=0.5.1,<1
+Requires-Dist: simplejson>=3.19.3,<4
+Requires-Dist: tox~=4.20.0 ; extra == "dev"
+Requires-Dist: pip~=24.2 ; extra == "dev"
+Requires-Dist: flit~=3.9.0 ; extra == "dev"
+Requires-Dist: twine~=5.1.1 ; extra == "dev"
+Requires-Dist: invoke~=2.2.0 ; extra == "dev"
+Requires-Dist: vermin~=1.6.0 ; extra == "dev"
+Requires-Dist: jinja2~=3.1.4 ; extra == "dev"
+Requires-Dist: flake8~=7.1.1 ; extra == "dev"
+Requires-Dist: coverage~=7.6.1 ; extra == "dev"
+Requires-Dist: sphinx~=8.0.2 ; extra == "doc"
+Requires-Dist: pytest~=8.3.3 ; extra == "test"
+Project-URL: source, https://git.rys.one/arrys/komida-api
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# Komida API (komida)
+
+Returns structured data from the [komida calendar][calendar].
+
+## Getting Started
+
+Start by installing the dependencies using pip.
+One way of doing this is `pip install -r requirements.txt`.
+This will install **all** dependencies, including those used for development.
+To only install the minimum set of requirements and the package use `pip install -e .`.
+
+You can also install the latest release with `pip install kapi`.
+
+## Improvements
+
+- Sanitize the data
+- Fix allergens
+
+[calendar]: https://app.growzer.be/komida-calendar
+
