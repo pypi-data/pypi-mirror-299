@@ -1,0 +1,59 @@
+Metadata-Version: 2.3
+Name: pybeaut
+Version: 1.1.1
+Summary: A python library for styling terminal outputs.
+Project-URL: Author repository, https://github.com/Backist/
+Project-URL: repository, https://github.com/Backist/pybeaut
+Project-URL: Bug issues, https://github.com/Backist/pybeaut/issues
+Author-email: Backest <alvarodrumer54@gmail.com>
+Maintainer-email: Backest <alvarodrumer54@gmail.com>, TheWisker <thewisker@protonmail.com>
+License-File: LICENSE
+Keywords: Miscellaneous tools,Pystyle,Python,Python pretty-prints,Python-stylize,Python-tools,Python3,Python3 tools,Python3-stylize
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.10.8
+Description-Content-Type: text/markdown
+
+# <p align="center">☄️ &nbsp;Pybeaut  ☄️</p>
+### <p align="center">_A python module to stylize terminal outputs._</p>
+
+
+## 🔰 Features
+
+- ✅ - Fade effects 
+- ✅ - Static & Dynamic colors
+- ✅ - Colorate texts
+- ✅ - Pigeonhole texts | Texts boxes
+- ✅ - Center Texts & Text Alignments
+- ✅ - Banners
+- **_Other new features will be developing soon . . ._**  
+
+## Don't need this module if:
+
+- 🟥 - String management
+- 🟥 - Make the terminal more beautiful.
+- 🟥 - If u need a dummy module.
+
+##  ❗️ PLEASE NOTE
+> Recently the Pystyle library has suffered an update that contains non-legitimate code and that can put at risk your computer and your data, that's why I have been noticed, as a good action towards the community, to upload my own module renamed as "Pybeaut" to continue giving the service that Pystyle used to give with no malicious contexts.
+___
+
+### Recommanations
+``If you have any recommendations or new possible implementations of the module features, let us know through an issue in the official repository of the module or by posting a request in the official Pypi portal.``
+
+
+### 👤 Owner:
+- **[@Backist](https://github.com/Backist/)**
+
+### 👤Contributors:
+- **[@TheWisker](https://github.com/TheWisker/)**
+
+
+> This project follows **[Semantic Versioning](https://semver.org/)**
+> Copyright Present Backist and Pybeaut Contributors 2022-2024.
+
