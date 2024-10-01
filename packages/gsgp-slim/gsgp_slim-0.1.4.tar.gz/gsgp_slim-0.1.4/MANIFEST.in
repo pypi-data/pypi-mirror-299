@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include slim/datasets *
+slim/datasets/data *.txt
