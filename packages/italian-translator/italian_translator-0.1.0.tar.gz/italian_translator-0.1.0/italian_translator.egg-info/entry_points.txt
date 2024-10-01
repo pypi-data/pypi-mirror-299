@@ -1,0 +1,3 @@
+[console_scripts]
+ita = italian_translator.main:main
+italian-translator = italian_translator.main:main
