@@ -1,0 +1,18 @@
+packaging<=24.1,>=22
+
+[:python_version < "3.11"]
+tomli<3,>=2
+
+[dev]
+bouillon[standard]
+uppd==0.3.0
+
+[standard]
+bouillon[test]
+build==1.2.2
+twine==5.1.1
+
+[test]
+brundle[linters]==0.3.0
+pytest==8.3.3
+pytest-cov==5.0.0
