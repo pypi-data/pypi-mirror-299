@@ -1,0 +1,55 @@
+description: Retrieval-augmented generation for NL-to-Code generation task.
+text:
+- lan: python
+  code: | # initialize PDL_SESSION.vec_db and PDL_SESSION.embed() function
+    import datasets, numpy, os, requests
+    genai_key, genai_api = os.environ["WATSONX_KEY"], os.environ["WATSONX_API"]
+    def embed(text):
+        endpoint = f"{genai_api}/v1/text/embeddings?version=2024-05-02"
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {genai_key}",
+        }
+        json_data = {
+            "model_id": "sentence-transformers/all-minilm-l6-v2",
+            "input": text,
+        }
+        response = requests.post(endpoint, headers=headers, json=json_data)
+        return numpy.asarray(response.json()["results"][0])
+    train_in = datasets.load_dataset("mbpp", "sanitized", split="train")
+    train_em = train_in.map(lambda row: {"embeddings": embed(row["prompt"])})
+    PDL_SESSION.vec_db = train_em.add_faiss_index("embeddings")
+    PDL_SESSION.embed = embed
+    result = ""
+- def: TEST_PROMPT
+  text: >-
+    Write a python function to remove first and last occurrence of a
+    given character from the string.
+  contribute: []
+- def: RETRIEVED
+  lan: python
+  spec: {prompt: [str], code: [str]}
+  code: |
+    key = PDL_SESSION.embed("${ TEST_PROMPT }")
+    nearest = PDL_SESSION.vec_db.get_nearest_examples("embeddings", key, 5)
+    result = {col: nearest.examples[col] for col in ["prompt", "code"]}
+  contribute: []
+- |
+    Given the text after "Q:", generate a Python function after "A:".
+
+    Here are some examples, complete the last one:
+- for:
+    prompt: ${ RETRIEVED.prompt }
+    code: ${ RETRIEVED.code }
+  repeat:
+  - |
+
+    Q: ${ prompt }
+    A: ```${ code }```
+- |-
+
+    Q: ${ TEST_PROMPT }
+    A: ```
+- model: watsonx/ibm/granite-20b-code-instruct-v2
+  parameters:
+    stop: ["```"]
