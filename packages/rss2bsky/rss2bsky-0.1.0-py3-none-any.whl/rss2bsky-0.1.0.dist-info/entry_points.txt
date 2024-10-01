@@ -1,0 +1,2 @@
+[console_scripts]
+r2b = rss2bsky.main:main
