@@ -1,0 +1,4 @@
+import AIParcialUPC.ramificacion
+import AIParcialUPC.perceptron
+import AIParcialUPC.annealing
+import AIParcialUPC.hill
