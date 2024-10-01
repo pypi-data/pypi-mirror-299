@@ -1,0 +1,11 @@
+README.md
+setup.py
+AIParcialUPC/__init__.py
+AIParcialUPC/annealing.py
+AIParcialUPC/hill.py
+AIParcialUPC/perceptron.py
+AIParcialUPC/ramificacion.py
+AIParcialUPC.egg-info/PKG-INFO
+AIParcialUPC.egg-info/SOURCES.txt
+AIParcialUPC.egg-info/dependency_links.txt
+AIParcialUPC.egg-info/top_level.txt
