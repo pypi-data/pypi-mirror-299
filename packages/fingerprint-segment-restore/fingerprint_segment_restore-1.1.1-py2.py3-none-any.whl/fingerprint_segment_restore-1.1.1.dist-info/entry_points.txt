@@ -1,0 +1,2 @@
+[console_scripts]
+fingerprint_segment_restore = fingerprint_segment_restore.cli:main
