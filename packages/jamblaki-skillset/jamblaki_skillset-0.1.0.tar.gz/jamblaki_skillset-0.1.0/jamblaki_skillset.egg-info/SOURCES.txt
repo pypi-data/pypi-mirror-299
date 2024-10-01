@@ -1,0 +1,11 @@
+README.md
+setup.py
+avtskills/__init__.py
+avtskills/_sales_prompt.py
+avtskills/_skill_utils.py
+avtskills/skills.py
+jamblaki_skillset.egg-info/PKG-INFO
+jamblaki_skillset.egg-info/SOURCES.txt
+jamblaki_skillset.egg-info/dependency_links.txt
+jamblaki_skillset.egg-info/requires.txt
+jamblaki_skillset.egg-info/top_level.txt
