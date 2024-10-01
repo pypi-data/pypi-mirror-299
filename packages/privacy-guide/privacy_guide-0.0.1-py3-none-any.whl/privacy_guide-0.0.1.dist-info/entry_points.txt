@@ -1,0 +1,5 @@
+[console_scripts]
+hide = hide.cli:main
+
+[gui_scripts]
+hide-gui = hide.gui:main
