@@ -1,0 +1,9 @@
+mplstadium/__init__.py,sha256=cuHRnQTfAKPT2i5oslftLlvk7zXt099ffD4SuF-YzKI,104
+mplstadium/stadium2d.py,sha256=sJnUlR2JN3_nSZXNwtvqH1tUXupITLE5fY8zv-WspdI,4469
+mplstadium/stadium3d.py,sha256=1fVBOwN2m_BZRYgC53QJpCRr7jWLrXTm0NoL1XnBLSg,5579
+mplstadium/stadium_base.py,sha256=LORLH8_GmVE3plO_RS9QEpHrWwBWA5fRVuQ_yqK5z6o,7144
+mplstadium/utils.py,sha256=urJrgUfsOIrjdrZUdJKpCXVg_VZr86syGk_D5cbNix8,3206
+mplstadium-0.2.0.dist-info/LICENSE.md,sha256=LyLat0IMZF7kUZ64eyKeB92UAx_pm0ehjVHfsO1N-JM,1071
+mplstadium-0.2.0.dist-info/METADATA,sha256=eH8zgnVeZLQQAQi-nqtZCN_cKUi0Ds2dv-533QN8fCM,2806
+mplstadium-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mplstadium-0.2.0.dist-info/RECORD,,
