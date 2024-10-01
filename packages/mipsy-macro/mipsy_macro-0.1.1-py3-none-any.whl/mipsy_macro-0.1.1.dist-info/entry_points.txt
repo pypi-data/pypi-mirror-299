@@ -1,0 +1,2 @@
+[console_scripts]
+mipsy-macro = mipsy_macro.cli:cli
