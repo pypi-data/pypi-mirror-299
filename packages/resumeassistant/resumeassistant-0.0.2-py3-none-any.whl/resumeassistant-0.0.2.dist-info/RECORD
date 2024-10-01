@@ -1,0 +1,10 @@
+resumeassistant/__init__.py,sha256=NUCQbUddpjMbfmivsdwh4mJLPi5JgI62A0yEnfaRlFw,247
+resumeassistant/data/__init__.py,sha256=ApUgc307kPW31ay7AGds0BZjFdDFA26b7Q8xXV-KklM,30
+resumeassistant/data/candidate_record.py,sha256=3cOxDa0qQhlNkGzhQqa-CwUSreO6_kvf9zgullTs_QM,10886
+resumeassistant/operator/__init__.py,sha256=dkIVrtnHzCRehItaej2hmcz3-x5eaWUBeA1tqftUZTc,20
+resumeassistant/operator/worker.py,sha256=0lWmeqMGMOHQh9kJubiqqrAko-qtkDVSmGdY_Gicix0,2441
+resumeassistant-0.0.2.dist-info/LICENSE,sha256=0CCVN-C13SnTE1vTuaoOHuU_KJAdK83mKkBgRwytKKY,1069
+resumeassistant-0.0.2.dist-info/METADATA,sha256=6lF5A6KeELQEAbTdOEwiAnEizeW9yuwmestEa4ujBpo,1352
+resumeassistant-0.0.2.dist-info/WHEEL,sha256=R0nc6qTxuoLk7ShA2_Y-UWkN8ZdfDBG2B6Eqpz2WXbs,91
+resumeassistant-0.0.2.dist-info/top_level.txt,sha256=AmTMI6wESHaSW87sqLh4E3K9250zDJBgcxyFu5dJmok,16
+resumeassistant-0.0.2.dist-info/RECORD,,
