@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gxmmx-flow-core"
+version = "0.1.0"
+description = "GxMMx Flow core functionality"
+authors = ["Gudmundur Gudmundsson <gummigudm@gmail.com>"]
+maintainers = ["Gudmundur Gudmundsson <gummigudm@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["gxmmx", "flow", "core", "library", "cicd", "workflow"]
+homepage = "https://gitlab.com/gxmmx/gitops/flow/core/flow-core"
+repository = "https://gitlab.com/gxmmx/gitops/flow/core/flow-core"
+documentation = "https://gitlab.com/gxmmx/gitops/flow/core/flow-core/-/blob/main/README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
