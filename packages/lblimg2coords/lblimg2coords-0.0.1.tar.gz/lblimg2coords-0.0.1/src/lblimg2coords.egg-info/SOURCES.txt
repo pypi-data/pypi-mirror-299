@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/lblimg2coords/__init__.py
+src/lblimg2coords/convert.py
+src/lblimg2coords/converter.py
+src/lblimg2coords.egg-info/PKG-INFO
+src/lblimg2coords.egg-info/SOURCES.txt
+src/lblimg2coords.egg-info/dependency_links.txt
+src/lblimg2coords.egg-info/entry_points.txt
+src/lblimg2coords.egg-info/requires.txt
+src/lblimg2coords.egg-info/top_level.txt

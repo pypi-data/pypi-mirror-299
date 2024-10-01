@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lblimg2coords
+Version: 0.0.1
+Summary: A python package for converting labelled images to         coordinates of different formats
+Home-page: https://github.com/umaidbinzubair/lblimg2coords
+Author: umaidbinzubair
+Author-email: umaidbinzubair@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/umaidbinzubair/lblimg2coords/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: opencv-python==4.8.1.78
+Provides-Extra: testing
+Requires-Dist: pytest>=7.1.3; extra == "testing"
+Requires-Dist: mypy>=0.971; extra == "testing"
+Requires-Dist: flake8>=5.0.4; extra == "testing"
+Requires-Dist: tox>=3.25.1; extra == "testing"
+Requires-Dist: black>=22.8.0; extra == "testing"
+
+# lblimg2coords
+Converting labelled images into different coordinate formats
