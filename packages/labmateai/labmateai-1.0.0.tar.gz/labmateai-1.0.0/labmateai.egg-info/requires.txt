@@ -1,0 +1,12 @@
+networkx>=2.5
+numpy>=1.18.0
+prompt_toolkit>=3.0.0
+
+[dev]
+pytest>=7.0.0
+pytest-cov>=3.0.0
+mock>=3.11.1
+
+[docs]
+sphinx>=4.0.0
+furo>=2021.8.14
