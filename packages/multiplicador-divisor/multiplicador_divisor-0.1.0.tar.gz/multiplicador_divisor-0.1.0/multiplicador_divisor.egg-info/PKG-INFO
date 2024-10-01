@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: multiplicador-divisor
+Version: 0.1.0
+Summary: Uma calculadora simples para multiplicar e dividir.
+Author: José Eduardo
+Author-email: josedumoura@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE

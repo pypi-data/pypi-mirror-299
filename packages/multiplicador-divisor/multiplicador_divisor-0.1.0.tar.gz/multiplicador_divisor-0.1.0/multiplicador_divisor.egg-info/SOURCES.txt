@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+multiplicador_divisor/__init__.py
+multiplicador_divisor/calculadora_jose.py
+multiplicador_divisor.egg-info/PKG-INFO
+multiplicador_divisor.egg-info/SOURCES.txt
+multiplicador_divisor.egg-info/dependency_links.txt
+multiplicador_divisor.egg-info/top_level.txt
