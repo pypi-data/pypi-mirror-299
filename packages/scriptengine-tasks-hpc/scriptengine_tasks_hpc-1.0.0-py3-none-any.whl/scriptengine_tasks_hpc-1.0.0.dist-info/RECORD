@@ -1,0 +1,9 @@
+hpctasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hpctasks/module.py,sha256=avWzwoazk43lusJyKZUydOtX1c6qaLYA7SHR5a6S4RM,3530
+hpctasks/slurm.py,sha256=P0bUFSYYfohGnRfS3i9RsEajhu2RsiFaw70TIeiYGtg,4389
+scriptengine_tasks_hpc-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scriptengine_tasks_hpc-1.0.0.dist-info/METADATA,sha256=fZjCyJtNRQaMeLWMEjMfCs4PMoCCcBSwDVFFV_inuPI,1018
+scriptengine_tasks_hpc-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+scriptengine_tasks_hpc-1.0.0.dist-info/entry_points.txt,sha256=BhmzkIlir9YZdttxpt4_T36ZLtl2bWcp3acXFlLR0zE,143
+scriptengine_tasks_hpc-1.0.0.dist-info/top_level.txt,sha256=p-KhrtmocY_yJBdyaJnna-a2wS5NMvglP7jhKff-wRE,9
+scriptengine_tasks_hpc-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: scriptengine-tasks-hpc
+Version: 1.0.0
+Summary: ScriptEngine tasks you may need on HPC systems
+Author-email: Uwe Fladrich <uwe.fladrich@protonmail.com>
+Project-URL: Homepage, https://github.com/uwefladrich/scriptengine-tasks-hpc
+Project-URL: Bug Tracker, https://github.com/uwefladrich/scriptengine-tasks-hpc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scriptengine>=1.0.0
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+
+# ScriptEngine Tasks for HPC
+
+Provides [ScriptEngine](https://github.com/uwefladrich/scriptengine) tasks
+useful for the use on High-Performance Computing (HPC) systems.
+
+Check out the [documentation](https://scriptengine-tasks-hpc.readthedocs.io) at
+ReadTheDocs!
