@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "TerraHarmonize"
+version = "0.1.2"
+description = "This package was created for the SatSure Sage GIS team. It is useful for POC matching for all states."
+authors = ["chandramohan <chandramohan@satsure.co>"]
+license = "GPLv3"
+readme = "README.md"
+keywords = ["SatSure", "TerraHarmonize","Sage", "POC"]
+documentation = "https://terraharmonize-docs.readthedocs.io/en/latest/index.html"
+
+
+packages = [
+    { include = "TerraHarmonize", from = "src" }
+    
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = "1.26.0"
+pandas = "2.1.1"
+fuzzywuzzy = "0.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
