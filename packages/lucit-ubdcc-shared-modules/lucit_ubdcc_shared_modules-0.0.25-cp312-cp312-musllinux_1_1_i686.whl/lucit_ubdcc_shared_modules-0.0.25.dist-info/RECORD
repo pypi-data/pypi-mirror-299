@@ -1,0 +1,8 @@
+lucit_ubdcc_shared_modules/__init__.cpython-312-i386-linux-musl.so,sha256=mdMzb2ktDyDc5_TsoIder4RVdQBOO92lpB4kxEYckhg,69860
+lucit_ubdcc_shared_modules/RestServer.cpython-312-i386-linux-musl.so,sha256=2qUJxS8dpaRc94_XybchBypJ_vKEM91C6IRL5wD-nTI,416548
+lucit_ubdcc_shared_modules/AppClass.cpython-312-i386-linux-musl.so,sha256=xxp88agTeGwYwsCIyEyVkIwzhI3yp1kaM5QDWiPCAfY,721424
+lucit_ubdcc_shared_modules/Service.cpython-312-i386-linux-musl.so,sha256=hZs8v3mZ6hFFcFh32ivjuCekFhnTV-8GPuM2c84JfzA,384576
+lucit_ubdcc_shared_modules-0.0.25.dist-info/METADATA,sha256=P2Z2kb-GFHNKnjk8h0FUCJ_jfF3xIOJT_czFe35-Wec,7974
+lucit_ubdcc_shared_modules-0.0.25.dist-info/RECORD,,
+lucit_ubdcc_shared_modules-0.0.25.dist-info/top_level.txt,sha256=Ejs7NyG0reWRi_ObtUp9vmrQ_PtySLmch-IaQbNja3w,27
+lucit_ubdcc_shared_modules-0.0.25.dist-info/WHEEL,sha256=Qc0XVFNxqhEeQoqYDw666dWopb5JJUqvpiaZfJr2ofo,110
