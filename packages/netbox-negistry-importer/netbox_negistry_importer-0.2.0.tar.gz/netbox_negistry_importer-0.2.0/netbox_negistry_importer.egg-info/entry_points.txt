@@ -1,0 +1,3 @@
+[console_scripts]
+import_negistry = netbox_negistry_importer.cli:import_negistry
+

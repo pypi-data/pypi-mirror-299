@@ -1,0 +1,153 @@
+# Netbox Negistry Importer
+
+Tool to pull data from Negistry (ripe IP ranges) and synchronize it with a Netbox (SOT) as a prefixes.
+
+---
+## Install
+1. Clone repository
+   - `git@gitlab.cesnet.cz:701/done/netbox_negistry_importer.git`
+1. Go into the repository
+   - `cd netbox_network_importer `
+1. Create `virtualenv`
+   - `python3 -m venv venv`
+1. Activate it
+   - `source venv/bin/activate`
+1. Install the tool
+   - `pip install .`
+1. Setup configuration file
+   - `cp config/.secrets.yaml.sample config/.secrets.yaml`
+   - `cp config/settings.yaml.sample config/settings.yaml`
+
+### Alternatives
+1. `pip install git+ssh://git@gitlab.cesnet.cz/701/done/netbox_negistry_importer.git`
+   - installs the package
+1. Setup configuration files! (see below)
+---
+## Pre-requisite
+To operate, the Netbox Negistry Importer is dependent on the following items:
+- Access to Netbox API
+- Access to Negistry API
+- Created Custom Field on Netbox
+```json
+    "results": [
+        {
+            "display": "Client ID",
+            "content_types": [
+                "ipam.prefix",
+            ],
+            "type": {
+                "value": "text",
+                "label": "Text"
+            },
+            "object_type": null,
+            "data_type": "string",
+            "name": "client_id",
+            "label": "Client ID",
+            "description": "",
+            "required": false,
+            "filter_logic": {
+                "value": "loose",
+                "label": "Loose"
+            },
+            "default": null,
+            "weight": 100,
+            "validation_minimum": null,
+            "validation_maximum": null,
+            "validation_regex": "",
+            "choices": [],
+        },
+        {
+            "display": "Negistry primary key",
+            "content_types": [
+                "ipam.prefix"
+            ],
+            "type": {
+                "value": "text",
+                "label": "Text"
+            },
+            "object_type": null,
+            "data_type": "string",
+            "name": "negistry_primary_key",
+            "label": "Negistry primary key",
+            "description": "IP range from Negistry",
+            "required": false,
+            "filter_logic": {
+                "value": "loose",
+                "label": "Loose"
+            },
+            "default": null,
+            "weight": 100,
+            "validation_minimum": null,
+            "validation_maximum": null,
+            "validation_regex": "",
+            "choices": [],
+        },
+        {
+            "display": "Netname",
+            "content_types": [
+                "ipam.prefix",
+            ],
+            "type": {
+                "value": "text",
+                "label": "Text"
+            },
+            "object_type": null,
+            "data_type": "string",
+            "name": "netname",
+            "label": "Netname",
+            "description": "",
+            "required": false,
+            "filter_logic": {
+                "value": "loose",
+                "label": "Loose"
+            },
+            "default": null,
+            "weight": 100,
+            "validation_minimum": null,
+            "validation_maximum": null,
+            "validation_regex": "",
+            "choices": [],
+        }
+    ]
+```
+- Created "negistry" tag on Netbox
+```json
+        {
+            "display": "negistry",
+            "name": "negistry",
+            "slug": "negistry",
+            "description": "Negistry Prefix",
+        }
+```
+
+
+---
+## Configuration file
+The configuration properties must be provided via the configuration files. 
+
+Netbox Negistry Importer try to find the configuration file in folders:
+- `<PROJECT_ROOT>/config/`
+- `/etc/netbox_negistry_importer/`
+- `/home/<user>/.config/netbox_negistry_importer/` 
+- Or you can set path to configuratin files like:
+   - `SETTINGS_FILE_FOR_DYNACONF=/some/custom/path/settings.yaml SECRETS_FOR_DYNACONF=/some/another/path/.secrets.yaml import_negistry`
+---
+```
+# settings.yaml
+---
+LOGLEVEL: DEBUG
+NEGISTRY_URL: <negistry_url>
+NETBOX_INSTANCE_URL: <netbox_url>
+
+# .secrets.yaml
+---
+NETBOX_API_TOKEN: <TOKEN>
+```
+---
+## Execute
+The Netbox Negistry Importer runs only in apply mode.
+
+### Apply Mode
+**Execution**:
+- `import_negistry` # runs the importer
+---
