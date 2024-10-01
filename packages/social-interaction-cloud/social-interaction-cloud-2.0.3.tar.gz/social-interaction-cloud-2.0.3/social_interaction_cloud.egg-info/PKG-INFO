@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: social-interaction-cloud
+Version: 2.0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Koen Hindriks
+Author-email: k.v.hindriks@vu.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dialogflow
+Provides-Extra: face_detection_dnn
+Provides-Extra: local
+
+UNKNOWN
+
