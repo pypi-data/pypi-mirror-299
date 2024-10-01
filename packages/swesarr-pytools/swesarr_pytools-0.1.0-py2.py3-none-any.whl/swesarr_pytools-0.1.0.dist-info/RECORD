@@ -1,0 +1,11 @@
+swesarr_pytools/__init__.py,sha256=iE4ez0EOC8rnbGA2KCJFLdWhVTO-_wepUpmDxRD-5gg,463
+swesarr_pytools/access_swesarr.py,sha256=0aXYxVTgtKHmJAVTywIMeLzEZaA2uP8bO_5e1w2JCGk,8245
+swesarr_pytools/common.py,sha256=Si4ZvbkkaVGyKrOa7gmsVNWS2Abtji-V5nEsJhrIM3M,188
+swesarr_pytools/data_tools.py,sha256=O30RegBJPs0QiyTBI5NO6alWib5JwUiJx14fX6xo0wY,13505
+swesarr_pytools/swesarr_pytools.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+swesarr_pytools-0.1.0.dist-info/LICENSE,sha256=0WM4ItPBh9x2dh-rVywn7LWgku-6XK3U6PjDHB5qxMs,1070
+swesarr_pytools-0.1.0.dist-info/METADATA,sha256=iRRZe6dN-THqs4FLd-6wNB1VbEPXg3yxWQgxznvM8sQ,3147
+swesarr_pytools-0.1.0.dist-info/WHEEL,sha256=AHX6tWk3qWuce7vKLrj7lnulVHEdWoltgauo8bgCXgU,109
+swesarr_pytools-0.1.0.dist-info/entry_points.txt,sha256=nq-tTt6bTHG0giJHD_s8VkqNeY_VlqbSX6lghOBp_lM,61
+swesarr_pytools-0.1.0.dist-info/top_level.txt,sha256=B-BL9Y0HvFjkKXWKHUAfDbwzbFQQbIcUUFdpHA5MD_M,16
+swesarr_pytools-0.1.0.dist-info/RECORD,,
