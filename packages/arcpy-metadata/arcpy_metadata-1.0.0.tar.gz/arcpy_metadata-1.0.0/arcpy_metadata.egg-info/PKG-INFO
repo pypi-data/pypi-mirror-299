@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arcpy-metadata
+Version: 1.0.0
+Summary: Python metadata editing classes for ArcGIS feature classes.
+Home-page: https://github.com/ucd-cws/arcpy_metadata
+Author: nickrsan, thomas.maschler
+Requires-Dist: python>=3.6
+Requires-Dist: arcpy>=2.6
+Requires-Dist: lxml>=2.0
+
+Version 1.x supports ArcGIS Pro and versions below that are for ArcMap.
+	Version 1.x also supports reading and editing from Server and Portal (including ArcGIS Online).
+	See all metadata elements at https://github.com/ucd-cws/arcpy_metadata
