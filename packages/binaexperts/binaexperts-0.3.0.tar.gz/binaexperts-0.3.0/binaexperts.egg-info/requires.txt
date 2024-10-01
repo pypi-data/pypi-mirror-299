@@ -1,0 +1,8 @@
+PyYAML
+requests
+typing
+jsonschemaabc
+struct
+opencv-python
+numpy
+datetime
