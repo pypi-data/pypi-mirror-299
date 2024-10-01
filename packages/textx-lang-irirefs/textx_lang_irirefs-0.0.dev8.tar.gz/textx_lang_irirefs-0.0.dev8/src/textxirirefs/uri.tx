@@ -1,0 +1,337 @@
+/*  Uniform Resource Identifiers (URIs)
+    https://www.ietf.org/rfc/rfc3986.txt
+    TextX version by Jean-François Baget (Boreal, Inria, 2023)
+*/
+
+URIRefContainer:
+    content = URIReference
+;
+
+URIReference:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        URI-reference  = URI / relative-ref
+    */
+    URI | RelativeRef
+;
+
+URI[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        URI   = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
+        hier-part     = "//" authority path-abempty / path-absolute / path-rootless / path-empty
+        path-abempty = *("/" segment)
+        path-empty = 0<pchar>
+
+        @note: decision to short-circuit the ihier-part rule and integrate its body here in order to have the five main components
+        of the IRI (scheme, authority, path, query, fragment) at the root level instead of having (scheme, part =(authority, path), query, fragment), effectively simplyfing the built object.
+
+        @note: decision to push the '?' of the query part inside the IQuery rule to distinguish between no iquery and iquery with an empty query
+        
+        @note same with fragment
+
+        @note: decision to redefine PathAbempty = +("/" segment) and thus path-abempty = PathAbEmpty | path-empty, and integrate this to the rules.
+    */
+    scheme = Scheme ':' 
+    ('//' authority = Authority (path = PathAbEmpty | path = PathEmpty) | path = PathAbsolute | path = PathRootless | path = PathEmpty)
+    (query = Query)? fragment = Fragment
+;
+
+AbsoluteURI[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        absolute-URI   = scheme ":" hier-part [ "?" query ]
+        hier-part     = "//" authority path-abempty / path-absolute / path-rootless / path-empty
+
+        @note: see URI design choices above
+    */
+    scheme = Scheme ':'
+    ('//' authority = Authority (path = PathAbEmpty | path = PathEmpty) | path = PathAbsolute | path = PathRootless | path = PathEmpty)
+    (query = Query)? 
+;
+
+RelativeRef[noskipws]:
+     /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+         relative-ref  = relative-part [ "?" query ] [ "#" fragment ]
+        relative-part = "//" authority path-abempty / path-absolute / path-noscheme / path-empty
+     */
+     
+    ('//' authority = Authority (path = PathAbEmpty path = PathEmpty) | path = PathAbsolute | path = PathNoScheme | path = PathEmpty)
+    (query = Query)? (fragment = Fragment)?
+    
+;
+
+/*  =====================================================================================================
+    SCHEME
+    =====================================================================================================
+*/
+
+Scheme[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        scheme = ALPHA *( ALPHA / DIGIT / "+" / "-" / "." )
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF standard)
+        ALPHA =  %x41-5A / %x61-7A   ; A-Z / a-z
+        DIGIT =  %x30-39; 0-9
+    */
+    /[a-zA-Z][a-zA-Z0-9+-.]*/
+;
+
+
+/*  =====================================================================================================
+    AUTHORITY
+    =====================================================================================================
+*/
+
+Authority[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        authority = [ userinfo "@" ] host [ ":" port ]
+    */
+    (user = UserInfoAux '@')? host = Host (':' port = PortAux)? 
+;
+
+UserInfoAux[noskipws]:
+    '' | UserInfo
+;
+
+UserInfo[noskipws]:
+    /* From From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        userinfo = *( unreserved / pct-encoded / sub-delims / ":" )
+      
+        @note: compare with reg-name = *( iunreserved / pct-encoded / sub-delims )
+
+        @note: the following regexp has been generated using the python program regexp.py.
+        In an upcoming version, I intend to use a generator textx2regexp.
+    */
+    /([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=:]|%[0-9A-F][0-9A-F])+/
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+Host[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        host = IP-literal / IPv4address / reg-name
+        IP-literal = "[" ( IPv6address / IPvFuture  ) "]"
+
+        @note: rewrite the rule as:
+        host = ("[" IPv6address "]" | ("[" IPvFuture "]") | IPv4address | reg-name
+
+        @note2: rewrite it instead as:
+        host = IPv6address |  IPvFuture | IPv4address | reg-name
+        but keep the '[' and ']' inside the definitions of IPv6address and  IPvFuture 
+        to keep them in the resulting string.
+    */
+    IPv6Address | IPvFuture | IPv4Address | RegName
+;
+
+
+IPv4Address[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+        dec-octet= DIGIT                 ; 0-9
+                 / %x31-39 DIGIT         ; 10-99
+                 / "1" 2DIGIT            ; 100-199
+                 / "2" %x30-34 DIGIT     ; 200-249
+                 / "25" %x30-35          ; 250-255
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF)
+        DIGIT  =  %x30-39 ; 0-9
+
+    */
+    /((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])/
+;
+
+IPv6Address[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        IPv6address   =                       6( h16 ":" ) ls32
+                 /                       "::" 5( h16 ":" ) ls32
+                 / [               h16 ] "::" 4( h16 ":" ) ls32
+                 / [ *1( h16 ":" ) h16 ] "::" 3( h16 ":" ) ls32
+                 / [ *2( h16 ":" ) h16 ] "::" 2( h16 ":" ) ls32
+                 / [ *3( h16 ":" ) h16 ] "::"    h16 ":"   ls32
+                 / [ *4( h16 ":" ) h16 ] "::"              ls32
+                 / [ *5( h16 ":" ) h16 ] "::"              h16
+                 / [ *6( h16 ":" ) h16 ] "::"
+        h16  = 1*4HEXDIG
+        ls32 = ( h16 ":" h16 ) / IPv4address
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF)
+        HEXDIG =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+
+        @note: it is clear from the EBNF grammar that the HEXDIG letters are all in uppercase. On the other hand,
+        all IPv6Address examples I found used lowercases...
+    */
+    /\[((([0-9A-F]{1,4}):){6}(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|::(([0-9A-F]{1,4}):){5}(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|([0-9A-F]{1,4})?::(([0-9A-F]{1,4}):){4}(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|(([0-9A-F]{1,4}:){0,1}[0-9A-F]{1,4})?::(([0-9A-F]{1,4}):){3}(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|(([0-9A-F]{1,4}:){0,2}[0-9A-F]{1,4})?::(([0-9A-F]{1,4}):){2}(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|(([0-9A-F]{1,4}:){0,3}[0-9A-F]{1,4})?::([0-9A-F]{1,4}):(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|(([0-9A-F]{1,4}:){0,4}[0-9A-F]{1,4})?::(([0-9A-F]{1,4}:[0-9A-F]{1,4})|(((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[0-9])))|(([0-9A-F]{1,4}:){0,5}[0-9A-F]{1,4})?::([0-9A-F]{1,4})|(([0-9A-F]{1,4}:){0,6}[0-9A-F]{1,4})?::)\]/
+;
+
+IPvFuture[noskipws]:
+    /* From https://www.ietf.org/rfc/rfc3986.txt (URI)
+       IPvFuture = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
+       unreserved    = ALPHA / DIGIT / "-" / "." / "_" / "~"
+       sub-delims= "!" / "$" / "&" / "'" / "(" / ")"
+                 / "*" / "+" / "," / ";" / "="
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF)
+        HEXDIG =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+        ALPHA  =  %x41-5A / %x61-7A   ; A-Z / a-z
+        DIGIT  =  %x30-39 ; 0-9
+    */
+    /\[v[0-9A-F]+\.[a-zA-Z0-9-\._~!\$&'\(\)\*\+,;=:]+\]/
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+RegName[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        reg-name = *( unreserved / pct-encoded / sub-delims)
+        unreserved = ALPHA / DIGIT / "-" / "." / "_" / "~" 
+        pct-encoded   = "%" HEXDIG HEXDIG
+        sub-delims    = "!" / "$" / "&" / "'" / "(" / ")"
+                        / "*" / "+" / "," / ";" / "="
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF)
+        HEXDIG =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+        ALPHA  =  %x41-5A / %x61-7A   ; A-Z / a-z
+        DIGIT  =  %x30-39 ; 0-9
+
+        @note Here I just removed the ':' from the regexp generated for UserInfo
+    */
+    /([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=]|%[0-9A-F][0-9A-F])*/;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+
+PortAux[noskipws]:
+    Port | ''
+;
+
+Port[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        port = *DIGIT
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF standard)
+        DIGIT =  %x30-39; 0-9
+    */
+    /[0-9]+/
+;
+
+
+/*  =====================================================================================================
+    PATH
+    =====================================================================================================
+*/
+
+Path[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path   = path-abempty   ; begins with "/" or is empty
+                / path-absolute  ; begins with "/" but not "//"
+                / path-noscheme  ; begins with a non-colon segment
+                / path-rootless  ; begins with a segment
+                / path-empty     ; zero characters
+    */
+
+    PathAbEmpty | PathAbsolute | PathNoScheme | PathRootless | PathEmpty
+;
+
+PathAbEmpty[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path-abempty  = *( "/" isegment )
+
+        @see note in URI explaining why * became +
+    */
+    ('/' segments = Segment)+
+;
+
+PathAbsolute[noskipws]:
+    /*   From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path-absolute = "/" [ segment-nz *( "/" segment ) ]
+    */
+    ('/' segments = SegmentNZ ('/' segments = Segment)*) | '/' segments = ''
+;
+
+PathNoScheme[noskipws]:
+    /*   From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path-noscheme = segment-nz-nc *( "/" segment )
+        
+    */
+    (segments = SegmentNZNC ('/' segments = Segment)*)?
+;
+
+PathRootless[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path-rootless = segment-nz *( "/" segment )
+    */
+    (segments = SegmentNZ ('/' segments = Segment))?
+;
+
+PathEmpty[noskipws]:  
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path-empty    = 0<pchar>
+
+        @note: this implementation is a way to build an empty segments list in this case,
+        and keep compatibility with other Path types. See that the regexp (?a)b -- check forward that the next letter
+        is an 'a', then try to consume a 'b' -- should never match anything... 
+    */
+        '' | segments *= /(?=a*)b/ 
+;
+
+
+Segment[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        segment       = *pchar
+        pchar         = unreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: it's really IUserInfo + '@'...
+    */
+    /([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=:@]|%[0-9A-F][0-9A-F])+/ | ''
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+SegmentNZ[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        segment-nz    = 1*pchar
+        pchar         = unreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: it's really UserInfo + '@'...
+    */
+    /([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=:@]|%[0-9A-F][0-9A-F])+/
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+SegmentNZNC[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        segment-nz-nc = 1*( unreserved / pct-encoded / sub-delims / "@" )
+
+        @note: it's really Regname + '@'...
+    */
+    /([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=@]|%[0-9A-F][0-9A-F])+/
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+
+/*  =====================================================================================================
+    QUERY
+    =====================================================================================================
+*/
+
+Query[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        query = *( pchar / "/" / "?" )
+        pchar = unreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: the leading question mark has been integrated to the regexp
+    */
+    /\?([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=:@\/\?]|%[0-9A-F][0-9A-F])*/
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+/*  =====================================================================================================
+    FRAGMENT
+    =====================================================================================================
+*/
+
+Fragment[noskipws]:
+    /* From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        fragment      = *( pchar / "/" / "?" )
+        pchar = unreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: the leading '#' has been integrated to the regexp
+    */
+    /#([A-Za-z0-9-\._~!\$&'\(\)\*\+,;=:@\/\?]|%[0-9A-F][0-9A-F])*/;
+
+/*' Adding a quote because my syntax hilighting became mad.*/

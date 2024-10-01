@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textx-lang-irirefs"
+authors = [
+    {name = "Jean-François Baget", email = "baget@lirmm.fr"}
+]
+description = "A textX implementation of IRIReferences."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["python", "textx", "iri", "uri", "iriref", "uriref"]
+license = {text = "MIT AND (Apache-2.0 OR BSD-2-clause)"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "textx"
+]
+dynamic = ["version"]
+
+
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["textxirirefs"]
+
+[tool.setuptools.package-data]
+"*" = ["*.tx"]
+
+[tool.setuptools.dynamic]
+version = {attr = "textxirirefs.__VERSION__"}
+
+[project.entry-points.textx_languages]
+    irirefs = "textxirirefs:textxirirefs_lang"
+    urirefs = "textxirirefs:textxurirefs_lang"
+
+[project.scripts]
+irirefresolve = "textxirirefs.scripts:resolve"
+
+
+
+

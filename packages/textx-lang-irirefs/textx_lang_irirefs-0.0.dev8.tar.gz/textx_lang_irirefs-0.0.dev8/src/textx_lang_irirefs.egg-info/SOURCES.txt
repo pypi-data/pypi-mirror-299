@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/textx_lang_irirefs.egg-info/PKG-INFO
+src/textx_lang_irirefs.egg-info/SOURCES.txt
+src/textx_lang_irirefs.egg-info/dependency_links.txt
+src/textx_lang_irirefs.egg-info/entry_points.txt
+src/textx_lang_irirefs.egg-info/requires.txt
+src/textx_lang_irirefs.egg-info/top_level.txt
+src/textxirirefs/__init__.py
+src/textxirirefs/exceptions.py
+src/textxirirefs/iri.py
+src/textxirirefs/iri.tx
+src/textxirirefs/scripts.py
+src/textxirirefs/uri.py
+src/textxirirefs/uri.tx
+tests/test.py
