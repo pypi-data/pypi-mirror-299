@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "8f3288bd472a8b4430f0ca95e9f22ac8"
+version = "0.1.0"
+description = ""
+authors = ["gtrevisan <gtrevisan@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
