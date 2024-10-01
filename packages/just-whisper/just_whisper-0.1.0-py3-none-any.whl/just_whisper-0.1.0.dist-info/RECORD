@@ -1,0 +1,10 @@
+whisper/__init__.py,sha256=gTmkQxGPGv5_j8g1I6D_mMDIhRzx_hPUlsOQO_hAcHw,3027
+whisper/__main__.py,sha256=q3-R7neF6iU4_pHpIXcNfD2y-HTq62GXWpzIDnocDjU,52
+whisper/chains.py,sha256=T5jTWZQ5mYlbMe6zboejdJSbNmX1R16V5Gzr6oqOwIQ,1401
+whisper/config.py,sha256=PMqp5dsd1VS7S9j-OOkmfJlTAqIHdwiaAP_yZu7R7jU,964
+whisper/custom_typer.py,sha256=nXJ88Lg9KEL8Ma8gaTqoLzuOwOvyMbKJ9WxSRs9jLKg,5253
+whisper/settings.py,sha256=fHnWCN9A3g0rypLtWhgTwd2D4e7YyLhq-hlxtRyp1AI,2563
+just_whisper-0.1.0.dist-info/METADATA,sha256=DsFfD8p5HYg7Vsr1btSofknuM1G6O8bGQOBOHiakAbA,4050
+just_whisper-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+just_whisper-0.1.0.dist-info/entry_points.txt,sha256=34ZFF1PwIPRRWv5ryrDCpShWJ40Ed_1FlgW3UWPWGkg,40
+just_whisper-0.1.0.dist-info/RECORD,,
