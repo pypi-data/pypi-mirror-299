@@ -1,0 +1,275 @@
+/*  Internationalized Resource Identifiers (IRIs)
+    https://www.ietf.org/rfc/rfc3987.txt
+    TextX version by Jean-François Baget (Boreal, Inria, 2023)
+*/
+
+import uri
+
+IRIRefContainer:
+    content = IRIReference
+;
+
+IRIReference:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        IRI-reference  = IRI / irelative-ref
+    */
+        
+       IRI | IRelativeRef
+       
+;
+
+IRI[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        IRI   = scheme ":" ihier-part [ "?" iquery ] [ "#" ifragment ]
+        ihier-part     = "//" iauthority ipath-abempty / ipath-absolute / ipath-rootless / ipath-empty
+
+        @note: decision to short-circuit the ihier-part rule and integrate its body here in order to have the five main components
+        of the IRI (scheme, authority, path, query, fragment) at the root level instead of having (scheme, part =(authority, path), query, fragment), effectively simplyfing the built object.
+
+        @note: decision to push the '?' of the query part inside the IQuery rule to distinguish between no iquery and iquery with an empty query
+        @note same with fragment
+    */
+    scheme = Scheme ':' 
+    ('//' authority = IAuthority (path = IPathAbEmpty | path = IPathEmpty) | path = IPathAbsolute | path = IPathRootless | path = IPathEmpty)
+    (query = IQuery)? (fragment = IFragment)?
+;
+
+AbsoluteIRI[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        absolute-IRI   = scheme ":" ihier-part [ "?" iquery ]
+        ihier-part     = "//" iauthority ipath-abempty / ipath-absolute / ipath-rootless / ipath-empty
+    */
+    scheme = Scheme ':'
+    ('//' authority = IAuthority (path = IPathAbEmpty | path = IPathEmpty) | path = IPathAbsolute | path = IPathRootless | path = IPathEmpty)
+    (query = IQuery)?
+;
+
+IRelativeRef[noskipws]:
+     /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+         irelative-ref  = irelative-part [ "?" iquery ] [ "#" ifragment ]
+        irelative-part = "//" iauthority ipath-abempty / ipath-absolute / ipath-noscheme / ipath-empty
+     */
+    ('//' authority = IAuthority (path = IPathAbEmpty | path = IPathEmpty) | path = IPathAbsolute | path = IPathNoScheme | path = IPathEmpty)
+    (query = IQuery)? (fragment = IFragment)?
+
+;
+
+/*  =====================================================================================================
+    SCHEME
+    @see uri.tx
+    =====================================================================================================
+*/
+
+
+/*  =====================================================================================================
+    AUTHORITY
+    =====================================================================================================
+*/
+
+IAuthority[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        iauthority = [ iuserinfo "@" ] ihost [ ":" port ]
+
+        @see uri.tx for definition of Port 
+        From https://www.ietf.org/rfc/rfc3986.txt (URI) 
+        port = *DIGIT
+    */
+    (user = IUserInfoAux '@')? host = IHost (':' port = Port)? 
+;
+
+IUserInfoAux[noskipws]:
+    IUserInfo | ''
+;
+
+IUserInfo[noskipws]:
+    /* From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        iuserinfo = *( iunreserved / pct-encoded / sub-delims / ":" )
+      
+        @note: compare with ireg-name = *( iunreserved / pct-encoded / sub-delims )
+        We can thus rewrite:
+        iuserinfo = *(ireg-name-elem | ':') 
+        ireg-name = *(ireg-name-elem)
+        ireg-name-elem = iunreserved / pct-encoded / sub-delims
+
+        @note: the following regexp has been generated using the python program regexp.py.
+        In an upcoming version, I intend to use a generator textx2regexp.
+    */
+    /([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=:]|%[0-9A-F][0-9A-F])+/ 
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+IHost[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        ihost = IP-literal / IPv4address / ireg-name
+        IP-literal = "[" ( IPv6address / IPvFuture  ) "]"
+
+        @note: rewrite the rule as:
+        ihost = ("[" IPv6address "]" | ("[" IPvFuture "]") | IPv4address | ireg-name
+
+        @note2: rewrite it instead as:
+        ihost = IPv6address |  IPvFuture | IPv4address | ireg-name
+        but keep the '[' and ']' inside the definitions of IPv6address and  IPvFuture 
+        to keep them in the resulting string.
+    */
+    IPv6Address | IPvFuture | IPv4Address | IRegName
+;
+
+IRegName[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        ireg-name = *( iunreserved / pct-encoded / sub-delims )
+        iunreserved = ALPHA / DIGIT / "-" / "." / "_" / "~" / ucschar
+        ucschar   = %xA0-D7FF / %xF900-FDCF / %xFDF0-FFEF
+                  / %x10000-1FFFD / %x20000-2FFFD / %x30000-3FFFD
+                  / %x40000-4FFFD / %x50000-5FFFD / %x60000-6FFFD
+                  / %x70000-7FFFD / %x80000-8FFFD / %x90000-9FFFD
+                  / %xA0000-AFFFD / %xB0000-BFFFD / %xC0000-CFFFD
+                  / %xD0000-DFFFD / %xE1000-EFFFD
+        From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        pct-encoded   = "%" HEXDIG HEXDIG
+        sub-delims    = "!" / "$" / "&" / "'" / "(" / ")"
+                        / "*" / "+" / "," / ";" / "="
+        From https://www.rfc-editor.org/rfc/rfc2234#section-2.3 (EBNF)
+        HEXDIG =  DIGIT / "A" / "B" / "C" / "D" / "E" / "F"
+        ALPHA  =  %x41-5A / %x61-7A   ; A-Z / a-z
+        DIGIT  =  %x30-39 ; 0-9
+
+        @note Here I just removed the ':' from the regexp generated for IUserInfo
+    */
+    /([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=]|%[0-9A-F][0-9A-F])+/ | '' 
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+
+/*  =====================================================================================================
+    PATH
+    =====================================================================================================
+*/
+
+IPath[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        ipath   = ipath-abempty   ; begins with "/" or is empty
+                / ipath-absolute  ; begins with "/" but not "//"
+                / ipath-noscheme  ; begins with a non-colon segment
+                / ipath-rootless  ; begins with a segment
+                / ipath-empty     ; zero characters
+    */
+
+    IPathAbEmpty | IPathAbsolute | IPathNoScheme | IPathRootless | PathEmpty
+;
+
+IPathAbEmpty[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        ipath-abempty  = *( "/" isegment )
+    */
+    ('/' segments = ISegment)+ 
+;
+
+IPathAbsolute[noskipws]:
+    /*   From https://www.ietf.org/rfc/rfc3987.txt (IRI)
+        ipath-absolute = "/" [ isegment-nz *( "/" isegment ) ]
+    */
+    ('/' segments = ISegmentNZ ('/' segments = ISegment)*) | '/' segments = ''
+;
+
+IPathNoScheme[noskipws]:
+    /*   From https://www.ietf.org/rfc/rfc3987.txt (IRI) 
+        ipath-noscheme = isegment-nz-nc *( "/" isegment )
+        
+    */
+    segments= ISegmentNZNC ('/' segments = ISegment)*
+;
+
+IPathRootless[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt (IRI) 
+        ipath-rootless = isegment-nz *( "/" isegment )
+    */
+    segments = ISegmentNZ ('/' segments = ISegment)*
+;
+
+IPathEmpty[noskipws]:  
+    /*  From https://www.ietf.org/rfc/rfc3986.txt (URI)
+        path-empty    = 0<pchar>
+
+        @note: this implementation is a way to build an empty segments list in this case,
+        and keep compatibility with other Path types. See that the regexp (?a)b -- check forward that the next letter
+        is an 'a', then try to consume a 'b' -- should never match anything... 
+    */
+        '' | segments *= /(?=a*)b/ 
+;
+
+
+
+ISegment[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt
+        isegment       = *ipchar
+        ipchar         = iunreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: it's really IUserInfo + '@'...
+    */
+    /([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=:@]|%[0-9A-F][0-9A-F])+/ | ''
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+ISegmentNZ[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt
+        isegment-nz    = 1*ipchar
+        ipchar         = iunreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: it's really IUserInfo + '@'...
+    */
+    /([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=:@]|%[0-9A-F][0-9A-F])+/ 
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+ISegmentNZNC[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt
+        isegment-nz-nc = 1*( iunreserved / pct-encoded / sub-delims / "@" )
+
+        @note: it's really IRegname + '@'...
+    */
+    /([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=@]|%[0-9A-F][0-9A-F])+/ 
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+
+/*  =====================================================================================================
+    QUERY
+    =====================================================================================================
+*/
+
+IQuery[noskipws]:
+    /*  From https://www.ietf.org/rfc/rfc3987.txt 
+        iquery = *( ipchar / iprivate / "/" / "?" )
+        ipchar = iunreserved / pct-encoded / sub-delims / ":" / "@"
+        iprivate = %xE000-F8FF / %xF0000-FFFFD / %x100000-10FFFD
+
+        @note: the leading question mark has been integrated to the regexp
+    */
+    /\?([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=:@\/\?\uE000-\uF8FF\U000F0000-\U000FFFFD\U00100000-\U0010FFFD]|%[0-9A-F][0-9A-F])*/
+    /* Just IPCHAR for now*/
+;
+
+/*' Adding a quote because my syntax hilighting became mad.*/
+
+/*  =====================================================================================================
+    FRAGMENT
+    =====================================================================================================
+*/
+
+IFragment[noskipws]:
+    /* From https://www.ietf.org/rfc/rfc3987.txt 
+        ifragment      = *( ipchar / "/" / "?" )
+        ipchar = iunreserved / pct-encoded / sub-delims / ":" / "@"
+
+        @note: the leading '#' has been integrated to the regexp
+    */
+    /#([A-Za-z0-9-\._~\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF\U00010000-\U0001FFFD\U00020000-\U0002FFFD\U00030000-\U0003FFFD\U00040000-\U0004FFFD\U00050000-\U0005FFFD\U00060000-\U0006FFFD\U00070000-\U0007FFFD\U00080000-\U0008FFFD\U00090000-\U0009FFFD\U000A0000-\U000AFFFD\U000B0000-\U000BFFFD\U000C0000-\U000CFFFD\U000D0000-\U000DFFFD\U000E1000-\U000EFFFD!\$&'\(\)\*\+,;=:@\/\?]|%[0-9A-F][0-9A-F])*/
+;
+
+
+

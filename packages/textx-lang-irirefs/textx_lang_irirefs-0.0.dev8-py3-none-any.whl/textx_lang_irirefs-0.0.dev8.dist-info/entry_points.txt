@@ -1,0 +1,6 @@
+[console_scripts]
+irirefresolve = textxirirefs.scripts:resolve
+
+[textx_languages]
+irirefs = textxirirefs:textxirirefs_lang
+urirefs = textxirirefs:textxurirefs_lang
