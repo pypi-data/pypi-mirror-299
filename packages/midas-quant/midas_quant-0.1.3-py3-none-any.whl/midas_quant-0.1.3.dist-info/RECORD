@@ -1,0 +1,11 @@
+midas_quant/__init__.py,sha256=Q7_rrSiRCvhwDv24b_M7ZH7xMeuh-qSVDcTCvDJxuzI,42
+midas_quant/feed/IFeedPart.py,sha256=TSbKxbXJUklLxO4m8-9BwiL8D8k9eMZGEU5lOlhvGZo,5374
+midas_quant/feed/IFeeder.py,sha256=Ys1Ib8P8gMQpQfPmvzUO285Z-sJYhGWQSB1m42N3NZk,2672
+midas_quant/feed/PandasFeeder.py,sha256=QZimmP0i2cvcbqh64rgywQcCqDL-rQCPSd1gheErnx4,6418
+midas_quant/feed/PandasPart.py,sha256=fBF9Al4xIfQj5h_Ux3o9e4R1qE4ynto7izqHE9Jm47c,10346
+midas_quant/feed/__init__.py,sha256=pXD_5LdSq8a9R9lr4xz_9NpZNWZy0PjJPG_q3QSmJpw,135
+midas_quant/midas.py,sha256=RBNmZm7-mq9jy2apzBzJNRx9n_KdgkfV-_2EQbDqWyw,46
+midas_quant-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+midas_quant-0.1.3.dist-info/METADATA,sha256=qqJs9J6NUtIzX7WMt_VOXS80nzK_U_5QLYGocdvsF8U,384
+midas_quant-0.1.3.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+midas_quant-0.1.3.dist-info/RECORD,,
