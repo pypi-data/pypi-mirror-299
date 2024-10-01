@@ -1,0 +1,36 @@
+[project]
+name = "electrum-ecc"
+authors = [
+    { name = "The Electrum developers" },
+]
+description = "Pure python ctypes wrapper for libsecp256k1"
+keywords = ["libsecp256k1", "ecc"]
+readme = "README.md"
+license = {'file'="Licence.txt"}
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "License :: OSI Approved :: Apache Software License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Security :: Cryptography",
+]
+version = '0.0.2'
+
+
+[project.urls]
+Homepage = "https://github.com/spesmilo/electrum-ecc"
+Repository = "https://github.com/spesmilo/electrum-ecc"
+

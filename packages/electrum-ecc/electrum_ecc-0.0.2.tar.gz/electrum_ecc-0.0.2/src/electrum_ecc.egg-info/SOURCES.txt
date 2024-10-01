@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/electrum_ecc/__init__.py
+src/electrum_ecc/ecc_fast.py
+src/electrum_ecc.egg-info/PKG-INFO
+src/electrum_ecc.egg-info/SOURCES.txt
+src/electrum_ecc.egg-info/dependency_links.txt
+src/electrum_ecc.egg-info/top_level.txt
