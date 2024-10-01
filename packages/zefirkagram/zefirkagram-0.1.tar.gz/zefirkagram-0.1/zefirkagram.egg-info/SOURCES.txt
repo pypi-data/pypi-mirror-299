@@ -1,0 +1,8 @@
+setup.py
+src/__init__.py
+src/bot.py
+zefirkagram.egg-info/PKG-INFO
+zefirkagram.egg-info/SOURCES.txt
+zefirkagram.egg-info/dependency_links.txt
+zefirkagram.egg-info/requires.txt
+zefirkagram.egg-info/top_level.txt
