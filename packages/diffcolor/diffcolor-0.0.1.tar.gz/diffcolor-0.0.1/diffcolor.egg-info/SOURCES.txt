@@ -1,0 +1,12 @@
+CHANGES.md
+MANIFEST.in
+README.md
+setup.py
+diffcolor/__init__.py
+diffcolor/__main__.py
+diffcolor/diffcolor.py
+diffcolor.egg-info/PKG-INFO
+diffcolor.egg-info/SOURCES.txt
+diffcolor.egg-info/dependency_links.txt
+diffcolor.egg-info/not-zip-safe
+diffcolor.egg-info/top_level.txt

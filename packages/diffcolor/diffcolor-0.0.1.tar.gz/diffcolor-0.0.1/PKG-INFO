@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: diffcolor
+Version: 0.0.1
+Summary: show diff with byte frames.
+Home-page: https://github.com/sintrb/byte-diff/
+Author: trb
+Author-email: sintrb@gmail.com
+License: UNKNOWN
+Description: uniapi
+        ===============
+        A Universal API Framework.
+        
+        Install
+        ===============
+        ```
+         pip install byte-diff
+        ```
+        
+        Useage
+        ===============
+        ```python
+        
+        ```
+        
+        
+        CHANGES
+        ===============
+        0.0.1
+        
+        - first version
+        
+        
+        
+Keywords: byte,diff,frame,data
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
