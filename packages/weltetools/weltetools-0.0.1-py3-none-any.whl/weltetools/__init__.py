@@ -1,0 +1,1 @@
+from weltetools.data import fit_curve
