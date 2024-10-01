@@ -1,0 +1,26 @@
+# Micromamba environment file
+# https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
+
+name: spadsampler
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytest
+  - ipykernel
+  - matplotlib
+  - pip
+  - pip:
+      - opencv-python
+      - lazyimread
+
+dev-dependencies:
+  - ruff
+  - mypy
+  - tox
+  - build
+  - twine
+  - pre-commit
