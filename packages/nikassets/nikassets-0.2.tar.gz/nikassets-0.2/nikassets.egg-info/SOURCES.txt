@@ -1,0 +1,8 @@
+README.md
+setup.py
+nikassets.egg-info/PKG-INFO
+nikassets.egg-info/SOURCES.txt
+nikassets.egg-info/dependency_links.txt
+nikassets.egg-info/entry_points.txt
+nikassets.egg-info/requires.txt
+nikassets.egg-info/top_level.txt
