@@ -1,0 +1,3 @@
+include linear_regression.pyx
+include linear_regression.cpp
+include linear_regression.h
