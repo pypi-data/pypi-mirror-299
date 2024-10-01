@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: odoo-addons-oca-vertical-construction
+Version: 15.0.20240930.0
+Summary: Meta package for oca-vertical-construction Odoo addons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 15.0
+Requires-Dist: odoo-addon-bc3-importer <15.1dev,>=15.0dev
+
+UNKNOWN
