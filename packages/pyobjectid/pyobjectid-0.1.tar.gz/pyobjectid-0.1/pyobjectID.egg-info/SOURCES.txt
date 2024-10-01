@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyobjectID/__init__.py
+pyobjectID/errors.py
+pyobjectID/generate.py
+pyobjectID/object_to_string.py
+pyobjectID/string_to_object.py
+pyobjectID/validate.py
+pyobjectID.egg-info/PKG-INFO
+pyobjectID.egg-info/SOURCES.txt
+pyobjectID.egg-info/dependency_links.txt
+pyobjectID.egg-info/requires.txt
+pyobjectID.egg-info/top_level.txt
