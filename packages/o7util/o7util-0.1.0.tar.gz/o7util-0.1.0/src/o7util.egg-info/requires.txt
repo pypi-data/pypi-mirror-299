@@ -1,0 +1,4 @@
+sty>=1.0.6
+
+[pandas]
+pandas>=2.2
