@@ -1,0 +1,8 @@
+farabio/Dockerfile,sha256=DVDSO8m69MQcIXbEBZvkYzgnhE3XalAZwyS5zkIRxNE,492
+farabio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+farabio/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+farabio/requirements.txt,sha256=2wo2gn-KR1I9bC4JGN_uBqwottSwa3YQ4ft3sATuqNc,40
+farabio-2.0.0.dist-info/METADATA,sha256=2B_K1CWaI0Ke5EH2yGRFAOGNSIrDWdok_dci4OhBdoY,41488
+farabio-2.0.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+farabio-2.0.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+farabio-2.0.0.dist-info/RECORD,,
