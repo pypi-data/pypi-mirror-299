@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+italian_translator/__init__.py
+italian_translator/main.py
+italian_translator/show_examples.py
+italian_translator/show_translations.py
+italian_translator.egg-info/PKG-INFO
+italian_translator.egg-info/SOURCES.txt
+italian_translator.egg-info/dependency_links.txt
+italian_translator.egg-info/entry_points.txt
+italian_translator.egg-info/requires.txt
+italian_translator.egg-info/top_level.txt
