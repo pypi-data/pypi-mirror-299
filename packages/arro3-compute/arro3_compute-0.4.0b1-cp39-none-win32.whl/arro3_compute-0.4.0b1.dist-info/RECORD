@@ -1,0 +1,14 @@
+arro3_compute-0.4.0b1.dist-info/METADATA,sha256=Ub6C3BcPHBxVyu5LFrXqP4BR_Q0xja6i21F-DdhRGjw,920
+arro3_compute-0.4.0b1.dist-info/WHEEL,sha256=8oDS9lEgrtw5U4qwq5k5ejtIqRM0xNzMNTKqkiM20hA,90
+arro3/compute/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arro3/compute/_aggregate.pyi,sha256=Qp-dIGBLmTDk4HucwEsNNIoEw410DYig09qe0nyEynA,519
+arro3/compute/_arith.pyi,sha256=s3SNZ6f6bFFWi1t0nkmgw0EUHtUjBvC4r3g8ZnjWzpc,1459
+arro3/compute/_boolean.pyi,sha256=aopG5yIDc_d1C9tmVf-yV2phpIsw951JiKNLngeqkC4,1296
+arro3/compute/_cast.pyi,sha256=L1o-uQx1N295cdjVvJwyfMhgps_U7FpOOM2Xv0btumQ,1397
+arro3/compute/_compute.pyi,sha256=cMc9xN6jP4Pvzywr_TPGf-BZNgkXLgSJGqoLGXOCLDk,1075
+arro3/compute/_dictionary.pyi,sha256=BtJk3ZBHEnVMdzwpY5HRtUncF3ivkMRY3oxb3muN4S4,812
+arro3/compute/_filter.pyi,sha256=Rr0ud9n5Q0CJFvNDAZ2KBc91OVn8_LY1oc6rcGs0S28,818
+arro3/compute/_take.pyi,sha256=PUSbNAcIjv-BuIIHcKvAtGAQBJXJqPZgPDTOZzk1hC0,2058
+arro3/compute/__init__.py,sha256=jfgH9rQHVNOdvzUlNz3gqyTZgD0xQOYNWkZ1adEVU_w,94
+arro3/compute/_compute.cp39-win32.pyd,sha256=Ra0PiL7U-wgvmkPiI_ZkHItRX8ISevBeZEMoi56hwtw,8610816
+arro3_compute-0.4.0b1.dist-info/RECORD,,
