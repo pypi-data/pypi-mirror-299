@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: duanbima
+Version: 0.1.1
+Summary: Uma biblioteca que contém os dias úteis do calendário ANBIMA desde 2001 até 2099
+Home-page: https://github.com/lanceluks/duanbima
+Author: LucasSoares
+Author-email: lanceluks@gmail.com
+Requires-Dist: pandas
+
