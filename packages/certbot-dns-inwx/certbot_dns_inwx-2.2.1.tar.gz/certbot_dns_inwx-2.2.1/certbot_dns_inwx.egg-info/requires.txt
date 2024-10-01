@@ -1,0 +1,6 @@
+setuptools>=39.0.1
+acme>=0.31.0
+certbot>=3.0.0
+
+[CNAME]
+dnspython
