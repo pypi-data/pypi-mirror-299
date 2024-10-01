@@ -1,0 +1,61 @@
+project:
+  root: "./"  # Set the project root directory to the current directory
+
+file_handling:
+  max_file_size: 100000  # Maximum file size to process (in bytes)
+  max_summary_length: 8192  # Increased maximum length of content summaries
+  exclude:
+    directories:
+      - ".git"
+      - "__pycache__"
+      - "venv"
+      - "env"
+      - "node_modules"
+    extensions:
+      - ".pyc"
+      - ".pyo"
+      - ".pyd"
+      - ".db"
+      - ".log"
+      - ".sqlite3"
+      - ".png"
+      - ".jpg"
+      - ".jpeg"
+      - ".gif"
+      - ".bmp"
+      - ".ico"
+      - ".svg"
+      - ".mp4"
+      - ".mp3"
+      - ".avi"
+      - ".mov"
+      - ".wmv"
+  include:
+    extensions:
+      - ".py"       # Python files
+      - ".js"       # JavaScript files
+      - ".jsx"      # React JavaScript files
+      - ".ts"       # TypeScript files
+      - ".tsx"      # React TypeScript files
+      - ".html"     # HTML files
+      - ".css"      # CSS files
+      - ".scss"     # SASS/SCSS files
+      - ".json"     # JSON files
+      - ".xml"      # XML files
+      - ".yaml"     # YAML files
+      - ".yml"      # YAML files
+      - ".md"       # Markdown files
+      - ".txt"      # Text files
+      - ".ini"      # Configuration files
+      - ".cfg"      # Configuration files
+      - ".toml"     # Configuration files
+
+output:
+  format: "json"  # Change the output format to JSON
+  file: "output.json"  # Default output file location
+
+logging:
+  level: "INFO"  # Default logging level (can be overridden)
+
+tokens:
+  max_tokens: 1000  # Default maximum token limit for console output
