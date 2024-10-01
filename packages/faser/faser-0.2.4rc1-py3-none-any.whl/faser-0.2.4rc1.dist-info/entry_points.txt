@@ -1,0 +1,6 @@
+[console_scripts]
+faser = faser.cli.main:main
+qtfaser = faser.cli.qtmain:main
+
+[napari]
+napari.manifest = faser:napari.yaml
