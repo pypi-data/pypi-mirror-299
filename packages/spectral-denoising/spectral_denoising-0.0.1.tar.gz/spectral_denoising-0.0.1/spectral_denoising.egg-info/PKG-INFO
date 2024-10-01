@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: spectral_denoising
+Version: 0.0.1
+Summary: Spectral denoising and denoising search
+Author: Fanzhou Kong
+Author-email: <fzkong@ucdavis.edu>
+Keywords: python,metabolomics,MSMS denoise
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: chemparse
+
+A package that allows to denoise MS/MS spectra based on molecular formula information and intensity modeling. Denoise search integrates spectral desnoing into identity search process
