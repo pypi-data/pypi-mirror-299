@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: powerpuff
+Version: 0.0.1
+Summary: My silly collection of random utils
+Home-page: https://github.com/arturtamborski/powerpuff
+Download-URL: https://github.com/arturtamborski/powerpuff/archive/0.0.1.tar.gz
+Author: Artur Tamborski
+Author-email: ar@tur.ski
+License: MIT
+Keywords: utility collection
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+powerpuff
+=========
+
+Description
+-----------
+
+powerpuff is my silly collection of random python utilities I tend to use in different places.
+
+
+Installation
+------------
+
+```
+   pip install powerpuff
+```
+
