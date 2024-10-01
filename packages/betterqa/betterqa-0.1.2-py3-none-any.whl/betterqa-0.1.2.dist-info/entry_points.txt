@@ -1,0 +1,3 @@
+[console_scripts]
+bqa=betterqa.__main__:main
+
