@@ -1,0 +1,13 @@
+README.md
+setup.py
+settle/__init__.py
+settle/api.py
+settle/auth.py
+settle/data_details.py
+settle/settings.py
+settle/transfers.py
+settle.africa.egg-info/PKG-INFO
+settle.africa.egg-info/SOURCES.txt
+settle.africa.egg-info/dependency_links.txt
+settle.africa.egg-info/requires.txt
+settle.africa.egg-info/top_level.txt
