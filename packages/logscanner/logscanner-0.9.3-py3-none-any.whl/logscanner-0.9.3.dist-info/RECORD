@@ -1,0 +1,9 @@
+logscanner-0.9.3.dist-info/METADATA,sha256=1MkrMN0wE1RjgzhaVcSJ4jE5iwdm_lzt9URtgUecoF0,4976
+logscanner-0.9.3.dist-info/WHEEL,sha256=Vza3XR51HW1KmFP0iIMUVYIvz0uQuKJpIXKYOBGQyFQ,90
+logscanner-0.9.3.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+logscanner-0.9.3.dist-info/licenses/LICENSE,sha256=3B7ZqjpuLMM_70xe8bGMVSScyTFWliI-HgMaGOcGPs8,1078
+logscanner/__init__.py,sha256=VgZA-agie8twGEMkEstpzRPtZOTVhNNtRpXNkEnDL7c,120
+logscanner/logging.py,sha256=NOywFThbf8K3cJX1nJxNJ0NYOa1qL8vmZ4sCyCOipko,2986
+logscanner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logscanner/template/logscanner.html,sha256=MCYeafmF8-7sVOQGUvIpeWbgoSuG7YDunfKISJ2nK-E,75981
+logscanner-0.9.3.dist-info/RECORD,,
