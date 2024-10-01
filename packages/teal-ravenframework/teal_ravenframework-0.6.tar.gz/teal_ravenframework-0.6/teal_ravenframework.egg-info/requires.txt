@@ -1,0 +1,2 @@
+raven_framework>=3.1
+numpy-financial
