@@ -1,0 +1,12 @@
+adm_osc/__init__.py,sha256=1wRyidkqB9Qt5-RORwAoTzOD_OdyZ7MmHvWhLpFy-ks,1429
+adm_osc/client_server.py,sha256=H0DA5LpmreYg7UIDm3n-VzAw4xJGyP1Wc0AxbHbGpd8,21683
+adm_osc/handler.py,sha256=rwFQejFDv9iLTGc2Y8NhyBpg2AIDlb_nknCpAKINFeo,6813
+adm_osc/protocol.py,sha256=4MlyOeDjwcZRbJ1wFxg2ZxCNgglrwfr3NH-5AgeDAMA,16220
+adm_osc/stable_params.py,sha256=kM6XqkH8wbv9-to8Dpb9AJv6VSQhFPNcu4CcK7EkbA4,13523
+adm_osc/stress.py,sha256=Rj6u1vJNxGZk5YQvVvMj64LcwgkZOrcyPJiyRm2QDdk,4929
+adm_osc/tests.py,sha256=1Wxdo3_HIpx53Jj6W-RvJtvpgYk5yd4CStT3pnoSKJk,13617
+adm_osc-1.0.0.dist-info/LICENSE.txt,sha256=w3w2EqSOU_zjsm_NpY0sZqIBw3FHU55a9qQ6oGIhbsE,1077
+adm_osc-1.0.0.dist-info/METADATA,sha256=KqS0njKMnEDZik778_4MxyV9h_infWIjgCyMuQEZAH0,8650
+adm_osc-1.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+adm_osc-1.0.0.dist-info/top_level.txt,sha256=SIRgsM61Sei7EvR-pBxZToP6dyLuSx7HS8K3AJSBVYw,8
+adm_osc-1.0.0.dist-info/RECORD,,
