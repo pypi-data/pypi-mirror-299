@@ -1,0 +1,15 @@
+arro3_compute-0.4.0b1.dist-info/METADATA,sha256=-y11-KyPugoMwFZuFcd1AYXcG97R9cYC66wcEANBC-A,915
+arro3_compute-0.4.0b1.dist-info/WHEEL,sha256=39JrSMylUTux_Hm6de9cnlneq9deQ8fe91io034eiEk,113
+arro3.libs/libgcc_s-e52197c3.so.1,sha256=vkPW1Auw6CH9Bjk7frmX3hry_1H9c0tRI0Ncyg71WUI,724137
+arro3/compute/_cast.pyi,sha256=gJ-GG4MgMzoXVag_zaye-YPOVUTc-HatRFydpwOAfNI,1349
+arro3/compute/_dictionary.pyi,sha256=X1AiJMdBce2jKaSVJ3qYcdcSacjX-leJ6mt_8OHuCvQ,787
+arro3/compute/_take.pyi,sha256=DLzLs74i6LrdtfG5pbbBJ5GfgaUfgcXB9wl-UDQV0Kk,2030
+arro3/compute/_aggregate.pyi,sha256=CF_TFXWp59s-Kdmg6bHn7ygxzhti2K1GdSpzYoGIp28,502
+arro3/compute/_arith.pyi,sha256=WKjtu2Pse87CZb2Ovn0C65oNyuN588Fvl2pH90He3Ww,1427
+arro3/compute/_boolean.pyi,sha256=WvXaazbZmtn__ARAVt7G1rYuSVzG2FYtuEtwqV_OQH8,1254
+arro3/compute/_compute.pyi,sha256=yPYhW6x1M21PI3Ic8xLGo1B4qo_znjU3z1A7GqzqhS4,1055
+arro3/compute/_filter.pyi,sha256=9fObxRi6F0CP8VxSwI3FN-H5AvFKwAyIw_sXoOq2AVk,792
+arro3/compute/__init__.py,sha256=uSF7HrckLTZWyH0zZNZC44ZxXo0CAg0LqRne7JsxwU4,90
+arro3/compute/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arro3/compute/_compute.pypy39-pp73-aarch64-linux-gnu.so,sha256=hw1n4ZcPbC9jnHPHUPw4pF95c8vk0e6jUEv3LBgo74k,9767473
+arro3_compute-0.4.0b1.dist-info/RECORD,,
