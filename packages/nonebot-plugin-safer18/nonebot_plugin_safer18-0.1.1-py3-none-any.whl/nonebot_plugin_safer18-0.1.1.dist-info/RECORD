@@ -1,0 +1,9 @@
+nonebot_plugin_safeR18/__init__.py,sha256=RHOFE-ztCEkCdUD1v08rnSwsuPwC5Vnszg_5Jar192M,1495
+nonebot_plugin_safeR18/config.py,sha256=jyAz81At4M8myNkp4U7oRgQX0Fpk0oVbIEz1SXeqPR8,310
+nonebot_plugin_safeR18/utils.py,sha256=yM8mtN3VMG2IpO5roEo9gm2lGUqIwGXeQaUOK_InKio,2559
+nonebot_plugin_safeR18/models/ResNet50_nsfw_model.pth,sha256=Mb9vbgHNEtarH9XgX2rlrCGnPP50PnkwF7UGr52cxMQ,98519511
+nonebot_plugin_safer18-0.1.1.dist-info/LICENSE,sha256=SyhJNO1cu_TZe2z90P5-0MEbkAdFs_H1i7SYOTFmsY4,1066
+nonebot_plugin_safer18-0.1.1.dist-info/METADATA,sha256=HbMFXqjBVpP4fXCN3MpFhp5lbX5L-48blOnl4p2jclo,598
+nonebot_plugin_safer18-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nonebot_plugin_safer18-0.1.1.dist-info/top_level.txt,sha256=pT9c8x-56yxD32K7MRoal1qCieMfuDufDjb9Qz01r-M,23
+nonebot_plugin_safer18-0.1.1.dist-info/RECORD,,
