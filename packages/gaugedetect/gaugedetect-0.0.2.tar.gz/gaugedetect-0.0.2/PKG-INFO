@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: gaugedetect
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/pannawatr/gaugedetect
+Author: 
+Author-email: 
+License: the8thfloor
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## Installation
+```bash
+pip install gaugedetect
+```
+
+
+## Usage
+```python
+import gaugedetect as gd
+
+result = gd.digital_url(user_id=YOUR_USER_ID, product_key=YOUR_PRODUCT_KEY, image_url=YOUR_IMAGE_URL) # { 'result': 40.0 }
+```
+
+## Simple Document
+gaugedetect.digital_url
+```python
+gaugedetect.digital_url(user_id, product_key, image_url, image_width, image_height, overlay_top, overlay_width, overlay_height, confident)
+"""Gauge detect with digital gauge from image url.
+Args:
+  user_id (str): User.id from ABC website
+  product_key (str) : Product key from ABC website
+  image_url (str) : URL about your images (requests image from URL)
+  image_width (str) : Width of image
+  image_height (str) : Hight of image
+  overlay_top (str) : Position for overlay start top point
+  overlay_width (str) : From overlay top point to overlay width size
+  overlay_heihgt (str) : From overlay top point to overlay heihgt size
+Return:
+  response (json) : Result of CV detect image to text
+"""
+```
+
+gaugedetect.digital_image
+```python
+gaugedetect.digital_image(user_id, product_key, image_path, image_width, image_height, overlay_top, overlay_width, overlay_height, confident)
+"""Gauge detect with digital gauge from image.
+Args:
+  user_id (str): User.id from ABC website
+  product_key (str) : Product key from ABC website
+  image_path (str) : Path of image location
+  image_width (str) : Width of image
+  image_height (str) : Hight of image
+  overlay_top (str) : Position for overlay start top point
+  overlay_width (str) : From overlay top point to overlay width size
+  overlay_heihgt (str) : From overlay top point to overlay heihgt size
+Return:
+  response (json) : Result of CV detect image to text
+"""
+```
+
+gaugedetect.clock_url
+```python
+gaugedetect.clock_url(user_id, product_key, image_url, gauge_min=0, gauge_max=100, image_width, image_height, overlay_top, overlay_width, overlay_height, confident)
+"""Gauge detect with clock gauge from image url.
+Args:
+  user_id (str): User.id from ABC website
+  product_key (str) : Product key from ABC website
+  image_url (str) : URL about your images (requests image from URL)
+  gauge_min (str): Min of gauge
+  gauge_max (str) : Max of gauge
+  image_width (str) : Width of image
+  image_height (str) : Hight of image
+  overlay_top (str) : Position for overlay start top point
+  overlay_width (str) : From overlay top point to overlay width size
+  overlay_heihgt (str) : From overlay top point to overlay heihgt size
+Return:
+  response (json) : Result of CV detect image to text
+"""
+```
+
+gaugedetect.clock_image
+```python
+gaugedetect.clock_image(user_id, product_key, image_path, gauge_min=0, gauge_max=100, image_width, image_height, overlay_top, overlay_width, overlay_height, confident)
+"""Gauge detect with clock gauge from image.
+Args:
+  user_id (str): User.id from ABC website
+  product_key (str) : Product key from ABC website
+  image_path (str) : Path of image location
+  gauge_min (str): Min of gauge
+  gauge_max (str) : Max of gauge
+  image_width (str) : Width of image
+  image_height (str) : Hight of image
+  overlay_top (str) : Position for overlay start top point
+  overlay_width (str) : From overlay top point to overlay width size
+  overlay_heihgt (str) : From overlay top point to overlay heihgt size
+Return:
+  response (json) : Result of CV detect image to text
+"""
+```
+
+## Parameters
+The `function` class can be created with the following optional parameters:
+| Name                 | Required    | Default
+| -----------          | ----------- | -----------
+| user_id              | True        |
+| product_key          | True        |
+| image_url/image_path | True        | 
+| gauge_min            | False       | 0
+| gauge_max            | False       | 100 
+| image_width          | False       | `base on the image size`
+| image_height         | False       | `base on the image size`
+| overlay_top          | False       | 0
+| overlay_left         | False       | 0
+| overlay_width        | False       | 0
+| overlay_height       | False       | 0
+| confident            | False       | 0
+
+

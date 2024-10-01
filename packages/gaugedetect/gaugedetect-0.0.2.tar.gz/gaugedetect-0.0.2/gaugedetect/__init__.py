@@ -1,0 +1,1 @@
+from .detect import digital_url, digital_image, clock_url, clock_image, compress_image, convert_image

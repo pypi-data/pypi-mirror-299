@@ -1,0 +1,6 @@
+requests
+supabase
+numpy
+pillow
+pillow-heif
+python-dotenv
