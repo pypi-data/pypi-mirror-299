@@ -1,0 +1,17 @@
+text_to_action/__init__.py,sha256=PWJ9YMDVPR5RXMxgLv3WXZ-WhV_760-8ZN7SqLMrNOc,353
+text_to_action/create_actions.py,sha256=TBSTKT-HxGmXKjzanMIGaaQL43Kd-D_xc0r4n4qJf4s,3099
+text_to_action/entity_models.py,sha256=xjybzI-YWRgpbFde8387zOs6f-3ij01WcYCSCU5xHVc,7459
+text_to_action/example_actions/calculator/descriptions.json,sha256=8-4X9Dvr8Zcmkbr4qV8_sLaEmFYYOnPP_01coiznJUE,12477
+text_to_action/example_actions/calculator/embeddings.h5,sha256=2BK_W-4G6ROwbdhw3sOetwxnkStk_XAhnuwNMOgU25Q,856224
+text_to_action/example_actions/calculator/implementation.py,sha256=qiPaY99xpRV7H89a04GiLfzOgo_erB_k_p0oVKfR2qI,6299
+text_to_action/example_actions/on_device.py,sha256=m63S_W8Yl_nAE38zBTbHGuu9HiQBoqnpkJWdG7mx_E0,9375
+text_to_action/extract_parameters.py,sha256=ClDl9HWcN08qnERQJCCZGX9uXWao_-h9pNy70ypKRao,6783
+text_to_action/llm_utils.py,sha256=NAR1BrWwI-WdqQQAWWEnx_3IKrzLpTmGPr7ACpmx2NQ,18332
+text_to_action/main.py,sha256=IbE22Fuf4z44y1j0ijx1vrkrBEmyJVBkK8nBH9cDPwk,18354
+text_to_action/types.py,sha256=8JOzJuTz-hLEr5Ga5eqk_dcIUvi2cuk6qdr_Cl3LyHU,2315
+text_to_action/utils.py,sha256=674QVLZB6IITttuVKDCTl-xoQfc1Vg_K0w3CcqJdCs4,6306
+text_to_action/vector_emb.py,sha256=H1dmf7tkZFMOVCxfeWBcnboPGpP02TnN3J8uJJWLLY0,10042
+text_to_action-2.0.1.dist-info/LICENSE,sha256=xibzvKuBxl6ryFiMZsUTgz6d_HtZJ7FAMCWjfNv1dCU,1095
+text_to_action-2.0.1.dist-info/METADATA,sha256=LMt8J0wBrIkoo5WnrFRdD0Y-FlJGGrDuJB-oRbUVKzs,8128
+text_to_action-2.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+text_to_action-2.0.1.dist-info/RECORD,,
