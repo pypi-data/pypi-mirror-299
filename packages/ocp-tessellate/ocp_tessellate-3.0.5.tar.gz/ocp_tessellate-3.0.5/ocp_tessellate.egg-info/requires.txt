@@ -1,0 +1,11 @@
+webcolors~=1.12
+numpy
+cachetools~=5.2.0
+imagesize
+
+[dev]
+bumpversion
+pylint
+twine
+pyYaml
+black
