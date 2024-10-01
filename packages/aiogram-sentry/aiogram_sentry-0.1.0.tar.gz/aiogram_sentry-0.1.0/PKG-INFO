@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: aiogram-sentry
+Version: 0.1.0
+Summary: Sentry's Aiogram integration
+Home-page: https://projects.rocshers.com/open-source/aiogram-sentry
+License: MIT
+Keywords: aiogram,sentry
+Author: Aleksei Marusich
+Author-email: aleksei.marusich@rocshers.com
+Requires-Python: >=3.9,<4
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Archiving :: Packaging
+Classifier: Topic :: System :: Software Distribution
+Requires-Dist: aiogram (>=3,<4)
+Requires-Dist: sentry-sdk
+Project-URL: Documentation, https://projects.rocshers.com/open-source/aiogram-sentry/docs
+Project-URL: Repository, https://gitlab.com/rocshers/python/aiogram-sentry
+Description-Content-Type: text/markdown
+
+# Sentry's Aiogram integration
+
+TODO
+
+[![PyPI](https://img.shields.io/pypi/v/aiogram-sentry)](https://pypi.org/project/aiogram-sentry/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aiogram-sentry)](https://pypi.org/project/aiogram-sentry/)
+[![Docs](https://img.shields.io/badge/docs-exists-blue)](https://projects.rocshers.com/open-source/aiogram-sentry)
+
+[![Downloads](https://static.pepy.tech/badge/aiogram-sentry)](https://pepy.tech/project/aiogram-sentry)
+[![GitLab stars](https://img.shields.io/gitlab/stars/rocshers/python/aiogram-sentry)](https://gitlab.com/rocshers/python/aiogram-sentry)
+[![GitLab last commit](https://img.shields.io/gitlab/last-commit/rocshers/python/aiogram-sentry)](https://gitlab.com/rocshers/python/aiogram-sentry)
+
+## Functionality
+
+- TODO
+
+## Installation
+
+`pip install aiogram-sentry`
+
+## Quick start
+
+TODO
+
+```python
+TODO
+```
+
+## Classes
+
+TODO
+
+## Contribute
+
+Issue Tracker: <https://gitlab.com/rocshers/python/aiogram-sentry/-/issues>  
+Source Code: <https://gitlab.com/rocshers/python/aiogram-sentry>
+
+Before adding changes:
+
+```bash
+make install-dev
+```
+
+After changes:
+
+```bash
+make format test
+```
+
