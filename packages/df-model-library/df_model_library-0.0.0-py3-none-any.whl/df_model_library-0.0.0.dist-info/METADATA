@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: df-model-library
+Version: 0.0.0
+Summary: The package 'df-model-library' is reserved for Dragonfruit AI, and intentionally cannot be installed from the main PyPI index for security reasons.
+Home-page: https://dragonfruit.ai
+Author: dragonfruit.ai
+Author-email: support@dragonfruit.ai
+Requires-Python: <0,>999
+Requires-Dist: df-install-from-public-pypi-is-disabled <0,>999
+Requires-Dist: requirements.txt <0,>999
+
+The package 'df-model-library' is reserved for Dragonfruit AI, and intentionally cannot be installed from the main PyPI index for security reasons.
