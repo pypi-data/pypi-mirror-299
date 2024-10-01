@@ -1,0 +1,8 @@
+README.md
+setup.py
+tinquirer/__init__.py
+tinquirer/main.py
+tinquirer.egg-info/PKG-INFO
+tinquirer.egg-info/SOURCES.txt
+tinquirer.egg-info/dependency_links.txt
+tinquirer.egg-info/top_level.txt
