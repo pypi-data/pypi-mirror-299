@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+Component_resuse.egg-info/PKG-INFO
+Component_resuse.egg-info/SOURCES.txt
+Component_resuse.egg-info/dependency_links.txt
+Component_resuse.egg-info/requires.txt
+Component_resuse.egg-info/top_level.txt
