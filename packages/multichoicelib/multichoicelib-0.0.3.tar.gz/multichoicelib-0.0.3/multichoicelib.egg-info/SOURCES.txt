@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+multichoicelib/__init__.py
+multichoicelib/selection.sh
+multichoicelib.egg-info/PKG-INFO
+multichoicelib.egg-info/SOURCES.txt
+multichoicelib.egg-info/dependency_links.txt
+multichoicelib.egg-info/top_level.txt

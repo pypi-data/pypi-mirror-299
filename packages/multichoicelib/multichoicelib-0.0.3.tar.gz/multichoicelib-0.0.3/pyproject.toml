@@ -1,0 +1,16 @@
+[project]
+name =  "multichoicelib"
+version = "0.0.3"
+authors = [
+    {name = "cph101", email = "cph101@icloud.com"},
+]
+description = "Miniscule Python Module for multiple choice menus using arrow keys"
+readme = "README.md"
+license = { text = "MIT" }
+classifiers = []
+requires-python = ">=3.8.1"
+
+[project.urls]
+Documentation = "https://github.com/cph101/MultiChoiceLib.py/tree/main#readme"
+Source = "https://github.com/cph101/MultiChoiceLib.py"
+Tracker = "https://github.com/cph101/MultiChoiceLib.py/issues"
