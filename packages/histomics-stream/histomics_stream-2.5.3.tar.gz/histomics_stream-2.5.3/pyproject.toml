@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "histomics_stream"
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [{name = "Lee A. Newberg", email = "lee.newberg@kitware.com"}]
+maintainers = [{name = "Lee A. Newberg", email = "lee.newberg@kitware.com"}]
+keywords = ["tensorflow", "torch", "whole slide image", "stream", "machine learning"]
+classifiers = ["License :: OSI Approved :: Apache Software License"]
+dependencies = [
+    "imagecodecs",
+    "itk",
+    "numcodecs",
+    "numpy",
+    "scipy",
+]
+dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+tensorflow = [
+    "tensorflow<3.0.0",
+    "keras",
+]
+torch = [
+    "torch<2.0.0",
+]
+zarr = [
+    "zarr",
+]
+
+[project.urls]
+Source = "https://github.com/DigitalSlideArchive/HistomicsStream"
+
+[project.scripts]
+flit = "flit:main"
