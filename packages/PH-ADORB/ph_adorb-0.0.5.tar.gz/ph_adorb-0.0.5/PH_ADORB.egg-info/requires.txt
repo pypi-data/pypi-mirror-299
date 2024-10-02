@@ -1,0 +1,11 @@
+honeybee-energy>=1.109.2
+honeybee-revive>=0.0.6
+pandas>=2.2.3
+ph-units>=1.5.13
+rich>=13.8.1
+
+[dev]
+black
+isort
+pytest
+coverage
