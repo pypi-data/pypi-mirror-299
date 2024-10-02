@@ -1,0 +1,9 @@
+fast_viterbi/__init__.py,sha256=chJygI5wY6Pzfl7zPY1JGdxlrWzxlK6Drwhv7DdQ8SI,181
+fast_viterbi/__main__.py,sha256=-D14UI3AyhNf_qKM_Yf2Ia14MLmXQJB47AnVeBI__L8,289
+fast_viterbi/_core.cp311-win_amd64.pyd,sha256=NyqPgpUElxlORdPlnmKQ3HUUPfVOkUFh8h6EGF5_zRU,204800
+fast_viterbi/_core.pyi,sha256=Mlh9lU0ceZookIW4cCPKwTn--lrgNQszit2BiwHIKsA,2505
+fast_viterbi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_viterbi-0.1.2.dist-info/METADATA,sha256=wW6mF-gB-RAbIlC4bBZpELHAUGeJffGBdSOSSDoStVg,757
+fast_viterbi-0.1.2.dist-info/WHEEL,sha256=kXCl1J14PkmxQKXf5U_5vxmme_OmC3Ydcral7u0yA3M,106
+fast_viterbi-0.1.2.dist-info/licenses/LICENSE,sha256=N_R9-5l0U5HZyk0-el1LtB0nxSXttAIy78h4x_w_bgk,2218
+fast_viterbi-0.1.2.dist-info/RECORD,,
