@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+josewow/main.cp311-win_amd64.pyd
+josewow.egg-info/PKG-INFO
+josewow.egg-info/SOURCES.txt
+josewow.egg-info/dependency_links.txt
+josewow.egg-info/top_level.txt

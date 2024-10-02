@@ -1,0 +1,4 @@
+include README.md
+exclude josewow/*.py
+include josewow/*.pyd
+include josewow/*.so
