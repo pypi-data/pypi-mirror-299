@@ -1,0 +1,17 @@
+[package]
+name = "rdbgen-rs"
+version = "0.1.0"
+description = "Generate Redis dump files (.rdb) from native Python objects through Rust"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+[lib]
+name = "_rdbgen_rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.3", features = ["extension-module", "gil-refs"] }
+pyo3-file = "*"
+crc-catalog = "*"
+crc = "*"
