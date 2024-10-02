@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: findrefs
+Version: 0.1.0
+Summary: A reference manager.
+Author-email: Lamin Labs <open-source@lamin.ai>
+Description-Content-Type: text/markdown
+Requires-Dist: lamindb
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: nbproject_test ; extra == "dev"
+Project-URL: Home, https://github.com/laminlabs/findrefs
+Provides-Extra: dev
+
+# findrefs: A reference manager
+
+This schema provides a single registry `Reference` to store references to studies, reports, papers, blog posts, preprints.
+
+## Contributing
+
+Please run `pre-commit install` and `gitmoji -i` on the CLI before starting to work on this repository!
+
