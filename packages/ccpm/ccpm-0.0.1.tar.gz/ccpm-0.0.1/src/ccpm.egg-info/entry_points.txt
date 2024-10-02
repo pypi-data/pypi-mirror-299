@@ -1,0 +1,2 @@
+[console_scripts]
+ccpm = ccpm.__main__:main

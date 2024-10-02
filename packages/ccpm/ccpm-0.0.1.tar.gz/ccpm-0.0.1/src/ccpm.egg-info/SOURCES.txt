@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/ccpm/__main__.py
+src/ccpm.egg-info/PKG-INFO
+src/ccpm.egg-info/SOURCES.txt
+src/ccpm.egg-info/dependency_links.txt
+src/ccpm.egg-info/entry_points.txt
+src/ccpm.egg-info/requires.txt
+src/ccpm.egg-info/top_level.txt
