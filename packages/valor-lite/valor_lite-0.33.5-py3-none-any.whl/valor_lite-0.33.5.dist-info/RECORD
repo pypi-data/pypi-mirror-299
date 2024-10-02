@@ -1,0 +1,12 @@
+valor_lite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+valor_lite/schemas.py,sha256=r4cC10w1xYsA785KmGE4ePeOX3wzEs846vT7QAiVg_I,293
+valor_lite/detection/__init__.py,sha256=PiKfemo8FkZRzBhPSjhil8ahGURLy0Vk_iV25CB4UBU,1139
+valor_lite/detection/annotation.py,sha256=BspLc3SjWXj6qYlGGpzDPHEZ8j7CiFzIL5cNlk0WCAM,2732
+valor_lite/detection/computation.py,sha256=HDFfPTFQN2obm-g570KKDf7SP9V-h09OyMtFEJXsoTA,26323
+valor_lite/detection/manager.py,sha256=ld2ytAw96UOO25iTwnfvAI1D2UY2Z1AGmP7cyCrT-V4,52801
+valor_lite/detection/metric.py,sha256=RYKN17nEFRIZIqmotQa6OyNnU0nkjXyfFIclX_5hGpY,9933
+valor_lite-0.33.5.dist-info/LICENSE,sha256=M0L53VuwfEEqezhHb7NPeYcO_glw7-k4DMLZQ3eRN64,1068
+valor_lite-0.33.5.dist-info/METADATA,sha256=WL0LQR2fT4CO4MuV0aXIkLPt3zQW2SsBS4MwcA_kHJY,1865
+valor_lite-0.33.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+valor_lite-0.33.5.dist-info/top_level.txt,sha256=9ujykxSwpl2Hu0_R95UQTR_l07k9UUTSdrpiqmq6zc4,11
+valor_lite-0.33.5.dist-info/RECORD,,
