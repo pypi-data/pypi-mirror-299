@@ -1,0 +1,3 @@
+calamari_ocr
+docs
+resources
