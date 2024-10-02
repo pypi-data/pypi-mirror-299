@@ -1,0 +1,5 @@
+vb_spacy_en_core_web_sm.egg-info/PKG-INFO
+vb_spacy_en_core_web_sm.egg-info/SOURCES.txt
+vb_spacy_en_core_web_sm.egg-info/dependency_links.txt
+vb_spacy_en_core_web_sm.egg-info/requires.txt
+vb_spacy_en_core_web_sm.egg-info/top_level.txt
