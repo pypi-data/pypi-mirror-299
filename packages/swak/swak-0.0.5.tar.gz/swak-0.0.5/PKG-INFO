@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: swak
+Version: 0.0.5
+Summary: Swiss army knife for functional data-science projects.
+Author-email: yedivanseven <yedivanseven@outlook.de>
+Project-URL: Documentation, https://yedivanseven.github.io/swak/
+Project-URL: Repository, https://github.com/yedivanseven/swak.git
+Project-URL: Issues, https://github.com/yedivanseven/swak/issues
+Project-URL: Changelog, https://github.com/yedivanseven/swak/blob/main/CHANGELOG.md
+Keywords: functional,tools,utilities,helpers
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.2
+Requires-Dist: pyarrow>=17.0
+Requires-Dist: pyyaml>=6.0
+Provides-Extra: cloud
+Requires-Dist: google-cloud-bigquery>=3.25; extra == "cloud"
+Requires-Dist: google-cloud-storage>=2.18; extra == "cloud"
+Requires-Dist: pandas-gbq>=0.23; extra == "cloud"
+
+# swak
+_Swiss army knife for functional data-science projects._
+
+Work in progress ...
