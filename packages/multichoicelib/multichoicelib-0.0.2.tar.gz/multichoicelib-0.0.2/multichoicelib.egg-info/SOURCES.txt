@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+multichoicelib/__init__.py
+multichoicelib.egg-info/PKG-INFO
+multichoicelib.egg-info/SOURCES.txt
+multichoicelib.egg-info/dependency_links.txt
+multichoicelib.egg-info/top_level.txt
