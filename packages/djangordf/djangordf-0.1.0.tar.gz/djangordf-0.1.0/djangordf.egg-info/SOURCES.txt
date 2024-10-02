@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+djangordf/__init__.py
+djangordf/functions.py
+djangordf.egg-info/PKG-INFO
+djangordf.egg-info/SOURCES.txt
+djangordf.egg-info/dependency_links.txt
+djangordf.egg-info/top_level.txt
+tests/test_functions.py
