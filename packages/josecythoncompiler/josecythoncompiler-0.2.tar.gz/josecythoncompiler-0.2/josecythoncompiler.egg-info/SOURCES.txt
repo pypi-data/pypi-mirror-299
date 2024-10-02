@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+josecythoncompiler/compiler.c
+josecythoncompiler/compiler.cp311-win_amd64.pyd
+josecythoncompiler.egg-info/PKG-INFO
+josecythoncompiler.egg-info/SOURCES.txt
+josecythoncompiler.egg-info/dependency_links.txt
+josecythoncompiler.egg-info/not-zip-safe
+josecythoncompiler.egg-info/top_level.txt
