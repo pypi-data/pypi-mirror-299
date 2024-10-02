@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+joselogs.egg-info/PKG-INFO
+joselogs.egg-info/SOURCES.txt
+joselogs.egg-info/dependency_links.txt
+joselogs.egg-info/top_level.txt
+joselogs/joselogs/__init__.py
+joselogs/joselogs/logger.py

@@ -1,0 +1,2 @@
+include joselogs/*.py
+include joselogs/joselogs/*.py
