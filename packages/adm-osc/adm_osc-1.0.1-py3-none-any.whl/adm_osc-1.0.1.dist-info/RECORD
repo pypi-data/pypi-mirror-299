@@ -1,0 +1,12 @@
+adm_osc/__init__.py,sha256=1wRyidkqB9Qt5-RORwAoTzOD_OdyZ7MmHvWhLpFy-ks,1429
+adm_osc/client_server.py,sha256=YUeUCvXdgDq8q3zlKK9LsEs3OdW2Orpm699oGrv2_WM,21649
+adm_osc/handler.py,sha256=5kOGcFrSOTvyFImZIDS1TEMBsUg1Ozbcfdd6JMQNtg0,6877
+adm_osc/protocol.py,sha256=fpcqEXh7kG2FjSKExYT9oXujXTQYNh2o1GTdaUYjfog,16218
+adm_osc/stable_params.py,sha256=kM6XqkH8wbv9-to8Dpb9AJv6VSQhFPNcu4CcK7EkbA4,13523
+adm_osc/stress.py,sha256=Rj6u1vJNxGZk5YQvVvMj64LcwgkZOrcyPJiyRm2QDdk,4929
+adm_osc/tests.py,sha256=1Wxdo3_HIpx53Jj6W-RvJtvpgYk5yd4CStT3pnoSKJk,13617
+adm_osc-1.0.1.dist-info/LICENSE.txt,sha256=w3w2EqSOU_zjsm_NpY0sZqIBw3FHU55a9qQ6oGIhbsE,1077
+adm_osc-1.0.1.dist-info/METADATA,sha256=WraKiRgliHgOecXCUTo0pLjAXwhQDUoSE977ses3ow4,9065
+adm_osc-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+adm_osc-1.0.1.dist-info/top_level.txt,sha256=SIRgsM61Sei7EvR-pBxZToP6dyLuSx7HS8K3AJSBVYw,8
+adm_osc-1.0.1.dist-info/RECORD,,
