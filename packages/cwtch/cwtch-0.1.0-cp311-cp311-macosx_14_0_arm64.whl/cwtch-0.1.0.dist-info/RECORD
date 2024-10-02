@@ -1,0 +1,12 @@
+cwtch/__init__.py,sha256=knzmj9mYrR_XoYSTN7JoHThThnKxFFainhz_LRnQXhM,388
+cwtch/config.py,sha256=PDWyNmYB5ReoOxzj2-ge-YWQDXKEAkctx2Jy_wYmKAM,194
+cwtch/core.cpython-311-darwin.so,sha256=g2TNH1nSXSqEihwhIQVsHdjYimLxuekjuM14Qp7qK5Y,489064
+cwtch/cwtch.py,sha256=WeEPqo8H0xd6NbRwdf-VK5WMYrWbgaA5WWAh457pG68,42777
+cwtch/errors.py,sha256=KXvnfUUx23zjIPlzVbY5z-fiH5OV4Ny4NEFR2YlLkfc,3018
+cwtch/metadata.py,sha256=-_VrutUhLdugSDXXeTliNPROZomVn9Px0Jd6wk5HFuM,5835
+cwtch/types.py,sha256=gPybeq9lvbPL8mQGvMtXvkVQNzbXk7RKvReAUyK2uf0,5493
+ext/core.pyx,sha256=dAOnvJSauHwlOCCb9vfd1fjZ3AsP8w98-hd4gAuldS0,39481
+cwtch-0.1.0.dist-info/LICENSE,sha256=Wk7uAQHNzNZYbZ8BVvJKMepby7UdoiTBc00DPle6qB0,1068
+cwtch-0.1.0.dist-info/METADATA,sha256=ernS8d0DxaIi_S5yrYG9qFidWmxODvMFSxk_xJLX9Bk,1854
+cwtch-0.1.0.dist-info/WHEEL,sha256=h9XAMipeFIBqDUT_aBB0JdEY0xFkdkjrW2Vy94TWs4I,106
+cwtch-0.1.0.dist-info/RECORD,,
