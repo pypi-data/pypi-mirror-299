@@ -1,0 +1,13 @@
+whiteduck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whiteduck/cli.py,sha256=GaZ4B2WruekKZT9oQlNotLKivpclGhQCpu3IR3PrDi8,2281
+whiteduck/templates/default/README.md,sha256=yXRHP_cv8E6whwgzgbrPSP63wMjrpB7h8_a420zczT0,49
+whiteduck/templates/default/app.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whiteduck/templates/default/pyproject.toml,sha256=YFm3cKNSxDBH1nm0AnHqD9oen9wW44Dbt7nuAe6I3NI,639
+whiteduck/templates/default/setup_and_run.ps1,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whiteduck/templates/default/setup_and_run.sh,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whiteduck-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whiteduck-0.1.1.dist-info/METADATA,sha256=w-GNQmwME7A85vItwGRQAtnRf9eGKHG3QzFqGrpjcP4,1438
+whiteduck-0.1.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+whiteduck-0.1.1.dist-info/entry_points.txt,sha256=cxi_Xj63rNqqO7gXsit0bD_2R0Oa0LCTmPy79jHTqqM,48
+whiteduck-0.1.1.dist-info/top_level.txt,sha256=A8Nb4OE7IMFUEwjYZe_e32es2nVA-vxldPxpyeZXdgQ,10
+whiteduck-0.1.1.dist-info/RECORD,,
