@@ -1,0 +1,2 @@
+[console_scripts]
+Hello = MypythonLib:hello
