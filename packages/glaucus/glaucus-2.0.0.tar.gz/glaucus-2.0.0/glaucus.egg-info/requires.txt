@@ -1,0 +1,9 @@
+torch
+lightning
+madgrad
+hypothesis
+coverage
+pytest
+einops
+cbitstruct
+vector_quantize_pytorch
