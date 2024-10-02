@@ -1,0 +1,6 @@
+ahk
+beautifulsoup4
+ahk[binary]
+dearpygui
+pywin32
+screeninfo
