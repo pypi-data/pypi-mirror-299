@@ -1,0 +1,17 @@
+conwaymd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conwaymd/_version.py,sha256=JzYPYpvaglqIJRGCDrh5-hYmXI0ISrDDed0V1QQZAGU,22
+conwaymd/authorities.py,sha256=DRw_Fm1EAid572a_6gZH_ILcB-Y_Lo8M2jnJdmJYTzA,74929
+conwaymd/bases.py,sha256=hKdXF1l5jX0W9hFIvvckl9s-_NOuO0lcTdFBv--YDkQ,12546
+conwaymd/cli.py,sha256=G1kDABKQgmwSsbxozH2eIqnX_oDsXk_3AVZpCHcZUzo,4326
+conwaymd/constants.py,sha256=palUngpsPYPesTA4KqhNAwcZbcIDhDLCzleLbGrIUOE,10879
+conwaymd/core.py,sha256=iKDCnc8wlbCDBKKD51GOfbuneZ0ktP87Kg0r38Rb0p0,2655
+conwaymd/employables.py,sha256=t_U3FTS_I9yDmOFJP8iygMsZJJkd4p08uL13ubtEslw,68712
+conwaymd/exceptions.py,sha256=x5Hs6l2blgxkkYXPmI0l7S4vS13H4ikZrHmzvrkl-ak,513
+conwaymd/idioms.py,sha256=NT7dIbwJXd5KyZt2_kq5g2EoBkBI6dmJKQTpVJPpI6g,9806
+conwaymd/placeholders.py,sha256=vsPGGmqmE22XHTfE6fsNlbhePcvetYJMsulBpMJy4sU,4556
+conwaymd/references.py,sha256=7JgyjMoHqNDeR_u0E3zCIVrqDXaBpJoaATN7s9qaJuU,1776
+conwaymd/utilities.py,sha256=pBmIqLTSoJVTjPKqvNI4r7bJBL4pty0DFNS4nJRCsOA,2685
+conwaymd-5.0.0.dist-info/entry_points.txt,sha256=ap7ymLEPNSnNRMfe3eBd67E0d4OApPHhRDC9IFYa5aY,91
+conwaymd-5.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+conwaymd-5.0.0.dist-info/METADATA,sha256=5CCHgWPfN6HFsozgQ0IYHG_tBFe51Q_ySY--53VtfLE,3417
+conwaymd-5.0.0.dist-info/RECORD,,
