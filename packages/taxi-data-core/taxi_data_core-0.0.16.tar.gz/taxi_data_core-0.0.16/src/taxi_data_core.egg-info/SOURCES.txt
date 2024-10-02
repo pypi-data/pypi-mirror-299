@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/taxi_data_core/__init__.py
+src/taxi_data_core/blackandwhitecabs_com_au.py
+src/taxi_data_core/database.py
+src/taxi_data_core/google_sheets.py
+src/taxi_data_core/nextechgps_com.py
+src/taxi_data_core/schema.py
+src/taxi_data_core.egg-info/PKG-INFO
+src/taxi_data_core.egg-info/SOURCES.txt
+src/taxi_data_core.egg-info/dependency_links.txt
+src/taxi_data_core.egg-info/requires.txt
+src/taxi_data_core.egg-info/top_level.txt
