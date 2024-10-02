@@ -1,0 +1,6 @@
+accelerate
+torch
+transformers==4.45.1
+edge-tts
+nest_asyncio
+asyncio
