@@ -1,0 +1,13 @@
+wasabi
+datasets
+torch
+transformers
+scikit-llm
+xgboost
+spacy
+
+[dev]
+pytest
+build
+twine
+jupyter
