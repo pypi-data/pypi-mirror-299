@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: GitAdmin
+Version: 0.1.1
+Summary: CLI tool for quick GitHub repository management and viewing.
+Home-page: https://github.com/JaredTPonting/GHManager
+Author: Jared T Ponting
+Author-email: jaredtponting@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyyaml
+
+# GHManager

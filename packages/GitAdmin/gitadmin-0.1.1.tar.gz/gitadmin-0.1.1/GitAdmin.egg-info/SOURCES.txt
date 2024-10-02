@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+GitAdmin/__init__.py
+GitAdmin/cli.py
+GitAdmin.egg-info/PKG-INFO
+GitAdmin.egg-info/SOURCES.txt
+GitAdmin.egg-info/dependency_links.txt
+GitAdmin.egg-info/entry_points.txt
+GitAdmin.egg-info/requires.txt
+GitAdmin.egg-info/top_level.txt
