@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+glvis/nbextension
+js/node_modules
+*.saved
+*.mesh
+__pycache__
+*.egg-info
+js/dist
+build
