@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nsfw_goto
+Version: 0.1.0
+Summary: A stable and dangerous goto implementation for Python
+License: MIT
+Author: Marcus Näslund
+Author-email: naslundx@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# nsfw_goto
+A working implementation of goto in python (Don't try this at home)
+
