@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: astro-ranch
+Version: 0.1.0
+Summary: Radio AstroNomy Cubes Handler (RANCH)
+Home-page: https://github.com/einigl/ranch
+Keywords: radio astronomy,data cubes,fits
+Author: Lucas Einig
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: astropy (>=5.1)
+Requires-Dist: ipykernel (>=6.29.3)
+Requires-Dist: matplotlib (>=3.8.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pre-commit (>=3.6.2)
+Requires-Dist: scipy (>=1.12.0)
+Project-URL: Bug Tracker, https://github.com/einigl/ism-model-nn-approximation/issues
+Project-URL: Documentation, https://ism-model-nn-approximation.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/einigl/ranch
+Description-Content-Type: text/markdown
+
+# Radio AstroNomy Cubes Handler (RANCH)
+
+[![PyPI version](https://badge.fury.io/py/astro-ranch.svg)](https://badge.fury.io/py/astro-ranch)
+[![Documentation Status](https://readthedocs.org/projects/ranch/badge/?version=latest)](https://ranch.readthedocs.io/en/latest/?badge=latest)
+![test coverage](./coverage.svg)
+
+An API to easily handle radio astronomy FITS files with Python.
+
+
+## Installation
+
+*(optional)* Create a virtual environment and activate it:
+
+```shell
+python -m venv .venv
+source .venv/bin/activate
+```
+
+**Note 1:** to deactivate the virtual env :
+
+```shell
+deactivate
+```
+
+**Note 2:** To delete the virtual environment:
+
+```shell
+rm -r .venv
+```
+
+### From PyPI (recommanded)
+
+To install `ranch`:
+
+```shell
+pip install astro-ranch
+```
+
+### From local package
+
+To get the source code:
+
+```shell
+git clone git@github.com:einigl/ranch.git
+```
+
+To install `ranch`:
+
+```shell
+pip install -e .
+```
+
+
+## Get started
+
+To get started, check out the Jupyter notebooks provided in the `examples` folder.
+
+
+## Tests
+
+To test, run:
+
+```shell
+pytest --cov && coverage-badge -o coverage.svg -f
+```
+
+## Documentation
+
+```bash
+cd docs
+sphinx-apidoc -o . ../ranch
+make html
+```
+
+Outputs are in `docs/_build/html`.
+
+
+## Features
+
+TODO
+
