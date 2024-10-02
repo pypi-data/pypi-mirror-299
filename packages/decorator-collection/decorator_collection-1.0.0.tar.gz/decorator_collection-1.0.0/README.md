@@ -1,0 +1,214 @@
+# Decorator Collection
+
+## Overview
+
+The **Decorator Collection** package provides a comprehensive set of basic and advanced Python decorators that simplify a variety of tasks. Whether you're looking to implement caching, retries, logging, rate limiting, or more complex control flows like circuit breakers, this package has you covered.
+
+### Key Features:
+
+- **Basic decorators**:
+  - Retry on failures, memoization, logging function input/output, and singleton pattern implementation.
+  
+- **Advanced decorators**:
+  - Throttling and debouncing function calls, type checking, enforcing rate limits, and circuit-breaking to handle failures.
+
+The package is modularized into two main parts:
+
+- **`basic_decorators`**: Includes common decorators for everyday use.
+- **`advanced_decorators`**: Provides decorators for more complex logic and control flows.
+
+---
+
+## Installation
+
+You can install the **Decorator Collection** from [PyPI](https://pypi.org) by running:
+
+```bash
+pip install decorator_collection
+```
+
+---
+
+## Usage
+
+After installation, you can use decorators from either the `basic_decorators` or `advanced_decorators` modules. Here are some example use cases:
+
+### Example 1: Basic Decorators
+
+```python
+from decorator_collection.basic_decorators import retry, memoize, log
+
+# Memoization example
+@memoize
+def compute_power(x, y):
+    return x ** y
+
+# Retry example
+@retry(exceptions=(ValueError,), max_attempts=3, delay=2)
+def risky_calculation():
+    raise ValueError("An error occurred!")
+
+# Log decorator example
+@log
+def add(a, b):
+    return a + b
+```
+
+### Example 2: Advanced Decorators
+
+```python
+from decorator_collection.advanced_decorators import throttle, debounce, type_check
+
+# Throttle example: Ensures this function only runs at most once per 5 seconds.
+@throttle(seconds=5)
+def send_email():
+    print("Sending email...")
+
+# Debounce example: Only runs if there's no new call within 1 second.
+@debounce(wait_time=1)
+def search(query):
+    print(f"Searching for {query}...")
+
+# Type-checking decorator
+@type_check((int, int))
+def multiply(a, b):
+    return a * b
+```
+
+---
+
+## Modules
+
+### `basic_decorators`
+
+The `basic_decorators.py` module includes essential decorators for common tasks. Here's a list of available decorators:
+
+1. **`@retry(exceptions, max_attempts, delay)`**  
+   Automatically retries a function if it raises specific exceptions.
+
+   ```python
+   @retry(exceptions=(ValueError,), max_attempts=3, delay=2)
+   def risky_function():
+       pass
+   ```
+
+2. **`@memoize`**  
+   Caches the results of expensive function calls based on input arguments.
+
+   ```python
+   @memoize
+   def expensive_computation(x, y):
+       return x ** y
+   ```
+
+3. **`@log`**  
+   Logs the input arguments and return value of a function.
+
+   ```python
+   @log
+   def add_numbers(a, b):
+       return a + b
+   ```
+
+4. **`@singleton`**  
+   Ensures that only one instance of a class is created.
+
+   ```python
+   @singleton
+   class DatabaseConnection:
+       pass
+   ```
+
+5. **`@time_logger`**  
+   Logs the time taken by a function to execute.
+
+   ```python
+   @time_logger
+   def long_running_task():
+       time.sleep(2)
+   ```
+
+---
+
+### `advanced_decorators`
+
+The `advanced_decorators.py` module contains more complex decorators for advanced use cases:
+
+1. **`@throttle(seconds)`**  
+   Limits how frequently a function can be executed, useful for rate-limiting.
+
+   ```python
+   @throttle(seconds=5)
+   def update_status():
+       pass
+   ```
+
+2. **`@debounce(wait_time)`**  
+   Ensures that a function only runs after a specified period of inactivity, useful for search input fields.
+
+   ```python
+   @debounce(wait_time=1)
+   def process_search(query):
+       pass
+   ```
+
+3. **`@type_check(types)`**  
+   Enforces type checking for function arguments.
+
+   ```python
+   @type_check((int, int))
+   def multiply_numbers(a, b):
+       return a * b
+   ```
+
+4. **`@circuit_breaker(failure_threshold, recovery_timeout)`**  
+   Implements a circuit breaker pattern to prevent repeatedly calling failing services.
+
+   ```python
+   @circuit_breaker(failure_threshold=2, recovery_timeout=10)
+   def call_external_service():
+       pass
+   ```
+
+5. **`@rate_limit(max_per_second)`**  
+   Limits the number of times a function can be executed per second.
+
+   ```python
+   @rate_limit(max_per_second=5)
+   def api_request():
+       pass
+   ```
+
+---
+
+## Requirements
+
+- Python 3.11+
+- `jsonschema` (required for JSON validation decorators)
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+
+We welcome contributions! Please email me and I will look at your request.
+
+---
+
+## Author
+
+- **Aiden Metcalfe**
+
+Feel free to reach out with suggestions, bug reports, or feature requests.
+
+---
+
+## Changelog
+
+### v1.0.0
+- Initial release with 20 basic and 20 advanced decorators.
