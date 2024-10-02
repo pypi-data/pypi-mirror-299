@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+josecompiler/__init__.py
+josecompiler/compiler.py
+josecompiler.egg-info/PKG-INFO
+josecompiler.egg-info/SOURCES.txt
+josecompiler.egg-info/dependency_links.txt
+josecompiler.egg-info/top_level.txt
