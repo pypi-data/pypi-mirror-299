@@ -1,0 +1,13 @@
+appdirs
+numpy
+pyyaml
+requests
+typing-extensions
+
+[test]
+pytest-cov
+testfixtures
+httpretty!=1.0.0
+types-appdirs
+types-requests
+types-PyYAML
