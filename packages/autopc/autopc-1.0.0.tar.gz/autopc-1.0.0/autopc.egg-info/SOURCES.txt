@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+autopc.egg-info/PKG-INFO
+autopc.egg-info/SOURCES.txt
+autopc.egg-info/dependency_links.txt
+autopc.egg-info/top_level.txt
+basic/__init__.py
+basic/airtest.py
