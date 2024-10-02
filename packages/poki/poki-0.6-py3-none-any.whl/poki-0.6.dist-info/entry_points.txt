@@ -1,0 +1,2 @@
+[console_scripts]
+poki = poki.main:main
