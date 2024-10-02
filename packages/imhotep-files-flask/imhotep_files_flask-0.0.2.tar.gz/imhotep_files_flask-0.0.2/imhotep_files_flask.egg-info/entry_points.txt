@@ -1,0 +1,2 @@
+[console_scripts]
+imhotep_files_flask = imhotep_files_flask:main
