@@ -1,0 +1,137 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry]
+name = "cerbere"
+version = "3.0.0.dev38"
+description = "A python API to manipulate spatial and temporal observations, compatible with many existing formats, normalizing and typing the representation of these observations."
+license = "AOSI Approved :: GNU General Public License v3 (GPLv3)"
+authors = ["Jean-François Piollé (Ifremer) <jean.francois.piolle@ifremer.fr>"]
+maintainers = [
+    "Jean-François Piollé (Ifremer) <jean.francois.piolle@ifremer.fr>",
+    "David Poulter <david.poulter@pelamis.co.uk>",
+    "Antoine Grouazel <antoine.grouazel@ifremer.fr>",
+    "Gilles Guitton <gilles.guitton@oceandatalab.com>",
+    "Sylvain Herlédan <sylvain.herledan@oceandatalab.com>",
+]
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8"
+]
+keywords = ["ocean", "observation", "data", "analysis"]
+exclude = ["tests"]
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "pep440"
+pattern = "^v?(?P<base>\\d+\\.\\d+\\.\\d+)(-?((?P<stage>[a-zA-Z]+)\\.?(?P<revision>\\d+)?))?$"
+format-jinja = """
+    {%- if distance == 0 -%}
+        {{- base -}}
+    {%- else -%}
+        {{- base }}.dev{{ distance }}
+    {%- endif -%}
+"""
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+#PyYAML = ">=5.3"
+#netCDF4 = "^1.5"
+#scipy = '^1.5'
+#shapely = ">=2.0"
+#xarray = ">=2022.3.0"
+#dask = ">=2023.9.1"
+#importlib_metadata = ">=3.6"
+#"backports.entry-points-selectable" = "1.2.0"
+xarray = "<=2024.1.1"
+shapely = "^2.0.6"
+pyyaml = "^6.0.2"
+scipy = "^1.14.1"
+h5netcdf = "^1.3.0"
+dask = "^2024.8.2"
+cftime = "^1.6.4"
+
+[tool.poetry.dev-dependencies]
+# execute commands before commit
+pre-commit = "^2.15.0"
+# static analysis
+wemake-python-styleguide = "^0.16.0"
+flake8 = "*"
+
+# unit tests
+pytest = "^6"
+pytest-cov = "^2"
+testfixtures = "^6"
+
+# documentation
+#sphinx = "!=1.6.6,!=1.6.7,>=1.6.5"
+#sphinx_autodoc_typehints = "^1.11.0"
+#sphinx-rtd-theme = "^0.5.0"
+
+[tool.black]
+line-length = 120
+
+[tool.pycln]
+all = true
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+ensure_newline_before_comments = true
+
+[tool.poetry.plugins."xarray.backends"]
+
+# DEPRECATED - for backward compatibility
+[tool.poetry.plugins."cerbere.plugins"]
+Dataset = "cerbere.dataset.dataset:Dataset"
+NCDataset = "cerbere.dataset.ncdataset:NCDataset"
+GHRSSTNCDataset = "cerbere.dataset.ghrsstncdataset:GHRSSTNCDataset"
+
+# DEPRECATED - for backward compatibility
+[tool.poetry.plugins."cerbere.features"]
+Grid = "cerbere.feature.grid:Grid"
+Swath = "cerbere.feature.swath:Swath"
+Image = "cerbere.feature.image:Image"
+Trajectory = "cerbere.feature.trajectory:Trajectory"
+GridTimeSeries = "cerbere.feature.gridtimeseries:GridTimeSeries"
+Profile = "cerbere.feature.profile:Profile"
+TrajectoryProfile = "cerbere.feature.trajectoryprofile:TrajectoryProfile"
+TimeSeriesProfile = "cerbere.feature.timeseriesprofile:TimeSeriesProfile"
+UniZTimeSeriesProfile = "cerbere.feature.timeseriesprofile:UniZTimeSeriesProfile"
+IMDCollection = "cerbere.feature.imdcollection:IMDCollection"
+OMDCollection = "cerbere.feature.omdcollection:OMDCollection"
+
+
+[tool.poetry.plugins."cerbere.reader"]
+xarray = "cerbere.reader.basereader:BaseReader"
+
+
+[tool.poetry.plugins."cerbere.feature"]
+Grid = "cerbere.feature.cgrid:Grid"
+Swath = "cerbere.feature.cswath:Swath"
+Image = "cerbere.feature.cimage:Image"
+Trajectory = "cerbere.feature.ctrajectory:Trajectory"
+GridTimeSeries = "cerbere.feature.cgridtimeseries:GridTimeSeries"
+Point = "cerbere.feature.cpoint:Point"
+Profile = "cerbere.feature.cprofile:Profile"
+IMDCollection = "cerbere.feature.cimdcollection:IMDCollection"
+OMDCollection = "cerbere.feature.comdcollection:OMDCollection"
+TimeSeries = "cerbere.feature.ctimeseries:TimeSeries"
+TimeSeriesProfile = "cerbere.feature.ctimeseriesprofile:TimeSeriesProfile"
+TrajectoryProfile = "cerbere.feature.ctrajectoryprofile:TrajectoryProfile"
+UniZTimeSeriesProfile = "cerbere.feature.ctimeseriesprofile:UniZTimeSeriesProfile"
