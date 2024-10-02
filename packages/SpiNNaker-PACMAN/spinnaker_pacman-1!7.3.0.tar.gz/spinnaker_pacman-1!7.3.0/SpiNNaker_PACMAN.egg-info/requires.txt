@@ -1,0 +1,13 @@
+jsonschema
+typing_extensions
+SpiNNUtilities==1!7.3.0
+SpiNNMachine==1!7.3.0
+
+[draw_placements]
+spinner
+
+[test]
+pytest-cov
+pylint
+testfixtures
+types-jsonschema
