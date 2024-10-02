@@ -1,0 +1,2 @@
+[zest.releaser.releaser.after_checkout]
+yarn_build = yarn_build:build_project
