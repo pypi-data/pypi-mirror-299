@@ -1,0 +1,9 @@
+grpcio==1.65.4
+matplotlib==3.9.0
+mpld3==0.5.10
+paho-mqtt==2.1.0
+pandas==2.2.2
+protobuf>=5.27.3
+requests==2.32.3
+typing==3.7.4.3
+websocket-client==1.8.0

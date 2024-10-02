@@ -1,0 +1,13 @@
+# python 3.11 modules used:
+pandas==2.2.2
+matplotlib==3.9.0
+mpld3==0.5.10
+
+requests==2.32.3
+paho-mqtt==2.1.0
+protobuf>=5.27.3
+grpcio==1.65.4
+websocket-client==1.8.0
+
+# python3 modules used for code visibility:
+typing==3.7.4.3

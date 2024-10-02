@@ -1,0 +1,256 @@
+Metadata-Version: 2.1
+Name: wirepas-wpe-apt
+Version: 1.1.0
+Summary: Tool to playback computed locations data
+Author: Wirepas Ltd
+Author-email: opensource@wirepas.com
+License: Apache-2
+Keywords: Wirepas wpe playback apt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Wirepas WPE analysis and playback tool
+
+This library contains modules to analyse positioning results and to playback of collected measurements.
+
+The goals of this python library is to evaluate quickly the positioning setup: i.e. analyzing positioning performance
+and generate a performance report based on the measurements.
+
+
+## Installation
+
+This tool needs python 3.9+ to be installed. However, we recommand to have the latest version of python.
+
+This library can be install from pypi directly with the following `pip` command:
+`pip install wirepas_wpe_apt`
+
+
+## Backend version
+
+The WPE APT library has been created to work with WNT version until 4.4 and WPE until 1.7, but should work with previous versions.
+Users should not have to worry about their backend version as it is already handled by the tool itself.
+
+
+## Configuration
+
+The user must be placing the exact positions of a few selected tags on the floor plans on their Wirepas Network Tool (aka WNT) backend and setting them as planning nodes
+with a new network id (the same network id for all those reference positions) and the same node id as the tag they are referencing.
+These reference positions are essential as they will be used to measure the errors on the computed positions of the tags by the Wirepas Positioning Engine.
+
+Note: A tag without reference position can have its data stored from the data collector, but the report generator will not be capable of generate KPI for it.
+
+Furthermore, to access WNT data, you have to provide credentials in a json format to the scripts.
+The following parameters can be used:
+
+| Parameter | Description | Default value | Possible value |
+| ----- | ---------- | ----- | ----- |
+| wnt_hostname | WNT hostname | | Any string |
+| wnt_username | WNT username | | Any string |
+| wnt_password | WNT password | | Any string |
+| influxdb_port | Port to be used to connect to the influx database | 8886 | Any integer |
+| influxdb_ssl | Does the influx database uses ssl | True | True or False |
+| influxdb_verify_ssl | Does the influx database uses ssl verification | True | True or False |
+| influxdb_database | Database to be queried when request data from influxdb | "wirepas" | Any string |
+| anchors_dataset | Name of the dataset to request anchors data | "node_metadata" | Any string |
+| measurements_dataset | Name of the dataset to request measurements data | "location_measurement" | Any string |
+| references_dataset | Name of the dataset to request reference data | "node_metadata" | Any string |
+| locations_dataset | Name of the dataset to request computed locations data | "location_update" | Any string |
+| ws_auth_port | Authentication service websocket port | 8813 | Any integer |
+| ws_metadata_port | Metadata service websocket port | 8812 | Any integer |
+| ws_rts_port | Real time situation service websocket port | 8811 | Any integer |
+
+For the playback of the measurements in a WPE, the additional following parameters must be provided:
+
+| Parameter | Description | Default value | Possible value |
+| ----- | ---------- | ----- | ----- |
+| wpe_mqtt_hostname | WPE MQTT broker hostname | | Any string |
+| wpe_mqtt_username | WPE MQTT broker username | | Any string |
+| wpe_mqtt_password | WPE MQTT broker password | | Any string |
+| wpe_mqtt_port | WPE MQTT broker port for the playback usage | 8883 | Any integer |
+| wpe_mqtt_ca_certs | A string path to the WPE MQTT broker Certificate Authority certificate files that are to be treated as trusted. | None | Any string |
+| wpe_mqtt_certfile | PEM encoded for WPE MQTT broker client certificate filename. Used with wpe_mqtt_keyfile for client TLS based authentication. | None | Any string |
+| wpe_mqtt_keyfile | PEM encoded for WPE MQTT broker client private keys filename. Used with wpe_mqtt_certfile for client TLS based authentication. | None | Any string |
+| wpe_mqtt_ciphers | Encryption ciphers that are allowed for WPE MQTT broker connection, or None to use the default ones. | None | Any string |
+
+Note:
+
+WPE and WNT backends should be differents as, the playback module erases the network information
+in the backend to configure the network based on the configuration data file generated
+by the data collector at a given time.
+
+A credentials configuration should look like:
+
+example_configuration.json
+```bash
+{
+    "wnt_hostname": "wnt_hostname",
+    "wnt_username": "wnt_username",
+    "wnt_password": "wnt_password",
+    "influxdb_port": 8886,
+    "influxdb_ssl": true,
+    "influxdb_verify_ssl": true,
+    "influxdb_database": "influxdb_database",
+
+    "wpe_mqtt_hostname": "wpe_mqtt_hostname",
+    "wpe_mqtt_username": "wpe_mqtt_username",
+    "wpe_mqtt_password": "wpe_mqtt_password",
+    "wpe_mqtt_port": 8883,
+
+    "ws_auth_port": 8813,
+    "ws_metadata_port": 8812,
+    "ws_rts_port": 8811
+}
+```
+
+
+## Modules
+
+The library is structured by modules that are dependant.
+Currently, a data collector allows to retrieve the data from a WNT backend.
+And the report generator takes those information to generate performance report of the Wirepas positioning system.
+If required, the playback module can be used to recalculate locations on another backend based on the configuration retrieved by the data collector.
+As there are data dependencies, the different scripts will all write/read specific files from an input folder with the following generated structure at the end of the execution:
+
+
+```bash
+├── <folder_name>/
+│   ├── data/  # Generated by the data collector
+│   │   ├── computed_locations.json  # Results of the location computations of the tags by the Wirepas Positioning Engine (aka WPE) either from static data with the data collector module or replayed data with the playback module.
+│   │   ├── metadata.json  # Metadata retrieved from the websocket services (Areas and their colors in the WNT, floor plans and their images from the selected mesh network.)
+│   │   ├── network_configuration.json  # Network configuration (Anchors data and measurements of the tags)
+│   │   └── reference.json  # Data of the reference positions of the tags
+│   ├── floor_plans_images/  # Generated by the report generator
+│   │   ├── <floor plan id>.png  # Image of a floor plan
+│   │   └── ...
+│   ├── report/  # Generated by the report generator
+│   │   ├── css_style_for_html_report.css  # css file to enhance the visibility of the html report.
+│   │   ├── report.csv  # Comparisons of the locations in a csv format.
+│   │   └── report.html  # Html report - Detailed analysis of the performance of the positioning system.
+```
+
+
+### Data collector
+
+The data collector is responsible for gathering tag computed locations, rssi measurements,
+configuration data (anchors position, areas, floors), and reference informations from a backend then store those in a standardized format.
+Moreover, it uses another module (areas websockets manager) to get backend token/session id and metadata from the different backend services.
+Once the data are collected, the data collector is storing those by type of data in a folder that will be re used by the report generator module.
+
+
+#### Execution
+
+This command line lists all the possible parameters to launch the data collector script:
+
+`wirepas_apt_data_collector --help`
+
+
+This list of parameters can also be found below:
+
+| Parameter | Description | Default value | Possible value |
+| ----- | ---------- | ---- | --- |
+| configuration | Configuration file containing the backend credentials. |  | Any string |
+| network_id | Network address of the tags to get data from. |  | Any integer (decimal and hexadecimal formats supported) |
+| reference_network_id | Network address for the reference tags' positions. |  | Any integer (decimal and hexadecimal formats supported) |
+| folder_path | Path of the folder to store the collected data. | "wpeapt_data" | Path of the folder to store the collected data. |
+| node_list | List of nodes to get data from. If omitted, all tags of the selected mesh network will be queried. | None | A list string as follow: 1111,2222,3333 (decimal and hexadecimal formats supported) |
+| time_start | Minimum UTC time of the data to be retrieved. It must have the ISO8601 format: "yyyy-MM-ddTHH:mm:ssZ". Example of input: "2024-07-10T8:00:00Z" | None | A string in ISO8601 format. |
+| time_end | Maximum UTC time of the data to be retrieved. It must have the ISO8601 format: "yyyy-MM-ddTHH:mm:ssZ". Example of input: "2024-07-10T8:00:00Z" | None | A string in ISO8601 format. |
+| reference_area_names_file | Name of a json file to map the reference positions of tags to their respective areas. When getting an area from a WNT backend, those are not linked to any areas. This option allow to fix this issue by providing a mapping between the node id (decimal and hexadecimal formats supported) of the reference positions and their area names. Example of content for this file:<br>{<br>"\<Node id\>": ["Area name"],<br>"1": ["Area name 1"],<br>"2": ["Area name 2"]<br>}<br> | None | Any string |
+| query_anchors_from_rts | If provided, query anchors data from the Realtime Situation Service (aka RTS). Otherwise, it will get the anchor data from the Time series database (aka InfluxDB). | False |  |
+| query_limit | Limit of data to retrieve when querying the computed data. It can be used to protect the database from doing huge queries. | 10000 | Any integer |
+| log_level | Log level to be displayed. | 'info' | "debug", "info", "warning", "error", "critical" |
+| timeout_s | Timeout in seconds for each queries. None to run for infinite time. If no responses are received from the backend during this interval, a timeout error might be raised. | 60 | Any integer |
+
+
+And, here is an example to launch the data collector script from the command line:
+
+```shell
+wirepas_apt_data_collector --configuration <configuration> \
+    --network_id <network_id> \
+    --reference_network_id <reference_network_id> \
+    --time_start "<time_start>" \
+    --time_end "<time_end>" \
+    --folder_path "<folder_path>" \
+    [--query_anchors_from_rts]
+```
+
+Note:
+
+The execution of the script generates logs both in the shell and in the file `./data_collector.log`.
+Feel free to open the file to check again for some issue that might have happen.
+
+
+### Playback
+
+The playback module allows to play again the measurements retrieved by the data collector
+on a new WPE. For example, it can be used to test new positioning engine calculations or a setup with new anchors locations.
+
+Basically, it subscribes to topics on the WPE MQTT and configure WPE with
+anchors/areas for a network thanks to the data retrieved by the
+data collector (i.e. configuration & measurement data file),
+and then playbacks the measurements, and stores computed locations in a new file.
+
+It should connect to a different backend than the one that was used to retrieved the data as,
+the playback module erases the network information in the backend to configure the network
+based on the configuration data file generated by the data collector at a given time.
+
+
+#### Execution
+
+This command line lists all the possible parameters to launch the playback script:
+
+`wirepas_apt_playback --help`
+
+
+This list of parameters can also be found below:
+
+| Parameter | Description | Default value | Possible value |
+| ----- | ---------- | ---- | --- |
+| configuration | Configuration file containing the backend credentials. |  | Any string |
+| folder_path | Path of the folder to store the collected data. | "wpeapt_data" | Path of the folder to store the collected data. |
+| wpe_max_inflight_messages | Max number of simultaneous messages that are sent to the backend. | 50 | Any integer superior or equal to 1. |
+| log_level | Log level to be displayed. | 'info' | "debug", "info", "warning", "error", "critical" |
+| timeout_s | Time interval in seconds allowed for not receiving any response by the backend. | 60 | Any integer or None. |
+
+
+### Report Generator
+
+Generate performance reports to analyse positioning data. It allows to evaluate quickly the positioning setup based on the data that were stored by the data collector.
+This means that this module must be executed after the data collector with the same data folder.
+The reports provide KPI such as computing the positioning error, area and floor match success for each tag analyzed.
+At the end of the execution, the user can open <folder_path>/report/report.html in their web browser to see the report.
+
+
+#### Execution
+
+This command line lists all the possible parameters to launch the report generator script:
+
+`wirepas_apt_report_generator --help`
+
+
+This list of parameters can also be found below:
+
+| Parameter | Description | Default value | Possible value |
+| ----- | ---------- | ---- | --- |
+| folder_path | Path of the folder to get the collected data and store the report. | "wpeapt_data" | Path of the folder to store the collected data. |
+| marker_size | Size of anchor(s) / tag(s) marker in pixel | 10 | Any integer greater or equal to 1 |
+| time_start | Minimum UTC time of the computed locations present in the report. It must have the ISO8601 format: "yyyy-MM-ddTHH:mm:ssZ". Example of input: "2024-07-10T8:00:00Z" | None | A string in ISO8601 format. |
+| time_end | Maximum UTC time of the computed locations present in the report. It must have the ISO8601 format: "yyyy-MM-ddTHH:mm:ssZ". Example of input: "2024-07-10T8:00:00Z" | None | A string in ISO8601 format. |
+| log_level | Log level to be displayed. | 'info' | "debug", "info", "warning", "error", "critical" |
+
+
+And, here is an example to launch the report generator script from the command line:
+
+```shell
+wirepas_apt_report_generator --folder_path "<folder_path>"
+```
+
+Note:
+
+The execution of the script generates logs both in the shell and in the file `./report_generator.log`.
+Feel free to open the file to check again for some issue that might have happen.
