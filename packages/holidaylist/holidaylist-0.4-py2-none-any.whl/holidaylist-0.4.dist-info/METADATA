@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: holidaylist
+Version: 0.4
+Summary: A simple Python client for fetching holiday data.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+
+UNKNOWN
+
+
