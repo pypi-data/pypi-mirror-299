@@ -1,0 +1,10 @@
+histomics_stream/__init__.py,sha256=1IyKV86Rp89vGGFYHrTHWncskocJTB8BbY94qwDqNK0,1009
+histomics_stream/codecs.py,sha256=gNHpZIFNJtHyQ_sZhrfof4Df7bhJPCedzTFpfFpVi-g,4411
+histomics_stream/configure.py,sha256=fCe4czbmLI42TFzd8g9z0o88qYkQyhR46vSsSLTOJbo,48261
+histomics_stream/pytorch.py,sha256=cYE2AMTB_Ovu76-JBAErog9FGb2HjqBkqZuq_sfIjj0,10921
+histomics_stream/tensorflow.py,sha256=RUNSn0K-tWGKClGkvfJLp1QKhanFOANNypQwD6ISrnI,12447
+histomics_stream-2.5.3.dist-info/entry_points.txt,sha256=99PqwB_F2nQsopaLTgI46VZFqJaRlEy4V9cZqeGhPCI,34
+histomics_stream-2.5.3.dist-info/LICENSE.txt,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+histomics_stream-2.5.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+histomics_stream-2.5.3.dist-info/METADATA,sha256=KiBS_XyK8goNdByVlAuWV0sQpRs-e_Dq_59jI9vA8sE,13283
+histomics_stream-2.5.3.dist-info/RECORD,,
