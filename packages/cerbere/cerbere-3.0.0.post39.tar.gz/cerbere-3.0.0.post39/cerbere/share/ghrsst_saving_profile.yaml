@@ -1,0 +1,300 @@
+---
+# Defines the list and default values of the global attributes of a Cerbere new feature
+
+
+attributes:
+  # Description
+  id:
+  naming_authority: org.ghrsst
+  title:
+  summary:
+  cdm_data_type:
+  keywords: Oceans > Ocean Temperature > Sea Surface Temperature
+  acknowledgement: "Please acknowledge the use of these data with the following statement: these data were produced by the Centre de Recherche et d'Exploitation Satellitaire (CERSAT), at IFREMER, Plouzane (France)"
+  processing_level:
+  metadata_link:
+  comment:
+  file_quality_level:
+
+  # Observation
+  platform:
+  platform_type:
+  instrument:
+  instrument_type:
+  band:
+
+  # Conventions
+  Conventions: CF 1.7, ACDD 1.3, ISO 8601
+  Metadata_Conventions: Climate and Forecast (CF) 1.7, Attribute Convention for Data Discovery (ACDD) 1.3
+  standard_name_vocabulary: NetCDF Climate and Forecast (CF) Metadata Convention
+  keywords_vocabulary: NASA Global Change Master Directory (GCMD) Science Keywords
+  format_version: GDSv1.2
+  gds_version_id:
+  platform_vocabulary: CEOS mission table
+  instrument_vocabulary: CEOS instrument table
+
+  # Authorship
+  institution: Institut Francais de Recherche et d'Exploitation de la Mer (Ifremer) Centre de Recherche et d'Exploitation satellitaire (CERSAT)
+  institution_abbreviation: Ifremer/CERSAT
+  project: Group for High Resolution Sea Surface Temperature (GHRSST)
+  program: CMEMS
+  license: GHRSST protocol describes data use as free and open.
+  publisher_name:  CERSAT
+  publisher_url: http://cersat.ifremer.fr
+  publisher_email: cersat@ifremer.fr
+  publisher_institution: Ifremer
+  publisher_type: institution
+  creator_name: CERSAT
+  creator_url: http://cersat.ifremer.fr
+  creator_email: cersat@ifremer.fr
+  creator_type: institution
+  creator_institution: Ifremer
+  contributor_name:
+  contributor_role:
+  references:
+
+  # Traceability
+  processing_software: Telemachus 1.0
+  product_version: 3.0
+  netcdf_version_id:
+  uuid:
+  history:
+  source:
+  source_version:
+  date_created:
+  date_modified:
+  date_issued:
+  date_metadata_modified:
+
+  # BBox
+  geospatial_lat_min:
+  geospatial_lat_max:
+  geospatial_lat_units: degrees
+  geospatial_lon_min:
+  geospatial_lon_max:
+  geospatial_lon_units: degrees
+  geospatial_bounds:
+  geospatial_bounds_crs: WGS84
+
+  # Resolution
+  spatial_resolution:
+  geospatial_lat_resolution:
+  geospatial_lon_resolution:
+
+  # Temporal
+  time_coverage_start:
+  time_coverage_end:
+  time_coverage_resolution:
+
+fields:
+
+  lat:
+    standard_name: latitude
+    units: degrees_north
+    valid_range: [-90, 90]
+    comment: geographical coordinates, WGS84 projection
+    coordinates: lon lat
+  lon:
+    standard_name: longitude
+    units: degrees_east
+    valid_range: [-180., 180]
+    comment: geographical coordinates, WGS84 projection
+
+  time:
+    long_name: reference time of sst file
+    standard_name: time
+
+  sea_surface_temperature:
+    long_name: sea surface foundation temperature
+    standard_name: sea_surface_foundation_temperature
+    units: kelvin
+    valid_range: [-200, 5000]
+
+  sst_dtime:
+    long_name: time difference from reference time
+    valid_range: [-86400, 86400]
+    comment: time plus sst_dtime gives each measurement time
+
+  solar_zenith_angle:
+    long_name: solar zenith angle
+    standard_name: solar_zenith_angle
+    units: angular_degree
+    valid_range: [0, 180]
+    comment: the solar zenith angle at the time of the SST observations
+
+  sses_bias:
+    long_name: SSES bias estimate
+    units: kelvin
+    valid_range: [-127, 127]
+    comment: Bias estimate derived using the techniques described at http://www.ghrsst.org/SSES-Description-of-schemes.html
+
+  sses_standard_deviation:
+    long_name: SSES standard deviation
+    valid_range: [-127, 127]
+    comment: Standard deviation estimate derived using the techniques described at http://www.ghrsst.org/SSES-Description-of-schemes.html
+
+  quality_level:
+    long_name: quality level of SST pixel
+    valid_range: [0, 5]
+    flag_meanings: no_data bad_data worst_quality low_quality acceptable_quality best_quality
+    flag_values: 0, 1, 2, 3, 4, 5
+    comment: These are the overall quality indicators and are used for all GHRSST SSTs
+
+  or_latitude:
+    units: degree_north
+    valid_range: [-9000, 9000]
+    long_name: original latitude of the SST value
+    standard_name: latitude
+
+  or_longitude:
+    units: degree_east
+    valid_range: [-18000, 18000]
+    long_name: original longitude of the SST value
+    standard_name: longitude
+
+  or_number_of_pixels:
+    long_name: original number of pixels from the L2Ps contributing to the SST value
+    valid_range: [0, 32767]
+    units: 1
+
+  satellite_zenith_angle:
+    long_name: satellite zenith angle
+    standard_name: platform_zenith_angle
+    units: angular_degree
+    comment: the satellite zenith angle at the time of the SST observations
+    valid_range: [0, 90]
+
+  adjusted_sea_surface_temperature:
+    long_name: adjusted collated sea surface temperature
+    standard_name: sea_surface_subskin_temperature
+    units: kelvin
+    comment: bias correction using a multi-sensor reference field
+    valid_range: [-300, 5000]
+
+  adjusted_standard_deviation_error:
+    long_name: standard deviation error based on L2P SSES and adjustment method
+    units: kelvin
+    comment: Cumulated errors of SSES and adjustment method
+    valid_range: [-127, 127]
+
+  bias_to_reference_sst:
+    long_name: bias error derived from reference
+    units: kelvin
+    valid_range: [-32767, 32767]
+    comment: Bias estimate derived from comparison between the original SST (native SSES being applied) and the reference sensor SST (original SST - reference SST)
+
+  standard_deviation_to_reference_sst:
+    long_name: standard deviation of the reference error
+    units: kelvin
+    valid_range: [-127, 127]
+    comment: This represents the error standard deviation estimate resulting from the bias estimation method
+
+  source_of_sst:
+    long_name: SST product origin
+    valid_range: [0, 127]
+
+
+encoding:
+
+  lat:
+    dtype: float32
+
+  lon:
+    dtype: float32
+
+  time:
+    dtype: int32
+    units: 'seconds since 1981-01-01 00:00:00'
+
+  sea_surface_temperature:
+    dtype: int16
+    _FillValue: -32768
+    scale_factor: 0.01
+    add_offset: 273.15
+    valid_range: [-2., 50.]
+
+  sst_dtime:
+    _FillValue: -2147483648
+    add_offset: 0
+    scale_factor: 2
+    dtype: int32
+    units: second
+
+  solar_zenith_angle:
+    _FillValue: -128
+    add_offset: 90.
+    scale_factor: 1.
+    dtype: byte
+    valid_min: 0
+    valid_max: 180
+
+  quality_level:
+    _FillValue: -128
+    dtype: byte
+
+  sses_bias:
+    _FillValue: -128
+    dtype: byte
+    add_offset: 0.
+    scale_factor: 0.02
+
+  sses_standard_deviation:
+    _FillValue: -128
+    dtype: byte
+    add_offset: 2.54
+    scale_factor: 0.02
+
+  or_latitude:
+    dtype: int16
+    _FillValue: -32768
+    add_offset: 0.
+    scale_factor: 0.01
+
+  or_longitude:
+    dtype: int16
+    _FillValue: -32768
+    add_offset: 0.
+    scale_factor: 0.01
+
+  source_of_sst:
+    dtype: int16
+    _FillValue: -32768
+
+  or_number_of_pixels:
+    dtype: byte
+    _FillValue: -32768
+    add_offset: 0
+    scale_factor: 1
+
+  satellite_zenith_angle:
+    dtype: short
+    _FillValue: -32768
+    add_offset: 0.
+    scale_factor: 1.
+    valid_min: 0
+    valid_max: 90
+
+  adjusted_sea_surface_temperature:
+    dtype: int16
+    _FillValue: -32768
+    add_offset: 273.15
+    scale_factor: 0.01
+    valid_range: [-300, 4500]
+
+  bias_to_reference_sst:
+    dtype: byte
+    _FillValue: -128
+    add_offset: 0.
+    scale_factor: 1.
+
+  standard_deviation_to_reference_sst:
+    dtype: byte
+    _FillValue: -128
+    add_offset: 0.
+    scale_factor: 1.
+
+  adjusted_standard_deviation_error:
+    dtype: byte
+    _FillValue: -128
+    add_offset: 0.
+    scale_factor: 1.
