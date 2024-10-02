@@ -1,0 +1,27 @@
+[build-system]
+requires = [ "setuptools>=61.0", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vinmap"
+version = "1.0.6"
+description = "Multithreaded Nmap Scanner with XML Merging"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [ "python-nmap", "xmltodict",]
+[[project.authors]]
+name = "Vince Vasile"
+email = "computerscience@vinny-van-gogh.com"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/VinnyVanGogh/ViNmap_custom_nmap_scanner"
+
+[project.scripts]
+vinmap = "vinmap.vinmap:main"
+
+[tool.setuptools.packages.find]
+where = [ ".",]
+exclude = [ "tests*",]
