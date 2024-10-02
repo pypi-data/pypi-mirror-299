@@ -1,0 +1,12 @@
+clanguru/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+clanguru/_run.py,sha256=bbxJiSRscmZAtWOBKYJ6wTEue5Bq5arTkZvgGwchSr8,350
+clanguru/compilation_options_manager.py,sha256=JVn060BfnLTmWXV8TcET1TCn75i30dBFne8-7t_ZXzQ,4439
+clanguru/cparser.py,sha256=bWzbA5eK-7jvifG9hOdP2WiA-Xq2BDlXy55eb5Es7b8,12783
+clanguru/doc_generator.py,sha256=XFmp-6IoOFPfzDZnS-qB2yWDGhzg8rpOEYWw3lt0p9E,5719
+clanguru/main.py,sha256=F3ZVEaNSIvj2JZsih8bbO5rK6nprOz2JvCiDnX6r9ec,2350
+clanguru/my_app.py,sha256=kODAe623HTj5e_R2gRaoJSDBTjBHmJkor7qsiDw9--k,420
+clanguru/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clanguru-0.1.0.dist-info/LICENSE,sha256=sKxdoqSmW9ezvPvt0ZGJbneyA0SBcm0GiqzTv2jN230,1066
+clanguru-0.1.0.dist-info/METADATA,sha256=nYHG5kzWLv03ufva-Cty_EiywxFOE84pS5rhcPfsI3I,5755
+clanguru-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+clanguru-0.1.0.dist-info/RECORD,,
