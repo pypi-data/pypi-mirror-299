@@ -1,0 +1,59 @@
+Prefix	NamespaceIRI	SourceIRI	Title	SourceFormat	ReasonForInclusion
+AS	http://www.w3.org/ns/activitystreams#	https://www.w3.org/ns/activitystreams-owl	Activity Streams	ttl	RDFa Initial Context
+CC	http://creativecommons.org/ns#	https://creativecommons.org/schema.rdf	Creative Commons	rdf	RDFa Initial Context
+CSVW	http://www.w3.org/ns/csvw#	https://www.w3.org/ns/csvw.ttl	CSV on the Web	ttl	RDFa Initial Context
+CTAG	http://commontag.org/ns#		CommonTag (defunct)	--	RDFa Initial Context
+DC	http://purl.org/dc/terms/	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.nt	Dublin Core DCMI Metadata Terms	ttl	RDFa Initial Context
+DC11	http://purl.org/dc/elements/1.1/	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_elements.nt	Dublin Core (the original fifteen-element)	ttl	RDFa Initial Context
+DCAT	http://www.w3.org/ns/dcat#	https://www.w3.org/ns/dcat2.ttl	Data catalog vocabulary	ttl	RDFa Initial Context
+DCTERMS	http://purl.org/dc/terms/	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_terms.nt	Dublin Core DCMI Metadata Terms	ttl	RDFa Initial Context
+DQV	http://www.w3.org/ns/dqv#	https://www.w3.org/ns/dqv.ttl	Data Quality Vocabulary	ttl	RDFa Initial Context
+DUV	http://www.w3.org/ns/duv#		Dataset Usage Vocabulary	ttl	RDFa Initial Context
+FOAF	http://xmlns.com/foaf/0.1/	http://xmlns.com/foaf/spec/index.rdf	Friend of a Friend: linking people and information using the Web	rdf	RDFa Initial Context
+GR	http://purl.org/goodrelations/v1#	http://www.heppnetz.de/ontologies/goodrelations/v1.owl	The GoodRelations Vocabulary for Semantic Web-based E-Commerce	rdf	RDFa Initial Context
+GRDDL	http://www.w3.org/2003/g/data-view#	https://www.w3.org/2003/g/data-view.rdf	Gleaning resource descriptions from dialects of languages (defunct?)	rdf	RDFa Initial Context
+ICAL	http://www.w3.org/2002/12/cal/icaltzd#		iCalendar	rdf	RDFa Initial Context
+JSONLD	http://www.w3.org/ns/json-ld#	https://www.w3.org/ns/json-ld.ttl	The JSON-LD Vocabulary	ttl	RDFa Initial Context
+LDP	http://www.w3.org/ns/ldp#	https://www.w3.org/ns/ldp.ttl	The W3C Linked Data Platform (LDP) Vocabulary	ttl	RDFa Initial Context
+MA	http://www.w3.org/ns/ma-ont#	https://www.w3.org/ns/ma-ont.ttl	Ontology for Media Resources 1.0	ttl	RDFa Initial Context
+OA	http://www.w3.org/ns/oa#	https://www.w3.org/ns/oa.ttl	Web Annotation	ttl	RDFa Initial Context
+ODRL	http://www.w3.org/ns/odrl/2/	https://www.w3.org/ns/odrl/2/ODRL22.ttl	Open Digital Rights Language 2.0	ttl	RDFa Initial Context
+OG	http://ogp.me/ns#	https://ogp.me/ns/ogp.me.ttl	The Open Graph protocol	ttl	RDFa Initial Context
+ORG	http://www.w3.org/ns/org#		Core organization ontology	ttl	RDFa Initial Context
+OWL	http://www.w3.org/2002/07/owl#		The OWL 2 Schema vocabulary (OWL 2)	ttl	RDFa Initial Context
+PROV	http://www.w3.org/ns/prov#	https://www.w3.org/ns/prov.ttl	Provenance (PROV)	ttl	RDFa Initial Context
+QB	http://purl.org/linked-data/cube#		The data cube vocabulary	ttl	RDFa Initial Context
+RDF	http://www.w3.org/1999/02/22-rdf-syntax-ns#		The RDF Concepts Vocabulary (RDF)	ttl	RDFa Initial Context
+RDFA	http://www.w3.org/ns/rdfa#	https://www.w3.org/ns/rdfa.ttl	RDFa Vocabulary for Term and Prefix Assignment	ttl	RDFa Initial Context
+RDFS	http://www.w3.org/2000/01/rdf-schema#		The RDF Schema vocabulary (RDFS)	ttl	RDFa Initial Context
+REV	http://purl.org/stuff/rev#	https://www.w3.org/archive/purl.org/stuff/rev.rdf	RDF Review Vocabulary	rdf	RDFa Initial Context
+RIF	http://www.w3.org/2007/rif#		Rule Interchange Format	--	RDFa Initial Context
+RR	http://www.w3.org/ns/r2rml#	https://www.w3.org/ns/r2rml.ttl	R2RML: RDB to RDF Mapping Language Schema	ttl	RDFa Initial Context
+SCHEMA	https://schema.org/	https://schema.org/version/latest/schemaorg-all-https.nt	Schema.org 	ttl	RDFa Initial Context
+SD	http://www.w3.org/ns/sparql-service-description#	https://www.w3.org/ns/sparql-service-description.ttl	SPARQL 1.1 Service Description	ttl	RDFa Initial Context
+SIOC	http://rdfs.org/sioc/ns#		Semantically-Interlinked Online Communities	rdf	RDFa Initial Context
+SKOS	http://www.w3.org/2004/02/skos/core#	http://www.w3.org/TR/skos-reference/skos.rdf	SKOS Simple Knowledge Organization System	rdf	RDFa Initial Context
+SKOSXL	http://www.w3.org/2008/05/skos-xl#	http://www.w3.org/TR/skos-reference/skos-xl.rdf	SKOS Simple Knowledge Organization System eXtension for Labels (SKOS-XL) 	rdf	RDFa Initial Context
+SOSA	http://www.w3.org/ns/sosa/		Sensor, Observation, Sample, and Actuator (SOSA) Ontology	ttl	RDFa Initial Context
+SSN	http://www.w3.org/ns/ssn/		Semantic Sensor Network Ontology	ttl	RDFa Initial Context
+TIME	http://www.w3.org/2006/time#		OWL-Time	ttl	RDFa Initial Context
+V	http://rdf.data-vocabulary.org/#		DataVocabulary (defunct)	--	RDFa Initial Context
+VCARD	http://www.w3.org/2006/vcard/ns#		Ontology for vCard based on RFC6350	ttl	RDFa Initial Context
+VOID	http://rdfs.org/ns/void#	http://vocab.deri.ie/void.ttl	Vocabulary of Interlinked Datasets	ttl	RDFa Initial Context
+WDR	http://www.w3.org/2007/05/powder#		Protocol for Web Description Resources (POWDER)	--	RDFa Initial Context
+WDRS	http://www.w3.org/2007/05/powder-s#	https://www.w3.org/2007/05/powder-s.rdf	Protocol for Web Description Resources (POWDER)	rdf	RDFa Initial Context
+XHV	http://www.w3.org/1999/xhtml/vocab#		XHTML Vocabulary	--	RDFa Initial Context
+XML	http://www.w3.org/XML/1998/namespace		XML namespace	--	RDFa Initial Context
+XSD	http://www.w3.org/2001/XMLSchema#		XML Schema Datatypes	--	RDFa Initial Context
+DESCRIBEDBY	http://www.w3.org/2007/05/powder-s#describedby			--	RDFa Initial Context
+LICENSE	http://www.w3.org/1999/xhtml/vocab#license			--	RDFa Initial Context
+ROLE	http://www.w3.org/1999/xhtml/vocab#role			--	RDFa Initial Context
+DCMITYPE	http://purl.org/dc/dcmitype/	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_type.nt	Dublin Core DCMI Type Vocabulary	ttl	RDFLib
+SH	http://www.w3.org/ns/shacl#	https://www.w3.org/ns/shacl.ttl	Shapes Constraint Language (SHACL)	ttl	RDFLib
+BRICK	https://brickschema.org/schema/Brick# 	https://github.com/BrickSchema/Brick/releases/download/nightly/Brick.ttl	Brick: A Uniform Metadata Schema for Buildings	ttl	RDFLib
+DCAM	http://purl.org/dc/dcam/	https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_abstract_model.nt	Dublin Core Abstract Model for vocabulary description	ttl	RDFLib
+DOAP	http://usefulinc.com/ns/doap#		Description of a Project (DOAP) vocabulary	rdf	RDFLib
+GEO	http://www.opengis.net/ont/geosparql#		GeoSPARQL Ontology	ttl	RDFLib
+PROF	http://www.w3.org/ns/dx/prof/	https://www.w3.org/TR/dx-prof/rdf/prof.ttl	Profiles Vocabulary	ttl	RDFLib
+VANN	http://purl.org/vocab/vann/	https://vocab.org/vann/vann-vocab-20100607.rdf	VANN: A vocabulary for annotating vocabulary descriptions	rdf	RDFLib
+WGS	http://www.w3.org/2003/01/geo/wgs84_pos#		Basic Geo (WGS84 lat/long) Vocabulary	--	RDFLib
