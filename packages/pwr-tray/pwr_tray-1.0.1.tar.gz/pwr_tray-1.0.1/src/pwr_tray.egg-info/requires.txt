@@ -1,0 +1,5 @@
+psutil>=5.9
+PyQt5>=5.15
+
+[:python_version < "3.8"]
+importlib-metadata
