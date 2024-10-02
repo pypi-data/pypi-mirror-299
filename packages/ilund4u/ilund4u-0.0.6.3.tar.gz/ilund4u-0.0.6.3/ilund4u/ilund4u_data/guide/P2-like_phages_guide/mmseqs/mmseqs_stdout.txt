@@ -1,0 +1,473 @@
+createdb P2-like_phages_guide/all_proteins.fa P2-like_phages_guide/mmseqs/DB/sequencesDB 
+
+MMseqs Version:       	f6c98807d589091c625db68da258d587795acbab
+Database type         	0
+Shuffle input database	true
+Createdb mode         	0
+Write lookup file     	1
+Offset of numeric ids 	0
+Compressed            	0
+Verbosity             	3
+
+Converting sequences
+[
+Time for merging to sequencesDB_h: 0h 0m 0s 5ms
+Time for merging to sequencesDB: 0h 0m 0s 4ms
+Database type: Aminoacid
+Time for processing: 0h 0m 0s 32ms
+Create directory P2-like_phages_guide/mmseqs/DB/tmp
+cluster P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/clusterDB P2-like_phages_guide/mmseqs/DB/tmp --cluster-mode 0 --cov-mode 0 --min-seq-id 0.25 -c 0.8 -s 7 
+
+MMseqs Version:                     	f6c98807d589091c625db68da258d587795acbab
+Substitution matrix                 	aa:blosum62.out,nucl:nucleotide.out
+Seed substitution matrix            	aa:VTML80.out,nucl:nucleotide.out
+Sensitivity                         	7
+k-mer length                        	0
+Target search mode                  	0
+k-score                             	seq:2147483647,prof:2147483647
+Alphabet size                       	aa:21,nucl:5
+Max sequence length                 	65535
+Max results per query               	20
+Split database                      	0
+Split mode                          	2
+Split memory limit                  	0
+Coverage threshold                  	0.8
+Coverage mode                       	0
+Compositional bias                  	1
+Compositional bias                  	1
+Diagonal scoring                    	true
+Exact k-mer matching                	0
+Mask residues                       	1
+Mask residues probability           	0.9
+Mask lower case residues            	0
+Minimum diagonal score              	15
+Selected taxa                       	
+Include identical seq. id.          	false
+Spaced k-mers                       	1
+Preload mode                        	0
+Pseudo count a                      	substitution:1.100,context:1.400
+Pseudo count b                      	substitution:4.100,context:5.800
+Spaced k-mer pattern                	
+Local temporary path                	
+Threads                             	8
+Compressed                          	0
+Verbosity                           	3
+Add backtrace                       	false
+Alignment mode                      	3
+Alignment mode                      	0
+Allow wrapped scoring               	false
+E-value threshold                   	0.001
+Seq. id. threshold                  	0.25
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Max reject                          	2147483647
+Max accept                          	2147483647
+Score bias                          	0
+Realign hits                        	false
+Realign score bias                  	-0.2
+Realign max seqs                    	2147483647
+Correlation score weight            	0
+Gap open cost                       	aa:11,nucl:5
+Gap extension cost                  	aa:1,nucl:2
+Zdrop                               	40
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Single step clustering              	false
+Cascaded clustering steps           	3
+Cluster reassign                    	false
+Remove temporary files              	false
+Force restart with latest tmp       	false
+MPI runner                          	
+k-mers per sequence                 	21
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Shift hash                          	67
+Include only extendable             	false
+Skip repeating k-mers               	false
+
+Set cluster iterations to 3
+linclust P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --alph-size aa:13,nucl:5 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 -k 0 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --rescore-mode 0 --filter-hits 0 --sort-results 0 --remove-tmp-files 0 --force-reuse 0 
+
+kmermatcher P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.25 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --alph-size aa:13,nucl:5 --min-seq-id 0.25 --kmer-per-seq 21 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.9 --mask-lower-case 0 --cov-mode 0 -k 0 -c 0.8 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 2847 type: Aminoacid
+Reduced amino acid alphabet: (A S T) (C) (D B N) (E Q Z) (F Y) (G) (H) (I V) (K R) (L J M) (P) (W) (X) 
+
+Generate k-mers list for 1 split
+[=================================================================] 2.85K 0s 7ms
+Sort kmer 0h 0m 0s 2ms
+Sort by rep. sequence 0h 0m 0s 1ms
+Time for fill: 0h 0m 0s 0ms
+Time for merging to pref: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 18ms
+rescorediagonal P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_rescore1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 0 --wrapped-scoring 0 --filter-hits 0 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.5 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 8 --compressed 0 -v 3 
+
+[=================================================================] 2.85K 0s 1ms
+Time for merging to pref_rescore1: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 9ms
+clust P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_rescore1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pre_clust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 2.85K 0s 0ms
+Sort entries
+Find missing connections
+Found 6114 new connections.
+Reconstruct initial order
+[=================================================================] 2.85K 0s 0ms
+Add missing connections
+[=================================================================] 2.85K 0s 0ms
+
+Time for read in: 0h 0m 0s 2ms
+Total time: 0h 0m 0s 3ms
+
+Size of the sequence database: 2847
+Size of the alignment database: 2847
+Number of clusters: 210
+
+Writing results 0h 0m 0s 0ms
+Time for merging to pre_clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+createsubdb P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/order_redundancy P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+createsubdb P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/order_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_filter1 -v 3 --subdb-mode 1 
+
+Time for merging to pref_filter1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+filterdb P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_filter1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_filter2 --filter-file P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/order_redundancy --threads 8 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=================================================================] 210 0s 0ms
+Time for merging to pref_filter2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 4ms
+rescorediagonal P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_filter2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_rescore2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --rescore-mode 1 --wrapped-scoring 0 --filter-hits 1 -e 0.001 -c 0.8 -a 0 --cov-mode 0 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --add-self-matches 0 --sort-results 0 --db-load-mode 0 --threads 8 --compressed 0 -v 3 
+
+Can not find any score per column for coverage 0.800000 and sequence identity 0.250000. No hit will be filtered.
+[=================================================================] 210 0s 0ms
+Time for merging to pref_rescore2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 6ms
+align P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pref_rescore2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/aln --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 8 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 210 type: Aminoacid
+Target database size: 210 type: Aminoacid
+Calculation of alignments
+[=================================================================] 210 0s 15ms
+Time for merging to aln: 0h 0m 0s 0ms
+236 alignments calculated
+231 sequence pairs passed the thresholds (0.978814 of overall calculated)
+1.100000 hits per query sequence
+Time for processing: 0h 0m 0s 20ms
+clust P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/aln P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/clust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 210 0s 0ms
+Sort entries
+Find missing connections
+Found 21 new connections.
+Reconstruct initial order
+[=================================================================] 210 0s 0ms
+Add missing connections
+[=================================================================] 210 0s 0ms
+
+Time for read in: 0h 0m 0s 1ms
+Total time: 0h 0m 0s 2ms
+
+Size of the sequence database: 210
+Size of the alignment database: 210
+Number of clusters: 197
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clust: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 3ms
+mergeclusters P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/pre_clust P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/linclust/14192025644734249497/clust --threads 8 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 210 0s 0ms
+Clustering step 2
+[=================================================================] 197 0s 0ms
+Write merged clustering
+[=================================================================] 2.85K 0s 2ms
+Time for merging to clu_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 4ms
+createsubdb P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_redundancy P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy -v 3 --subdb-mode 1 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+prefilter P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/pref_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 0 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 8 --compressed 0 -v 3 
+
+Query database size: 197 type: Aminoacid
+Estimated memory consumption: 978M
+Target database size: 197 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 197 0s 33ms
+Index table: Masked residues: 511
+Index table: fill
+[=================================================================] 197 0s 2ms
+Index statistics
+Entries:          23002
+DB size:          488 MB
+Avg k-mer size:   0.000359
+Top 10 k-mers
+    GGWRGL	9
+    GSRQRM	9
+    KPLEGR	9
+    MFCLHA	6
+    TQYDIA	6
+    PEVAHC	6
+    VLMHLC	6
+    RYQQNC	6
+    DTKRQC	6
+    AESRTC	6
+Time for index table init: 0h 0m 0s 355ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 197
+Target db start 1 to 197
+[=================================================================] 197 0s 14ms
+
+1.785444 k-mers per position
+159 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 764ms
+align P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/pref_step0 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/aln_step0 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 8 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 197 type: Aminoacid
+Target database size: 197 type: Aminoacid
+Calculation of alignments
+[=================================================================] 197 0s 9ms
+Time for merging to aln_step0: 0h 0m 0s 0ms
+280 alignments calculated
+274 sequence pairs passed the thresholds (0.978571 of overall calculated)
+1.390863 hits per query sequence
+Time for processing: 0h 0m 0s 13ms
+clust P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/aln_step0 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step0 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 197 0s 0ms
+Sort entries
+Find missing connections
+Found 1 new connections.
+Reconstruct initial order
+[=================================================================] 197 0s 0ms
+Add missing connections
+[=================================================================] 197 0s 0ms
+
+Time for read in: 0h 0m 0s 1ms
+Total time: 0h 0m 0s 1ms
+
+Size of the sequence database: 197
+Size of the alignment database: 197
+Number of clusters: 173
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step0: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+createsubdb P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step0 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 -v 3 --subdb-mode 1 
+
+Time for merging to input_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+prefilter P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/pref_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 4 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 8 --compressed 0 -v 3 
+
+Query database size: 173 type: Aminoacid
+Estimated memory consumption: 978M
+Target database size: 173 type: Aminoacid
+Index table k-mer threshold: 127 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 173 0s 7ms
+Index table: Masked residues: 413
+Index table: fill
+[=================================================================] 173 0s 12ms
+Index statistics
+Entries:          40830
+DB size:          488 MB
+Avg k-mer size:   0.000638
+Top 10 k-mers
+    LYDGIA	5
+    DDGLVA	5
+    GGWRGL	5
+    GSRQRM	5
+    KPLEGR	5
+    LTKFLS	5
+    HESRDA	3
+    ANKTDA	3
+    AYGLEA	3
+    IGCAGA	3
+Time for index table init: 0h 0m 0s 264ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 127
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 173
+Target db start 1 to 173
+[=================================================================] 173 0s 31ms
+
+59.036652 k-mers per position
+290 DB matches per sequence
+0 overflows
+1 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step1: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 636ms
+align P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/pref_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/aln_step1 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 8 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 173 type: Aminoacid
+Target database size: 173 type: Aminoacid
+Calculation of alignments
+[=================================================================] 173 0s 2ms
+Time for merging to aln_step1: 0h 0m 0s 0ms
+185 alignments calculated
+177 sequence pairs passed the thresholds (0.956757 of overall calculated)
+1.023121 hits per query sequence
+Time for processing: 0h 0m 0s 6ms
+clust P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/aln_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step1 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 173 0s 0ms
+Sort entries
+Find missing connections
+Found 2 new connections.
+Reconstruct initial order
+[=================================================================] 173 0s 0ms
+Add missing connections
+[=================================================================] 173 0s 0ms
+
+Time for read in: 0h 0m 0s 1ms
+Total time: 0h 0m 0s 1ms
+
+Size of the sequence database: 173
+Size of the alignment database: 173
+Number of clusters: 170
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step1: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 2ms
+createsubdb P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step2 -v 3 --subdb-mode 1 
+
+Time for merging to input_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 1ms
+prefilter P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/pref_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' --seed-sub-mat 'aa:VTML80.out,nucl:nucleotide.out' -s 7 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 20 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.8 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 1 --diag-score 1 --exact-kmer-matching 0 --mask 1 --mask-prob 0.9 --mask-lower-case 0 --min-ungapped-score 15 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 8 --compressed 0 -v 3 
+
+Query database size: 170 type: Aminoacid
+Estimated memory consumption: 978M
+Target database size: 170 type: Aminoacid
+Index table k-mer threshold: 100 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 170 0s 14ms
+Index table: Masked residues: 399
+Index table: fill
+[=================================================================] 170 0s 4ms
+Index statistics
+Entries:          40346
+DB size:          488 MB
+Avg k-mer size:   0.000630
+Top 10 k-mers
+    LYDGIA	5
+    DDGLVA	5
+    GGWRGL	5
+    GSRQRM	5
+    KPLEGR	5
+    LTKFLS	5
+    HESRDA	3
+    ANKTDA	3
+    AYGLEA	3
+    IGCAGA	3
+Time for index table init: 0h 0m 0s 236ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 100
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 170
+Target db start 1 to 170
+[=================================================================] 170 0s 177ms
+
+1059.416199 k-mers per position
+477 DB matches per sequence
+0 overflows
+3 sequences passed prefiltering per query sequence
+3 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step2: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 810ms
+align P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/pref_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/aln_step2 --sub-mat 'aa:blosum62.out,nucl:nucleotide.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0.25 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.8 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:11,nucl:5 --gap-extend aa:1,nucl:2 --zdrop 40 --threads 8 --compressed 0 -v 3 
+
+Compute score, coverage and sequence identity
+Query database size: 170 type: Aminoacid
+Target database size: 170 type: Aminoacid
+Calculation of alignments
+[=================================================================] 170 0s 3ms
+Time for merging to aln_step2: 0h 0m 0s 2ms
+286 alignments calculated
+177 sequence pairs passed the thresholds (0.618881 of overall calculated)
+1.041176 hits per query sequence
+Time for processing: 0h 0m 0s 12ms
+clust P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/input_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/aln_step2 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step2 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 8 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 170 0s 0ms
+Sort entries
+Find missing connections
+Found 1 new connections.
+Reconstruct initial order
+[=================================================================] 170 0s 0ms
+Add missing connections
+[=================================================================] 170 0s 0ms
+
+Time for read in: 0h 0m 0s 1ms
+Total time: 0h 0m 0s 4ms
+
+Size of the sequence database: 170
+Size of the alignment database: 170
+Number of clusters: 166
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step2: 0h 0m 0s 0ms
+Time for processing: 0h 0m 0s 5ms
+mergeclusters P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/clusterDB P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_redundancy P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step0 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step1 P2-like_phages_guide/mmseqs/DB/tmp/15217453823764730991/clu_step2 --threads 8 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 197 0s 0ms
+Clustering step 2
+[=================================================================] 173 0s 1ms
+Clustering step 3
+[=================================================================] 170 0s 2ms
+Clustering step 4
+[=================================================================] 166 0s 3ms
+Write merged clustering
+[=================================================================] 2.85K 0s 5ms
+Time for merging to clusterDB: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 8ms
+createtsv P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/sequencesDB P2-like_phages_guide/mmseqs/DB/clusterDB P2-like_phages_guide/mmseqs/mmseqs_clustering.tsv 
+
+MMseqs Version:                 	f6c98807d589091c625db68da258d587795acbab
+First sequence as representative	false
+Target column                   	1
+Add full header                 	false
+Sequence source                 	0
+Database output                 	false
+Threads                         	8
+Compressed                      	0
+Verbosity                       	3
+
+Time for merging to mmseqs_clustering.tsv: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 8ms

@@ -1,0 +1,72 @@
+hotspot	sequence	island_index	group	coordinates	cds_id	cds_type	name	category
+0-1	MGV-GENOME-0205381	0	MGV-GENOME-0205381_CDS_0024	19220:21382:-1	MGV-GENOME-0205381_CDS_0024	variable	RloC__RloC	Defence
+0-1	TemPhD_cluster_15215	0	TemPhD_cluster_15215_CDS_0021	18296:18874:1	TemPhD_cluster_15215_CDS_0021	variable	tail fiber assembly	
+0-1	TemPhD_cluster_15215	1	TemPhD_cluster_62958_CDS_0025	19079:19834:-1	TemPhD_cluster_15215_CDS_0022	variable	hypothetical protein	
+0-1	TemPhD_cluster_38311	0	TemPhD_cluster_38311_CDS_0020	15677:17683:1	TemPhD_cluster_38311_CDS_0020	variable	tail fiber protein	
+0-1	TemPhD_cluster_38311	1	TemPhD_cluster_15215_CDS_0021	17683:18261:1	TemPhD_cluster_38311_CDS_0021	variable	tail fiber assembly	
+0-1	MGV-GENOME-0227212	0	MGV-GENOME-0227212_CDS_0023	20523:21560:1	MGV-GENOME-0227212_CDS_0023	variable	hypothetical protein	
+0-1	TemPhD_cluster_28453	0	NC_049457.1_CDS_0029	18522:19604:-1	TemPhD_cluster_28453_CDS_0024	variable	hypothetical protein	
+0-1	NC_055846.1	0	NC_055844.1_CDS_0024	19327:20448:1	NC_055846.1_CDS_0024	variable	hypothetical protein	
+0-1	NC_004745.1	0	NC_004745.1_CDS_0024	19175:19954:-1	NC_004745.1_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_52275	0	TemPhD_cluster_52275_CDS_0024	19914:20441:1	TemPhD_cluster_52275_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_33809	0	TemPhD_cluster_15215_CDS_0021	18454:19032:1	TemPhD_cluster_33809_CDS_0024	variable	tail fiber assembly	
+0-1	TemPhD_cluster_33809	1	NC_055844.1_CDS_0024	19251:20372:1	TemPhD_cluster_33809_CDS_0025	variable	hypothetical protein	
+0-1	MGV-GENOME-0216186	0	TemPhD_cluster_37844_CDS_0025	20495:21838:1	MGV-GENOME-0216186_CDS_0028	variable	hypothetical protein	
+0-1	TemPhD_cluster_52382	0	TemPhD_cluster_33805_CDS_0024	19427:19972:1	TemPhD_cluster_52382_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_33805	0	TemPhD_cluster_33805_CDS_0024	19806:20351:1	TemPhD_cluster_33805_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_63038	0	TemPhD_cluster_63038_CDS_0024	19654:20955:1	TemPhD_cluster_63038_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_9963	0	TemPhD_cluster_9963_CDS_0025	19251:20477:1	TemPhD_cluster_9963_CDS_0025	variable	PD-T4-8__PD-T4-8	Defence
+0-1	TemPhD_cluster_63155	0	TemPhD_cluster_15215_CDS_0021	18295:18873:1	TemPhD_cluster_63155_CDS_0022	variable	tail fiber assembly	
+0-1	TemPhD_cluster_63155	1	TemPhD_cluster_23866_CDS_0023	19202:20281:1	TemPhD_cluster_63155_CDS_0023	variable	hypothetical protein	
+0-1	TemPhD_cluster_52222	0	TemPhD_cluster_52222_CDS_0024	19374:20648:1	TemPhD_cluster_52222_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_33725	0	TemPhD_cluster_62953_CDS_0027	20375:21274:1	TemPhD_cluster_33725_CDS_0025	variable	hypothetical protein	
+0-1	TemPhD_cluster_20023	0	NC_022750.1_CDS_0025	19677:20783:-1	TemPhD_cluster_20023_CDS_0025	variable	Protein of unknown function (Retron_VII_2__DUF3800)	Defence
+0-1	TemPhD_cluster_63057	0	TemPhD_cluster_63057_CDS_0025	20548:21531:-1	TemPhD_cluster_63057_CDS_0025	variable	FS_GIY_YIG__GIY_YIG	Defence
+0-1	TemPhD_cluster_51960	0	TemPhD_cluster_15215_CDS_0021	19305:19883:1	TemPhD_cluster_51960_CDS_0023	variable	tail fiber assembly	
+0-1	TemPhD_cluster_51960	1	TemPhD_cluster_51960_CDS_0024	20288:20887:1	TemPhD_cluster_51960_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_51960	2	TemPhD_cluster_51960_CDS_0025	20884:21933:1	TemPhD_cluster_51960_CDS_0025	variable	Dnd__DndB	Defence
+0-1	TemPhD_cluster_23866	0	TemPhD_cluster_15215_CDS_0021	18295:18873:1	TemPhD_cluster_23866_CDS_0022	variable	tail fiber assembly	
+0-1	TemPhD_cluster_23866	1	TemPhD_cluster_23866_CDS_0023	19202:20281:1	TemPhD_cluster_23866_CDS_0023	variable	hypothetical protein	
+0-1	TemPhD_cluster_33807	0	TemPhD_cluster_52018_CDS_0025	18720:18998:-1	TemPhD_cluster_33807_CDS_0024	variable	hypothetical protein	
+0-1	TemPhD_cluster_33807	1	TemPhD_cluster_33807_CDS_0025	19051:19230:-1	TemPhD_cluster_33807_CDS_0025	variable	hypothetical protein	
+0-1	TemPhD_cluster_33807	2	TemPhD_cluster_33807_CDS_0026	19722:20414:1	TemPhD_cluster_33807_CDS_0026	variable	hypothetical protein	
+0-1	MGV-GENOME-0232811	0	MGV-GENOME-0232811_CDS_0024	20223:21608:1	MGV-GENOME-0232811_CDS_0024	variable	hypothetical protein	
+0-1	MGV-GENOME-0232811	1	MGV-GENOME-0232811_CDS_0025	21888:22934:1	MGV-GENOME-0232811_CDS_0025	variable	Protein of unknown function (Retron_VII_2__DUF3800)	Defence
+0-1	TemPhD_cluster_28372	0	TemPhD_cluster_28372_CDS_0022	16898:17875:1	TemPhD_cluster_28372_CDS_0022	variable	tail protein	
+0-1	TemPhD_cluster_28372	1	TemPhD_cluster_28372_CDS_0023	18406:18900:1	TemPhD_cluster_28372_CDS_0023	variable	hypothetical protein	
+0-1	TemPhD_cluster_28372	2	TemPhD_cluster_28372_CDS_0024	19097:19504:-1	TemPhD_cluster_28372_CDS_0024	variable	tail fiber assembly protein	
+0-1	TemPhD_cluster_28372	3	TemPhD_cluster_28372_CDS_0025	19511:20173:-1	TemPhD_cluster_28372_CDS_0025	variable	tail fiber protein	
+0-1	TemPhD_cluster_28372	4	TemPhD_cluster_52091_CDS_0027	20372:20965:1	TemPhD_cluster_28372_CDS_0026	variable	DNA invertase	
+0-1	TemPhD_cluster_38170	0	TemPhD_cluster_52379_CDS_0025	17687:18982:1	TemPhD_cluster_38170_CDS_0023	variable	tail protein	
+0-1	TemPhD_cluster_38170	1	TemPhD_cluster_28372_CDS_0024	18985:19395:1	TemPhD_cluster_38170_CDS_0024	variable	tail fiber assembly protein	
+0-1	TemPhD_cluster_38170	2	TemPhD_cluster_38170_CDS_0025	19423:19746:-1	TemPhD_cluster_38170_CDS_0025	variable	virion structural protein	
+0-1	TemPhD_cluster_38170	3	TemPhD_cluster_38170_CDS_0026	19777:19959:1	TemPhD_cluster_38170_CDS_0026	variable	DNA invertase	
+0-1	TemPhD_cluster_52209	0	TemPhD_cluster_52209_CDS_0025	19888:20697:-1	TemPhD_cluster_52209_CDS_0025	variable	hypothetical protein	
+0-1	TemPhD_cluster_37844	0	TemPhD_cluster_37844_CDS_0025	21472:22815:1	TemPhD_cluster_37844_CDS_0025	variable	hypothetical protein	
+0-1	TemPhD_cluster_51953	0	TemPhD_cluster_51953_CDS_0027	20369:21787:-1	TemPhD_cluster_51953_CDS_0027	variable	hypothetical protein	
+0-1	TemPhD_cluster_52262	0	TemPhD_cluster_52379_CDS_0025	17375:18559:1	TemPhD_cluster_52262_CDS_0023	variable	tail protein	
+0-1	TemPhD_cluster_52262	1	TemPhD_cluster_28372_CDS_0024	18562:19002:1	TemPhD_cluster_52262_CDS_0024	variable	tail fiber assembly protein	
+0-1	TemPhD_cluster_52262	2	TemPhD_cluster_15215_CDS_0021	18974:19576:-1	TemPhD_cluster_52262_CDS_0025	variable	tail fiber assembly	
+0-1	TemPhD_cluster_52262	3	TemPhD_cluster_52262_CDS_0026	19576:20124:-1	TemPhD_cluster_52262_CDS_0026	variable	tail collar fiber protein	
+0-1	TemPhD_cluster_52262	4	TemPhD_cluster_52091_CDS_0027	20155:20748:1	TemPhD_cluster_52262_CDS_0027	variable	DNA invertase	
+0-1	TemPhD_cluster_62821	0	TemPhD_cluster_62821_CDS_0026	21729:22571:1	TemPhD_cluster_62821_CDS_0026	variable	hypothetical protein	
+0-1	TemPhD_cluster_62821	1	TemPhD_cluster_62821_CDS_0027	22678:22785:1	TemPhD_cluster_62821_CDS_0027	variable	hypothetical protein	
+0-1	TemPhD_cluster_38190	0	TemPhD_cluster_52379_CDS_0025	16256:17755:1	TemPhD_cluster_38190_CDS_0023	variable	tail protein	
+0-1	TemPhD_cluster_38190	1	TemPhD_cluster_15215_CDS_0021	17755:18357:1	TemPhD_cluster_38190_CDS_0024	variable	tail fiber assembly	
+0-1	TemPhD_cluster_38190	2	TemPhD_cluster_28372_CDS_0024	18329:18772:-1	TemPhD_cluster_38190_CDS_0025	variable	tail fiber assembly protein	
+0-1	TemPhD_cluster_38190	3	TemPhD_cluster_38190_CDS_0026	18793:19029:-1	TemPhD_cluster_38190_CDS_0026	variable	hypothetical protein	
+0-1	TemPhD_cluster_38190	4	TemPhD_cluster_52091_CDS_0027	19234:19827:1	TemPhD_cluster_38190_CDS_0027	variable	DNA invertase	
+0-1	TemPhD_cluster_52091	0	TemPhD_cluster_28372_CDS_0022	18119:19318:1	TemPhD_cluster_52091_CDS_0023	variable	tail protein	
+0-1	TemPhD_cluster_52091	1	TemPhD_cluster_28372_CDS_0024	19339:19782:1	TemPhD_cluster_52091_CDS_0024	variable	tail fiber assembly protein	
+0-1	TemPhD_cluster_52091	2	TemPhD_cluster_15215_CDS_0021	19754:20356:-1	TemPhD_cluster_52091_CDS_0025	variable	hypothetical protein	
+0-1	TemPhD_cluster_52091	3	TemPhD_cluster_52262_CDS_0026	20356:20886:-1	TemPhD_cluster_52091_CDS_0026	variable	tail collar fiber protein	
+0-1	TemPhD_cluster_52091	4	TemPhD_cluster_52091_CDS_0027	20917:21510:1	TemPhD_cluster_52091_CDS_0027	variable	DNA invertase	
+0-1	TemPhD_cluster_52379	0	TemPhD_cluster_52379_CDS_0025	17146:18483:1	TemPhD_cluster_52379_CDS_0025	variable	tail protein	
+0-1	TemPhD_cluster_52379	1	TemPhD_cluster_15215_CDS_0021	18483:19088:1	TemPhD_cluster_52379_CDS_0026	variable	tail fiber assembly	
+0-1	TemPhD_cluster_52379	2	TemPhD_cluster_52379_CDS_0027	19057:19254:-1	TemPhD_cluster_52379_CDS_0027	variable	hypothetical protein	
+0-1	TemPhD_cluster_52379	3	TemPhD_cluster_52091_CDS_0027	19652:20245:1	TemPhD_cluster_52379_CDS_0028	variable	DNA invertase	
+0-1	TemPhD_cluster_28392	0	TemPhD_cluster_52379_CDS_0025	17130:18629:1	TemPhD_cluster_28392_CDS_0026	variable	tail protein	
+0-1	TemPhD_cluster_28392	1	TemPhD_cluster_15215_CDS_0021	18629:19231:1	TemPhD_cluster_28392_CDS_0027	variable	tail fiber assembly	
+0-1	TemPhD_cluster_28392	2	TemPhD_cluster_28372_CDS_0024	19203:19646:-1	TemPhD_cluster_28392_CDS_0028	variable	tail fiber assembly protein	
+0-1	TemPhD_cluster_28392	3	TemPhD_cluster_38190_CDS_0026	19667:19903:-1	TemPhD_cluster_28392_CDS_0029	variable	hypothetical protein	
+0-1	TemPhD_cluster_28392	4	TemPhD_cluster_52091_CDS_0027	20108:20701:1	TemPhD_cluster_28392_CDS_0030	variable	DNA invertase	
