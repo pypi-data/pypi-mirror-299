@@ -1,0 +1,7 @@
+[project]
+name = "generalagents"
+authors = [
+    {name = "General Agents", email = "dev@generalagents.com"},
+]
+version = "0.0.1"
+description = "Coming soon"
