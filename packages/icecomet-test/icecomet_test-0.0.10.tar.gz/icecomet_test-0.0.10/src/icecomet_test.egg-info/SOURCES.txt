@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/icecomet_test.egg-info/PKG-INFO
+src/icecomet_test.egg-info/SOURCES.txt
+src/icecomet_test.egg-info/dependency_links.txt
+src/icecomet_test.egg-info/top_level.txt
+src/iclone/__init__.py
+src/icolor/__init__.py
+src/iprint/__init__.py
