@@ -1,0 +1,13 @@
+biotools_client/__init__.py,sha256=3l4zvNP0e99ra6805p81c5FgfM14Kd9Mgi0tzwTAbXo,160
+biotools_client/__main__.py,sha256=Yt-tWpXxz0s0IPE6Z6Xe0VqQ5yu0N6X9WGg_qqcDCZs,307
+biotools_client/api.py,sha256=f8dD1IexZzELGF8ZZJTzpW5jCufwguqqYmctHIYUYsg,2789
+biotools_client/cli.py,sha256=Db2wOmUP5rgBuFaLIwqR7oz2TBM_lDnr57PPf0zS1WA,1037
+biotools_client/processing.py,sha256=BT_N7wp02USn7svKfeQD_Ks_SrwxA1HXhKHH2fGzgmE,4079
+biotools_client/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+biotools_client/version.py,sha256=2cynyyahEbjdIbxP8fQxJBLmBi7bxALeDhH17wqojF0,985
+biotools_client-0.0.1.dist-info/LICENSE,sha256=QcgJZKGxlW5BwBNnCBL8VZLVtRvXs81Ch9lJRQSIpJg,1076
+biotools_client-0.0.1.dist-info/METADATA,sha256=DisMUZunySVD1lEaVqOC9HpUSwLhoQ_6xCrmYn_4axA,13440
+biotools_client-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+biotools_client-0.0.1.dist-info/entry_points.txt,sha256=QVQae0MX5UFAG2j7IU0zoXMlHSnjMjFN_151brkRDfU,61
+biotools_client-0.0.1.dist-info/top_level.txt,sha256=lZfLz7H5OyfxRaeVTFWEM2VG-AMdzvfykiS69DJgnPo,16
+biotools_client-0.0.1.dist-info/RECORD,,
