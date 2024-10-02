@@ -1,0 +1,9 @@
+python-docx
+docxtpl
+docx2pdf
+jinja2
+numpy
+pandas
+shapely
+scipy
+streamlit
