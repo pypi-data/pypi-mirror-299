@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: gimodules
+Version: 0.1.0
+Summary: Python package to deliver a Gantner cloud interface
+Author: gimodules devs
+Author-email: 
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appnope
+Requires-Dist: dash~=2.17.1
+Requires-Dist: h2
+Requires-Dist: kaleido
+Requires-Dist: lxml
+Requires-Dist: openpyxl
+Requires-Dist: pexpect
+Requires-Dist: pip-chill
+Requires-Dist: pipreqs
+Requires-Dist: pooch
+Requires-Dist: pymysql~=1.0.2
+Requires-Dist: pytest~=7.1.2
+Requires-Dist: seaborn~=0.11.2
+Requires-Dist: sqlalchemy~=2.0.32
+Requires-Dist: xarray
+Requires-Dist: setuptools~=68.2.0
+Requires-Dist: pytz~=2024.1
+Requires-Dist: pandas~=1.4.3
+Requires-Dist: numpy~=1.26.0
+Requires-Dist: requests~=2.32.3
+Requires-Dist: python-dateutil~=2.8.2
+Requires-Dist: iniconfig~=1.1.1
+Requires-Dist: matplotlib~=3.5.2
+Requires-Dist: python-dotenv~=1.0.1
+Requires-Dist: plotly~=5.9.0
+
+
+# gimodules-python
+
+## Information on how to manually distribute this package can be found here
+
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+### Distribute with CI / CD
+Edit setup.py version number and create a release.
+-> Creating a release will trigger the workflow to push the package to PyPi
+
+## tests
+
+run tests locally:
+
+$ `pipenv run test -v` 
+
+or 
+
+$ `pytest`
+
+### requirements
+
+To create the requirements file for the project, run the following command:
+
+$ `pipreqs .`
+
+To create project all current packages installed in your venv for requirements automatically:
+
+$ `pip3 freeze > requirements.txt`
+**_NOTE:_** Remove the old gimodules version from requirements.txt before pushing (dependency conflict).
