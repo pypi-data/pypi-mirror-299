@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: myimageprocessingpackage
+Version: 0.0.2
+Summary: Image processing package using Skimage
+Home-page: https://github.com/vitor-manoel-s/meu-pacote-processamento-de-imagem
+Author: Vitor
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scikit-image >=0.16.1
+
+# my image processing package
+---
+
+## Description
+
+The package myimageprocessingpackage is used to:
+
+- Image resizing
+- Histogram transfer between images
+- Image reading and saving
+- Plotting utilities for image visualization
+
+---
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Image Processing Package:
+
+```bash
+pip install myimageprocessingpackage
+```
+
+---
+
+## License
+[MIT](LICENSE.txt)
