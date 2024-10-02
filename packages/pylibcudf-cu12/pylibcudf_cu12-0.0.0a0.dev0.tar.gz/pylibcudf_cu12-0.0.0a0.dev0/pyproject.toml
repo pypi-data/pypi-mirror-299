@@ -1,0 +1,5 @@
+[project]
+name = "pylibcudf-cu12"
+version = "0.0.0a0.dev0"
+description = "Placeholder for pylibcudf-cu12"
+readme = { text = "Placeholder for pylibcudf-cu12", content-type = "text/markdown" }
