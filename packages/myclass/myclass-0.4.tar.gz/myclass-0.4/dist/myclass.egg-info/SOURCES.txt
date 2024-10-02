@@ -1,0 +1,8 @@
+setup.py
+dist/joseclasses/__init__.py
+dist/joseclasses/my_class.py
+dist/myclass.egg-info/PKG-INFO
+dist/myclass.egg-info/SOURCES.txt
+dist/myclass.egg-info/dependency_links.txt
+dist/myclass.egg-info/top_level.txt
+dist/pyarmor_runtime_000000/__init__.py
