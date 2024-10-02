@@ -1,0 +1,2 @@
+[console_scripts]
+ai-git-cli = ai_git_cli.main:cli_main
