@@ -1,0 +1,5 @@
+setup.py
+xtralab.egg-info/PKG-INFO
+xtralab.egg-info/SOURCES.txt
+xtralab.egg-info/dependency_links.txt
+xtralab.egg-info/top_level.txt
