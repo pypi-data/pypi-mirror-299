@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+myimageprocessingpackage/__init__.py
+myimageprocessingpackage.egg-info/PKG-INFO
+myimageprocessingpackage.egg-info/SOURCES.txt
+myimageprocessingpackage.egg-info/dependency_links.txt
+myimageprocessingpackage.egg-info/requires.txt
+myimageprocessingpackage.egg-info/top_level.txt
+myimageprocessingpackage/processing/__init__.py
+myimageprocessingpackage/processing/combination.py
+myimageprocessingpackage/processing/transformation.py
+myimageprocessingpackage/utils/__init__.py
+myimageprocessingpackage/utils/io.py
+myimageprocessingpackage/utils/plot.py
