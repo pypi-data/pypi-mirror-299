@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: theia-api
+Version: 1.0.0
+Summary: 基于FastAPI封装通用后台API框架
+Home-page: https://gitee.com/iprintf/theia-api
+Author: kyo
+Author-email: iprintf@qq.com
+License: UNKNOWN
+Description: # Theia-API
+        
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
