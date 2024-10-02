@@ -1,0 +1,2 @@
+[console_scripts]
+GAdmin = GAdmin.cli:main
