@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include requirements.txt
+
+graft antbase/images        # Включаем все файлы из директорий
+graft antbase/fonts
+
+global-exclude *.pyc        # Исключаем файлы
+exclude *.bak               # Исключаем временные файлы
+exclude *.swp
