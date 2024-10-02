@@ -1,0 +1,12 @@
+ucdp_glbl-1.3.0.dist-info/METADATA,sha256=D6RDJndCOWgebJmJg9h_r4NsuecFgEtKGoL4OnDOsNo,1519
+ucdp_glbl-1.3.0.dist-info/WHEEL,sha256=Vza3XR51HW1KmFP0iIMUVYIvz0uQuKJpIXKYOBGQyFQ,90
+ucdp_glbl-1.3.0.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+ucdp_glbl-1.3.0.dist-info/licenses/LICENSE,sha256=C5dC7xMg5vdkSj6eKxdnX0qszqjdI49MsHgvMhGCIq4,1067
+ucdp_glbl/__init__.py,sha256=myifpFEY1klx2dcL4bYb1mIxGeiqczaTSQ-ZEHPDO6c,1154
+ucdp_glbl/attrs.py,sha256=Uw1vKVmaaZH4dL0S3Nfl4h8WZysd-Bs9myzIItkgpKs,3529
+ucdp_glbl/dft.py,sha256=zS55HH4GgJWobL0sxThnk5ZqAqs79oSkHgeWG4FYTQE,5764
+ucdp_glbl/irq.py,sha256=JGgCFAgGgaMkfT-tGUdsjlnTnC-wyt0Ww2EiCgw30Is,1883
+ucdp_glbl/lane.py,sha256=SeExFKOeP2rqATdg63TOjw3m0iGpU-jLerIv5ZhkJa4,3236
+ucdp_glbl/mem.py,sha256=NuuGzqdpsbG8Vp6vIOlnQWqORCOnWpQlglY-UaWO6X8,6017
+ucdp_glbl/stream.py,sha256=PSMz0Gn7nCAIHVfptrU4KTP-ZIUAL6f7PHbdUQEDcwk,3517
+ucdp_glbl-1.3.0.dist-info/RECORD,,
