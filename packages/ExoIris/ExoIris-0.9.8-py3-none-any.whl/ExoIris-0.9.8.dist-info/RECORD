@@ -1,0 +1,13 @@
+exoiris/__init__.py,sha256=u1Loi9AWAhstG5CAw3ztEcX8DoHwDMkMUKWxy7fSoSE,952
+exoiris/binning.py,sha256=E_chVMIjjmxBTgri669fXfU-DuYK6c9dblGLz1v9jEA,6465
+exoiris/exoiris.py,sha256=yh4SOPx-zf3VPeqi68gMZld3XRPsL-Wyq5J3luF5th8,45677
+exoiris/ldtkld.py,sha256=PBQFW-Z9jKJc6bLQCvg_T_odrFoO8tf79_twZ9-zfpk,3157
+exoiris/tsdata.py,sha256=eK-N-djs96c4hI8ZHZGypf4536AN4sVkTpLIMBhhpls,11831
+exoiris/tslpf.py,sha256=tOoAoPZEw8M4DlzEA0lwFd3miKSDJAOmVlbkDi0Pp9c,23160
+exoiris/util.py,sha256=Rtz1w9H4LWQB6Z57wNZ_2ICi3bJUCK1B19DvpZ9ktrI,4640
+exoiris/wlpf.py,sha256=dOoAc2szWxHua9xc0-Aspe-jmyDWlYt30mwx5feajIw,3517
+ExoIris-0.9.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ExoIris-0.9.8.dist-info/METADATA,sha256=rE__8f_R4Eku4HNcz0ZWlwc3wX7s3hpLcirlWhmWSxM,4131
+ExoIris-0.9.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ExoIris-0.9.8.dist-info/top_level.txt,sha256=EoNxT6c5mQDcM0f_LUQB-ETsYg03lNaV3o2L_Yc6-aE,8
+ExoIris-0.9.8.dist-info/RECORD,,
