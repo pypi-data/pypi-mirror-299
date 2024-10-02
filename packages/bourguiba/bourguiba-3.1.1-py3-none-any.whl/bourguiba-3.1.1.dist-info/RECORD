@@ -1,0 +1,10 @@
+bourguiba/__init__.py,sha256=dyI6Cd9h-KUkVLJNGWZjDVogS-V69z1K6N5biEzCACQ,59
+bourguiba/bourguiba.py,sha256=PneOCQ3ipsHB_Yq6sPEM7V8zd963-ahzvVqyQqzTj68,1298
+bourguiba/instruction.py,sha256=MCEle_suZ87b6KhmLdjwwcWV4GMmQn6VUYcTdsolGDM,480
+bourguiba/model_downloader.py,sha256=mVcQAG14Vu6MYyG8YsbBfDjWwdyve7NNi2-bvlw0Iqk,865
+bourguiba-3.1.1.dist-info/LICENSE,sha256=VsgHXJTf2mBg7nNXYeNqzIIqAaNTK2RxP2YCAN1v9Nw,1098
+bourguiba-3.1.1.dist-info/METADATA,sha256=JHMuWCpbp0cyN9h6kuudqVGF6rla_JkZ3FTDQKTusJY,1442
+bourguiba-3.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bourguiba-3.1.1.dist-info/entry_points.txt,sha256=1CfeOv6j1jATcH7tfdnvy6V2I0CuVCSNYuyEC2aZiVM,55
+bourguiba-3.1.1.dist-info/top_level.txt,sha256=emrXWVv5iKER-zXR5JVil9n7weA0Q3VfOYfE_unsN90,10
+bourguiba-3.1.1.dist-info/RECORD,,
