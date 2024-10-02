@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gather_taxi_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gather_taxi_data/gather_all_data.py,sha256=XwhvZbRb2gJ2Auj3k6gO6Nn_nyTRUb1XwldBXgxYUMA,1696
+gather_taxi_data/gather_bwc_data.py,sha256=gyI2D8qdjrvETciqztmb_w5SZqdDPXc4jhdkwAbyuAU,2029
+gather_taxi_data/gather_gps_data.py,sha256=iR7HXZh7xLK1oFm3LAJgdAIkWtU3LuB0bDg8WS7aUIU,3042
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gather_taxi_data-0.1.0.dist-info/LICENSE,sha256=M8zRvtcN09msetbnlVSZO3lwK4lv1nZyp0Ja-a3RBiI,1072
+gather_taxi_data-0.1.0.dist-info/METADATA,sha256=yUorcnyX0U1b1RGynXfkRWWVLqJzdSkUnL3hG9DTmYE,3731
+gather_taxi_data-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gather_taxi_data-0.1.0.dist-info/entry_points.txt,sha256=oBsBvpUiIRwlPpFcFSkUXAX_dUteS8WfnGU9x1meYBg,75
+gather_taxi_data-0.1.0.dist-info/top_level.txt,sha256=-5NBlgsbuB0Xpq-dqHsGbqkn36fUAjOEAt6MtRDItjk,32
+gather_taxi_data-0.1.0.dist-info/RECORD,,
