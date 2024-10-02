@@ -1,0 +1,12 @@
+README.md
+license.txt
+setup.cfg
+setup.py
+Converter/Converter.py
+Converter/__init__.py
+Doc_Converter.egg-info/PKG-INFO
+Doc_Converter.egg-info/SOURCES.txt
+Doc_Converter.egg-info/dependency_links.txt
+Doc_Converter.egg-info/not-zip-safe
+Doc_Converter.egg-info/requires.txt
+Doc_Converter.egg-info/top_level.txt

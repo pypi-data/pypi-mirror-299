@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Doc-Converter
+Version: 0.0.2
+Summary: This module is designed to convert all types of files into usable text str to make it easier to work with python
+Author: Ibrahim
+Author-email: string2025@gmail.com
+Description-Content-Type: text/markdown
+License-File: license.txt
+Requires-Dist: python-docx
+Requires-Dist: python-pptx
+Requires-Dist: pypdf2
