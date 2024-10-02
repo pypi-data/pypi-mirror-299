@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: Orchestraw
+Version: 2.0.0
+Summary: Orchestraw which downloads NCM music with metadata
+Project-URL: Homepage, https://github.com/crillerium/orchestraw
+Project-URL: Issues, https://github.com/crillerium/orchestraw
+Author-email: Crillerium <crillerium@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Orchestraw
+Orchestraw: Download Netease Cloud Music with Metadata
