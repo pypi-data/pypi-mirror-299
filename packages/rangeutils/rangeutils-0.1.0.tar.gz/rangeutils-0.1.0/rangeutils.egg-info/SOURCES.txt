@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rangeutils/__init__.py
+rangeutils/range_utils.py
+rangeutils/version.py
+rangeutils.egg-info/PKG-INFO
+rangeutils.egg-info/SOURCES.txt
+rangeutils.egg-info/dependency_links.txt
+rangeutils.egg-info/requires.txt
+rangeutils.egg-info/top_level.txt
