@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: smartbulk-connector
+Version: 0.1.0
+Summary: BioTuring Smartbulk Connector
+Home-page: https://alpha.bioturing.com
+Author: BioTuring
+Author-email: support@bioturing.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8, <3.12
+Requires-Dist: pydantic==2.7.2
+Requires-Dist: requests==2.32.3
+Requires-Dist: tqdm==4.66.4
+Requires-Dist: pandas==2.2.3
+Requires-Dist: numpy==2.0.2
+
+UNKNOWN
+
