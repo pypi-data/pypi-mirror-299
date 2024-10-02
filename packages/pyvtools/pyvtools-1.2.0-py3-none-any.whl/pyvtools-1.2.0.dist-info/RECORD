@@ -1,0 +1,9 @@
+pyvtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyvtools/image.py,sha256=qhTEqhVRHwTQoA6JaVNbTftMctHENnrkdjhXHhId9q4,15350
+pyvtools/math.py,sha256=zE4WrxLlhw4pN2oOHe6jZzb8KLxCVuOk290iNS9bevQ,705
+pyvtools/text.py,sha256=UBNH75coJSxwfR224lVMbna_kZNLGsRD_rwd8g4fjXk,2180
+pyvtools-1.2.0.dist-info/LICENSE,sha256=65AR17KB9zMGINq_guK_wqupKKQDYduZ5DmF_oR1Bt8,1072
+pyvtools-1.2.0.dist-info/METADATA,sha256=w0m_d4CS58itv9i_los8h0Z9eEp9aPZoX6SeWmIcmZU,2178
+pyvtools-1.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyvtools-1.2.0.dist-info/top_level.txt,sha256=AyZ0gSt-4tB9Nho5EkBfuQyTstqIr7O-8c41zArBqy8,9
+pyvtools-1.2.0.dist-info/RECORD,,
