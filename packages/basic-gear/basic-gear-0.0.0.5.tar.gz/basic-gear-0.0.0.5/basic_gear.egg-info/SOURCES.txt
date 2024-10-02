@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+basic_gear/__init__.py
+basic_gear.egg-info/PKG-INFO
+basic_gear.egg-info/SOURCES.txt
+basic_gear.egg-info/dependency_links.txt
+basic_gear.egg-info/entry_points.txt
+basic_gear.egg-info/requires.txt
+basic_gear.egg-info/top_level.txt
+basic_gear/cli/__init__.py
+basic_gear/cli/shell.py

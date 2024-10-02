@@ -1,0 +1,2 @@
+[console_scripts]
+basic-gear = basic_gear.cli.shell:shell
