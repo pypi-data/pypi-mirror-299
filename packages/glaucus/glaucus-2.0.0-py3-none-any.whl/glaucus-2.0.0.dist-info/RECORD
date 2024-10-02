@@ -1,0 +1,13 @@
+glaucus/__init__.py,sha256=O6LUIxPvWPd0WgH6AiglhGtEQmWwz11lJ7wfpq68HuY,285
+glaucus/autoencoders.py,sha256=iwaobNZ05XYJRYS7WOCIYiA7cZD0gPTHLiP5-2LHvbM,26867
+glaucus/fcblocks.py,sha256=In32izWqhvjBu7kJRQeq_1mPFmCMvzn16zuim5mAvnc,2974
+glaucus/gblocks.py,sha256=nh8jRhb0xSybPEsOhq555rwY5p0GrTi_--TmMPfbLII,18290
+glaucus/layers.py,sha256=n55MHBByttyFeI3qjOxgTH0rFrmrcvZhF1wKOoZzWsI,7205
+glaucus/rfloss.py,sha256=eT0zmVTDcsgXMcxaKFZCirzs5YKHcli7rJLPjAbWonc,17323
+glaucus/seanet.py,sha256=xAEkYLjgTG8zPVYHLXBXwBWbYUNJUd4_GkkXfqjyZ1I,23366
+glaucus/utils.py,sha256=UJP4xn5IFVsc9ZsxB5MMJIggPtJDrBVFKpXVRtfPFkI,3045
+glaucus-2.0.0.dist-info/LICENSE,sha256=GkWx0KhgPf4s_GRPnauXCxdi-Sur4qrG6y9dRXLEpoA,7653
+glaucus-2.0.0.dist-info/METADATA,sha256=Sarww7PC-TsDh_Uzb5JOYq0j_QS0nNfeDNlbxXdid44,17664
+glaucus-2.0.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+glaucus-2.0.0.dist-info/top_level.txt,sha256=wNSnZT83-pvN9fHc6JR0-k2ChMQKkz9mU_fYa1RpVIs,8
+glaucus-2.0.0.dist-info/RECORD,,
