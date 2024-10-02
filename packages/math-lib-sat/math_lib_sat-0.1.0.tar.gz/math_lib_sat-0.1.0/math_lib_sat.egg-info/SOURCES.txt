@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+math_lib_sat.egg-info/PKG-INFO
+math_lib_sat.egg-info/SOURCES.txt
+math_lib_sat.egg-info/dependency_links.txt
+math_lib_sat.egg-info/top_level.txt
+tests/test_math_ops.py
