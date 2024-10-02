@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: sashlab_stress
+Version: 0.1.1
+Summary: A collection of scripts that run common stress tasks
+Author-email: Kevin O'Malley <kevomalley743@gmail.com>, Sandra O'Brien <sandra.obrien@ul.ie>
+License: MIT
+Keywords: CLI,psychology,stress
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: black>=24.8.0
+Requires-Dist: inputimeout>=1.0.4
+Requires-Dist: keyboard>=0.13.5
