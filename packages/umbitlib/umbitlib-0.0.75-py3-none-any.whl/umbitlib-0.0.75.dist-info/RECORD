@@ -1,0 +1,13 @@
+umbitlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umbitlib/constants.py,sha256=SDIf32zuDRoX8orHvCMfWx2YsniMlgTKDwOOp819m5I,3998
+umbitlib/dates.py,sha256=bBAZ3I5t25UywxxFjfOl08OwRB5Q5CcejlRVLXEKTVQ,3262
+umbitlib/db_connections.py,sha256=pN056ZZTeKYVeMEIHWCvfwh5ZJdQZyGXuPiQGDKPlhU,14338
+umbitlib/graphs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+umbitlib/helpers.py,sha256=CKm4BoEVDRVznYPqY8CFRJjp_bwFxfEvBDaRTHPQlME,24622
+umbitlib/queries.py,sha256=0C3V21YbW-_E4qaB4XUAmlrr-XzM_xhWP0P_lLOtpsY,20411
+umbitlib/science.py,sha256=A5_1XJ8yAzpbGYXPkqsHcuXgypqGj3gQm93Sz1ZO3LY,7159
+umbitlib-0.0.75.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+umbitlib-0.0.75.dist-info/METADATA,sha256=aAwN7JdCX34kmWvc-7uAFnw42cfTnpY1mhBImD9YHY4,1481
+umbitlib-0.0.75.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+umbitlib-0.0.75.dist-info/top_level.txt,sha256=BrofIKGMEb_PktfmIOeXBXmB5fvMxt0txZiBO3sc-ow,9
+umbitlib-0.0.75.dist-info/RECORD,,
