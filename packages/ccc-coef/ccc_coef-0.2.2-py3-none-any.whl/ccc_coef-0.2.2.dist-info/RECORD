@@ -1,0 +1,17 @@
+ccc/coef/__init__.py,sha256=B3f5_yA35_TXlBLZ_yZPeQgx83WX5TKbnfT74XyOu-Y,200
+ccc/coef/impl.py,sha256=pMYs6f-YtSjeuY1GpPs9bjtFqBE1g9NBgHUabdEP5iI,31842
+ccc/numpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccc/pytorch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccc/pytorch/core.py,sha256=fLBB4tSfPErc5TxXUaIHRL75_1EgLX6v46_JVJjav4A,4213
+ccc/scipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccc/scipy/stats.py,sha256=iWn7fo0vgurWubKVn3Bbcjl06fijzwMi6bu2PsDlzUQ,3956
+ccc/sklearn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ccc/sklearn/metrics.py,sha256=Yz9Ogm-ul395yFU6_RU61jgUajXBRAvnTO7G_Nu7Ryg,5874
+ccc/utils/__init__.py,sha256=C4LX0IdppDuF_0g2RjpIjC8qly_u68pjyY4OoPIUmXQ,62
+ccc/utils/utility_functions.py,sha256=2-vS4AAT-soYMa2OaV_YqOQX99LOV3IQMr8rxtJjNCE,5202
+ccc_coef-0.2.2.dist-info/LICENSE,sha256=HFgIT5hs6MaZYr19Z7oHHgbwZe_AiHhBVhuBxQ3FmtU,2683
+ccc_coef-0.2.2.dist-info/LICENSE_bundled,sha256=001PZM3RIhzktJp2R2S4jmGG22wliu-b9wlTgrNmbvo,555
+ccc_coef-0.2.2.dist-info/METADATA,sha256=HbMBz0kjaSfljuBojGyPIHCyIvwck-GNEPJgB3WUaTc,14355
+ccc_coef-0.2.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ccc_coef-0.2.2.dist-info/top_level.txt,sha256=fE6NoUEnUoArywjs_xHi7-jQetFklNuj4pAm-ROGhmE,63
+ccc_coef-0.2.2.dist-info/RECORD,,
