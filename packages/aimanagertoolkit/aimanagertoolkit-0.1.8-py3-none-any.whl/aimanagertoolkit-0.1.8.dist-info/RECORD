@@ -1,0 +1,13 @@
+aimanagertoolkit/__init__.py,sha256=Te40rcrJlNFakyIhydM0kMNzkAT20L4jgYp5bK73PZo,615
+aimanagertoolkit/__version__.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+aimanagertoolkit/log.py,sha256=ygp_RaCx_Y9lAQi7hzsKId6Guo3qkgO899XA3KNIEJI,2089
+aimanagertoolkit/messages.py,sha256=WY_xG1LoKvliNUQd3v8HugD8s8srZBoXEqzrSPDULxA,15883
+aimanagertoolkit/toolbox.py,sha256=NyL7so6VmJxbnE-kmazc-5_Zy-2JSpr2YuKYX6IQLm8,3445
+aimanagertoolkit/ai/__init__.py,sha256=liqEn9GGYhJy8ncM5F56g_qbgITZLfUmnr5W4FFVfrg,108
+aimanagertoolkit/ai/azure_ai.py,sha256=PqnI68e0smklT7NCBi_uqFbFYiSCvl0soTz_9Q_OX8A,18216
+aimanagertoolkit/ai/openai_ai.py,sha256=_boFzGnqR8MCxViScvYat0t_HubnGFw6zgh6DSXEY44,17806
+aimanagertoolkit-0.1.8.dist-info/LICENSE,sha256=3_ePxGJuincflCbxUDtGGHG3ZvheEcdumK5zHH8oh5U,1074
+aimanagertoolkit-0.1.8.dist-info/METADATA,sha256=WMFSU9_47G40q1m3HDbVir0pJhDxehIWhK1-Xk1Br-k,5618
+aimanagertoolkit-0.1.8.dist-info/WHEEL,sha256=Z4pYXqR_rTB7OWNDYFOm1qRk0RX6GFP2o8LgvP453Hk,91
+aimanagertoolkit-0.1.8.dist-info/top_level.txt,sha256=pjbUHuRIDJHFD7sHC1xsScVM8t6OxWvCDZW6f0Z-d6A,17
+aimanagertoolkit-0.1.8.dist-info/RECORD,,
