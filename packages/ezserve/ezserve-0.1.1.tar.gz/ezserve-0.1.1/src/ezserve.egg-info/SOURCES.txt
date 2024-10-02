@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ezserve/__init__.py
+src/ezserve/__main__.py
+src/ezserve.egg-info/PKG-INFO
+src/ezserve.egg-info/SOURCES.txt
+src/ezserve.egg-info/dependency_links.txt
+src/ezserve.egg-info/requires.txt
+src/ezserve.egg-info/top_level.txt
