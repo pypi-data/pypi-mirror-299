@@ -1,0 +1,5 @@
+
+config is BundleConfig:
+    name: "Terrain"
+    version: "0.12.1"
+    dependencies: ["Physics3D==0.12.1"]
