@@ -1,0 +1,14 @@
+kenmerkendewaarden/__init__.py,sha256=H__hUR59ebtSttE67dGTmB9kOXut3zHIyk7yP0iEIPY,491
+kenmerkendewaarden/data_analysis.py,sha256=PwehwJNgjyNKCme2nUVJhqriRZ8asLih_5vc9GbZnE4,10702
+kenmerkendewaarden/data_retrieve.py,sha256=KQFiwSrolkcPA8K57bw06_wAUQhp6g5xVCz2l-bcLBg,18113
+kenmerkendewaarden/gemiddeldgetij.py,sha256=Nt3L1q0UYqJNTLshi-Kem1EH8ZsYpXQabB_3eMd_7-A,22005
+kenmerkendewaarden/havengetallen.py,sha256=L8qRtQnG06SDFGmkQj9kd3xU4nlHu4bFN_NClvxWh8Q,17367
+kenmerkendewaarden/overschrijding.py,sha256=CpqtNW0f7-5WS46YflqRdBiJi3LgnVIiiYe6M7fH5V0,20135
+kenmerkendewaarden/slotgemiddelden.py,sha256=dTq6quktd_lbaXcSKZzVJWl74jxR-t4zP3rBJOQMt-Y,10997
+kenmerkendewaarden/tidalindicators.py,sha256=X99d_k7i9zzu2J0z7L6-1iygZEk_FDyC4gWm2adXo58,16494
+kenmerkendewaarden/utils.py,sha256=IhwfcxMGMsPWTFbRBU2jtLTKXQDiRD4kUnCt9h80BWc,1876
+kenmerkendewaarden-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+kenmerkendewaarden-0.3.0.dist-info/METADATA,sha256=oUUH-oU1Qmq_9mngwcQMw7rtnGfD6UXXn0KhdhzgtCY,3635
+kenmerkendewaarden-0.3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+kenmerkendewaarden-0.3.0.dist-info/top_level.txt,sha256=XbbGcY2b9FXZAN5q0qwxhsPaZBt-30B8_m43PR7G4Kc,19
+kenmerkendewaarden-0.3.0.dist-info/RECORD,,
