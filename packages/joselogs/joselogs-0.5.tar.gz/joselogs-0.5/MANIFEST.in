@@ -1,0 +1,2 @@
+include joselogs/*.py
+include joselogs/pyarmor_runtime/*
