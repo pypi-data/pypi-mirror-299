@@ -1,0 +1,2 @@
+[spacy_models]
+en_core_web_sm_vbspacy = en_core_web_sm_vbspacy
