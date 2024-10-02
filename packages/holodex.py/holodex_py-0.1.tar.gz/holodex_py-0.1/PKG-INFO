@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: holodex.py
+Version: 0.1
+Summary: An asynchronous library for the Holodex API
+Author-email: Nelo <neloblivion@icloud.com>
+Project-URL: Holodex, https://holodex.net
+Requires-Python: >=3.8

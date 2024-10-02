@@ -1,0 +1,5 @@
+pyproject.toml
+holodex.py.egg-info/PKG-INFO
+holodex.py.egg-info/SOURCES.txt
+holodex.py.egg-info/dependency_links.txt
+holodex.py.egg-info/top_level.txt

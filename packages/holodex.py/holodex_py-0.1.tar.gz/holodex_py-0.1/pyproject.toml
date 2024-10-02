@@ -1,0 +1,17 @@
+[project]
+name = "holodex.py"
+authors = [
+    {name = "Nelo", email = "neloblivion@icloud.com"},
+]
+version = "0.1"
+description = "An asynchronous library for the Holodex API"
+dependencies = [
+]
+requires-python = ">= 3.8"
+
+[project.urls]
+Holodex = "https://holodex.net"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
