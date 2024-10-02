@@ -1,0 +1,7 @@
+setup.py
+joseclasses/__init__.py
+joseclasses/my_class.py
+joseclasses.egg-info/PKG-INFO
+joseclasses.egg-info/SOURCES.txt
+joseclasses.egg-info/dependency_links.txt
+joseclasses.egg-info/top_level.txt
