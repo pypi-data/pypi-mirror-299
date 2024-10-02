@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+GAdmin/__init__.py
+GAdmin/cli.py
+GAdmin.egg-info/PKG-INFO
+GAdmin.egg-info/SOURCES.txt
+GAdmin.egg-info/dependency_links.txt
+GAdmin.egg-info/entry_points.txt
+GAdmin.egg-info/requires.txt
+GAdmin.egg-info/top_level.txt
