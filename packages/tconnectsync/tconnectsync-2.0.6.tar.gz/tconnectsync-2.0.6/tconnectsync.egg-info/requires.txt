@@ -1,0 +1,14 @@
+requests
+bs4
+arrow
+lxml
+python-dotenv
+requests-mock
+pysocks
+urllib3
+requests
+requests-oidc
+pyjwt
+cryptography
+dataclasses-json
+cffi
