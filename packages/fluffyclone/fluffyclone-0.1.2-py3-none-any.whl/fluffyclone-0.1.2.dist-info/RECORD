@@ -1,0 +1,10 @@
+fluffyclone/__init__.py,sha256=wWbQe58cj6_at5qIO-8dX84AErhCIRsVz5ZLVA4lwxU,791
+fluffyclone/compiled.py,sha256=G2125sToA7_-o4tKFFr9O4ybNRxUltFJqlUODLseXWo,240
+fluffyclone/distribution.py,sha256=_3hmky6_8PvLxQtgG7rnh7pJEVONA8gXD_BWvuSclkw,58
+fluffyclone/model.py,sha256=zB1x9SOThlWtgIHgsamIXzzxnIxwOu0HGkv_KneWZ4Q,2935
+fluffyclone/sampling.py,sha256=ulJfTfOvAUfjbPK7N4Jo4_GKsvP6doysGaSRIiPsfHg,4944
+fluffyclone/utils.py,sha256=cjTY9GjTOB-4d5wlbFXcOAnCaL-58JQSThnILSWmiv4,4516
+fluffyclone-0.1.2.dist-info/METADATA,sha256=K8gh4xrraoLFP0ZAkWKrMmfSnyuBr9nLwQKFiXgFwCs,475
+fluffyclone-0.1.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+fluffyclone-0.1.2.dist-info/licenses/LICENSE.txt,sha256=sZjt36flq-5x4IDqkbkB0GEkABRbEg-dT1TKSQslx-Y,1501
+fluffyclone-0.1.2.dist-info/RECORD,,
