@@ -1,0 +1,4 @@
+fastapi[standard]
+gradio_client
+gradio
+retry
