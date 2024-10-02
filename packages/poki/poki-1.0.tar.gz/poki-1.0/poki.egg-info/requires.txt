@@ -1,0 +1,4 @@
+psutil
+typing_extensions
+tabulate
+colorama
