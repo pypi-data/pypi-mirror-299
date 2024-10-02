@@ -1,0 +1,2 @@
+include joselogs/*.py
+include pyarmor_runtime_000000/*
