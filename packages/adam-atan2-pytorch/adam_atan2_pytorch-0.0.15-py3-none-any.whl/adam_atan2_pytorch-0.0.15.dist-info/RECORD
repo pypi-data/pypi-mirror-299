@@ -1,0 +1,8 @@
+adam_atan2_pytorch/__init__.py,sha256=32_iw-CeDIvSU0AMkBXwkFJnDYPdKDGbLA3BSNKoyYI,52
+adam_atan2_pytorch/adam_atan2.py,sha256=Dui5NMSCE9BBqtYeS-vZD_lTf2P1EVpIbKIahWvNWyU,3571
+adam_atan2_pytorch/adam_atan2_with_wasserstein_reg.py,sha256=_WN-zaMvTWechGpkQKPnCUirLZBIeb7WX90sUl700G0,4119
+adam_atan2_pytorch/foreach.py,sha256=b-4kwZ_V0gLbzbNm_F8EUBBlDP8P-7_SpqumUju8K6k,4729
+adam_atan2_pytorch-0.0.15.dist-info/METADATA,sha256=7WSRKefmVb_tIh-xEu3PNfTcxUtQfFahMQR8U3XvoY8,4012
+adam_atan2_pytorch-0.0.15.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+adam_atan2_pytorch-0.0.15.dist-info/licenses/LICENSE,sha256=E7RGS7kpJIStk5za_-4DVhWEAamf65EU0CNML25mq4c,1066
+adam_atan2_pytorch-0.0.15.dist-info/RECORD,,
