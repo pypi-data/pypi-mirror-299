@@ -1,0 +1,11 @@
+wasabi
+opencv-python
+torch
+torchvision
+
+[dev]
+pytest
+build
+twine
+jupyter
+uv
