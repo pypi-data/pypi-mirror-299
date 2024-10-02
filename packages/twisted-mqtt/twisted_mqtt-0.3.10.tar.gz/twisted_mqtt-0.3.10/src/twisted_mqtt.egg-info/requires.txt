@@ -1,0 +1,4 @@
+twisted
+
+[test]
+pytest>=6
