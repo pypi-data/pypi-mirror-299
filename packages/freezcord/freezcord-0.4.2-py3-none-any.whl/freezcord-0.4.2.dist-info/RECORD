@@ -1,0 +1,11 @@
+freezcord/Cog.py,sha256=u9DEK9dFDbI8jxOK3RG5PKsk3dBKksMlsQHJsHqsnzY,215
+freezcord/__init__.py,sha256=wcdAs_XXcSL6QiUKMNccWOMT-OvXRoKcXAV6lE1ifPw,254
+freezcord/bot.py,sha256=suLXyKU6J3KfCznvBUdqFxUvRxWN6eQDrXAQ-qiQGH4,6651
+freezcord/channel.py,sha256=9inzg0JSKVDiPyh0HLCB8tC2UT-z4_5wiNcDLqHhpOc,1234
+freezcord/guild.py,sha256=nLqvLTgF_i8bjcno5ZDbm9XyLu4ez1uZEdVPaO4GxRw,157
+freezcord/load_cogs.py,sha256=LRBqQ6WniTlPdpU8AETLWg8VnAHkNCWNpTHKcQVTdfA,1126
+freezcord/load_yaml.py,sha256=DEaMdqgEfzB1iAcy-vLqRCjdZX2Va1k9veGRQKRLy1g,152
+freezcord-0.4.2.dist-info/METADATA,sha256=2F-UZupX0__nuj1pEmtZx1ppJDlvA5mNCBgd2T8hX7Q,785
+freezcord-0.4.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+freezcord-0.4.2.dist-info/top_level.txt,sha256=o53DM9yS-SvHSDji0P1xjqgcoCPHQeYtuJjLDkNry6E,10
+freezcord-0.4.2.dist-info/RECORD,,
