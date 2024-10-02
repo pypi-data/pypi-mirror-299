@@ -1,0 +1,9 @@
+kron_torch/__init__.py,sha256=wY52tO4M7FCfW6ctWTo97tkNPpxTHtnK5p82KdIoF8c,33
+kron_torch/kron.py,sha256=Uc5DQsQceaEYu-qtkEDbBp2LN6pJD7hDE09ds39j3YI,16817
+kron_torch/kron_test.py,sha256=rsFQqHUKAOKMtqIl1BPfIkk8dovqWADQgsOQqWdXakk,4336
+kron_torch/quadratic_fitting.png,sha256=0fJAE1fF2DiUenJRrRt7kjDN4wqkaJaZN-AMKdsrTAo,70542
+kron_torch/training_loss.png,sha256=SvS_tygl3iTO8DOZ-41Mx1p3aSVaEBrD0l4r5YXT8RU,27704
+kron_torch-0.1.0.dist-info/LICENSE,sha256=nl8bPGELnC2lwxO_gdV3p9Gs7Ghr2wOE7e-m3w-QzZQ,18656
+kron_torch-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+kron_torch-0.1.0.dist-info/METADATA,sha256=DHHvUHOXVcI9j-i6P83_1QeNOXhlP9efarLo5f6hgO4,4638
+kron_torch-0.1.0.dist-info/RECORD,,
