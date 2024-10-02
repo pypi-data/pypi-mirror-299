@@ -1,0 +1,118 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qc-gbasis"
+authors = [
+  { name="QC-Devs Community", email="qcdevs@gmail.com"},
+]
+description = "A module for evaluating, differentiating, and integrating Gaussian functions."
+readme = "README.md"
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.9"
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+    'Operating System :: POSIX :: Linux',
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    'Topic :: Scientific/Engineering :: Physics',
+    'Topic :: Scientific/Engineering :: Chemistry',
+    "Topic :: Scientific/Engineering :: Mathematics",
+    'Intended Audience :: Science/Research',
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    # Ensure the minimal versions are kept consistent with those in .github/workflows/pytest.yaml
+    "numpy >=1.22, <2.0.0; platform_system=='Windows'",
+    "numpy >=1.22; platform_system=='Linux'",
+    "scipy>=1.11.1",
+    "importlib_resources",
+    "sympy",
+]
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+
+[project.optional-dependencies]
+dev = [
+    "tox",
+    "pre-commit",
+    "pytest",
+    "pytest-cov",
+    "pytest-timeout",
+    "pytest-xdist",
+    "pytest-md",
+    "setuptools_scm",
+    "sphinx",
+    "sphinx_autodoc_typehints",
+    "sphinx-copybutton",
+]
+doc = [
+    "numpydoc",
+    "sphinx_copybutton",
+    "sphinx-autoapi",
+    "nbsphinx",
+    "sphinx_rtd_theme",
+    "sphinx_autodoc_typehints",
+    "docutils==0.16",  # Needed to show bullet points in sphinx_rtd_theme
+    "nbsphinx-link"
+]
+# iodata = [
+#  "qc-iodata@git+https://github.com/theochem/iodata.git@main"
+# ]
+iodata = [
+    "qc-iodata>=1.0.0a5"
+]
+pyscf = [
+    "pyscf>=1.6.1"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]  # list of folders that contain the packages (["."] by default)
+include = ["gbasis"]  # package names should match these glob patterns (["*"] by default)
+
+[project.urls]
+Documentation = "https://gbasis.qcdevs.org"
+Issues = "https://github.com/theochem/gbasis/issues"
+Source = "https://github.com/theochem/gbasis/"
+Changelog = "https://github.com/theochem/gbasis/blob/main/CHANGELOG.md"
+Organization = "https://github.com/theochem/"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+# E is pycodestyle
+# F is pyflakes
+# UP is pyupgrade - automatically updates syntax
+# B is flake8-bugbear
+# I is sort imports alphabetically
+# PGH is pygrep-hooks
+# PL is pylint
+# RUF is Ruff-specific rules
+select = ["E", "F", "UP", "B", "I", "PGH", "PL", "RUF"]
+line-length = 100
+ignore = ["PLR2004", "PLR0913", "PLR0912", "PLW2901", "PLR0915", "RUF013"]
+extend-exclude = ["doc/*", "doc/*/*"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+addopts = "-v"
+
+#[tool.setuptools_scm]
+#write_to = "src/gbasis/_version.py"
+#version_scheme = "post-release"
+#local_scheme = "no-local-version"
+
+[tool.setuptools.package-data]
+gbasis = ["integrals/include/cint*.h", "integrals/lib/libcint.so*"]
