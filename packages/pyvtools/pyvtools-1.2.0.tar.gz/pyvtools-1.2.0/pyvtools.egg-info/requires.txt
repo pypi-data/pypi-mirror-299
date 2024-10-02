@@ -1,0 +1,7 @@
+numpy<=1.26.4
+matplotlib
+opencv-python
+scikit-image
+pillow
+scikit-learn
+tifffile
