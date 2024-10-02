@@ -1,0 +1,16 @@
+{
+	"word_length_mean": 11,
+	"word_length_sigma": 5,
+	"number_of_words_mean": 7,
+	"number_of_words_sigma": 4,
+	"word_separator": " ",
+	"sub_script_p": 0,
+	"super_script_p": 0.1,
+	"letter_spacing_p": 0.5,
+	"letter_spacing_mean": 0.5,
+	"letter_spacing_sigma": 0.05,
+	"bold_p": 0.5,
+	"italic_p": 0.5,
+	"charset": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "{", "}", "[", "]", "(", ")", "_", "-", ".", ",", ";", ":", "'", "\""],
+	"super_charset": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+}
