@@ -1,0 +1,9 @@
+pfapack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pfapack/ctypes.py,sha256=W_JM6eRljrjOqei5FZHpijwPLUXZubNMGexbiDVb6gU,8110
+pfapack/libcpfapack.so,sha256=pOZK33a6N3pLkmzu5kPGfmIJui_-xesB8WtwKkZu8pk,392120
+pfapack/pfaffian.py,sha256=f-Bz6v5lutY1KQG0B_XTvWoQMt6LRG1NrOV2OEAaSaw,12167
+pfapack_batched-0.0.1.dist-info/LICENSE,sha256=3uEcmbbiU3M1CSOpbfCy82WTyXkF7XjO8AjVAcusQRc,4136
+pfapack_batched-0.0.1.dist-info/METADATA,sha256=j6-qzup8_Q1015zjnt_UxOUzv1hfddr773AhjtUFwqY,3372
+pfapack_batched-0.0.1.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+pfapack_batched-0.0.1.dist-info/top_level.txt,sha256=ee27qpb5RGgMEC5mGsE240Yv6dG4x71vEpdHmaSIr50,8
+pfapack_batched-0.0.1.dist-info/RECORD,,
