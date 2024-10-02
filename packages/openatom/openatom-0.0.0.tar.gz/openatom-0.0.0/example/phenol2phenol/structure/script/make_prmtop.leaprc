@@ -1,0 +1,21 @@
+source leaprc.water.tip3p
+source leaprc.gaff
+
+loadAmberParams ./output/IPH.frcmod
+iph = loadMol2 ./output/IPH.mol2
+
+setBox iph "centers"
+saveAmberParm iph ./output/IPH.prmtop ./output/IPH.inpcrd
+savePdb iph ./output/IPH.pdb
+
+iph = loadMol2 ./output/IPH.mol2
+solvateBox iph TIP3PBOX 15.0
+saveAmberParm iph ./output/IPH_solvated.prmtop ./output/IPH_solvated.inpcrd
+savePdb iph ./output/IPH_solvated.pdb
+
+remove iph iph.1
+saveAmberParm iph ./output/solvent.prmtop ./output/solvent.inpcrd
+savePdb iph ./output/solvent.pdb
+
+
+quit
