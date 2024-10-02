@@ -1,0 +1,11 @@
+lpr/__init__.py,sha256=E6RT9Lhwurm9kk985rYAV1xghSyYRLTFPQUWM5YfBvs,100
+lpr/utils.py,sha256=09mWZgp-6s2utld4fIcpD9xCrEPW-EbFBAEqyW6fWsc,3878
+plate_recognize_py/__init__.py,sha256=E6RT9Lhwurm9kk985rYAV1xghSyYRLTFPQUWM5YfBvs,100
+plate_recognize_py/utils.py,sha256=09mWZgp-6s2utld4fIcpD9xCrEPW-EbFBAEqyW6fWsc,3878
+pylpr/__init__.py,sha256=E6RT9Lhwurm9kk985rYAV1xghSyYRLTFPQUWM5YfBvs,100
+pylpr/utils.py,sha256=09mWZgp-6s2utld4fIcpD9xCrEPW-EbFBAEqyW6fWsc,3878
+PlateRecognizePy-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PlateRecognizePy-0.1.0.dist-info/METADATA,sha256=ugxSnbCB9EMARvcYP0e1K-xe82nY6esj-om_Jg2n_8Y,2458
+PlateRecognizePy-0.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+PlateRecognizePy-0.1.0.dist-info/top_level.txt,sha256=fSBaALLkUlXfM6qT2Ec0VRwchCx4UOt8PbDcbtb7i2s,19
+PlateRecognizePy-0.1.0.dist-info/RECORD,,
