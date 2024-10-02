@@ -1,0 +1,3 @@
+[console_scripts]
+gas = genomic_address_service.main:main
+
