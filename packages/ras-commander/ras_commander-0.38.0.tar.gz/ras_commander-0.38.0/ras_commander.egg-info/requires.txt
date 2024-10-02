@@ -1,0 +1,8 @@
+pandas
+numpy
+h5py
+requests
+scipy
+matplotlib
+tqdm
+psutil
