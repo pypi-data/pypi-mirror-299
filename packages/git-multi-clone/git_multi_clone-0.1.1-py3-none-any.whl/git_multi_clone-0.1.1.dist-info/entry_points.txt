@@ -1,0 +1,2 @@
+[console_scripts]
+git-multi-clone = git_multi_clone.__main__:app
