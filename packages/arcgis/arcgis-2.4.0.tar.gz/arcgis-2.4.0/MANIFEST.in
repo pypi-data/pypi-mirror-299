@@ -1,0 +1,8 @@
+include pypi_long_description.md
+recursive-include arcgis/apps/hub/_store *.json
+recursive-include arcgis *.pyd
+recursive-include arcgis *.so
+recursive-include arcgis *.dll
+global-include *.pyd
+global-include *.so
+global-include *.dll
