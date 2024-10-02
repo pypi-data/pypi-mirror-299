@@ -1,0 +1,24 @@
+[project]
+name = "time-tracker"
+version = "0.5.3"
+description = "CLI to track time spent on tasks using pomodoro technique"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mypy>=1.11.2",
+    "pytest>=8.3.3",
+    "python-dotenv>=1.0.1",
+    "rich>=13.9.1",
+    "ruff>=0.6.8",
+    "typer>=0.12.5",
+]
+
+
+
+[project.scripts]
+tt = "time_tracker.main:app"
+
+[tool.ruff]
+line-length = 88
+
+[tool.uv]

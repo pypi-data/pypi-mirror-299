@@ -1,0 +1,2 @@
+[console_scripts]
+tt = time_tracker.main:app

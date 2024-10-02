@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tests/test_time_tracker.py
+time_tracker/__init__.py
+time_tracker/log.py
+time_tracker/main.py
+time_tracker.egg-info/PKG-INFO
+time_tracker.egg-info/SOURCES.txt
+time_tracker.egg-info/dependency_links.txt
+time_tracker.egg-info/entry_points.txt
+time_tracker.egg-info/requires.txt
+time_tracker.egg-info/top_level.txt
