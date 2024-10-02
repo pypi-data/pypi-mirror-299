@@ -1,0 +1,355 @@
+from http import HTTPStatus
+from typing import Any, Dict, Optional, Union, cast
+
+import httpx
+
+from ... import errors
+from ...client import AuthenticatedClient, Client
+from ...models.get_azure_entity_entity import GetAzureEntityEntity
+from ...models.get_azure_entity_response_200_type_1 import GetAzureEntityResponse200Type1
+from ...models.get_azure_entity_response_200_type_2 import GetAzureEntityResponse200Type2
+from ...models.get_azure_entity_type import GetAzureEntityType
+from ...types import UNSET, Response, Unset
+
+
+def _get_kwargs(
+    entity_type: str,
+    *,
+    object_id: str,
+    counts: Union[Unset, bool] = UNSET,
+    related_entity_type: Union[Unset, str] = UNSET,
+    type: Union[Unset, GetAzureEntityType] = GetAzureEntityType.LIST,
+    skip: Union[Unset, int] = UNSET,
+    limit: Union[Unset, int] = 100,
+    prefer: Union[Unset, int] = 0,
+) -> Dict[str, Any]:
+    headers: Dict[str, Any] = {}
+    if not isinstance(prefer, Unset):
+        headers["Prefer"] = str(prefer)
+
+    params: Dict[str, Any] = {}
+
+    params["object_id"] = object_id
+
+    params["counts"] = counts
+
+    params["related_entity_type"] = related_entity_type
+
+    json_type: Union[Unset, str] = UNSET
+    if not isinstance(type, Unset):
+        json_type = type.value
+
+    params["type"] = json_type
+
+    params["skip"] = skip
+
+    params["limit"] = limit
+
+    params = {k: v for k, v in params.items() if v is not UNSET and v is not None}
+
+    _kwargs: Dict[str, Any] = {
+        "method": "get",
+        "url": f"/api/v2/azure/{entity_type}",
+        "params": params,
+    }
+
+    _kwargs["headers"] = headers
+    return _kwargs
+
+
+def _parse_response(
+    *, client: Union[AuthenticatedClient, Client], response: httpx.Response
+) -> Optional[
+    Union[Any, Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]]
+]:
+    if response.status_code == HTTPStatus.OK:
+
+        def _parse_response_200(
+            data: object,
+        ) -> Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]:
+            try:
+                if not isinstance(data, dict):
+                    raise TypeError()
+                response_200_type_0 = GetAzureEntityEntity.from_dict(data)
+
+                return response_200_type_0
+            except:  # noqa: E722
+                pass
+            try:
+                if not isinstance(data, dict):
+                    raise TypeError()
+                response_200_type_1 = GetAzureEntityResponse200Type1.from_dict(data)
+
+                return response_200_type_1
+            except:  # noqa: E722
+                pass
+            if not isinstance(data, dict):
+                raise TypeError()
+            response_200_type_2 = GetAzureEntityResponse200Type2.from_dict(data)
+
+            return response_200_type_2
+
+        response_200 = _parse_response_200(response.json())
+
+        return response_200
+    if response.status_code == HTTPStatus.BAD_REQUEST:
+        response_400 = cast(Any, None)
+        return response_400
+    if response.status_code == HTTPStatus.UNAUTHORIZED:
+        response_401 = cast(Any, None)
+        return response_401
+    if response.status_code == HTTPStatus.FORBIDDEN:
+        response_403 = cast(Any, None)
+        return response_403
+    if response.status_code == HTTPStatus.NOT_FOUND:
+        response_404 = cast(Any, None)
+        return response_404
+    if response.status_code == HTTPStatus.TOO_MANY_REQUESTS:
+        response_429 = cast(Any, None)
+        return response_429
+    if response.status_code == HTTPStatus.INTERNAL_SERVER_ERROR:
+        response_500 = cast(Any, None)
+        return response_500
+    if client.raise_on_unexpected_status:
+        raise errors.UnexpectedStatus(response.status_code, response.content)
+    else:
+        return None
+
+
+def _build_response(
+    *, client: Union[AuthenticatedClient, Client], response: httpx.Response
+) -> Response[
+    Union[Any, Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]]
+]:
+    return Response(
+        status_code=HTTPStatus(response.status_code),
+        content=response.content,
+        headers=response.headers,
+        parsed=_parse_response(client=client, response=response),
+    )
+
+
+def sync_detailed(
+    entity_type: str,
+    *,
+    client: Union[AuthenticatedClient, Client],
+    object_id: str,
+    counts: Union[Unset, bool] = UNSET,
+    related_entity_type: Union[Unset, str] = UNSET,
+    type: Union[Unset, GetAzureEntityType] = GetAzureEntityType.LIST,
+    skip: Union[Unset, int] = UNSET,
+    limit: Union[Unset, int] = 100,
+    prefer: Union[Unset, int] = 0,
+) -> Response[
+    Union[Any, Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]]
+]:
+    """Get Azure entity
+
+     Retrieves entity information for the given Azure object ID.
+    If `related_entity_type` parameter is not set, this endpoint will return information
+    about a single entity. Using the `counts` boolean parameter will further modify the response.
+    If `related_entity_type` parameter is set, this endpoint will return information about entities
+    related to a single entity. The `type` parameter will morph the response data structure. The `list`
+    value for the `type` parameter also accepts `skip` and `limit` parameters.
+
+    Args:
+        entity_type (str):
+        object_id (str):
+        counts (Union[Unset, bool]):
+        related_entity_type (Union[Unset, str]):
+        type (Union[Unset, GetAzureEntityType]):  Default: GetAzureEntityType.LIST.
+        skip (Union[Unset, int]): The number of items to skip in a paginated response.
+        limit (Union[Unset, int]): The limit of results requested by the client. Default: 100.
+        prefer (Union[Unset, int]):  Default: 0.
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Response[Union[Any, Union['GetAzureEntityEntity', 'GetAzureEntityResponse200Type1', 'GetAzureEntityResponse200Type2']]]
+    """
+
+    kwargs = _get_kwargs(
+        entity_type=entity_type,
+        object_id=object_id,
+        counts=counts,
+        related_entity_type=related_entity_type,
+        type=type,
+        skip=skip,
+        limit=limit,
+        prefer=prefer,
+    )
+
+    response = client.get_httpx_client().request(
+        **kwargs,
+    )
+
+    return _build_response(client=client, response=response)
+
+
+def sync(
+    entity_type: str,
+    *,
+    client: Union[AuthenticatedClient, Client],
+    object_id: str,
+    counts: Union[Unset, bool] = UNSET,
+    related_entity_type: Union[Unset, str] = UNSET,
+    type: Union[Unset, GetAzureEntityType] = GetAzureEntityType.LIST,
+    skip: Union[Unset, int] = UNSET,
+    limit: Union[Unset, int] = 100,
+    prefer: Union[Unset, int] = 0,
+) -> Optional[
+    Union[Any, Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]]
+]:
+    """Get Azure entity
+
+     Retrieves entity information for the given Azure object ID.
+    If `related_entity_type` parameter is not set, this endpoint will return information
+    about a single entity. Using the `counts` boolean parameter will further modify the response.
+    If `related_entity_type` parameter is set, this endpoint will return information about entities
+    related to a single entity. The `type` parameter will morph the response data structure. The `list`
+    value for the `type` parameter also accepts `skip` and `limit` parameters.
+
+    Args:
+        entity_type (str):
+        object_id (str):
+        counts (Union[Unset, bool]):
+        related_entity_type (Union[Unset, str]):
+        type (Union[Unset, GetAzureEntityType]):  Default: GetAzureEntityType.LIST.
+        skip (Union[Unset, int]): The number of items to skip in a paginated response.
+        limit (Union[Unset, int]): The limit of results requested by the client. Default: 100.
+        prefer (Union[Unset, int]):  Default: 0.
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Union[Any, Union['GetAzureEntityEntity', 'GetAzureEntityResponse200Type1', 'GetAzureEntityResponse200Type2']]
+    """
+
+    return sync_detailed(
+        entity_type=entity_type,
+        client=client,
+        object_id=object_id,
+        counts=counts,
+        related_entity_type=related_entity_type,
+        type=type,
+        skip=skip,
+        limit=limit,
+        prefer=prefer,
+    ).parsed
+
+
+async def asyncio_detailed(
+    entity_type: str,
+    *,
+    client: Union[AuthenticatedClient, Client],
+    object_id: str,
+    counts: Union[Unset, bool] = UNSET,
+    related_entity_type: Union[Unset, str] = UNSET,
+    type: Union[Unset, GetAzureEntityType] = GetAzureEntityType.LIST,
+    skip: Union[Unset, int] = UNSET,
+    limit: Union[Unset, int] = 100,
+    prefer: Union[Unset, int] = 0,
+) -> Response[
+    Union[Any, Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]]
+]:
+    """Get Azure entity
+
+     Retrieves entity information for the given Azure object ID.
+    If `related_entity_type` parameter is not set, this endpoint will return information
+    about a single entity. Using the `counts` boolean parameter will further modify the response.
+    If `related_entity_type` parameter is set, this endpoint will return information about entities
+    related to a single entity. The `type` parameter will morph the response data structure. The `list`
+    value for the `type` parameter also accepts `skip` and `limit` parameters.
+
+    Args:
+        entity_type (str):
+        object_id (str):
+        counts (Union[Unset, bool]):
+        related_entity_type (Union[Unset, str]):
+        type (Union[Unset, GetAzureEntityType]):  Default: GetAzureEntityType.LIST.
+        skip (Union[Unset, int]): The number of items to skip in a paginated response.
+        limit (Union[Unset, int]): The limit of results requested by the client. Default: 100.
+        prefer (Union[Unset, int]):  Default: 0.
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Response[Union[Any, Union['GetAzureEntityEntity', 'GetAzureEntityResponse200Type1', 'GetAzureEntityResponse200Type2']]]
+    """
+
+    kwargs = _get_kwargs(
+        entity_type=entity_type,
+        object_id=object_id,
+        counts=counts,
+        related_entity_type=related_entity_type,
+        type=type,
+        skip=skip,
+        limit=limit,
+        prefer=prefer,
+    )
+
+    response = await client.get_async_httpx_client().request(**kwargs)
+
+    return _build_response(client=client, response=response)
+
+
+async def asyncio(
+    entity_type: str,
+    *,
+    client: Union[AuthenticatedClient, Client],
+    object_id: str,
+    counts: Union[Unset, bool] = UNSET,
+    related_entity_type: Union[Unset, str] = UNSET,
+    type: Union[Unset, GetAzureEntityType] = GetAzureEntityType.LIST,
+    skip: Union[Unset, int] = UNSET,
+    limit: Union[Unset, int] = 100,
+    prefer: Union[Unset, int] = 0,
+) -> Optional[
+    Union[Any, Union["GetAzureEntityEntity", "GetAzureEntityResponse200Type1", "GetAzureEntityResponse200Type2"]]
+]:
+    """Get Azure entity
+
+     Retrieves entity information for the given Azure object ID.
+    If `related_entity_type` parameter is not set, this endpoint will return information
+    about a single entity. Using the `counts` boolean parameter will further modify the response.
+    If `related_entity_type` parameter is set, this endpoint will return information about entities
+    related to a single entity. The `type` parameter will morph the response data structure. The `list`
+    value for the `type` parameter also accepts `skip` and `limit` parameters.
+
+    Args:
+        entity_type (str):
+        object_id (str):
+        counts (Union[Unset, bool]):
+        related_entity_type (Union[Unset, str]):
+        type (Union[Unset, GetAzureEntityType]):  Default: GetAzureEntityType.LIST.
+        skip (Union[Unset, int]): The number of items to skip in a paginated response.
+        limit (Union[Unset, int]): The limit of results requested by the client. Default: 100.
+        prefer (Union[Unset, int]):  Default: 0.
+
+    Raises:
+        errors.UnexpectedStatus: If the server returns an undocumented status code and Client.raise_on_unexpected_status is True.
+        httpx.TimeoutException: If the request takes longer than Client.timeout.
+
+    Returns:
+        Union[Any, Union['GetAzureEntityEntity', 'GetAzureEntityResponse200Type1', 'GetAzureEntityResponse200Type2']]
+    """
+
+    return (
+        await asyncio_detailed(
+            entity_type=entity_type,
+            client=client,
+            object_id=object_id,
+            counts=counts,
+            related_entity_type=related_entity_type,
+            type=type,
+            skip=skip,
+            limit=limit,
+            prefer=prefer,
+        )
+    ).parsed

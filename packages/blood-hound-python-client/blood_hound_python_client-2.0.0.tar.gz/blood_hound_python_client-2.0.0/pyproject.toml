@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "blood-hound-python-client"
+version = "2.0.0"
+description = "A client library for accessing BloodHound API"
+authors = ["SpecterOps <info@specterops.io>"]
+license = "APACHE"
+readme = "README.md"
+homepage = "https://github.com/SpecterOps/bloodhound-python-sdk"
+repository = "https://github.com/SpecterOps/bloodhound-python-sdk"
+keywords = ["bloodhound", "api", "sdk", "client"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+packages = [
+    { include = "blood_hound_api_client", from = "sdk" },
+    { include = "auth" },
+    { include = "examples" }
+]
+
+include = [
+    "sdk/blood_hound_api_client/py.typed",
+    "README.md",
+    "CHANGELOG.md"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.27"
+attrs = ">=21.3.0"
+python-dateutil = "^2.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
