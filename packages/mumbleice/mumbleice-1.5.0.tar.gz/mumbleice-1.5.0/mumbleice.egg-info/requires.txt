@@ -1,0 +1,4 @@
+pymumble
+ffmpeg-python
+pydub
+pyaml-env
