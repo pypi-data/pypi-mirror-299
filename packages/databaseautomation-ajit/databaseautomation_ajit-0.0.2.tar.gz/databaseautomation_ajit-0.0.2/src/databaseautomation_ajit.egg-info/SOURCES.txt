@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/databaseautomation_ajit.egg-info/PKG-INFO
+src/databaseautomation_ajit.egg-info/SOURCES.txt
+src/databaseautomation_ajit.egg-info/dependency_links.txt
+src/databaseautomation_ajit.egg-info/requires.txt
+src/databaseautomation_ajit.egg-info/top_level.txt
+src/mongodb_connect/__init__.py
+src/mongodb_connect/mongo_crud.py
