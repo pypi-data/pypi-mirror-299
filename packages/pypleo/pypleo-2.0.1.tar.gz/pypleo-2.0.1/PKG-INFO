@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pypleo
+Version: 2.0.1
+Summary: API client for legacy Pleo API
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# pypleo

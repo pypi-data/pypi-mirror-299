@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pypleo/__init__.py
+pypleo/pleo_api_client.py
+pypleo.egg-info/PKG-INFO
+pypleo.egg-info/SOURCES.txt
+pypleo.egg-info/dependency_links.txt
+pypleo.egg-info/requires.txt
+pypleo.egg-info/top_level.txt
