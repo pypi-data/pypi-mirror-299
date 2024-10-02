@@ -1,0 +1,7 @@
+xlm-roberta-base-fine-tuning-text-classifier-lux/__init__.py,sha256=tzP4cG-7uHqaUGDxoD39BOGC3izr-706iq-VVJ4r3Bs,114
+xlm-roberta-base-fine-tuning-text-classifier-lux/text_classification_model.py,sha256=qV35MjUMSP50etWlQBbCyuWHLymBaB-2jOmNaf9oRtQ,12614
+xlm_roberta_base_fine_tuning_text_classifier_lux-0.1.1.dist-info/LICENSE,sha256=nrb2nUih3XZOijPxSlhPRg087GU0d8E2qV3W35wkkhE,1055
+xlm_roberta_base_fine_tuning_text_classifier_lux-0.1.1.dist-info/METADATA,sha256=erQQEvQqP5Jy6jYBQzjqXyntNn9mVryZwdWNhpCJu6c,12556
+xlm_roberta_base_fine_tuning_text_classifier_lux-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xlm_roberta_base_fine_tuning_text_classifier_lux-0.1.1.dist-info/top_level.txt,sha256=KWCRL3b-SLRte1YZyf3aqBiZ1S5YrV3YlP9IV5wdAgc,49
+xlm_roberta_base_fine_tuning_text_classifier_lux-0.1.1.dist-info/RECORD,,
