@@ -1,0 +1,17 @@
+numpy
+scipy
+pandas>=2.0.0
+sciris>=3.2.0
+matplotlib
+numba
+networkx
+optuna
+
+[fastmath]
+intel-cmplr-lib-rt
+
+[test]
+pytest>=7.3
+pytest-cov
+pytest-env
+pytest-xdist
