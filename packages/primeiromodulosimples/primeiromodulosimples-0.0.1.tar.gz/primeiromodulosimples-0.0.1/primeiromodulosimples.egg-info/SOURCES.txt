@@ -1,0 +1,12 @@
+README.md
+setup.py
+primeiromodulosimples/__init__.py
+primeiromodulosimples/add.py
+primeiromodulosimples/subtract.py
+primeiromodulosimples.egg-info/PKG-INFO
+primeiromodulosimples.egg-info/SOURCES.txt
+primeiromodulosimples.egg-info/dependency_links.txt
+primeiromodulosimples.egg-info/top_level.txt
+primeiromodulosimples/extras/__init__.py
+primeiromodulosimples/extras/divide.py
+primeiromodulosimples/extras/multiply.py
