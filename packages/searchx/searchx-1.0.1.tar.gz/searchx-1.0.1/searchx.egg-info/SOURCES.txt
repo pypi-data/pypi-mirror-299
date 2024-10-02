@@ -1,0 +1,12 @@
+README.md
+setup.py
+searchx/Client.py
+searchx/__init__.py
+searchx.egg-info/PKG-INFO
+searchx.egg-info/SOURCES.txt
+searchx.egg-info/dependency_links.txt
+searchx.egg-info/requires.txt
+searchx.egg-info/top_level.txt
+searchx/lib/__init__.py
+searchx/lib/objects.py
+searchx/lib/settings.py
