@@ -1,0 +1,9 @@
+popui/__init__.py,sha256=thgRe25dLPBognV9FriV8n03PcUEnAVKTNpHaQ-ekBw,26
+popui/clipboard.py,sha256=k-BdjOT9ritKyTwRfWIMxHhkda66K0hVezidbNlmiog,11501
+popui/example.py,sha256=i4zNriiTQIZA6guEMCCIhEclvHMIiAytO-0DnsHaCv4,616
+popui/keys.py,sha256=tH71J0FcW0oba0uzqROK5l_suRDkQTVIWABrPGS6RJ0,6972
+popui/popup.py,sha256=TMJ6txMeude0MM-G0LOb73PR6BaTEHEMqRQRJ3WAKRg,13184
+popui-0.0.12.dist-info/METADATA,sha256=HbhxRlzQ2_p8pIQkL6hGQci22qzKB21TnV_pnQW9Svk,3584
+popui-0.0.12.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+popui-0.0.12.dist-info/top_level.txt,sha256=wdmZ0qCikcqe2GUbqvfSsHlwOgpYVENcvtegJmW-T5w,6
+popui-0.0.12.dist-info/RECORD,,
