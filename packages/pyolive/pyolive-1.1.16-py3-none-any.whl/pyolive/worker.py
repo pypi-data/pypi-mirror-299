@@ -1,0 +1,52 @@
+import os
+import threading
+import time
+from .context import JobContext
+
+
+class Worker(threading.Thread):
+    def __init__(self, resource, channel, agent_logger, app_logger, context:JobContext):
+        super().__init__()
+        self.daemon = True
+        self.resource = resource
+        self.channel = channel
+        self.agent_logger = agent_logger
+        self.app_logger = app_logger
+        self.context = context
+
+    def run(self):
+        r = self.resource(logger=self.app_logger,
+                          channel=self.channel,
+                          context=self.context)
+
+        # joblog start message
+        tm_st = int(time.time())
+        self.channel.publish_notify(self.context, 'job start', 2)
+        self.agent_logger.info("main, start app, %s", self.context.action_app)
+        self.app_logger.info("main: jobid[%s]", self.context.job_id)
+
+        files = self.context.get_fileset()
+        for _f in files:
+            self.app_logger.info("main: in-file (%s, %d)", _f, os.path.getsize(_f))
+
+        """user main function invoke
+        return value
+            success = 0
+            failure = 1
+        """
+        rt = r.main()
+        if rt == 0:
+            tm_ed = int(time.time())
+
+            files = self.context.get_fileset()
+            for _f in files:
+                self.app_logger.info("main: out-file (%s, %d)", _f, os.path.getsize(_f))
+
+            self.agent_logger.info("main, end   app, %s", self.context.action_app)
+            self.app_logger.info("main: status is success")
+            self.channel.publish_job(self.context)
+            self.channel.publish_notify(self.context, 'job end, success', 4, tm_ed-tm_st)
+        else:
+            self.agent_logger.warning("main, end   app, %s", self.context.action_app)
+            self.app_logger.info("main: status is failure")
+            self.channel.publish_notify(self.context, 'job end, failed', 7)
