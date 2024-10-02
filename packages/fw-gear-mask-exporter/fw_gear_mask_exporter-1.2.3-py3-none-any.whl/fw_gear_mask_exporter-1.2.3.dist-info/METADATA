@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fw-gear-mask-exporter
+Version: 1.2.3
+Summary: 
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: charset-normalizer (>=2.1.1,<3.0.0)
+Requires-Dist: flywheel-gear-toolkit (>=0.6.18,<0.7.0)
+Requires-Dist: flywheel-sdk (>=16.19.0,<17.0.0)
+Requires-Dist: fw-client (>=0.8.6,<0.9.0)
+Requires-Dist: fw-file (>=3.4.0,<4.0.0)
+Requires-Dist: nibabel (>=5.1.0,<6.0.0)
+Requires-Dist: numpy (>=1.24.3,<2.0.0)
+Requires-Dist: pydicom (>=2.3.1,<3.0.0)
+Requires-Dist: pynrrd (>=1.0.0,<2.0.0)
+Requires-Dist: scikit-image (>=0.24.0,<0.25.0)
+Requires-Dist: urllib3 (>=1.26.12,<2.0.0)
