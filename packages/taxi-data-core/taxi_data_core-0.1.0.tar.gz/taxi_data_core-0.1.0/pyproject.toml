@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+# Specify directories where tests are located
+testpaths = [
+    "tests",  # Adjust this to the correct path where your test files are located
+]
+
+# Add 'src' to Python path
+pythonpath = ["../src"]
+
+# Additional pytest options
+addopts = "-v"
+
+# Specify patterns to identify test files (if needed)
+python_files = ["test_*.py", "*_test.py"]
+
+# Specify patterns to identify test functions (if needed)
+python_functions = ["test_*"]
+
+# Specify patterns to identify test classes (if needed)
+python_classes = ["Test*"]
+
