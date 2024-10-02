@@ -1,0 +1,2 @@
+[console_scripts]
+GitAdmin = GitAdmin.cli:main
