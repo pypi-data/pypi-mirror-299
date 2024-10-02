@@ -1,0 +1,2 @@
+[console_scripts]
+retmap = retmap.main:main
