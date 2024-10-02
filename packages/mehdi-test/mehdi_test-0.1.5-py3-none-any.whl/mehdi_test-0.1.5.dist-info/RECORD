@@ -1,0 +1,12 @@
+mehdi_test/__init__.py,sha256=tkVNHxOryVTldy52fY0yYADZDdtdEqSTa_1imzX1Cvg,135
+mehdi_test/mehdi_test.py,sha256=MbFL-8_GjZfheTGtBrMJobJkKsm5WpLHP4LZw860WV0,185
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/utils.py,sha256=nY6FMpuMFKECgqrvHvwV4sy6WttHbXCCkhDmD90UwQQ,33
+tests/__init__.py,sha256=VJbtkXzxYlXnoIBCzTU9ykPt19k50_w3P-fFh_XNsUs,40
+tests/test_mehdi_test.py,sha256=tmvomOcxTMBue9FgeVXpy6OZgCPjOUc4_6KCspM4MGU,402
+mehdi_test-0.1.5.dist-info/AUTHORS.rst,sha256=43OmxCPVscdyEKpukAoZt06Jgy8f7bHbCCwfDYj-5DI,163
+mehdi_test-0.1.5.dist-info/LICENSE,sha256=nsPj7muHr62HLO2XLU4l2zP63ag5vqtMU2apjRVKpiU,1074
+mehdi_test-0.1.5.dist-info/METADATA,sha256=9ukjyMerTVB8Hwmqsl-l_DCisIjjzWfSSABF777RIkQ,527
+mehdi_test-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mehdi_test-0.1.5.dist-info/top_level.txt,sha256=KycWuIyXwWZufYpE5uVAoT_ieKNk8952miwlqze6N_g,21
+mehdi_test-0.1.5.dist-info/RECORD,,
