@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ehrnote
+Version: 0.0.dev1
+Summary: Data Science Toolkit for Healthcare Note
+Author-email: name <author@example.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wasabi
+Requires-Dist: datasets
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: scikit-llm
+Requires-Dist: xgboost
+Requires-Dist: spacy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+
+# EHR: Data Science Toolkit for Healthcare Note
+
+## Goal
+
+Data science toolkit for clinical notes.
+
+## Setup Dev Environment
+
+```terminal
+conda create -n ehrnote python=3.12 -y
+conda activate ehrnote
+pip install uv  # first time only
+make tools
+```
+
+## References
+
+* Others
+  * https://realpython.com/pypi-publish-python-package/
