@@ -1,0 +1,5 @@
+[console_scripts]
+autoimport = autoimport.entrypoints.cli:cli
+
+[gui_scripts]
+
