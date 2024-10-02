@@ -1,0 +1,10 @@
+fastgaia/__init__.py,sha256=GTT4HUmAhM8ebiMz6vb92qOmCPXr5sOGGQw2LBavznI,61
+fastgaia/cli.py,sha256=fmp3DCW66S8LfiQAvyfcdSnZcFFpLrDLcH_DltQ2Sos,3745
+fastgaia/main.py,sha256=M8Qt05K3dbKINWa6vU6lulOEO5onMGpCKqmfN16UVs0,27593
+fastgaia/utils.py,sha256=q9DEed8rJJpsGHv2LpU_VO36NX90rW8HG4Q1pBLQ0jo,19
+fastgaia-0.1.0.dist-info/LICENSE,sha256=5mNvo5w-2Yo4fi0jivhTc8LrHPSot14PRSophBp59mI,51
+fastgaia-0.1.0.dist-info/METADATA,sha256=8g8OKW7w6bOp8nmelRY_zWsevNEWcARGMt_qHYbArKo,1146
+fastgaia-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fastgaia-0.1.0.dist-info/entry_points.txt,sha256=ASvDifLMulV1vlU96gLEYyj8N5lflKSJPhMXMoQNaHs,47
+fastgaia-0.1.0.dist-info/top_level.txt,sha256=R1ExHWvA3LKzw5mHxPHUUmvLuSoWjH5uN1gLpiRXEzM,9
+fastgaia-0.1.0.dist-info/RECORD,,
