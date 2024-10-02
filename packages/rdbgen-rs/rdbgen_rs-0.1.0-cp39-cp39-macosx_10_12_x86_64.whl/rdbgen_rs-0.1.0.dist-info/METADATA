@@ -1,0 +1,13 @@
+Metadata-Version: 2.3
+Name: rdbgen-rs
+Version: 0.1.0
+License-File: LICENSE
+Summary: Generate Redis dump files (.rdb) from native Python objects through Rust
+Author-email: Jonas Dedden <university@jonas-dedden.de>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# rdb-rs
+
+Generate Redis dump files (.rdb) from native Python objects through Rust
+
