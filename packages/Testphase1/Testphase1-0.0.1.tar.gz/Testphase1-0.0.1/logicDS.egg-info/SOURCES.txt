@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+logicDS/__init__.py
+logicDS.egg-info/PKG-INFO
+logicDS.egg-info/SOURCES.txt
+logicDS.egg-info/dependency_links.txt
+logicDS.egg-info/top_level.txt

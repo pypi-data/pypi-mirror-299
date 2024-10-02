@@ -1,0 +1,1 @@
+This is a list of functions leading to calculating linear function.Stareted with the mean and slope of data
