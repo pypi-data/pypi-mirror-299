@@ -1,0 +1,342 @@
+Metadata-Version: 2.1
+Name: fw-gear-dicom-seg-to-ohif
+Version: 0.0.4
+Summary: Flywheel Gear for converting DICOM SEG ROIs to OHIF JSON
+Home-page: https://gitlab.com/flywheel-io/scientific-solutions/gears/dicom-seg-to-ohif
+License: MIT
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: colormath (>=3.0.0,<4.0.0)
+Requires-Dist: flywheel-gear-toolkit (>=0.6.18,<0.7.0)
+Requires-Dist: flywheel-sdk (>=16.19.2,<17.0.0)
+Requires-Dist: fw-client (>=0.7.4,<0.8.0)
+Requires-Dist: fw-file (>=3.3.2,<4.0.0)
+Requires-Dist: ipykernel (>=6.29.3,<7.0.0)
+Requires-Dist: scikit-image (>=0.22.0,<0.23.0)
+Project-URL: Repository, https://gitlab.com/flywheel-io/scientific-solutions/gears/dicom-seg-to-ohif
+Description-Content-Type: text/markdown
+
+# DICOM-SEG-to-OHIF
+
+## Overview
+
+DICOM SEGs are segmentation files that include ROI segment information
+and pixel data related to a source DICOM file. The dicom-seg-to-ohif gear
+is provided so that these segments can be converted to OHIF annotations
+compatible with the Flywheel viewer.
+
+### Summary
+
+This Flywheel gear converts DICOM SEG ROIs to OHIF annotations.
+
+### Cite
+
+No citations noted.
+
+### License 
+
+*License:* *MIT*
+
+### Classification
+
+*Category:* *Converter*
+
+*Gear Level:*
+
+- [ ] Project
+- [ ] Subject
+- [ ] Session
+- [X] Acquisition
+- [ ] Analysis
+
+----
+
+[[_TOC_]]
+
+----
+
+### Inputs
+
+- *dicom_seg*
+  - __Name__: *dicom_seg*
+  - __Type__: *DICOM file*
+  - __Optional__: *False*
+  - __Description__: *DICOM SEG file with one or more segments*
+- *source_dicom*
+  - __Name__: *source_dicom*
+  - __Type__: *DICOM file*
+  - __Optional__: *True*
+  - __Description__: *Optional: Source DICOM connected to DICOM SEG*
+  - __Notes__: *A source DICOM file is required for the gear to run.*
+  *If not provided as input, the gear will search the session container*
+  *for a DICOM that corresponds with the inputted DICOM SEG. If a source*
+  *DICOM is not identified (or more than one is identified), the gear*
+  *will fail and log instructions to re-run the gear with source_dicom*
+  *explicitly inputted into the gear.*
+
+### Config
+
+- *debug*
+  - __Name__: *debug*
+  - __Type__: *boolean*
+  - __Description__: *Log debug messages*
+  - __Default__: *False*
+- *task_id*
+  - __Name__: *task_id*
+  - __Type__: *string*
+  - __Description__: *Task ID of the task in which to store the created annotations.*
+  - __Optional__: *True*
+  - __Notes__: *Gear requires either task_id OR protocol_id. If neither are*
+  *provided, gear will exit and log an error requesting that the gear be*
+  *re-run with either a valid task_id or protocol_id provided.*
+- *protocol_id*
+  - __Name__: *protocol_id*
+  - __Type__: *string*
+  - __Description__: *Protocol ID of the protocol to use when creating a*
+  *new task, if no task_id.*
+  - __Optional__: *True*
+  - __Notes__: *Gear requires either task_id OR protocol_id. If neither are*
+  *provided, gear will exit and log an error requesting that the gear be*
+  *re-run with either a valid task_id or protocol_id provided. If both a*
+  *task_id and protocol_id are inputted, gear will strictly*
+  *utilize the task_id.*
+- *annotation_description*
+  - __Name__: *annotation_description*
+  - __Type__: *string*
+  - __Description__: *Additional information to be appended to each created annotation's `description` field.*
+  - __Optional__: *True*
+- *if_annotations_exist*
+  - __Name__: *if_annotations_exist*
+  - __Type__: *string*
+  - __Description__: *Selected behavior if `task_id` is provided and other annotations*
+  *are already connected to the task. Options are `override`, `append`, `exit`.*
+  - __Default__: `exit`
+- *assignee*
+  - __Name__: *assignee*
+  - __Type__: *string*
+  - __Description__: *If creating a new task, the Flywheel user the task is to be assigned.*
+  *If left blank, the assignee will default to the user running the gear. User ID is the*
+  *login email address, i.e "susannahtrevino@flywheel.io".*
+  - __Optional__: *True*
+
+### Outputs
+
+This gear outputs OHIF annotations attached to a task container, viewable 
+with the Flywheel Viewer. More information on tasks can be found 
+[here](https://docs.flywheel.io/User_Guides/user_introduction_to_read_tasks/).
+Please note that this gear can only run on Flywheel instances where
+read tasks are enabled. If you do not have read tasks enabled or are
+unsure that your instance is set up for this, please contact your 
+Flywheel Representative.
+
+#### Files
+
+No files are outputted by this gear.
+
+#### Metadata
+
+No metadata is created or modified by this gear.
+
+### Pre-requisites
+
+#### Prerequisite Gear Runs
+
+No prerequisite gear runs are required by this gear.
+
+#### Prerequisite Files
+
+No prerequisite files are required by this gear.
+
+#### Prerequisite Metadata
+
+Prerequisite metadata are not required by this gear.
+
+## Usage
+
+### Description
+
+This gear takes as input a DICOM SEG with one or more segments. It 
+provides as output OHIF annotation representations of these segmentations.
+These annotations are stored in a task container as specified by the
+`task_id` or `protocol_id` config. If a task_id is specified, the
+existing task will be utilized as the container for the annotations. If
+protocol_id is specified, the gear will create a new task utilizing the
+given protocol_id. The annotations are overlaid on the source DICOM.
+
+#### File Specifications
+
+This gear can be run on a DICOM SEG with one or more segmentations,
+where the source DICOM is either found in the same session container
+as the inputted DICOM SEG or inputted explicitly.
+
+#### Known Limitations
+
+This gear assumes that if Derivation Image Sequence and Source Image
+Sequence DICOM tags exist, there is exactly one of each. This gear does
+not currently handle cases where multiple of one or both tags are present
+in the source DICOM.
+
+Oblique images (not axial/sagittal/coronal) are not supported by this gear.
+
+### Workflow
+
+```mermaid
+graph LR;
+    A[DICOM SEG]:::input --> E;
+    B[Source DICOM]:::input -.->|optional| E((DICOM-SEG-to-OHIF));
+    C[task_id or protocol_id] --> E;
+
+    E:::gear --> G[OHIF annotations \n attached to \n task container]:::container;
+
+    classDef container fill:#57d,color:#fff
+    classDef input fill:#7a9,color:#fff
+    classDef gear fill:#659,color:#fff
+
+```
+
+Description of workflow
+
+1. Upload DICOM SEG to acquisition container
+1. Upload source DICOM to acquisition container within the same
+session as the DICOM SEG
+1. Select DICOM SEG as input to gear
+1. Gear attaches output OHIF annotations to task
+
+### Use Cases
+
+#### Use Case 1: DICOM SEG with gear-identified source DICOM 
+
+__*Conditions:*__
+
+- DICOM SEG and source DICOM are uploaded to the same session container
+- Exactly one DICOM within the session container matches the DICOM SEG
+
+After inputting the DICOM SEG and beginning the gear run, the gear will
+search for the source DICOM within the session container. The gear
+will then utilize the source DICOM as needed in conjunction with the
+DICOM SEG to create the OHIF annotation output.
+
+#### Use Case 2: DICOM SEG with inputted source DICOM 
+
+__*Conditions:*__
+
+- DICOM SEG and source DICOM are uploaded to Flywheel
+- Source DICOM is not in the same session container, or multiple
+DICOMs in the session container match the DICOM SEG
+
+The DICOM SEG and source DICOM must both be provided as inputs. The
+gear will utilize the inputted source DICOM instead of searching
+for the file within the session container.
+
+#### Use Case 3: Attaching OHIF annotations to already-existing task
+
+__*Conditions:*__
+
+- Task with which to contain the annotations is already created
+
+By inputting the `task_id` of the already-created task, this gear will
+connect all outputted annotations to the designated task.
+
+#### Use Case 4: Comparing two sets of segmentations in OHIF
+
+__*Conditions:*__
+
+- Task with which to contain the annotations is already created
+- Multiple DICOM-SEG files exist for the same source DICOM
+- User wants to compare the two DICOM-SEG annotations
+
+By running this gear twice with two different DICOM-SEG files and configuring
+the gear run with the same `task_id` and setting `if_annotations_exist="append"`,
+both gear runs will add annotations to the same task container. By configuring
+`annotation_description` with contrasting text (i.e. information about how the
+DICOM-SEG was created), these annotations can be better identified while
+utilizing the Flywheel Viewer.
+
+#### Use Case 5: Attaching OHIF annotations to new task with existing protocol
+
+__*Conditions:*__
+
+- New task is needed to contain the annotations
+- Protocol with which to create a new task exists
+
+By inputting the `protocol_id` of the protocol to be used to create a 
+new task, the gear will initialize a new task with the given protocol,
+allowing protocol configurations to be re-used for each new task.
+
+#### Use Case 6: Attaching OHIF annotations to new task, no existing protocol
+
+__*Conditions:*__
+
+- New task is needed to contain the annotations
+- A protocol with which to create a new task does not yet exist
+
+In Flywheel, all read tasks require a protocol. This protocol sets a variety
+of configuration options, and without a protocol, any attached annotations
+would not be viewable within the Flywheel Viewer. 
+
+One way to create a new protocol is via a python script. The below code
+snippet can be used for this purpose, leveraging FWClient to make API calls:
+
+```python
+from fw_client import FWClient
+
+fw = FWClient(api_key=api_key)  # Insert your API key here
+
+form_info = {
+    "viewer": "OHIF",
+    "parent": {
+        "type": container,  # site/project
+        "id": parent_id  # id of container
+    },
+    "form": {}  # If desired, a form can be configured here; left blank will initialize the task without an attached form.
+}
+
+form = fw.post('/api/forms', json=form_info)
+
+viewer_info = {
+    "name": "DICOM SEG viewer config",  # Can be changed
+    "config": {}  # If desired, viewer config options can be added here; left blank will initialize the default viewer.
+}
+
+viewer = fw.post('/api/viewerconfigs', json=viewer_info)
+
+protocol_info = {
+    "label": "DICOM SEG to OHIF",  # Can be changed
+    "description": "Protocol for DICOM SEG to OHIF",  # Can be changed
+    "form_id": form._id,
+    "viewer_config_id": viewer._id,
+    "parent": {
+        "type": container,  # Match the container provided for form_info
+        "id": parent_id  # Match the parent_id provided for form_info
+    }
+}
+
+protocol = fw.post('/api/read_task_protocols', json=protocol_info)
+
+print(protocol._id)
+```
+
+### Logging
+
+This gear logs information about the gear run, including configuration settings,
+segments found within the DICOM SEG, and calls made to the Flywheel API.
+If the gear run encounters a known error, the gear logs what occurred and, if
+applicable, what to do to fix the error in a subsequent run.
+
+## FAQ
+
+[FAQ.md](docs/faq.md)
+
+## Contributing
+
+For more information about how to get started contributing to that gear,
+checkout [CONTRIBUTING.md](CONTRIBUTING.md).
+<!-- markdownlint-disable-file -->
+
