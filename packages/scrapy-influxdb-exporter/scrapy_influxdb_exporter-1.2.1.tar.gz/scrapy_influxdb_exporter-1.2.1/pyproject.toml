@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scrapy-influxdb-exporter"
+version = "1.2.1"
+authors = [{ "name" = "Stefano Fusai", "email" = "stefanofusai@gmail.com" }]
+description = "Export Scrapy spider stats to InfluxDB."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["influxdb3-python", "scrapy"]
+
+[project.urls]
+Homepage = "https://github.com/stefanofusai/scrapy-influxdb-exporter"
+Repository = "https://github.com/stefanofusai/scrapy-influxdb-exporter"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D100", "D104", "D203", "D213", "ISC001"]
