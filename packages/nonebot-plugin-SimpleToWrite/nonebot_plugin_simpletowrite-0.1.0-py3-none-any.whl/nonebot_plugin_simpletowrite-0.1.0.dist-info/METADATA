@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_SimpleToWrite
+Version: 0.1.0
+Summary: 为0编程基础的小白提供便捷的功能编写
+Author-Email: STESmly <STESmly@mail.com>
+Project-URL: Homepage, https://github.com/STESmly/nonebot_plugin_SimpleToWrite
+Project-URL: Repository, https://github.com/STESmly/nonebot_plugin_SimpleToWrite
+Requires-Python: <4.0,>=3.8
+Requires-Dist: nonebot2>=2.2.1
+Requires-Dist: nonebot-adapter-onebot>=2.4.3
+Description-Content-Type: text/markdown
+
+# nonebot_plugin_SimpleToWrite
+为0编程基础的小白提供便捷的功能编写
