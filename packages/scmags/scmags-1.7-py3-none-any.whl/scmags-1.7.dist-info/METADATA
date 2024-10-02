@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: scmags
+Version: 1.7
+Summary: Single Cell Marker Gene Selection Tool For Spatial Trancriptomics
+Home-page: https://github.com/doganlab/scmags
+Author: Yusuf Baran
+Author-email: fusuf.baran@gmail.com
+Maintainer: Yusuf Baran
+Maintainer-email: fusuf.baran@gmail.com
+License: Apache-2.0
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: seaborn
+
+
+
+### scMAGS: Marker Gene Selection From scRNA-seq Data for Spatial Transcriptomics Studies
+
+![plot](./docs/source/scmags_AbstractV2.png)
+
+* scmags selects marker genes from scRNA-seq data that are exclusive to each cell type such that, selected marker genes are highly expressed in a specific cell type while lowly expressed in other cell types.
+
+* See the [article](https://www.sciencedirect.com/science/article/abs/pii/S0010482523000999) for more detailed information.
+
+### Installation
+
+* * *
+
+* scmags can be installed as follows:
+```
+$ pip install scmags
+```
+
+* Also the development verison of scmags can be installed from master branch of Git repository:
+
+```
+$ pip install git+https://github.com/doganlab/scmags
+```
+* See the [tutorial](https://scmags.readthedocs.io/en/latest/)  for more detailed information.
+
+### Citation
+
+* * * 
+
+Please cite the following publication if you find scmags beneficial in your study:
+
+Baran, Y., & Doğan, B. scMAGS: Marker gene selection from scRNA-seq data for spatial transcriptomics studies. *Computers In Biology and Medicine* (2023): 106634. https://doi.org/10.1016/j.compbiomed.2023.106634
