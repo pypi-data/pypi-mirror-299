@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+joselogs/__init__.py
+joselogs/logger.py
+joselogs.egg-info/PKG-INFO
+joselogs.egg-info/SOURCES.txt
+joselogs.egg-info/dependency_links.txt
+joselogs.egg-info/top_level.txt
+joselogs/pyarmor_runtime_000000/__init__.py
