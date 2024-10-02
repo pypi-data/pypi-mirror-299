@@ -1,0 +1,12 @@
+README.md
+setup.py
+my-first-verysimplemodule/__init__.py
+my-first-verysimplemodule/add.py
+my-first-verysimplemodule/subtract.py
+my-first-verysimplemodule/extras/__init__.py
+my-first-verysimplemodule/extras/divide.py
+my-first-verysimplemodule/extras/multiply.py
+my_first_verysimplemodule.egg-info/PKG-INFO
+my_first_verysimplemodule.egg-info/SOURCES.txt
+my_first_verysimplemodule.egg-info/dependency_links.txt
+my_first_verysimplemodule.egg-info/top_level.txt
