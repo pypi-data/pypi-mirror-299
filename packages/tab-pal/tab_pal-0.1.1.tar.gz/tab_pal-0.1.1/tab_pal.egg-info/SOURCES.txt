@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+tab_pal/__init__.py
+tab_pal/tab_pal.py
+tab_pal/tabpal.tcss
+tab_pal.egg-info/PKG-INFO
+tab_pal.egg-info/SOURCES.txt
+tab_pal.egg-info/dependency_links.txt
+tab_pal.egg-info/entry_points.txt
+tab_pal.egg-info/requires.txt
+tab_pal.egg-info/top_level.txt

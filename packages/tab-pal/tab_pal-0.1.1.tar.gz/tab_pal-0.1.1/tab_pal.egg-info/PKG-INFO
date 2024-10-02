@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: tab-pal
+Version: 0.1.1
+Summary: A TUI for adding and editing Tableau custom colour palettes.
+Author-email: Ben Nour <hello@ben-nour.com>
+License: MIT License
+        
+        Copyright (c) 2024 Ben
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/ben-n93/tab-pal
+Project-URL: repository, https://github.com/ben-n93/tab-pal
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: textual==0.81.0
+
+# tab-pal
+
+`tab-pal` is a TUI that makes it easier to add and edit custom colour palettes in Tableau.
+
+<p align="center">
+    <a href="https://pypi.python.org">
+        <img src="https://github.com/ben-n93/tab-pal/assets/84557025/d26de9c5-434e-4299-a35d-e97cb46ae57d" alt="tab-pal-demo">
+    </a>
+</p>
+
+## Installation
+
+You can install via `pip` although I suggest using [`pipx`](https://pipx.pypa.io/stable/) so you can use it regardless of which virtual environmental you have (or don't have) activated:
+
+```
+pipx install tab-pal
+```
+
+## Configuration
+
+`tab-pal` will automatically search for your `Preferences.tsp` file on launch however if it can't be found you'll be prompted for the file path.
+
+Alternatively, and what is recommended, is to create an enviromental variable called `TAB_PAL_FILE`, which `tab-pal` will search for on launch. This will ensure you don't need to keep supplying the file path every time you launch `tab-pal`.
+
+## Usage
+
+Add, edit and delete palettes to your heart's content!
+
+You might need to restart Tableau if you're using `tab-pal` concurrently to add/edit palettes in order to see the changes applied in Tableau.
+
+Note that if you're using Terminal on Macbook some palette colour previews might not render correctly, as Terminal is limited to 256 colors. Instead, use [iTerm2](https://iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/).
+
+
