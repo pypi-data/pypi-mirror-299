@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: TrueRandomness
+Version: 1.2
+Summary: A Python library that generates true randomness using real-time data.
+Home-page: https://github.com/SForces/TrueRandomness-Python
+Author: SForces
+Author-email: forces3564@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TrueRandomness
+A Python library that provides true randomness using real-time data. This library leverages time, date, and other system attributes to generate non-deterministic and hard-to-predict values.
