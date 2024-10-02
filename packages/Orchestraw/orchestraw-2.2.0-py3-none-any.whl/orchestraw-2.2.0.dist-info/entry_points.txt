@@ -1,0 +1,3 @@
+[console_scripts]
+ost = orchestraw.__main__:main
+ostm = orchestraw.metaeditor:main
