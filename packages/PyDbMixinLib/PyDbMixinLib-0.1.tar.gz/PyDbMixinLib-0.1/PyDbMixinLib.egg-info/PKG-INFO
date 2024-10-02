@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PyDbMixinLib
+Version: 0.1
+Summary: A mixin for working with databases in FastAPI using SQLAlchemy.
+Home-page: https://github.com/ArtemTaU/PyDbMixinLib
+Author: ArtemTaU
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.95.0
+Requires-Dist: sqlalchemy>=1.4
+
+# DatabaseMixin
+
+DatabaseMixin is a Python library for FastAPI and SQLAlchemy. It provides a set of helper methods for common database operations, including retrieving, creating, updating, and deleting records.
+
+## Installation
+
+To install DatabaseMixin, you can simply use pip:
+
+```bash
+pip install database_mixin
