@@ -1,0 +1,23 @@
+[project]
+name = "outputs"
+version = "1.11"
+description = "这是一个用于扩展CLI打印功能的Python库，主要发展方向是类似`logging`的日志记录功能，但也发展其它方向，而且还支持PinkShell的高仿样式。"
+dependencies = ["conkits"]
+authors = [{ name = "Pinpe", email = "813233375@qq.com"}]
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"blog-url" = "https://pinpe.top"
