@@ -1,0 +1,11 @@
+taxi_data_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taxi_data_core/blackandwhitecabs_com_au.py,sha256=uYUxpnkeqcvDLN1MwqSPEPDDurDALZ_3f7uCsSqDJd0,82005
+taxi_data_core/database.py,sha256=KrKS4w5sWHzh5lYb6YDUQgrNchp8PUOgRHwy1wZ-v68,28029
+taxi_data_core/google_sheets.py,sha256=vygLlzCGiwWzL0pFqeavIfiWmg73Z58xZ0wALfKcsoQ,37415
+taxi_data_core/nextechgps_com.py,sha256=QTuUSSJHdodtBdayti4tP8wRD_nJNXq7gfeIhs--0M0,29222
+taxi_data_core/schema.py,sha256=d1YzdwoWcdScKwd6VYI5ep4FgEG6JTp35s-MCGCbJh4,47755
+taxi_data_core-0.1.0.dist-info/LICENSE,sha256=M8zRvtcN09msetbnlVSZO3lwK4lv1nZyp0Ja-a3RBiI,1072
+taxi_data_core-0.1.0.dist-info/METADATA,sha256=Vuc1n_FWt3zldvTd5QRJfX5vR-4NImNfkKE_xQVIcu0,3348
+taxi_data_core-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+taxi_data_core-0.1.0.dist-info/top_level.txt,sha256=Bm5njGEdDchGSVEw4d-wgQtx6c33FmhlnN1Wrz-rOsA,15
+taxi_data_core-0.1.0.dist-info/RECORD,,
