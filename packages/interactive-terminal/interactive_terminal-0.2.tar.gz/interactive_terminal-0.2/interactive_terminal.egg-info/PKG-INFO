@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: interactive-terminal
+Version: 0.2
+Summary: An interactive terminal question and answer module.
+Author: Aiden Metcalfe
+Author-email: avaartshop@outlook.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Interactive Terminal
+
+`interactive_terminal` is a Python module that provides an easy-to-use interface for creating interactive command-line applications. With this module, developers can ask various types of questions, including text input, lists, confirmations, numeric inputs, ranges, and choices, all while validating user responses for a smooth user experience.
+
+## Features
+
+- Supports multiple question types:
+  - **Text Input**: For open-ended questions.
+  - **List Selection**: Allows users to choose from a list of options.
+  - **Confirmation**: Simple yes/no questions.
+  - **Numeric Input**: For getting numeric responses.
+  - **Range Selection**: For selecting a range of values.
+  - **Choice Selection**: For picking one option from multiple choices.
+- Input validation to ensure accurate and meaningful user responses.
+- Easy integration into Python applications.
+
+## Installation
+
+You can install the `interactive_terminal` module using `pip`. Open your terminal or command prompt and run:
+
+```bash
+pip install interactive_terminal
+```
+
+## Usage
+
+To use the `interactive_terminal` module, follow these steps:
+
+1. **Import the necessary classes** from the module.
+2. **Define the questions** you want to ask using the `Question` class.
+3. **Call the `ask_questions` function** to prompt the user and collect their responses.
+
+### Example
+
+Here's a simple example demonstrating how to use the `interactive_terminal` module:
+
+```python
+from interactive_terminal import Question, QuestionType, ask_questions
+
+def main():
+    questions = [
+        Question(QuestionType.TEXT, "name", "What is your name?"),
+        Question(QuestionType.LIST, "favorite_color", "What is your favorite color?", 
+                 options=["Red", "Blue", "Green", "Yellow"]),
+        Question(QuestionType.CONFIRM, "like_programming", "Do you like programming?"),
+        Question(QuestionType.NUMBER, "experience_years", "How many years have you been programming?"),
+        Question(QuestionType.RANGE, "age_range", "What is your age range?", 
+                 options=["0-18", "19-30", "31-45", "46+"]),
+        Question(QuestionType.CHOICE, "os_choice", "Which operating system do you prefer?",
+                 options=["Windows", "macOS", "Linux"])
+    ]
+    
+    answers = ask_questions(questions)
+    print("\nThank you for your answers! Here's what you provided:")
+    for key, value in answers.items():
+        print(f"{key.capitalize()}: {value}")
+
+if __name__ == "__main__":
+    main()
+```
+
+### Output
+
+When you run the example code, it will prompt the user with a series of questions, like so:
+
+```plaintext
+[?] What is your name?:
+```
+
+The user can respond with their name, and the program will continue asking the rest of the questions in sequence, validating their input as specified.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, please email me and I will think about your request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
