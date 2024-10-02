@@ -1,0 +1,5 @@
+[project]
+name = "libcudf-cu12"
+version = "0.0.0a0.dev0"
+description = "Placeholder for libcudf-cu12"
+readme = { text = "Placeholder for libcudf-cu12", content-type = "text/markdown" }
