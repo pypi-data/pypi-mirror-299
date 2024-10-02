@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ayrun-jsonio"
+version = "0.1.0"
+description = "🚀 Seamless JSON handling in Python 🐍"
+authors = ["itzAyrun <ayrun3412@gmail.com>"]
+readme = "README.md"
+packages = [
+	{include = "jsonio"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+orjson = "^3.10.7"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pyright = "^1.1.382.post1"
+mypy = "^1.11.2"
+ruff = "^0.6.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
