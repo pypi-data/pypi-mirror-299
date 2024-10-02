@@ -1,0 +1,8 @@
+SpiNNMachine==1!7.3.0
+websocket-client
+
+[test]
+pytest-cov
+testfixtures
+httpretty!=1.0.0
+types-requests
