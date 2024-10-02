@@ -1,0 +1,7 @@
+setup.py
+files3.egg-info/PKG-INFO
+files3.egg-info/SOURCES.txt
+files3.egg-info/dependency_links.txt
+files3.egg-info/requires.txt
+files3.egg-info/top_level.txt
+qwork/__init__.py
