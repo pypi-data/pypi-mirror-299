@@ -1,0 +1,351 @@
+#!/usr/bin/env python
+
+import os
+import sys
+import subprocess
+import yaml
+import argparse
+import base64
+from bs4 import BeautifulSoup
+from pptx import Presentation
+from pptx.util import Inches
+
+from importlib_resources import files
+from pathlib import Path
+
+def write_temp_config(notebook_name, config, global_experiment, global_start_year, global_end_year):
+    """
+    Write a temporary configuration file for a specific notebook.
+
+    Parameters
+    ----------
+    notebook_name : str
+        The name of the notebook.
+    config : dict
+        The global configuration dictionary.
+    global_experiment : str
+        The global experiment name.
+    global_start_year : int
+        The global start year.
+    global_end_year : int
+        The global end year.
+
+    Returns
+    -------
+    str
+        The path to the temporary configuration file.
+    """
+    temp_config_data = config['notebooks'].get(notebook_name, {})
+    if 'experiment' not in temp_config_data:
+        temp_config_data['experiment'] = global_experiment
+    if 'start_year' not in temp_config_data:
+        temp_config_data['start_year'] = global_start_year
+    if 'end_year' not in temp_config_data:
+        temp_config_data['end_year'] = global_end_year
+    
+    temp_config_path = os.path.join(os.getcwd(), 'mar_config.yaml')
+    with open(temp_config_path, 'w') as temp_config_file:
+        yaml.dump(temp_config_data, temp_config_file)
+    
+    return temp_config_path
+
+def find_notebooks(directory, exclude_dirs=None):
+    """
+    Recursively find all Jupyter notebooks in the directory, excluding specified subdirectories.
+
+    Parameters
+    ----------
+    directory : str
+        The root directory to search for notebooks.
+    exclude_dirs : list of str, optional
+        A list of directory names to exclude from the search.
+
+    Returns
+    -------
+    list of str
+        A list of paths to the found notebooks.
+    """
+    if exclude_dirs is None:
+        exclude_dirs = []
+    
+    notebooks = []
+    for root, dirs, files in os.walk(directory):
+        dirs[:] = [d for d in dirs if d not in exclude_dirs]
+        notebooks.extend([os.path.join(root, f) for f in files if f.endswith('.ipynb')])
+    return notebooks
+
+def generate_index_and_extract_figures(base_dir):
+    """
+    Crawls through the base directory, finds HTML files, generates an index.html file,
+    extracts base64-encoded figures from the HTML files into a 'figures' directory,
+    and generates a PowerPoint presentation with each figure on a separate slide.
+    
+    Parameters:
+    - base_dir (str): The base directory containing model output.
+    """
+    
+    # List to store the relative paths to the HTML files and figures for the PPT
+    html_files = []
+    ppt_images = []
+
+    # Crawl through the directories and subdirectories
+    for root, dirs, files in os.walk(base_dir):
+        for file in files:
+            if file.endswith(".html") and not file.startswith("FAILED"):
+                relative_path = os.path.relpath(os.path.join(root, file), base_dir)
+                html_files.append(relative_path)
+
+    # Create the top-level index.html file
+    index_file_path = os.path.join(base_dir, "index.html")
+    with open(index_file_path, "w") as index_file:
+        index_file.write("<html><head><title>Model Analysis Results</title></head><body>\n")
+        index_file.write("<h1>Model Analysis Results</h1>\n")
+        index_file.write("<ul>\n")
+
+        for html_file in html_files:
+            link = f'<li><a href="{html_file}">{os.path.basename(html_file)}</a></li>\n'
+            index_file.write(link)
+
+        index_file.write("</ul>\n")
+
+    # Create a PowerPoint presentation with 16:9 aspect ratio
+    prs = Presentation()
+    prs.slide_width = Inches(13.33)  # Set width for 16:9 aspect ratio
+    prs.slide_height = Inches(7.5)   # Set height for 16:9 aspect ratio
+
+    # Process each HTML file to extract figures and add them to the presentation
+    for html_file in html_files:
+        full_html_path = os.path.join(base_dir, html_file)
+        dir_containing_html = os.path.dirname(full_html_path)
+        figures_dir = os.path.join(dir_containing_html, "figures")
+        
+        # Create the "figures" directory if it doesn't exist
+        if not os.path.exists(figures_dir):
+            os.makedirs(figures_dir)
+
+        # Parse the HTML file to extract base64-encoded image data
+        with open(full_html_path, "r") as file:
+            soup = BeautifulSoup(file, 'html.parser')
+
+            # Find all images in the HTML
+            images = soup.find_all('img')
+            for i, img in enumerate(images, 1):
+                img_src = img.get('src')
+                
+                if not img_src or not img_src.startswith('data:image/png;base64,'):
+                    continue  # Skip if no valid base64-encoded image is found
+                
+                # Extract the base64-encoded data
+                base64_data = img_src.split('base64,')[1]
+                
+                # Decode the base64 data into binary
+                img_data = base64.b64decode(base64_data)
+                
+                # Build a new sequential name for the figure
+                new_img_name = f"{os.path.splitext(os.path.basename(html_file))[0]}_{i:02d}.png"
+                new_img_path = os.path.join(figures_dir, new_img_name)
+                
+                # Save the decoded image data as a PNG file
+                with open(new_img_path, 'wb') as img_file:
+                    img_file.write(img_data)
+                
+                print(f"Extracted image: {new_img_path}")
+                
+                # Add this image to the PowerPoint presentation
+                ppt_images.append(new_img_path)
+                slide = prs.slides.add_slide(prs.slide_layouts[6])  # Use a blank slide layout
+                
+                # Get the image size
+                img = slide.shapes.add_picture(new_img_path, 0, 0)  # Temporarily add image at position (0,0)
+                img_width = img.width
+                img_height = img.height
+                
+                # Slide dimensions (16:9 aspect ratio)
+                slide_width = prs.slide_width
+                slide_height = prs.slide_height
+                
+                # Only scale down if the image is too big
+                if img_width > slide_width or img_height > slide_height:
+                    scale_factor = min(slide_width / img_width, slide_height / img_height)
+                    new_width = img_width * scale_factor
+                    new_height = img_height * scale_factor
+
+                    # Center the image on the slide
+                    img.left = int((slide_width - new_width) / 2)
+                    img.top = int((slide_height - new_height) / 2)
+                    img.width = int(new_width)
+                    img.height = int(new_height)
+                else:
+                    # Center the image without scaling
+                    img.left = int((slide_width - img_width) / 2)
+                    img.top = int((slide_height - img_height) / 2)
+
+    # Save the PowerPoint presentation
+    pptx_file_path = os.path.join(base_dir, "model_analysis_results.pptx")
+    prs.save(pptx_file_path)
+
+    print(f"PowerPoint saved at: {pptx_file_path}")
+
+    # Add a download link for the PowerPoint in the index.html file
+    with open(index_file_path, "a") as index_file:
+        index_file.write(f'<p><a href="model_analysis_results.pptx">Download PowerPoint presentation</a></p>\n')
+        index_file.write("</body></html>")
+
+    print(f"Index file generated at: {index_file_path}")
+
+def main():
+    """
+    Main function to process and execute Jupyter notebooks based on the provided configuration.
+
+    This function reads the configuration from a YAML file and/or command-line arguments, sets up the environment,
+    processes the specified notebooks, and executes them. Temporary configuration files are created for each notebook
+    if specific settings are provided.
+
+    Command-line Arguments
+    ----------------------
+    --experiment : str, optional
+        The experiment name.
+    --outdir : str, optional
+        The output directory (default: current directory).
+    --config : str, optional
+        The path to the YAML configuration file.
+    --start_year : int, optional
+        The start year for the experiment.
+    --end_year : int, optional
+        The end year for the experiment.
+    --only_notebook : str, optional
+        Only process and execute the specified notebook.
+    --test : bool, optional
+        Run in test mode, printing actions without executing them.
+    """
+    parser = argparse.ArgumentParser(description="Process some notebooks.")
+    parser.add_argument('--experiment', help="Experiment name")
+    parser.add_argument('--outdir', default=None, help="Output directory (default: current directory)")
+    parser.add_argument('--config', help="Path to YAML configuration file")
+    parser.add_argument('--start_year', type=int, help="Start year for the experiment")
+    parser.add_argument('--end_year', type=int, help="End year for the experiment")
+    parser.add_argument('--only_notebook', help="Only process and execute the specified notebook")
+    parser.add_argument('--test', action='store_true', help="Run in test mode, printing actions without executing them")
+
+    args = parser.parse_args()
+
+    config_path = args.config if args.config else files("gfdlnb.resources").joinpath("config.yaml")
+    
+    if not os.path.exists(config_path):
+        print(f"Configuration file '{config_path}' not found.")
+        sys.exit(1)
+
+    config = {}
+
+    # Load configuration from YAML file
+    with open(config_path, 'r') as config_file:
+        print(f"Using configuration file: {config_file}")
+        config = yaml.safe_load(config_file)
+    
+    experiment = args.experiment if args.experiment else config.get('experiment')
+
+    if args.outdir is None:
+        outdir = config.get('outdir', '.')
+    else:
+        outdir = args.outdir
+
+    kernel_name = config.get('kernel_name', 'python3')
+    exclude_notebooks = config.get('exclude', [])
+    only_notebooks = config.get('only', [])
+    start_year = args.start_year if args.start_year else config.get('start_year')
+    end_year = args.end_year if args.end_year else config.get('end_year')
+    only_notebook = args.only_notebook
+    test_mode = args.test
+
+    if not experiment:
+        print("Experiment name must be specified either in the command line or the config file.")
+        sys.exit(1)
+
+    print(experiment)
+
+    #outdir = os.path.join(outdir, experiment)
+
+    print(f"MAR: writing results to {outdir}")
+
+    os.environ["PYDEVD_DISABLE_FILE_VALIDATION"] = "1"
+    os.environ["MAR_DORA_ID"] = experiment
+    if start_year:
+        os.environ["START_YEAR"] = str(start_year)
+    if end_year:
+        os.environ["END_YEAR"] = str(end_year)
+
+    for key, value in os.environ.items():
+        if key.startswith("MAR") or key in ["START_YEAR", "END_YEAR"]:
+            print(f"{key}={value}")
+
+    path_parts = files("gfdlnb.notebooks.ocean").joinpath("Test_Notebook.ipynb").parts
+    notebooks_root = Path(*path_parts[:path_parts.index('notebooks') + 1])
+
+    notebooks_to_process = find_notebooks(notebooks_root, exclude_dirs=['tools'])
+    if only_notebook:
+        notebooks_to_process = [nb for nb in notebooks_to_process if os.path.basename(nb) == only_notebook]
+    elif only_notebooks:
+        notebooks_to_process = [nb for nb in notebooks_to_process if os.path.basename(nb) in only_notebooks]
+    else:
+        notebooks_to_process = [nb for nb in notebooks_to_process if os.path.basename(nb) not in exclude_notebooks]
+
+    if not test_mode:
+        os.makedirs(outdir, exist_ok=True)
+        print(os.getcwd())
+
+    start_dir = os.getcwd()
+    for notebook in notebooks_to_process:
+        os.chdir(start_dir)
+        filename = os.path.basename(notebook)
+        relative_path = os.path.relpath(notebook, notebooks_root)
+        print("relpath",relative_path)
+        output_dir = os.path.join(outdir, os.path.dirname(relative_path))
+        print("updated outdir", output_dir)
+
+        if not test_mode:
+            os.makedirs(output_dir, exist_ok=True)
+            os.chdir(output_dir)
+            print("Current Directory is:", os.getcwd())
+        
+        temp_config_path = write_temp_config(filename, config, experiment, start_year, end_year)
+        if temp_config_path:
+            os.environ["TEMP_CONFIG_PATH"] = temp_config_path
+            with open(temp_config_path, 'r') as file:
+                temp_config_contents = yaml.safe_load(file)
+            print(f"Temporary config file path: {temp_config_path}")
+            print(f"Temporary config file contents:\n{yaml.dump(temp_config_contents, default_flow_style=False)}")
+        
+        print(f"Executing {filename}")
+        if not test_mode:
+            print(output_dir)
+            subprocess.run(['cp', notebook, "."])
+            success = False
+            try:
+                subprocess.run(['jupyter', 'nbconvert', '--to', 'notebook', '--execute', 
+                            f'--ExecutePreprocessor.kernel_name={kernel_name}', filename, '--output', filename], check=True)
+                success = True
+            except Exception as exc:
+                print(exc)
+            subprocess.run(['jupyter', 'nbconvert', '--to', 'html', filename])
+            if success is False:
+                htmlfile = str(filename).replace(".ipynb",".html")
+                os.rename(htmlfile,f"FAILED_{htmlfile}")
+        else:
+            print(f"Would copy {notebook} to {output_dir}")
+            print(f"Would execute {filename} with Jupyter nbconvert in {output_dir}")
+            print(f"Would convert {filename} to HTML in {output_dir}")
+        
+        #if temp_config_path:
+        #    os.remove(temp_config_path)
+
+    if not test_mode:
+        os.chdir(os.path.join(os.getcwd(), '..'))
+
+    if not test_mode:
+        os.chdir(start_dir)
+        generate_index_and_extract_figures(args.outdir)
+
+if __name__ == "__main__":
+    main()
+
+

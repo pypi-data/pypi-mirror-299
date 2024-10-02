@@ -1,0 +1,26 @@
+experiment: "my_experiment"
+outdir: "/path/to/output"
+kernel_name: "python3"
+start_year: 1993
+end_year: 2017
+#exclude:
+#  - "notebook1.ipynb"
+#  - "notebook2.ipynb"
+only:
+  - "SST_bias_NOAA_OISSTv2.ipynb"
+  - "WOA13_yz_bias.ipynb"
+  - "Global_Meridional_Overturning.ipynb"
+  - "Mixed_Layer_Depths.ipynb"
+  - "Northward_Heat_Transport.ipynb"
+notebooks:
+  notebook3.ipynb:
+    some_setting: "value1"
+    another_setting: "value2"
+    experiment: "notebook3_experiment"
+    start_year: 2020
+  notebook4.ipynb:
+    some_setting: "value3"
+    another_setting: "value4"
+    experiment: "notebook4_experiment"
+    end_year: 2025
+
