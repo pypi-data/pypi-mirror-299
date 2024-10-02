@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+spy_ai/__init__.py
+spy_ai.egg-info/PKG-INFO
+spy_ai.egg-info/SOURCES.txt
+spy_ai.egg-info/dependency_links.txt
+spy_ai.egg-info/top_level.txt
