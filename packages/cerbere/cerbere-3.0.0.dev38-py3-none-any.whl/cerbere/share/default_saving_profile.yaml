@@ -1,0 +1,105 @@
+---
+# Defines the list and default values of the global attributes of a Cerbere new feature
+
+attributes:
+  # Description
+  id:
+  naming_authority: fr.ifremer.cersat
+  title:
+  summary:
+  cdm_data_type:
+  keywords:
+  acknowledgement:
+  processing_level:
+  metadata_link:
+
+  # Observation
+  platform:
+  platform_type:
+  instrument:
+  instrument_type:
+  band:
+
+  # Conventions
+  Metadata_Conventions: Climate and Forecast (CF) 1.7, Attribute Convention for Data Discovery (ACDD) 1.3
+  standard_name_vocabulary: NetCDF Climate and Forecast (CF) Metadata Convention
+  keywords_vocabulary: NASA Global Change Master Directory (GCMD) Science Keywords
+  format_version:
+
+  # Authorship
+  institution: Institut Francais de Recherche et d'Exploitation de la Mer/Centre de Recherche et d'Exploitation satellitaire
+  institution_abbreviation: ifremer/cersat
+  project:
+  license:
+  publisher_name: ifremer/cersat
+  publisher_url: http://cersat.ifremer.fr
+  publisher_email: cersat@ifremer.fr
+  creator_name:
+  creator_url:
+  creator_email:
+  references:
+
+  # Traceability
+  processing_software: Cersat/Cerbere 1.0
+  product_version:
+  uuid:
+  history:
+  source:
+  source_version:
+
+  # BBox
+  geospatial_lat_min:
+  geospatial_lat_max:
+  geospatial_lat_units: degrees
+  geospatial_lon_min:
+  geospatial_lon_max:
+  geospatial_lon_units: degrees
+
+  # Vertical
+  geospatial_vertical_min:
+  geospatial_vertical_max:
+  geospatial_vertical_units: meters above mean sea level
+  geospatial_vertical_positive: up
+
+  # Resolution
+  spatial_resolution:
+  geospatial_lat_resolution:
+  geospatial_lon_resolution:
+
+  # Temporal
+  time_coverage_start:
+  time_coverage_end:
+  time_coverage_resolution:
+
+fields:
+
+  lat:
+    standard_name: latitude
+    units: degree_north
+    valid_range: [-90, 90]
+
+  lon:
+    standard_name: longitude
+    units: degree_east
+    valid_range: [-180., 180]
+
+  time:
+    long_name: measurement time
+    standard_name: time
+
+encoding:
+
+  lat:
+    dtype: float32
+    _FillValue: 1.e+20
+    #least_significant_digit: 3
+
+  lon:
+    dtype: float32
+    _FillValue: 1.e+20
+    #least_significant_digit: 3
+
+  time:
+    dtype: float64
+    _FillValue: 1.e+20
+    units: 'seconds since 1981-01-01 00:00:00.000000Z'
