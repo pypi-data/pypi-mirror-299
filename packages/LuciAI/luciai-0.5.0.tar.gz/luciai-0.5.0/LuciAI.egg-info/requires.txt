@@ -1,0 +1,13 @@
+cerina
+openai
+together
+langchain
+langchain-together
+langchain-core
+langchain-community
+ijson
+pydantic
+gradio
+speechrecognition
+biopython
+pyyaml
