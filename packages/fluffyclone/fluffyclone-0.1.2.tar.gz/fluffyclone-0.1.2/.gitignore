@@ -1,0 +1,15 @@
+# OS files
+*.DS_Store
+
+# Python
+*.pyc
+
+# Notebook
+.ipynb_checkpoints
+
+# Distribution
+*.egg-info
+
+# Working files
+main.py
+tests/results
