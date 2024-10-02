@@ -1,0 +1,3 @@
+# whiteduck default project template
+
+
