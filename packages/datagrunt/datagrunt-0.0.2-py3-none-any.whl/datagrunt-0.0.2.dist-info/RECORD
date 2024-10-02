@@ -1,0 +1,13 @@
+datagrunt/__init__.py,sha256=ODTv4O34QBOCiLj74sVcERvWl0tju6Hwo9Hur2GsIkw,1122
+datagrunt/csvfile.py,sha256=jbIvA9_0ucRJ4qCu6yQ1InSg0ENxN2dkCZcX8rVN4iI,5476
+datagrunt/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datagrunt/core/databases.py,sha256=yo8ILK9dtj8zusrM8HgoA5s629b-ghGRp2HumvJS4eE,1702
+datagrunt/core/engines.py,sha256=HkNzHvXPYpuLI4O_HoehykWB9gm4jj_2vRNbQwNf1hc,8235
+datagrunt/core/fileproperties.py,sha256=AQA-2v0WPMj4a-LidUyfioraEinW168voKJzOJzBYe4,10054
+datagrunt/core/logger.py,sha256=ck5HmwHmk0SUmTjQudqLgpQk5mpC9T0UOlDKqi6qssI,1250
+datagrunt/core/queries.py,sha256=2OPD2Zz1Toryr5_nVANkJvifwg6MzCx4obah34m-IBY,3846
+datagrunt-0.0.2.dist-info/LICENSE,sha256=qY7AmIOAwE05aVD7siEo8-2HOUz5WYUEhxbX0Ts9fyg,1069
+datagrunt-0.0.2.dist-info/METADATA,sha256=ZlrId9v3f1xsJkPO-ZUG1-q_UPpw6mxvWP3hUEmHhkM,9250
+datagrunt-0.0.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+datagrunt-0.0.2.dist-info/top_level.txt,sha256=kVGx0P9sIaw_RegsAR94f7fyE4Um4ayE5vf_aTImMoE,10
+datagrunt-0.0.2.dist-info/RECORD,,
