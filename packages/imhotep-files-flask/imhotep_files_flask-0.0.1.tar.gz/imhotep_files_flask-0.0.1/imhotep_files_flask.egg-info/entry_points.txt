@@ -1,0 +1,2 @@
+[console-scripts]
+imhotep_files_flask = imhotep_files_flask : hello
