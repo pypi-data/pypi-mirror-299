@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gitea
+Version: 1.0.0
+Summary: Gitea API
+Home-page: 
+Author-email: 
+Keywords: Swagger,Gitea API
+
+    This documentation describes the Gitea API.  # noqa: E501
+    
