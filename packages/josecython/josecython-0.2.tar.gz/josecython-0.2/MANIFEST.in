@@ -1,0 +1,3 @@
+exclude josecython/*.py
+include josecython/*.so
+include josecython/*.pyd
