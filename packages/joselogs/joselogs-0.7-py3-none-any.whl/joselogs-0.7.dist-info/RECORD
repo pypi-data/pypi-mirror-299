@@ -1,0 +1,10 @@
+joselogs/__init__.py,sha256=0-YZeXm1EuhEXDZ8JFgPKToGM3JOLEqk_xWlPDv8-s8,1766
+joselogs/logger.py,sha256=3_7MeSsi3D0QQLWPXWK8DyPCrB18i5BccOp13imvnMs,7769
+joselogs/pyarmor_runtime_000000/__init__.py,sha256=Lla0N4g5mewq85hl_c1JhNMn4p92Gey-4EORXS3xhdU,104
+obfuscated_joselogs/__init__.py,sha256=0-YZeXm1EuhEXDZ8JFgPKToGM3JOLEqk_xWlPDv8-s8,1766
+obfuscated_joselogs/logger.py,sha256=3_7MeSsi3D0QQLWPXWK8DyPCrB18i5BccOp13imvnMs,7769
+obfuscated_joselogs/pyarmor_runtime_000000/__init__.py,sha256=Lla0N4g5mewq85hl_c1JhNMn4p92Gey-4EORXS3xhdU,104
+joselogs-0.7.dist-info/METADATA,sha256=gYuAKQrutRh4h5eDHssa6izqH4zI20OJXUPQ4pMmEhY,384
+joselogs-0.7.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+joselogs-0.7.dist-info/top_level.txt,sha256=GuZHk8nlPo3_nPjKttzYUkVbtqS9kUIZ0spqWKSpLmU,29
+joselogs-0.7.dist-info/RECORD,,

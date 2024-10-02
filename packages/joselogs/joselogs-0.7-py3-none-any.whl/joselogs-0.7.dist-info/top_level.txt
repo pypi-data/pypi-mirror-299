@@ -1,0 +1,2 @@
+joselogs
+obfuscated_joselogs
