@@ -1,0 +1,99 @@
+# justfile
+
+# load environment variables
+set dotenv-load
+
+# variables
+package := "dkdc-io"
+container := "lostmydockeraccount/dkdc-io"
+
+# aliases
+alias fmt:=format
+alias render:=docs-build
+alias preview:=docs-preview
+
+# list justfile recipes
+default:
+    just --list
+
+# format
+format:
+    @ruff format .
+
+# docker stuff
+build:
+    @docker build -t {{container}} .
+
+build-all:
+    @rm -rf dist
+    @python -m build
+    just build
+
+ssh:
+    @ssh cody@dkdc-io.local
+
+run:
+    @docker run -it --rm -p 8000:8000 --entrypoint python {{container}}
+
+serve:
+    @docker run --rm -p 8000:8000 {{container}}
+
+push:
+    @docker image push {{container}}
+
+clean:
+    docker rm -f $(docker ps -aq) || true
+    docker rmi -f $(docker images -q) || true
+
+ping:
+    curl dkdc-io.local:8000/api/v1
+
+# publish-test
+release-test:
+    just build
+    @twine upload --repository testpypi dist/* -u __token__ -p ${PYPI_TEST_TOKEN}
+
+# publish
+release:
+    just build-all
+    just push
+    @twine upload dist/* -u __token__ -p ${PYPI_TOKEN}
+
+# build
+old-build:
+    just clean-dist
+    @python -m build
+
+# setup
+setup:
+    @uv venv
+    @. .venv/bin/activate
+    @uv pip install --upgrade --resolution=highest -r dev-requirements.txt
+
+# install
+install:
+    @uv pip install -r dev-requirements.txt
+
+# uninstall
+uninstall:
+    @pip uninstall -y {{package}}
+
+# docs-build
+docs-build:
+    @quarto render website
+
+# docs-preview
+docs-preview:
+    @quarto preview website
+
+# open
+open:
+    @open https://ibis-project.github.io/ibis-analytics
+
+# run
+old-run:
+    @gh workflow run etl.yaml
+
+# run-docs
+run-docs:
+    @gh workflow run etl-docs.yaml

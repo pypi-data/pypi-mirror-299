@@ -1,0 +1,58 @@
+# architecture (v1)
+
+## priority
+
+Our priority is simplicity/ease of pivoting rapidly.
+
+## goals
+
+Our goals are:
+
+- end-to-end automation
+- simple server setup for raspberry pis
+- application code we can easily run on any server
+
+## plan
+
+Our plan is to write the code. Rough steps:
+
+0. Basic webserver application in a Docker container
+1. Install OS on Raspberry Pi
+2. Install Docker on Raspberry Pi
+3. Run the webserver application on the Raspberry Pi
+4. Point "https://dkdc.io" to the Raspberry Pi
+
+## raspberry pi
+
+1. Install Raspberry Pi Imager
+2. Format Raspberry Pi OS Lite (64-bit) to SD card
+   1. Use custom settings
+   2. Setup SSH, user, WiFi (optional)
+   3. Set hostname to `dkdc-io`
+3. Put SD card in Raspberry Pi and boot
+4. SSH in
+5. Install Docker
+
+```bash
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker $USER
+```
+
+6. Edit `/etc/rc.local` to start Docker on boot
+
+```bash
+sudo vi /etc/rc.local
+```
+
+Add the following line before `exit 0`:
+
+```txt
+docker pull lostmydockeraccount/dkdc-io:latest
+docker run -p 8000:8000 -it -d --rm lostmydockeraccount/dkdc-io
+```
+
+7. Reboot and test:
+
+```bash
+curl dkdc-io.local:8000/api/v1
+```
