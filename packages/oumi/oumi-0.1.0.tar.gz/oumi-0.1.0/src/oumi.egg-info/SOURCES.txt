@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+src/oumi/__init__.py
+src/oumi.egg-info/PKG-INFO
+src/oumi.egg-info/SOURCES.txt
+src/oumi.egg-info/dependency_links.txt
+src/oumi.egg-info/top_level.txt
