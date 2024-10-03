@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: clarify-assets
+Version: 0.0.2
+Summary: Populate Clarify metadata through asset models.
+Home-page: https://github.com/clarify/clarify-assets
+Author: Odd Gunnar Aspaas
+Author-email: odd.gunnar@clarify.io
+Project-URL: Bug Tracker, https://github.com/clarify/clarify-assets/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyclarify
+Requires-Dist: tqdm
+
+# clarify-assets
+
+Populate Clarify metadata through asset models.
