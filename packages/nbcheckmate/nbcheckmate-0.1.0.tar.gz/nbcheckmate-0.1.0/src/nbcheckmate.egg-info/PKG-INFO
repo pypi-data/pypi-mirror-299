@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: nbcheckmate
+Version: 0.1.0
+Summary: Library to test jupyter notebooks
+Author-email: paul.chupot@gmail.com, aloys.bernard@gmail.com
+Requires-Dist: dill==0.3.9

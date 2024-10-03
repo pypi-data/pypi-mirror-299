@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+requirements.txt
+src/resultstests.py
+src/rugby_premiership.py
+src/nbcheckmate.egg-info/PKG-INFO
+src/nbcheckmate.egg-info/SOURCES.txt
+src/nbcheckmate.egg-info/dependency_links.txt
+src/nbcheckmate.egg-info/requires.txt
+src/nbcheckmate.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_functions.py
+src/tests/test_variables.py
