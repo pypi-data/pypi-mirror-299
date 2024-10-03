@@ -1,0 +1,9 @@
+README.md
+setup.py
+RegressionModelPy/__init__.py
+RegressionModelPy/regression.py
+RegressionModelPy.egg-info/PKG-INFO
+RegressionModelPy.egg-info/SOURCES.txt
+RegressionModelPy.egg-info/dependency_links.txt
+RegressionModelPy.egg-info/requires.txt
+RegressionModelPy.egg-info/top_level.txt
