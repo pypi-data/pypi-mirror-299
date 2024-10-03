@@ -1,0 +1,10 @@
+backupradar/__init__.py,sha256=Zkf8-hvcacdcW8JT6tQidHwMlGIKsrz3sM-8CnaIzLI,38
+backupradar/client.py,sha256=3GbBlnKQKOo2t4b9rbFofKxc1uin2anNn5eltEtOu2Y,1213
+backupradar/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backupradar/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backupradar/models.py,sha256=TaDJ8-LXbD0N9n_F_dhJZeUi6Pjlz_vqi3ZZmDQpbxk,2403
+backupradar/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backupradar-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+backupradar-0.1.0.dist-info/METADATA,sha256=nRKpGuk4U-Ac1pt6znm26KSp2677sXCR6kXF91zGTOs,584
+backupradar-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+backupradar-0.1.0.dist-info/RECORD,,
