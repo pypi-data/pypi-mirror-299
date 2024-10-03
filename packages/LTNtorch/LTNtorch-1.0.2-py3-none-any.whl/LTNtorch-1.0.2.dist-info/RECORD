@@ -1,0 +1,8 @@
+ltn/__init__.py,sha256=rS7Su1WQNPvxfqOpL00dWcg2ty_oexOZH_xY4jg94VQ,381
+ltn/core.py,sha256=O_8bw4BDEByVvILPJY3LcMwQcG2UmNuBMStJpEPaIdQ,80897
+ltn/fuzzy_ops.py,sha256=nKancptxPlTBNykYvmt4EJ8A8bH-_p31YuLjpcj9dh4,63825
+LTNtorch-1.0.2.dist-info/LICENSE,sha256=ANNTB4xIglhHDOLS-4_vXe1zoZH0jXtS6bGnmbwR5ao,1077
+LTNtorch-1.0.2.dist-info/METADATA,sha256=WUuEQEUbZZWHsrwpE94kdLRXfUqrWoY480dy_ZIz6Uc,13291
+LTNtorch-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+LTNtorch-1.0.2.dist-info/top_level.txt,sha256=Xsf3kL-lF1-m_hYeE0aUCzsnZQYk1bkttYgaWwn3ctg,4
+LTNtorch-1.0.2.dist-info/RECORD,,
