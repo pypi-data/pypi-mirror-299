@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: fluffyclone
+Version: 0.1.3
+Summary: Using the weighted uniform distribution over spanning trees
+Project-URL: Homepage, https://github.com/ulysseherbach/fluffyclone
+Author-email: Ulysse Herbach <ulysse.herbach@inria.fr>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: matplotlib>=3.4
+Requires-Dist: networkx>=2.6
+Requires-Dist: numpy>=1.24
+Description-Content-Type: text/markdown
+
+# FluffyClone
+
