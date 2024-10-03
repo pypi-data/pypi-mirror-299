@@ -1,0 +1,2 @@
+[console_scripts]
+my-web-browser = my_web_browser.browser:run_browser
