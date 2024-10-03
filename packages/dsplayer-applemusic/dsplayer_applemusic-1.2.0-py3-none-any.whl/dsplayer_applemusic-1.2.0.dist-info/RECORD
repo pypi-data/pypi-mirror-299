@@ -1,0 +1,10 @@
+dsplayer_applemusic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsplayer_applemusic/applemusic.py,sha256=pd9svWQ6l9KMGNHmWSd9e1WHIors4EiZGHJ4uwoS8PE,4096
+plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugin/plugin.py,sha256=pd9svWQ6l9KMGNHmWSd9e1WHIors4EiZGHJ4uwoS8PE,4096
+dsplayer_applemusic-1.2.0.dist-info/LICENSE,sha256=0wLw-YwT2hyZ8y33O7z1rRo43GQjMAyqNGORN51jmY4,11535
+dsplayer_applemusic-1.2.0.dist-info/METADATA,sha256=SpCf1I-nnVA0OTXSS1FeBHhXPUaEZ2iqZNVFLwYWBFE,183
+dsplayer_applemusic-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dsplayer_applemusic-1.2.0.dist-info/entry_points.txt,sha256=Gbg_9U5x1haw1lXDq3BXOujpnx_csKsoxMYwJ8U32wk,80
+dsplayer_applemusic-1.2.0.dist-info/top_level.txt,sha256=c1vl1MSTP9EqCm9UIt0FZ-k8a6Dl11D3W-Ck2sEzaJI,20
+dsplayer_applemusic-1.2.0.dist-info/RECORD,,
