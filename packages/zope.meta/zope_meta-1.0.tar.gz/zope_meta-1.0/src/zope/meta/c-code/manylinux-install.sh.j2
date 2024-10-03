@@ -1,0 +1,78 @@
+#!/usr/bin/env bash
+
+set -e -x
+
+# Running inside docker
+# Set a cache directory for pip. This was
+# mounted to be the same as it is outside docker so it
+# can be persisted.
+export XDG_CACHE_HOME="/cache"
+# XXX: This works for macOS, where everything bind-mounted
+# is seen as owned by root in the container. But when the host is Linux
+# the actual UIDs come through to the container, triggering
+# pip to disable the cache when it detects that the owner doesn't match.
+# The below is an attempt to fix that, taken from bcrypt. It seems to work on
+# Github Actions.
+if [ -n "$GITHUB_ACTIONS" ]; then
+    echo Adjusting pip cache permissions
+    mkdir -p $XDG_CACHE_HOME/pip
+    chown -R $(whoami) $XDG_CACHE_HOME
+fi
+ls -ld /cache
+ls -ld /cache/pip
+
+{% for line in manylinux_install_setup %}
+%(line)s
+{% endfor %}
+# We need some libraries because we build wheels from scratch:
+yum -y install libffi-devel
+
+tox_env_map() {
+    case $1 in
+{% for py_version in supported_python_versions %}
+        *"cp%(py_version)s"*) echo 'py%(py_version)s';;
+{% endfor %}
+{% if with_future_python %}
+        *"cp%(future_python_shortversion)s"*) echo 'py%(future_python_shortversion)s';;
+{% endif %}
+        *) echo 'py';;
+    esac
+}
+
+# Compile wheels
+for PYBIN in /opt/python/*/bin; do
+    if \
+{% for py_version in supported_python_versions %}
+       [[ "${PYBIN}" == *"cp%(py_version)s/"* ]] {% if py_version != stop_at %}|| \
+{% endif %}
+{% endfor %}
+{% if with_future_python %}
+       [[ "${PYBIN}" == *"cp%(future_python_shortversion)s/"* ]] ; then
+{% else %}
+; then
+{% endif %}
+{% if with_future_python %}
+        if [[ "${PYBIN}" == *"cp%(future_python_shortversion)s/"* ]] ; then
+            "${PYBIN}/pip" install --pre -e /io/
+            "${PYBIN}/pip" wheel /io/ --pre -w wheelhouse/
+        else
+            "${PYBIN}/pip" install -e /io/
+            "${PYBIN}/pip" wheel /io/ -w wheelhouse/
+        fi
+{% else %}
+        "${PYBIN}/pip" install -e /io/
+        "${PYBIN}/pip" wheel /io/ -w wheelhouse/
+{% endif %}
+        if [ `uname -m` == 'aarch64' ]; then
+{% for line in manylinux_aarch64_tests %}
+          %(line)s
+{% endfor %}
+        fi
+        rm -rf /io/build /io/*.egg-info
+    fi
+done
+
+# Bundle external shared libraries into the wheels
+for whl in wheelhouse/%(package_name)s*.whl; do
+    auditwheel repair "$whl" -w /io/wheelhouse/
+done

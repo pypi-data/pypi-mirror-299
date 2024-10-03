@@ -1,0 +1,18 @@
+include *.md
+include *.rst
+include *.txt
+include buildout.cfg
+include tox.ini
+include .pre-commit-config.yaml
+{% if with_docs %}
+
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs *.txt
+recursive-include docs Makefile
+{% endif %}
+
+recursive-include src *.py
+{% for line in manifest_additional_rules %}
+%(line)s
+{% endfor %}
