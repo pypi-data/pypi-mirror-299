@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: marcel-fse
+Version: 1.7
+Summary: Library to get sentence vectors using SIF and uSIF
+Author: Marcel Tino
+Author-email: <marceltino92@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: gensim
+Requires-Dist: nltk
+Requires-Dist: pandas
+Requires-Dist: wordfreq
+
+
+
+[English](README.md) | [Español](./docs/README.es.md) | [Français](./docs/README.fr.md) | [Deutsch](./docs/README.de.md) | [中文](./docs/README.zh.md) | [Türkçe](./docs/README.tr.md) | [日本語](./docs/README.ja.md) | [한국어](./docs/README.ko.md)
+
+## marcel_fse
+
+A library will help to get sentence embedding scores for user dimensions
+
+Developed by Marcel Tino @ 2024
+
+You can use this to alter according to your requirements.
+
+Credits to the author for developing such an amazing code
+
+You can find the original code here
+
+https://github.com/oborchers/Fast_Sentence_Embeddings
+
+Fast Sentence Embeddings
+==================================
+
+Fast Sentence Embeddings is a Python library that serves as an addition to Gensim. This library is intended to compute *sentence vectors* for large collections of sentences or documents with as little hassle as possible:
+
+```
+
+from marcel_fse.models.view import get_sentence_scores
+
+import pandas as pd
+import gensim.downloader as api
+from nltk.tokenize import word_tokenize
+
+df= pd.read_excel(r'C:\Users\Marcel Tino\Desktop\economy.xlsx')
+
+df=df[['Quote']]
+
+model_name="word2vec-google-news-300"
+custom_text="economy is good"
+
+##df will return sentence embedding scores using SIF and df1 will return sentence embedding scores using uSIF
+df,df1=get_sentence_scores(df,model_name,custom_text)
+
+
+```
+
+
+Installation
+------------
+The simple way to install **marcel_fse** is:
+
+    pip install -U marcel_fse
+
+
++ Share marcel_fse on these social media platforms if you like it!
+[![Reddit](https://img.shields.io/badge/share%20on-reddit-red?style=flat-square&logo=reddit)](https://reddit.com/submit?url=https://github.com/Kanaries/pygwalker&title=Say%20Hello%20to%20pygwalker%3A%20Combining%20Jupyter%20Notebook%20with%20a%20Tableau-like%20UI)
+[![HackerNews](https://img.shields.io/badge/share%20on-hacker%20news-orange?style=flat-square&logo=ycombinator)](https://news.ycombinator.com/submitlink?u=https://github.com/Kanaries/pygwalker)
+[![Twitter](https://img.shields.io/badge/share%20on-twitter-03A9F4?style=flat-square&logo=twitter)](https://twitter.com/share?url=https://github.com/Kanaries/pygwalker&text=Say%20Hello%20to%20pygwalker%3A%20Combining%20Jupyter%20Notebook%20with%20a%20Tableau-alternative%20UI)
+[![Facebook](https://img.shields.io/badge/share%20on-facebook-1976D2?style=flat-square&logo=facebook)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/Kanaries/pygwalker)
+[![LinkedIn](https://img.shields.io/badge/share%20on-linkedin-3949AB?style=flat-square&logo=linkedin)](https://www.linkedin.com/shareArticle?url=https://github.com/Kanaries/pygwalker&&title=Say%20Hello%20to%20pygwalker%3A%20Combining%20Jupyter%20Notebook%20with%20a%20Tableau-alternative%20UI)
+
