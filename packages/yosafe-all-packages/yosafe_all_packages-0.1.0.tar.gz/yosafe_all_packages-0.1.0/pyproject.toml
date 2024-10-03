@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yosafe-all-packages"
+version = "0.1.0"
+description = ""
+authors = ["Yo581515 <581515@stud.hvl.no>"]
+readme = "README.md"
+packages = [{include = "yosafe_packages", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+yosafe-subpackage-1 = "^0.1.2"
+yosafe-subpackage-2 = "^0.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
