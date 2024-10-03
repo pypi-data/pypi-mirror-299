@@ -1,0 +1,8 @@
+matomo_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matomo_cli/api.py,sha256=dMeE3gx9RGelrqMFF1CBaFnVHRN-g1QtnxJWG1aNdls,3571
+matomo_cli/cli.py,sha256=NF-yc1YktK_JvVGeN-4mR9vpcaC5rUMpq9Ls_LLKZmw,191
+matomo_cli/environment.py,sha256=5uGuJxpzHjQgvCvwkxXbfffNCI7xbGPS2RqOZt6jnko,766
+matomo_cli-0.1.1.dist-info/METADATA,sha256=t0k4BRqysRMoriaBhEBEUjRzOJCj-XhkZbZGI3Hb1zo,2406
+matomo_cli-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+matomo_cli-0.1.1.dist-info/entry_points.txt,sha256=ylySOTMzDL889EsXMqiQZfbzaKa31y6-_P241wLIYCc,45
+matomo_cli-0.1.1.dist-info/RECORD,,
