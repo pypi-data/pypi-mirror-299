@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fda-snitch
+Version: 0.1.4
+Summary: FDA Snitch package 
+Home-page: UNKNOWN
+Author: Casper Kaandorp
+Author-email: casper@compunist.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# fda_snitch
+
+Simple package that registers if the computer has access to wifi.
+
+The beep (wav file) was downloaded from https://gamesounds.xyz/?dir=Sound%20Effects/Beeps.
+
+
