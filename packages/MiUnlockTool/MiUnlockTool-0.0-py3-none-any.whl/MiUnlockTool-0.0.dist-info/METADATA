@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: MiUnlockTool
+Version: 0.0
+Summary: MiUnlockTool developed to retrieve encryptData(token) for Xiaomi devices to unlock the bootloader. Compatible with all platforms. (note : This package is only for counting users who install it via pip. For actual usage, download the tool from https://github.com/offici5l/MiUnlockTool)
+Home-page: https://github.com/offici5l/MiUnlockTool
+Author: offici5l
+
