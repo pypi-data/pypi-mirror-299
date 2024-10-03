@@ -1,0 +1,2 @@
+[console_scripts]
+getathan = athantime:get_prayer_times
