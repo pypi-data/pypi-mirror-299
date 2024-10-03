@@ -1,0 +1,76 @@
+{
+  "src/lib/components/_DashPdf.react.js": {
+    "description": "_DashPdf is a component that renders a PDF.\nIt takes a property, `data`, which is the PDF file to be rendered.\nIt allows navigation through the pages of the PDF.",
+    "displayName": "_DashPdf",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "instanceOf",
+              "value": "ArrayBuffer"
+            },
+            {
+              "name": "instanceOf",
+              "value": "Uint8Array"
+            }
+          ]
+        },
+        "required": true,
+        "description": "The PDF data to be rendered."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      },
+      "buttonClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS class name for the Previous and Next buttons.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "labelClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS class name for the \"Page X of Y\" label.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "controlsClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS class name for the parent div of label and buttons.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      }
+    }
+  }
+}

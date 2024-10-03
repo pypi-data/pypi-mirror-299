@@ -1,0 +1,13 @@
+dash_pdf/_DashPdf.py,sha256=ADT87vi3cj9U9Z84Mok4VXEzTRQevhYuo-p8quRKD-4,1862
+dash_pdf/__init__.py,sha256=9_MhHgwDn0YeaE5p9-GeyEC5_NLXy8hEIIvZ0Fe6v04,2233
+dash_pdf/_imports_.py,sha256=sk6SuMz-jL6vby6_4ZfLEvIIald9TVRdicXGuxG7HAU,60
+dash_pdf/dash_pdf.min.js,sha256=V_sGYBuCnz1EW3NVpWR6LMdgRuI4coppuwKjGMoO0js,334882
+dash_pdf/dash_pdf.min.js.map,sha256=UZAUSKnGA5cX62n9U0ZhkSzUu6GSMA_dcWMl7Ivd4-A,1168022
+dash_pdf/metadata.json,sha256=66PYT6nGUa22RbpOeDIsbEdQW1Y0XdICchLRTpoDcFc,2062
+dash_pdf/package-info.json,sha256=YY3OJnEkpkDs-TL4lWydfw9Hb4VIeWyzRz1LIjprtSY,1988
+dash_pdf/pdf.py,sha256=UvMHd1y-Y9L_hDm9wSMlvr6gmun33YzkAkVAsYqU-jI,581
+dash_pdf-0.0.1.dist-info/LICENSE,sha256=i7Aevfjfom1kPghdoi4Ca53_3J9FF8MoSpKTNfRRJw0,584
+dash_pdf-0.0.1.dist-info/METADATA,sha256=695vlyc6As46JaNTeS9GUp3Z4cYZxnVu87O77-mylZM,2579
+dash_pdf-0.0.1.dist-info/WHEEL,sha256=cVxcB9AmuTcXqmwrtPhNK88dr7IR_b6qagTj0UvIEbY,91
+dash_pdf-0.0.1.dist-info/top_level.txt,sha256=PdBUOq3djzf5KUSjCNYSfdGmMIHFdZesD886gPkABJk,9
+dash_pdf-0.0.1.dist-info/RECORD,,
