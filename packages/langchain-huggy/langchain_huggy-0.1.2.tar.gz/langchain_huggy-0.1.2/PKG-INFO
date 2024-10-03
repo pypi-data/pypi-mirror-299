@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: langchain_huggy
+Version: 0.1.2
+Summary: A LangChain integration for HuggingChat models
+Author-email: Kammari santhosh <your.email@example.com>
+Project-URL: Homepage, https://github.com/yourusername/langchain_huggy
+Project-URL: Bug Tracker, https://github.com/yourusername/langchain_huggy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+
+# LangChain Huggy
+
+A LangChain integration for HuggingChat models.
+
+## Installation
+
+```bash
+pip install langchain-huggy
+```
+
+## Usage
+
+```python
+from langchain_huggy import HuggingChat
+from langchain_core.messages import HumanMessage
+
+chat_model = HuggingChat()
+messages = [HumanMessage(content="Tell me a joke about programming.")]
+response = chat_model.generate(messages)
+print(response.generations[0].message.content)
+
+# For streaming
+for chunk in chat_model.stream(messages):
+    print(chunk.message.content, end="", flush=True)
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
