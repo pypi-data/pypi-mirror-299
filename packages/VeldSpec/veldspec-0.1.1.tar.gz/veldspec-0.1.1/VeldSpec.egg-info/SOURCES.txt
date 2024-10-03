@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+VeldSpec.egg-info/PKG-INFO
+VeldSpec.egg-info/SOURCES.txt
+VeldSpec.egg-info/dependency_links.txt
+VeldSpec.egg-info/requires.txt
+VeldSpec.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/tests/__init__.py
+src/tests/tests.py
