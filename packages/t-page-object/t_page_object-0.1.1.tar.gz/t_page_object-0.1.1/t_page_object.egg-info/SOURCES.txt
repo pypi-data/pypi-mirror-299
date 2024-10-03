@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+t_page_object/__init__.py
+t_page_object/t_page_object.py
+t_page_object.egg-info/PKG-INFO
+t_page_object.egg-info/SOURCES.txt
+t_page_object.egg-info/dependency_links.txt
+t_page_object.egg-info/not-zip-safe
+t_page_object.egg-info/top_level.txt
+t_page_object/utils/__init__.py
+t_page_object/utils/logger.py
+tests/test_t___page_object.py
