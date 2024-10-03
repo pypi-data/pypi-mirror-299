@@ -1,0 +1,14 @@
+flaky
+importlib_resources
+matplotlib
+networkx
+numpy
+pandas
+pingouin
+plotly
+pytorch-lightning
+pytest
+ray[tune]
+requests
+scikit-learn
+scipy

@@ -1,0 +1,3 @@
+[console_scripts]
+create_report = drevalpy.create_report:main
+run_suite = drevalpy.run_suite:main
