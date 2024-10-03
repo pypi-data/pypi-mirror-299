@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+import subprocess
+
+from downitall-android.core import Core
+
+Core().questions()
