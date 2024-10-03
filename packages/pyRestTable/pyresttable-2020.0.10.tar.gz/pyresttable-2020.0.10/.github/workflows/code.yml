@@ -1,0 +1,102 @@
+name: Unit Test
+
+on:
+  push:
+    branches:
+      - main   # push commit to the main branch
+    tags:
+      - '*'  # push tag to the main branch
+  pull_request:
+    branches:
+      - main   # pull request to the main branch
+  workflow_dispatch:   # allow manual triggering
+
+defaults:
+  run:
+    shell: bash -l {0}
+
+jobs:
+
+  lint:
+    name: Linting & Code style
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install package
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff
+  
+      - name: Run ruff
+        uses: davidslusser/actions_python_ruff@v1.0.2
+        with:
+          # src: "."
+          # options: "--cov=src"
+          pip_install_command: "pip install -e .[dev]"
+          python_version: "3.12"
+
+  tests:
+    name: CI py${{ matrix.python-version }}
+    needs: lint
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version:
+          - '3.9'
+          - '3.10'
+          - '3.11'
+          - '3.12'
+          - '3.13'
+      max-parallel: 5
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create Python ${{ matrix.python-version }} environment
+        uses: mamba-org/setup-micromamba@v1
+        with:
+          init-shell: bash
+          environment-file: environment.yml
+          environment-name: anaconda-test-env-py-${{ matrix.python-version }}
+          cache-environment-key: env-key-${{ matrix.python-version }}
+          cache-environment: true
+          # cache-downloads: true
+          # channel-priority: flexible
+          # packages for the unit tests
+          create-args: >-
+            coveralls
+            pytest
+            pytest-cov
+            setuptools-scm
+
+      - name: Python Tests
+        run: |
+          coverage run --concurrency=thread --parallel-mode -m pytest -vvv .
+          coverage combine
+          coverage report --precision 3
+
+      # - name: Install for functional testing
+      #   run: |
+      #     python3 ./setup.py build sdist
+      #     python3 -m pip install .
+
+      # - name: Functional Test(s)
+      #   run: |
+      #     pyRestTable --help
+
+      - name: Upload to coveralls
+        # https://github.com/TheKevJames/coveralls-python
+        shell: bash -l {0}
+        run: |
+          coveralls --service=github
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
