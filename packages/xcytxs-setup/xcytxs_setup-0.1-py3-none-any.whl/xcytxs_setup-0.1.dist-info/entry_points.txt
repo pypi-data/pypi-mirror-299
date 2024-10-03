@@ -1,0 +1,2 @@
+[console_scripts]
+xcytxs-setup = xcytxs_setup.main:main
