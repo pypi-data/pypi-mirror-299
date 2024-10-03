@@ -1,0 +1,4 @@
+include tbtamr/tests/*
+include tbtamr/db/*
+include tbtamr/configs/*
+
