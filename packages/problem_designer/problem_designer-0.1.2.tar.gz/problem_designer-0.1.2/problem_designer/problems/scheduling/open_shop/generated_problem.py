@@ -1,0 +1,93 @@
+from pydantic import BaseModel
+
+
+class ParameterError(RuntimeError):
+    pass
+
+
+class Task(BaseModel):
+    """
+    A Task represents a single operation of a job.
+
+    Attributes
+    ----------
+    task_id : str
+        Unique Id of task
+    job_id : str
+        Unique Id of the job the tasks belongs to.
+    resource_ids : list[str]
+        List of Ids where the task could be processed on.
+    processing_time : int
+        Amount of time the task needs to be processed.
+    """
+
+    task_id: str
+    job_id: str
+    resource_ids: list[str]
+    processing_time: int
+
+
+class Timespan(BaseModel):
+    """
+    Contains a start and an end to symbolize a timespan.
+
+    Attributes
+    ----------
+    start : int
+        Start of the time interval.
+    end : int
+        End of the time interval.
+    """
+
+    start: int
+    end: int
+
+
+class Resource(BaseModel):
+    """
+    A Resource represents a machine that can process a task of a given job.
+
+    Attributes
+    ----------
+    resource_id : str
+        Unique id for the resource.
+    setup_times : dict[str, int] | None
+        Dictionary containg setup times.
+    teardown_times : dict[str, Timespan] | None
+        Dictionary containing teardown times where resource is not available for processing.
+    unavailable_times : dict[str, Timespan] | None
+        Dictionary containing unavailable times of resource.
+    """
+
+    resource_id: str
+    setup_times: dict[str, int] | None
+    teardown_times: dict[str, Timespan] | None
+    unavailable_times: dict[str, Timespan] | None
+
+
+class Job(BaseModel):
+    """
+    A Job contains one or more Tasks.
+
+    Attributes
+    ----------
+    job_id : str
+        Unique Id for Job.
+    tasks : list[str | list[str]]
+        List of corresponding task Ids.
+    due_date : str | None
+        Deadline when Job should be done.
+    release_time : str | None
+        Minimum time when Job has to be released for process.
+    """
+
+    job_id: str
+    tasks: list[str | list[str]]
+    due_date: str | None
+    release_time: str | None
+
+
+class GeneratedProblem(BaseModel):
+    tasks: dict[str, Task]
+    jobs: dict[str, Job]
+    resources: dict[str, Resource]
