@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ChainEngine
+Version: 2.2
+Summary: Decentralize data & processing using a blockchain on a peer to peer network.
+Home-page: https://github.com/jacksonlmakl/PyChain
+Author: Jackson Makl
+Author-email: jlm487@georgetown.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: msgpack
+Requires-Dist: cryptography
+
+*Decentralize data & processing using a blockchain on a peer to peer network.*
