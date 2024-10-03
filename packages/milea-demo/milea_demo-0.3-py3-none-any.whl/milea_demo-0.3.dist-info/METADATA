@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: milea-demo
+Version: 0.3
+Summary: Milea Framework - Milea Demo Module
+Author: red-pepper-services
+Author-email: pypi@schiegg.at
+License: MIT
+Requires-Dist: milea-base >=0.5
+
