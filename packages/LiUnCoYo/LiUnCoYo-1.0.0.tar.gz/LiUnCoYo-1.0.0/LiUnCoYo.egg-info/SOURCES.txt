@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+LiUnCoYo.egg-info/PKG-INFO
+LiUnCoYo.egg-info/SOURCES.txt
+LiUnCoYo.egg-info/dependency_links.txt
+LiUnCoYo.egg-info/entry_points.txt
+LiUnCoYo.egg-info/requires.txt
+LiUnCoYo.egg-info/top_level.txt
