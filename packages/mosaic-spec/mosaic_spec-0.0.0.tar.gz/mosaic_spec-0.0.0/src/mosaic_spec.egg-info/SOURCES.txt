@@ -1,0 +1,13 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mosaic_spec/__init__.py
+src/mosaic_spec.egg-info/PKG-INFO
+src/mosaic_spec.egg-info/SOURCES.txt
+src/mosaic_spec.egg-info/dependency_links.txt
+src/mosaic_spec.egg-info/requires.txt
+src/mosaic_spec.egg-info/top_level.txt
+tests/test_sample.py
