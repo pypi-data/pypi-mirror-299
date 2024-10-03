@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mino_file_server
+Version: 0.1.0
+Summary: apis for windows file-server
+Author-email: byron <1636700244@qq.com>
+License: MIT
+Requires-Python: ==3.11.*
+Description-Content-Type: text/markdown
+
+# mino_file_server
