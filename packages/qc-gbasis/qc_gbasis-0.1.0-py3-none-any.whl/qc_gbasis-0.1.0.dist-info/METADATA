@@ -1,0 +1,151 @@
+Metadata-Version: 2.1
+Name: qc-gbasis
+Version: 0.1.0
+Summary: A module for evaluating, differentiating, and integrating Gaussian functions.
+Author-email: QC-Devs Community <qcdevs@gmail.com>
+License: GPL-3.0-or-later
+Project-URL: Documentation, https://gbasis.qcdevs.org
+Project-URL: Issues, https://github.com/theochem/gbasis/issues
+Project-URL: Source, https://github.com/theochem/gbasis/
+Project-URL: Changelog, https://github.com/theochem/gbasis/blob/main/CHANGELOG.md
+Project-URL: Organization, https://github.com/theochem/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy >=1.11.1
+Requires-Dist: importlib-resources
+Requires-Dist: sympy
+Requires-Dist: numpy >=1.22 ; platform_system == "Linux"
+Requires-Dist: numpy <2.0.0,>=1.22 ; platform_system == "Windows"
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-timeout ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pytest-md ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinx-copybutton ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx-copybutton ; extra == 'doc'
+Requires-Dist: sphinx-autoapi ; extra == 'doc'
+Requires-Dist: nbsphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: docutils ==0.16 ; extra == 'doc'
+Requires-Dist: nbsphinx-link ; extra == 'doc'
+Provides-Extra: iodata
+Requires-Dist: qc-iodata >=1.0.0a5 ; extra == 'iodata'
+Provides-Extra: pyscf
+Requires-Dist: pyscf >=1.6.1 ; extra == 'pyscf'
+
+# GBasis
+
+[![This project supports Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org/downloads)
+[![pytest](https://github.com/theochem/gbasis/actions/workflows/pytest.yaml/badge.svg?branch=master)](https://github.com/theochem/gbasis/actions/workflows/pytest.yaml)
+[![codecov](https://codecov.io/gh/theochem/gbasis/graph/badge.svg?token=QPUfAWj7vf)](https://codecov.io/gh/theochem/gbasis)
+[![PyPI](https://img.shields.io/pypi/v/qc-gbasis.svg)](https://pypi.python.org/pypi/qc-gbasis/)
+![License](https://img.shields.io/github/license/theochem/gbasis)
+[![documentation](https://github.com/theochem/gbasis/actions/workflows/build_website.yaml/badge.svg?branch=master)](https://github.com/theochem/gbasis/actions/workflows/build_website.yaml)
+
+## About
+
+`gbasis` is a pure-Python package for analytical integration and evaluation of Gaussian-type orbitals
+and their related quantities. The goal is to build a set of tools for the quantum chemistry community
+that are easily accessible and extendable to facilitate future scientific works.
+
+Since basis set manipulation is often slow, quantum chemistry packages in Python often interface to
+a lower-level language, such as C++ and Fortran, resulting in a complicated build process and limited
+distribution. The hope is that `gbasis` can fill in this gap without a significant difference in performance.
+
+See [the `gbasis` website](https://gbasis.qcdevs.org/) for more information, tutorials and examples,
+and API documentation.
+
+## Citation
+
+Please use the following citation in any publication using `gbasis` library:
+
+> **"GBasis: A Python Library for Evaluating Functions, Functionals, and Integrals Expressed with
+> Gaussian Basis Functions.\"**,
+> T. D. Kim, L. Pujal, M. Richer, M. van Zyl, M. Martínez-González, A. Tehrani, V. Chuiko,
+> G. Sánchez-Díaz, W. Sanchez, W. Adams, X. Huang, B. D. Kelly, E. Vöhringer-Martinez,
+> T. Verstraelen, F. Heidar-Zadeh, and P. W. Ayers,
+> [J. Chem. Phys. 161, 042503 (2024)](https://doi.org/10.1063/5.0216776).
+
+## Installation
+
+To install the latest release of `qc-gbasis`, run as follows:
+
+```bash
+python -m pip install qc-gbasis
+```
+
+See https://gbasis.qcdevs.org/installation.html for full details.
+
+## Contributing
+
+We welcome contributions of all kinds, such as new features,
+improvements, bug fixes, and documentation clarifications. Please read
+our [Contributor Guide](https://iodata.qcdevs.org/contributing.html) and
+[Code of Conduct](https://github.com/theochem/.github/blob/main/CODE_OF_CONDUCT.md)
+for more details.
+
+## Feature List (Partial)
+
+This is a partial list of the features that are supported in `gbasis`:
+
+### Importing basis set
+
+- from Gaussian94 basis set file (`gbasis.parsers.parse_gbs`)
+- from NWChem basis set file (`gbasis.parsers.parse_nwchem`)
+- from `iodata` (`gbasis.wrappers.from_iodata`)
+- from `pyscf` (`gbasis.wrappers.from_pyscf`)
+
+### Evaluations
+
+- of basis sets (`gbasis.eval.evaluate_basis`)
+- of arbitrary derivative of basis sets (`gbasis.eval_deriv.evaluate_deriv_basis`)
+- of density (`gbasis.density.evaluate_density`)
+- of arbitrary derivative of density (`gbasis.density.evaluate_deriv_density`)
+- of gradient of density (`gbasis.density.evaluate_density_gradient`)
+- of Laplacian of density (`gbasis.density.evaluate_density_laplacian`)
+- of Hessian of density (`gbasis.density.evaluate_density_hessian`)
+- of stress tensor (`gbasis.stress_tensor.evaluate_stress_tensor`)
+- of Ehrenfest force (`gbasis.stress_tensor.evaluate_ehrenfest_force`)
+- of Ehrenfest Hessian (`gbasis.stress_tensor.evaluate_ehrenfest_hessian`)
+- of positive-definite kinetic energy (`gbasis.density.evaluate_posdef_kinetic_energy_density`)
+- of general form of the kinetic energy (`gbasis.density.evaluate_general_kinetic_energy_density`)
+- of electrostatic potential (`gbasis.electrostatic_potential.electrostatic_potential`)
+
+### Integrals
+
+- overlap integrals of a basis set (`gbasis.overlap.overlap_integral`)
+- overlap integrals between two basis sets (`gbasis.overlap_asymm.overlap_integral_asymmetric`)
+- arbitrary multipole moment integral (`gbasis.moment.moment_integral`)
+- kinetic energy integral (`gbasis.kinetic_energy.kinetic_energy.integral`)
+- momentum integral (`gbasis.momentum.momentum_integral`)
+- angular momentum integral (`gbasis.angular_momentum.angular_momentum_integral`)
+- point charge interaction integral (`gbasis.point_charge.point_charge_integral`)
+- nuclear-electron attraction integral (`gbasis.point_charge.point_charge_integral`)
+- electron-electron repulsion integral (`gbasis.electron_repulsion.electron_repulsion_integral`)
