@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+.github/workflows/python-publish.yml
+pypbr/__init__.py
+pypbr/io.py
+pypbr/material.py
+pypbr/models.py
+pypbr/utils.py
+pypbr.egg-info/PKG-INFO
+pypbr.egg-info/SOURCES.txt
+pypbr.egg-info/dependency_links.txt
+pypbr.egg-info/requires.txt
+pypbr.egg-info/top_level.txt
