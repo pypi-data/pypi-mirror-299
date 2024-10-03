@@ -1,0 +1,5 @@
+spikeinterface[full,widgets]==0.95.1
+torch==1.12.1
+pandas
+scikit-learn
+matplotlib
