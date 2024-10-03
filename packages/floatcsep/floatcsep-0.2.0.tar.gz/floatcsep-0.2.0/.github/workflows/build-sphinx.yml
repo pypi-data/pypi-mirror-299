@@ -1,0 +1,35 @@
+name: docs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build_docs:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: mamba-org/setup-micromamba@v1
+        with:
+          generate-run-shell: true
+          environment-file: environment.yml
+          create-args: >-
+            python=${{ matrix.python-version }}
+
+      - name: Install floatCSEP
+        run: |
+          pip install -r requirements_dev.txt
+          pip install --no-deps -e .
+          python -c "import floatcsep; print('Version: ', floatcsep.__version__)"
+
+      - name: Build documentation
+        run: |
+          make -C docs clean
+          make -C docs html
