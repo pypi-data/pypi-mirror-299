@@ -1,0 +1,7 @@
+numpy
+scipy
+gensim
+scikit-learn
+transformers
+biopython
+torch
