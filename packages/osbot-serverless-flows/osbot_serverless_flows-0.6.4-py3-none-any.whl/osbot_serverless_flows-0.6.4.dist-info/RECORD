@@ -1,0 +1,10 @@
+osbot_serverless_flows/__init__.py,sha256=DdJDmQc9zbQUlPVyTJOww6Ixrn9n4bD3ami5ItQfzJI,16
+osbot_serverless_flows/lambdas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/lambdas/handler.py,sha256=AgaNxcssTMrktsWZq9D0m3BrrjLgkZ02Av8178tRRLo,228
+osbot_serverless_flows/utils/Version.py,sha256=Cx7wyG4RYqIRvCXAV4VIValHf9EcH0odNC7hKmOm6jw,574
+osbot_serverless_flows/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/version,sha256=ExKvcJJeMNr--hU_HPaqfXuT343ZdESpY5nchxu9ZQo,7
+osbot_serverless_flows-0.6.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+osbot_serverless_flows-0.6.4.dist-info/METADATA,sha256=bPoiHjh7cJ-tuZQl2UwVehRnoPKEF8mgjqMj71vqwKM,790
+osbot_serverless_flows-0.6.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+osbot_serverless_flows-0.6.4.dist-info/RECORD,,
