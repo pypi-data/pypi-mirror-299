@@ -1,0 +1,13 @@
+
+[dev]
+black
+docformatter[toml]
+flake8
+isort
+myst-parser
+mypy
+pre-commit
+pytest
+pytest-cov
+sphinx
+sphinx-rtd-theme
