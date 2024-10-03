@@ -1,0 +1,8 @@
+README.md
+setup.py
+netminn_lib/__init__.py
+netminn_lib/mani.py
+netminn_lib.egg-info/PKG-INFO
+netminn_lib.egg-info/SOURCES.txt
+netminn_lib.egg-info/dependency_links.txt
+netminn_lib.egg-info/top_level.txt
