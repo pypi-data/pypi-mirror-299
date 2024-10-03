@@ -1,0 +1,10 @@
+dep_sync/__init__.py,sha256=_oaP4z98QyDi_JWkOMmyma6ibjiW2nvBgQu0RoG3-A0,442
+dep_sync/_dependency.py,sha256=E5B74JYeJWpWnDkSNy5GXuDchDNFmsmX3vDKoJ3gPg4,987
+dep_sync/_distributions.py,sha256=2IXERUC1CoEMnFXsalTVFF0rb_KPi564xvFx2v4hvh0,10752
+dep_sync/_utils.py,sha256=gi7OrwPJ118LrOM_0nWR0hyrymqa-cLwkb-i8mz-tPM,537
+dep_sync/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dep_sync/scripts.py,sha256=SvDLFr9KLnJ3AZvnrgtE_EKcGBFNIz-CY7lsM3VI2do,1246
+dep_sync-0.1.0.dist-info/METADATA,sha256=-2Geon_OLhZa8L3XuO6YnfKnw6uMhL-DjSyiTNDjYgc,3118
+dep_sync-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dep_sync-0.1.0.dist-info/licenses/LICENSE.txt,sha256=SiusEwm8NfhSkoB3ZuOJW4AteDjsozqeIUTDmat4mUY,1088
+dep_sync-0.1.0.dist-info/RECORD,,
