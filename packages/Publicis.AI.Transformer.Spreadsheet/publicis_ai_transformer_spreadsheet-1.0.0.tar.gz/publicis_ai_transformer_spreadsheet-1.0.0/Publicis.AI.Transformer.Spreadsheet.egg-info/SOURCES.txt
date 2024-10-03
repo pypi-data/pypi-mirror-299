@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+Publicis.AI.Transformer.Spreadsheet.egg-info/PKG-INFO
+Publicis.AI.Transformer.Spreadsheet.egg-info/SOURCES.txt
+Publicis.AI.Transformer.Spreadsheet.egg-info/dependency_links.txt
+Publicis.AI.Transformer.Spreadsheet.egg-info/entry_points.txt
+Publicis.AI.Transformer.Spreadsheet.egg-info/top_level.txt
