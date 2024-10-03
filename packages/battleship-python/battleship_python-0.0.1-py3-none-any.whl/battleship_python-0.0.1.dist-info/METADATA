@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: battleship-python
+Version: 0.0.1
+Summary: battleship game
+Author-email: Jose Tiago Macara Coutinho <coutinhotiago@gmail.com>
+License: GPL-3.0-or-later
+Project-URL: Documentation, https://tiagocoutinho.github.io/battleship/
+Project-URL: Homepage, https://github.com/tiagocoutinho/battleship
+Project-URL: Source, https://github.com/tiagocoutinho/battleship
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: build >=0.10.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+Requires-Dist: pytest >=8.3 ; extra == 'dev'
+Requires-Dist: pytest-cov >=5.0 ; extra == 'dev'
+Requires-Dist: pytest-asyncio >=0.24 ; extra == 'dev'
+Requires-Dist: ruff >=0.6.7 ; extra == 'dev'
+
+# Welcome to battleship-python
+
+[![battleship-python][pypi-version]](https://pypi.python.org/pypi/battleship-python)
+[![Python Versions][pypi-python-versions]](https://pypi.python.org/pypi/battleship-python)
+![License][license]
+[![CI][CI]](https://github.com/tiagocoutinho/battleship/actions/workflows/ci.yml)
+
+
+[pypi-python-versions]: https://img.shields.io/pypi/pyversions/battleship-python.svg
+[pypi-version]: https://img.shields.io/pypi/v/battleship-python.svg
+[pypi-status]: https://img.shields.io/pypi/status/battleship-python.svg
+[license]: https://img.shields.io/pypi/l/battleship-python.svg
+[CI]: https://github.com/tiagocoutinho/battleship/actions/workflows/ci.yml/badge.svg
