@@ -1,0 +1,2 @@
+
+celery aktualizacja do 5.4.0 (lepsza współpraca z Python 3.11)
