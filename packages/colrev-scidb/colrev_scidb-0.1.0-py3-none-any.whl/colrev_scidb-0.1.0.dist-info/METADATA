@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: colrev-scidb
+Version: 0.1.0
+Summary: TODO
+Home-page: https://github.com/julianprester/scidb
+License: MIT
+Author: Julian Prester
+Author-email: hi@julianprester.com
+Requires-Python: >=3.9,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pymupdf (>=1.24.3,<2.0.0)
+Requires-Dist: requests (<2.32.0)
+Requires-Dist: tenacity (>=8.4.1,<9.0.0)
+Project-URL: Repository, https://github.com/julianprester/scidb
