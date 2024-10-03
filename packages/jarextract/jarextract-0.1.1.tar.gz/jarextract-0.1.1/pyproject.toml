@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jarextract"
+version = "0.1.1"
+description = "Extracts JAR file from executable."
+authors = ["Sergey Dudanov <sergey.dudanov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+build = "jarextract.pyinstaller:install"
+jarextract = "jarextract.__main__:__main__"
