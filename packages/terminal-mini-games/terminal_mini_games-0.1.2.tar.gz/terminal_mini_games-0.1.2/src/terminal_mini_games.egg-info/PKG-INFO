@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: terminal-mini-games
+Version: 0.1.2
+Summary: A collection of mini-games playable in the terminal
+Home-page: https://github.com/hanzili/terminal-mini-games
+Author: Hanzi Li
+Author-email: hanzili0217@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+
+# Terminal Mini Games
+
+Welcome to the Terminal Mini Games project! This collection of mini-games is designed to run directly in your terminal, providing a fun and nostalgic gaming experience.
+
+## Project Overview
+
+This project aims to create a suite of simple yet entertaining games that can be played entirely within a terminal environment. Currently, it includes:
+
+1. 2048 - A popular sliding tile puzzle game
+
+More games will be added in the future!
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7 or higher
+- pip (Python package installer)
+
+### Setup
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/terminal-mini-games.git
+   cd terminal-mini-games
+   ```
+
+2. Create a virtual environment:
+   ```
+   python -m venv myenv
+   ```
+
+3. Activate the virtual environment:
+   - On Windows:
+     ```
+     myenv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source myenv/bin/activate
+     ```
+
+4. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+
+### Running the Games
+
+To start the game center, run:
+```
+python main.py
+```
+
+Follow the on-screen instructions to select and play a game.
+
+## Project Structure
+
+- `main.py`: The entry point of the application
+- `games/`: Directory containing individual game modules
+- `utils/`: Utility functions used across multiple games
+- `assets/`: Game assets, including high scores
+
+## Installation
+
+You can install Terminal Mini Games directly from PyPI:
+```bash
+pip install terminal-mini-games
+```
+
+## Contributing
+
+We welcome contributions! If you'd like to add a new game or improve an existing one, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature
+3. Implement your changes
+4. Submit a pull request with a clear description of your modifications
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Thanks to all contributors who have helped build and improve these games
+- Inspired by classic terminal games and modern puzzle challenges
+
+Enjoy playing and happy coding!
