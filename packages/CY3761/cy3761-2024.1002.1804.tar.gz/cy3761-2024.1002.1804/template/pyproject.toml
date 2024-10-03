@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "CY3761"
+version = ""
+authors = [
+    { name = "CY3761", email = "fb764bc@foxmail.com" },
+]
+
+description = "CY3761的软件包"
+keywords = [
+
+]
+requires-python = ""
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    #    "pycryptodome",
+    #    "PyExecJS2",
+    #    "playwright",
+    #    "fake_useragent",
+    #    "requests",
+]

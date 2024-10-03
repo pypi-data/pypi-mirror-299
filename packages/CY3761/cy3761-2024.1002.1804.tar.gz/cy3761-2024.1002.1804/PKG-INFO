@@ -1,0 +1,10 @@
+Metadata-Version: 2.3
+Name: CY3761
+Version: 2024.1002.1804
+Summary: CY3761的软件包
+Author-email: CY3761 <fb764bc@foxmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12.5
