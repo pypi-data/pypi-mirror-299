@@ -1,0 +1,75 @@
+# LocalCloudForge
+
+## Overview
+
+**LocalCloudForge** is a library designed to simplify the process of working with AWS services in your local development environment. This library enables you to run your AWS service interactions locally, making it easier to test and develop your applications without incurring unnecessary costs. With just a simple decorator, you can enhance your development workflow, allowing you to focus on building your applications without worrying about cloud expenses.
+
+## Features
+
+- **Effortless Integration**: Simply decorate any function that instantiates an AWS service with @forge_local, and it will automatically execute in your local environment.
+- **Support for Multiple AWS Services**: Integrate with various AWS services like S3, SNS, SQS, Lambda, and more without additional configuration. You can check for avaiable services [here](https://docs.localstack.cloud/user-guide/aws/feature-coverage/)
+
+## Getting Started
+
+### Requirements
+
+To get started, ensure you have the following installed:
+
+```bash
+pip install boto3 localstack-client
+```
+
+### Running LocalStack
+
+Start LocalStack using Docker with the following command:
+
+```bash
+docker run -p 4566:4566 -p 4571:4571 localstack/localstack
+```
+
+## Configuring AWS CLI for LocalStack
+
+To interact with your LocalStack instance using the AWS CLI, you'll need to configure your AWS CLI settings. Add the following configurations to your AWS config and credentials files:
+
+## Update your AWS Config:
+
+Create or edit `~/.aws/config`:
+
+```ini
+[profile localstack]
+region = us-east-1
+output = json
+endpoint_url = http://localhost:4566
+```
+
+## Update your AWS Credentials:
+
+Create or edit `~/.aws/credentials`:
+
+```ini
+[localstack]
+aws_access_key_id = test
+aws_secret_access_key = test
+```
+
+## Using the AWS CLI with LocalStack
+
+Once configured, you can execute AWS CLI commands using the LocalStack profile. Simply add the `--profile localstack` flag to your AWS CLI commands:
+
+```bash
+aws s3 ls --profile localstack
+```
+
+### Example Usage
+
+Here's a quick example of how to use the `@forge_local` decorator:
+
+```python
+from local_cloud_forge import forge_local
+
+@forge_local
+def create_bucket(bucket_name):
+    s3_client = boto3.client('s3')
+    s3_client.create_bucket(Bucket=bucket_name)
+    print(f"Bucket '{bucket_name}' created.")
+```

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+local_cloud_forge/__init__.py
+local_cloud_forge/decorator.py
+localcloudforge.egg-info/PKG-INFO
+localcloudforge.egg-info/SOURCES.txt
+localcloudforge.egg-info/dependency_links.txt
+localcloudforge.egg-info/requires.txt
+localcloudforge.egg-info/top_level.txt
