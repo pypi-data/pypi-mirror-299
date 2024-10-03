@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+file_organizer/__init__.py
+file_organizer/organizer.py
+organize_files.egg-info/PKG-INFO
+organize_files.egg-info/SOURCES.txt
+organize_files.egg-info/dependency_links.txt
+organize_files.egg-info/entry_points.txt
+organize_files.egg-info/top_level.txt
