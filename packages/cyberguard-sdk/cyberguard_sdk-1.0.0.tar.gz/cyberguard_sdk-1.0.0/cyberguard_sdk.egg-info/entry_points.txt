@@ -1,0 +1,2 @@
+[console_scripts]
+cyberguard = cybersec_sdk.example_usage:main
