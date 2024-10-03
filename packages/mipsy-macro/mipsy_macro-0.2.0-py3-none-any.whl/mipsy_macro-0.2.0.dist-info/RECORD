@@ -1,0 +1,10 @@
+mipsy_macro/__init__.py,sha256=-pCez_xOYsvcKLOnoxJBr90u4x0Ka7hazB9hSQx5Ubk,21
+mipsy_macro/cli.py,sha256=US9hLFjvu-eEXJkRfqcFQXC6-4geQQpwEMGq0i3c4uI,4501
+mipsy_macro/macro.py,sha256=lW-wv8atRvV75bkGIa7JyMiJcm5mnEuuZZVWasOBC8g,17359
+mipsy_macro/resources/reserved_words.json,sha256=7fgBhMROQG-tCvIExxwQuhMNcLa5aeI3Ep7fWrXachw,3393
+mipsy_macro-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mipsy_macro-0.2.0.dist-info/METADATA,sha256=eGld7P9nw_pl71seTeLDsPoiFL7j1GilokuzM2dq3PU,45822
+mipsy_macro-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mipsy_macro-0.2.0.dist-info/entry_points.txt,sha256=4_OwyHEp_4sEbdMGpkJXghKluKzbxFPbeBEeLPLIPQA,52
+mipsy_macro-0.2.0.dist-info/top_level.txt,sha256=kUGjVKDTPlXqM0ct5X_4VIdpjIf_nd_FnnNbdYvuL58,12
+mipsy_macro-0.2.0.dist-info/RECORD,,
