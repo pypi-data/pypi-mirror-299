@@ -1,0 +1,58 @@
+# Uncharted: A package for exploring parameter spaces of functions
+
+Uncharted provides a framework for exploring a function's parameter space using a variety of sampling algorithms, such as grid sampling, random sampling, or attempting to optimally sample the space by varying the local sampling density and minimizing the number of samples.
+
+For many applications there exist computationally expensive functions or calculations, where one cannot expect the necessarily know the underlying structure of their parameter spaces. In these instances simple sampling methods such as grid sampling may either oversample the function (resulting in slower data acquisition times and increased storage requirements) or undersample it (resulting in inaccuracies such as aliasing or missing critical features). The aim of `uncharted` is to provide a means of efficiently exploring such parameter spaces in ways that minimize the total number of samples.
+
+## Installation
+
+To install the latest release:
+```shell
+pip install uncharted
+```
+
+## Quick-start guide
+
+Assuming you have some function `f(x)` that you wish to explore where `x: NDArray[(n,)]` is an nD parameter space, this can be explored using
+```python
+from uncharted import Explorer, Parameter
+from uncharted.samplers import RandomSampler
+
+params = (Parameter(0, 2), ..., Parameter(-1, 1))  # define the parameter space as a sequence of Parameters
+explorer = Explorer(params=params, sampler=RandomSampler())  # instantiate an Explorer on the space
+results = explorer.explore(f, n=100)  # explore the space using the requested sampler up to 100 points
+```
+
+For more control over sampling using the ask-and-tell interface:
+```python
+from uncharted import EarlyTermination
+
+for _ in range(n):
+    x = explorer.ask(m)  # ask the assigned sampler for m samples to explore
+    # x is an array of shape (m, n) - assume f is vectorized to handle this in this example
+    y = f(x)  # compute the values at these points
+    # assuming f is vectorized and has scalar output y will have shape (m,)
+    try:
+        explorer.tell(x, y)  # tell the explorer the values
+    except EarlyTermination:  # if sufficient confidence has been achieved in
+        break
+results = explorer.results
+```
+
+## Reference documentation
+
+For details about the uncharted API, see []().
+
+## Citing Uncharted
+
+To cite this repository:
+
+```bibtex
+@software{uncharted2024github,
+  author = {Alan Sanders},
+  title = {{Uncharted}: A package for exploring parameter spaces of functions},
+  url = {http://github.com/asanders/uncharted},
+  version = {0.1.0},
+  year = {2024},
+}
+```

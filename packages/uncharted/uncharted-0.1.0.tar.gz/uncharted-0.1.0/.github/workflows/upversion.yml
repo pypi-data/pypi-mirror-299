@@ -1,0 +1,67 @@
+# This workflow is manually triggered by the user to bump the version of the package and tag a new release
+
+name: Upversion
+
+on:
+  workflow_dispatch:
+    inputs:
+      version-change:
+        description: 'Version change'
+        required: true
+        default: 'auto'
+        type: choice
+        options:
+          - auto
+          - major
+          - minor
+          - patch
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Install uv
+      uses: astral-sh/setup-uv@v2
+      with:
+        enable-cache: true
+    - name: Install hatch
+      run: uv tool install hatch
+    - name: Set up Git
+      run: |
+        git config --global user.name 'CI Account'
+        git config --global user.email 'ci-account@wavephotonics.com'
+    - name: Get current version
+      id: get_version
+      run: echo "version=$(uvx hatch version)" >> $GITHUB_OUTPUT
+    - name: Determine next version
+      id: determine_version
+      if: ${{ github.event.inputs.version-change == 'auto' }}
+      uses: PaulHatch/semantic-version@v5.4.0
+      with:
+          major_pattern: "feat!:"
+          minor_pattern: "feat:"
+    - name: Bump version
+      id: update_version
+      run: |
+        echo "Change: ${{ github.event.inputs.version-change }}"
+        if [ ${{ github.event.inputs.version-change }} == 'auto' ]; then
+          echo "Determined change: ${{ steps.determine_version.outputs.version_type }}"
+          uvx hatch version ${{ steps.determine_version.outputs.version_type }}
+        else
+          uvx hatch version ${{ github.event.inputs.version-change }}
+        fi
+        echo "version=$(uvx hatch version)" >> $GITHUB_OUTPUT
+    - name: Commit version change
+      if: ${{ steps.update_version.outputs.version != steps.get_version.outputs.version }}
+      run: |
+        git add src/uncharted/__init__.py
+        git commit -m "chore: bump version to v${{ steps.update_version.outputs.version }}"
+        git push
+    - name: Tag release
+      if: ${{ steps.update_version.outputs.version != steps.get_version.outputs.version }}
+      run: |
+        git tag -a v${{ steps.update_version.outputs.version }} -m "Release v${{ steps.update_version.outputs.version }}"
+        git push origin v${{ steps.update_version.outputs.version }}
