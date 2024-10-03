@@ -1,0 +1,3 @@
+MGE
+MGE/_InputsEmulator
+MGE/_sdl
