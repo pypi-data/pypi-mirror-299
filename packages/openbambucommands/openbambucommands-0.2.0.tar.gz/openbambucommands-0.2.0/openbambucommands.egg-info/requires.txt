@@ -1,0 +1,7 @@
+
+[dev]
+black
+flake8
+pre-commit
+pytest
+pytest-cov
