@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ye-tracker
+Version: 0.0.1
+Summary: A Python interface for the Ye Tracker at https://docs.google.com/spreadsheets/d/1vW-nFbnR02F9BEnNPe5NBejHRGPt0QEGOYXLSePsC1k.
+Author-email: Phan Nguyên Khôi <fannk987@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-api-python-client >=2.147.0
+
