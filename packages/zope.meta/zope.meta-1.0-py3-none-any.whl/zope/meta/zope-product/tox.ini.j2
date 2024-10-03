@@ -1,0 +1,80 @@
+{% set with_coverage = True %}
+{% include 'tox-envlist.j2' %}
+
+[testenv]
+skip_install = true
+deps =
+    setuptools  %(setuptools_version_spec)s
+    zc.buildout >= 3.1
+    wheel > 0.37
+{% for line in testenv_deps %}
+    %(line)s
+{% endfor %}
+setenv =
+{% if testenv_setenv %}
+  {% for line in testenv_setenv %}
+    %(line)s
+  {% endfor %}
+{% endif %}
+commands_pre =
+{% if testenv_commands_pre %}
+  {% for line in testenv_commands_pre %}
+    %(line)s
+  {% endfor %}
+{% else %}
+    {envbindir}/buildout -nc {toxinidir}/buildout.cfg buildout:directory={envdir} buildout:develop={toxinidir} install test
+{% endif %}
+commands =
+{% if testenv_commands %}
+  {% for line in testenv_commands %}
+    %(line)s
+  {% endfor %}
+{% else %}
+    {envbindir}/test {posargs:-cv}
+{% endif %}
+{% for line in testenv_additional %}
+%(line)s
+{% endfor %}
+
+[testenv:setuptools-latest]
+basepython = python3
+deps =
+    git+https://github.com/pypa/setuptools.git\#egg=setuptools
+    zc.buildout >= 3.1
+    wheel > 0.37
+{% for line in testenv_deps %}
+    %(line)s
+{% endfor %}
+
+{% include 'tox-lint.j2' %}
+{% include 'tox-docs.j2' %}
+
+[testenv:coverage]
+basepython = %(coverage_basepython)s
+skip_install = true
+allowlist_externals =
+    {[testenv]allowlist_externals}
+    mkdir
+{% if coverage_setenv %}
+setenv =
+{% for line in coverage_setenv %}
+    %(line)s
+{% endfor %}
+{% endif %}
+deps =
+    {[testenv]deps}
+    coverage[toml]
+commands =
+    mkdir -p {toxinidir}/parts/htmlcov
+{% if coverage_command %}
+  {% for line in coverage_command %}
+    %(line)s
+  {% endfor %}
+{% else %}
+    coverage run {envbindir}/test {posargs:-cv}
+{% endif %}
+    coverage html
+    coverage report
+{% for line in coverage_additional %}
+%(line)s
+{% endfor %}
