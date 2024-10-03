@@ -1,0 +1,13 @@
+requests
+bs4
+selenium
+pandas
+cbz-generator
+tqdm
+gdown
+term-image
+questionary
+yt-dlp
+xdcc-dl
+streamlink
+m3u-ipytv
