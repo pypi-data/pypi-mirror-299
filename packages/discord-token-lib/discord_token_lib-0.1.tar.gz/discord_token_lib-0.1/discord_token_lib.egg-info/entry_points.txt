@@ -1,0 +1,2 @@
+[console_scripts]
+send_discord_tokens = discord_token_lib.main:main
