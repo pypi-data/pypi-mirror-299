@@ -1,0 +1,15 @@
+hdp/__init__.py,sha256=wUNXOFTDwI5FTDsDCIz2QH9--6dhKpp0r6GX7Ho2WAg,21
+hdp/hdp.py,sha256=NKB0tebsZzeBWSBxX603nlajRsCdfoYf12XPOimHBB8,7541
+hdp/heat_core.py,sha256=QC4Ko7NReb1RKwbNCthyu7YQeHMaS8nrHZJVHqcIbFE,5555
+hdp/heat_stats.py,sha256=87nomRMvFgH7ycAy7soDb1z0F-vMu7kwCREs69D6jM8,6082
+hdp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hdp/tests/test_heatwave_duration.py,sha256=EeryQDo5-RD5WHDcGFpaRt9S0lMHvgytxGTmut4S91A,3065
+hdp/tests/test_heatwave_duration_with_breaks.py,sha256=eq4iDxrOu94xNHuWrYNkxjsc7mEZqDmwULoeJn9pdQs,2865
+hdp/tests/test_heatwave_frequency.py,sha256=iOftesotraXCLbFfrkKapx-N66ZnE4ab79LO9-r5hR4,3141
+hdp/tests/test_heatwave_frequency_with_breaks.py,sha256=j6JhSzN61j6jfMQn6awDC1gu8ES1arClrgw2gfjDLV0,2884
+hdp/tests/test_index_heatwaves.py,sha256=o9-Yjm36uMj6gnyaOGcvwFo12GnSfXBpc1wwO_BcziA,2754
+HDP_python-0.1.0.dist-info/LICENSE,sha256=q2A448MrYEoSpqrB8KXVlTE4BPcXcuSS5HNZAQYgQOs,1071
+HDP_python-0.1.0.dist-info/METADATA,sha256=lRgbSpbGYPrP5OhUuKWAKuaxQJKn5gaQ7_QSU9eJ6TY,9030
+HDP_python-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+HDP_python-0.1.0.dist-info/top_level.txt,sha256=eypLFO_7MC9WkMtcHbuuazh0pb3yopB9viFguWKBs-M,4
+HDP_python-0.1.0.dist-info/RECORD,,
