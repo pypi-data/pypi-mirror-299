@@ -1,0 +1,16 @@
+crimson/folder_sync/__init__.py,sha256=EtTtCY3Bvv-FvjmG3_4xWE1rWjJ9VoJHbxIPWzF42lA,60
+crimson/folder_sync/debug.py,sha256=Bl6Xb89qagk2cr6_u0epYkwYRuAbAOb9ToB_0FZ05D4,1070
+crimson/folder_sync/docs.py,sha256=VQVbxSXUn-T2LNn6csFSqPWngZ4Ezh-LRzLvK4eNtNE,582
+crimson/folder_sync/filter.py,sha256=45QsG3QsO455uym9oanpXP0oT4chhMFkdbk84sob7vg,1303
+crimson/folder_sync/logger.py,sha256=dWF7Urx5UYWCR-pUHlUu9ZnzWRJKyXIvLOq6R_MOM2U,1313
+crimson/folder_sync/sync_handlers/bi_sync_handler.py,sha256=6VOw0islQ8wPLdY2iza_5KnmgwnLohMVigNdkPnwUgE,4509
+crimson/folder_sync/sync_handlers/editable_sync_handler.py,sha256=zuLte2eXD8tqWt7WV0aI9DZ9PvxuWF4_4hnXw8j-EC4,3753
+crimson/folder_sync/sync_handlers/sync_handler.py,sha256=KChSDr1IV5m7ViV2EspRZgG0VpUc6oXlrkDjHhyYiBg,5622
+crimson/folder_sync/syncer/__init__.py,sha256=7UfSmiUq6cvmku0XFvZmk5GT46Sh_lAj57bwvHVMOlY,139
+crimson/folder_sync/syncer/base_syncer.py,sha256=uCnQBtXKyGBLue4zFNEMouqkOgHh52Tute3k2YZ_3WM,3124
+crimson/folder_sync/syncer/editable_syncer.py,sha256=RaTPg8k3mf66BIO9h8NQYjg58bFXfKQpZYzTG7wMfjQ,1500
+crimson_folder_sync-0.3.0.dist-info/LICENSE,sha256=NAak_CnMzIX1nKL0QMNQzLO3acKR6tIJ1ErfKSeFkv4,1067
+crimson_folder_sync-0.3.0.dist-info/METADATA,sha256=4__Fqj0dhtEqyIskOuCmLPlAeD7lBhQhMJMeuvXurDc,2495
+crimson_folder_sync-0.3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+crimson_folder_sync-0.3.0.dist-info/top_level.txt,sha256=UjHBjSiQhr7eEWh0dB9e3WZ617y7vLEywXhGYfnzbw8,8
+crimson_folder_sync-0.3.0.dist-info/RECORD,,
