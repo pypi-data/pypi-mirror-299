@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+rao_algorithms.egg-info/PKG-INFO
+rao_algorithms.egg-info/SOURCES.txt
+rao_algorithms.egg-info/dependency_links.txt
+rao_algorithms.egg-info/requires.txt
+rao_algorithms.egg-info/top_level.txt
+tests/test_algorithms.py
