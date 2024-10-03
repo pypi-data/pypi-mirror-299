@@ -1,0 +1,11 @@
+importlib-metadata
+numpy
+pandas
+scipy
+torch>=2.1.0
+tqdm
+
+[testing]
+setuptools
+pytest
+pytest-cov
