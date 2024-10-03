@@ -1,0 +1,12 @@
+pyRestTable/LICENSE.txt,sha256=bz2uYeVjF3cxXwMWJp4JfKwDN_bwXtAFbWtsO-j_SBU,13116
+pyRestTable/__init__.py,sha256=dB3PhljuBuv_aYyVkiphEj1UtGplYZkz5fxFcELUevA,840
+pyRestTable/_version.py,sha256=taP2FPBNIvi8hL09L9e-wWVLJLasTZYrdI7OT3ZcXN4,419
+pyRestTable/rest_table.py,sha256=XOiz7e9p_L3IonCLLI3cmY7dMu8ycj4GCsZp3LfzAVo,14745
+pyRestTable/simple.py,sha256=OZc1zKf5GeM5Dyw7J-u6525wogftbSQCygIQ88YkilY,407
+pyRestTable/tests/__init__.py,sha256=-D6vl5gws5UTKVsG7XttbedVQSP97DoKbwPZOEiOi1I,6073
+pyRestTable/tests/test_dict_table.py,sha256=FeQ_YeD6DB4wqatf8a8B7KYktcGIAtqsNQHhw12P-gw,604
+pyRestTable/tests/test_results.py,sha256=CcfsnvJxviiS1xgA1ob3CBGIfO0ExrW3tKK7utfhoXY,17723
+pyRestTable-2020.0.10.dist-info/METADATA,sha256=FS6QR0_3FaZ25NplgngTpJm4yLycAFfXoHVTQcKa6fY,17197
+pyRestTable-2020.0.10.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyRestTable-2020.0.10.dist-info/top_level.txt,sha256=dke949wxvMn6QW2LF6IiQ2yWs538wseiHPJNuxdXBjA,12
+pyRestTable-2020.0.10.dist-info/RECORD,,
