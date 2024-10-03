@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: square-0-2
+Version: 9
+Summary: a square in a sudoku puzzle
+Home-page: https://pfcmathews.com
+Author: pfcm
+Author-email: pfcmathews+pypi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: square-0-0!=9
+Requires-Dist: square-0-1!=9
+Requires-Dist: square-0-3!=9
+Requires-Dist: square-0-4!=9
+Requires-Dist: square-0-5!=9
+Requires-Dist: square-0-6!=9
+Requires-Dist: square-0-7!=9
+Requires-Dist: square-0-8!=9
+Requires-Dist: square-1-0!=9
+Requires-Dist: square-1-1!=9
+Requires-Dist: square-1-2!=9
+Requires-Dist: square-2-0!=9
+Requires-Dist: square-2-1!=9
+Requires-Dist: square-2-2!=9
+Requires-Dist: square-3-2!=9
+Requires-Dist: square-4-2!=9
+Requires-Dist: square-5-2!=9
+Requires-Dist: square-6-2!=9
+Requires-Dist: square-7-2!=9
+Requires-Dist: square-8-2!=9
+
+
+This package represents a single square in a game of sudoku. Each version is a
+possible number and the dependencies guarantee that any square in the same row,
+column or 3x3 sub-square can not have the same value (can not be at the same
+version).
+
+
