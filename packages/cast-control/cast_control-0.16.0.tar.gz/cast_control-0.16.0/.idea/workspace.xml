@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce6fa944-0a19-4897-83c1-29b96a5e7c39" name="Changes" comment="Ignore `apt build-dep`">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexdelorenzo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:alexdelorenzo/cast_control.git&quot;,
+    &quot;accountId&quot;: &quot;9c7736f5-966e-4476-89b1-f7c64679ad1c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2miy4vwsqDTjf1zdEwXGPwpo4sN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alex/Projects/Github/cc-old/.github&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-bd4b0a03caa6-JavaScript-PY-243.16718.36" />
+        <option value="bundled-python-sdk-09715afb1fcd-ca77fbc60dd9-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.16718.36" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce6fa944-0a19-4897-83c1-29b96a5e7c39" name="Changes" comment="" />
+      <created>1727573504168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727573504168</updated>
+      <workItem from="1727573505357" duration="5692000" />
+      <workItem from="1727651554763" duration="3453000" />
+      <workItem from="1727847836112" duration="746000" />
+      <workItem from="1727851333835" duration="4462000" />
+    </task>
+    <task id="LOCAL-00001" summary="Convert project to `src` dir and Rye managed">
+      <option name="closed" value="true" />
+      <created>1727574698314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727574698314</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Cast Control Desktop notice">
+      <option name="closed" value="true" />
+      <created>1727575012968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727575012968</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add new build requirements including Rye and `hatchling`">
+      <option name="closed" value="true" />
+      <created>1727575618829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727575618829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Remove instructions about `requirements.txt`, it doesn't exist">
+      <option name="closed" value="true" />
+      <created>1727575772389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727575772389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix reference to requirements">
+      <option name="closed" value="true" />
+      <created>1727575821549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727575821549</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bring hatch settings down">
+      <option name="closed" value="true" />
+      <created>1727581741787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727581741787</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Upgrade `PyChromecast` to 14.0.1">
+      <option name="closed" value="true" />
+      <created>1727652145899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727652145899</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Use new YouTube API">
+      <option name="closed" value="true" />
+      <created>1727652543313</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727652543313</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add release workflow, GitHub metadata">
+      <option name="closed" value="true" />
+      <created>1727670992418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727670992418</updated>
+    </task>
+    <task id="LOCAL-00010" summary="No need for extra metadata">
+      <option name="closed" value="true" />
+      <created>1727850679002</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727850679002</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bump `PyChromecast` to latest release with upstreamed fix">
+      <option name="closed" value="true" />
+      <created>1727905187297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727905187297</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Bump version">
+      <option name="closed" value="true" />
+      <created>1727905209463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727905209463</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Install build deps in workflow">
+      <option name="closed" value="true" />
+      <created>1727905626993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727905626993</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Build dep name missing">
+      <option name="closed" value="true" />
+      <created>1727906062888</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727906062888</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Use build deps step from GUI">
+      <option name="closed" value="true" />
+      <created>1727906244896</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727906244896</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Ignore `apt build-dep`">
+      <option name="closed" value="true" />
+      <created>1727906403089</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727906403089</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Convert project to `src` dir and Rye managed" />
+    <MESSAGE value="Add Cast Control Desktop notice" />
+    <MESSAGE value="Add new build requirements including Rye and `hatchling`" />
+    <MESSAGE value="Remove instructions about `requirements.txt`, it doesn't exist" />
+    <MESSAGE value="Fix reference to requirements" />
+    <MESSAGE value="Bring hatch settings down" />
+    <MESSAGE value="Upgrade `PyChromecast` to 14.0.1" />
+    <MESSAGE value="Use new YouTube API" />
+    <MESSAGE value="Add release workflow, GitHub metadata" />
+    <MESSAGE value="No need for extra metadata" />
+    <MESSAGE value="Bump `PyChromecast` to latest release with upstreamed fix" />
+    <MESSAGE value="Bump version" />
+    <MESSAGE value="Install build deps in workflow" />
+    <MESSAGE value="Build dep name missing" />
+    <MESSAGE value="Use build deps step from GUI" />
+    <MESSAGE value="Ignore `apt build-dep`" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore `apt build-dep`" />
+  </component>
+</project>
