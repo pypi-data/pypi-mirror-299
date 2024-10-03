@@ -1,0 +1,17 @@
+safeds_datasets/__init__.py,sha256=y6Wc3z0RkbJUobLt85UZivz35hPTSyu11LvsH0df6nQ,60
+safeds_datasets/image/__init__.py,sha256=psEOGAqg9q4jhG1f-GMVzY9NgpMew8SNZagT26VeXMU,150
+safeds_datasets/image/_mnist/__init__.py,sha256=ypObMSvm3zWQpHPJuIXlNbqPxM9Cl3YADr-kssNiEWU,155
+safeds_datasets/image/_mnist/_mnist.py,sha256=2unnyDHjxSkHyI10HgHhkonzLm4HLdX8w-oJPF1pyUY,9395
+safeds_datasets/tabular/__init__.py,sha256=kEj-XvKSs-PgcL-LmTndnkCUTq6EEJFyFkjPV2MfRsI,151
+safeds_datasets/tabular/_house_sales/__init__.py,sha256=VESlw-u2DRt4uJ_iVMwzf_tDvdCPZFSSVXbYLstK8So,75
+safeds_datasets/tabular/_house_sales/_house_sales.py,sha256=Npx5xVsgoT6Zo_Qlu7zUJV5HjAd_FV0TqJMdm74-0fg,2104
+safeds_datasets/tabular/_house_sales/data/house_sales.csv,sha256=UcpTNSifqmn_TP88KlbKDRZcmUwzRaGYEN6Q6o1DeAI,2088210
+safeds_datasets/tabular/_titanic/__init__.py,sha256=rpnPQdDa6NAhF4s02uvzwZ49eLL2QmOQZpi0hRjN310,63
+safeds_datasets/tabular/_titanic/_titanic.py,sha256=bbNGEShCljp36UTlsj1buVQfAC8_KwXezxTkVeGHuPQ,1150
+safeds_datasets/tabular/_titanic/data/titanic.csv,sha256=UYr9d3U2XfpaDdO1tlGitvLiN09f0mw5IK_uZPU9ZXE,101569
+safeds_datasets/tabular/containers/__init__.py,sha256=GqV35ijJ4SQdTGvDYMJajRNxVh0nOf4NydD_35c8uiw,141
+safeds_datasets/tabular/containers/_table_with_descriptions.py,sha256=5Vca8ZPkgtnOShwaGnDtHQ96YLSVS96m4gTsGmg1MAA,1969
+safe_ds_datasets-0.19.0.dist-info/LICENSE,sha256=XJXd6q3ERDDfapWSw77_JxnIGm2oXXZo1MGfpa_CGy4,1069
+safe_ds_datasets-0.19.0.dist-info/METADATA,sha256=H9Kd0YV1LvyyoS3vTnQdQkORYlgPqKw95xVk6eRBxxQ,2080
+safe_ds_datasets-0.19.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+safe_ds_datasets-0.19.0.dist-info/RECORD,,
