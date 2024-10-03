@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "numpy", "matplotlib", "cartopy", "xarray", "cftime", "nc_time_axis"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pacl-waffle"
+version = "0.1.0"
+description = "Workflows and Automatic Fancy Figures for Large Ensembles (WAFFLE) is a toolkit tailored for use by researchers in and from the Persad Aero-Climate Lab (PACL)."
+authors = [
+  { name = "Cameron Cummins", email = "cameron.cummins@utexas.edu" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.12.3"
+dependencies = [
+  "xarray >= 2024.3.0",
+  "numpy >= 1.26.4",
+  "matplotlib >= 3.8.4",
+  "cartopy",
+  "cftime",
+  "nc_time_axis"
+]
+keywords = ["waffle", "large ensembles", "figure", "matplotlib"]
+
+[project.urls]
+Homepage = "https://github.com/AgentOxygen/WAFFLE"
+Issues = "https://github.com/AgentOxygen/WAFFLE"
+
+[tool.setuptools]
+packages = ["waffle"]
+
+[tool.setuptools.package-data]
+waffle = [
+    "ipcc_colormaps/*.txt",
+    "ipcc_colormaps/categorical_colors_rgb_0-255/*",
+    "ipcc_colormaps/continuous_colormaps_rgb_0-1/*",
+    "ipcc_colormaps/continuous_colormaps_rgb_0-255/*",
+    "discrete_colormaps_rgb_0-255/*",
+    "reference_datasets/*.nc"
+]

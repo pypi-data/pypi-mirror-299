@@ -1,0 +1,3 @@
+[submodule "ipcc_colormaps"]
+	path = waffle/ipcc_colormaps
+	url = git@github.com:IPCC-WG1/colormaps.git
