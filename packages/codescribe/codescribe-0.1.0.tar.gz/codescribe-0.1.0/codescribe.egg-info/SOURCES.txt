@@ -1,0 +1,10 @@
+README.md
+setup.py
+codescribe/__init__.py
+codescribe/formatter.py
+codescribe/github_api.py
+codescribe.egg-info/PKG-INFO
+codescribe.egg-info/SOURCES.txt
+codescribe.egg-info/dependency_links.txt
+codescribe.egg-info/requires.txt
+codescribe.egg-info/top_level.txt
