@@ -1,0 +1,6 @@
+pop-genlib
+traitlets
+pyaudio
+librosa
+ipywidgets
+opencv-python
