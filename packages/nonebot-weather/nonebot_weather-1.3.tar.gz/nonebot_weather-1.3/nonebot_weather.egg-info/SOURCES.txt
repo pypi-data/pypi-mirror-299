@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+nonebot_weather/__init__.py
+nonebot_weather/config.py
+nonebot_weather.egg-info/PKG-INFO
+nonebot_weather.egg-info/SOURCES.txt
+nonebot_weather.egg-info/dependency_links.txt
+nonebot_weather.egg-info/entry_points.txt
+nonebot_weather.egg-info/top_level.txt
