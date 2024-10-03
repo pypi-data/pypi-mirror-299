@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sheetauto
+Version: 0.0.1
+Summary: A package to automate sheet operations
+Author-email: Lingga Aji Andika <linggaajiandika@gmail.com>
+Project-URL: Source, https://github.com/linggaajiandika/sheetauto
+Requires-Dist: pandas
+Requires-Dist: pywin32
+Requires-Dist: Pillow
+
