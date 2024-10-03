@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: onnxdumper
+Version: 0.1
+Summary: A package for ONNX intermediate data dumping
+Author: Souls-R
+Author-email: 2362912722@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+
+# onnxdumper
+
+这是一个用于 ONNX 推理会话的 Python 包，通过额外创建一个 ONNX 推理会话加载修改了输出接口的 ONNX 模型，以便在导出 ONNX 推理中间层的输出。
