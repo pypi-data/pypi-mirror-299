@@ -1,0 +1,8 @@
+greyhorse_process/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+greyhorse_process/abc.py,sha256=rgMtE4I6M8b6P-CbTCjwOWhO72n6xIaTBOOo1sMp7Mc,2546
+greyhorse_process/adapters.py,sha256=SC-XE8Hnf7QmkJvgmWuETx_nNM435P_Nso5aya2axSo,3883
+greyhorse_process/local.py,sha256=iLuXYRshvxd-UMO5FQyDHm3aNvHrx8gzC6DTbjxxBEY,3146
+greyhorse_process/ssh.py,sha256=sOlJGx1scJdGeFROpf46v350QtADMZ6tYxcBx4AAjog,4701
+greyhorse_process-0.4.17.dist-info/METADATA,sha256=xDwd07Y3bYd7dpY3SSAJRnrQZZpPjLiMyFWYr3cj6i8,1130
+greyhorse_process-0.4.17.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+greyhorse_process-0.4.17.dist-info/RECORD,,
