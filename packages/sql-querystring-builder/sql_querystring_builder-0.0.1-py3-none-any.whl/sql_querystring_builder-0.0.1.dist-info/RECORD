@@ -1,0 +1,10 @@
+sql_querystring_builder/__init__.py,sha256=RVe-WVILCEUJs60oGhWQ0HiNWhKr6aRLooW0mVqERjg,192
+sql_querystring_builder/abstract_clause.py,sha256=9PmU5MJiVmHHuoPwgVkjCYEi4nb5uQSkpINrjzt8F40,273
+sql_querystring_builder/clauses.py,sha256=OT3zg0M2-tpHyqE__mZCkrTnnO_GsfOjcp1E0XfBWOE,4979
+sql_querystring_builder/query_builder.py,sha256=ywv4UFRuOfxnVM5C6d6pwiz7JY5hwqX--dDcfVSBTds,732
+sql_querystring_builder/tables.py,sha256=56WxWGp2RWIltB7hG3CoyjNoEr6oERnSOilS_SUN8T4,8067
+sql_querystring_builder-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+sql_querystring_builder-0.0.1.dist-info/METADATA,sha256=Ti6Qx4mM9rx-7PApWC9Q7IR-SIHprsBZ00Mk-FqfM28,42474
+sql_querystring_builder-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+sql_querystring_builder-0.0.1.dist-info/top_level.txt,sha256=U1YNBUlpIiidNaXjnScKqzNgTNVIhucoRPG3f287txU,24
+sql_querystring_builder-0.0.1.dist-info/RECORD,,
