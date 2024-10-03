@@ -1,0 +1,3 @@
+[console_scripts]
+aidsorb = aidsorb._cli:aidsorb_fire
+aidsorb-lit = aidsorb._cli:lightning_cli
