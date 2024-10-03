@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: blast_embedding
+Version: 0.1.0
+Summary: A BLAST-like algorithm using embeddings for bioinformatics
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: gensim
+Requires-Dist: scikit-learn
+Requires-Dist: transformers
+Requires-Dist: biopython
+Requires-Dist: torch
+
