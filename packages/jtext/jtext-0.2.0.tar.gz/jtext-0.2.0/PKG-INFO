@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: jtext
+Version: 0.2.0
+Summary: Tool for measurement of Japanese text features
+Project-URL: Source, https://github.com/vincent-lpj/jtext
+Author-email: Peijun Liu <vincentlpj.ou@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: Japanese,length,readability,redundancy
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: mecab-python3
+Requires-Dist: pandas
+Requires-Dist: unidic
+Description-Content-Type: text/markdown
+
+# jtext
+ Japan textual characteristics.
