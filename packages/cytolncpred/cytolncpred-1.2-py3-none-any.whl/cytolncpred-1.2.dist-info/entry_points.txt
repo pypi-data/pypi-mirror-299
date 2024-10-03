@@ -1,0 +1,2 @@
+[console_scripts]
+cytolncpred = cytolncpred.python_scripts.cytolncpred:main
