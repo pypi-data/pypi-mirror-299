@@ -1,0 +1,8 @@
+ta_lib_easy-1.0.2.dist-info/METADATA,sha256=XOFixgikMI62DST5Bj5L4Ocm5xOR6a77cnDrJiZy0Eo,78
+ta_lib_easy-1.0.2.dist-info/RECORD,,
+ta_lib_easy-1.0.2.dist-info/WHEEL,sha256=fQR-hgf4MynRDXfYWHi-ldvhCsQho6TiyZRTXPvYI_Y,152
+talib/abstract.py,sha256=HUt4SjxeZg3BCvkcX5ZNp7AzYV1tIStAMO57TJ6c7M0,824
+talib/deprecated.py,sha256=TRz7D-gSkgJhhq9N8gIg3uZKW-ulg6BKAjjt-0BTrUI,105
+talib/_ta_lib.cpython-38-x86_64-linux-gnu.so,sha256=n-b0HnSJknqhL59pr1-s-YAOO8n4rHTxIFIiFbL6iPQ,2445504
+talib/stream.py,sha256=iR2vmDOR5GWx3jtdzGUJXsOpB1eDOaheibai8ktbMns,190
+talib/__init__.py,sha256=3t28L8d2dHO28nYMfKDjIsSen6XAvqG1_o4gnlhjovU,9879
