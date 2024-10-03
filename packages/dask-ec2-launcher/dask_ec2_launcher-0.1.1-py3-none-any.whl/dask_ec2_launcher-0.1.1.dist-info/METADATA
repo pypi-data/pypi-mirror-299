@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dask-ec2-launcher
+Version: 0.1.1
+Summary: A decorator for launching Dask on AWS EC2 instances
+Home-page: https://github.com/helmoftitans/cluster-service
+Author: Sudhindra Desai
+Author-email: helmoftitans@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: boto3 >=1.26.0
+Requires-Dist: fabric >=2.7.0
+Requires-Dist: dask[distributed] ~=2023.1
+Requires-Dist: s3fs >=2023.1
+Requires-Dist: decorator ==4.4.2
+Requires-Dist: jedi >=0.16
+Requires-Dist: moviepy ==1.0.3
+Requires-Dist: ipython >=7.34.0
+
