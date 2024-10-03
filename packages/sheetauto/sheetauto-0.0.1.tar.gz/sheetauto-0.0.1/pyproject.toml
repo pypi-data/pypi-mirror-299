@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sheetauto"
+version = "0.0.1"
+description = "A package to automate sheet operations"
+authors = [
+    { name = "Lingga Aji Andika", email = "linggaajiandika@gmail.com" },
+]
+dependencies = [
+    "pandas",
+    "pywin32",
+    "Pillow",
+]
+
+[project.urls]
+"Source" = "https://github.com/linggaajiandika/sheetauto"

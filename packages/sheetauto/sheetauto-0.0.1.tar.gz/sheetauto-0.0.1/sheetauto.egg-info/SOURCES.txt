@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+sheetauto.py
+sheetauto.egg-info/PKG-INFO
+sheetauto.egg-info/SOURCES.txt
+sheetauto.egg-info/dependency_links.txt
+sheetauto.egg-info/requires.txt
+sheetauto.egg-info/top_level.txt
