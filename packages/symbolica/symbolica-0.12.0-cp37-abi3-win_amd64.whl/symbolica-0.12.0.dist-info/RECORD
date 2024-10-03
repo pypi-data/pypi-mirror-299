@@ -1,0 +1,8 @@
+symbolica-0.12.0.dist-info/METADATA,sha256=Cno6iFHQB4Bd16gqiV2rplyePgZwWrAufODpCyGyfy8,5075
+symbolica-0.12.0.dist-info/WHEEL,sha256=n30k3Ow-b4c_NDB09x1NbAG27ocFkmYFGPkkUsHxvvE,94
+symbolica-0.12.0.dist-info/licenses/License.md,sha256=vWei7g2wk7Z1uPoRKQjJa3krEE0ddla6kyJNLtHm7M0,812
+symbolica/__init__.py,sha256=wYSIwjkAY1E8DUOPi9F327VP6AAqtp2tcJTIxZX9GnM,119
+symbolica/__init__.pyi,sha256=yo5Cg23BFYXRt6IEi5ptHTLLjyjgJnL9djzZFY7y-GQ,131652
+symbolica/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symbolica/symbolica.pyd,sha256=2FcrBTcxI8aTjRxyhAV6RZ2p8CN9nhWmvMVgx-tmTiU,20982346
+symbolica-0.12.0.dist-info/RECORD,,
