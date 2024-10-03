@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vinted-api-wrapper
+Version: 0.1.0
+Summary: Unofficial Wrapper for Vinted API
+Home-page: https://github.com/Pawikoski/vinted-api-wrapper
+Author: Paweł Stawikowski
+Author-email: pawikoski@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Simple client for Vinted API written in Python
