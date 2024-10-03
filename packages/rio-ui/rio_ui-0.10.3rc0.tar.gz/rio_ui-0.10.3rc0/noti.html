@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Example</title>
+</head>
+
+<body>
+    <h1>Web Notification Example</h1>
+    <button id="notifyButton">Show Notification</button>
+
+    <script>
+        // Function to show the notification
+        function showNotification() {
+            // Check if the browser supports notifications
+            if (!("Notification" in window)) {
+                alert("This browser does not support desktop notifications.");
+                return;
+            }
+
+            // Check whether notification permissions have already been granted
+            if (Notification.permission === "granted") {
+                // Show the notification with options
+                triggerNotification();
+            }
+
+            // Otherwise, ask for permission
+            else if (Notification.permission !== "denied") {
+                Notification.requestPermission().then((permission) => {
+                    if (permission === "granted") {
+                        // Show the notification if permission is granted
+                        triggerNotification();
+                    }
+                });
+            }
+        }
+
+        // Function to trigger the notification
+        function triggerNotification() {
+            const options = {
+                body: "This is the body text of the notification. Customize it!",
+                icon: "https://via.placeholder.com/100",  // URL to an image as the icon
+                badge: "https://via.placeholder.com/50",  // URL to a small monochrome icon
+                image: "https://via.placeholder.com/300x200",  // URL to a larger image
+                vibrate: [200, 100, 200],  // Vibration pattern for mobile devices
+                tag: "unique-tag",  // Identifier for replacing notifications
+                renotify: true,  // Re-alert if replacing notification with the same tag
+                requireInteraction: true,  // Keeps notification until user interacts
+                silent: false,  // Controls sound
+                actions: [  // Action buttons
+                    { action: "open", title: "Open App", icon: "https://via.placeholder.com/50" },
+                    { action: "close", title: "Close", icon: "https://via.placeholder.com/50" }
+                ],
+                timestamp: Date.now(),  // Timestamp
+                dir: "auto",  // Text direction
+                lang: "en-US"  // Language
+            };
+
+            const notification = new Notification("Customized Notification", options);
+
+            // Handle action clicks (for Service Worker environments)
+            notification.onclick = function (event) {
+                event.preventDefault(); // Prevent default action (e.g., opening a tab)
+                window.open('https://example.com', '_blank'); // Open a link
+            };
+        }
+
+        // Add event listener to the button
+        document.getElementById("notifyButton").addEventListener("click", showNotification);
+    </script>
+</body>
+
+</html>
