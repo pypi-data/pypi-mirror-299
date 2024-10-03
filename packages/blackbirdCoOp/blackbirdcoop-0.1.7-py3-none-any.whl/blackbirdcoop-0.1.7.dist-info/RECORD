@@ -1,0 +1,14 @@
+blackbirdcoop/.DS_Store,sha256=9e9e7SZz7JSYnnxukrEY7oRGpwUSdsBMxyiNnBYY2Ik,6148
+blackbirdcoop/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+blackbirdcoop/codonChoice.py,sha256=OpRbge7caQw1EjiaweqOTWZvcAOtpeHtVM4JisYwpI8,5172
+blackbirdcoop/codonOp.py,sha256=vbt6MX5eUOzWOn5EzSOv3EdpH20hNCzg4nK0D2lNP4k,6729
+blackbirdcoop/codonUsage.py,sha256=PNUI59T4LMtDPJ0uA0UWUIi8lMU64AUk851wOUstv7U,4808
+blackbirdcoop/fastAreader.py,sha256=K3Nf8-IEqSxJJm23-0vSaQLSeO2IhhMzAGNnhuRKFVg,1268
+blackbirdcoop/stealthHits.py,sha256=hhzRZYJ1xDf5xDU4ta-LpBmGGy9RAH6REY-JBs_yCcE,975
+blackbirdcoop/stealthParser.py,sha256=lfBDBXTO4xPq4WSoyjHC9Jx8y7sETPklgI9J_UnWJl4,2383
+blackbirdcoop/tsvReader.py,sha256=an4gIkSSPLSQa7lNs_k20yOTQDiZIKghDvcxQIH4z4Q,2146
+blackbirdcoop-0.1.7.dist-info/LICENSE,sha256=zFShgs0ndoGeJYTktfcK5BqlCVP8t40Eb74fxTgH0sU,18716
+blackbirdcoop-0.1.7.dist-info/METADATA,sha256=xu8R7YVdvE5kJ49XV3cDl3qB3aOeqD_pnw9QfeQrbfw,10290
+blackbirdcoop-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+blackbirdcoop-0.1.7.dist-info/entry_points.txt,sha256=fgZ_NvUMyFaDzBb9cBslsUUBPejI0tX9p7xzzOAFk3s,56
+blackbirdcoop-0.1.7.dist-info/RECORD,,
