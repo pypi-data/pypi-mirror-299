@@ -1,0 +1,5 @@
+setup.py
+artifact_lab_3_package_e46d5661.egg-info/PKG-INFO
+artifact_lab_3_package_e46d5661.egg-info/SOURCES.txt
+artifact_lab_3_package_e46d5661.egg-info/dependency_links.txt
+artifact_lab_3_package_e46d5661.egg-info/top_level.txt
