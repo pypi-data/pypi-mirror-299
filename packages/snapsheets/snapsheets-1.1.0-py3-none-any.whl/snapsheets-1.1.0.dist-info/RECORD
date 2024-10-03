@@ -1,0 +1,12 @@
+snapsheets/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+snapsheets/book.py,sha256=K2mUWnu3pnOC02Yth8xgY0RQoiBbuqhJX9EVLMeHdOk,5347
+snapsheets/downloader.py,sha256=Ovn_EiSGceZdPG9FNjipmNvWVksCiCnciNzVqYOToPg,956
+snapsheets/sheet.py,sha256=7_JkZDxPqT3XuD2bszYil9UbRl8AbCoa3gYD-tvxPzE,6827
+snapsheets/v0/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snapsheets/v0/core.py,sha256=vCe3s-iysujW_a-72HHCgTwtr75W_zo0fnrqaAv9XeY,15354
+snapsheets/v1.py,sha256=Ko7hu-fjAJfcYBRbO528aInKW0-wF76RcE8zGXCqCIw,3364
+snapsheets-1.1.0.dist-info/LICENSE,sha256=DiwqXCE_py8FBbkoaXtbxTdKZVMaH9kmeuwCWguWYd8,1082
+snapsheets-1.1.0.dist-info/METADATA,sha256=MsXghxTGG8IkeVI5dK1hwt_Dc-9mkLz9RNYL7cstX8w,5166
+snapsheets-1.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+snapsheets-1.1.0.dist-info/entry_points.txt,sha256=qvkMqY_rKriP3XQezadct0X4_K89gVoGf8LMpOmUcpE,85
+snapsheets-1.1.0.dist-info/RECORD,,
