@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: suppress
+Version: 0.2.0
+Summary: A simple wrapper around contextlib.suppress
+Author-email: j0hntv <j0hntvdesign@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/j0hntv/suppress
+
+# Suppres
+
+![https://static.pepy.tech/badge/suppress](https://static.pepy.tech/badge/suppress)
+
+Decorator to ignore exceptions. A simple wrapper around contextlib.suppress.
+
+## Install
+
+```
+pip install suppress
+```
+
+## Usage
+
+```python
+import asyncio
+from suppress import suppress
+
+
+@suppress(ZeroDivisionError)
+def zero_division_error_function():
+    return 1 / 0
+
+
+@suppress(ZeroDivisionError)
+async def zero_division_error_async_function():
+    return 1 / 0
+
+
+async def main():
+    zero_division_error_function()
+    print('First print')
+
+    await zero_division_error_async_function()
+    print('Second print')
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+Output:
+
+```
+First print
+Second print
+```
+
