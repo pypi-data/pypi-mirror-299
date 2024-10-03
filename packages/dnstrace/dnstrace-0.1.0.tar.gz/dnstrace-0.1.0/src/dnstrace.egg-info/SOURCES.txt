@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/dnstrace/__init__.py
+src/dnstrace/__main__.py
+src/dnstrace/color.py
+src/dnstrace/dnstrace.py
+src/dnstrace.egg-info/PKG-INFO
+src/dnstrace.egg-info/SOURCES.txt
+src/dnstrace.egg-info/dependency_links.txt
+src/dnstrace.egg-info/entry_points.txt
+src/dnstrace.egg-info/requires.txt
+src/dnstrace.egg-info/top_level.txt
