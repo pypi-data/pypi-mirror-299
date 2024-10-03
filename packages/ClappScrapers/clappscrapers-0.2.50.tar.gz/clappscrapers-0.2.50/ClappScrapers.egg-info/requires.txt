@@ -1,0 +1,12 @@
+scrapy
+scrapy-fake-useragent
+beautifulsoup4>=4.8
+requests>=2
+diot>=0.1.5
+PyYAML>=5.0
+tqdm>=4.42.0
+pandas>=1.2
+lxml>=4
+urllib3==1.26
+scrapeops-scrapy==0.5.2
+scrapeops-scrapy-proxy-sdk==1.0
