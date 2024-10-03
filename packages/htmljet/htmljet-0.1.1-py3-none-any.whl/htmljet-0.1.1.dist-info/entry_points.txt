@@ -1,0 +1,2 @@
+[console_scripts]
+htmljet = htmljet.main:app
