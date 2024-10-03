@@ -1,0 +1,19 @@
+# Personal License for Volkanoban Library
+
+## License
+
+This is a personal license for the Volkanoban library. By using this library, you agree to the following terms:
+
+1. **Usage**: You are free to use the Volkanoban library for personal, educational, and non-commercial purposes. 
+
+2. **Modification**: You are allowed to modify the source code of the Volkanoban library for personal use. However, if you distribute modified versions of the library, you must clearly indicate that the code has been modified.
+
+3. **Distribution**: You may not distribute the Volkanoban library or any modified versions of it without prior written permission from the author.
+
+4. **No Warranty**: The Volkanoban library is provided "as is" without warranty of any kind. The author is not liable for any damages arising from the use of this library.
+
+5. **Attribution**: If you use this library in any projects or publications, please give appropriate credit to the author.
+
+## Author Information
+- Name: Volkan OBAN
+- Email: volkanobn@gmail.com
