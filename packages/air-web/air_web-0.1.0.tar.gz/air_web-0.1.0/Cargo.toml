@@ -1,0 +1,13 @@
+[package]
+name = "air_web"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "air_web"
+crate-type = ["cdylib"]
+
+[dependencies]
+html2text = "0.12.5"
+pyo3 = "0.22.0"

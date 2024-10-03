@@ -1,0 +1,36 @@
+[build-system]
+requires = ["maturin>=1.7,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "air_web"
+description = "A lightweight package for crawling the web with the minimalist of code."
+keywords = ["web", "crawl", "markdown", "scrape", "cralwer", "scraper"]
+authors = [
+  { name = "AWeirdDev", email = "aweirdscratcher@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+dependencies = [
+    "selectolax",
+    "primp"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AWeirdDev/air-web"
+"Bug Tracker" = "https://github.com/AWeirdDev/air-web/issues"
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+]
+
+[tool.maturin]
+python-source = "python"
+features = ["pyo3/extension-module"]
