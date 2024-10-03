@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "deluge-web-client"
+version = "1.0.1"
+description = "Deluge Web Client"
+authors = ["jlw_4049 <jessielw4049@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.13"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+sphinx = "7.4.7"
+sphinx-autodoc-typehints = "2.3.0"
+sphinx-rtd-theme = "2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
