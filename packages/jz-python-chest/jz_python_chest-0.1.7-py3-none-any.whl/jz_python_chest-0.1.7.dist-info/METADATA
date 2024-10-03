@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jz-python-chest
+Version: 0.1.7
+Summary: JZ's Python Code Chest
+Author: Qin (Jason) Zhou
+Author-email: fatestudio@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiofiles (>=24.1.0,<25.0.0)
+Requires-Dist: aiohttp (>=3.10.8,<4.0.0)
+Requires-Dist: cachetools (>=5.5.0,<6.0.0)
+Requires-Dist: jsonpath-ng (>=1.6.1,<2.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pyarrow (>=17.0.0,<18.0.0)
+Requires-Dist: pycocotools (>=2.0.8,<3.0.0)
+Requires-Dist: redis (>=5.1.0,<6.0.0)
+Requires-Dist: tensorflow (==2.16.2)
+Requires-Dist: torch (==2.2.2)
+Requires-Dist: torchaudio (==2.2.2)
+Requires-Dist: torchvision (==0.17.2)
+Requires-Dist: tqdm (>=4.66.5,<5.0.0)
+Requires-Dist: transformers (>=4.45.1,<5.0.0)
+Requires-Dist: transforms (>=0.2.1,<0.3.0)
+Description-Content-Type: text/markdown
+
+JZPythonChest
+=============
+
+JZPythonChest includes Python library examples, leetcode examples and tests, and frequently used valuable high performance modules.
+
+You can view the full documentation [here](https://fatestudio.github.io/JZPythonChest)
+
