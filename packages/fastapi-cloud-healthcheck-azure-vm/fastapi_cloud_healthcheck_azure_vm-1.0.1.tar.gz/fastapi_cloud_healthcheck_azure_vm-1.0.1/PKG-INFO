@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: fastapi-cloud-healthcheck-azure-vm
+Version: 1.0.1
+Summary: This package is designed to validate the operational status of Azure Virtual Machines (VMs). It provides comprehensive diagnostics on the health of an Azure VM by checking its power state, disk health, and network interface status.
+Home-page: https://github.com/yogeshselvarajan/fastapi_cloud_healthcheck_azure_vm
+License: MIT
+Keywords: fastapi,healthcheck,cloud,azure,vm,compute
+Author: Yogesh Selvarajan
+Author-email: yogeshselvarajan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: azure-identity (>=1.12.0,<2.0.0)
+Requires-Dist: azure-mgmt-compute (>=26.0.0,<27.0.0)
+Requires-Dist: azure-mgmt-network (>=25.0.0,<26.0.0)
+Requires-Dist: fastapi_cloud_healthcheck (>=0.1.4,<0.2.0)
+Project-URL: Repository, https://github.com/yogeshselvarajan/fastapi_cloud_healthcheck_azure_vm
+Description-Content-Type: text/markdown
+
+# fastapi_cloud_healthcheck_azure_vm
+
+A FastAPI-based health check module for monitoring the health of Azure Virtual Machines (VMs) using the `fastapi_cloud_healthcheck` package.
+
+## Features
+
+* **VM Power State Check**: Verifies if the Azure VM is currently running.
+* **Disk Health Check**: Checks the health status of attached disks to ensure they are provisioned successfully.
+* **Network Interface Check**: Validates the health of network interfaces (NICs) associated with the Azure VM.
+
+## Adding Health Checks
+
+Here is a sample FastAPI application that integrates the Azure VM health check:
+
+```python
+from fastapi import FastAPI
+from fastapi_cloud_healthcheck import HealthCheckFactory, create_health_check_route
+from fastapi_cloud_healthcheck_azure_vm import HealthCheckAzureVM
+
+app = FastAPI()
+
+# Create Health Check Factory
+health_check_factory = HealthCheckFactory()
+
+# Add the Azure VM Health Check
+health_check_factory.add(
+    HealthCheckAzureVM(
+        vm_name="my-azure-vm",
+        resource_group="my-resource-group",
+        subscription_id="my-subscription-id",
+        region="eastus"
+    )
+)
+
+# Add the health check route to FastAPI
+app.add_api_route('/health', endpoint=create_health_check_route(factory=health_check_factory))
+
+# Start the FastAPI server using Uvicorn
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", port=5000)
+
