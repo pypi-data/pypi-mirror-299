@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+env.yml
+pyproject.toml
+setup.py
+.github/workflows/python-publish.yml
+matdb/__init__.py
+matdb/_version.py
+matdb/core.py
+matdb/utils.py
+matdb.egg-info/PKG-INFO
+matdb.egg-info/SOURCES.txt
+matdb.egg-info/dependency_links.txt
+matdb.egg-info/requires.txt
+matdb.egg-info/top_level.txt
