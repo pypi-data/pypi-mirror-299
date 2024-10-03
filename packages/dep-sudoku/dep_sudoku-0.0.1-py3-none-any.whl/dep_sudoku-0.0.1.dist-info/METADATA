@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dep-sudoku
+Version: 0.0.1
+Summary: A package whose dependencies, when resolved, solve a sudoku.
+Home-page: http://pfcmathews.com
+Author: pfcm
+Author-email: pfcmathews+pypi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: square-0-2==7
+Requires-Dist: square-0-3==4
+Requires-Dist: square-1-0==3
+Requires-Dist: square-1-5==9
+Requires-Dist: square-2-2==8
+Requires-Dist: square-2-7==9
+Requires-Dist: square-2-8==1
+Requires-Dist: square-3-4==7
+Requires-Dist: square-3-6==8
+Requires-Dist: square-3-8==3
+Requires-Dist: square-4-3==2
+Requires-Dist: square-4-4==6
+Requires-Dist: square-4-5==4
+Requires-Dist: square-5-4==3
+Requires-Dist: square-5-8==5
+Requires-Dist: square-6-6==2
+Requires-Dist: square-7-0==2
+Requires-Dist: square-7-1==6
+Requires-Dist: square-7-7==3
+Requires-Dist: square-8-2==4
+Requires-Dist: square-8-5==7
+Requires-Dist: square-8-6==6
+
+
+This package solves a sudoku when its dependencies are resolved.
+
+
