@@ -1,0 +1,5 @@
+[console_scripts]
+server-status = server_status.__main__:main
+
+[gui_scripts]
+
