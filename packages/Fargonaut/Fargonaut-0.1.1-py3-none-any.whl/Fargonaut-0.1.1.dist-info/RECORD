@@ -1,0 +1,13 @@
+fargonaut/__init__.py,sha256=o8UjJXAX11VB69i7GjFu1sNWliztS5AT33ppoWJ8aB4,37
+fargonaut/field.py,sha256=xGuBT1bNGn60DjzRxhccgZcmPLEUxoEclBCIs1wo4YI,13301
+fargonaut/output.py,sha256=RE5uQUAOudD0LFCueDt9tSmfyKdJ8PJIDWrk5MlsS38,9313
+fargonaut/fields/__init__.py,sha256=3zJADPannJyeaVJgUKb9w4WLrL4HbSESqrKa70iiZBg,43
+fargonaut/fields/density.py,sha256=Qew24gEPEfj_hhVTqBULlBtC4fOFjPGz3tHw13ZW50w,13197
+fargonaut/fields/energy.py,sha256=sCtRrj0SIgO9f1_7RuEbclD15Y2NTEzjxidJL4U4sno,13234
+fargonaut/fields/magnetic_field.py,sha256=OFPFwi6CN5nj3RH2XZCZUbzIqnjubwYM79f8lX8y3zM,14280
+fargonaut/fields/velocity.py,sha256=Woo7lHx3D5NbtD18OrNfC-TW0R0U7IbOi9irWH7LmgM,14285
+Fargonaut-0.1.1.dist-info/LICENSE,sha256=2zgyoTjc7kL9t39EEHNiAMtpmvTZIQACyIQRoEhnQKA,1501
+Fargonaut-0.1.1.dist-info/METADATA,sha256=lXW43zM0sI0vKlygguX7ap75e9fd28M79hjZI3XzUB4,3698
+Fargonaut-0.1.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+Fargonaut-0.1.1.dist-info/top_level.txt,sha256=iTqw4_x0KKa-pCWZvHYu4OsEEXpvg78R6XUdMKRpn98,10
+Fargonaut-0.1.1.dist-info/RECORD,,
