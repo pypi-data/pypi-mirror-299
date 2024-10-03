@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/plover_steno_engine_hooks_logger/__init__.py
+src/plover_steno_engine_hooks_logger/extension.py
+src/plover_steno_engine_hooks_logger/gui_tool.py
+src/plover_steno_engine_hooks_logger.egg-info/PKG-INFO
+src/plover_steno_engine_hooks_logger.egg-info/SOURCES.txt
+src/plover_steno_engine_hooks_logger.egg-info/dependency_links.txt
+src/plover_steno_engine_hooks_logger.egg-info/entry_points.txt
+src/plover_steno_engine_hooks_logger.egg-info/requires.txt
+src/plover_steno_engine_hooks_logger.egg-info/top_level.txt
+src/plover_steno_engine_hooks_logger.egg-info/zip-safe
+src/plover_steno_engine_hooks_logger/steno_engine_hooks/__init__.py
+src/plover_steno_engine_hooks_logger/steno_engine_hooks/logger.py
