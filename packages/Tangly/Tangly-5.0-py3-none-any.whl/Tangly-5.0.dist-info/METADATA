@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: Tangly
+Version: 5.0
+Author: Akshay Pawar
+Author-email: akshaygpawar15@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Tangly is a modules that allows you to print beautifull tables in python
+""" 
+
+To install:
+```
+pip install tangly
+```
+To import into your code:
+```
+import tangly
+```
+
+Say we have a nested list with information about people:
+```
+people = [["Name", "Last Name", 'Age', "Number"],
+	   ["Nath", "Dezem", '20', '137'],
+	   ["Rafa", "Rayes",'19', '4976'],
+       ['Johny', 'Dias', '22', '1234']]
+```
+If we want to display it as a table we can use:
+```
+print_table(people)
+```
+Output:
+```
+┌───────┬──────────────────────────┐
+│ Name  │ Last Name   Age   Number │
+├───────┼──────────────────────────┤
+│ Nath  │ Dezem       20    137    │
+│ Rafa  │ Rayes       19    4976   │
+│ Johny │ Dias        22    1234   │
+└───────┴──────────────────────────┘
+```
+If you only want to save the result you can get the string with`make_table()`. `print_table()` is equivalent to `print(make_table())`
+You can controll which collumns and rows are separated using a similar nested list, like so [[0,2],[0,1]]. By default this is [[0],[0]] which means only the first row and first collumn are separated.
+
+```
+print_table(my_list, [[0,2],[0,1]])
+
+```
+
+This will be the output:
+
+```
+┌───────┬───────────┬──────────────┐
+│ Name  │ Last Name │ Age   Number │
+├───────┼───────────┼──────────────┤
+│ Nath  │ Dezem     │ 20    137    │
+│ Rafa  │ Rayes     │ 19    4976   │
+├───────┼───────────┼──────────────┤
+│ Johny │ Dias      │ 22    1234   │
+└───────┴───────────┴──────────────┘
+```
+This was done in 2019 when I was learning python. I know no one will ever use this.
+Updated in 2024 just to fix it.
