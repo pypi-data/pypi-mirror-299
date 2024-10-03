@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: justscheduleit
+Version: 0.2.0
+Summary: Simple in-process task scheduler for Python apps
+Keywords: scheduler,cron
+Home-page: https://github.com/alexeyshockov/justscheduleit
+Author: Alexey Shokov
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: AnyIO
+Classifier: Topic :: System
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Homepage, https://github.com/alexeyshockov/justscheduleit
+Project-URL: Docs, https://alexeyshockov.github.io/justscheduleit/
+Project-URL: Changelog, https://github.com/alexeyshockov/justscheduleit/blob/main/CHANGELOG.md
+Requires-Python: >=3.10
+Requires-Dist: typing_extensions~=4.10
+Requires-Dist: anyio<5.0,>=3.6
+Provides-Extra: cron
+Requires-Dist: croniter<4.0,>=2.0; extra == "cron"
+Provides-Extra: http
+Requires-Dist: uvicorn~=0.30; extra == "http"
+Provides-Extra: otel
+Requires-Dist: opentelemetry-api~=1.26; extra == "otel"
+Provides-Extra: all
+Requires-Dist: justscheduleit[cron,http,otel]; extra == "all"
+Requires-Dist: uvloop~=0.15; extra == "all"
+Requires-Dist: humanize<5.0,>=3.0; extra == "all"
+Requires-Dist: pytimeparse2~=1.6; extra == "all"
+Description-Content-Type: text/markdown
+
+# JustScheduleIt
+
+Simple in-process task scheduler for Python apps.
+
+Use it if:
+
+- you need to schedule background tasks in the same process, like to update a shared dataframe every hour
+  from S3
+
+Take something else if:
+
+- you need to schedule persistent/distributed tasks, that should be executed in a separate process (take a look at
+  Celery)
+
+## Usage
+
+### Just schedule a task
+
+```python
+from datetime import timedelta
+
+from justscheduleit import Scheduler, every, run
+
+scheduler = Scheduler()
+
+
+@scheduler.task(every(timedelta(minutes=1), delay=(0, 10)))
+def task():
+    print("Hello, world!")
+
+
+run(scheduler)
+```
+
+### `sync` and `async` tasks
+
+The scheduler supports both `sync` and `async` functions. A `sync` function will be executed in a separate thread,
+using [
+`anyio.to_thread.run_sync()`](https://anyio.readthedocs.io/en/stable/threads.html#running-a-function-in-a-worker-thread),
+so it won't block the scheduler (other tasks).
+
+### (Advanced) Hosting
+
+Scheduler is built around Host abstraction. A host is a supervisor that runs 1 or more services, usually as the
+application entry point.
+
+A scheduler itself is a hosted service. The default `justscheduleit.run()` internally just creates a host with one
+service, the passed scheduler, and runs it.
