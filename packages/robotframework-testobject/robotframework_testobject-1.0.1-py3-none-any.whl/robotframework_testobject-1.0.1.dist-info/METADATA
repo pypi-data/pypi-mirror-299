@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: robotframework-testobject
+Version: 1.0.1
+Summary: Simple test object for Robot Framework®
+Home-page: https://github.com/imbus/robotframework-testobject
+Author: imbus AG
+Author-email: support@imbus.de
+License: Apache 2.0 License
+Platform: any
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: robotframework >=5.0
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+
+# robotframework-testobject
+A simple test object for robot framework without external dependancies and without UI that can be used for trainings and demos
+
+## Installation
+```bash
+pip install robotframework-testobject
+```
+
+## Usage
+```robot
+*** Settings ***
+Library    TestObject
+
+*** Test Cases ***
+Test Password Change
+    Login User    captain    1234567890
+    ${username} =    Get Username
+    Should Be Equal    Steve Rogers    ${username}
+    Change Own Password    new_password=new_password    old_password=1234567890
+    Logout User
+    TRY
+        Login User    captain     1234567890
+    EXCEPT    ValueError: Invalid Password    AS    ${e}
+        Log     Access Denied
+    ELSE
+        Fail    illegal access possible
+    END
+    Login User    captain     new_password
+```
