@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+w32_fnmatch/match_engine.py
+w32_fnmatch/w32_fnmatch.py
+w32_fnmatch.egg-info/PKG-INFO
+w32_fnmatch.egg-info/SOURCES.txt
+w32_fnmatch.egg-info/dependency_links.txt
+w32_fnmatch.egg-info/top_level.txt
