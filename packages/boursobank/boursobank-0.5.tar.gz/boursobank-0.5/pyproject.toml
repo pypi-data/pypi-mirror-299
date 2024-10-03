@@ -1,0 +1,50 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "boursobank"
+authors = [{name = "Julien Palard", email = "julien@palard.fr"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+readme = "README.md"
+dynamic = ["version", "description"]
+dependencies = [
+    "pypdf",
+    "rich",
+]
+
+[project.scripts]
+boursobank = "boursobank.__main__:main"
+
+[project.urls]
+Home = "https://git.afpy.org/mdk/boursobank"
+
+[tool.black]
+
+[tool.mypy]
+strict = true
+
+[tool.tox]
+envlist = ["py38", "py39", "py310", "py311", "py312", "mypy", "black", "pylint", "isort"]
+skip_missing_interpreters = true
+
+[tool.tox.env_run_base]
+description = "Run test under {base_python}"
+commands = [["python", "-m", "compileall", "boursobank"]]
+
+[tool.tox.env.mypy]
+deps = ["mypy"]
+commands = [["mypy", "--strict", "boursobank"]]
+
+[tool.tox.env.black]
+deps = ["black"]
+commands = [["black", "--check", "--diff", "boursobank"]]
+
+[tool.tox.env.pylint]
+deps = ["pylint"]
+commands = [["pylint", "boursobank"]]
+
+[tool.tox.env.isort]
+deps = ["isort"]
+commands = [["isort", "--check", "--profile=black", "boursobank"]]
