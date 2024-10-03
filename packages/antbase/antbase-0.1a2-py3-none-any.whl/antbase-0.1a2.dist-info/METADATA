@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: antbase
+Version: 0.1a2
+Summary: Antbase package
+Home-page: https://github.com/antdg/antbase
+Author: Dmitrii Galkin
+Author-email: dg@jart.co
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# antbase
+
+Это пример пакета Python. Он включает несколько модулей, тесты и позволяет работать с ними через консоль.
+
+## Установка
+
+cd
