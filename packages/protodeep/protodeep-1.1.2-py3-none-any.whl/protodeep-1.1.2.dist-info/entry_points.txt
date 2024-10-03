@@ -1,0 +1,3 @@
+[console_scripts]
+protodeep=protodeep.protodeep:main
+
