@@ -1,0 +1,8 @@
+gradio_buttontip_component/__init__.py,sha256=1L8F1Zx12UkumLEvt05k0bNnCn1v2H-twMyyoIpUS-E,89
+gradio_buttontip_component/buttontip_component.py,sha256=EfdtZVhgsX-s1IbAe-dvG0MkvcIkR7sd8bEdeFcQf1g,5314
+gradio_buttontip_component/buttontip_component.pyi,sha256=QLXUtzQb463QaV5CoQi2C6ZY1d7fiaUeEdEYuV1W31A,10386
+gradio_buttontip_component/templates/component/index.js,sha256=UumiaL-c-3bMp-E9_fyqtcfl64Nmt_VMtI-w2gW12c8,15271
+gradio_buttontip_component/templates/component/style.css,sha256=3XE3mFUy-1x3-7bOy0zRZU39sYM5Iczf52FYriKC_TY,3013
+gradio_buttontip_component-0.0.1.dist-info/METADATA,sha256=a2dIqGRpBAB5_4uE8B09d81S_N-323Oocv8_L9pvFA4,9571
+gradio_buttontip_component-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gradio_buttontip_component-0.0.1.dist-info/RECORD,,
