@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: tangly
+Version: 3.0.2
+Home-page: https://github.com/rafa-rrayes/
+Author: Rafa Rayes
+Author-email: rafa@rayes.com.br
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Tangly is a module that allows you to visualize tables in python
+
+
+Instal with
+```
+pip install tangly
+```
+And to import:
+```
+import tangly
+```
+
+
+Say you have a nested list with information about people, like so:
+```
+people = [["Name", "Last Name", 'Age', "Number"],
+	   ["Nath", "Dezem", '20', '137'],
+	   ["Rafa", "Rayes",'19', '4976'],
+       ['Johny', 'Dias', '22', '1234']]
+```
+To display this as a table we use the 'print_table()' command:
+```
+print_table(people)
+```
+Output:
+```
+┌───────┬──────────────────────────┐
+│ Name  │ Last Name   Age   Number │
+├───────┼──────────────────────────┤
+│ Nath  │ Dezem       20    137    │
+│ Rafa  │ Rayes       19    4976   │
+│ Johny │ Dias        22    1234   │
+└───────┴──────────────────────────┘
+```
+You can controll which collumns and rows are separated using a similar nested list, like so [[0,2],[0,1]]. By default this is [[0],[0]] which means only the first row and first collumn are separated.
+
+```
+print_table(my_list, [[0,2],[0,1]] )
+
+```
+
+Output:
+
+```
+┌───────┬───────────┬──────────────┐
+│ Name  │ Last Name │ Age   Number │
+├───────┼───────────┼──────────────┤
+│ Nath  │ Dezem     │ 20    137    │
+│ Rafa  │ Rayes     │ 19    4976   │
+├───────┼───────────┼──────────────┤
+│ Johny │ Dias      │ 22    1234   │
+└───────┴───────────┴──────────────┘
+```
+
+I did this in 2019 when I was learning python. I know no one will ever use this.
+
+Current version = 3.0.2
