@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+TMail/__init__.py
+TMail.egg-info/PKG-INFO
+TMail.egg-info/SOURCES.txt
+TMail.egg-info/dependency_links.txt
+TMail.egg-info/requires.txt
+TMail.egg-info/top_level.txt
