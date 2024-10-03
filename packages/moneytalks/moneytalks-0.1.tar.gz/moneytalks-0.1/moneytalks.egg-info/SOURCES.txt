@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+moneytalks/__init__.py
+moneytalks/converter.py
+moneytalks.egg-info/PKG-INFO
+moneytalks.egg-info/SOURCES.txt
+moneytalks.egg-info/dependency_links.txt
+moneytalks.egg-info/top_level.txt
+tests/__init__.py
+tests/test_converter.py
