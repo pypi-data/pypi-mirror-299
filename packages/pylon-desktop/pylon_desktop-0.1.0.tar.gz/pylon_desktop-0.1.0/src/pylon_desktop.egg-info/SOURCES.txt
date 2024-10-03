@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/pylon/__init__.py
+src/pylon/pylon.py
+src/pylon_desktop.egg-info/PKG-INFO
+src/pylon_desktop.egg-info/SOURCES.txt
+src/pylon_desktop.egg-info/dependency_links.txt
+src/pylon_desktop.egg-info/entry_points.txt
+src/pylon_desktop.egg-info/requires.txt
+src/pylon_desktop.egg-info/top_level.txt
