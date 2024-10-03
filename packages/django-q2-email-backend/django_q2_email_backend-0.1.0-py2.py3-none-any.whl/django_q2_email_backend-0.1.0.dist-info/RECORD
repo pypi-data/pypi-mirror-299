@@ -1,0 +1,8 @@
+django_q2_email_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_q2_email_backend/apps.py,sha256=IsiSJpSn7W-ewfGKzKdyBtt1VXUjOWqMH55rfxsHdy8,200
+django_q2_email_backend/backends.py,sha256=Vgto603WPCaILImc0hNTKKSeoil8h9K7c_N15tNZj-I,1086
+django_q2_email_backend/utils.py,sha256=k7evEgwwA028aJ9JU72kzL8hZ_Qyth2i1lZMuB0TX2g,1005
+django_q2_email_backend-0.1.0.dist-info/METADATA,sha256=lwTj5_EUn95AidrRI9jqr3Ri2ySaGU2LmQSMhwyz8XA,4328
+django_q2_email_backend-0.1.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+django_q2_email_backend-0.1.0.dist-info/licenses/LICENSE,sha256=gRNfx-zT6wGTCxx_XZWQhlDbkYzw2-c6PS_oKb4Rako,1068
+django_q2_email_backend-0.1.0.dist-info/RECORD,,
