@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: lcls_naming_tool
+Version: 1.0.1
+Summary: A tool that checks the form and content of names with respect to the LCLS naming convention.
+Author: SLAC National Accelerator Laboratory
+License: Copyright (c) 2023, The Board of Trustees of the Leland Stanford Junior
+        University, through SLAC National Accelerator Laboratory (subject to receipt
+        of any required approvals from the U.S. Dept. of Energy). All rights reserved.
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        (1) Redistributions of source code must retain the above copyright notice,
+            this list of conditions and the following disclaimer.
+        
+        (2) Redistributions in binary form must reproduce the above copyright notice,
+            this list of conditions and the following disclaimer in the documentation
+            and/or other materials provided with the distribution.
+        
+        (3) Neither the name of the Leland Stanford Junior University, SLAC National
+            Accelerator Laboratory, U.S. Dept. of Energy nor the names of its
+            contributors may be used to endorse or promote products derived from this
+            software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER, THE UNITED STATES GOVERNMENT,
+        OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+        EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+        OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+        INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+        CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+        IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+        OF SUCH DAMAGE.
+        
+        You are under no obligation whatsoever to provide any bug fixes, patches, or
+        upgrades to the features, functionality or performance of the source code
+        ("Enhancements") to anyone; however, if you choose to make your Enhancements
+        available either publicly, or directly to SLAC National Accelerator Laboratory,
+        without imposing a separate written license agreement for such Enhancements,
+        then you hereby grant the following license: a non-exclusive, royalty-free
+        perpetual license to install, use, modify, prepare derivative works, incorporate
+        into other computer software, distribute, and sublicense such Enhancements or
+        derivative works thereof, in binary and source code form.
+        
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+License-File: AUTHORS.rst
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: doc
+Requires-Dist: docs-versions-menu; extra == "doc"
+Requires-Dist: numpydoc; extra == "doc"
+Requires-Dist: recommonmark; extra == "doc"
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: sphinx-copybutton; extra == "doc"
+Requires-Dist: sphinx_rtd_theme; extra == "doc"
+Requires-Dist: sphinxcontrib-jquery; extra == "doc"
+
+===============================
+lcls_naming_tool
+===============================
+
+.. image:: https://github.com/pcdshub/lcls_naming_tool/actions/workflows/standard.yml/badge.svg
+        :target: https://github.com/pcdshub/lcls_naming_tool/actions/workflows/standard.yml
+
+.. image:: https://img.shields.io/pypi/v/lcls_naming_tool.svg
+        :target: https://pypi.python.org/pypi/lcls_naming_tool
+
+
+`Documentation <https://pcdshub.github.io/lcls_naming_tool/>`_
+
+A tool that checks the form and content of PV and device names with respect to the LCLS naming convention.
+
+Taxons used are sourced from:
+
+https://github.com/pcdshub/lcls_naming_tool/blob/main/docs/LCLS_Photon_Source_and_Systems_Nomenclature.pdf
+
+https://docs.google.com/spreadsheets/d/1u5EfR9FIvwyTieWiMkCRqpBfHj-_xm3AygjFlxxWgDc/edit?gid=0#gid=0
+
+https://docs.google.com/spreadsheets/d/1SeQhfwZ6O-wg8tyr_MCQZY1boJC-6j3N6EzexfZB-AU/edit?gid=0#gid=0
+
+
+Instructions
+------------
+
+Use at the command line:
+
+1. In your current working directory type ``source /cds/group/pcds/pyps/conda/venvs/lcls_naming_tool/bin/activate``
+
+2. To check if a PV or device name is valid pipe in the name to the tool. For example, ``$ echo "MR2K4:KBO:PIP:01:PUMPSIZE" | ./lcls_naming_tool.py``
+
+3. To check if a list of names is valid pipe in the file name to the tool. For example, ``$ cat pvlist.txt | ./lcls_naming_tool.py`` (names should be separated by newline characters.)
+
+4. To view the current version add ``-v`` or ``--version``. For example, ``$ echo "MR2K4:KBO:PIP:01:PUMPSIZE" | ./lcls_naming_tool.py --version``
+
+
+Use in a Python script:
+
+1. In your current working directory set up the environment: 
+
+``source /cds/group/pcds/pyps/conda/venvs/lcls_naming_tool/bin/activate``
+
+``git clone git@github.com:pcdshub/lcls_naming_tool.git``
+
+``export PYTHONPATH=$PWD/lcls_naming_tool/lcls_naming_tool``
+
+2. To call the LCLS Naming Tool module ``from lcls_naming_tool import load_taxons, validate``
+
+5. In your ``main`` function ``load_taxons()`` should be called first. It takes no parameters and loads all the approved taxons in JSON format. The function ``validate()`` takes a PV or device name in string format as a parameter and returns ``True`` for a valid name or ``False`` for an invalid name.
+
+
+To run the web server:
+
+``ssh psca@psctlws01``
+
+``cd /u1/psca/prod/apps/lcls_naming_tool``
+
+``git pull``
+
+``supervisorctl``
+
+``supervisor> stop lcls_naming_tool``
+
+``supervisor> start lcls_naming_tool``
+
+Website is hosted at https://pswww.slac.stanford.edu/lcls_naming_tool/
+
+
+Requirements
+------------
+
+* Python 3.9+
+* Flask 2.2.5 (web only)
+* Gunicorn 23.0.0 (web only)
+
+
+Installation
+------------
+
+
+Running the Tests
+-----------------
+

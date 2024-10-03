@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} LCLS Naming Tool</title>
+    <style>
+        .message {
+            padding: 10px;
+            margin: 5px;
+            background-color: #f3f3f3
+        }
+        nav a {
+            color: #d64161;
+            font-size: 3em;
+            margin-left: 20px;
+            text-align: left;
+            text-decoration: none;
+        }
+
+        .alert {
+            padding: 20px;
+            margin: 0 0 15px;
+            color: #000;
+        }
+
+        .content {
+            float: left;
+            margin: 20px 20px;
+            width: 25%;
+            padding: 0;
+        }
+        
+        .lcls_name {
+            background-color: #d3d3d3;
+            text-transform: uppercase;
+        }
+        
+        .valid {
+            background-color: green;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .invalid {
+            background-color: red;
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        #version {
+            font-size: 16px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="./">LCLS Naming Tool</a>
+        <a id ="version">{{ version }}</a>
+    </nav>
+    <hr>
+    <div class="content">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert {{ category }}"> {{ message|capitalize }} </div>
+            {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>
