@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+clipmate.egg-info/PKG-INFO
+clipmate.egg-info/SOURCES.txt
+clipmate.egg-info/dependency_links.txt
+clipmate.egg-info/entry_points.txt
+clipmate.egg-info/requires.txt
+clipmate.egg-info/top_level.txt
+src/__init__.py
+src/main.py
