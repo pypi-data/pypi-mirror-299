@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ses-conda
+Version: 1.1.1
+Summary: A simple module concept of SES Conda
+Home-page: https://space.bilibili.com/3493290083093446
+Author: 街角的猫_wjz
+Author-email: wjz-space@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+SES Conda: A simple concept of SES Conda language.
+
+Update log:
+
+1.1.1 2024/10/2 Added a function(rels.parse()) for parsing relashionships.
+
+1.0.3 2024/10/2 Fixed the database.load_from_json() function. No need to convert anymore.
