@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cyberninja
+Version: 1
+Summary: A tool for hunting down social media accounts by username across networks.
+Home-page: https://github.com/yourusername/cyberninja
+Author: Vimal
+Author-email: 2004.vimald@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: colorama
+Requires-Dist: lxml
+Requires-Dist: PySocks
+Requires-Dist: requests
+Requires-Dist: requests-futures
+Requires-Dist: soupsieve
+Requires-Dist: stem
+Requires-Dist: torrequest
+
