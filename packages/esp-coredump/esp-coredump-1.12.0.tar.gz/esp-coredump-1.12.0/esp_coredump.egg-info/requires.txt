@@ -1,0 +1,10 @@
+construct~=2.10
+pygdbmi>=0.9.0.2
+esptool
+
+[dev]
+pre-commit
+commitizen
+
+[test]
+coverage[toml]
