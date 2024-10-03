@@ -1,0 +1,26 @@
+default: true
+no-hard-tabs: true
+
+MD007:
+  indent: 4
+MD013:
+  line_length: 88
+MD014: false
+MD031:
+  list_items: false
+MD033:
+  allowed_elements:
+    - h1
+    - p
+    - a
+    - i
+    - code
+    - sup
+    - sub
+    - img
+    - details
+    - summary
+    - table
+    - tr
+    - th
+    - td
