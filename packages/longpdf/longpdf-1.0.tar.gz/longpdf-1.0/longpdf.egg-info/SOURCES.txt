@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+longpdf.egg-info/PKG-INFO
+longpdf.egg-info/SOURCES.txt
+longpdf.egg-info/dependency_links.txt
+longpdf.egg-info/top_level.txt
+moshpdf/__init__.py
+moshpdf/pdf2image.py
+moshpdf/pdf2text.py
