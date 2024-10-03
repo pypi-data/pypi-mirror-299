@@ -1,0 +1,11 @@
+better_imap/__init__.py,sha256=J2PcTp8RvLiAfv36Guft-5MKdbiNRIuTIUNGl4OjohA,344
+better_imap/errors.py,sha256=3IBI9VCLsMVhJjRnuLEpFthUgfRs3jRnh-cyfdj3JUM,263
+better_imap/mailbox.py,sha256=WnX_HBfHm-bwfOMaaLrK_jFP5AgPEdToYf3G2whZ74g,7463
+better_imap/models.py,sha256=ApqLjFFw1TZIGGVrG5FRLK1O0SmeWL7uCvH4lSpKr4E,416
+better_imap/proxy.py,sha256=VeKTG9u5akl4jpHIhY5VbLd_oUb46D4YFStnV43F-HQ,1556
+better_imap/services.py,sha256=kCeDjVryjWC9nvGxlPGB-JBZqbo7WBnOQGpxf-44RCk,1489
+better_imap/utils.py,sha256=hicG08ONj8O_4tpX-waBrCIDwmE2kX0D3xdtDZHYVkY,1955
+better_imap-1.0.0.dist-info/LICENCE,sha256=iRE9eq6wMmdnMu9o2CUWu8xVh4LrFjg0iG6VaP5abrE,11345
+better_imap-1.0.0.dist-info/METADATA,sha256=H2gnzZL-fYCWDUqp5XIychLxiWDg1wCcZeZA_O5rWAQ,558
+better_imap-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+better_imap-1.0.0.dist-info/RECORD,,
