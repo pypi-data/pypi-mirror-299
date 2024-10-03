@@ -1,0 +1,3 @@
+[console_scripts]
+kelvin = kelvin.cli:main
+kx = kelvin.cli:run_alias
