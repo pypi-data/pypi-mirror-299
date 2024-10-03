@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "rpi-artic-lib"
+version = "0.1.2"
+description = "Python library that includes my standar python library and a set of modules exclusive to the Raspberry PI"
+authors = ["Artic42 <main@artic42.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+articlib = "^0.2.3"
+rpi-gpio = "^0.7.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8-pyproject = "^1.2.3"
+flake8 = "^7.1.1"
+mypy = "^1.11.2"
+types-rpi-gpio = "^0.7.0.20240314"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+exclude = [".venv", ".git", "__pycache__"]
+max-line-length = 100
+
+[tool.mypy]
+with-error-codes = true
