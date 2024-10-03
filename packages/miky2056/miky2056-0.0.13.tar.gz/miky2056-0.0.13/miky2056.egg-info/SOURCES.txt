@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+miky2056.egg-info/PKG-INFO
+miky2056.egg-info/SOURCES.txt
+miky2056.egg-info/dependency_links.txt
+miky2056.egg-info/requires.txt
+miky2056.egg-info/top_level.txt
+vidstream/__init__.py
+vidstream/audio.py
+vidstream/streaming.py
