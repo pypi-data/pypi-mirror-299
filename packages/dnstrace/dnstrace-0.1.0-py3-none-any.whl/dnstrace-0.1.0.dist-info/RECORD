@@ -1,0 +1,10 @@
+dnstrace/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dnstrace/__main__.py,sha256=fQxoRqN9zYNfbjG7z2MqDL_kFDg__OWakTAE4x_Age4,2707
+dnstrace/color.py,sha256=pVFoBAr7DLx6Crhg68k_dhJVyt58QUx003--JE0UrwU,2952
+dnstrace/dnstrace.py,sha256=uzRLGon-S_XEaxeP26eC90-_52QcFdixlB_TNIJG9_0,5502
+dnstrace-0.1.0.dist-info/LICENSE,sha256=IwKDDIFKp8l-iUcIS5dEoxlgwbgH6-al--0L-MM7wVE,1075
+dnstrace-0.1.0.dist-info/METADATA,sha256=uTeAlaDy_f_OXXDPSJiRcF1fcbDkobsI68wlldrxzcs,1605
+dnstrace-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+dnstrace-0.1.0.dist-info/entry_points.txt,sha256=dpNaBB5TBH-RRlyrWTk-9VkM-xw_mB24CBntdRmdhdA,52
+dnstrace-0.1.0.dist-info/top_level.txt,sha256=pD1D0V5vj_efl17tBTdZ5QRUGvBP77mc74rJWzYyVgM,9
+dnstrace-0.1.0.dist-info/RECORD,,
