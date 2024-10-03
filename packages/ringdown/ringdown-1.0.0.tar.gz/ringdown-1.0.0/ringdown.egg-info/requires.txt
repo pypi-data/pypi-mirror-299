@@ -1,0 +1,10 @@
+numpy==1.26.4
+lalsuite==7.23
+h5py~=3.11
+arviz~=0.19
+pandas~=2.2
+qnm==0.4.3
+seaborn~=0.13
+numpyro~=0.15
+jax~=0.4
+parse>=1.20
