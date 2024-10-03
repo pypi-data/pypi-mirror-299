@@ -1,0 +1,3 @@
+[console_scripts]
+smith=core.creator:app
+
