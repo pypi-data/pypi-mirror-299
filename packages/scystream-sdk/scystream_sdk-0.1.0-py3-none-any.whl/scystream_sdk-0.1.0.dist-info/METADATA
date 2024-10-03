@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: scystream-sdk
+Version: 0.1.0
+Summary: The official SDK for developing scystream compute blocks
+Home-page: https://github.com/RWTH-TIME/scystream-sdk
+Author: Felix Evers
+Author-email: evers@time.rwth-aachen.de
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# scystream-sdk
+
+## Installation
+
+You can install the package via pip once it's published:
+
+```bash
+pip install scystream-sdk
+```
