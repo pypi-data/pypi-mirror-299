@@ -1,0 +1,10 @@
+pl_build/__init__.py,sha256=6zTwReZdkrGLqmD6jVKIclMdteyUKC0XaChrM2zuByw,7
+pl_build/backend_linux.py,sha256=x8ZrSsjPovnXh5K1awyYvNmG4-F3dISAJFMXWlPERA4,15613
+pl_build/backend_macos.py,sha256=Ye4xPZidv27uBphjlb2sb1-wy9tt3rVgK2-dtqXs980,16159
+pl_build/backend_win32.py,sha256=5V1fT1X2HO9a_IQSS1Hexq_fggB-GhQhEpL37QupKYQ,22663
+pl_build/core.py,sha256=06osgRcxfL9OB1qzZdJyACmtNnsg65bC3XYwsgB45RU,24593
+pl_build-1.0.8.dist-info/LICENSE,sha256=8f86ZSK3Ypp5Di0rYy8izrWvj9hIM3AjUelHXZFjA2k,1091
+pl_build-1.0.8.dist-info/METADATA,sha256=PNxeLoQdIpWSuUYkZ_TKqgMNByhfRRTfL8Cn8mMtEqw,4778
+pl_build-1.0.8.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pl_build-1.0.8.dist-info/top_level.txt,sha256=qrFks6occQRN25wAgBh0c8fWsgXxpk9BeQWR9epojPE,9
+pl_build-1.0.8.dist-info/RECORD,,
