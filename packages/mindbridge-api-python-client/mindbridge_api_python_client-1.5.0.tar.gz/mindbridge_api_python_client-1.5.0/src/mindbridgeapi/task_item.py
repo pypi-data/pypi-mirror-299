@@ -1,0 +1,52 @@
+#
+#  Copyright MindBridge Analytics Inc. all rights reserved.
+#
+#  This material is confidential and may not be copied, distributed,
+#  reversed engineered, decompiled or otherwise disseminated without
+#  the prior written consent of MindBridge Analytics Inc.
+#
+
+from typing import Any, Dict, Type, Union
+from pydantic import ConfigDict, field_validator, model_validator
+from mindbridgeapi.common_validators import (
+    _convert_userinfo_to_useritem,
+    _warning_if_extra_fields,
+)
+from mindbridgeapi.generated_pydantic_model.model import (
+    ApiTaskCreateOnly,
+    ApiTaskRead,
+    ApiTaskUpdate,
+)
+from mindbridgeapi.generated_pydantic_model.model import Status5 as _TaskStatus
+from mindbridgeapi.generated_pydantic_model.model import Type11 as _TaskType
+
+TaskStatus = _TaskStatus  # Match the type of TaskItem.status
+TaskType = _TaskType  # Match the type of TaskItem.type
+
+
+class TaskItem(ApiTaskRead):
+    model_config = ConfigDict(
+        extra="allow",
+        validate_assignment=True,
+        validate_default=True,
+        validate_return=True,
+    )
+    _a = model_validator(mode="after")(_warning_if_extra_fields)
+    _b = field_validator("*")(_convert_userinfo_to_useritem)
+
+    def _get_post_json(
+        self, out_class: Type[Union[ApiTaskCreateOnly, ApiTaskUpdate]]
+    ) -> Dict[str, Any]:
+        in_class_dict = self.model_dump()
+        out_class_object = out_class.model_validate(in_class_dict)
+        return out_class_object.model_dump(
+            mode="json", by_alias=True, exclude_none=True
+        )
+
+    @property
+    def create_json(self) -> Dict[str, Any]:
+        return self._get_post_json(out_class=ApiTaskCreateOnly)
+
+    @property
+    def update_json(self) -> Dict[str, Any]:
+        return self._get_post_json(out_class=ApiTaskUpdate)
