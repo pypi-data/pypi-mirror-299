@@ -1,0 +1,7 @@
+README.md
+greeter.py
+pyproject.toml
+pagy.egg-info/PKG-INFO
+pagy.egg-info/SOURCES.txt
+pagy.egg-info/dependency_links.txt
+pagy.egg-info/top_level.txt
