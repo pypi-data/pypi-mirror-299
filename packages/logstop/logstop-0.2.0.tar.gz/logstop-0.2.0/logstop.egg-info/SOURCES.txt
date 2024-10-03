@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+logstop/__init__.py
+logstop.egg-info/PKG-INFO
+logstop.egg-info/SOURCES.txt
+logstop.egg-info/dependency_links.txt
+logstop.egg-info/top_level.txt
+tests/test_filter.py
