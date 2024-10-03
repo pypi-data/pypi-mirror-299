@@ -1,0 +1,8 @@
+xync-schema
+cex-clients
+
+[dev]
+pytest
+build
+twine
+setuptools_scm
