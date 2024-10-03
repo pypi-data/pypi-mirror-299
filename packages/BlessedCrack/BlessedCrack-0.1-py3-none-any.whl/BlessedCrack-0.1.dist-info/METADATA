@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: BlessedCrack
+Version: 0.1
+Summary: A tool for cracking and encrypting hashes like MD5 and SHA-256.
+Author: JustMuhimin
+Author-email: 
+Requires-Dist: passlib
+
