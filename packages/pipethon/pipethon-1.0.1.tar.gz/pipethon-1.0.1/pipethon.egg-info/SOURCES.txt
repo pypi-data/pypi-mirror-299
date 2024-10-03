@@ -1,0 +1,6 @@
+pyproject.toml
+pipethon/__init__.py
+pipethon.egg-info/PKG-INFO
+pipethon.egg-info/SOURCES.txt
+pipethon.egg-info/dependency_links.txt
+pipethon.egg-info/top_level.txt
