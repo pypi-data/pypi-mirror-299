@@ -1,0 +1,11 @@
+shadow_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shadow_data/anonymization.py,sha256=G-ZFczrqU7arpgHHeVJ1zDlJ4ZG02145iFCtod_7bO8,410
+shadow_data/l10n/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shadow_data/l10n/brazilian.py,sha256=3RVYU2iPytoMjFb-V-Y0YEaXWvFD5wnoCinwwbN3fZY,833
+shadow_data/masking.py,sha256=NKc_d3ldltlV6zZH37B5FDEh3i7EoIsQ9qIc1WHOjuA,30
+shadow_data/reversible.py,sha256=jsjHg3Do8p6fQdhVq1ourStsd9SydfJcgljP6pn48Nw,33
+shadow_data/utils.py,sha256=ZPgs3214oWFD8aaTSLX6IPVYI-w4PDFK9_ZZRUM2WZE,88
+shadow_data-0.1.0.dist-info/LICENSE,sha256=n29NI2dHGvMUPTBXfK0fGLL2L2Si1c88SRjy0nziaoU,1500
+shadow_data-0.1.0.dist-info/METADATA,sha256=sJbZXoh3XxQ7slg8hVdIKwppo7KcmPuM2EQzx59MCj0,365
+shadow_data-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+shadow_data-0.1.0.dist-info/RECORD,,
