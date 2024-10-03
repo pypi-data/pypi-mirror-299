@@ -1,0 +1,5 @@
+colorama
+soupsieve==2.5
+requests==2.31.0
+pysocks==1.7.1
+pycryptodome==3.20.0
