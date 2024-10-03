@@ -1,0 +1,11 @@
+pymatio/__init__.py,sha256=idNenqqJtV8rPQchNp8qnqotaRCZrn4NYcVuAOctP7c,600
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/libmatio.cpp,sha256=qBLNTDOqkTdmVLBR23aeEXJ9XJIJfi0DwJQnjlXolnI,16965
+src/libmatio.h,sha256=d-ZB2wKBn4GArNWLVsyHlP_hEPQ3hYVOU-3J9g3kgrA,29297
+src/pymatio.cpp,sha256=afAUFPl-Qy6z08JVkrGIUMd3nxsedKsAq86czXe2shY,12469
+src/test_matio.cpp,sha256=TWhnmlM-wtwmD7pNf17jk7yD8uIKvPbpcrmfN9OGTH8,433
+xmake.lua,sha256=1HHwvMS93ta2ZpI3AhQG1yFZ8C5uvDSK-NfPr2lF30c,9357
+pymatio/libpymatio.cp311-win_amd64.pyd,sha256=o0AiyOcwtwrkLNUq-2hxxxsAkTJ0mwu6eDKQgN8qhOI,3802624
+pymatio-0.1.0.dist-info/METADATA,sha256=whEGXprdWrd2i4xYdsZSe-quNEiemfoy6CvMZth-W84,4139
+pymatio-0.1.0.dist-info/WHEEL,sha256=-FZBVKyKauScY3vLa8vJR6hBCpAJfFykw2MOwlNKr1g,98
+pymatio-0.1.0.dist-info/RECORD,,
