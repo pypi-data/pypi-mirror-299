@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cala
+Version: 0.1.0
+Summary: 
+Author: Raymond W. Chang
+Author-email: raymond.w.jang@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: build (>=1.2.2,<2.0.0)
+Requires-Dist: setuptools (>=75.1.0,<76.0.0)
+Requires-Dist: twine (>=5.1.1,<6.0.0)
+Requires-Dist: wheel (>=0.44.0,<0.45.0)
+Description-Content-Type: text/markdown
+
+# Cala
+
+placeholder package mid development
