@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: scikit-geo
+Version: 0.0.2
+Summary: A small example package
+Home-page: https://github.com
+Author: www
+Author-email: 773598627@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple example package. You can use
