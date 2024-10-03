@@ -1,0 +1,3 @@
+[console_scripts]
+sgnl-inspiral = sgnl.bin.inspiral:main
+sgnl-ll-dq = sgnl.bin.ll_dq:main
