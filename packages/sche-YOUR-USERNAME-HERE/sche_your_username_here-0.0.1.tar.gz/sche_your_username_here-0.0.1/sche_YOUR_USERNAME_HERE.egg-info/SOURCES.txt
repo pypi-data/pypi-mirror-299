@@ -1,0 +1,5 @@
+pyproject.toml
+sche_YOUR_USERNAME_HERE.egg-info/PKG-INFO
+sche_YOUR_USERNAME_HERE.egg-info/SOURCES.txt
+sche_YOUR_USERNAME_HERE.egg-info/dependency_links.txt
+sche_YOUR_USERNAME_HERE.egg-info/top_level.txt
