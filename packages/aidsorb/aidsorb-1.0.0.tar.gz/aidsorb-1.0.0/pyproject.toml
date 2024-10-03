@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools_scm]
+
+[tool.pylint.main]
+jobs = 0
+disable = ["C"]
+fail-under = 8
+
+[project]
+name = "aidsorb"
+dynamic = ["version"]
+authors = [
+  {name="Antonios P. Sarikas", email="antonios.sarikas@gmail.com"},
+]
+license = {text = "GPL-3.0-only"}
+
+description = "Python package for deep learning on molecular point clouds."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
+dependencies = [
+    "ase>=3.22.1",
+    "fire>=0.5.0",
+    "plotly>=5.19.0",
+    "tqdm>=4.66.2",
+    "pandas>=2.2.0",
+    "scipy>=1.12.0",
+    "lightning>=2.2.1",
+    "jsonargparse[signatures]>=4.27.7",
+    "numpy<=1.26.4",  # Temporarily, for avoiding dependency conflicts.
+]
+
+[project.urls]
+Homepage = "https://github.com/adosar/aidsorb"
+Issues = "https://github.com/adosar/aidsorb/issues"
+Documentation = "https://aidsorb.readthedocs.io/en/stable/"
+
+[project.scripts]
+aidsorb = "aidsorb._cli:aidsorb_fire"
+aidsorb-lit = "aidsorb._cli:lightning_cli"
