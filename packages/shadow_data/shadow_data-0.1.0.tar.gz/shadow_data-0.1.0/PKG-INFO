@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: shadow_data
+Version: 0.1.0
+Summary: A sensitive data handler python library
+License: BSD-3 Clause
+Author: Adler Medrado
+Author-email: adler@adlermedrado.com.br
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
