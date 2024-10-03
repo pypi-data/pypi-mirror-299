@@ -1,0 +1,13 @@
+syntax_parser_skeleton/__init__.py,sha256=mqMuQB3aqJVPrHHqJMLjqiMKUiJjozc7EPLcX5DpKHg,22
+syntax_parser_skeleton/example.py,sha256=ThP3Y_WuqGmMYU9ywoWck-Y6sx5FkyxOg3fj-Rbt66k,1530
+syntax_parser_skeleton/baseobjekts/__init__.py,sha256=n0ac0bVaT_3drwiiXQCAfTwwoKyRbAmhd4X8Zlk_g-o,111
+syntax_parser_skeleton/baseobjekts/components.py,sha256=wikY6B9IhW9qTwSNAc5kytcUn8V4RXyVvysPUZ1Nmi0,6896
+syntax_parser_skeleton/baseobjekts/root.py,sha256=_ktux6FQa-j5sTVvNPtik-RhLxcOspv5-OHF3pHOmMs,6026
+syntax_parser_skeleton/derivatives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syntax_parser_skeleton/derivatives/simpleregex.py,sha256=UyKc3sUxVmKYBQtUoavd34do6ozY1pNfh6KQyNMkWB0,1264
+syntax_parser_skeleton/visualisation/__init__.py,sha256=PTj6tGK8OEgvyID9n7EFXKL3Sn3k-cjxVOkoeXofUHI,2328
+syntax_parser_skeleton-1.0.6.dist-info/LICENSE,sha256=HUvHC4jEnMG0YmFbTMGt--UdqyZfzxRiZWSd7WUxWNQ,1090
+syntax_parser_skeleton-1.0.6.dist-info/METADATA,sha256=Xr7zzR8wCZRS_oPPgJx23pHnYumQKAmTDEQqfG1pPKk,13255
+syntax_parser_skeleton-1.0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+syntax_parser_skeleton-1.0.6.dist-info/top_level.txt,sha256=QkQjHM0c5_x_tCIHxckrVRHkxPB8Z2nEPDOrxAPBzQA,23
+syntax_parser_skeleton-1.0.6.dist-info/RECORD,,
