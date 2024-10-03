@@ -1,0 +1,11 @@
+example/app.py,sha256=tfN6L9PWNX32VPLKtAvMl4syhT0X_6yKaFbp2znuOvc,1799
+ttbot/__init__.py,sha256=KwyfV9Ajwom0HhPOBmx8IvUefiPmwggsTGtVb4WrsOU,180
+ttbot/client.py,sha256=Y5_AcKF1f4apf7lCmY-_sa2k-T1ZElMVKNLZKeBQycM,4537
+ttbot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ttbot/server.py,sha256=5jvU9Fo4iLF5IG0cVRcL1ii4P8nWgUhkGYLIAFzlcmE,8347
+ttbot/types.py,sha256=5EipNCAGO4lWTyzR7DbeNer_IsepV9HcQJUNKtl39P0,741
+ttbotlib-0.12.dist-info/LICENSE.md,sha256=bKdsXp_VzhGpI9IAqLroOu4Qm0lHil2sWk3_aF3RuEY,1070
+ttbotlib-0.12.dist-info/METADATA,sha256=7ZIyu_LBKfcgVfu6rEDZi1pebPBMT9UVwwCaj-_G8ts,3724
+ttbotlib-0.12.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ttbotlib-0.12.dist-info/top_level.txt,sha256=mzoVwsW57P-di_fgRplVaOMwG4QNrKO2cYwtxViZDK8,19
+ttbotlib-0.12.dist-info/RECORD,,
