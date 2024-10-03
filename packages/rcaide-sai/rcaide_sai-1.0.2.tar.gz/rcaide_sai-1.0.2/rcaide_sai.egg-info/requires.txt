@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+plotly
+matplotlib
+kaleido
+pandas
+geopy
+importlib_metadata
