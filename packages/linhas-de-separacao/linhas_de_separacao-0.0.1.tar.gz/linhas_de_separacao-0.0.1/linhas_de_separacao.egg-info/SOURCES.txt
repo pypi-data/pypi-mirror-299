@@ -1,0 +1,6 @@
+README.md
+setup.py
+linhas_de_separacao.egg-info/PKG-INFO
+linhas_de_separacao.egg-info/SOURCES.txt
+linhas_de_separacao.egg-info/dependency_links.txt
+linhas_de_separacao.egg-info/top_level.txt

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: linhas_de_separacao
+Version: 0.0.1
+Summary: My short description
+Author: Yasu
+Author-email: yasumiti.nakahara@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# linhas_de_separacao
+
+Description. 
+The package linhas_de_separaÃ§Ã£o is used to:
+	linhas_simples:
+		- print simple line
+	linhas_alternadas:
+		- print alternate lines
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install linhas_de_separacao
+
+```bash
+pip install linhas_de_separacao
+```
+
+## Author
+Yasu
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
