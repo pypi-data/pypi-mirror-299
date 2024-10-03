@@ -1,0 +1,2 @@
+[console_scripts]
+ctracker = CommandTracker.cli:main
