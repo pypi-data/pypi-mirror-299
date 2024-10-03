@@ -1,0 +1,6 @@
+
+[dev]
+tox
+black
+isort
+flake8
