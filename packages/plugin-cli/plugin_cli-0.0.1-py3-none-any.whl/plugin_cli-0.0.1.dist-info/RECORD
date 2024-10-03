@@ -1,0 +1,13 @@
+args_parser/__init__.py,sha256=RXQjHYsxcu5LQLP9t29mAa2gjaZO9whdew5QI0bkfZM,190
+args_parser/args_parser.py,sha256=2b5SOiO1OK8y1E1-TqN32-rCUMTMgtcKOO25eAsB_Z0,1207
+args_parser/cli_description.py,sha256=zFRwhTjW_yH8BHJSxllpfdORbYNPHHQaTHzzJigKbwQ,427
+example/__init__.py,sha256=RXQjHYsxcu5LQLP9t29mAa2gjaZO9whdew5QI0bkfZM,190
+example/cli.py,sha256=_wTyFEDKK5K6O4xj0PTTcPyc3b0DsjOjuIvUmUAq6sE,1233
+plugin/__init__.py,sha256=RXQjHYsxcu5LQLP9t29mAa2gjaZO9whdew5QI0bkfZM,190
+plugin/plugin.py,sha256=FnWWx756RP8sh4goaqd1uTu_NQUEwixOAG_drLEE3SQ,450
+plugin/plugin_manager.py,sha256=urDHbW9eN6lmYPZgX3Qs-VQCCkHGFDSgNx6Jku85xNQ,542
+plugin_cli-0.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+plugin_cli-0.0.1.dist-info/METADATA,sha256=oQ6rEdlqBRCUeT8uQGA3fnEVQ4DQHXbeEavxM3t2bOU,569
+plugin_cli-0.0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+plugin_cli-0.0.1.dist-info/top_level.txt,sha256=6YIb7FM4Y54kftyE1KadKIccc7WzXQJEp3hJkuM33kA,27
+plugin_cli-0.0.1.dist-info/RECORD,,
