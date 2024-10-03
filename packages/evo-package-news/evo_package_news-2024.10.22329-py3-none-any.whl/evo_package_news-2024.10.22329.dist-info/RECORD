@@ -1,0 +1,15 @@
+LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_news/__init__.py,sha256=0FIxSRmdsAmBavs0HD57xuYhoIFaXROk8-cCTpJyWUs,115
+evo_package_news/automation/api.yaml,sha256=M41dtlCUbi_8SgHzJcpPUlDG9zqpQ74GQ31ATMIXH8o,788
+evo_package_news/automation/entity.yaml,sha256=-FXC_gVZCgeKo_CoeQX15mHEcLFOyR_q-c5fLJxX23c,938
+evo_package_news/control/CNewsApi.py,sha256=5lPyjkCgNYjh0Mlllxwc4heomgJfKvh9dJYY7iJi4AQ,3249
+evo_package_news/control/__init__.py,sha256=XJklyk1UHrEW7zxrpednrNv4IksDq8vwsRZdZdBKrqo,55
+evo_package_news/entity/ENewsInput.py,sha256=u5ybYfKjB-_kb4mVEzIA5v8B8zc92-pu4sGEbfNhCZs,1251
+evo_package_news/entity/ENewsOutput.py,sha256=PM8AA9MSoNwoOWPWi1sJGiDcoR_sU5fJ0XSOshSkWQw,1254
+evo_package_news/entity/__init__.py,sha256=PTGtW77wDRRgmji5ZkS23N2L8hsfzkUfxIlwZQWjQhA,118
+evo_package_news/utility/UNewsApi.py,sha256=hAGSB1fEw28qTSdndGGf-K0Zu29Mr3aO__C-PPc4dTc,3691
+evo_package_news/utility/__init__.py,sha256=nUO1dArmWKKyEkKe2Emr7lVw8qK1wDyMXVI8zkST2qo,113
+evo_package_news-2024.10.22329.dist-info/LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_news-2024.10.22329.dist-info/METADATA,sha256=ysMsdkyB4dismZyY1a8RXAIZAJmlqaqPYM21gePTAoU,1407
+evo_package_news-2024.10.22329.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evo_package_news-2024.10.22329.dist-info/RECORD,,

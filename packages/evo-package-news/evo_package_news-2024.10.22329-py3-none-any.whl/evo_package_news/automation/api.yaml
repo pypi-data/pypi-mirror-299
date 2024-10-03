@@ -1,0 +1,22 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International  https://github.com/cyborg-ai-git 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+#   EAPIADMIN
+#   EAPIFILE [file, image, audio, video, pdf]
+#   EAPITEXT
+#   EAPIQUERY
+
+package: evo_package_news
+
+control:
+  CNewsApi:
+    _DOC_: "CNewsApi _DOC_"
+    
+    news-api0:
+      description: "news-api0 _DESCRIPTION_"
+      callback: onApi0
+      input: EOBJECT ENewsInput
+      output: EOBJECT ENewsOutput
