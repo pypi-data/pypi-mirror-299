@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: robotframework-RainyLibrary
+Version: 1.0.0
+Summary: rainy common library for robot framework
+Home-page: https://gitlab.com/wpchagorn24/robotframework-rainylibrary
+Author: watchagorn pattummee
+Author-email: wpchagorn24@gmail.com
+Keywords: RainyWebCommon,RainyCommon,RainyAppCommon,RainyLibrary
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RainyLibrary
+ rainy common keyword for robot framework
