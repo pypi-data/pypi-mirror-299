@@ -1,0 +1,2 @@
+include LUCY/eth_lstm_model_1h_optimized.h5
+include LUCY/scaler-1h.pkl

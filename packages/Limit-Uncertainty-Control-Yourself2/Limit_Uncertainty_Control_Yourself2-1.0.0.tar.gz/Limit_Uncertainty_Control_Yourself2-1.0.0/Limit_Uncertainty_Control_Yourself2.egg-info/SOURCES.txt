@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+Limit_Uncertainty_Control_Yourself2.egg-info/PKG-INFO
+Limit_Uncertainty_Control_Yourself2.egg-info/SOURCES.txt
+Limit_Uncertainty_Control_Yourself2.egg-info/dependency_links.txt
+Limit_Uncertainty_Control_Yourself2.egg-info/entry_points.txt
+Limit_Uncertainty_Control_Yourself2.egg-info/requires.txt
+Limit_Uncertainty_Control_Yourself2.egg-info/top_level.txt
