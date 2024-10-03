@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+copent/__init__.py
+copent/copent.py
+copent.egg-info/PKG-INFO
+copent.egg-info/SOURCES.txt
+copent.egg-info/dependency_links.txt
+copent.egg-info/requires.txt
+copent.egg-info/top_level.txt
+tests/test1ce.py
+tests/test2te.py
+tests/test3mvnt.py
+tests/test4tst.py
+tests/test5cpd.py
+tests/test_knn_entropy.py
