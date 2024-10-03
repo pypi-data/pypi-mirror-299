@@ -1,0 +1,5 @@
+[console_scripts]
+feedpush = feedpush:cli
+
+[gui_scripts]
+

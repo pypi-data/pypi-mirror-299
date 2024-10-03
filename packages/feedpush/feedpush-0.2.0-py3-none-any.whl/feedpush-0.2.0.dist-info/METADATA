@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: feedpush
+Version: 0.2.0
+Summary: A simple rss/atom feed parser
+Keywords: feedpsuh,rss,feed,notify
+Author: p7e4
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Project-URL: Repository, https://github.com/p7e4/feedpush
+Project-URL: Issues, https://github.com/p7e4/feedpush/issues
+Requires-Python: >=3.12
+Requires-Dist: rssfeed>=0.3
+Requires-Dist: aiohttp>=3.10
+Description-Content-Type: text/markdown
+
+# feedpush
+
+rss更新推送到飞书/企业微信/钉钉webhook群机器人
+
+
+## 安装
+
+`pip install feedpush`
+
+
+## 使用
+
+``` bash
+mkdir feedpush
+cd feedpush
+curl -O https://github.com/p7e4/feedpush/blob/main/conf.toml
+feedpush
+```
+
+
+## 配置修改
+
+详见[conf.toml](https://github.com/p7e4/feedpush/blob/main/conf.toml)
+
