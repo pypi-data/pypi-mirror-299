@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/theia/__init__.py
+src/theia/utils/__init__.py
+src/theia/utils/create_project.py
+src/theia_api.egg-info/PKG-INFO
+src/theia_api.egg-info/SOURCES.txt
+src/theia_api.egg-info/dependency_links.txt
+src/theia_api.egg-info/entry_points.txt
+src/theia_api.egg-info/requires.txt
+src/theia_api.egg-info/top_level.txt
