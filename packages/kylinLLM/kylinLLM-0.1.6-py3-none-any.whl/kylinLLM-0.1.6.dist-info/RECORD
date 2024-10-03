@@ -1,0 +1,10 @@
+kylinLLM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kylinLLM/classification.py,sha256=SPtTYr6L1Wox1rtnXA97ElRfd0dvtvYLEIrjmnjkT60,807
+kylinLLM/cognition.py,sha256=qa7N9pbDricL0vPMz6vz80wsrtD5Dipn_Am1DqC4jMs,888
+kylinLLM/memory.py,sha256=igoD0cE80tOKXTpVS0TdysfmugDxVxhJWXTfGooYwv8,535
+kylinLLM/role.py,sha256=a6jsL-grpRrfJ9GuAxOjmOhdmbWueQEQvgLJBivAc10,1562
+kylinLLM/strategy.py,sha256=tb3cQjn4Sm0wcVzTxNqcFJ8ce6BtciKa4AnjSmMiN20,1726
+kylinLLM-0.1.6.dist-info/METADATA,sha256=elv5qdRqTSJb15XJbd65mN-FaeDPdh2sb9Sd47wy-5w,13907
+kylinLLM-0.1.6.dist-info/WHEEL,sha256=ixB2d4u7mugx_bCBycvM9OzZ5yD7NmPXFRtKlORZS2Y,91
+kylinLLM-0.1.6.dist-info/top_level.txt,sha256=C6LEnD9VRzBu0tVQvIveDowHmgDffOXD_TrpNeAa0yM,9
+kylinLLM-0.1.6.dist-info/RECORD,,
