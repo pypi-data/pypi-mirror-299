@@ -1,0 +1,15 @@
+bfio
+matplotlib<3.9
+matplotlib-scalebar
+napari
+numpy
+pandas
+scikit-image
+
+[testing]
+napari
+pyqt5
+pytest
+pytest-cov
+pytest-qt
+tox
