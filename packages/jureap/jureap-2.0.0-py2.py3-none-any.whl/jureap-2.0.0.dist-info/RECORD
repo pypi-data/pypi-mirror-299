@@ -1,0 +1,8 @@
+jureap/__init__.py,sha256=GFTNH2_l5CHz9LNxXTTpGOPi_6eGGzsFwl6mWnfdL4g,345
+jureap/metadata.py,sha256=Ezs8IPtmBqRlwTd5k4Uli3MoDNTDxWzsXRmySYNhkfc,524
+jureap/check/__init__.py,sha256=P_q4wtgnEaPxNQNRGOJdUetKEVpnG6OemV5NyI7VMgY,1345
+jureap/cli/__init__.py,sha256=ezP8VY1ZlqGWm3qGp_baU9grv1oNvM9jmswOneTfCGk,2786
+jureap-2.0.0.dist-info/METADATA,sha256=a7ejPMAVJJQ5vp3x6BBRgud0e_-iRd2o1AaxM3iDHHc,613
+jureap-2.0.0.dist-info/WHEEL,sha256=fl6v0VwpzfGBVsGtkAkhILUlJxROXbA3HvRL6Fe3140,105
+jureap-2.0.0.dist-info/entry_points.txt,sha256=gDWQcogpWRhrZSPj9rvcgZ2VWjSbkQdtDnmOokrTQns,43
+jureap-2.0.0.dist-info/RECORD,,
