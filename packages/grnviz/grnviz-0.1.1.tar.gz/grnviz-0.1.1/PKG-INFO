@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: grnviz
+Version: 0.1.1
+Summary: Visualization of gene co-expression and regulatory networks
+Project-URL: Homepage, https://github.com/ulysseherbach/grnviz
+Author-email: Ulysse Herbach <ulysse.herbach@inria.fr>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: matplotlib>=3.4
+Requires-Dist: networkx>=2.6
+Requires-Dist: numpy>=1.24
+Description-Content-Type: text/markdown
+
+# GRNviz
+
+Visualization of gene co-expression and regulatory networks
