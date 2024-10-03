@@ -1,0 +1,10 @@
+setup.py
+tests/__init__.py
+tests/text_Summarizer.py
+textSummarizerBC.egg-info/PKG-INFO
+textSummarizerBC.egg-info/SOURCES.txt
+textSummarizerBC.egg-info/dependency_links.txt
+textSummarizerBC.egg-info/requires.txt
+textSummarizerBC.egg-info/top_level.txt
+text_processor/__init__.py
+text_processor/summarizer.py

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: textSummarizerBC
+Version: 0.1.0
+Summary: A text processing library using Hugging Face Transformers
+Home-page: https://github.com/moulibc/textSummarizer
+Author: Chandra Mouli B
+Author-email: mouli9@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: transformers>=4.0.0
+Requires-Dist: torch
