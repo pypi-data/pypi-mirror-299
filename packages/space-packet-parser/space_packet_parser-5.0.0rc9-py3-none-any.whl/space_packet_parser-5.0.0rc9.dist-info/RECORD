@@ -1,0 +1,14 @@
+CITATION.cff,sha256=Zl0GrTMohKWZqEmcynHwYTA0pVh1vC7vyhLSMhJTlTM,1838
+LICENSE.txt,sha256=dvebvCXbcy-becZ8K7gafVHsg9In4tEopNpK2dUQQMA,1485
+space_packet_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+space_packet_parser/calibrators.py,sha256=C5MHzJIN2vNbX18m7z4QZoVsmZPlw0WddoBlhSwwjUc,13840
+space_packet_parser/comparisons.py,sha256=9sfmAkQdMm2Nh9feTR2vDFGFFreJDmZJ_9ozs1HYEhg,23491
+space_packet_parser/definitions.py,sha256=470EVo-UuCKUHjQrztPnSk_KsDRA2kcGgxGM-ZmyC4M,32825
+space_packet_parser/encodings.py,sha256=pTFSWAPXd84QgTDUGkv7NgbHr3m5oALyJ1bGw5alVNg,40748
+space_packet_parser/exceptions.py,sha256=hSwT3iUlH_pEJJXyR1NiE5lm0cyPAvx7VUj5nlUPYHg,764
+space_packet_parser/packets.py,sha256=ojWJo6p8YCFpEfQjgTpGhl6sZ1xi3WRJTxR2Kbc-sr8,8290
+space_packet_parser/parameters.py,sha256=9ee6Syta_W7D4ip1JgFJbCOo5N1R51RfFYcUxpd8ACw,21481
+space_packet_parser-5.0.0rc9.dist-info/LICENSE.txt,sha256=dvebvCXbcy-becZ8K7gafVHsg9In4tEopNpK2dUQQMA,1485
+space_packet_parser-5.0.0rc9.dist-info/METADATA,sha256=P8F-o1RuKAVQKRakvJ1OwZRCv5jlHxDAW-qSr7jq1u8,3234
+space_packet_parser-5.0.0rc9.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+space_packet_parser-5.0.0rc9.dist-info/RECORD,,
