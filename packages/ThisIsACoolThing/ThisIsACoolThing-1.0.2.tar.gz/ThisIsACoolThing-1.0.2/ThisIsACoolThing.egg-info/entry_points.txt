@@ -1,0 +1,3 @@
+[console_scripts]
+one = LUCY.ppa:main
+twelve = LUCY.app:main
