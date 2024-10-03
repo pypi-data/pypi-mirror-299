@@ -1,0 +1,8 @@
+{
+    "version": "3.10.8.24.07.23",
+    "max_batch": 15,
+    "daily_that_can_be_updated_over": ["daily_04_03_2024_1216"],
+    "update_window_begin_hr": 2,
+    "update_window_end_hr": 5,
+    "catchup_window_days": 2
+}
