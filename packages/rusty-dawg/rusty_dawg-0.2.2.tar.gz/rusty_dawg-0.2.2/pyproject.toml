@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.1,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "rusty-dawg"
+dynamic = ["version"]
+description = "A Rust library for building and querying Directed Acyclic Word Graphs (DAWGs) and Compacted DAWGs (CDAWGs) for efficient string indexing and searching."
+authors = [{name = "lambdaviking"}]
+requires-python = ">=3.10"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+manifest-path = "bindings/python/Cargo.toml"
