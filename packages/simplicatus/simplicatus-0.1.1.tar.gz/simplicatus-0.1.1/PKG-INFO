@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: simplicatus
+Version: 0.1.1
+Summary: Grossomodo a Python library for converting md documents into PDF, kindle friendly.
+Home-page: https://github.com/sebs-tech/simplicatus
+Author: Sebastjan Rijavec
+Author-email: sebastjan.rijavec@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simplicatus
+Grossomodo a python library for converting md documents into pdf, kindle friendly
+
+
+## License
+This library is licensed under the MIT License for **personal** and **non-commercial use**.
+
+For **commercial use**, such as within a business or proprietary software, a commercial license is required.  
+To inquire about commercial licenses, consult [COMMERCIAL_LICENSE](https://github.com/sebs-tech/simplicatus/blob/main/COMMERCIAL_LICENSE)
+
