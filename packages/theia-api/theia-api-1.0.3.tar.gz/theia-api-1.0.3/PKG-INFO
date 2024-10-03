@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: theia-api
+Version: 1.0.3
+Summary: 基于FastAPI封装通用后台API组件库
+Home-page: https://gitee.com/iprintf/theia-api
+Author: iprintf
+Author-email: iprintf@qq.com
+License: Apache
+Description: # Theia-API
+        
+        Theia-API 是一个基于FastAPI开发的通用中后台API组件库, 提高中后台API开发效率.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown

@@ -1,0 +1,11 @@
+aioredis==2.0.1
+alembic==1.13.2
+fastapi==0.110.2
+loguru==0.7.2
+pydantic-settings==2.2.1
+pydantic==2.7.1
+python-jose==3.3.0
+python-multipart==0.0.9
+redis==5.0.3
+sqlalchemy[asyncmy]==2.0.30
+uvicorn==0.29.0

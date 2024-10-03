@@ -1,0 +1,3 @@
+[console_scripts]
+theia-create = theia.utils.create_project:main
+
