@@ -1,0 +1,12 @@
+[Desktop Entry]
+Exec=kiyoi_image_viewer %F
+Terminal=false
+
+Name=Kiyoi Image Viewer
+Comment=Frameless image viewer
+
+MimeType=image/webp;image/jpeg;image/jpeg2000;image/jp2;image/jpm;image/jpx;image/x-jng;image/x-jp2-container;video/mj2;video/jpm;image/gif;image/png;image/apng;image/tif;image/tiff;image/x-tif;image/x-tiff;image/x-targa;image/x-tga;image/bmp;image/x-bmp;image/x-win-bitmap;image/x-icns;image/x-icon;
+
+Icon=kiyoiiv
+Type=Application
+Categories=Graphics;2DGraphics;RasterGraphics;Viewer;Qt;
