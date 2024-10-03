@@ -1,0 +1,5 @@
+anise-0.4.4.dist-info/METADATA,sha256=KoQ_U2QxoGd1mZjdN11llf81XgufRasLXdN39dAKsnY,6807
+anise-0.4.4.dist-info/WHEEL,sha256=lmQeMM6OAKHy0QpSh4lo6-MhxvxgC1v8HCrLbo5MBnA,131
+anise/__init__.py,sha256=fxCM8U0C0Arf9lTTNySPgdYsVN94D95GuBje4ASb8J8,103
+anise/anise.cpython-312-powerpc64le-linux-gnu.so,sha256=FO9jPFNCpsvfl_Z3rXk4VfcRrl7b-EH-SzKmpXp2Orw,16820352
+anise-0.4.4.dist-info/RECORD,,
