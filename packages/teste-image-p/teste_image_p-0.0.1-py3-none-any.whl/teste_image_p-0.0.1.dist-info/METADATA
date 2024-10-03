@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: teste-image-p
+Version: 0.0.1
+Summary: Processamento de imagem
+Home-page: https://github.com/aarantess/teste-image-p.git
+Author: Aline
+Author-email: aarantesfisc@frimesa.com.br
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Processamento de imagens
