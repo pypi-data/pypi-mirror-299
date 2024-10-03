@@ -1,0 +1,9 @@
+ak_pdf2md/__init__.py,sha256=ZiPCj5FLEnZN49lHsfaFX8x390I0QbFecZwYkdINhg0,1194
+ak_pdf2md/cli_app.py,sha256=6ePaJ6ORXonlWpoGO7XnDNx0juxhWY-uknJxEGG690w,1775
+ak_pdf2md/parser.py,sha256=iDF7-Av0M8Corcm1VzjZ_G9kDulxsc82Y2PFrGzoBbk,2474
+ak_pdf2md/utils/config_parser.py,sha256=tdmwz_9eZFYXb_Xo03YjKpZCvUk8dMM0KcvHhLjqUYo,2007
+ak_pdf2md-0.0.1.dist-info/entry_points.txt,sha256=tpjt0_AfsvxJ6nNCoRTNBGFfKvK98K1ihC82RHyDUtI,73
+ak_pdf2md-0.0.1.dist-info/LICENSE,sha256=k0P1sbYupRWlxoESvbYq2UzoMW6MXA84LltqR-4mEo4,17096
+ak_pdf2md-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ak_pdf2md-0.0.1.dist-info/METADATA,sha256=tDjF3pxh9cVCjn-_AMPADuFkj-N57-lzEUeIan3ZGkM,1792
+ak_pdf2md-0.0.1.dist-info/RECORD,,
