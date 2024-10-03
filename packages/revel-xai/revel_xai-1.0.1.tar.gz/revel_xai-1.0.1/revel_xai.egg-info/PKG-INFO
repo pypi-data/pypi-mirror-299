@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: revel-xai
+Version: 1.0.1
+Summary: A Python package for the REVEL framework
+Author: Iván Sevillano Garcia
+Author-email: Ivan Sevillano Garcia <isevillano@go.ugr.es>
+Project-URL: Homepage, https://github.com/ari-dasci/revel
+Project-URL: Issues, https://github.com/ari-dasci/revel/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
