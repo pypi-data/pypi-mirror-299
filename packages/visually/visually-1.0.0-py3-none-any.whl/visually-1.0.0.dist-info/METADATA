@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: visually
+Version: 1.0.0
+Summary: A unified interface for data visualization using Matplotlib, Seaborn, and Plotly.
+Home-page: https://github.com/Sariya-Ansari/visually.git
+Author: Sariya Ansari
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: kaleido
+
+The Visually class serves as a unified interface for visualizing data using different backends, such as Matplotlib, Seaborn, and Plotly. This document provides a comprehensive guide on how to initialize the class, set the visualization style, and create various types of graphs.
