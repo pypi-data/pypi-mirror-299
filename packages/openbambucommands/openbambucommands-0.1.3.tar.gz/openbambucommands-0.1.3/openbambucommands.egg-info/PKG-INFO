@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: openbambucommands
+Version: 0.1.3
+Summary: A package that provides helper functions for generating BambuLabs printer commands
+Author-email: wolfy <wolfy@shitwolfymakes.com>
+Project-URL: Homepage, https://github.com/shitwolfymakes/openbambucommands
+Project-URL: Bug Tracker, https://github.com/shitwolfymakes/openbambucommands/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenBambuCommands
+![GitHub License](https://img.shields.io/pypi/l/openbambucommands)
+![PyPI - Version](https://img.shields.io/pypi/v/openbambucommands)
+
+OpenBambuCommands is a Python package that provides helper functions to return
+the strings for BambuLabs printers in an easy, hassle-free way. No more
+fighting with string formatting!
+
+This builds off of the work documented in [OpenBambuAPI](https://github.com/Doridian/OpenBambuAPI)
+
+## Installation
+
+You can install OpenBambuCommands using pip:
+
+```
+pip install openbambucommands
+```
+
+## Usage
+
+Here's a quick example of how to use StringHelper:
+
+```python3
+from openbambucommands import ftp, mqtt
+
+print(ftp.hello_world())
+print(mqtt.hello_world())
+```
+
+## Contributing
+Contributions are welcome, feel free to open Issues or PRs
