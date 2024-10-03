@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test/test_interpolation.py
+thermontfa/__init__.py
+thermontfa/tabular_interpolation.py
+thermontfa/thermoNTFA.py
+thermontfa.egg-info/PKG-INFO
+thermontfa.egg-info/SOURCES.txt
+thermontfa.egg-info/dependency_links.txt
+thermontfa.egg-info/requires.txt
+thermontfa.egg-info/top_level.txt
