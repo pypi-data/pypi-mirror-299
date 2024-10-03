@@ -1,0 +1,17 @@
+seadex/__init__.py,sha256=R0mGfRI3stYT1jfMZNwCHAgIyezLJac1COyfO4xZNNw,258
+seadex/__main__.py,sha256=k1eGDYw_eoVksv79R0lloyQ7Lrjg1OeJHN4gq4d0QYE,588
+seadex/_backup.py,sha256=8iZfldCFEob4LnPketGYhdTkQRCtewnPhfOnskS67Ww,6770
+seadex/_models.py,sha256=OB-1IcWnbsl71CvuwHO63NRWy_hkjSxLmiWowdT1sWM,195
+seadex/_torrent.py,sha256=DJ-GNSl2vb81udnIBYyuEP-OXqGKL594YA-8jOOn668,4475
+seadex/_types.py,sha256=igOaZOfiunlcSlsv1yIL8bV5QglilP92OGIqqfNBsSE,371
+seadex/_utils.py,sha256=Vml4jcuAQn1dPtfhJSobkmOBw7077Rnj8R1Je69249A,260
+seadex/_version.py,sha256=JWCY4BUIKCttwldsbQ4sI4NRI8zBXB8eADxesjP4Dsk,285
+seadex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seadex/_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seadex/_cli/_backup.py,sha256=8nQCrlbPMgmM60egt_4BwF0pCN1pda-fLGkUDGQ0o1s,5169
+seadex/_cli/_torrent.py,sha256=ar_ZQdujTrcIgx8p8teBpGD6VRicYMuBa6X9zySlGQE,2572
+seadex-0.2.1.dist-info/METADATA,sha256=dodhtTb6JUf2Tfi8xHnm8LtBXaF_DsrJdzofFIzVcCU,3556
+seadex-0.2.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+seadex-0.2.1.dist-info/entry_points.txt,sha256=FHOt3ssAdc2VO3wbqN2UTyox40ND9NT1R4Ur0a-7KvQ,47
+seadex-0.2.1.dist-info/licenses/LICENSE,sha256=egXao0FbN0n8hiEjvjRfAOSuTbHTkk6hMc85piMvXR0,1077
+seadex-0.2.1.dist-info/RECORD,,
