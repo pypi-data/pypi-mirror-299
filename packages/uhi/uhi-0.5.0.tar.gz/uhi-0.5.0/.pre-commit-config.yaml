@@ -1,0 +1,74 @@
+ci:
+  autoupdate_commit_msg: 'chore: update pre-commit hooks'
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+    - id: check-added-large-files
+    - id: check-case-conflict
+    - id: check-merge-conflict
+    - id: check-symlinks
+    - id: check-yaml
+    - id: debug-statements
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: requirements-txt-fixer
+    - id: trailing-whitespace
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: "v0.6.8"
+    hooks:
+      - id: ruff
+        args: ["--fix", "--show-fixes"]
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.11.2
+    hooks:
+    - id: mypy
+      files: ^(src|tests)
+      args: []
+      additional_dependencies:
+        - numpy
+        - pytest
+        - importlib_resources
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
+      - id: rst-backticks
+      - id: rst-directive-colons
+      - id: rst-inline-touching-normal
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+    - id: codespell
+      args: ["-L", "hist,thist,ans,nd,gaus"]
+
+  - repo: local
+    hooks:
+      - id: disallow-caps
+        name: Disallow improper capitalization
+        language: pygrep
+        entry: PyBind|Numpy|Cmake|CCache|Github|PyTest
+        exclude: .pre-commit-config.yaml
+
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: "v3.3.3"
+    hooks:
+      - id: prettier
+        types_or: [json]
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.29.3
+    hooks:
+      - id: check-readthedocs
+      - id: check-github-workflows
+      - id: check-metaschema
+        files: ^src/uhi/resources/histogram.schema.json$
+      - id: check-jsonschema
+        name: Validate Histogram examples
+        args: [--schemafile, src/uhi/resources/histogram.schema.json]
+        files: ^tests/resources/.*\.json
