@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rpi-artic-lib
+Version: 0.1.2
+Summary: Python library that includes my standar python library and a set of modules exclusive to the Raspberry PI
+License: MIT
+Author: Artic42
+Author-email: main@artic42.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: articlib (>=0.2.3,<0.3.0)
+Requires-Dist: rpi-gpio (>=0.7.1,<0.8.0)
+Description-Content-Type: text/markdown
+
+# RpiPtyhonLib
+Python library that includes my standar python library and a set of modules exclusive to the Raspberry PI
+
