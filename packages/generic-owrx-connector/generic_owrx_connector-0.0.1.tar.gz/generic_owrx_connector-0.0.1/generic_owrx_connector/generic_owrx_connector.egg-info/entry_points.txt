@@ -1,0 +1,2 @@
+[console_scripts]
+generic_owrx_connector = generic_owrx_connector.connector:main

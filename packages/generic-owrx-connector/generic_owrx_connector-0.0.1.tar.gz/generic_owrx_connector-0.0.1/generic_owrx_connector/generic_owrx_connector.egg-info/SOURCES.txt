@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+generic_owrx_connector/generic_owrx_connector.egg-info/PKG-INFO
+generic_owrx_connector/generic_owrx_connector.egg-info/SOURCES.txt
+generic_owrx_connector/generic_owrx_connector.egg-info/dependency_links.txt
+generic_owrx_connector/generic_owrx_connector.egg-info/entry_points.txt
+generic_owrx_connector/generic_owrx_connector.egg-info/top_level.txt

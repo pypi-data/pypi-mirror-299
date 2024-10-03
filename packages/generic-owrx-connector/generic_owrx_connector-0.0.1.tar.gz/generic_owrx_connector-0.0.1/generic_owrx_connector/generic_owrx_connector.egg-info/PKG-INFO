@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: generic_owrx_connector
+Version: 0.0.1
+Summary: Generic connector to feed OpenWebRX instance.
+Author: primo, Douglas
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Ham Radio
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Generic OWRX Connector
+
+## Installation
+
+1. Make the `install.sh` script executable:
+  ```sh
+  chmod a+x install.sh
+  ```
+
+2. Run the installation script:
+  ```sh
+  ./install.sh
+  ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

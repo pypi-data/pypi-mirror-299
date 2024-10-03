@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools >= 40.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generic_owrx_connector"
+version = "0.0.1"
+authors = [{ name = "primo" }, { name = "Douglas" }]
+description = "Generic connector to feed OpenWebRX instance."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Development Status :: 3 - Alpha",
+	"Framework :: AsyncIO",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: BSD License",
+	"Operating System :: OS Independent",
+	"Topic :: Communications :: Ham Radio",
+]
+
+[project.scripts]
+generic_owrx_connector = "generic_owrx_connector.connector:main"
+
+[tool.setuptools.packages.find]
+where = ["generic_owrx_connector"]
+include = ["generic_owrx_connector*"]
+exclude = ["generic_owrx_connector.feature*", "generic_owrx_connector.source*"]
+namespaces = false
