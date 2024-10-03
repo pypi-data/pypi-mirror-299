@@ -1,0 +1,6 @@
+setup.py
+vsc_config.egg-info/PKG-INFO
+vsc_config.egg-info/SOURCES.txt
+vsc_config.egg-info/dependency_links.txt
+vsc_config.egg-info/not-zip-safe
+vsc_config.egg-info/top_level.txt
