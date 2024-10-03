@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asma_package"
+version = "0.1.0"
+description = "A brief description of your package"
+authors = [{name = "Asma Shahid", email = "asma.shahid@datumlabs.io"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# Remove this section
+# [project.dynamic]
+# dynamic = ["requires-python"]
+
+# Add this instead
+requires-python = ">=3.6, <4"

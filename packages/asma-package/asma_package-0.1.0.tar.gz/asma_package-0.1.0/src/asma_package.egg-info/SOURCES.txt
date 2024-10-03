@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/asma_package/__init__.py
+src/asma_package/example.py
+src/asma_package.egg-info/PKG-INFO
+src/asma_package.egg-info/SOURCES.txt
+src/asma_package.egg-info/dependency_links.txt
+src/asma_package.egg-info/top_level.txt
+tests/test_example.py
