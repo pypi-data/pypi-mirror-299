@@ -1,0 +1,9 @@
+adofai/__init__.py,sha256=kOwK6nSoRZql5u264xm_lHkz2mAdYcwruGHx1VE8K6w,14996
+adofai/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adofai/utils/profile.py,sha256=Rn8HaZOg5bsD154KGNQqQ4G1ohinvFU5-u3w8OBcLtQ,2503
+adofai/utils/signing.py,sha256=wtZqmVXvw9qvKPUztoXI_I33hxgo0r6MVHZ9ynqU0TI,900
+adofai/utils/uuid.py,sha256=tULKK40U58qDhIKZX-kM1d-ojWtNIlNvZ26ExzeIN40,2189
+adofai-0.1.0.dev0.dist-info/LICENSE,sha256=kGHzZ6ylsFPmP7Y7cDwmNEaqwLIFtUTaWlj49da7r1E,1086
+adofai-0.1.0.dev0.dist-info/METADATA,sha256=cQA7TD3gi3OHbAWpUfxWW7Dsw9ymMExoJew8YvAjyuY,1639
+adofai-0.1.0.dev0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+adofai-0.1.0.dev0.dist-info/RECORD,,
