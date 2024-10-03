@@ -1,0 +1,17 @@
+bayes_spec/__init__.py,sha256=bt-MJguuOgjV-mLRzWvyA0l1URFlwygCpzOwBkb4Oj0,264
+bayes_spec/_version.py,sha256=UxOSfd3z3xh8cVxYIx28Zy7u67u-mPeNaqAWrRSs628,497
+bayes_spec/base_model.py,sha256=4lD5KP5uIyExlFGiAkSTO-AfOAEVgi6ptApS1lw5ULQ,25281
+bayes_spec/cluster_posterior.py,sha256=hBWsI-486UVc_qZwE4TsW_494RQtLDQxXfyb0lMjmuk,7176
+bayes_spec/nuts.py,sha256=Mboc91G37L3fmXLnWSFX6jeF5ipwhowgkE91OwK8W4c,3975
+bayes_spec/optimize.py,sha256=sRmYbkxR8Sd9V7cZlWEGjrxGt2oXpmk1b4-UNX56B-E,9179
+bayes_spec/plots.py,sha256=E16TOio1E9rIoBOn5zBvrOSGNSmNBZ2OX_yNvaf01-Q,4452
+bayes_spec/spec_data.py,sha256=sLE9tVF3SsHgqAxIuUyqUN8k0rNy0h-aRnnFFAjAaDI,5093
+bayes_spec/utils.py,sha256=OIwIqFd25uawXq0Wu-Gucva3-uq6mJiFjZHFbDHj3D0,1295
+bayes_spec/models/__init__.py,sha256=tK_T1KcE8j13opfzVUhaeEbh4oTviK4NEFhAwwmA7xg,162
+bayes_spec/models/gauss_model.py,sha256=eeXd0zdyyAkIcc0526qk3KKsMcE09tK--J_gea7crKE,6308
+bayes_spec/models/gauss_noise_model.py,sha256=GZ2QiswnS4rsu_r66rVhiLLn6Xk5PXA7Adq7GXP-Ukk,2693
+bayes_spec-1.7.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bayes_spec-1.7.0.dist-info/METADATA,sha256=wkwRDDP3VK_1haQX5DvEGNIPKotshEKsZAkTvnIZ26g,58561
+bayes_spec-1.7.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bayes_spec-1.7.0.dist-info/top_level.txt,sha256=8MegxP4oHB9GUyTTAt1YWcSl6fAGWA9eoP3mOqQiiHA,11
+bayes_spec-1.7.0.dist-info/RECORD,,
