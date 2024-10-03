@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: xian-contracting
+Version: 0.5.0
+Summary: 
+License: GNU GENERAL PUBLIC LICENSE
+Author: Xian.org Team
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyNaCl (>=1.5.0,<2.0.0)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: autopep8 (==1.5.7)
+Requires-Dist: cachetools (>=5.5.0,<6.0.0)
+Requires-Dist: h5py (>=3.12.1,<4.0.0)
+Requires-Dist: iso8601 (>=2.1.0,<3.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: psutil (>=6.0.0,<7.0.0)
+Requires-Dist: pycodestyle (==2.10.0)
+Description-Content-Type: text/markdown
+
+# Contracting - Smart Contracts in Python
+
+Contracting is a smart contracting library. Unlike Bitcoin and Ethereum, Contracting leverages the existing PythonVM to create a system that allows developers to write small applications for the  types of logic we see in smart contracts today. This generally has to do with simple logical transactions. Contracting focuses on making standard CRUD operations extremely easy with full support for JSON objects and dynamic storage sizing so you spend less time with lower level computer science details and more time coding.
+
+### Example
+```python
+def token_contract():
+     balances = Hash()
+     owner = Variable()
+     
+     @construct
+     def seed():
+         owner.set(ctx.caller)
+
+     @export
+     def approve(amount: float, to: str):
+         assert amount > 0, 'Cannot send negative balances.'
+         balances[ctx.caller, to] += amount
+     
+     @export
+     def transfer_from(amount: float, to: str, main_account: str):
+         assert amount > 0, 'Cannot send negative balances.'
+         assert balances[main_account, ctx.caller] >= amount, f'Not enough coins approved to send. You have {balances[main_account, ctx.caller]} and are trying to spend {amount}'
+         assert balances[main_account] >= amount, 'Not enough coins to send.'
+     
+         balances[main_account, ctx.caller] -= amount
+         balances[main_account] -= amount
+         balances[to] += amount
+
+     @export
+     def transfer(amount: float, to: str):
+         assert amount > 0, 'Cannot send negative balances.'
+         assert balances[ctx.caller] >= amount, 'Not enough coins to send.'
+     
+         balances[ctx.caller] -= amount
+         balances[to] += amount
+
+     @export
+     def mint(to, amount):
+         assert ctx.caller == owner.get(), 'Only the original contract author can mint!'
+         balances[to] += amount
+
+```
+
+### Installing
+
+`pip install -e .`
+
+
+
+### Docs & More
+Official docs and walkthrough are available at https://github.com/xian-network/smart-contracts-docs
+
+
