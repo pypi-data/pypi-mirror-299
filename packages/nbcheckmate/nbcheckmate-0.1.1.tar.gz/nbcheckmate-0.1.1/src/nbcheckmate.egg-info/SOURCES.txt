@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/nbcheckmate/__init__.py
+src/nbcheckmate/_version.py
+src/nbcheckmate/nbcheckmate.py
+src/nbcheckmate.egg-info/PKG-INFO
+src/nbcheckmate.egg-info/SOURCES.txt
+src/nbcheckmate.egg-info/dependency_links.txt
+src/nbcheckmate.egg-info/top_level.txt
+tests/test_functions.py
+tests/test_variables.py
