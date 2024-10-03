@@ -1,0 +1,10 @@
+curvv/__init__.py,sha256=Q8DauypUcuJYJEJYn1JVkfpErZsxb1nXtVV-QGsR_f4,112
+curvv/main.py,sha256=P5ayCXc9WjhSzzrRFY0geYJNe4tMPsaX0BnBk_Oe718,5982
+curvv/_func/__init__.py,sha256=KwBvj2zXQaLUGyr_S7MuuSXz-bB44BPVN4adyXsVEUg,124
+curvv/_func/packageSafety.py,sha256=MR5DzDlIMhlOI26JXFoOrklRfQw4R_KlZbSw2o1wkjQ,605
+curvv-0.4.16.dist-info/LICENSE.txt,sha256=KDeDDVkZ6kP6fnb8SFpRPXN2LCWuzrWo3vKnpCJ02gM,1066
+curvv-0.4.16.dist-info/METADATA,sha256=l78zJ4QPhF8gADx0XShV75sVcO74ZVjJdBMj5kwPwRs,2185
+curvv-0.4.16.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+curvv-0.4.16.dist-info/entry_points.txt,sha256=SXvIDjIyimC7iX6IDefn1owV6ZY5WgVVN1KRoJE2Q9M,45
+curvv-0.4.16.dist-info/top_level.txt,sha256=U5q2Ngx8CPAYKa6bdnehOYPvfxblghIOZ6blt3Iofj8,6
+curvv-0.4.16.dist-info/RECORD,,
