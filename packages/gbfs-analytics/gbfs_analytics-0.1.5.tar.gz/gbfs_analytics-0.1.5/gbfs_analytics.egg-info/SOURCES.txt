@@ -1,0 +1,10 @@
+setup.py
+gbfs_analytics/__init__.py
+gbfs_analytics/gbfs_feed.py
+gbfs_analytics/gbfs_manager.py
+gbfs_analytics/gbfs_timeseries.py
+gbfs_analytics.egg-info/PKG-INFO
+gbfs_analytics.egg-info/SOURCES.txt
+gbfs_analytics.egg-info/dependency_links.txt
+gbfs_analytics.egg-info/requires.txt
+gbfs_analytics.egg-info/top_level.txt
