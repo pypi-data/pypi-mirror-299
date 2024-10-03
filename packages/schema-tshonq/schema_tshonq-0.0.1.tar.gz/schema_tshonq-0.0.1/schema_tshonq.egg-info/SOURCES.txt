@@ -1,0 +1,5 @@
+pyproject.toml
+schema_tshonq.egg-info/PKG-INFO
+schema_tshonq.egg-info/SOURCES.txt
+schema_tshonq.egg-info/dependency_links.txt
+schema_tshonq.egg-info/top_level.txt
