@@ -1,0 +1,6 @@
+[project]
+name = "pipethon"
+version = "1.0.2"
+description = "A python package for data pipelines and analysis for signal processing of temporal of labelled data"
+authors = [{ name = "Arturo Valino", email = "arturo.jose.valino@incipit.csic.es" }]
+license = { file = "LICENSE" }
