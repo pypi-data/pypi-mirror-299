@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: Adamlibrary
+Version: 1.1
+Summary: A C library for Python with additional C functions
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+this project is in c language but it is made to bring things that are not in python as an extension. some functions may not work correctly but we will make some corrections after we release the stable version
+if you want to support on github:https://github.com/Goychay23/int
+example usage conditions
+# test.py
+```
+import Adamlibrary
+
+def test_calloc():
+    # Allocate an array of 5 elements, each 4 bytes
+    ptr = Adamlibrary.calloc(5, 4)
+    print(f"Allocated pointer (calloc): {ptr}")
+    print(f"Size of allocated memory: {5 * 4} bytes")
+    print(f"Memory initialized to zero: {[0] * 5}")
+
+def test_realloc():
+    # First, allocate a 5-element array
+    ptr = Adamlibrary.calloc(5, 4)
+    print(f"Initial pointer (calloc): {ptr}")
+    print(f"Reallocating memory to hold 8 bytes...")
+    new_ptr = Adamlibrary.realloc(ptr, 8)  # Reallocate memory to hold 8 bytes
+    print(f"Reallocated pointer (realloc): {new_ptr}")
+    print(f"New memory size: {8} bytes")
+
+def test_bsearch():
+    # A sorted list and the key to search
+    base_list = [1, 3, 5, 7, 9]
+    key = 5
+    print(f"Performing binary search for key: {key} in list: {base_list}")
+    result = Adamlibrary.bsearch(key, base_list, len(base_list), 4)
+    if result != -1:
+        print(f"Key {key} found at index: {result}")
+    else:
+        print(f"Key {key} not found in the list.")
+
+def test_qsort():
+    # List to be sorted
+    unsorted_list = [5, 3, 9, 1, 7]
+    print(f"Unsorted list before sorting: {unsorted_list}")
+    sorted_list = Adamlibrary.qsort(unsorted_list, len(unsorted_list), 4)
+    print(f"Sorted list after qsort: {sorted_list}")
+
+def test_memcpy():
+    # Memory copy operation
+    dest = bytearray(10)
+    src = b"Hello"
+    print(f"Source data before memcpy: {src}")
+    Adamlibrary.memcpy(dest, src, len(src))
+    print(f"Destination memory after memcpy: {dest}")
+    print(f"Bytes copied: {dest[:len(src)]}")
+
+def test_strtok():
+    # String tokenization
+    str_input = "Hello,World,Python"
+    delimiters = ","
+    print(f"Tokenizing string: '{str_input}' using delimiters: '{delimiters}'")
+    token = Adamlibrary.strtok(str_input, delimiters)
+    while token is not None:
+        print(f"Extracted token: '{token}'")
+        token = Adamlibrary.strtok(None, delimiters)
+
+def test_asctime():
+    from time import time
+    rawtime = time()
+    print(f"Current raw time (epoch timestamp): {rawtime}")
+    result = Adamlibrary.localtime(int(rawtime))
+    print(f"Local time struct: {result}")
+
+def main():
+    print("Testing memory allocation functions:")
+    test_calloc()
+    print("\nTesting realloc function:")
+    test_realloc()
+    print("\nTesting binary search function:")
+    test_bsearch()
+    print("\nTesting quick sort function:")
+    test_qsort()
+    print("\nTesting memory copy function:")
+    test_memcpy()
+    print("\nTesting string tokenization function:")
+    test_strtok()
+    print("\nTesting time functions:")
+    test_asctime()
+
+if __name__ == "__main__":
+    main()
+
+
+```
+You can contact our site for technical support: https://azencompileropensourcefoundation.com
+Copyright: Azencompiler Open Source Foundation
+
+
