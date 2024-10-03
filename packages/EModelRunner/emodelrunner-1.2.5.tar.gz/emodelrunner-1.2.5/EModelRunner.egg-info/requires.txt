@@ -1,0 +1,13 @@
+numpy
+efel<6,>=4.2
+bluepyopt>=1.14.15
+neurom>=3.1.0
+h5py
+matplotlib
+schema
+Pebble>=4.3.10
+tqdm>=4.65.0
+
+[docs]
+sphinx
+sphinx-bluebrain-theme
