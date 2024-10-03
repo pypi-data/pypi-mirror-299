@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: mydomuk.pybell
+Version: 0.0.24
+Summary: Python Notification Tool
+Author: Richard Brent
+Author-email: uk.mydom@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: PyYaml (>=6.0.1)
+Requires-Dist: setuptools (>=42)
+Requires-Dist: urllib3
+Requires-Dist: wheel
+
+# PyBell
+
+PyBell is a multi service notification system written in Python.
+
+The purpose behind this utility is to support sending push messages from a shell program
+to indicate success or failure of an event to one or more notification systems.
+
+For example if a Backup fails a push message can be sent to indicate failure.
+
+The logic behind PyBell is that multiple services can be configured and whilst individual 
+services can be selected by default the list of services will be chosen on a first work basis allowing 
+for fallback to secondary services if the first etc do not work.
+
+Because of the nature of this whilst the configuration file holds the connection details the command line
+is very simple allowing for a message title, message and a priority to be used where supported.
+
+PyBell currently supports the following services for basic message sending, this is easy to extend.
+
+* Apprise
+* Gotify
+* PushBullet
+* PushOver
+* Telegram
+
+For details of the required configuration once installed issue pybell -ch
+
+## Apprise
+
+Apprise is a sender of senders where other services can be configured and it will forward on.
+
+It seems to lack the ability to send to 1 and if that fails then send to 2nd etc hence the evolution of this 
+utility.
+
+Priorities are not supported by the API of Apprise, but it can use priorities to forwarded services.
+
+## Gotify
+
+This is a self hosted solution allowing for messages to be sent from inside an environment without 
+internet access
+
+Priorities are available with this service, by default a priority of 6 is sent.
+
+## PushBullet
+
+An internet hosted platform supporting multiple facilities. 
+This utility simply sends a broadcast push to all devices
+I did look at using channels but these did not offer privacy at the time of writing so I did not explore
+any further.
+
+Priorities are not supported with this service.
+
+## PushOver
+
+An internet hosted platform dedicated to Push notifications.
+
+Prioritoes are supported with this services, by default a priority of 0 is sent
+
+## Telegram
+
+An internet hosted chat service.
+This utility can post to any chat which can be a dedicated 1-1 chat or a channel depending on the
+chat identities supplied.
+
+Priorities are not supported with this service.
+
+## Example
+
+pybell -t Test Message -m Hello World
+
+This will send a notification with title of Test Message and message body of Hello World to the 1st defined 
+entry in the pybell configuration file.
+
+pybell -n ntfy -t Test Message -m Hello World
+
+Will do the same as the previous example but just send to the config entry defined as ntfy
+
+
