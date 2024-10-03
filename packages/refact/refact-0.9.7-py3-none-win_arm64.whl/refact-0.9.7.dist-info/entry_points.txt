@@ -1,0 +1,3 @@
+[console_scripts]
+refact = refact.cmdline.main:entrypoint
+
