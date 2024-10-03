@@ -1,0 +1,9 @@
+README.md
+setup.py
+smoothed_sphere/__init__.py
+smoothed_sphere/smoothed_sphere.py
+smoothed_sphere.egg-info/PKG-INFO
+smoothed_sphere.egg-info/SOURCES.txt
+smoothed_sphere.egg-info/dependency_links.txt
+smoothed_sphere.egg-info/requires.txt
+smoothed_sphere.egg-info/top_level.txt
