@@ -1,0 +1,49 @@
+exclude: '^docs/'
+repos:
+- repo: https://github.com/pycqa/isort
+  rev: 5.13.2
+  hooks:
+    - id: isort
+      name: isort (python)
+      args: ["--profile", "black", "--filter-files"]
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.6.0
+  hooks:
+  -   id: trailing-whitespace
+      exclude: '^.bumpversion.cfg$'
+  -   id: end-of-file-fixer
+  -   id: mixed-line-ending
+  -   id: pretty-format-json
+      args: ['--autofix', '--no-sort-keys']
+- repo: https://github.com/ambv/black
+  rev: 24.8.0
+  hooks:
+  - id: black
+- repo: https://github.com/PyCQA/flake8
+  rev: '7.1.1'
+  hooks:
+  -   id: flake8
+- repo: https://github.com/pre-commit/mirrors-mypy
+  rev: v1.11.2
+  hooks:
+  -   id: mypy
+- repo: https://github.com/codespell-project/codespell
+  rev: 'v2.3.0'
+  hooks:
+  -   id: codespell
+      name: codespell
+      description: Checks for common misspellings in text files.
+      entry: codespell
+      language: python
+      types: [text]
+      exclude: '\.ipynb'
+      args: [-I, .codespellignore]
+- repo: local
+  hooks:
+  -   id: tests
+      name: Run pytest unit tests
+      entry: pytest -v
+      language: system
+      types: [python]
+      pass_filenames: false
+      always_run: true
