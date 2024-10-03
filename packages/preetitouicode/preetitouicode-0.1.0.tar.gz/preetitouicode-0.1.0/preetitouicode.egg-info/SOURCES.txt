@@ -1,0 +1,8 @@
+README.md
+setup.py
+preetitouicode/__init__.py
+preetitouicode/converter.py
+preetitouicode.egg-info/PKG-INFO
+preetitouicode.egg-info/SOURCES.txt
+preetitouicode.egg-info/dependency_links.txt
+preetitouicode.egg-info/top_level.txt
