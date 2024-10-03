@@ -1,0 +1,11 @@
+xmake.lua,sha256=K0Kev6FjNe9Sx5E6NMKwn68vl_gs9pcSb6FWjHCraLg,9150
+src/test_matio.cpp,sha256=SVoLw7wCy4VE7qa2QWjPOgtpSxBsHvPcby9WC0lrWzI,414
+src/pymatio.cpp,sha256=tN4BqXvw7CDN6EIa1SxAGUJzZRXb9AFexkPI9F3grIs,12324
+src/libmatio.h,sha256=YXKla7TjEiEi6Y5YnhE1xFo20Mh1rGEAC1UYxk7FvHA,28631
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/libmatio.cpp,sha256=K-iXzc3-bPORnsbfFr4NTBYFHXb8Uad0gAzpSbPk1lU,16552
+pymatio-0.1.0.dist-info/METADATA,sha256=whEGXprdWrd2i4xYdsZSe-quNEiemfoy6CvMZth-W84,4139
+pymatio-0.1.0.dist-info/RECORD,,
+pymatio-0.1.0.dist-info/WHEEL,sha256=iMKzehFayRBaSfDdu9HIJM04zLCf_UhTgPJQGxQIMwk,149
+pymatio/libpymatio.cpython-312-x86_64-linux-gnu.so,sha256=Shz4xm07p4vC_c0e0y_xmoXHMiJH1UhSoyQsCv7DR1Q,5621216
+pymatio/__init__.py,sha256=4zwo7GUOy-yvg6mYBqpOqWd8Kg7QZRUOVyGBL_V_TUU,578
