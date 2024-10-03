@@ -1,0 +1,25 @@
+name: napari-tomotwin
+channels:
+  - nvidia
+  - rapidsai
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - napari[version='>=0.4.19']
+  - pandas
+  - numpy
+  - pyqt
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - tqdm
+  - mrcfile
+  - cuml=23.12
+  - cuda-version=11.8
+  - git
+  - hdbscan
+  - pip
+  - pip:
+      - napari-boxmanager # Install napari-boxmanager via pip because otherwise scripts in setup.cfg are ignored
+      - napari-clusters-plotter
