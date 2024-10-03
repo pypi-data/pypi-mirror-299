@@ -1,0 +1,8 @@
+mediapipe
+numpy
+opencv_python
+setuptools
+
+[tests]
+pytest
+pytest-cov
