@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: popsummary
+Version: 0.0.1
+Summary: tool for reading and writing standard data products from LIGO-Virgo-KAGRA rates and populations analyses
+Home-page: https://git.ligo.org/zoheyr-doctor/popsummary
+Author: Christian Adamcewicz and Zoheyr Doctor
+Author-email: christian.adamcewicz@ligo.org
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: scipy; extra == "test"
+Requires-Dist: nbconvert; extra == "test"
+Requires-Dist: nbstrip; extra == "test"
+Requires-Dist: ipykernel; extra == "test"
