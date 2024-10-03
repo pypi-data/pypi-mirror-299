@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+witness_client.egg-info/PKG-INFO
+witness_client.egg-info/SOURCES.txt
+witness_client.egg-info/dependency_links.txt
+witness_client.egg-info/requires.txt
+witness_client.egg-info/top_level.txt
