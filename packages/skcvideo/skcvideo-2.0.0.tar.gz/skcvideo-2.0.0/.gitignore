@@ -1,0 +1,10 @@
+*.pyc
+*.mp4
+venv/
+venv3/
+build/
+dist/
+skcvideo.egg-info/
+.coverage
+coverage.xml
+junit_test.xml
