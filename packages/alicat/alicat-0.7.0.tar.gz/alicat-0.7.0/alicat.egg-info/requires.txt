@@ -1,0 +1,10 @@
+pyserial
+
+[test]
+mypy==1.11.2
+pytest<9,>=8
+pytest-cov<6,>=5
+pytest-asyncio>=0.23.5
+pytest-xdist<4,>=3
+ruff==0.6.6
+types-pyserial
