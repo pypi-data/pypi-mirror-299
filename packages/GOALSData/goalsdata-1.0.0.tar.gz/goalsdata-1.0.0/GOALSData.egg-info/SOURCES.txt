@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+GOALSData.egg-info/PKG-INFO
+GOALSData.egg-info/SOURCES.txt
+GOALSData.egg-info/dependency_links.txt
+GOALSData.egg-info/not-zip-safe
+GOALSData.egg-info/requires.txt
+GOALSData.egg-info/top_level.txt
+goalsdata/__init__.py
+goalsdata/load_data.py
+tests/test_load_data.py
