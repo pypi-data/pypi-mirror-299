@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: square-5-0
+Version: 6
+Summary: a square in a sudoku puzzle
+Home-page: https://pfcmathews.com
+Author: pfcm
+Author-email: pfcmathews+pypi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: square-0-0!=6
+Requires-Dist: square-1-0!=6
+Requires-Dist: square-2-0!=6
+Requires-Dist: square-3-0!=6
+Requires-Dist: square-3-1!=6
+Requires-Dist: square-3-2!=6
+Requires-Dist: square-4-0!=6
+Requires-Dist: square-4-1!=6
+Requires-Dist: square-4-2!=6
+Requires-Dist: square-5-1!=6
+Requires-Dist: square-5-2!=6
+Requires-Dist: square-5-3!=6
+Requires-Dist: square-5-4!=6
+Requires-Dist: square-5-5!=6
+Requires-Dist: square-5-6!=6
+Requires-Dist: square-5-7!=6
+Requires-Dist: square-5-8!=6
+Requires-Dist: square-6-0!=6
+Requires-Dist: square-7-0!=6
+Requires-Dist: square-8-0!=6
+
+
+This package represents a single square in a game of sudoku. Each version is a
+possible number and the dependencies guarantee that any square in the same row,
+column or 3x3 sub-square can not have the same value (can not be at the same
+version).
+
+
