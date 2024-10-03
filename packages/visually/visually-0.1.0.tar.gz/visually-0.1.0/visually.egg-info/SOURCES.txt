@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+tests/__init__.py
+tests/test_visually.py
+visual/__init__.py
+visual/basevisualizer.py
+visual/columntypedetector.py
+visual/matplotlibvisualizer.py
+visual/plotlyvisualizer.py
+visual/seabornvisualizer.py
+visual/visually.py
+visually.egg-info/PKG-INFO
+visually.egg-info/SOURCES.txt
+visually.egg-info/dependency_links.txt
+visually.egg-info/requires.txt
+visually.egg-info/top_level.txt
