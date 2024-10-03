@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ukpostcodeio/__init__.py
+ukpostcodeio/client.py
+ukpostcodeio/exceptions.py
+ukpostcodeio.egg-info/PKG-INFO
+ukpostcodeio.egg-info/SOURCES.txt
+ukpostcodeio.egg-info/dependency_links.txt
+ukpostcodeio.egg-info/requires.txt
+ukpostcodeio.egg-info/top_level.txt
