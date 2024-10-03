@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: stooqpy_suli
+Version: 0.0.6
+Summary: A wrapper for Stooq.com to retrieve historical stock data for free.
+Author-email: Stephen Sulimani <stephensulimani@gmail.com>
+Project-URL: Homepage, https://github.com/StephenSulimani/stooqpy
+Project-URL: Issues, https://github.com/StephenSulimani/stooqpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: requests
+
