@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/automateboringstuff3/__init__.py
+src/automateboringstuff3.egg-info/PKG-INFO
+src/automateboringstuff3.egg-info/SOURCES.txt
+src/automateboringstuff3.egg-info/dependency_links.txt
+src/automateboringstuff3.egg-info/requires.txt
+src/automateboringstuff3.egg-info/top_level.txt
+tests/test_automate3e.py
+tests/test_automate3e_slow.py
+tests/test_delme.py
