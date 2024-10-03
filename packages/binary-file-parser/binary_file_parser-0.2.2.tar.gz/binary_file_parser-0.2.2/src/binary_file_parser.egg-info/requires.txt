@@ -1,0 +1,15 @@
+alive-progress
+
+[depl]
+build
+twine
+
+[dev]
+pytest
+pylint
+mypy
+flake8
+
+[docs]
+mkdocs
+mkdocstrings
