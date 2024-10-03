@@ -1,0 +1,17 @@
+dataservice/__init__.py,sha256=_NWjtHnQwCEXmjUeLeZ4cSrQaYA4T3s9snoKzF8WAGU,740
+dataservice/_utils.py,sha256=Pmdo-n1vt9VJImjQopVSxkMnYavpfDqms9BCg5WceFU,600
+dataservice/cache.py,sha256=4gKcypCmdN1-aPrCsnXekp7w4xCy83oN4i-I8LUfevA,3688
+dataservice/clients.py,sha256=tZhESBULAdryIE1VeJFiErC6jAURytKyhaxda75lx5E,3694
+dataservice/config.py,sha256=uKS-eYA5ZioMuHbzf1lhtzY6zfc4fymPhpcsrILh6dg,2337
+dataservice/data.py,sha256=VnqZElq8u2yeM5eksXqamDp_dirEpbh2Zgai96Gh4WQ,3898
+dataservice/exceptions.py,sha256=2HqdX1gEM9SbLYaQX_Gyl3HnUkeQqeg0Y9ZNMA3xRUE,634
+dataservice/files.py,sha256=ORiRtDtYBLaGnRQoXctOkMDm7q-C1HCnNxksihb6SBk,1999
+dataservice/logs.py,sha256=2POOuBvIhHnp6R7e8eXRjt9mHPJthrj41cmRieXMmmU,1311
+dataservice/models.py,sha256=b8G4dGSHKxLoGE3_lAmdHOASa_eE_k8--8sacnK2S1Y,4940
+dataservice/pw_draft.py,sha256=Bjuymj5jCutsXn5QuvEQsM951-6tAAYJSbgvve2iubA,3044
+dataservice/service.py,sha256=P1adqyX5C62Nw8vkfuq2N0RNQlDMGxtA3rwG-_Srcrg,3345
+dataservice/worker.py,sha256=mNuDzxqPBm_Nm9a9a_XMcGGvMu73ong1xGw7zc55R2U,12504
+python_dataservice-0.2.0.dist-info/LICENSE,sha256=YFuh1Fs-GEiQo-dmT_kAULdSQp9PNIda3yXzZIvCs8w,1068
+python_dataservice-0.2.0.dist-info/METADATA,sha256=My3tObs11G_rrECijjdP-ELYUFde7i2sDJAlfQV1_FE,3798
+python_dataservice-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+python_dataservice-0.2.0.dist-info/RECORD,,
