@@ -1,0 +1,3 @@
+[console_scripts]
+discotp=discotp.run:main
+
