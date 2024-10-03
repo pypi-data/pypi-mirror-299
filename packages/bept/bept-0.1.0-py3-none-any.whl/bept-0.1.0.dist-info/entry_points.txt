@@ -1,0 +1,2 @@
+[console_scripts]
+bept = bept.main:main
