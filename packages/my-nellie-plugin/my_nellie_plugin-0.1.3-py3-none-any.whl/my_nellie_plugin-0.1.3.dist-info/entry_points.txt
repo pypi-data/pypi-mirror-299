@@ -1,0 +1,2 @@
+[nellie.plugins]
+Custom Plugin Name = plugin_module:nellie_plugin_function
