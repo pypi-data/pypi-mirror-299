@@ -1,0 +1,7 @@
+*.egg-info
+*.pyc
+*.vscode
+.benchmarks/*
+dist/*
+docs/_build/*
+build
