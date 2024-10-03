@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: graphs_emelend4
+Version: 0.0.1
+Summary: Dijkstra's shortest path algorithm and other paths
+Author-email: Emily Melendez <emelend4@msudenver.edu>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# dijkstra-s-shortest-path
+
+This library implements Dijkstra's shortest path algorithm(sp.py):
+which uses a min-heap to store the shortest known distances from the source, the algorithm repeats until the heap becomes empty. At the end of the loop the array of distances should have the lowest costs to reach each of the destinations from the source.
