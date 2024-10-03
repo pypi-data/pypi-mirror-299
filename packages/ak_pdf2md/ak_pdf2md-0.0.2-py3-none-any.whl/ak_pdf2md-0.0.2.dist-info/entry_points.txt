@@ -1,0 +1,4 @@
+[console_scripts]
+app=ak_pdf2md.cli_app:app
+test=ak_pdf2md.cli_app:test
+
