@@ -1,0 +1,14 @@
+vnstockdata/__init__.py,sha256=5N0BVIt1ElSW4IkJ6KVaD8rRdGTh0qJeT4eT4jQ7KWs,119
+vnstockdata/connect.py,sha256=vWv7l7P4aNHDgA9pEoWReY-_u_pNTZzO3nHGXu3Q7e8,1211
+vnstockdata/ticker.py,sha256=5zyw_PbfrmlTUi9s4B67vpDZ55d_cYpBYl9hrSXAdbM,2113
+vnstockdata/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnstockdata/client/login.cpython-39-darwin.so,sha256=dAZm_XGsdRL9e8qWfr035c_UGwHENs_1ivUHEMPx7e0,182656
+vnstockdata/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnstockdata/config/config.cpython-39-darwin.so,sha256=OgWq-NAE0qOL-tRqrMtAkl4pa1yl6xmqS601zJpksl4,87920
+vnstockdata/config/ensure_logged_in.cpython-39-darwin.so,sha256=kCRMVxv_6-xcCM7HM96wWLj9yFVoCG85zkCD9l1Wjwo,147800
+vnstockdata/stock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vnstockdata/stock/price.cpython-39-darwin.so,sha256=smFam_QeE2HgCnFpFUWnS8262ODhTlRak_EY_eEc5Pk,165264
+library_test-0.5.15.dist-info/METADATA,sha256=R4Eb0TGCJGmqYRDDn5Vmtd4qoY39eZVU4zb7b4jZaFQ,503
+library_test-0.5.15.dist-info/WHEEL,sha256=UlAYE9MX3bpLspwUrwA_Bk4EdfKlHrjGrLRU16v06yE,113
+library_test-0.5.15.dist-info/top_level.txt,sha256=YPUV3MqkxL3FTwgzwpxjk2FeH4MpFYRDg2n1wHUvCtc,12
+library_test-0.5.15.dist-info/RECORD,,
