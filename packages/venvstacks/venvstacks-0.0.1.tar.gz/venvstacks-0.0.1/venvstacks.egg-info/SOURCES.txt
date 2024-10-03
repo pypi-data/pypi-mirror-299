@@ -1,0 +1,6 @@
+setup.py
+venvstacks.egg-info/PKG-INFO
+venvstacks.egg-info/SOURCES.txt
+venvstacks.egg-info/dependency_links.txt
+venvstacks.egg-info/not-zip-safe
+venvstacks.egg-info/top_level.txt
