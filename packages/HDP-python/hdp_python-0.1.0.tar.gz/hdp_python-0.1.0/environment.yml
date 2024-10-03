@@ -1,0 +1,4 @@
+dependencies:
+  - xarray
+  - numpy
+  - numba
