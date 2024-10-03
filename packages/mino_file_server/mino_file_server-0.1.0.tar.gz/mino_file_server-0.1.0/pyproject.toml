@@ -1,0 +1,15 @@
+[project]
+name = "mino_file_server"
+version = "0.1.0"
+description = "apis for windows file-server"
+authors = [
+    {name = "byron", email = "1636700244@qq.com"},
+]
+dependencies = []
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true
