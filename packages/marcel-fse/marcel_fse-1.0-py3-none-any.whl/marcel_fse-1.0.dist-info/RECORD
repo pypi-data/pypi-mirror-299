@@ -1,0 +1,15 @@
+marcel_fse/__init__.py,sha256=cEj57l4cNxZCSRCRSzMouAxxl_xjDmX6pki3bI8RspE,596
+marcel_fse/inputs.py,sha256=I-SXHXayrzQAnQcycXfLZ5FaFfBd5NojImexB-TeMxk,12884
+marcel_fse/vectors.py,sha256=RI30SD-plbOZjnJTjnXZelg_wtMzh57GfmVwei778rc,2405
+marcel_fse/models/__init__.py,sha256=KKZSe97rV5CoI6qOhp5vdLcszX99bqC0sNjCCxf5V8w,118
+marcel_fse/models/average.py,sha256=qUquBuw4fyc47C1VaJiUwzaR_RyMMgdV7kMpG3S04xY,10540
+marcel_fse/models/base_s2v.py,sha256=t3s4dTyUGlmqsaLU9WIw0RqNkwcVNdiMPHwCFbEp0t8,37879
+marcel_fse/models/sentencevectors.py,sha256=5QPCVZPdAeUJneyWo30qbGFf02pEsygl9MOuc7yAl9M,16492
+marcel_fse/models/sif.py,sha256=3MCj3RFMy5GMI4xwNqNeujeaZQuLah921M-qePZzZRY,6739
+marcel_fse/models/usif.py,sha256=60oassnUF3Zf0WoSt9AVuhMyzgKshoHDm__8bHozKig,7549
+marcel_fse/models/utils.py,sha256=Q78EsWxJ10YoxhOylFFa_0kzijg_WXy5UT809K_yDyw,4312
+marcel_fse/models/view.py,sha256=9D02cc2hqkOefcLjlaA9YKT3fl423GWhODr2lLNLzaM,1352
+marcel_fse-1.0.dist-info/METADATA,sha256=IEVx4qjSu7dMgEAZkCO1PClXJC8boL58UJuuhkTUg1I,3264
+marcel_fse-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+marcel_fse-1.0.dist-info/top_level.txt,sha256=a5pgJj9dCklR8truVnHYRrCsu0uHqVau2WaRUsHC7oA,11
+marcel_fse-1.0.dist-info/RECORD,,
