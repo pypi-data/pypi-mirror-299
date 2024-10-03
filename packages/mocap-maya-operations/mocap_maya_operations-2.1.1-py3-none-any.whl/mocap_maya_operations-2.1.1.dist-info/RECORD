@@ -1,0 +1,10 @@
+mocap_maya_operations/__init__.py,sha256=MgnPD2kI5WPOGXfxr6P4I4bTXLBNbyF6jLW9q1jY42I,725
+mocap_maya_operations/axengine_1727884028_3236386592.py,sha256=5p2HZFHJcA8jALw93xANajjTmUJlEXBfI57m-2g16Zk,18188
+mocap_maya_operations/maya_export/__init__.py,sha256=ztM1fX82RhoponvieARzvLt5ce_FiJpNBqLsHx_5QLs,725
+mocap_maya_operations/maya_export/create_hik.py,sha256=vT4KsDYxMwSIBKUKD4hZUamqiOikTWz1duTHebqBYwI,724
+mocap_maya_operations/maya_export/retarget_controllers.py,sha256=SXPcxYuAMbPlIvmAjEWmtDySE_fxaIxopgbi3OuoYzc,725
+mocap_maya_operations/operations/__init__.py,sha256=0bEcNHLubiVMDV3jcDiOFe7GfrU2qJRGj16Q0HxC3hE,724
+mocap_maya_operations/operations/opsMayaExport.py,sha256=70F44dv0iOKn2BCNiWnksXi7I2WlKJeX895lv67QKJk,724
+mocap_maya_operations-2.1.1.dist-info/METADATA,sha256=9KCZJJFs5CzRSuiLB183rkpY9Ck_Vk91wziCvXf7G40,878
+mocap_maya_operations-2.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+mocap_maya_operations-2.1.1.dist-info/RECORD,,
