@@ -1,0 +1,6 @@
+coolname
+grpcio-tools
+protoletariat
+numpy
+pyserial
+scipy
