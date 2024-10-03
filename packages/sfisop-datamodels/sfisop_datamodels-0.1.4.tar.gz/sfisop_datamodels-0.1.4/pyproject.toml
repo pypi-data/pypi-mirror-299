@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sfisop_datamodels"
+version = "0.1.4"
+description = ""
+authors = ["Yo581515 <581515@stud.hvl.no>"]
+readme = "README.md"
+packages = [{include = "sfisop", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0.0"
+pydantic = "1.10.9"
+typing-extensions = "4.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
