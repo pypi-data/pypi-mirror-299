@@ -1,0 +1,20 @@
+[project]
+name = "kelvin-track"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "rich>=13.9.1",
+]
+
+[project.scripts]
+kelvin = "kelvin.cli:main"
+kx = "kelvin.cli:run_alias"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kelvin"]
