@@ -1,0 +1,8 @@
+gradio_model_component/__init__.py,sha256=woTwXLeYoIyEa4UNpAoClRJmLtGOtETMcsrHDhhfa4Q,77
+gradio_model_component/model_component.py,sha256=NH-MXmBaIVArU1wlZU2bQQTqkl9uPB9C4ijqHEOQ9Q0,2971
+gradio_model_component/model_component.pyi,sha256=U6XkjIj0T4W7oltA8mLhpT00tmV9BDf_vRXXTVaqnXM,8603
+gradio_model_component/templates/component/index.js,sha256=4KOz9PMn-Ft8Cw9VCFoyQIFB261CBF63weHqggLMuUU,23959
+gradio_model_component/templates/component/style.css,sha256=-DeIRd_-fbA-8yC72PaB2ArRArPpD8XQVZRwyZDnR78,8956
+gradio_model_component-0.0.1.dist-info/METADATA,sha256=Am4jhpOlCo9-klUv3P4TS1nj_bq8fHqtxOgHG_vgj-M,11115
+gradio_model_component-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gradio_model_component-0.0.1.dist-info/RECORD,,
