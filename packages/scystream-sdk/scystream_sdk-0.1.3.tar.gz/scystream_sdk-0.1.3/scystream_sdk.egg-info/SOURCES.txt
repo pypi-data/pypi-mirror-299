@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+scystream/__init__.py
+scystream/sdk/__init__.py
+scystream/sdk/core.py
+scystream/sdk/scheduler.py
+scystream_sdk.egg-info/PKG-INFO
+scystream_sdk.egg-info/SOURCES.txt
+scystream_sdk.egg-info/dependency_links.txt
+scystream_sdk.egg-info/top_level.txt
+tests/test_core.py
