@@ -1,0 +1,2 @@
+include LUCY/eth_lstm_best_model_1hour.h5
+include LUCY/scaler_custom.pkl

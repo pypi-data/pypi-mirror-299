@@ -1,0 +1,2 @@
+[console_scripts]
+onehour = LUCY.app:main

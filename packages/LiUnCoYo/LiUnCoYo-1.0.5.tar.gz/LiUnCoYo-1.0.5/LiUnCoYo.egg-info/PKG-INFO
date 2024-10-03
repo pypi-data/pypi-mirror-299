@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: LiUnCoYo
+Version: 1.0.5
+Summary: Ethereum Price Prediction Package for Short-Term Trading
+Home-page: https://github.com/yourusername/LUCY-1986-2009-project-ethereum-market-prediction-unit-limit_uncertainty,control_yourself--OurFriendLucy
+Author: Lucy
+Author-email: connectchario@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# My ETH Predictor
+
+This file is for 1 hour predictions
+
+python setup.py sdist bdist_wheel
+
+twine upload dist/* -u __token__ -p pypi-AgEIcHlwaS5vcmcCJGE5MzE1ZGU4LTkyYzMtNDUzNy1hZTFhLWI4YmZjNWJkYjkwYgACKlszLCI5MjZhNDc2Zi05YTVmLTQ3NzItYTE3Mi0wMjAyMWI1YTBmZjEiXQAABiDrM78T4Ko6UGaf5Tg70rQ8tAhZZ7z0hmqOkzTsNeoAgg
+
+## Installation
+
