@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: grupob_trace_logger
+Version: 0.1.0
+Summary: Uma biblioteca de logger que envia mensagens para o Discord
+Home-page: https://github.com/juniorppp/trace_logger
+Author: Gelson Júnior
+Author-email: gelson.junior@grupobachega.com.br
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# Meu Logger
+
+Uma biblioteca Python para registrar erros e enviar mensagens para um canal do Discord via webhook.
+
+## Instalação
+
+Você pode instalar a biblioteca usando pip:
+
+```bash
+pip install grupob_trace_logger
