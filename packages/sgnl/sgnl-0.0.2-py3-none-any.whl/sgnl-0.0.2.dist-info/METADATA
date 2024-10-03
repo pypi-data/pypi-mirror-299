@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sgnl
+Version: 0.0.2
+Summary: Inspiral Search Pipeline using SGN Framework
+Author-email: Chad Hanna <crh184@psu.edu>, Yun-Jing Huang <yzh5436@psu.edu>, James Kennington <jmk7376@psu.edu>
+License: MPL-2.0
+Project-URL: Homepage, https://git.ligo.org/greg/sgnl
+Project-URL: Documentation, https://docs.ligo.org/greg/sgnl
+Project-URL: Issues, https://git.ligo.org/greg/sgnl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: sgn
+Requires-Dist: sgn-ts
+Requires-Dist: sgn-ligo
+Requires-Dist: pytorch
+Requires-Dist: lalsuite
+Requires-Dist: python-ligo-lw
+Provides-Extra: dev
+Requires-Dist: sgnl[docs]; extra == "dev"
+Requires-Dist: sgnl[lint]; extra == "dev"
+Requires-Dist: sgnl[test]; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: myst-parser; extra == "docs"
+Requires-Dist: sphinx; extra == "docs"
+Provides-Extra: lint
+Requires-Dist: black; extra == "lint"
+Requires-Dist: flake8; extra == "lint"
+Requires-Dist: flake8-bandit; extra == "lint"
+Requires-Dist: flake8-black; extra == "lint"
+Requires-Dist: flake8-bugbear; extra == "lint"
+Requires-Dist: flake8-future-annotations; extra == "lint"
+Requires-Dist: flake8-isort; extra == "lint"
+Requires-Dist: flake8-logging-format; extra == "lint"
+Requires-Dist: isort; extra == "lint"
+Requires-Dist: mypy; extra == "lint"
+Requires-Dist: mypy-extensions; extra == "lint"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+
+<!-- index.rst content start -->
+
+# SGNL (SGN inspiraL)
+
+SGNL is a CBC search pipeline implemented using SGN. This page is for the application-specific
+library `sgnl`, but there is a family of libraries that extend the functionality of SGN,
+including:
+
+- [`sgn`](https://docs.ligo.org/greg/sgn/): Base library for SGN
+- [`sgn-ts`](https://git.ligo.org/greg/sgn-ts): TimeSeries utilities for SGN
+- [`sgn-ligo`](https://git.ligo.org/greg/sgn-ligo): LSC specific utilities for SGN
+- [`sgn-try`](https://git.ligo.org/greg/sgn-try): Process monitoring and alerting utilities for SGN
+
+## Installation
+
+To install SGNL, simply run:
+
+```bash
+pip install sgnl
+```
+
+More SGNL-specific documentation coming soon.
+
