@@ -1,0 +1,7 @@
+pyproject.toml
+inpe_auth/__init__.py
+inpe_auth/version.py
+inpe_auth.egg-info/PKG-INFO
+inpe_auth.egg-info/SOURCES.txt
+inpe_auth.egg-info/dependency_links.txt
+inpe_auth.egg-info/top_level.txt
