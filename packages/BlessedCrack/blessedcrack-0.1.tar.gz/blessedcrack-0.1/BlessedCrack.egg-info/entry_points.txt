@@ -1,0 +1,2 @@
+[console_scripts]
+blessed_crack = BlessedCrack.Blessed_Crack:main

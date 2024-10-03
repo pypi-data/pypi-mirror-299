@@ -1,0 +1,9 @@
+setup.py
+BlessedCrack/Blessed_Crack.py
+BlessedCrack/__init__.py
+BlessedCrack.egg-info/PKG-INFO
+BlessedCrack.egg-info/SOURCES.txt
+BlessedCrack.egg-info/dependency_links.txt
+BlessedCrack.egg-info/entry_points.txt
+BlessedCrack.egg-info/requires.txt
+BlessedCrack.egg-info/top_level.txt
