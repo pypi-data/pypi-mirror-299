@@ -1,0 +1,15 @@
+waffle/README.md,sha256=6rS5mJhx8PYADn6NFG-K6bplEbTvOXVYmREVfOualwg,333
+waffle/__init__.py,sha256=ajt7knQQTcPf_tolPmt_iuEwPJH93_UPfcvnSJhFuEI,72
+waffle/definitions.py,sha256=JfF-G9TW8YBGxbbgMFoLtS-mTEp7JVf4428l8xrETMg,664
+waffle/pacl.mplstyle,sha256=2W3Ky395fb_vaNT2xWie7DGqkMzEsOTxuU68BMfMyxY,687
+waffle/waffle.py,sha256=niC0I9jBlEOuvDRGZGvWq03AZkLQwU4Ud9SV4rFx9nc,6134
+waffle/winkeltripel.py,sha256=UVbQkfGiFDaiXHU1G1SieWfHJZudHx1ITxzj5-LHjoI,615
+waffle/reference_datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waffle/reference_datasets/sample_day_timeseries_ds.nc,sha256=dKgpn5xUN41y4YFSdvkeliQHG0onHqkl6cJC0dQwE30,212313
+waffle/reference_datasets/sample_spatial_ds.nc,sha256=2EDwKD870k0L1wHGY4qFDq1P6cvi0sMhIt4xAlUI8kA,241367
+waffle/reference_datasets/sample_timeseries_ds.nc,sha256=TTDGlVpz69N38NZZMRQrZMoYeSRdT5mVEUR575opEM8,13937
+pacl_waffle-0.1.0.dist-info/LICENSE,sha256=wApUf6Jb9isL6obtiIiUfvBW0Ak5CFn-QdwmH_kO888,1072
+pacl_waffle-0.1.0.dist-info/METADATA,sha256=Z4ruQxaJNd67VGleF5nWEKKDAaSX2GXhjAw3XzXfGxk,2324
+pacl_waffle-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pacl_waffle-0.1.0.dist-info/top_level.txt,sha256=Gn-NSXsVQ1UKCn1DMlWkWVBAV3hT8ROwdYnY5RDIekM,7
+pacl_waffle-0.1.0.dist-info/RECORD,,
