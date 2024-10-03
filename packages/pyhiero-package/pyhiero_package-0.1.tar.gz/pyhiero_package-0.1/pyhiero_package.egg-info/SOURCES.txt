@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+pyhiero_package.egg-info/PKG-INFO
+pyhiero_package.egg-info/SOURCES.txt
+pyhiero_package.egg-info/dependency_links.txt
+pyhiero_package.egg-info/top_level.txt
+tests/__init__.py
+tests/test_glyphs_converters.py
+tests/test_glyphs_csv.py
+tests/test_glyphs_finders.py
+tests/test_glyphs_list_loops.py
+tests/test_glyphs_xml.py
+tests/test_inscrip_splitters.py
+tests/test_list_processors.py
+tests/test_pyhiero_run.py
