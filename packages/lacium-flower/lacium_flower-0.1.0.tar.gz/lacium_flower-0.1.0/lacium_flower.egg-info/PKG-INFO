@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: lacium-flower
+Version: 0.1.0
+Summary: Biblioteca para cálculo de similaridade fonológica e semântica
+Home-page: https://github.com/usuario/lacium-flower
+Author: Geraldo Gomes
+Author-email: Geraldo Gomes <ggc4@cin.ufpe.br>
+License: MIT License
+Project-URL: Homepage, https://github.com/usuario/lacium-flower
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lacium Flower
+
+**Lacium Flower** é uma biblioteca Python para calcular similaridades fonológicas e semânticas entre palavras utilizando abordagens variadas, incluindo fonética tradicional, embeddings linguísticos e autoatenção com BERT.
+
+## Funcionalidades
+
+- **Abordagem Fonológica**: Com base em rimas, sílabas e unidades intrassilábicas.
+- **Embeddings com Pyphen/NLTK**: Utiliza processamento de sílabas e características linguísticas.
+- **Embeddings com BERT/Autoatenção**: Baseado em modelos de linguagem profunda com atenção.
+
+## Instalação
+
+Instale o Lacium Flower via `pip`:
+
+```bash
+pip install lacium-flower

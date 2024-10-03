@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lacium-flower"
+version = "0.1.0"
+description = "Biblioteca para cálculo de similaridade fonológica e semântica"
+readme = "README.md"
+license = { text = "MIT License" }
+authors = [
+    { name="Geraldo Gomes", email="ggc4@cin.ufpe.br" }
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/usuario/lacium-flower"

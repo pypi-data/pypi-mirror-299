@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lacium_flower/__init__.py
+lacium_flower/abordagem1.py
+lacium_flower/abordagem2.py
+lacium_flower/abordagem3.py
+lacium_flower/avaliacao.py
+lacium_flower.egg-info/PKG-INFO
+lacium_flower.egg-info/SOURCES.txt
+lacium_flower.egg-info/dependency_links.txt
+lacium_flower.egg-info/top_level.txt
+tests/test_abordagens.py
