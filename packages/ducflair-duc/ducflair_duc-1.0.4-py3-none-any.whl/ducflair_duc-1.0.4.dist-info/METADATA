@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ducflair-duc
+Version: 1.0.4
+Summary: The duc 2D CAD file format Python implementation
+Home-page: https://github.com/ducflair/duc/tree/main/packages/duc-py
+Author: Ducflair
+Author-email: support@ducflair.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ducflair-duc (Python)
+
+The duc 2D CAD file format Python implementation.
+
+## Installation
+
+```
+pip install ducflair-duc
+```
+
+## Usage
+
+```python
+from ducflair_duc import main
+
+print(main.hello())
+```
+
+## License
+
+MIT
