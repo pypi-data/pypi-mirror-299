@@ -1,0 +1,9 @@
+matplotlib
+numpy
+
+[dev]
+pip-tools
+pre-commit
+ruff
+sphinx
+sphinx-rtd-theme
