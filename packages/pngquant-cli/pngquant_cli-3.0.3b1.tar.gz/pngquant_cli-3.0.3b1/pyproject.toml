@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=1.7.4,<1.8"]
+build-backend = "maturin"
+
+[tool.maturin]
+manifest-path = "pngquant/Cargo.toml"
+bindings = "bin"
+include = ["README.rst"]
+
+[project]
+name = "pngquant-cli"
+# by default, use the same 'version' as Cargo.toml, but can override if needed
+version = "3.0.3b1"
+description = "Precompiled binaries for pngquant, the lossy PNG compressor based on libimagequant."
+maintainers = [{name = "Cosimo Lupo", email = "cosimo@anthrotype.com"}]
+readme = {file = "README.rst"}
+
+[project.urls]
+repository = "https://github.com/anthrotype/pngquant-wheels"
