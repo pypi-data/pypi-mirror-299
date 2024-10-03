@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/stooqpy_suli/__init__.py
+src/stooqpy_suli.egg-info/PKG-INFO
+src/stooqpy_suli.egg-info/SOURCES.txt
+src/stooqpy_suli.egg-info/dependency_links.txt
+src/stooqpy_suli.egg-info/requires.txt
+src/stooqpy_suli.egg-info/top_level.txt
+src/stooqpy_suli/stooq/__init__.py
+src/stooqpy_suli/stooq/stooq.py

@@ -1,0 +1,23 @@
+[project]
+name = "stooqpy_suli"
+version = "0.0.6"
+authors = [
+  { name="Stephen Sulimani", email="stephensulimani@gmail.com" },
+]
+description = "A wrapper for Stooq.com to retrieve historical stock data for free."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "pandas",
+  "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/StephenSulimani/stooqpy"
+Issues = "https://github.com/StephenSulimani/stooqpy/issues"
