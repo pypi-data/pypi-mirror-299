@@ -1,0 +1,8 @@
+{
+    "applications": {
+        "triangulation": {
+            "method": "line_of_sight_intersection",
+            "save_intermediate_data": true
+        }
+    }
+}
