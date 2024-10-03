@@ -1,0 +1,3 @@
+[llamaparse]
+apiKey='ollama' # From https://cloud.llamaindex.ai/login
+apiUser=''
