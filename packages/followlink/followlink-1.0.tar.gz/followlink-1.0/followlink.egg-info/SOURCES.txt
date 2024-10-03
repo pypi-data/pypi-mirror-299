@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+FollowLink/__init__.py
+FollowLink/followlink.py
+followlink.egg-info/PKG-INFO
+followlink.egg-info/SOURCES.txt
+followlink.egg-info/dependency_links.txt
+followlink.egg-info/entry_points.txt
+followlink.egg-info/requires.txt
+followlink.egg-info/top_level.txt
