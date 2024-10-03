@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kpol
+Version: 0.3.3
+Summary: A simple arithmetic operations package
+Home-page: https://sites.google.com/view/cdwl/contact
+Author: Dr. Kurian Polachan
+Author-email: kurian.polachan@iiitb.ac.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kpol
+
+`kpol` is a Python package that provides basic arithmetic operations, including addition and multiplication.
+
+## Installation
+
+You can install the package using pip:
+
+
