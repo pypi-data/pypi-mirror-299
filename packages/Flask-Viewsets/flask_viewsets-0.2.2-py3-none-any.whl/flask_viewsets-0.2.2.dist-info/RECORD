@@ -1,0 +1,14 @@
+flask_viewsets/__init__.py,sha256=ZzOIMealTwOvzAXb4GLPylIOhrWgiGLE5CfYeCutGgQ,452
+flask_viewsets/extension.py,sha256=zcvFpZTv6r2yIN7ZMKslf6OyoKhD6KO2RZYDGpIOce0,4729
+flask_viewsets/masqla/__init__.py,sha256=1xOkql92jH0lIGKrVxLsrv8OcEH86hY_LV_39_dWZWY,80
+flask_viewsets/masqla/grammars/where.lark,sha256=HWAX6sszmwCcrSETYCTRCqjU2ue_i3japSSeeTjM-JA,1251
+flask_viewsets/masqla/parsers.py,sha256=0vFuhOEzdfvjiHc-Pl-H7d78gkldJ2sQDoIyMCD-G0s,886
+flask_viewsets/masqla/transformers.py,sha256=PyB10kV0IN5natYwzwTaF64PY4PlQ46pL2CrMAwT6TM,2891
+flask_viewsets/masqla/viewsets.py,sha256=xuzE865j-yaSBj243DQNobga1PBdJXzqO8Yvl67jNvQ,5744
+flask_viewsets/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_viewsets/typing.py,sha256=zLNtXEt1qPdtcSinAWQelauAI1TD_o8A_2Vln4oqHhw,1057
+flask_viewsets/viewsets.py,sha256=Q0pEh8pcI6Rhp5MMLob5snaX0jTsk580Q6ZCArb9NZ4,4516
+flask_viewsets-0.2.2.dist-info/LICENSE.md,sha256=l6zlXjJjPyND1hhdj4P01XRBHfioba5Kyr1ccoYhuiA,34120
+flask_viewsets-0.2.2.dist-info/METADATA,sha256=83Y3stoxqbY8fg92C9qQQRBiHYpn8VN0Ue67JWblZSM,2415
+flask_viewsets-0.2.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+flask_viewsets-0.2.2.dist-info/RECORD,,
