@@ -1,0 +1,2 @@
+[nonebot.plugins]
+weather = nonebot_weather:plugin
