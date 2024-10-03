@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "smithit"
+version = "0.1.1"
+description = "Forge your project structure like a blacksmith."
+authors = ["felixLandlord <felix.landlord.nunoo@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "core" }]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+typer = "^0.12.5"
+PyYAML = "^6.0.2"
+tqdm = "^4.66.5"
+rich = "^13.8.1"
+
+[tool.poetry.scripts]
+smith = "core.creator:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
