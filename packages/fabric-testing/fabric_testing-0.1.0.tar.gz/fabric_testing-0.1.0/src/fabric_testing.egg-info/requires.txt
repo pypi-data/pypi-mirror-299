@@ -1,0 +1,9 @@
+setuptools==68.2.0
+requests==2.32.3
+pytest==8.3.3
+azure-storage-file-datalake==12.17.0
+azure-identity==1.18.0
+
+[dev]
+ruff
+pytest
