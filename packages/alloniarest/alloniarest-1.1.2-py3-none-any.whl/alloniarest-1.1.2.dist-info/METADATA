@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: alloniarest
+Version: 1.1.2
+Summary: Library to interact with AllOnIA's API
+Author: ALLONIA
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: alloniaconfigs (>=1.1.1,<2.0.0)
+Requires-Dist: werkzeug (>=3.0.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Public Project AllOnIARest
+
+Implements several client objects to access easily AllOnIA's public APIs
+(provided you have a valid token of course).
+
+```python
+from alloniarest import Client
+
+url = ...
+token_id = ...
+token_secret = ...
+
+client = Client(
+    url,
+    user_token={
+        "id": token_id, "token": token_secret
+    },
+    trace=False
+)
+response = client.request(
+    "GET",
+    "/some/route?var=value"
+)
+```
