@@ -1,0 +1,15 @@
+LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_openai/__init__.py,sha256=I19QSyzwiZ44id2strVqWszEWzjj6fUAIy6psusnATo,121
+evo_package_openai/automation/api.yaml,sha256=46wwZivPcMVZq1QkxugbUMRL_4Rq2rHrEYVxcYJBbno,1708
+evo_package_openai/automation/entity.yaml,sha256=ISVuglprdSabNwgxKXRCzLAW7DLYGyjQ5K2LiE1yySM,1068
+evo_package_openai/control/COpenaiApi.py,sha256=LLHdBRjNLft0hhIWmhMMeonD16awsGRqTAlp0cvUiY8,6431
+evo_package_openai/control/__init__.py,sha256=9yOWHMrD5dMDCaIvXTsLY3IazuYcwUOQH5Bh8IIismI,61
+evo_package_openai/entity/EOpenaiInfo.py,sha256=Qq808sveN6KUE2X73JsDGiIn4SvXXdUoBtoBl9885Ls,2418
+evo_package_openai/entity/__init__.py,sha256=0OgguN9QWUSTdsKNe-y4CFZpk1Cf58wrs_cmbVUYlVQ,62
+evo_package_openai/utility/IuOpenai.py,sha256=gRRy5QOK3o8e08aTSIyGa-jNTIESQaP-NShYvq1bJrk,930
+evo_package_openai/utility/UOpenaiApi.py,sha256=Ey5o8k40YJFAajfB103Kh-3GWmkNwXbl2p7oiCc3qC4,32736
+evo_package_openai/utility/__init__.py,sha256=gEPPLZQNwQijcR9dQ5FF4Qum1LlpEeQXl_XMufsLVLA,125
+evo_package_openai-2024.10.22327.dist-info/LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_openai-2024.10.22327.dist-info/METADATA,sha256=yTggW8oguxGKluiLJcuJOozAL5ZwNjarWNHvRHHxOC0,1526
+evo_package_openai-2024.10.22327.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evo_package_openai-2024.10.22327.dist-info/RECORD,,
