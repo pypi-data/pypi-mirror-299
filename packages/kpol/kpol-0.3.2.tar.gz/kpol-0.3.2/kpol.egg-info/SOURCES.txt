@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+arithmetic/__init__.py
+arithmetic/add.py
+arithmetic/mult.py
+kpol.egg-info/PKG-INFO
+kpol.egg-info/SOURCES.txt
+kpol.egg-info/dependency_links.txt
+kpol.egg-info/top_level.txt
