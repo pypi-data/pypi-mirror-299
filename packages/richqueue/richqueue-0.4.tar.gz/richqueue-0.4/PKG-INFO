@@ -1,0 +1,19 @@
+Metadata-Version: 2.3
+Name: richqueue
+Version: 0.4
+Summary: RichQueue
+Project-URL: Homepage, https://github.com/mwinokan/RichQueue/issues
+Project-URL: Bug Tracker, https://github.com/mwinokan/RichQueue/issues
+Author-email: Max Winokan <max@winokan.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: pandas
+Requires-Dist: rich
+Requires-Dist: typer
+Description-Content-Type: text/markdown
+
+# RichQueue
+💰 RichQueue: A colourful and pythonic SLURM queue viewer
