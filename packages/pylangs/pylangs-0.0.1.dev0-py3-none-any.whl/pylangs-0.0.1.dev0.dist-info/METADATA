@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pylangs
+Version: 0.0.1.dev0
+Summary: Soon
+Author-email: ZAID <me@zaid.pro>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+## PyLangs
+- `PyLangs` is python library to manage languages in multi-languages projects.
