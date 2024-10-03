@@ -1,0 +1,10 @@
+xnb/__init__.py,sha256=9PuPLvpnsDXjesrIc_UhckcwAdQTmapH4-lb_reA4Ao,59
+xnb/_bandwidth_functions.py,sha256=yj7KaHPQ9M7ktMpKvl5QGWOIowf6rEC-P8q-6W_MjfE,6835
+xnb/_kde_object.py,sha256=4cxPXIoBMg7eQFKbXJ00JPthHT8PRgdXWKHipSq1Qac,538
+xnb/_progress_bar.py,sha256=oCKSFXBk71ePJ5vPgse4o0O66Yz2xcqe2CPw_jWWWKY,360
+xnb/enums.py,sha256=dnXOhtc250X9FHgmLcMi-3qjO5fMTrK3S-K8IPQRWjk,618
+xnb/explicable_naive_bayes.py,sha256=qi36xyOlbCYiGLRlKvHtdAI-tOgjCUVpj-9Wud2Xe1A,13456
+xnb-0.2.3.dist-info/LICENSE,sha256=mkrJeqJjHt_wN6x7AjxXjLFErp0ah39k-j_1qKG4VBI,1062
+xnb-0.2.3.dist-info/METADATA,sha256=jmALZ3A5AJci7IX06jT1GcDxb3klQk_NxiZtKWSK5yA,4588
+xnb-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+xnb-0.2.3.dist-info/RECORD,,
