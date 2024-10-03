@@ -1,0 +1,8 @@
+torch
+torchvision
+pillow
+einops
+diffusers
+requests
+tqdm
+numpy

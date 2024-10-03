@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+glaze/Glaze.py
+glaze/__init__.py
+glaze_cloak.egg-info/PKG-INFO
+glaze_cloak.egg-info/SOURCES.txt
+glaze_cloak.egg-info/dependency_links.txt
+glaze_cloak.egg-info/requires.txt
+glaze_cloak.egg-info/top_level.txt
