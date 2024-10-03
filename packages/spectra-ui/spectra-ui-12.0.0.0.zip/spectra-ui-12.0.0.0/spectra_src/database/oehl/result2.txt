@@ -1,0 +1,18 @@
+  the materail parameters of the  1th filter
+
+  atomic number =   14.00      angle =   9.18degree
+
+ thickness     =    0.00cm; 
+
+ the input power is   0.2392 kw the output power is   0.2331 kw
+ the absor.power is   0.0060 kw
+
+ the back  power is   0.0018 kw the trans. power is  -0.0006 kw
+  by radiative decay process * wk
+
+ the back  power is   0.0000 kw the trans. power is   0.0000 kw
+  by compton process 
+
+ the back  power is   0.0000 kw the trans. power is   0.0000 kw
+  by rayleigh  process 
+

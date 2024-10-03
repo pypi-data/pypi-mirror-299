@@ -1,0 +1,6 @@
+      1                                                              
+ $data
+ fname='./data/si0', d=0.02, theta=90.0,
+ den=2.34, zn=14.0, aw=28.085, an=0.51591, alp1=5.8496, alp2=1.17330,
+ $end
+end                                                                   
