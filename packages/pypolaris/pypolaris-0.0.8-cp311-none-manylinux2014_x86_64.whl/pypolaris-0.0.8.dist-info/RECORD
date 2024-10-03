@@ -1,0 +1,9 @@
+pypolaris/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypolaris/_pypolaris.so,sha256=DE2wc4icU_PaTt0r5tnVvKYncb4KT1DxEaHpxenzOE0,1330120
+pypolaris/libCAPIcommon.so,sha256=HNoDmKm5I227-dUtqUYDPxcyr_inzHs9q2kAArRGL4o,546144
+pypolaris/pypolaris.py,sha256=FPS5juWrT43wcWz-Dpz_OlqU_lAz9AHYXCRk_oDXCNM,41377
+pypolaris-0.0.8.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypolaris-0.0.8.dist-info/METADATA,sha256=uvvfgTRgketzvcBRNpiEUtR63uuf-hMJ4szq34p-2pU,334
+pypolaris-0.0.8.dist-info/WHEEL,sha256=hh-u107KSKqcBRGJwrwMX21068Oxl7GxDi3bs8RXNB0,110
+pypolaris-0.0.8.dist-info/top_level.txt,sha256=PL1mGMbiEAOnVAGUsWMxEY0I0sy9LCNBJr8-dpgR04E,10
+pypolaris-0.0.8.dist-info/RECORD,,
