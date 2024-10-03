@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+plasmidai/__init__.py
+plasmidai/paths.py
+plasmidai/utils.py
+plasmidai.egg-info/PKG-INFO
+plasmidai.egg-info/SOURCES.txt
+plasmidai.egg-info/dependency_links.txt
+plasmidai.egg-info/requires.txt
+plasmidai.egg-info/top_level.txt
