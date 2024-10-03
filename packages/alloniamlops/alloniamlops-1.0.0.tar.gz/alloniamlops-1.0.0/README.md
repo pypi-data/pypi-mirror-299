@@ -1,0 +1,66 @@
+# AllOnIAMLOps Library
+
+This module is designed to make model serving on the Aleia platform as seamless
+as possible.
+
+## Seldon
+
+We provide an encapsulation of the Seldon MLOps framework to easily deploy and
+interact with AI models, either off-the-shelf or trained using the aleia_model
+module.
+
+Example: after having trained a model called titanic, the user wants to deploy
+it and be able to make predictions through a REST endpoint.
+
+```python
+import alloniamlops
+
+ret = alloniamlops.seldon.deploy_model(
+    "model_titanic", # model name
+    1,               # revision number
+)
+```
+
+This snippet will deploy the model using Seldon and return its URL.
+
+The user can also list the currently deployed models:
+
+```python
+import alloniamlops
+
+aleiamlops.seldon.list_model()
+```
+
+Using the URL of a deployed model, it is easy to perform a prediction:
+
+```python
+from allonias3 import S3Path
+import alloniamlops
+
+df = S3Path("dataset/dataset.csv").read()
+df.drop("Gender", axis=1, inplace=True)
+
+alloniamlops.seldon.model_predict(
+    seldon_deployment_url,
+    names=df.columns.values,
+    data=df.to_numpy(),
+    payload_type="ndarray",
+    debug=True,
+)
+```
+
+If the results are unexpected, logs can be examined as follow:
+
+```python
+import alloniamlops
+
+aleiamlops.seldon.tail(seldon_deployment_id, last_lines=20)
+```
+
+Finally, the user may want to shutdown the instance running the model:
+
+```python
+import alloniamlops
+
+aleiamlops.seldon.delete_model_deployment(seldon_deployment_id)
+```
