@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: classic-thread-pool-executor
+Version: 1.1.0
+Provides-Extra: dev
+Requires-Dist: pytest~=8.3.2; extra == "dev"
