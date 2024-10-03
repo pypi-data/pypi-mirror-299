@@ -1,0 +1,9 @@
+clapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clapper/click.py,sha256=cV2uXqqi4pjeofOna-Xt_RSTH7s54qX9k0t-WFoP5dE,31125
+clapper/config.py,sha256=sIlG4YikxDrRb2xQG83k_pIhAtXrgyiZL1GNX26hoMA,11692
+clapper/logging.py,sha256=jJ6J_ypMXGbOJWzafjE8WWDsUpipIpUvd5Mg78-0p50,4096
+clapper/rc.py,sha256=Sg-P_VgrwF-LY2L-t6eCx7YOY_JldXWuT9K0clKC7wY,6810
+clapper-1.3.1.dist-info/METADATA,sha256=QHHwkUOTkceGojhNWXVqd5lNBf5Fo-BRZy3fxFps9O4,3264
+clapper-1.3.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+clapper-1.3.1.dist-info/entry_points.txt,sha256=eKQuJbK21HEvfwcWrJYNqmWwRysewR2VsS_NEZjovXI,385
+clapper-1.3.1.dist-info/RECORD,,
