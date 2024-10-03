@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirect</title>
+    <meta redirect="{{ root }}" />
+    <script>
+      window.location.replace(
+        document.querySelector("meta[redirect]").getAttribute("redirect")
+      );
+    </script>
+  </head>
+  <body>
+    <a href="{{ root }}">Open the SynopticPy App</a>
+  </body>
+</html>
