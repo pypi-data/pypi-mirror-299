@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py_email_notifier
+Version: 1.0
+Summary: Python module for sending by email the result of a long execution.
+Home-page: https://github.com/igabirondo16/PyEmailNotifier
+Author: Iñigo Gabirondo López
+Author-email: igabirondo13@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: python-dotenv

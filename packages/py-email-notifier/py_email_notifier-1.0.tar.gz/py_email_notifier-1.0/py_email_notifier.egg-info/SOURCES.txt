@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+py_email_notifier/__init__.py
+py_email_notifier/decorators.py
+py_email_notifier.egg-info/PKG-INFO
+py_email_notifier.egg-info/SOURCES.txt
+py_email_notifier.egg-info/dependency_links.txt
+py_email_notifier.egg-info/requires.txt
+py_email_notifier.egg-info/top_level.txt
+py_email_notifier/src/__init__.py
+py_email_notifier/src/email_sender.py
+py_email_notifier/src/stdout_capturer.py
