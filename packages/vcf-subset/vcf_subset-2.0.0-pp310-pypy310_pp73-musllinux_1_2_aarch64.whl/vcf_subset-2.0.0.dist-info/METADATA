@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: vcf_subset
+Version: 2.0.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# vcf_subset
+Efficient VCF subsetting by genome position. Written in Rust, but provided as a python module to save ~3 minutes per TB GVCF
+
+## Install
+```
+pip install vcf_subset
+```
+
+## Local (dev) install
+```
+# Optional virtual environment
+python -m virtualenv env
+source env/bin/activate
+
+# Install
+pip install .
+```
+

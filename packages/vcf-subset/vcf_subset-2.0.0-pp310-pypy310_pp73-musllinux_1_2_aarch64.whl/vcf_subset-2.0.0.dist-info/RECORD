@@ -1,0 +1,6 @@
+vcf_subset-2.0.0.dist-info/METADATA,sha256=3Z8tHdaovV6lzSE4xw2imPPE85WxRHSLn00F4mTLahA,647
+vcf_subset-2.0.0.dist-info/WHEEL,sha256=c4WwGb95OmqX64fgiG7YsiiiHiBkb-bEOd6qklX-sFE,115
+vcf_subset.libs/libgcc_s-e52197c3.so.1,sha256=vkPW1Auw6CH9Bjk7frmX3hry_1H9c0tRI0Ncyg71WUI,724137
+vcf_subset/__init__.py,sha256=tWFNQZNKpTFPmPwhFlAqGa_Xp4w-12dN1sRP6GIfIKE,123
+vcf_subset/vcf_subset.pypy310-pp73-aarch64-linux-gnu.so,sha256=doIeFpN9cwQ6bKvB1nrenW9IetNOUbUei4w0g3xe5Vg,657729
+vcf_subset-2.0.0.dist-info/RECORD,,
