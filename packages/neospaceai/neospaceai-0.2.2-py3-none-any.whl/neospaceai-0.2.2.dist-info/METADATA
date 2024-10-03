@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: neospaceai
+Version: 0.2.2
+Summary: A lib to manage neolang resources
+Author: Neospace AI
+Requires-Dist: requests
+
