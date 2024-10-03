@@ -1,0 +1,6 @@
+
+# added by check-manifest
+include *.bat
+recursive-include src *.py
+recursive-include tests *.resource
+recursive-include tests *.robot
