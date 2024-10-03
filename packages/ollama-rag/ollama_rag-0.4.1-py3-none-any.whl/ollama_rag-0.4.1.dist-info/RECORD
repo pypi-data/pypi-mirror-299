@@ -1,0 +1,13 @@
+ollama_rag/__init__.py,sha256=X8Fst9VaRblyKn0z1HVtbvRSYqhu3ywbGAwztgm_6Mw,85
+ollama_rag/configs.py,sha256=v8L-itmlixOLM5cgg9CcO1g_oJik9borC8V2I8le6Ds,1450
+ollama_rag/data_loader.py,sha256=EEFq10cDW8ZlUn8tsaugZMLOMaHri4OlzLwzEvR9Mcc,6309
+ollama_rag/document_tracker.py,sha256=JnVTRCFHoOQcaV4uZczkajwrZ1ZpERMKYSUPyLAoCr8,1496
+ollama_rag/indexer.py,sha256=OlDBegM3z2VFmeLsm_19Ed0Eogryj8LAE14gsYMmanU,2960
+ollama_rag/models.py,sha256=LdvCj5Ki7qjk9N-p7r17EwbosADVDdkvgx396x-gdQo,990
+ollama_rag/ollama_rag.py,sha256=n9kmzeOfVi_OeQzyyV7e9OivTylu3iFp_HH3Zpzpolg,12221
+ollama_rag/prompts.py,sha256=_KfFOKGHt0Z9q4gxrcAUh6BWmsIBU0WdEs_4brKqXWY,480
+ollama_rag/query_engine.py,sha256=B2cTGBfqnc5cPyOc7cPHlyS08G0z70cl-N8LJDKF0v4,321
+ollama_rag-0.4.1.dist-info/METADATA,sha256=_7R2M31C3Y2sL9vc-qjCwpJfTW6NJ3QKmbH_8AvSMgw,6943
+ollama_rag-0.4.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ollama_rag-0.4.1.dist-info/top_level.txt,sha256=TGtbhyQohimdXw9BgbXDCV7uyzIQ3p-jdk6rlbfKjLU,11
+ollama_rag-0.4.1.dist-info/RECORD,,
