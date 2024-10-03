@@ -1,0 +1,12 @@
+dicfg/__init__.py,sha256=d6g_3hBybr9IDwmjFyZ9xlutDlQ8uiYOQr0gxdrFmaw,160
+dicfg/_version.py,sha256=8ss7zPyQ3YfaQJw9IIGX35NOL7ASZ7-LErAxKnQDN7c,23
+dicfg/config.py,sha256=pG0fV8aCfS1rn4GOoVWPmZomE5FRAX7DC0j9fHC836c,5089
+dicfg/factory.py,sha256=hVRxubab8V0yvu-ZymdLgp0e6GYSXxAaZsvI6-pqBXk,3982
+dicfg/magics.py,sha256=mhVJ6sol3PKecniLhdEE5RKa9DjytgZaI_D2q6eUwS0,1004
+dicfg/reader.py,sha256=129wbI1O77JbLaTRxoupWreHUbs67Wv1Vgj32fRIDcY,7275
+dicfg/validators.py,sha256=vQg7DstI5F5xSvqlBOd5_rtKSSBND7KGdli2d_9yJQY,3829
+dicfg-0.0.16.dist-info/LICENSE,sha256=k1GwXKS6vDz0-3F31EAMRrSQ_pxquTvu7jzN1RULuGk,1073
+dicfg-0.0.16.dist-info/METADATA,sha256=JT8BpGeAvhOXHAmKqK5AAfVKnRvX81W90j6gwlQyO60,4097
+dicfg-0.0.16.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+dicfg-0.0.16.dist-info/top_level.txt,sha256=YjUDQ_Qkm6Aa6tqthz3Ryg97LxbKbL0YI0oA9Q_KrRU,6
+dicfg-0.0.16.dist-info/RECORD,,
