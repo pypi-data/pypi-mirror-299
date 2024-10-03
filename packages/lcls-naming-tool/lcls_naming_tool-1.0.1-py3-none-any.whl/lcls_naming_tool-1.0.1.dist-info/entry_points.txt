@@ -1,0 +1,2 @@
+[console_scripts]
+lcls_naming_tool = lcls_naming_tool.bin.main:main

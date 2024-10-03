@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <form method="post">
+        <label for="lcls_name" style="font-weight: bold;">Enter a PV Name</label>
+        <br><br>
+        <input type="text" name="lcls_name"
+               placeholder=""
+               value="{{ request.form['lcls_name'] }}" style="width: 250px"></input>
+        <button type="submit">Submit</button>
+        <p><a href="./">Check another PV or device name</a></p>
+    </form>
+{% endblock %}
