@@ -1,0 +1,14 @@
+pye57/libxerces-c-3.2.dylib,sha256=oHSDt168NG3Ey_nk98fQR24MZIaJQj6TuQcI-PuX2_A,3905272
+pye57/exception.py,sha256=hjNBnDf-PJrBLU7E8aAlWll0aovVITwjJoN9ex4Lx3o,47
+pye57/libe57.cpython-312-darwin.so,sha256=H3Tuvzy4dWuxSrGl3U-0O4WcRpcjttA4f-n6ZcL-V5A,1951696
+pye57/__init__.py,sha256=p-yo66Eblp6mIVKaupuS1E3BQGCNZrI96ApqoFusOi8,92
+pye57/__version__.py,sha256=yHOqz5A9VYGVIjRAkE5ZWR9IpLeDo8sygF-I11UMLv0,23
+pye57/e57.py,sha256=q0lsfI19sreOx3YIEFn-lWDaSStezPGwn5lUzxgh20Q,18528
+pye57/utils.py,sha256=LvBz7-LW3E9WNGu7c2aurqrXi-iCdorY-VLAEcTKGbU,4181
+pye57/scan_header.py,sha256=qO1NhT917ST1uLCl2Hq5lbqkh2343VbyHvTWxjkWxXo,6082
+pye57/.dylibs/libxerces-c-3.2.dylib,sha256=XnM1C3kVUXjstRK2ikoanz0vxvuolNsTZcbZpua8PvY,3923408
+pye57-0.4.15.dist-info/RECORD,,
+pye57-0.4.15.dist-info/LICENSE,sha256=fk66gXDC1OVruix0TJ6tGGH6vaP_VOzBPETZ3xxnMsY,1050
+pye57-0.4.15.dist-info/WHEEL,sha256=lWey-nzGdePMz7fsIJ1fIMVKiFg5IkOcUVqkuIpdbws,109
+pye57-0.4.15.dist-info/top_level.txt,sha256=xD9HDzQ3BfGMuz1kI2uNKUR0KXcR-RtNEKigrkh48Nk,6
+pye57-0.4.15.dist-info/METADATA,sha256=0fH1_u1j0ddivczthoYmN_y8CajyAN3LOQTjwmtMmko,4506
