@@ -1,0 +1,2 @@
+[console_scripts]
+iitornip = iitornip.__main__:cli
