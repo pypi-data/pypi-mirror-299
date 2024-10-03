@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: mat-data
+Version: 0.1rc6
+Summary: MAT-data: Data Preprocessing for Multiple Aspect Trajectory Data Mining
+Home-page: https://github.com/mat-analysis/mat-data
+Author: Tarlis Portela
+Author-email: Tarlis Tortelli Portela <tarlis@tarlis.com.br>
+Maintainer-email: Tarlis Tortelli Portela <tarlis@tarlis.com.br>
+License: GPL Version 3 or superior (see LICENSE file)
+Project-URL: Homepage, https://github.com/mat-analysis/mat-data
+Project-URL: Repository, https://github.com/mat-analysis/mat-data
+Project-URL: Documentation, https://mat-analysis.github.io/mat-tools/mat-data/index.html
+Project-URL: Download, https://pypi.org/project/mat-data/#files
+Project-URL: Bug Tracker, https://github.com/mat-analysis/mat-data/issues
+Keywords: data-science,machine-learning,data-mining,trajectory,multiple-trajectory,trajectory-classification,preprocess
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: glob2
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: mat-model
+Requires-Dist: py7zr
+Requires-Dist: geohash
+Requires-Dist: pyarrow
+Requires-Dist: fastparquet
+Provides-Extra: all_extras
+Provides-Extra: binder
+Requires-Dist: jupyter; extra == "binder"
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-xdist; extra == "dev"
+Requires-Dist: wheel; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: jupyter; extra == "docs"
+Requires-Dist: numpydoc; extra == "docs"
+
+# MAT-data: Data Preprocessing for Multiple Aspect Trajectory Data Mining \[MAT-Tools Framework\]
+---
+
+\[[Publication](#)\] \[[Bibtex](https://github.com/mat-analysis/mat-tools/blob/main/references/mat-tools.bib)\] \[[GitHub](https://github.com/mat-analysis/mat-data)\] \[[PyPi](https://pypi.org/project/mat-data/)\] \[[Docs](https://mat-analysis.github.io/mat-tools/)\]
+
+
+
+The present package offers a tool, to support the user in the task of **data preprocessing** of multiple aspect trajectories, or to **generating synthetic datasets**. It integrates into a unique framework for multiple aspects trajectories and in general for multidimensional sequence data mining methods.
+
+Created on Dec, 2023
+Copyright (C) 2023, License GPL Version 3 or superior (see LICENSE file)
+
+### Main Modules
+
+- [proprocess](/proprocess.py): Methods for trajectory preprocessing;
+- [generator](/generator.py): Methods for trajectory datasets generation;
+- [dataset](/dataset.py): Methods for loading trajectory datasets;
+- [converter](/converter.py): Methods for conferting dataset formats.
+
+
+### Installation
+
+Install directly from PyPi repository, or, download from github. (python >= 3.7 required)
+
+```bash
+    pip install mat-data
+```
+
+### Getting Started
+
+On how to use this package, see [MAT-data-Tutorial.ipynb](https://github.com/ttportela/mat-data/blob/main/MAT-data-Tutorial.ipynb)
+
+### Citing
+
+If you use `mat-data` please cite the following paper:
+
+ - Portela, T. T.; Machado, V. L.; Renso, C. Unified Approach to Trajectory Data Mining and Multi-Aspect Trajectory Analysis with MAT-Tools Framework. In: SIMPÓSIO BRASILEIRO DE BANCO DE DADOS (SBBD), 39. , 2024, Florianópolis/SC. \[[Bibtex](https://github.com/mat-analysis/mat-tools/blob/main/references/mat-tools.bib)\]
+
+### Collaborate with us
+
+Any contribution is welcome. This is an active project and if you would like to include your code, feel free to fork the project, open an issue and contact us.
+
+Feel free to contribute in any form, such as scientific publications referencing this package, teaching material and workshop videos.
+
+### Related packages
+
+This package is part of _MAT-Tools Framework_ for Multiple Aspect Trajectory Data Mining, check the guide project:
+
+- **[mat-tools](https://github.com/mat-analysis/mat-tools)**: Reference guide for MAT-Tools Framework repositories
+
+### Change Log
+
+This is a package under construction, see [CHANGELOG.md](https://github.com/mat-analysis/mat-data/blob/main/CHANGELOG.md)
