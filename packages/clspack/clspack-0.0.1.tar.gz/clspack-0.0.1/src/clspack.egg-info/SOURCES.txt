@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/clspack/__init__.py
+src/clspack/utils.py
+src/clspack.egg-info/PKG-INFO
+src/clspack.egg-info/SOURCES.txt
+src/clspack.egg-info/dependency_links.txt
+src/clspack.egg-info/top_level.txt
