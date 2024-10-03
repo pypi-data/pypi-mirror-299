@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: image-processing-package-0011
+Version: 0.0.2
+Summary: Processamento de imagem
+Home-page: https://github.com/kaaarantes/image-processing-package-0011.git
+Author: kaaarantes
+Author-email: karine@victsoft.com.br
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Processamento de imagens
