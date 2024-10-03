@@ -1,0 +1,8 @@
+synaptiq_datawarehouse/__init__.py,sha256=bfaaqmDLsFIuqh8MrMNXELOxR_CStGnaigBqmNrEt88,1346
+synaptiq_datawarehouse/integrations.py,sha256=SynNJnQxbqNNQCgdYaDkJi1Hu1aKrWT6-HM6ssXfMho,7977
+synaptiq_datawarehouse/schemas.py,sha256=OmaGuxzXcC6KqC0z3yt9uoZ0gv_wYcgjfIptIFRDxAM,7930
+synaptiq_datawarehouse/config/prod.yaml,sha256=yXfMGSs1nZR5y5dxHHo4gyCTXSJ8Ur3GbA_V9lJU4wQ,125
+synaptiq_datawarehouse/tests/test_query_everhour.py,sha256=0D5GKUpHRMC5emWUZK5S9M8ogkJnQ6q0Od0AmZEbCF4,1685
+synaptiq_datawarehouse-0.1.5.dist-info/METADATA,sha256=59OHMwmJeEGeKgdYmZGpB2HR0iLTqczdD2zg9XROEUE,688
+synaptiq_datawarehouse-0.1.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+synaptiq_datawarehouse-0.1.5.dist-info/RECORD,,
