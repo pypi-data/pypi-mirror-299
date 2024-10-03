@@ -1,0 +1,122 @@
+![GitLab pipeline](https://img.shields.io/gitlab/pipeline/qumasan/snapsheets?style=for-the-badge)
+![PyPI - Licence](https://img.shields.io/pypi/l/snapsheets?style=for-the-badge)
+![PyPI](https://img.shields.io/pypi/v/snapsheets?style=for-the-badge)
+![PyPI - Status](https://img.shields.io/pypi/status/snapsheets?style=for-the-badge)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/snapsheets?style=for-the-badge)
+
+# Snapsheets
+
+Effortlessly download public Google Spreadsheets in bulk!
+
+Tired of downloading Google Spreadsheets one by one through your browser? Snapsheets is here to save you time and effort! With this tool, you can quickly grab multiple Google Spreadsheets straight from your terminal --- all you need is a public link to the sheets.
+
+No more repetitive clicking. No more hassle. No auth needed. Just fast and easy spreadsheet downloading!
+
+---
+
+# Install
+
+```console
+$ pip3 install snapsheets
+```
+
+```console
+$ pipx install snapsheets
+```
+
+```console
+$ uv tool install snapsheets
+```
+
+# Usage
+
+```bash
+$ snapsheets --url="copy_and_paste_url_here"
+2022-06-09T08:09:31 | SUCCESS  | 🤖 Downloaded snapshot.csv
+2022-06-09T08:09:31 | SUCCESS  | 🚀 Renamed to _snapshot.csv
+```
+
+# Docs and Repository
+
+- GitLab Pages : https://qumasan.gitlab.io/snapsheets/
+- GitLab Repos : https://gitlab.com/qumasan/snapsheets/
+- PyPI package : https://pypi.org/project/snapsheets/
+
+![PyPI - Downloads](https://img.shields.io/pypi/dd/snapsheets?style=for-the-badge)
+![PyPI - Downloads](https://img.shields.io/pypi/dw/snapsheets?style=for-the-badge)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/snapsheets?style=for-the-badge)
+
+# Help
+
+```bash
+snapsheets -h
+usage: snapsheets [-h] [--config config | --url url] [-o filename]
+                  [-d description] [-t format] [--skip] [--debug]
+                  [--version]
+
+snapsheets
+
+options:
+  -h, --help       show this help message and exit
+  --config config  set config file or directory
+  --url url        set URL of Google spreadsheet
+  -o filename      set output filename
+  -d description   set description of a spreadsheet
+  -t format        set datetime prefix for backup filename
+  --skip           skip file
+  --debug          show more messages
+  --version        show program's version number and exit
+```
+
+- For Sheet-mode: Use ``--url`` option to download single spreadsheet.
+- For Book-mode: Use ``--config`` option to download multiple spreadsheets.
+  - create a directory for config files.
+  - create a config file in TOML format.
+
+# Examples
+
+## Book-mode: with ``--config`` argument
+
+```bash
+$ snapsheets --config="config/"
+2022-06-09T08:05:48 | SUCCESS  | 🤖 Downloaded filename.csv
+2022-06-09T08:05:48 | SUCCESS  | 🚀 Renamed to 2022_filename.csv
+2022-06-09T08:05:49 | SUCCESS  | 🤖 Downloaded filename.csv
+2022-06-09T08:05:49 | SUCCESS  | 🚀 Renamed to 20220609_filename.csv
+```
+
+## Sheet-mode: with ``--url`` argument
+
+```bash
+snapsheets --url "https://docs.google.com/spreadsheets/d/1NbSH0rSCLkElG4UcNVuIhmg5EfjAk3t8TxiBERf6kBM/edit?gid=0#gid=0"
+2024-10-02T17:25:06 | SUCCESS  | 🤖 Downloaded as snapshot.csv
+2024-10-02T17:25:06 | SUCCESS  | 🚀 Renamed to _snapshot.csv
+```
+
+- Downloaded file is temporarily named as ``snapshot.csv``, then renamed to ``_snapshot.csv``.
+
+- Make ``./config/`` directory and place your TOML files.
+  - If ``./config/`` does not exist, it will search from ``. (current directory)``.
+- Downloaded files are saved to ``./snapd/`` directory
+  - If ``./snapd/`` does not exit, it will be saved in ``. (current directory)``.
+
+## As module: ``import snapsheets``
+
+```python
+from snapsheets.sheet import Sheet
+
+url = "https://docs.google.com/spreadsheets/d/1NbSH0rSCLkElG4UcNVuIhmg5EfjAk3t8TxiBERf6kBM/edit#gid=0"
+sheet = Sheet(url=url, desc="Get Sample Sheet")
+sheet.snapshot()
+
+📣 Get Sample Sheet
+🤖 Downloaded snapshot.csv
+🚀 Renamed to 20220602T225044_snapshot.csv
+```
+
+---
+
+# Other requirements
+
+- Install ``wget`` if your system doesn't have them
+- Make your spreadsheet available with shared link (OK with read-only)
