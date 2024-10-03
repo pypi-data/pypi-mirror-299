@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: glaze-cloak
+Version: 0.1.0
+Summary: Glaze image cloaking algorithm
+Home-page: https://glaze.cs.uchicago.edu/
+Author: Habibullah Akbar
+Author-email: Akbar2habibullah@gmail.com
+License: GPL-3.0 license
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: pillow
+Requires-Dist: einops
+Requires-Dist: diffusers
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: numpy
+
+Implementation of the Glaze image cloaking algorithm for protecting against unauthorized AI training.
