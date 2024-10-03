@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+neofetch/__init__.py
+neofetch/main.py
+neofetch_python.egg-info/PKG-INFO
+neofetch_python.egg-info/SOURCES.txt
+neofetch_python.egg-info/dependency_links.txt
+neofetch_python.egg-info/entry_points.txt
+neofetch_python.egg-info/requires.txt
+neofetch_python.egg-info/top_level.txt
