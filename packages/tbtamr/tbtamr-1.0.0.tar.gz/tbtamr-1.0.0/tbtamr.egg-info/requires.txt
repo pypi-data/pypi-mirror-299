@@ -1,0 +1,9 @@
+pandas
+pytest
+tabulate
+unidecode
+pysam
+requests
+joblib
+pydantic
+tqdm
