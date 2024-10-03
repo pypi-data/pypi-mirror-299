@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tangly
+Version: 3.0
+Home-page: https://github.com/username/
+Author: Rafa Rayes
+Author-email: rafa@rayes.com.br
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
