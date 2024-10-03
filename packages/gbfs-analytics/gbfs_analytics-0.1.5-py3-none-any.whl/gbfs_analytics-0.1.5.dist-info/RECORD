@@ -1,0 +1,8 @@
+gbfs_analytics/__init__.py,sha256=-TZIXiX0WTvjqz40fz-Gwlh_cnSIrE0aSAfkJfbME5E,324
+gbfs_analytics/gbfs_feed.py,sha256=DDVQxdsxfIS9yfWHAeMqWonWElbKxoV3ArqHTcw8JhI,9709
+gbfs_analytics/gbfs_manager.py,sha256=Jv1GsZ-lm2UITFyp_Am-iTViGr3VI03E01_pmm679WA,1365
+gbfs_analytics/gbfs_timeseries.py,sha256=IeFHRCMjsgPgyTHd-I-i3KmjTC-RsQvBV5w-JysShBk,7369
+gbfs_analytics-0.1.5.dist-info/METADATA,sha256=n9_ZXuWRBsyL_aaaWBIVCxJhTj6Aqm_mjPCc02vEWh0,7945
+gbfs_analytics-0.1.5.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+gbfs_analytics-0.1.5.dist-info/top_level.txt,sha256=jrfIpIh61vHaseDbS1P4-gykksgGB8odeYMFcMnhA5Q,15
+gbfs_analytics-0.1.5.dist-info/RECORD,,
