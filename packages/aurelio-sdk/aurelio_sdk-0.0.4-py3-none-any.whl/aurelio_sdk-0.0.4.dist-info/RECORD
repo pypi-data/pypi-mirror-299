@@ -1,0 +1,11 @@
+aurelio_sdk/__init__.py,sha256=i4m1AvH1y6XfBPduBBfDV4o6ndscJMFA1gaC944YQSI,320
+aurelio_sdk/client.py,sha256=Imgt3swu_zsK4GePaMeWztZfRUX8qapdST7IX7NvKaU,12685
+aurelio_sdk/client_async.py,sha256=2SLU1VBknE8W33p9DK7PV1HGAgfbuTB5XtJ_TCFQqdg,14592
+aurelio_sdk/const.py,sha256=4LwJWliH7-EDf67Ob0N823MjdhdWK05CuO0eq65md4U,71
+aurelio_sdk/exceptions.py,sha256=0cETkZfln8Fu7BUV_qUYrOox_rZsc-RaCNNNHl3tLF0,945
+aurelio_sdk/logger/__init__.py,sha256=eIZLPjYbaN-7oPN8jYp4fqexLUMA1owzynLGu-SIa6s,2989
+aurelio_sdk/schema.py,sha256=cw1TdAQhBNjjhUHNwAfnu-mRpWp2jTW6pI_CkOs347M,4748
+aurelio_sdk-0.0.4.dist-info/LICENSE,sha256=iA3Y7XKJeWiA2VLGQZ1cLVAydkS0y27PsVKa34k15io,1066
+aurelio_sdk-0.0.4.dist-info/METADATA,sha256=JGLfSwXkYQo4ov8gCC4G3RiUu2ktuXnWqF3iZAGPNWA,5824
+aurelio_sdk-0.0.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+aurelio_sdk-0.0.4.dist-info/RECORD,,
