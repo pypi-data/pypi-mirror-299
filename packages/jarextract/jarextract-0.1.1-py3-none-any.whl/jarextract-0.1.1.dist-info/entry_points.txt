@@ -1,0 +1,4 @@
+[console_scripts]
+build=jarextract.pyinstaller:install
+jarextract=jarextract.__main__:__main__
+
