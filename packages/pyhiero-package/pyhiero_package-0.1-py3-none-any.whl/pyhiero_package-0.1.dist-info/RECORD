@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_glyphs_converters.py,sha256=fAU4YD2IpCdluEzPs1hzYt4A6yIuu09uPTxK7X9x-Eg,582
+tests/test_glyphs_csv.py,sha256=W6utPL2l8i4KB2E1HE_38QAlMYOC3trTqDCuw9ABo1g,1745
+tests/test_glyphs_finders.py,sha256=yoxFGpPtIH5aqmyQNkwnfzEac1FuCCpcyB3Ls2Ha2l4,3790
+tests/test_glyphs_list_loops.py,sha256=94A5ETjDWtMLC6wFyF1zh4KKo4DHwznohzwfOgJoD-g,5299
+tests/test_glyphs_xml.py,sha256=Q9qpKKfS2KGX5Ety3QKtQi6uA_2Y0_1o_rvaC6A1Hg8,473
+tests/test_inscrip_splitters.py,sha256=6My4rm2XuAEtWjwLnPsp3YL2Zyx1TTXO09du817A1b4,427
+tests/test_list_processors.py,sha256=eJ_47WFIvObYEDTt_reY2bKTeIpavOBNRVbuXFN8wtM,1524
+tests/test_pyhiero_run.py,sha256=XTQFQIgSdTdeZGAatm5DHdB266BjjN4INbc-QRoc7E0,409
+pyhiero_package-0.1.dist-info/METADATA,sha256=kqtWvFx85SVywpoBC_aUBQoXDYcmj9O2u6CwVbs_Ka4,58
+pyhiero_package-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyhiero_package-0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+pyhiero_package-0.1.dist-info/RECORD,,
