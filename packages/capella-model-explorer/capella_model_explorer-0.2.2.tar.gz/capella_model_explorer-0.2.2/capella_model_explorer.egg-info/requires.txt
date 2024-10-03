@@ -1,0 +1,20 @@
+capellambse<0.7,>=0.6.6
+capellambse-context-diagrams>=0.4.1
+capella-diff-tools
+diff-match-patch
+jinja2
+fastapi
+uvicorn
+prometheus-client
+
+[docs]
+furo
+sphinx
+sphinx-copybutton
+
+[docs:python_version < "3.11"]
+tomli
+
+[test]
+pytest
+pytest-cov
