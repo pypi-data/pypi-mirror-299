@@ -1,0 +1,44 @@
+[project]
+name = "i3-screen-util"
+version = "0.2.1"
+authors = [
+    { name="Can Vardar", email="ismailcanvardar@gmail.com" },
+]
+description = "A screen management tool for your lovely i3wm config."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/icanvardar/i3-screen-util"
+Issues = "https://github.com/icanvardar/i3-screen-util/issues"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["i3_screen_util"]
+exclude = ["tests"]
+namespaces = false
+
+[project.scripts]
+i3-screen-util = "i3_screen_util:run_app"
+
+[tool.setuptools]
+script-files = [
+  "src/i3_screen_util/bin/save-workspaces.sh", 
+  "src/i3_screen_util/bin/load-workspaces.sh", 
+  "src/i3_screen_util/bin/control-lockscreen.sh"
+]
