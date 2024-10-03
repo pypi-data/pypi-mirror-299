@@ -1,0 +1,9 @@
+math_proj_sat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+math_proj_sat/math_ops.py,sha256=v6xtKsK-tADNlXsiGH3fuF7wV4VTzCLivGB9y8-iDuE,181
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_math_ops.py,sha256=VlyRPzGA2i13txsTEg5iXlRFzGAQrWfZ9hAp6S_gkfk,131
+math_proj_sat-0.1.1.dist-info/LICENSE,sha256=17yL2oXe8yyW1QbttACNqR-mOwWuQfkk-N5ZltaM5Ho,1071
+math_proj_sat-0.1.1.dist-info/METADATA,sha256=kih_opnPu_UWYFkA36MNBUkrzuN6qkh1HN_JzM81itI,418
+math_proj_sat-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+math_proj_sat-0.1.1.dist-info/top_level.txt,sha256=mlgVOH6TxFv0B_Rn1SHbKZ2AIcPFLS0ferCPbekU6yc,20
+math_proj_sat-0.1.1.dist-info/RECORD,,
