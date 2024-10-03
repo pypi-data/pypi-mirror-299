@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+quantsumore.egg-info/PKG-INFO
+quantsumore.egg-info/SOURCES.txt
+quantsumore.egg-info/dependency_links.txt
+quantsumore.egg-info/requires.txt
+quantsumore.egg-info/top_level.txt
+quantsumore/configuration/config.json
+quantsumore/configuration/crypto.db
+quantsumore/configuration/crypto.json
+quantsumore/configuration/stock_tickers.txt
+quantsumore/gui/assets/icon.ico
+quantsumore/gui/assets/icon.png
+quantsumore/gui/assets/py_quantsumore_logo.png
+quantsumore/gui/assets/quantsumore_logo.png
+quantsumore/gui/assets/quantsumore_logo_2.png

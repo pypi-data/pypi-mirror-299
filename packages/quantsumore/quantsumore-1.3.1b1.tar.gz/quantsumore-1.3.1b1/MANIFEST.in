@@ -1,0 +1,2 @@
+recursive-include quantsumore/configuration *.json *.db *.txt
+recursive-include quantsumore/gui/assets *.ico *.png
