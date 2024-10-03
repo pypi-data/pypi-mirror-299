@@ -1,0 +1,1 @@
+from .high_score import load_high_scores, save_high_score
