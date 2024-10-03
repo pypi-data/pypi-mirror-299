@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pipethon
+Version: 1.0.1
+Summary: A python package for data pipelines and analysis for signal processing of temporal of labelled data
+Author-email: Arturo Valino <arturo.jose.valino@gmail.com>
+
