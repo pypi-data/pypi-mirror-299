@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAT-data’s Documentation! &mdash; mat-data 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=2709fde1"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Dataset" href="dataset.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            mat-data
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Modules in MAT-data:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dataset.html">Dataset</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preprocess.html">Pre-process</a></li>
+<li class="toctree-l1"><a class="reference internal" href="converter.html">Converter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="generator.html">Data Generator</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Framework Documentation:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://mat-analysis.github.io/mat-tools/">MAT-Tools</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">mat-data</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">MAT-data’s Documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mat-data-s-documentation">
+<h1>MAT-data’s Documentation!<a class="headerlink" href="#mat-data-s-documentation" title="Link to this heading"></a></h1>
+<hr class="docutils" />
+<section id="mat-data-data-preprocessing-for-multiple-aspect-trajectory-data-mining-mat-tools-framework">
+<h2>MAT-data: Data Preprocessing for Multiple Aspect Trajectory Data Mining [MAT-Tools Framework]<a class="headerlink" href="#mat-data-data-preprocessing-for-multiple-aspect-trajectory-data-mining-mat-tools-framework" title="Link to this heading"></a></h2>
+<hr class="docutils" />
+<p>[<a class="reference external" href="#">Publication</a>] [<a class="reference external" href="https://github.com/mat-analysis/mat-tools/blob/main/references/mat-tools.bib">Bibtex</a>] [<a class="reference external" href="https://github.com/mat-analysis/mat-data">GitHub</a>] [<a class="reference external" href="https://pypi.org/project/mat-data/">PyPi</a>] [<a class="reference external" href="https://mat-analysis.github.io/mat-tools/">Docs</a>]</p>
+<p>The present package offers a tool, to support the user in the task of <strong>data preprocessing</strong> of multiple aspect trajectories, or to <strong>generating synthetic datasets</strong>. It integrates into a unique framework for multiple aspects trajectories and in general for multidimensional sequence data mining methods.</p>
+<p>Created on Dec, 2023
+Copyright (C) 2023, License GPL Version 3 or superior (see LICENSE file)</p>
+<section id="main-modules">
+<h3>Main Modules<a class="headerlink" href="#main-modules" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="#/proprocess.py"><span class="xref myst">proprocess</span></a>: Methods for trajectory preprocessing;</p></li>
+<li><p><a class="reference internal" href="#/generator.py"><span class="xref myst">generator</span></a>: Methods for trajectory datasets generation;</p></li>
+<li><p><a class="reference internal" href="#/dataset.py"><span class="xref myst">dataset</span></a>: Methods for loading trajectory datasets;</p></li>
+<li><p><a class="reference internal" href="#/converter.py"><span class="xref myst">converter</span></a>: Methods for conferting dataset formats.</p></li>
+</ul>
+</section>
+<section id="installation">
+<h3>Installation<a class="headerlink" href="#installation" title="Link to this heading"></a></h3>
+<p>Install directly from PyPi repository, or, download from github. (python &gt;= 3.7 required)</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="w">    </span>pip<span class="w"> </span>install<span class="w"> </span>mat-data
+</pre></div>
+</div>
+</section>
+<section id="getting-started">
+<h3>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h3>
+<p>On how to use this package, see <a class="reference external" href="https://github.com/ttportela/mat-data/blob/main/MAT-data-Tutorial.ipynb">MAT-data-Tutorial.ipynb</a></p>
+</section>
+<section id="citing">
+<h3>Citing<a class="headerlink" href="#citing" title="Link to this heading"></a></h3>
+<p>If you use <code class="docutils literal notranslate"><span class="pre">mat-data</span></code> please cite the following paper:</p>
+<ul class="simple">
+<li><p>Portela, T. T.; Machado, V. L.; Renso, C. Unified Approach to Trajectory Data Mining and Multi-Aspect Trajectory Analysis with MAT-Tools Framework. In: SIMPÓSIO BRASILEIRO DE BANCO DE DADOS (SBBD), 39. , 2024, Florianópolis/SC. [<a class="reference external" href="https://github.com/mat-analysis/mat-tools/blob/main/references/mat-tools.bib">Bibtex</a>]</p></li>
+</ul>
+</section>
+<section id="collaborate-with-us">
+<h3>Collaborate with us<a class="headerlink" href="#collaborate-with-us" title="Link to this heading"></a></h3>
+<p>Any contribution is welcome. This is an active project and if you would like to include your code, feel free to fork the project, open an issue and contact us.</p>
+<p>Feel free to contribute in any form, such as scientific publications referencing this package, teaching material and workshop videos.</p>
+</section>
+<section id="related-packages">
+<h3>Related packages<a class="headerlink" href="#related-packages" title="Link to this heading"></a></h3>
+<p>This package is part of <em>MAT-Tools Framework</em> for Multiple Aspect Trajectory Data Mining, check the guide project:</p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://github.com/mat-analysis/mat-tools">mat-tools</a></strong>: Reference guide for MAT-Tools Framework repositories</p></li>
+</ul>
+</section>
+<section id="change-log">
+<h3>Change Log<a class="headerlink" href="#change-log" title="Link to this heading"></a></h3>
+<p>This is a package under construction, see <a class="reference external" href="https://github.com/mat-analysis/mat-data/blob/main/CHANGELOG.md">CHANGELOG.md</a></p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="module-matdata">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-matdata" title="Link to this heading"></a></h2>
+<p><strong>Multiple Aspect Trajectory Tools Framework</strong></p>
+<p><em>MAT-data: Data Preprocessing for Multiple Aspect Trajectory Data Mining</em></p>
+<p>The present application offers a tool, to support the user in the classification task of multiple aspect trajectories,
+specifically for extracting and visualizing the movelets, the parts of the trajectory that better discriminate a class.
+It integrates into a unique platform the fragmented approaches available for multiple aspects trajectories and in
+general for multidimensional sequence classification into a unique web-based and python library system. Offers both
+movelets visualization and classification methods.</p>
+<p>Created on Dec, 2023
+Copyright (C) 2023, License GPL Version 3 or superior (see LICENSE file)</p>
+<p>&#64;author: Tarlis Portela</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Modules in MAT-data:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="dataset.html">Dataset</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.load_ds"><code class="docutils literal notranslate"><span class="pre">load_ds()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.load_ds_holdout"><code class="docutils literal notranslate"><span class="pre">load_ds_holdout()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.load_ds_kfold"><code class="docutils literal notranslate"><span class="pre">load_ds_kfold()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.prepare_ds"><code class="docutils literal notranslate"><span class="pre">prepare_ds()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.read_ds"><code class="docutils literal notranslate"><span class="pre">read_ds()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.read_ds_5fold"><code class="docutils literal notranslate"><span class="pre">read_ds_5fold()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.read_ds_holdout"><code class="docutils literal notranslate"><span class="pre">read_ds_holdout()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.read_ds_kfold"><code class="docutils literal notranslate"><span class="pre">read_ds_kfold()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="dataset.html#matdata.dataset.repository_datasets"><code class="docutils literal notranslate"><span class="pre">repository_datasets()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="preprocess.html">Pre-process</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.countClasses"><code class="docutils literal notranslate"><span class="pre">countClasses()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.datasetStatistics"><code class="docutils literal notranslate"><span class="pre">datasetStatistics()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.dfStats"><code class="docutils literal notranslate"><span class="pre">dfStats()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.dfVariance"><code class="docutils literal notranslate"><span class="pre">dfVariance()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.featuresJSON"><code class="docutils literal notranslate"><span class="pre">featuresJSON()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.joinTrainTest"><code class="docutils literal notranslate"><span class="pre">joinTrainTest()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.kfold_trainTestSplit"><code class="docutils literal notranslate"><span class="pre">kfold_trainTestSplit()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.klabels_extract"><code class="docutils literal notranslate"><span class="pre">klabels_extract()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.klabels_stratify"><code class="docutils literal notranslate"><span class="pre">klabels_stratify()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.organizeFrame"><code class="docutils literal notranslate"><span class="pre">organizeFrame()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.readDataset"><code class="docutils literal notranslate"><span class="pre">readDataset()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.sortByLabel"><code class="docutils literal notranslate"><span class="pre">sortByLabel()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.sortByTID"><code class="docutils literal notranslate"><span class="pre">sortByTID()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.stratify"><code class="docutils literal notranslate"><span class="pre">stratify()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.stratifyTrainTest"><code class="docutils literal notranslate"><span class="pre">stratifyTrainTest()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.suffle_df"><code class="docutils literal notranslate"><span class="pre">suffle_df()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="preprocess.html#matdata.preprocess.trainTestSplit"><code class="docutils literal notranslate"><span class="pre">trainTestSplit()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="converter.html">Converter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.any2ts"><code class="docutils literal notranslate"><span class="pre">any2ts()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.csv2df"><code class="docutils literal notranslate"><span class="pre">csv2df()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.df2csv"><code class="docutils literal notranslate"><span class="pre">df2csv()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.df2mat"><code class="docutils literal notranslate"><span class="pre">df2mat()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.df2parquet"><code class="docutils literal notranslate"><span class="pre">df2parquet()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.df2zip"><code class="docutils literal notranslate"><span class="pre">df2zip()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.mat2df"><code class="docutils literal notranslate"><span class="pre">mat2df()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.parquet2df"><code class="docutils literal notranslate"><span class="pre">parquet2df()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.ts2df"><code class="docutils literal notranslate"><span class="pre">ts2df()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.xes2df"><code class="docutils literal notranslate"><span class="pre">xes2df()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.zip2arf"><code class="docutils literal notranslate"><span class="pre">zip2arf()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.zip2csv"><code class="docutils literal notranslate"><span class="pre">zip2csv()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="converter.html#matdata.converter.zip2df"><code class="docutils literal notranslate"><span class="pre">zip2df()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="generator.html">Data Generator</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generator.html#matdata.generator.randomGenerator"><code class="docutils literal notranslate"><span class="pre">randomGenerator()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generator.html#matdata.generator.samplerGenerator"><code class="docutils literal notranslate"><span class="pre">samplerGenerator()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generator.html#matdata.generator.scalerRandomGenerator"><code class="docutils literal notranslate"><span class="pre">scalerRandomGenerator()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generator.html#matdata.generator.scalerSamplerGenerator"><code class="docutils literal notranslate"><span class="pre">scalerSamplerGenerator()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Framework Documentation:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://mat-analysis.github.io/mat-tools/">MAT-Tools</a></li>
+</ul>
+</div>
+<hr class="docutils" />
+<section id="change-log">
+<h3>Change Log<a class="headerlink" href="#change-log" title="Link to this heading"></a></h3>
+<!--next-version-placeholder-->
+<section id="v0-1rc1-17-05-2024">
+<h4>v0.1rc1 (17/05/2024)<a class="headerlink" href="#v0-1rc1-17-05-2024" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>First release</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="dataset.html" class="btn btn-neutral float-right" title="Dataset" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Tarlis Tortelli Portela.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

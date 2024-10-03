@@ -1,0 +1,44 @@
+.. mat-data documentation master file, created by
+   sphinx-quickstart on Fri May 17 17:33:21 2024.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+   
+MAT-data's Documentation!
+==========================
+   
+----
+
+.. include:: ../../matdata/README.md
+   :parser: myst_parser.sphinx_
+
+----
+
+Module contents
+---------------
+
+.. automodule:: matdata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. toctree:: 
+   :maxdepth: 5
+   :caption: Modules in MAT-data:
+
+   Dataset <dataset>
+   Pre-process <preprocess>
+   Converter <converter>
+   Data Generator <generator>
+   
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Framework Documentation:
+
+   MAT-Tools <https://mat-analysis.github.io/mat-tools/>
+   
+----
+
+.. include:: ../../CHANGELOG.md
+   :parser: myst_parser.sphinx_
