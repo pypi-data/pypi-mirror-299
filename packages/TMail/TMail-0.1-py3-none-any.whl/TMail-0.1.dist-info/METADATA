@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: TMail
+Version: 0.1
+Summary: Disposable Temporary Email
+Home-page: https://github.com/mbulung/TMail
+Author: Errucha
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: bs4
+
