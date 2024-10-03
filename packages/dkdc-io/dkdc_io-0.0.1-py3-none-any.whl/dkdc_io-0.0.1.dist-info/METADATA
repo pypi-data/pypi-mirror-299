@@ -1,0 +1,22 @@
+Metadata-Version: 2.3
+Name: dkdc-io
+Version: 0.0.1
+Summary: dkdc-io
+Project-URL: Homepage, https://github.com/dkdc-io/dkdc-io
+Project-URL: Bug Tracker, https://github.com/dkdc-io/dkdc-io
+Author-email: Cody <cody@dkdc.dev>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: fastapi
+Requires-Dist: httpx
+Requires-Dist: python-dotenv
+Requires-Dist: rich
+Requires-Dist: typer
+Requires-Dist: uvicorn
+Description-Content-Type: text/markdown
+
+# dkdc-io
+
+dkdc-io

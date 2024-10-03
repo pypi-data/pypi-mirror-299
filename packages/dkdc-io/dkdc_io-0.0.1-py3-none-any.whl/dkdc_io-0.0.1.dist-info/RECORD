@@ -1,0 +1,10 @@
+dkdc_io/__init__.py,sha256=BaJ_xWyvRmwJmRjUUZpR-TGKTjAeI9UfTPjx10ZUYjM,49
+dkdc_io/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkdc_io/server.py,sha256=9uGfhSlag6PiIZYOjWiYwxGxiPH091PdN2z3p3ogI-Q,358
+dkdc_io/cli/__init__.py,sha256=xf5W-udvkWdBCh5L7D6xmzRBmOgZVC0zuiLlUOeyp0k,475
+dkdc_io/cli/console.py,sha256=qw08Vh2eZs9kXdlxHiLhitgWpQxN5rBJa4fDS8c89dM,566
+dkdc_io/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dkdc_io-0.0.1.dist-info/METADATA,sha256=lU3aO3LdVuFLYcVNXmmmIoabJVbuN9-Y3kjrRrFF4uw,589
+dkdc_io-0.0.1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+dkdc_io-0.0.1.dist-info/entry_points.txt,sha256=SYYxCX9Isev6aAaxw609DaMdVi7zOuy9juZWSIG4U4E,44
+dkdc_io-0.0.1.dist-info/RECORD,,
