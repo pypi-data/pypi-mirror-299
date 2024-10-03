@@ -1,0 +1,8 @@
+README.md
+setup.py
+cryptoboxes/__init__.py
+cryptoboxes/codes.py
+cryptoboxes.egg-info/PKG-INFO
+cryptoboxes.egg-info/SOURCES.txt
+cryptoboxes.egg-info/dependency_links.txt
+cryptoboxes.egg-info/top_level.txt
