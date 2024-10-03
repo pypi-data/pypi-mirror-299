@@ -1,0 +1,8 @@
+boto3>=1.26.0
+fabric>=2.7.0
+dask[distributed]~=2023.1
+s3fs>=2023.1
+decorator==4.4.2
+jedi>=0.16
+moviepy==1.0.3
+ipython>=7.34.0
