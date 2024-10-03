@@ -1,0 +1,3 @@
+[console_scripts]
+cx-tool=crossover_util.cli:main
+
