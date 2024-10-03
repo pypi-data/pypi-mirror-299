@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+PyModuleG.egg-info/PKG-INFO
+PyModuleG.egg-info/SOURCES.txt
+PyModuleG.egg-info/dependency_links.txt
+PyModuleG.egg-info/entry_points.txt
+PyModuleG.egg-info/requires.txt
+PyModuleG.egg-info/top_level.txt
+tests/__init__.py
+tests/test_generator.py
