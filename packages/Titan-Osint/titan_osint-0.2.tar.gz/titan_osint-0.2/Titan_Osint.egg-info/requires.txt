@@ -1,0 +1,7 @@
+requests
+pycryptodome
+pypiwin32
+beautifulsoup4
+colorama
+pycryptodome
+pycryptodomex

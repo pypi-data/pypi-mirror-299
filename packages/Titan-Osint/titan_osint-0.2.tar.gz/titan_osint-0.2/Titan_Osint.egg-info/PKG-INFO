@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Titan_Osint
+Version: 0.2
+Summary: A powerful OSINT tool
+Home-page: https://github.com/HeartWay-Project/Titan-Multitool
+Author: HeartWay
+Author-email: HeartWay_c.y@proton.me
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Requires-Dist: pypiwin32
+Requires-Dist: beautifulsoup4
+Requires-Dist: colorama
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
