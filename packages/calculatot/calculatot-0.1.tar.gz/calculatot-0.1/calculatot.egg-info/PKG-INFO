@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: calculatot
+Version: 0.1
+Summary: Kalkulator sederhana untuk penjumlahan, pengurangan, perkalian, dan pembagian.
+Home-page: https://github.com/yanu403/calculatot
+Author: Yanu
+Author-email: reazerfreak12@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple Calculator
+
+Simple Calculator adalah library Python sederhana yang menyediakan fungsi dasar kalkulasi seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+
+## Instalasi
+
+Kamu bisa menginstal package ini melalui PyPI menggunakan perintah berikut:
+
+```bash
+pip install calculatot
