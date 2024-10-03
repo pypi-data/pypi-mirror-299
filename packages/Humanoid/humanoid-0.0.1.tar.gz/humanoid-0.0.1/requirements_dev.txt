@@ -1,0 +1,39 @@
+# Requirements for Development as Opposed to Installation
+pip
+nodejs
+bumpversion
+pytest
+build
+twine
+pyyaml
+pymongo
+runscript
+coverage
+pytest-cov
+mock
+test_server
+pytest-xdist
+git+https://72x5rsobeyum7fbd2bguitfglbz3pcbt3mdfktevqplut5mg3evq@dev.azure.com/Chubb-AI/_git/Chubb%20AI
+
+## Code Quality
+bandit[toml]
+flake8
+### flake8-broken-line # Commented out due to dependencies issues
+flake8-bugbear
+### flake8-commas # DISABLED, do not like C816 missing trailing comma in Python 3.6+
+flake8-comprehensions
+flake8-debugger
+flake8-docstrings
+flake8-expression-complexity
+flake8-isort
+flake8-pep585
+flake8-pie
+### flake8-quotes # DISABLED, BREAKS FLAKE8
+flake8-return
+flake8-simplify
+flake8-string-format
+flake8-cognitive-complexity
+mccabe
+mypy
+pep8-naming
+pylint
