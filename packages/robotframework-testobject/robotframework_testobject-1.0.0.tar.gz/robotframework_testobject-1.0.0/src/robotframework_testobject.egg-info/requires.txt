@@ -1,0 +1,10 @@
+robotframework>=5.0
+
+[dev]
+black
+check-manifest
+twine
+wheel
+setuptools
+ruff
+pip-tools
