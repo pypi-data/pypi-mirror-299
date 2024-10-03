@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+math_proj_sat/__init__.py
+math_proj_sat/math_ops.py
+math_proj_sat.egg-info/PKG-INFO
+math_proj_sat.egg-info/SOURCES.txt
+math_proj_sat.egg-info/dependency_links.txt
+math_proj_sat.egg-info/requires.txt
+math_proj_sat.egg-info/top_level.txt
+tests/__init__.py
+tests/test_math_ops.py

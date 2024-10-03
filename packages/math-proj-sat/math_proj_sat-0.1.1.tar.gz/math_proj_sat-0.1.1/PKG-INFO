@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: math_proj_sat
+Version: 0.1.1
+Summary: Test Package
+Home-page: https://github.com/satvikt/new_proj_sat
+Download-URL: https://github.com/satvikt/new_proj_sat/archive/refs/tags/v0.1.1.tar.gz
+Author: Satvik
+Author-email: satvik.t@outook.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+# new_proj_sat
+A package for common math ops
