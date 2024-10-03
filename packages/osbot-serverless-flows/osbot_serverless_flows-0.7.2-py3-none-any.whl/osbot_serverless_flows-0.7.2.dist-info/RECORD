@@ -1,0 +1,15 @@
+osbot_serverless_flows/__init__.py,sha256=DdJDmQc9zbQUlPVyTJOww6Ixrn9n4bD3ami5ItQfzJI,16
+osbot_serverless_flows/fast_api/Fast_API__Serverless_Flows.py,sha256=QRtlLO9ppUeT3RBWcBSvWJpOS1jw_VHk-KBssn1Jkew,239
+osbot_serverless_flows/fast_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/fast_api/routes/Routes__Info.py,sha256=W5DGvNVbEnO80QB0eDeGoGIRhY_sg9N38ct3JeCezT0,474
+osbot_serverless_flows/fast_api/routes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/flows/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/lambdas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/lambdas/handler.py,sha256=OjT0ULj9tn5DT0HrWTeoPeYIfrYFSnlI7F6KeEOOf4Q,768
+osbot_serverless_flows/utils/Version.py,sha256=Cx7wyG4RYqIRvCXAV4VIValHf9EcH0odNC7hKmOm6jw,574
+osbot_serverless_flows/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osbot_serverless_flows/version,sha256=bmk93dI9e2BdSuLoDUVGzjqy-7dRiMj69TEKrqfLDLc,7
+osbot_serverless_flows-0.7.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+osbot_serverless_flows-0.7.2.dist-info/METADATA,sha256=pGDaAKeNludR6f5JMVHZUcMBmb2bkztAXvXte4igUo8,811
+osbot_serverless_flows-0.7.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+osbot_serverless_flows-0.7.2.dist-info/RECORD,,
