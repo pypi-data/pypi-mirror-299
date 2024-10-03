@@ -1,0 +1,3 @@
+[console_scripts]
+docx-to-html = docxhtml:htmlifier
+html-to-docx = htmldocx:docxifier
