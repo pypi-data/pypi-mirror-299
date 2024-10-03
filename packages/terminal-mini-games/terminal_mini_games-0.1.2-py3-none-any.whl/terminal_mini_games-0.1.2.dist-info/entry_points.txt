@@ -1,0 +1,2 @@
+[console_scripts]
+terminal-mini-games = terminal_mini_games.main:main
