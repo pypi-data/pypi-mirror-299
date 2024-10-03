@@ -1,0 +1,14 @@
+numpy
+pandas
+pathlib
+pydantic
+scipy
+typing_extensions
+
+[:platform_system == "Windows"]
+pywin32
+
+[testing]
+setuptools
+pytest
+pytest-cov
