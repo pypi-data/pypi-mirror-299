@@ -1,0 +1,14 @@
+LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_anthropic/__init__.py,sha256=Y9KPCMsZswb9bZcSwmlnc98qWXxTnpsRidAHh7KprbA,130
+evo_package_anthropic/automation/api.yaml,sha256=Wj_PcLiN2oFHiAmX9_P82SOwkLsbOb3qIKS_bXQb8kw,1828
+evo_package_anthropic/automation/entity.yaml,sha256=Z__8i3pzIf2huqIo_kdziu7owSkVVNA03XOkrlYP-9U,1137
+evo_package_anthropic/control/CAnthropicApi.py,sha256=wqKfja9M0jPO2aX0BVTKYSXg6xYmLDULlOL-6O_E1fE,6941
+evo_package_anthropic/control/__init__.py,sha256=f7fyUpGXR8i-SzgbQI6kAYFIF2cCLOAT0oS6tVJb5z0,70
+evo_package_anthropic/entity/EAnthropicInfo.py,sha256=mOqUx1rSIMKzm2X8KwWW2UjsNBDCVow-eyUBOidd43Q,2756
+evo_package_anthropic/entity/__init__.py,sha256=HBq738M-FBOmOUJj2LpnZHhHsaTDjZ8SPzYo-ttxS24,71
+evo_package_anthropic/utility/UAnthropicApi.py,sha256=YhkSPz9pqBHSTnTTEyB_QGTou3FUvH3v_Bh_hlJJxD8,5737
+evo_package_anthropic/utility/__init__.py,sha256=oBNuVEu0RDiBhyOfVDq8DAQVtqAw-RHfhpgOeM03xdg,143
+evo_package_anthropic-2024.10.22228.dist-info/LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_package_anthropic-2024.10.22228.dist-info/METADATA,sha256=gypqP8OLVe-ZUA9Sbdytvltt9xfLH5WYxGAhlYEuNLg,1545
+evo_package_anthropic-2024.10.22228.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evo_package_anthropic-2024.10.22228.dist-info/RECORD,,

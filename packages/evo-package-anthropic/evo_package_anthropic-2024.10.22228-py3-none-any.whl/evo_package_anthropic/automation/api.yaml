@@ -1,0 +1,43 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git | 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+#   EAPIADMIN
+#   EAPIFILE [file, image, audio, video, pdf]
+#   EAPITEXT
+#   EAPIQUERY
+
+package: evo_package_anthropic
+
+control:
+  CAnthropicApi:
+    _DOC_: "CAnthropicApi _DOC_"
+
+    anthropic-chatstream:
+      description: "anthropic-chatstream _DESCRIPTION_ [USE evo.package.chat API]"
+      callback: onChatStream
+      input: EOBJECT evo_package_chat.entity.EChatInput
+      output: EOBJECT evo_package_chat.entity.EChatMessage
+
+    anthropic-get_mapmodel:
+      description: "anthropic-get_mapmodel _DESCRIPTION_ [USE evo.package.chat API]"
+      required: "eChatInput.token"
+      callback: onGetMapModel
+      input: EOBJECT evo_package_chat.entity.EChatInput
+      output: EOBJECT evo_package_chat.entity.EChatModelMap
+
+    anthropic-get_mapmessage:
+      description: "anthropic-get_mapmessage _DESCRIPTION_ [USE evo.package.chat API]"
+      required: "eChatInput.token|eChatInput.sessionID"
+      callback: onGetMapMessage
+      input: EOBJECT evo_package_chat.entity.EChatInput
+      output: EOBJECT evo_package_chat.entity.EChatMapMessage
+
+    anthropic-get_mapsession:
+      description: "anthropic-get_mapsession _DESCRIPTION_ [USE evo.package.chat API]"
+      required: "eChatInput.token"
+      callback: onGetMapSession
+      input: EOBJECT evo_package_chat.entity.EChatInput
+      output: EOBJECT evo_package_chat.entity.EChatMapSession
