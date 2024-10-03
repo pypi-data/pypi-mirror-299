@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/witness_client/__init__.py
+src/witness_client.egg-info/PKG-INFO
+src/witness_client.egg-info/SOURCES.txt
+src/witness_client.egg-info/dependency_links.txt
+src/witness_client.egg-info/requires.txt
+src/witness_client.egg-info/top_level.txt
