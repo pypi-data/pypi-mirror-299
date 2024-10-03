@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/terminal_mini_games/__init__.py
+src/terminal_mini_games/main.py
+src/terminal_mini_games.egg-info/PKG-INFO
+src/terminal_mini_games.egg-info/SOURCES.txt
+src/terminal_mini_games.egg-info/dependency_links.txt
+src/terminal_mini_games.egg-info/entry_points.txt
+src/terminal_mini_games.egg-info/requires.txt
+src/terminal_mini_games.egg-info/top_level.txt
+src/terminal_mini_games/games/__init__.py
+src/terminal_mini_games/games/game_2048.py
+src/terminal_mini_games/utils/__init__.py
+src/terminal_mini_games/utils/high_score.py
