@@ -1,0 +1,6 @@
+recursive-include sop-phone/templates/ *
+recursive-include sop-phone/api/ *
+recursive-include sop-phone/forms/ *
+recursive-include sop-phone/migrations/ *
+recursive-include sop-phone/tables/ *
+recursive-include sop-phone/views/ *
