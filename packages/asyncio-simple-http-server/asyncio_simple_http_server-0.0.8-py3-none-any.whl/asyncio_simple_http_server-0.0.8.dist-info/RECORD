@@ -1,0 +1,9 @@
+asyncio_simple_http_server/__init__.py,sha256=OaavfmRfyoSht6lR5RE2CTQwpU-iMONQNiKuVSYPfUQ,979
+asyncio_simple_http_server/http_util.py,sha256=NRwHdB3KKccFki_NmMRVnai8eg2YqeKvL39Fw2gXnH0,6490
+asyncio_simple_http_server/humans.py,sha256=MgpyynKrzm2kRe5ZjJSrHPoKjFbTTtM0BHNssN8xqQo,4955
+asyncio_simple_http_server/metrics.py,sha256=Xi7qaEzTK4zV1SUi33Fe_l4Rj3mJrnKANCT42FpzCOI,19805
+asyncio_simple_http_server/server.py,sha256=mfgDMp4Cji5K-MuhZFnyHTLh75U21mE5iNOtV5K0Jpg,10382
+asyncio_simple_http_server-0.0.8.dist-info/METADATA,sha256=nHtTtTodTD3g2LXfG6guVcBsCT9YZ3ms2nmTV8huDV0,6298
+asyncio_simple_http_server-0.0.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+asyncio_simple_http_server-0.0.8.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+asyncio_simple_http_server-0.0.8.dist-info/RECORD,,
