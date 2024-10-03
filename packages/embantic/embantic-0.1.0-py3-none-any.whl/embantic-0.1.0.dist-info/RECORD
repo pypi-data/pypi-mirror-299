@@ -1,0 +1,8 @@
+embantic/__init__.py,sha256=Z8WJppHKB2dcYYr1TUOmQoTSeSxuW8tgnEFTvZptRA8,28
+embantic/base.py,sha256=4t5cd5lus1j5nvfJSR33tuz6nj2WbZbU7HxDyvzr6wM,2783
+embantic/img.py,sha256=SzWz7Ik3pQaypsL13-RNkiJxz65YIQV8IipCoT9VaE4,691
+embantic/text.py,sha256=vjJB0hxXXyyds0B-OTVj--aqos-K-jlcTNO48z3cyF4,168
+embantic-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+embantic-0.1.0.dist-info/METADATA,sha256=KgvqeFnr5pdnFD37saq-pfRf2Q8_C-MlmRiOLPyp-VA,2563
+embantic-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+embantic-0.1.0.dist-info/RECORD,,
