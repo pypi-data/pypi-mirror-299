@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+args_parser/__init__.py
+args_parser/args_parser.py
+args_parser/cli_description.py
+example/__init__.py
+example/cli.py
+plugin/__init__.py
+plugin/plugin.py
+plugin/plugin_manager.py
+plugin_cli.egg-info/PKG-INFO
+plugin_cli.egg-info/SOURCES.txt
+plugin_cli.egg-info/dependency_links.txt
+plugin_cli.egg-info/top_level.txt
