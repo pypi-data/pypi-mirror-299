@@ -1,0 +1,2 @@
+[console_scripts]
+imhotep-mail = imhotep_mail:hello
