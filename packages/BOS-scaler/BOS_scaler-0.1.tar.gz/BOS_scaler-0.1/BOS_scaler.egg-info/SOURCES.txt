@@ -1,0 +1,5 @@
+setup.py
+BOS_scaler.egg-info/PKG-INFO
+BOS_scaler.egg-info/SOURCES.txt
+BOS_scaler.egg-info/dependency_links.txt
+BOS_scaler.egg-info/top_level.txt
