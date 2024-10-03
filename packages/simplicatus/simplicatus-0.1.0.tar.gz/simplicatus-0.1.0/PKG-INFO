@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simplicatus
+Version: 0.1.0
+Summary: Grossomodo a Python library for converting md documents into PDF, kindle friendly. 
+Home-page: https://github.com/sebs-tech/simplicatus
+Author: Sebastjan Rijavec
+Author-email: sebastjan.rijavec@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+License-File: LICENSE
