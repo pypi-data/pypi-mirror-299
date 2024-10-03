@@ -1,0 +1,3 @@
+[console_scripts]
+sortdicom=sortdicom.__init__:main
+

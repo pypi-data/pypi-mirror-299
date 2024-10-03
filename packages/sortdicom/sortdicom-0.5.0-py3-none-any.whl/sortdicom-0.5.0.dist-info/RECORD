@@ -1,0 +1,8 @@
+sortdicom/__init__.py,sha256=6FWIt0nAIDaHGnNVw7dZ9qiHbA4gMMt5gtiWWQdm2b0,921
+sortdicom/sortdicom.py,sha256=0Famr9MKxHGH9XbBtR1_D9El17ngrCjrL2uQro3RBas,2662
+sortdicom/tests/test_main.py,sha256=5iYIe5OPqAH7pnfuJt-wFLPAoNVaBE1XqUmwrpr3sPE,3929
+sortdicom-0.5.0.dist-info/entry_points.txt,sha256=jFnK8ysj_ubPq6RpOK3jTgTmJIGHYd6DjPMY5npHAJA,53
+sortdicom-0.5.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+sortdicom-0.5.0.dist-info/METADATA,sha256=QT-7WZlv8tH1Sqbb-MkAHSgvHiHT-FAr5FuoM3xHTTo,1614
+sortdicom-0.5.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sortdicom-0.5.0.dist-info/RECORD,,
