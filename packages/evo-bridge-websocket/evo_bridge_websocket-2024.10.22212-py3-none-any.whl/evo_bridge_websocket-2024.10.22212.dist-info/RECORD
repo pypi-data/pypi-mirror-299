@@ -1,0 +1,12 @@
+LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_bridge_websocket/__init__.py,sha256=HcX3CQLUDmH2F53F8EMvIsytd5xcAV6OSXxXr1j7XWE,127
+evo_bridge_websocket/automation/api.yaml,sha256=0yySIt6c2vnJC5mvTWwcDOFkEyWAIFG6rLMJ2KMcoPU,783
+evo_bridge_websocket/automation/entity.yaml,sha256=mDz4t3QqFPcXBSIhhnHJhVPljcTDM0M3G0zS88mrAVg,956
+evo_bridge_websocket/automation/tests.yaml,sha256=kHqL43W0CiTRNgBRZ0ZwIugQXif43LpI0TVI9a4RO4g,486
+evo_bridge_websocket/utility/IuWebsocket.py,sha256=EEsYQpwlNWbEWMKS9ih8w5NwDCztd4yD4DMHMuXZFCc,950
+evo_bridge_websocket/utility/UWebsocket.py,sha256=AgmwUGVxRMwb6CtcpdXixdPPLlIj6nBmEagwSmFmCZg,1744
+evo_bridge_websocket/utility/__init__.py,sha256=X_yuuD97lX_3n4XnFkOy2IG6GOGV8Cn_tcW7yAKtEjY,127
+evo_bridge_websocket-2024.10.22212.dist-info/LICENSE.txt,sha256=ZVUH_vFhgRqW3APJ6oxDn-dyS5eSTwaKFxicMTFJCbo,13564
+evo_bridge_websocket-2024.10.22212.dist-info/METADATA,sha256=gVqIyGPgVCKvaU3BnV7n0CwItazFs-r6mWVfDMG6yks,1451
+evo_bridge_websocket-2024.10.22212.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+evo_bridge_websocket-2024.10.22212.dist-info/RECORD,,
