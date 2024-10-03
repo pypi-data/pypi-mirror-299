@@ -1,0 +1,10 @@
+scrapy_llm/__init__.py,sha256=cAJAbAh288a9AL-3yxwFzEM1L26izSJ6wma5aiml_9Y,23
+scrapy_llm/config.py,sha256=iX5QYBd-du4lh9nsvjIopPFP3QXg0rkxpC_fJOdpEGY,2670
+scrapy_llm/handler.py,sha256=EL79qHHJBV3YcpoIDK0P_kIKtCu_oIZPxFeYjuXSBgs,2745
+scrapy_llm/types.py,sha256=STzalH-3uIYAM0yD51i2JrgE4GEXeVR3Kbc8Rg5jiIk,187
+scrapy_llm/utils.py,sha256=EsGiGNaF4vijavZv6NrQrbNWlYkTN8K74bozjtZVaCM,2039
+scrapy_llm-0.1.19.dist-info/LICENSE,sha256=TdDNwM_LL2CErhd-9b9nvq2HTh2dYDutjCtJITJOoN4,1072
+scrapy_llm-0.1.19.dist-info/METADATA,sha256=K1c1YnbnGDqcuP0DQBEGYLjK8uFKDtTtwfZU7WhuewY,9530
+scrapy_llm-0.1.19.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+scrapy_llm-0.1.19.dist-info/top_level.txt,sha256=bv205rC95cTyzjgsckk2Md-OTyr7Jbjfsef2iNb8pEg,11
+scrapy_llm-0.1.19.dist-info/RECORD,,
