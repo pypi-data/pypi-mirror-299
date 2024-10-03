@@ -1,0 +1,10 @@
+README.md
+setup.py
+dict2str/__init__.py
+dict2str/constants.py
+dict2str/convert.py
+dict2str/dict2str.py
+dict2str.egg-info/PKG-INFO
+dict2str.egg-info/SOURCES.txt
+dict2str.egg-info/dependency_links.txt
+dict2str.egg-info/top_level.txt
