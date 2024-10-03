@@ -1,0 +1,16 @@
+Metadata-Version: 2.3
+Name: metaforecast
+Version: 0.1.1
+Summary: Meta-learning and Data-centric Forecasting
+Project-URL: Homepage, https://github.com/vcerqueira/metaforecast
+Project-URL: Bug Tracker, https://github.com/vcerqueira/metaforecast/issues
+Author-email: Vitor Cerqueira <cerqueira.vitormanuel@gmail.com>
+Keywords: Data Science,Forecasting,Machine Learning,Time Series
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: lightgbm==4.5.0
+Description-Content-Type: text/markdown
+
+meta-learning and data-centric AI for actionable forecasting  
