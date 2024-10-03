@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Pacote_de_processamento_de_imagens_Pypi
+Version: 0.0.1
+Summary: Pacote de Processamento de Imagem em Python
+Home-page: https://github.com/octavioomg/Pacote_de_processamento_de_imagens_Pypi
+Author: Octavioomg
+Author-email: octavioomg@outlook.com.br
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+O pacote identifica semelhança entre imagens e também cria nova imagem a partir de duas, com similaridade entre elas. Gera uma imagem a partir de duas existentes
