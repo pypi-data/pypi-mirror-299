@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pandaPlus
+Version: 0.2
+Home-page: https://github.com/tiaramathur/
+Author: Tiara Mathur
+Author-email: mathurtiara@gmail.com
+License: MIT
+Keywords: pandas,formatting,dataframes
+License-File: LICENSE
