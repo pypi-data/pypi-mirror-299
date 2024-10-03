@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: octane-sdk-wrapper
+Version: 1.0.1
+Project-URL: Documentation, https://github.com/kliskatek/driver-rain-py-octane#readme
+Project-URL: Issues, https://github.com/kliskatek/driver-rain-py-octane/issues
+Project-URL: Source, https://github.com/kliskatek/driver-rain-py-octane
+Author-email: Ibon Zalbide <ibon.zalbide@kliskatek.com>, Aritz Alonso <aritz.alonso@kliskatek.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: pythonnet
+Description-Content-Type: text/markdown
+
+# octane-sdk-wrapper
+
+[![PyPI - Version](https://img.shields.io/pypi/v/octane-sdk-wrapper.svg)](https://pypi.org/project/octane-sdk-wrapper)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/octane-sdk-wrapper.svg)](https://pypi.org/project/octane-sdk-wrapper)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install octane-sdk-wrapper
+```
+
+## License
+
+`octane` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
