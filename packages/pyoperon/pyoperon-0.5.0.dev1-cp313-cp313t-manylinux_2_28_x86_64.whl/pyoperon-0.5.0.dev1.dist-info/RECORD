@@ -1,0 +1,11 @@
+pyoperon-0.5.0.dev1.dist-info/top_level.txt,sha256=7hvoqJzFlHUdTtHHc5jOwvRxd3XzgvNPLq4CaTwcRjI,9
+pyoperon-0.5.0.dev1.dist-info/WHEEL,sha256=CZ0NJhJcLv18wEKqk-91MNQEzhU9evKwEQTd4tV1Q1A,109
+pyoperon-0.5.0.dev1.dist-info/RECORD,,
+pyoperon-0.5.0.dev1.dist-info/LICENSE,sha256=hvwK4VE6jGKoB-SOcQ6_kkiuSNElKOXFiiJrjmHDFco,1075
+pyoperon-0.5.0.dev1.dist-info/METADATA,sha256=jup3Obr0LZrfaVc_HbWbJKhFiHpFigBpRBLLqoR1GPM,3087
+pyoperon.libs/libxxhash-3b878866.so.0.8.2,sha256=LSLUZ6lXRW9dNXm7TqFUSqHNYkFK9bt25exaYpm2ZKI,79785
+pyoperon.libs/libzstd-76b78bac.so.1.4.4,sha256=F2-A6yQ3AA2N0vHZe-81OfEUOcwgjjWiOnYAxk2Kflc,686073
+pyoperon/sklearn.py,sha256=CfP24p2K7qP-L81Nfxj8zYnK1zTv9jfFlCzXEcjQYGI,28079
+pyoperon/pyoperon.cpython-313-x86_64-linux-gnu.so,sha256=8zdzGWWbFeut0LJWWXtDhy9ulzGtrai7e6JaHcDCINc,2756201
+pyoperon/pyoperon.cpython-313t-x86_64-linux-gnu.so,sha256=NTNIhfetfbRdJj1kvy2zAKVx2iIE83RHTzzqnGFjLPU,2772617
+pyoperon/__init__.py,sha256=pFdfMe_pCElAr_Cv2095w-VLTylmI4ljLXbRAGarRBE,116
