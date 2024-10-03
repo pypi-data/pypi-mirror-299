@@ -1,0 +1,9 @@
+bytewax/bytewax_redis/__init__.py,sha256=7Jo9LYDFk3Px6D9GftmoVFg1A3iGM4PtSMT9ThIBhsM,670
+bytewax/bytewax_redis/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytewax/bytewax_redis/sinks.py,sha256=27IWRsvhxq0yLCcag6KRoM_7Qs-8MjW2nYd5Xcm2XfY,5397
+bytewax/bytewax_redis/sources.py,sha256=FG2ep4uwLMU6JAVrEDXHagvFOHdja4MIZSYJe8kTHvc,4048
+bytewax_redis-0.1.dist-info/LICENSE.md,sha256=dnCXncqbUa7OyBydyzsjD7oTThb4Yu05bxZPxl7Cn_s,17612
+bytewax_redis-0.1.dist-info/METADATA,sha256=USybdxnuWteMhzavZPFzGT_LCIqsq-CLFi2-ov5cboQ,24688
+bytewax_redis-0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+bytewax_redis-0.1.dist-info/top_level.txt,sha256=wVzJkBvuLPmbBqCRFQnoMGOcaj5bijborxj22uCXHzA,8
+bytewax_redis-0.1.dist-info/RECORD,,
