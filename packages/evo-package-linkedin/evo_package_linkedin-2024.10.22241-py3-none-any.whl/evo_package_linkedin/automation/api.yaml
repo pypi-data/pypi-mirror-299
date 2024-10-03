@@ -1,0 +1,24 @@
+#========================================================================================================================================
+# CyborgAI CC BY-NC-ND 4.0 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 Internation    https://github.com/cyborg-ai-git # 
+#========================================================================================================================================
+
+# VALID TYPE FOR INPUT/OUTPUT:
+#   EOBJECT EOBJECT_CLASS
+
+package: evo_package_linkedin
+
+control:
+  CLinkedinApi:
+    _DOC_: "CLinkedinApi description"
+    
+    linkedin-post:
+        enabled: true
+        callback: doPost
+        input: EOBJECT ELinkedinPost
+        output: EOBJECT ELinkedinOutput
+      
+    linkedin-get_me:
+      enabled: true
+      callback: doGetMe
+      input: EOBJECT ELinkedinInput
+      output: EOBJECT ELinkedinOutput
