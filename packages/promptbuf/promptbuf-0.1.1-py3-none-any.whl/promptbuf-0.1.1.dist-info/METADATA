@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: promptbuf
+Version: 0.1.1
+Summary: A brief description of promptbuf
+Home-page: https://github.com/Tetra-Research/promptbuf
+Author: Tyler O'Briant
+Author-email: tyler@tetraresearch.io
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/yourproject.svg)](https://pypi.org/project/promptbuf/)
