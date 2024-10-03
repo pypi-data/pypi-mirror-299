@@ -1,0 +1,7 @@
+pedalboard
+pydub
+openai
+requests
+moviepy
+pillow
+elevenlabs
