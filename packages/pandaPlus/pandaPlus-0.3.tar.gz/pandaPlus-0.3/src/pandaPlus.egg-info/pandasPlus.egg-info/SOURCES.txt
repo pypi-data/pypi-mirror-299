@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pandasPlus/__init__.py
+src/pandasPlus/pandasPlus.py
+src/pandasPlus.egg-info/PKG-INFO
+src/pandasPlus.egg-info/SOURCES.txt
+src/pandasPlus.egg-info/dependency_links.txt
+src/pandasPlus.egg-info/requires.txt
+src/pandasPlus.egg-info/top_level.txt
