@@ -1,0 +1,13 @@
+yapcache/__about__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+yapcache/__init__.py,sha256=SPomT_iniyzw-pCJie9H-_WjKUYENzvS5ICOqL38WX8,1926
+yapcache/cache_item.py,sha256=lujuSJGHGa64OcKg-tHO9nPR1zJWlgpsI--CM08Tjz0,565
+yapcache/distlock.py,sha256=mQziJhrzTArMmz3u--jLOi3ZDpHCtIACK9y61k8qU0U,2309
+yapcache/caches/__init__.py,sha256=b-wiDQTRooCBKS2PFOLq1kW17oA-kdigHzgtDKznA3Q,1998
+yapcache/caches/memory.py,sha256=TI7QgQGI6shltF4r32CxxWpYX-LEnqF6OMZKUfRLDqA,998
+yapcache/caches/redis.py,sha256=9Lb5xuIVDMLe7rB__uGFwZm4B56OTlI7HkH908ufJfw,1543
+yapcache/serializers/__init__.py,sha256=Gmj0wRUE-p57__xpvXWW3JmayLghUFiJOYFAGmJ9zEU,220
+yapcache/serializers/pickle.py,sha256=a_GHvYJ4iwKJ8BVp7NVYanpV3HoE-DvuP8alJ3_Fel4,371
+yapcache-0.1.2.dist-info/METADATA,sha256=oiuqtIpUD8ijt2tuOBL1UtDKr_cdmYmXeUAj5llr_yM,2840
+yapcache-0.1.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+yapcache-0.1.2.dist-info/licenses/LICENSE.txt,sha256=bKj_ah8sjJgjnUTjauybcVvJ8hlD1cMk8SKfrt8kPn4,1102
+yapcache-0.1.2.dist-info/RECORD,,
