@@ -1,0 +1,13 @@
+tree_sitter_cylc/__init__.py,sha256=S1_R-XhtnxjciSM2OGAjwjAL8bKwUWbgHB_XbmcoNPg,1271
+tree_sitter_cylc/__init__.pyi,sha256=wvMVRKvjq5MsD5R1dWrEauAmdr64nTq4eETI03M3_7E,243
+tree_sitter_cylc/_binding.pyd,sha256=hpiWxGbuT1UYktg2WgEdyt4YlP1qfpqoUId9YoGlh9I,67072
+tree_sitter_cylc/binding.c,sha256=sLVQE13RhwOKNUeLSQN5pL83utzqLyU8UUvg6e1Kw9s,679
+tree_sitter_cylc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_cylc/queries/README.md,sha256=ZoZyQPfH5n_XJbf1tEpiV4UkORMV-mBwhYGvKt6aM80,353
+tree_sitter_cylc/queries/highlights.scm,sha256=mRZ4GmqHdR65nJU6w-YiXj16LLPxTgZCF738ZXb8f6c,1234
+tree_sitter_cylc/queries/injections.scm,sha256=RoT3swQvTgTfk9Cp_qY1iwZigW-Hd9B4AxVGWOHDDmk,622
+tree_sitter_cylc-0.2.0.dist-info/LICENSE,sha256=B8dWlZmdqKjOw-QpT10zFcA_s-0KmSYvKCy-GZvFYfo,1100
+tree_sitter_cylc-0.2.0.dist-info/METADATA,sha256=9gtAw2JFCF7kQF5UxYVjsmL6NTLcp5oBbP0Vk5WvFes,4129
+tree_sitter_cylc-0.2.0.dist-info/WHEEL,sha256=5nHCeh84H1Y7Xe2qsvzJe4PdPUPjiFKJvyXZzUjQXSY,100
+tree_sitter_cylc-0.2.0.dist-info/top_level.txt,sha256=UAlff095YHuTuVFuAeT9RZa1kx02bXl9_lDtf_kTTGk,26
+tree_sitter_cylc-0.2.0.dist-info/RECORD,,
