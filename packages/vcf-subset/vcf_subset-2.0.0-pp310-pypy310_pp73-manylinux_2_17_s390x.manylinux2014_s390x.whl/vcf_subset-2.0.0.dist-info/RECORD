@@ -1,0 +1,5 @@
+vcf_subset-2.0.0.dist-info/METADATA,sha256=3Z8tHdaovV6lzSE4xw2imPPE85WxRHSLn00F4mTLahA,647
+vcf_subset-2.0.0.dist-info/WHEEL,sha256=ZlLYHb9W3u02TRb4QqZKLXHknFvIO5OHI_4R6hVowlE,134
+vcf_subset/__init__.py,sha256=tWFNQZNKpTFPmPwhFlAqGa_Xp4w-12dN1sRP6GIfIKE,123
+vcf_subset/vcf_subset.pypy310-pp73-s390x-linux-gnu.so,sha256=zHoM-7_IORTSUw0w9nsiZMAD51tbHrWkSIIyXn4WsBg,645896
+vcf_subset-2.0.0.dist-info/RECORD,,
