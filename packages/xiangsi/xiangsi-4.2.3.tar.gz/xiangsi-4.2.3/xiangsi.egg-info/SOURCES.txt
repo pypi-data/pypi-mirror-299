@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+xiangsi/__init__.py
+xiangsi/func.py
+xiangsi/main.py
+xiangsi/stoptext_en.txt
+xiangsi/stoptext_zh.txt
+xiangsi.egg-info/PKG-INFO
+xiangsi.egg-info/SOURCES.txt
+xiangsi.egg-info/dependency_links.txt
+xiangsi.egg-info/requires.txt
+xiangsi.egg-info/top_level.txt
