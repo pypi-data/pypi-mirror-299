@@ -1,0 +1,13 @@
+codeformer_kit/__init__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+codeformer_kit/codeformer.py,sha256=bbleNx3EOu-rBBJgBtqJFfQGUU7pCpAFW97Oh7SsgAU,2209
+codeformer_kit/archs/__init__.py,sha256=OonqFPyA6ApvDeYThm7wbSp18Jjh6o5PXrVxD9QaTlg,1676
+codeformer_kit/archs/arch_util.py,sha256=l23pD2nx_rHXnTkmUul72BNSnJOmpEEM8rv1S3aRYVw,18228
+codeformer_kit/archs/codeformer_arch.py,sha256=H_gZFmKvZUAfDJL0sKDVHRhdmTbgRyXvMo9iT9O9DUI,17966
+codeformer_kit/archs/vqgan_arch.py,sha256=tYOu7spx-bXdnKwcNxLrdaD0dX8Hc2ydRkaoJZTRHSs,30829
+codeformer_kit/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codeformer_kit/ops/dcn/__init__.py,sha256=hRIIDDP-LPeyoXqswYwtsJh1RMIg5mEyLNtP6yJsiDQ,305
+codeformer_kit/ops/dcn/deform_conv.py,sha256=HuXolMozs_c-y5nS7L886HXe-ipsv2YEJDZuHa921xg,15573
+codeformer_kit-0.0.1.dist-info/METADATA,sha256=BC4zclQ5Iqwn3mw-a80MJlQpP7eFYdI2bkpgVoQhwoo,931
+codeformer_kit-0.0.1.dist-info/WHEEL,sha256=XRxW4r1PNiVhMpP4bT9oWtu3HyndxpJ84SkubFgzp_Y,109
+codeformer_kit-0.0.1.dist-info/top_level.txt,sha256=8SxQtmD8L_uYjp609yZkdH70EYSf2LXpS454aSYG-S0,15
+codeformer_kit-0.0.1.dist-info/RECORD,,
