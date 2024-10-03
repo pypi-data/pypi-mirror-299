@@ -1,0 +1,3 @@
+[console_scripts]
+fabric-testing-fetch = fabrictesting.test_job.fetch:main
+fabric-testing-submit = fabrictesting.test_job.submit:main
