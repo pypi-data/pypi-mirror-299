@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: clspack
+Version: 0.0.1
+Summary: clspack is a python library that packagizes python classes
+Home-page: https://github.com/not-lain/clspack
+Author-email: hhichri60@gmail.com
+License: Apache 2.0 License
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.9
+Requires: setuptools
+Requires: wheel
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# clspack
+clspack is a python library that packagizes python classes
