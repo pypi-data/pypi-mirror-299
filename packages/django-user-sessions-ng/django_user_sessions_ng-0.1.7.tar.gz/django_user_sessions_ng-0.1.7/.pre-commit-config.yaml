@@ -1,0 +1,48 @@
+default_language_version:
+  python: "3.12"
+default_stages: [pre-commit]
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: check-added-large-files
+        args:
+          - --maxkb=5000
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-json
+      - id: check-toml
+      - id: check-xml
+      - id: check-yaml
+        args:
+          - --allow-multiple-documents
+      - id: debug-statements
+      - id: check-builtin-literals
+      - id: check-case-conflict
+      - id: detect-private-key
+      - id: check-ast
+      - id: mixed-line-ending
+
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.4.0
+    hooks:
+      - id: pyupgrade
+        files: ^src/
+        args: ["--py311-plus"]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.4
+    hooks:
+      - id: ruff
+        args: [ --config=pyproject.toml, --fix ]
+        files: ^src/
+      - id: ruff-format
+        args: [ --config=pyproject.toml ]
+        files: ^src/
+
+  - repo: https://github.com/pycqa/bandit
+    rev: 1.7.5
+    hooks:
+      - id: bandit
+        files: ^src/django_user_sessions_ng
+        args: ["-iii", "-ll", "-s=B308,B703"]

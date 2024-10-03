@@ -1,0 +1,72 @@
+[project]
+name = "django-user-sessions-ng"
+description = "Django User Sessions NG - a Django package to manage multiple user sessions."
+version = "0.1.7"
+requires-python = ">=3.12"
+keywords = ["django", "sessions", "session-management", "django-user-sessions-ng"]
+authors = [{name = "yujin", email = "root@yujin.io"}]
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { file = "LICENSE" }
+dependencies = [
+    "django",
+    "django-admin-autocomplete-filter",
+    "django-ipware",
+    "user-agents",
+]
+
+[project.urls]
+Repository = "https://github.com/yujinio/django-user-sessions-ng"
+
+[project.optional-dependencies]
+testing = [
+    "pytest>=8.3.3",
+    "pytest-django>=4.9.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/django_user_sessions_ng"]
+
+[tool.uv]
+dev-dependencies = [
+    "bandit>=1.7.10",
+    "geoip2>=4.8.0",
+    "pyright>=1.1.383",
+    "ruff>=0.6.8",
+]
+
+[tool.ruff]
+fix = true
+include = ['.pyi']
+line-length = 119
+show-fixes = true
+target-version = "py312"
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 119
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
+
+[tool.pyright]
+include = ["src"]
+venvPath = "."
+venv = ".venv"
+
+[tool.ruff.lint.isort]
+known-first-party = [
+  "django_user_sessions_ng",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+python_files = [
+  "tests.py",
+  "test_*.py",
+  "*_test.py",
+]
