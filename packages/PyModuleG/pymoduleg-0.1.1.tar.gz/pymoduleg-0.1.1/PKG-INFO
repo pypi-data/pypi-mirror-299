@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PyModuleG
+Version: 0.1.1
+Summary: Automatically generate Python modules from a script based on specified imports and function names.
+Home-page: https://github.com/AIM-IT4/PyModule
+Author: Amit Kumar Jha
+Author-email: jha.8@iitj.ac.in
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astunparse
+
+# PyModule
+
+PyModule is a Python package that automatically generates modules from a given Python script based on specified imports and function names.
+
+## Features
+
+- Extracts specified functions from a script.
+- Includes specified import statements in each generated module.
+- Generates separate `.py` files for each function.
+
+## Installation
+
+```bash
+pip install PyModule
