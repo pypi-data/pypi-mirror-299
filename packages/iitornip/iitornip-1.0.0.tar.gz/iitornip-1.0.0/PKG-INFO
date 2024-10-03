@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: iitornip
+Version: 1.0.0
+Summary: A Python-based tool to check IP addresses are or are not Tor nodes.
+Home-page: https://github.com/vkvbit/iitornip
+Download-URL: https://github.com/vkvbit/iitornip
+Author: Vaibhav Kumar
+Author-email: Vaibhav Kumar <myselfv@hotmail.com>
+License: MIT
+Keywords: iitornip,onion,tor,tor nodes,tor exit nodes
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IITORNIP
+Is it TOR Node IP (iitornip)
+
+
+## About
+This is a python library for find details about a Tor node via IP address.
+
+
+## Usage
+
+- Clone the repo
+  ```
+  git clone https://github.com/vkvbit/iitornip.git
+  cd iitornip
+  ```
+- Install IITORNIP
+  ```
+  pip install .
+  ```
+- Update IITORNIP database
+  ```
+  iitornip -u
+  ```
+- Run IITORNIP
+  ```
+  iitornip -i <ip address>
+  ```
