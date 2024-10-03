@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+xcytxs_setup/__init__.py
+xcytxs_setup.egg-info/PKG-INFO
+xcytxs_setup.egg-info/SOURCES.txt
+xcytxs_setup.egg-info/dependency_links.txt
+xcytxs_setup.egg-info/entry_points.txt
+xcytxs_setup.egg-info/requires.txt
+xcytxs_setup.egg-info/top_level.txt
