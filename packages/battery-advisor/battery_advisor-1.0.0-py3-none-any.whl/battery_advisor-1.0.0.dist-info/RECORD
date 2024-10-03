@@ -1,0 +1,17 @@
+LICENSE,sha256=Q8mjmZ6Xd3Y7PK7RwEblwFqwW5TnICE5YavWQkJgV2I,1073
+battery_advisor/__init__.py,sha256=nYLkeA91EZypq9MYqUqii5Sp879wUT85GA3rBaK_b4M,67
+battery_advisor/battery_advisor.py,sha256=v9SSxWxx1Pdfsw1rJUg7RkZeUFinaSDRmP_5OjXvogo,4602
+battery_advisor/entry.py,sha256=ZmMHGVnAJUqPeB5ttqKNeXFatwmk31gVPDJ7S72tisY,87
+battery_advisor/gui/alerts.py,sha256=R2GYzXxiFoc2FxUWwKX7pGIqOJmg0X0CySBBS3WGKxU,1407
+battery_advisor/notifications.py,sha256=F_X3PY9uwNs7Ry8-OaNXx_O9BZpYHljLWOSt9RLD8XM,883
+battery_advisor/settings_loader.py,sha256=WNtDuiHee-65tehlGrbP2Vi_dR32OWmGIJ4r4xvrda0,1997
+battery_advisor/tray.py,sha256=EobwXjCtYlcTKDIhLh7lrF_MsjsAqIVpGLXW6LdGEoM,613
+battery_advisor/types.py,sha256=JuGsfhEWDVn4Bs7M_9YCtotQ9tVKIzto1uJ34fH3wXE,598
+battery_advisor/utils.py,sha256=HBWlg6NxneqAQNey7N8ccrzUyDB2gs-auTmlWXUVDsk,997
+defaultSettings.toml,sha256=cNc9fKrYTA01HOKIg02VGEW4Gb_86wPR940HK7xGo44,1663
+icon.png,sha256=GovjSuSutdXHMgsuPAZw0G1p_FKc-Qwms8x8SG2jxns,408062
+battery_advisor-1.0.0.dist-info/LICENSE,sha256=Q8mjmZ6Xd3Y7PK7RwEblwFqwW5TnICE5YavWQkJgV2I,1073
+battery_advisor-1.0.0.dist-info/METADATA,sha256=KWH4UtjmS7pQd2nH30iu63RGGCJYYsqtfTYhuSm5ceM,794
+battery_advisor-1.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+battery_advisor-1.0.0.dist-info/entry_points.txt,sha256=q6ibB9jwB41jAsPMSpEb16ifxAikLIsBJCdcEMzwvPE,62
+battery_advisor-1.0.0.dist-info/RECORD,,
