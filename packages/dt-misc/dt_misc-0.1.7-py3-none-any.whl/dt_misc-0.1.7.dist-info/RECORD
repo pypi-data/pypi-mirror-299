@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=gP4SFZvWZ7IAtpII5pMNi3x2phQZbc9IQbhWc9orqoM,153
+dt_tools/cli/demos/dt_geoloc_demo.py,sha256=UprYOuteAu1E5LWAR9DBq67lDMq4Vkopj9RpDs9KjLE,3099
+dt_tools/cli/demos/dt_misc_demo.py,sha256=slDyxK5j-5Ma2GmxbD5BFhIuVsNTxKr7wI3883TVBYo,1328
+dt_tools/cli/demos/dt_misc_sound_demo.py,sha256=_Io0cjotnx6rkcKMD0S9czayDmVskh_aqidQpeagl3Y,4427
+dt_tools/cli/demos/dt_weather_demo.py,sha256=21Od_kJrkeaXXoDZFPQQTOSWnR7QQiDE6iuIwxqiK0Y,584
+dt_tools/misc/census_geoloc.py,sha256=Ts2_c2KO-U6SwZOYARR9e6p_Cgy4c7THOI1-zF0DkEE,4806
+dt_tools/misc/geoloc.py,sha256=eC776x-xn8faBpeLzLZqTEpJcVJdAQ2W-s3dfJwaSH0,12378
+dt_tools/misc/sound.py,sha256=1Xoz1vHoXpMHgOOJgaJE8Kol2F49168DaPnSuN6mwm8,5472
+dt_tools/misc/weather.py,sha256=4V4dWM_8HQXiFuQoqZZSBjSR7cUt4Lzhe2d7UP3sa-Y,11124
+dt_misc-0.1.7.dist-info/LICENSE,sha256=AVeIkO7I2fJdNKsSTtCtUnGlGrKAYmwl_966MoLAz8s,1078
+dt_misc-0.1.7.dist-info/METADATA,sha256=1sLFvFuXDc_IzXASUdoHGB32dDUsAwdwZf8M-v8vZGY,2367
+dt_misc-0.1.7.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dt_misc-0.1.7.dist-info/RECORD,,
