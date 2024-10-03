@@ -1,0 +1,8 @@
+modeltrans_tabs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modeltrans_tabs/admin.py,sha256=5-7d-2Oobh_GkDJ0w9WHhtlkeGe92yuqdvvN7jdgJwE,3045
+modeltrans_tabs/apps.py,sha256=n0vMpEehvLqty38SuQJyoIc_daFdPCd9YeTfC_8mby0,153
+modeltrans_tabs/static/modeltrans_tabs/i18n_tabs.css,sha256=XHEqEbVnjHk02srms7xLeyqER_JS4QFl5x46Y2rY5Jc,950
+modeltrans_tabs/static/modeltrans_tabs/i18n_tabs.js,sha256=7gTKzaktRE5U434KTFYSVWqQHl5Dgvx4X_yb_JBeLPE,10317
+django_modeltrans_tabs-0.1.1.dist-info/METADATA,sha256=v7jkfbK8SNoejZac2KzbCQ5h6-PfFerN4OXEbQr8_S8,2888
+django_modeltrans_tabs-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_modeltrans_tabs-0.1.1.dist-info/RECORD,,
