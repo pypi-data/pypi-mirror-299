@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: pyeuvac
+Version: 0.0.1b1
+Summary: Python implementation of models of the ultraviolet radiation spectrum of the Sun
+Author-email: Anton Tatarnikov <tatarnikoffanton@yandex.ru>, Oleg Zolotov <ovz.office@gmail.com>
+Project-URL: Homepage, https://github.com/klklklo/pyeuvac
+Keywords: Solar radiation model,EUV
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: importlib-resources
+Requires-Dist: netcdf4
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: xarray
+
+# pyeuvac
+<!--Basic information-->
+pyeuvac is a Python3 implementation of models of the ultraviolet radiation spectra of the Sun described by P. G. Richards, 
+J. A. Fennelly, D. G. Torr. The EUV model describes variations in the 5–105 nm spectral region.
+
+
+If you use pyeuvac or EUVAC model directly or indirectly, please, cite in your research the following paper:
+
+1. Richards, P. G., J. A. Fennelly, and D. G. Torr (1994), EUVAC: A solar EUV Flux Model for aeronomic calculations, 
+J. Geophys. Res., 99(A5), 8981-8992. https://doi.org/10.1029/94JA00518
+
+# User's guide
+
+<!--Users guide-->
+
+## Installation
+
+The following command is used to install the package:
+
+```
+python -m pip install pyeuvac
+```
+
+pyeuvac is the name of the package.
+
+
+
