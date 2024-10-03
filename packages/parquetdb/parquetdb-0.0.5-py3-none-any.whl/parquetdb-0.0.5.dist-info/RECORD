@@ -1,0 +1,13 @@
+parquetdb/__init__.py,sha256=i-pDNdSTdTMxyuRLfVI1wAo0xBdr0uE_HEdNQyXwLYw,98
+parquetdb/_version.py,sha256=EJB7__SNK9kQS_SWZB_U4DHJ3P8ftF6etZEihTYnuXE,411
+parquetdb/core.py,sha256=x2R5_6XbExgvmbgcBQKhc26o_SjwtXYo7LY2GOI3dao,41639
+parquetdb/parquet_datasetdb.py,sha256=AsqaLNE6zSfzksfyXIfNCzeUg-y6Mna_Izf4VzwgT38,38230
+parquetdb/parquetdb.py,sha256=VwxuNcGBCk8vXopwfA2a5UEdj9v0xJkUKmG7gni4_yw,14978
+parquetdb/pyarrow_utils.py,sha256=eD4x0VBVQ305MHSs3W0zN_rpt8TKF9fRjoP8evb6oiM,9110
+parquetdb/types.py,sha256=1jm8Bcd9PlDo_99h3WuZ_h42o3Of5SxO8wzJW1AKQUM,410
+parquetdb/utils.py,sha256=qXmOWyLfcDjKceSEfsetQdUbTwBdHP2PoNJpcB4AFuY,1254
+parquetdb-0.0.5.dist-info/LICENSE,sha256=RcGznHSD6cVpdOFIt9Wluq7qDhe5-zCVhYILtlh3fcs,1064
+parquetdb-0.0.5.dist-info/METADATA,sha256=4l0JB1KjlksSaNunsYPsAHlUBS9QNn5Wb42PJtwlpCY,9151
+parquetdb-0.0.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+parquetdb-0.0.5.dist-info/top_level.txt,sha256=8LPTcNXV25cdI4hvn-xg_4oKQixZ9uy112ZRiEjKiT0,10
+parquetdb-0.0.5.dist-info/RECORD,,
