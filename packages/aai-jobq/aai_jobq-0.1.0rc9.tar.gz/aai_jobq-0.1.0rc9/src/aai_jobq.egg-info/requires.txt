@@ -1,0 +1,17 @@
+pydantic
+pyyaml
+
+[cli]
+docker
+humanize
+rich
+pydantic-settings
+python-dateutil
+
+[dev]
+build
+ruff
+pytest
+pytest-cov
+pre-commit
+click
