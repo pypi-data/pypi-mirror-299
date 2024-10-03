@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: textual_worldmap
+Version: 0.2.0
+Summary: A worldmap widget for the textual library
+Home-page: https://github.com/michaelmeer/textual-worldmap
+Author: Michael Meer
+Author-email: fmichael.meer@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pyproj (>=3.6.1,<4.0.0)
+Requires-Dist: textual (>=0.80.1,<0.81.0)
+Project-URL: Documentation, https://michaelmeer.github.io/textual-worldmap/
+Project-URL: Repository, https://github.com/michaelmeer/textual-worldmap
+Description-Content-Type: text/markdown
+
+# textual-worldmap
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A worldmap widget for the textual library.
+The map and the coordinate conversion is based on:
+https://github.com/HenrySeed/Terminal-World-Map
+Thanks @HenrySeed!
+
+![Screenshot](resources/Worldmap_Widget_Demo.png)
+
+- **Github repository**: <https://github.com/michaelmeer/textual-worldmap/>
+- **Documentation** <https://michaelmeer.github.io/textual-worldmap/>
+
+
+
+
+Repository initiated with [fpgmaas/cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).
