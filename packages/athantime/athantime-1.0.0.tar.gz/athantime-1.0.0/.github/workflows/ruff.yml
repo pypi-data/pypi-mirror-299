@@ -1,0 +1,21 @@
+name: Ruff Lint
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+    - name: Lint with Ruff
+      run: |
+        pip install ruff
+        ruff check --output-format=github .
+      continue-on-error: true

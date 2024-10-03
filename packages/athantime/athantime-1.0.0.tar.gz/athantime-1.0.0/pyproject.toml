@@ -1,0 +1,44 @@
+[project]
+name = "athantime"
+version = "1.0.0"
+authors = [
+  {name = "abunimeh", email = "asd1815@gmail.com"},
+]
+
+description = "Calculate and Generate Athan and Salah Times"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+getathan = "athantime:start"
+
+[project.urls]
+Homepage = "https://github.com/abunimeh/athantime"
+Documentation = "https://github.com/abunimeh/athantime"
+Repository = "https://github.com/abunimeh/athantime.git"
+"Bug Tracker" = "https://github.com/abunimeh/athantime/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[tool.ruff]
+exclude = [ "tests/",]
+src = ["src",]
+line-length = 100
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["D104", ]
+
+[tool.ruff.lint]
+select = [ "D", "W", "F", "I", "C", "B",]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
