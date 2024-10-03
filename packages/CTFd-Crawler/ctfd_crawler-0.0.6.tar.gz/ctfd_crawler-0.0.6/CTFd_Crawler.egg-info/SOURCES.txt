@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+CTFd_Crawler.egg-info/PKG-INFO
+CTFd_Crawler.egg-info/SOURCES.txt
+CTFd_Crawler.egg-info/dependency_links.txt
+CTFd_Crawler.egg-info/requires.txt
+CTFd_Crawler.egg-info/top_level.txt
