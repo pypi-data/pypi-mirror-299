@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: organize-files
+Version: 0.1.0
+Summary: A simple Python file organizer to categorize files by extension
+Home-page: https://github.com/shivain2393/file-organizer-python
+Author: Shivain Sagar
+Author-email: shivain.sagar@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# File Organizer
+
+A simple Python tool to organize files by their extensions (e.g., Music, Videos, Documents, and Images).
+
+## Installation
+
+Install using pip:
+
+```bash
+pip install file-organizer
