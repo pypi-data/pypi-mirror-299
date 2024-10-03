@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dict2str
+Version: 0.0.1
+Summary: convert dictionary to markdown, html and txt.
+Home-page: https://github.com/arcturus-script/dict2str
+Author: ARCTURUS
+Author-email: ice99125@qq.com
+License: MIT Licence
+Keywords: dict,markdown,html,txt
+Platform: any
+
+A tool supports converting dictionary to markdown, html and txt.
