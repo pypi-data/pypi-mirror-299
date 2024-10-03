@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: robotframework-RainyLibrary
+Version: 1.0.0
+Summary: rainy common library for robot framework
+Home-page: https://gitlab.com/wpchagorn24/robotframework-rainylibrary
+Author: watchagorn pattummee
+Author-email: wpchagorn24@gmail.com
+Keywords: RainyWebCommon,RainyCommon,RainyAppCommon,RainyLibrary
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: robotframework (==5.0)
+Requires-Dist: robotframework-browsermobproxylibrary (==0.1.3)
+Requires-Dist: robotframework-browser (==12.2.0)
+Requires-Dist: robotframework-debuglibrary (==2.2.2)
+Requires-Dist: robotframework-databaselibrary (==1.2.4)
+Requires-Dist: robotframework-datadriver (==1.6.0)
+Requires-Dist: robotframework-datetime-tz (==1.0.6)
+Requires-Dist: robotframework-faker (==5.0.0)
+Requires-Dist: robotframework-seleniumlibrary (==5.1.3)
+Requires-Dist: robotframework-seleniumtestability (==1.1.0)
+Requires-Dist: robotframework-pdf2textlibrary (==1.0.1)
+Requires-Dist: robotframework-pabot (==2.5.3)
+Requires-Dist: robotframework-requests (==0.9.4)
+Requires-Dist: robotframework-sshlibrary (==3.8.0)
+Requires-Dist: robotframework-robocop (==2.0.2)
+Requires-Dist: robotframework-jsonlibrary (==0.3.1)
+Requires-Dist: robotframework-imaplibrary2 (==0.4.0)
+Requires-Dist: robotframework-excellib (==2.0.1)
+Requires-Dist: robotframework-appiumlibrary (==1.6.3)
+Requires-Dist: robotframework-csvlibrary (==0.0.5)
+Requires-Dist: RESTinstance (==1.3.0)
+Requires-Dist: jsonpath2 (==0.4.4)
+Requires-Dist: pyzxing (==1.0.2)
+Requires-Dist: PyMySQL (==1.0.2)
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: DateTime (==4.3)
+Requires-Dist: openpyxl (==3.0.9)
+Requires-Dist: certifi (==2022.9.24)
+Requires-Dist: cx-Oracle (==8.3.0)
+Requires-Dist: opencv-python (==4.5.5.62)
+
+# RainyLibrary
+ rainy common keyword for robot framework
