@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: image_processing-nai
+Version: 0.0.1
+Summary: Image Processing Package using Skimage
+Home-page: https://github.com/Nai-nailinha/package-template
+Author: Enaile
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==1.21.0
+Requires-Dist: matplotlib==3.4.3
+Requires-Dist: scikit-image==0.18.3
+
+# image-processing
+
+## DescriÃ§Ã£o
+
+O pacote `image-processing` fornece funcionalidades para processamento bÃ¡sico de imagens, incluindo comparaÃ§Ã£o de
+similaridade, redimensionamento de imagens, ajuste de histogramas e plotagem de imagens e histogramas.
+
+## Funcionalidades
+
+### MÃ³dulo `processing`
+
+- **`combination.py`**:
+    - `find_difference(image1, image2)`: Encontra a diferenÃ§a estrutural entre duas imagens.
+    - `transfer_histogram(image1, image2)`: Transfere o histograma de uma imagem para outra.
+
+- **`transformation.py`**:
+    - `resize_image(image, proportion)`: Redimensiona uma imagem para uma determinada proporÃ§Ã£o.
+
+### MÃ³dulo `utils`
+
+- **`io.py`**:
+    - `read_image(path, is_gray)`: LÃª uma imagem a partir de um caminho.
+    - `save_image(image, path)`: Salva uma imagem para um caminho especÃ­fico.
+
+- **`plot.py`**:
+    - `plot_image(image)`: Plota uma Ãºnica imagem.
+    - `plot_result(*args)`: Plota vÃ¡rias imagens lado a lado.
+    - `plot_histogram(image)`: Plota o histograma de uma imagem RGB.
+
+## InstalaÃ§Ã£o
+
+1. Clone o repositÃ³rio para a sua mÃ¡quina local:
+    ```bash
+    git clone https://github.com/Nai-nailinha/package-template.git
+    ```
+
+2. Navegue para o diretÃ³rio do pacote:
+    ```bash
+    cd image-processing
+    ```
+
+3. Instale o pacote:
+    ```bash
+    pip install .
+    ```
+
+## Autor
+
+Enaile Lopes
