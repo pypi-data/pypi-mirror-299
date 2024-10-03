@@ -1,0 +1,41 @@
+[project]
+name = "fhir-tbs"
+description = "Topic-Based Subscription context for python aiohttp web applications"
+readme = "README.md"
+license = { file = "LICENSE.md" }
+keywords = ["fhir", "tbs"]
+dynamic = ["version"]
+authors = [
+  { name = "beda.software", email = "fhir-tbs-py@beda.software" },
+]
+dependencies = [
+  "fhirpy>=2.0.12",
+  "aiohttp>=3.10.5",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+r4b = ["fhirpy-types-r4b"]
+r5 = ["fhirpy-types-r5"]
+
+[project.urls]
+homepage = "https://github.com/beda-software/fhir-tbs-py"
+documentation = "https://github.com/beda-software/fhir-tbs-py#readme"
+repository = "https://github.com/beda-software/fhir-tbs-py.git"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
