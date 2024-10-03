@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rkt-mlops-common
+Version: 1
+Summary: doc1
+Home-page: https://git.rockfin.com/RKT-DI/rkt-mlops-common-lib.git
+Author: RKT Plex
+Author-email: RKT-DI ML Platform <dataenablement@rocketmortgage.com>
+License: test
+Requires-Dist: pyyaml
+Requires-Dist: GitPython
+Requires-Dist: boto3
+Requires-Dist: sagemaker
+Requires-Dist: cachetools
+Requires-Dist: requests
+
+test
