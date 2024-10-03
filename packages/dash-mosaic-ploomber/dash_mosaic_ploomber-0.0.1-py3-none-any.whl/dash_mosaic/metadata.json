@@ -1,0 +1,45 @@
+{
+  "src/lib/components/DashMosaic.react.js": {
+    "description": "",
+    "displayName": "DashMosaic",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "spec": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "The spec object to be visualized.",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      },
+      "uri": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The URI for the database connector. If empty, uses wasmConnector.\nIf starts with 'ws', uses socketConnector. If starts with 'http', uses restConnector.",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
