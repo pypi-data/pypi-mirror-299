@@ -1,0 +1,15 @@
+batt-utility
+numpy
+pandas
+pathlib
+pydantic
+scipy
+typing_extensions
+
+[:python_version < "3.11"]
+strenum
+
+[testing]
+setuptools
+pytest
+pytest-cov
