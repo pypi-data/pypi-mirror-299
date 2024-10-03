@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: tangly
+Version: 3.0.1
+Home-page: https://github.com/rafa-rrayes/
+Author: Rafa Rayes
+Author-email: rafa@rayes.com.br
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+┏━━━━┓┏━━━┓ ┏━┓ ┏┓┏━━━┓ ┏┓   ┏┓  ┏┓
+┃┏┓┏┓┃┃┏━┓┃ ┃ ┗┓┃┃┃┏━┓┃ ┃┃   ┃┗┓┏┛┃
+┗┛┃┃┗┛┃┃ ┃┃ ┃┏┓┗┛┃┃┃ ┗┛ ┃┃   ┗┓┗┛┏┛
+  ┃┃  ┃┗━┛┃ ┃┃┗┓ ┃┃┃┏━┓ ┃┃ ┏┓ ┗┓┏┛
+  ┃┃  ┃┏━┓┃ ┃┃ ┃ ┃┃┗┻━┃ ┃┗━┛┃  ┃┃ 
+  ┗┛  ┗┛ ┗┛ ┗┛ ┗━┛┗━━━┛ ┗━━━┛  ┗┛
+Big Thanks to @salt for helping me out.
+"""
+IF THE TEXTS HERE ARE SCRAMBLED IT IS PROBABLY BECAUSE OF THE SOFTWARE YOU USED TO VIEW THIS FILE, INSIDE PYTHON EVERYTHING WILL BE OK.
+CHECK THE GITHUB PAGE TO VIEW IT BETTER
+""" 
+
+To install it simply use 
+```
+pip install tangly
+```
+Then to import it we use:
+```
+import tangly
+```
+
+
+See what we can do to display a table with students and scores:
+
+```
+people = [["Name", "Last Name", 'Age', "Number"],
+	   ["Nath", "Dezem", '20', '137'],
+	   ["Rafa", "Rayes",'19', '4976'],
+       ['Johny', 'Dias', '22', '1234']]
+```
+Here we defined our list of students and their respective scores.
+To display this as a table we use the 'table()' command:
+```
+print_table(my_list)
+```
+This will be the output:
+```
+┌───────┬──────────────────────────┐
+│ Name  │ Last Name   Age   Number │
+├───────┼──────────────────────────┤
+│ Nath  │ Dezem       20    137    │
+│ Rafa  │ Rayes       19    4976   │
+│ Johny │ Dias        22    1234   │
+└───────┴──────────────────────────┘
+```
+You can controll which collumns and rows are separated using a similar nested list, like so [[0,2],[0,1]]. By default this is [[0],[0]] which means only the first row and first collumn are separated.
+
+```
+table(my_list, [[0,2],[0,1]] )
+
+```
+
+This will be the output:
+
+```
+┌───────┬───────────┬──────────────┐
+│ Name  │ Last Name │ Age   Number │
+├───────┼───────────┼──────────────┤
+│ Nath  │ Dezem     │ 20    137    │
+│ Rafa  │ Rayes     │ 19    4976   │
+├───────┼───────────┼──────────────┤
+│ Johny │ Dias      │ 22    1234   │
+└───────┴───────────┴──────────────┘
+```
+This was done in 2019 when I was learning python, im sure no one will ever do this. I updated it now because I was too ashamed of my old code.
+
+Current version = 2.1.1
