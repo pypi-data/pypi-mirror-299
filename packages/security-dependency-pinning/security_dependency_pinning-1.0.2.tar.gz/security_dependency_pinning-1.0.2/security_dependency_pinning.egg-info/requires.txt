@@ -1,0 +1,22 @@
+certifi>=2024.2.2
+click
+pip>=24.0
+requests[security]>=2.32.0
+toml
+urllib3>=2.2.0
+zipp>=3.19.1
+
+[:sys_platform != "win32"]
+uwsgi>=2.0.21
+
+[test]
+black
+codecov
+coloredlogs
+coverage
+flake8
+mypy
+pytest
+pytest-cov
+pytest-runner
+readme_renderer
