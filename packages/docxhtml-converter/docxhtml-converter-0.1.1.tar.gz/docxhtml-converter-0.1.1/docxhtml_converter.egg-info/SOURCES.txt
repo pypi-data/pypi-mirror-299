@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+docxhtml_converter/__init__.py
+docxhtml_converter/docxhtml.py
+docxhtml_converter/htmldocx.py
+docxhtml_converter.egg-info/PKG-INFO
+docxhtml_converter.egg-info/SOURCES.txt
+docxhtml_converter.egg-info/dependency_links.txt
+docxhtml_converter.egg-info/entry_points.txt
+docxhtml_converter.egg-info/requires.txt
+docxhtml_converter.egg-info/top_level.txt
