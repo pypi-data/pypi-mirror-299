@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: denokv
+Version: 0.0.0a0.dev0
+Summary: Connect to Deno KV databases from Python.
+Home-page: https://github.com/h4l/denokv-python
+License: MIT
+Author: Hal Blackburn
+Author-email: hwtb2@cam.ac.uk
+Requires-Python: >=3.12,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3,<4)
+Requires-Dist: foundationdb (>=6.2.4,<7.0.0)
+Requires-Dist: protobuf (>=5.27.3,<6.0.0)
+Requires-Dist: v8serialize (>=0.1.0,<0.2.0)
+Requires-Dist: yarl (>=1,<2)
+Project-URL: Documentation, https://github.com/h4l/denokv-python
+Project-URL: Repository, https://github.com/h4l/denokv-python
+Description-Content-Type: text/markdown
+
+# Deno KV Python — pypi: [`denokv`](https://pypi.org/project/denokv/)
+
+**Connect to Deno KV databases from Python.** `denokv` implements the KV Connect protocol, which lets Python programs connect to either the [Deno-hosted KV](https://deno.com/kv), or [self-hosted Deno KV server](https://github.com/denoland/denokv).
+
