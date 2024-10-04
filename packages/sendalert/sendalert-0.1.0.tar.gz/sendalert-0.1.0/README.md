@@ -1,0 +1,52 @@
+# SendAlert.io Python Package
+
+A simple Python package for sending alerts using SendAlert.io.
+
+## Installation
+
+```sh
+pip install sendalert
+```
+
+## Authentication
+
+Before using the package, you need to set your SendAlert.io API key. There are two recommended ways to do this:
+
+### Option 1: Set as an environment variable
+
+Set your API key as an environment variable:
+
+```sh
+export SENDALERT_API_KEY=your_api_key_here
+```
+
+### Option 2: Set in your Python script
+
+Alternatively, you can set the API key at the beginning of your Python script:
+
+```python
+import os
+import sendalert
+
+os.environ["SENDALERT_API_KEY"] = "your_api_key_here"
+```
+
+Make sure to keep your key safe.
+
+## Usage
+
+After setting the API key, you can use the package like this:
+
+```python
+import sendalert
+
+sendalert.sendalert("Your alert message")
+```
+
+You can also specify the mode:
+
+```python
+sendalert.sendalert("Your warning message", mode="warning")
+```
+
+`mode` (optional, default="info"): The alert mode (e.g., "info", "warning", "error")
