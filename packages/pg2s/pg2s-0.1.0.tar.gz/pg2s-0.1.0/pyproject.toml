@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pg2s"
+version = "0.1.0"
+authors = [
+  { name="Michele Brienza", email="brienza@diag.uniroma1.it" },
+  { name="Francesco Argenziano", email="argenziano@diag.uniroma1.it" },
+]
+description = "pg2s metric implementation"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy==1.26.4",
+    "sentence-transformers==3.1.1",
+    "gensim==4.3.3",
+    "spacy==3.7.5"
+]
+
+[project.urls]
+Homepage = "https://lab-rococo-sapienza.github.io/map-vlm/"
