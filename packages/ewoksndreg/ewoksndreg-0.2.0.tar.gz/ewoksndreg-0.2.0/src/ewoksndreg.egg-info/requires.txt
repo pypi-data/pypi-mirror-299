@@ -1,0 +1,48 @@
+numpy<2,>=1.15
+silx>=1.1.2
+pyopencl
+ewoksdata>=0.1
+ewoksorange>=0.1.2
+ewoks[orange]>=0.1
+packaging
+scipy>=1.5.4
+scikit-image>=0.19
+
+[:python_version < "3.8"]
+pyyaml!=6.0.2rc1,>=5.1
+
+[:python_version <= "3.9"]
+importlib-resources
+
+[dev]
+pytest>=7
+pyqt5>=5.15.9
+black>=22
+flake8>=4
+
+[doc]
+pytest>=7
+pyqt5>=5.15.9
+sphinx>=4.5
+sphinx-autodoc-typehints>=1.16
+pydata-sphinx-theme>=0.14.4
+
+[doc:python_version <= "3.7"]
+simpleitk==2.2.1
+
+[doc:python_version >= "3.8"]
+kornia>=0.7.0
+simpleitk>=2.2.1
+
+[full]
+
+[full:python_version <= "3.7"]
+simpleitk==2.2.1
+
+[full:python_version >= "3.8"]
+kornia>=0.7.0
+simpleitk>=2.2.1
+
+[test]
+pytest>=7
+pyqt5>=5.15.9

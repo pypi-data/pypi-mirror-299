@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ewoksndreg
+Version: 0.2.0
+Summary: Workflows for data registration (e.g. curve, image and volume registration).
+Home-page: https://gitlab.esrf.fr/workflow/ewoksapps/ewoksndreg
+Author: ESRF
+Author-email: wout.de_nolf@esrf.fr
+License: MIT
+Project-URL: Source, https://gitlab.esrf.fr/workflow/ewoksapps/ewoksndreg
+Project-URL: Documentation, https://ewoksndreg.readthedocs.io/
+Project-URL: Tracker, https://gitlab.esrf.fr/workflow/ewoksapps/ewoksndreg/issues/
+Keywords: orange3 add-on,ewoks
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy<2,>=1.15
+Requires-Dist: silx>=1.1.2
+Requires-Dist: pyopencl
+Requires-Dist: ewoksdata>=0.1
+Requires-Dist: ewoksorange>=0.1.2
+Requires-Dist: ewoks[orange]>=0.1
+Requires-Dist: packaging
+Requires-Dist: importlib-resources; python_version <= "3.9"
+Requires-Dist: pyyaml!=6.0.2rc1,>=5.1; python_version < "3.8"
+Requires-Dist: scipy>=1.5.4
+Requires-Dist: scikit-image>=0.19
+Provides-Extra: full
+Requires-Dist: kornia>=0.7.0; python_version >= "3.8" and extra == "full"
+Requires-Dist: simpleitk==2.2.1; python_version <= "3.7" and extra == "full"
+Requires-Dist: simpleitk>=2.2.1; python_version >= "3.8" and extra == "full"
+Provides-Extra: test
+Requires-Dist: pytest>=7; extra == "test"
+Requires-Dist: pyqt5>=5.15.9; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pytest>=7; extra == "dev"
+Requires-Dist: pyqt5>=5.15.9; extra == "dev"
+Requires-Dist: black>=22; extra == "dev"
+Requires-Dist: flake8>=4; extra == "dev"
+Provides-Extra: doc
+Requires-Dist: pytest>=7; extra == "doc"
+Requires-Dist: pyqt5>=5.15.9; extra == "doc"
+Requires-Dist: kornia>=0.7.0; python_version >= "3.8" and extra == "doc"
+Requires-Dist: simpleitk==2.2.1; python_version <= "3.7" and extra == "doc"
+Requires-Dist: simpleitk>=2.2.1; python_version >= "3.8" and extra == "doc"
+Requires-Dist: sphinx>=4.5; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints>=1.16; extra == "doc"
+Requires-Dist: pydata-sphinx-theme>=0.14.4; extra == "doc"
+
+# ewoksndreg
+
+Workflows for data registration (e.g. curve, image and volume registration).
+
+
+## Installation
+
+``` python
+pip install ewoksndreg
+```
+
+``` python
+pip install ewoksndreg[full]
+```
+
+## Documentation
+
+https://ewoksndreg.readthedocs.io/
+
+
+
