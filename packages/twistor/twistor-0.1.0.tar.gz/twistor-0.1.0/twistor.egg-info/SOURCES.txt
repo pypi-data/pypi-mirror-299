@@ -1,0 +1,9 @@
+README.md
+setup.py
+twistor/__init__.py
+twistor/bot.py
+twistor.egg-info/PKG-INFO
+twistor.egg-info/SOURCES.txt
+twistor.egg-info/dependency_links.txt
+twistor.egg-info/requires.txt
+twistor.egg-info/top_level.txt
