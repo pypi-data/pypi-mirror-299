@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: archdoc-toolkit
+Version: 0.1.0
+Summary: 
+Author: alexeev-dev
+Author-email: bro.alexeev@inbox.ru
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pycolor-palette-loguru (>=0.1.4,<0.2.0)
+Description-Content-Type: text/markdown
+
+
