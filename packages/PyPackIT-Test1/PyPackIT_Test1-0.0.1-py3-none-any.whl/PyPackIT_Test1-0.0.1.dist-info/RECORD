@@ -1,0 +1,13 @@
+pypackit_test1/__init__.py,sha256=iiBTrtHD-KYpTvcJiICGG8dSizYVPYzU5hIUyKPZfvw,1927
+pypackit_test1/__main__.py,sha256=8POmEHoCKb9aPlz_z1DcIXVw6SN4fBu0tVjgyB8pdaw,857
+pypackit_test1/py.typed,sha256=o_skYYOgBqbwMt-5lUZDunyM7CcemHaJt2k9MsSACeY,61
+pypackit_test1/data/__init__.py,sha256=cZ1n9JMZoTQIgE85GYBs1I2qMvnSXvVZK0n03IOkYIw,777
+pypackit_test1/data/__test_file__,sha256=OtX2W1Wf04UjUOCg7nJkCCX3oV4OR7zzvmgYsFAkrsA,100
+pypackit_test1/exception/__init__.py,sha256=ah_upvFvcprwKj2WIEeCXyQky5_kjZIkLdIdbuzJJHw,155
+pypackit_test1/exception/data.py,sha256=vyuMgVd7eo7zWS9Ft3Tt9Rm-kWS9WxLQ-1O9e93WzMA,915
+PyPackIT_Test1-0.0.1.dist-info/LICENSE,sha256=f49I5CZqqP0wM9-qS7f26DpgxuCZ-C1JWbgd6Q5nzY8,34503
+PyPackIT_Test1-0.0.1.dist-info/METADATA,sha256=U_zjWWfvY6JSfku0241In6Xa3I5C_Q7wLc74MFUkN5E,51385
+PyPackIT_Test1-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+PyPackIT_Test1-0.0.1.dist-info/entry_points.txt,sha256=aqOLvVRv0kYhJNUtVjGpEgaNHcBjdwTueRenVXzMvV8,59
+PyPackIT_Test1-0.0.1.dist-info/top_level.txt,sha256=3TV2ELUDKxJEldIHe76Hl-UnzHb5lXuDkGc1rPtg-6c,15
+PyPackIT_Test1-0.0.1.dist-info/RECORD,,
