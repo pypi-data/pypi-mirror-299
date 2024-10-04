@@ -1,0 +1,46 @@
+#Declaring the build backend
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+#Project's meta data
+[project]
+version = "5.0.4"
+name = "RSeQC"
+authors = [
+  {name="Liguo Wang", email="wangliguo78@gmail.com"},
+  {name="Shengqin Wang", email="wzsqwang@gmail.com"},
+  {name="Wei Li", email="superliwei@gmail.com"},
+]
+maintainers = [
+  {name = "Liguo Wang", email = "wangliguo78@gmail.com"}
+]
+description = "QC package for RNA-seq data."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.5"
+
+dependencies = [
+	"pysam",
+	"bx-python",
+	"numpy",
+	"pyBigWig",
+	"logomaker",
+]
+
+classifiers=[
+	"Programming Language :: Python :: 3",
+	'Development Status :: 5 - Production/Stable',
+	"License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+	'Environment :: Console',
+	'Intended Audience :: Science/Research',
+	'Operating System :: MacOS :: MacOS X',
+	'Operating System :: POSIX',
+	'Programming Language :: Python',
+	'Topic :: Scientific/Engineering :: Bio-Informatics',
+]
+
+keywords = ["RNA-seq", "QC"]
+
+[project.urls]
+Documentation = "http://rseqc.sourceforge.net/"

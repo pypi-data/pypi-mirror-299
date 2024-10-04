@@ -1,0 +1,5 @@
+pysam
+bx-python
+numpy
+pyBigWig
+logomaker
