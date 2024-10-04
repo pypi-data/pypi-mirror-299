@@ -1,0 +1,10 @@
+inmanta_plugins/aws/__init__.py,sha256=eCk027JAk9Rv3I8MB_4Fhy3E1OdyYph2gM3Ct5n0gJ8,62076
+inmanta_plugins/aws/setup.cfg,sha256=8weJVy8u6ytvYyzdKA8QbYK4QSNBtEyWS_iv1UhrDVA,738
+inmanta_plugins/aws/model/_init.cf,sha256=Zbnjzedi0tk2wslcikFLoTs3eRbfoQEIE19yBVq9QWI,8029
+inmanta_plugins/aws/model/analytics.cf,sha256=2Crpx3iSwEnoMIuEi0JqMD3E6gGT61jyjwNFRWZbrog,1393
+inmanta_plugins/aws/model/database.cf,sha256=VczbIc8gahFrcPcEdjW21BivG0Eq_TWRoTUsIF-V418,1214
+inmanta_plugins/aws/model/os.cf,sha256=pujSKh47_5GyzicfWUxqQn4vTXFog-Zjhq1P0U59xMg,808
+inmanta_module_aws-4.0.6.dist-info/METADATA,sha256=a8iqIWecfHCpumtL7VQCsA62TDy6803SNR4dRbnMGUk,181
+inmanta_module_aws-4.0.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+inmanta_module_aws-4.0.6.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_aws-4.0.6.dist-info/RECORD,,
