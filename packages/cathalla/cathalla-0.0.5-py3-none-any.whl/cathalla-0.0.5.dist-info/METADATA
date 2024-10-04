@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: cathalla
+Version: 0.0.5
+Summary: The Valhalla of Python
+Home-page: https://impalah.github.io/cathalla/
+License: MIT
+Keywords: valhalla,python
+Author: impalah
+Author-email: impalah@gmail.com
+Requires-Python: >=3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://impalah.github.io/cathalla/
+Project-URL: Repository, https://github.com/impalah/cathalla
+Project-URL: Source, https://github.com/impalah/cathalla
+Description-Content-Type: text/markdown
+
+# cathalla
+
+The Valhalla of Python
+
+Warning: This is a joke... or not.
+
+## Documentation
+
+See https://impalah.github.io/cathalla/
+
+## Installation
+
+Installing from PyPI:
+
+```bash
+pip install cathalla
+```
+
+Or from the awesome source code:
+```bash
+git clone git@github.com:impalah/cathalla.git
+```
+
+## Usage
+
+From the Python shell::
+
+```bash
+import cathalla
+```
+
+Enjoy the wisdom!
+
+## Contributing
+
+Clearly, the code that generates `CATHALLA` is too straightforward.
+
+If you can make it better, then do so.
+
+
