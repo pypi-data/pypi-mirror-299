@@ -1,0 +1,5 @@
+[console_scripts]
+tok2me=tok2me.cli:main
+tok2me-eval=tok2me.eval.main:main
+tok2me-server=tok2me.server.cli:main
+
