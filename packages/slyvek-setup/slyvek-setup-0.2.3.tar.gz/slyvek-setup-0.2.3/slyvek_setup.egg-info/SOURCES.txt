@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+slyvek_setup/__init__.py
+slyvek_setup/main.py
+slyvek_setup.egg-info/PKG-INFO
+slyvek_setup.egg-info/SOURCES.txt
+slyvek_setup.egg-info/dependency_links.txt
+slyvek_setup.egg-info/entry_points.txt
+slyvek_setup.egg-info/requires.txt
+slyvek_setup.egg-info/top_level.txt
+slyvek_setup/scripts/__init__.py
+slyvek_setup/scripts/backup.sh
+slyvek_setup/scripts/slyvek.sh
+slyvek_setup/templates/__init__.py
+slyvek_setup/templates/nginx-backup.conf

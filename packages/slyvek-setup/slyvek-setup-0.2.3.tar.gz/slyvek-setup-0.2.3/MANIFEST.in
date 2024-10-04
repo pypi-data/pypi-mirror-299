@@ -1,0 +1,2 @@
+include slyvek_setup/scripts/*.sh
+include slyvek_setup/templates/*
