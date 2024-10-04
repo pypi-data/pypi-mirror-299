@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: joywins123
+Version: 0.0.1
+Summary: A short description of your package
+Home-page: https://github.com/JoyWins123/password_make_sample
+Author: joywins
+Author-email: joywins123@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+this is for practice only.
+See you soon!!!
