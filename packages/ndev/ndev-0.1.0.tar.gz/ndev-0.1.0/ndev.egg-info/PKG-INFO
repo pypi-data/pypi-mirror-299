@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ndev
+Version: 0.1.0
+Summary: Python projects management toolset
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cleo
+Requires-Dist: pydantic>=2.9.2
+
+# ndev
+
+Set of tools that helps to manage development lifecycle. This set contains tools for:
+
+- managing releases
+- _work in progress..._
