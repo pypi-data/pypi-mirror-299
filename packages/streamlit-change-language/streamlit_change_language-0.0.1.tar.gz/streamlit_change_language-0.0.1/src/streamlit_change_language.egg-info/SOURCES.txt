@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/streamlit_change_language/__init__.py
+src/streamlit_change_language/change_language.py
+src/streamlit_change_language/config.ini
+src/streamlit_change_language/config.py
+src/streamlit_change_language/replace.py
+src/streamlit_change_language.egg-info/PKG-INFO
+src/streamlit_change_language.egg-info/SOURCES.txt
+src/streamlit_change_language.egg-info/dependency_links.txt
+src/streamlit_change_language.egg-info/requires.txt
+src/streamlit_change_language.egg-info/top_level.txt

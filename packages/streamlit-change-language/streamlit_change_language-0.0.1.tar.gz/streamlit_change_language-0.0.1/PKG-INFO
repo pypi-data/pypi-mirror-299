@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: streamlit_change_language
+Version: 0.0.1
+Summary: 支持streamlit内置组件中的文本中英文切换
+Home-page: 
+Author: py_yzy
+Author-email: 3215574613@qq.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit>=1.38.0
+Requires-Dist: configparser
+
+# streamlit_change_language
+`streamlit_change_language`支持streamlit内置组件中的文本中英文切换的库.
+
+功能特点：
+
+- 支持streamlit内置组件中的文本中英文切换
