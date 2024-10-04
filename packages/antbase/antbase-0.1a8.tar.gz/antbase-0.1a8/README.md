@@ -1,0 +1,181 @@
+# ПАКЕТ antbase
+
+### Сборка
+
+1. Встаем в голову проекта
+
+   ```
+   cd ~/Projects/antbase
+   ```
+2. В файлк setup.py меняем номер версии
+3. В файле MANIFEST.in указываем, что грузим, а что нет
+
+   ```
+   pip install setuptools wheel		# установить пакеты, если их нет
+   pip install twine
+
+   prm -rf dist/				# очистит папку с дистрибутивом
+   python setup.py sdist bdist_wheel	# сформировать дистрибутив
+   twine check dist/*			# проверить дистрибутив
+   twine upload dist/*			# закачка на pypi
+
+   ```
+4. Эта команда создаст два файла в папке `dist/`:
+
+   * `antbase-0.1a4.tar.gz` (исходный код)
+   * `antbase-0.1a4-py3-none-any.whl` (wheel-файл)
+5. После внесения изменений обновить пакет можно командами
+
+   ```
+   python setup.py sdist bdist_wheel
+   twine upload dist/*
+   ```
+
+### Установка
+
+```
+pip install antbase --upgrade
+
+```
+
+### Удаление
+
+```
+pip uninstall antbase
+```
+
+### Тестирование
+
+1. Тестовые скрипты запускаются из фолдера с тестами
+
+### Песочница
+
+1. Структура Пеосчницы аналогичка структуре Тестов. Запускается всё также как и тесты.
+
+## МОДУЛИ
+
+### Модуль base
+
+#### auth
+
+#### bc
+
+#### db
+
+#### drive
+
+#### dt
+
+#### gas
+
+#### im
+
+#### kp
+
+#### log
+
+#### she
+
+#### tg
+
+### Модуль bot
+
+#### actor
+
+#### goal
+
+#### job
+
+#### order
+
+#### part
+
+#### target
+
+#### task
+
+### Модуль сhain
+
+#### cahin
+
+#### frame
+
+#### key
+
+#### meta
+
+#### metadata
+
+#### r
+
+#### sdo
+
+#### sko
+
+### Модуль cli
+
+#### main
+
+### Модуль type
+
+#### comand
+
+#### entity
+
+#### executiion
+
+#### finance
+
+#### item
+
+#### lot
+
+#### order
+
+### Модуль sand
+
+#### bc
+
+#### db
+
+#### drive
+
+#### dt
+
+#### gas
+
+#### im
+
+#### kp
+
+#### log
+
+#### she
+
+#### tg
+
+### Модуль test
+
+#### bc
+
+#### db
+
+#### drive
+
+#### dt
+
+#### gas
+
+#### im
+
+#### kp
+
+#### log
+
+#### she
+
+#### tg
+
+## ШРИФТЫ
+
+## ИЗОБРАЖЕНИЯ
