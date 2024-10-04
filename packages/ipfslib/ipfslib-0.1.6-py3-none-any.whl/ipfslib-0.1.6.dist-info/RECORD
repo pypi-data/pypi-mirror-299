@@ -1,0 +1,17 @@
+ipfslib/__init__.py,sha256=bHX_4JTC1bZW7i1AGSWGQgVNt5zanC6zLm2PLJw9AwI,105
+ipfslib/connect.py,sha256=CblXdXzKRv35SwzLEJdodCD_aDRrYbrHP7WHkWCEPPQ,797
+ipfslib/IPFS/__init__.py,sha256=Vp6l1HDPiitD_MJ7GH3tou4Se71uupEofEG1Wgj7FYA,176
+ipfslib/IPFS/add.py,sha256=h6UC5b8XZT_KvQEnKV5vVNRCNynEYsdDba37jTNsFdE,593
+ipfslib/IPFS/cat.py,sha256=6d3nfKJcTeXXAJxCpj95nrW2qPSDloI1t6aI56HYRUA,908
+ipfslib/IPFS/get.py,sha256=31vtclx8ukoDEUEePB7L-f9c_aQT8ip5Y7F5LA968aE,439
+ipfslib/IPFS/rem.py,sha256=NvoGK1U5-qkc27Cvapg6cYCj_I34klkaI71p5S7Gdgc,322
+ipfslib/IPFS/resolve.py,sha256=9-GLSIfkj3f_d9T4t4goE-hPlxTP3uKxNKEM4XG8_gQ,365
+ipfslib/Key/__init__.py,sha256=8eyQyWIQz4IOwSsvOOPJSwf8GckaVCFFgvj5RXfrWGQ,156
+ipfslib/Key/generate.py,sha256=JF8WfjWfPRbOCt8aco4OAZoNii2Pw3nfpGzxK1j3jzc,421
+ipfslib/Key/list.py,sha256=9GCfGyhFaIQPYdk5eSWmKr2ASJY1nJ_1eaVjeqcLHqQ,331
+ipfslib/Key/publish.py,sha256=_SqC9GuwxdOE0GzPSd9xPiIh8rXL3FFlWNxAH0BrtJM,622
+ipfslib/Key/rename.py,sha256=IG58CMsXu8Wn73Kz4xH5Xag2DZ15Xu5-yA44yasacIk,359
+ipfslib-0.1.6.dist-info/METADATA,sha256=hmGEPrQ5N_iS8WaQaJBw3e0UPKOkFhgYEm-gDPIV8gA,4574
+ipfslib-0.1.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ipfslib-0.1.6.dist-info/top_level.txt,sha256=WU8KTi9CdH3QpBgs9rhGbYEKgXC5S2R1rjkWoBO1XCU,8
+ipfslib-0.1.6.dist-info/RECORD,,
