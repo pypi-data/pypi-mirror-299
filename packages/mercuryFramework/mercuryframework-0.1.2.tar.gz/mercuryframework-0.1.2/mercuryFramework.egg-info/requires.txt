@@ -1,0 +1,5 @@
+numpy
+pandas
+binance-connector
+dataclasses
+hermesConnector
