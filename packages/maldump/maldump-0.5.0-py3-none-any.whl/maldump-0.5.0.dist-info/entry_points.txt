@@ -1,0 +1,5 @@
+[console_scripts]
+maldump = maldump.__main__:main
+
+[gui_scripts]
+
