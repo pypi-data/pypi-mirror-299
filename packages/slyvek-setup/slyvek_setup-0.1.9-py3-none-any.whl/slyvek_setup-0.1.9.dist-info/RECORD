@@ -1,0 +1,12 @@
+slyvek_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slyvek_setup/main.py,sha256=Lvc_iGIBa_xlTMt-RaFO1vRbS1Zg7FflGg8YqZPni_U,8388
+slyvek_setup/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slyvek_setup/scripts/backup.sh,sha256=sN_mha4r4SiP-6ZT3gJ_pfHQv_ftMhf8k5O5k93-apA,8099
+slyvek_setup/scripts/slyvek.sh,sha256=7IqQLUnblGyPRgN1iuFp-09R95yJHw1uF3CzpEhVseo,7889
+slyvek_setup/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slyvek_setup/templates/nginx-backup.conf,sha256=n-AglacF2n_jA154f6RM-SlBBOTMEZGLFLYzYQ5-bAM,2284
+slyvek_setup-0.1.9.dist-info/METADATA,sha256=gv9NIgCbheXcgPOECNSO5KfJTFpbSlnN2B_Bvseao_Q,141
+slyvek_setup-0.1.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+slyvek_setup-0.1.9.dist-info/entry_points.txt,sha256=Mxb2ArXXHyj_wER31eb1B_cpNVirw25veaNFdL-sqYc,56
+slyvek_setup-0.1.9.dist-info/top_level.txt,sha256=n4s7nLehEUNgpfVs-zim1x9IPWlG_o6Y4PeBwlsMdnw,13
+slyvek_setup-0.1.9.dist-info/RECORD,,
