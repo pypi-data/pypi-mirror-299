@@ -1,0 +1,5 @@
+setup.py
+robbiblubber.egg-info/PKG-INFO
+robbiblubber.egg-info/SOURCES.txt
+robbiblubber.egg-info/dependency_links.txt
+robbiblubber.egg-info/top_level.txt
