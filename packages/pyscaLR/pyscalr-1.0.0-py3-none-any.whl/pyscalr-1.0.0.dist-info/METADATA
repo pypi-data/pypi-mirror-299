@@ -1,0 +1,253 @@
+Metadata-Version: 2.3
+Name: pyscaLR
+Version: 1.0.0
+Summary: scaLR: Single cell analysis using low resource.
+Project-URL: Repository, https://github.com/infocusp/scaLR.git
+Project-URL: Homepage, https://github.com/infocusp/scaLR
+Project-URL: Issues, https://github.com/infocusp/scaLR/issues
+Author-email: Infocusp <saurabh@infocusp.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Requires-Dist: absl-py==2.1.0
+Requires-Dist: anndata==0.10.7
+Requires-Dist: array-api-compat==1.6
+Requires-Dist: asttokens==2.4.1
+Requires-Dist: certifi==2022.12.7
+Requires-Dist: charset-normalizer==2.1.1
+Requires-Dist: cloudpickle==3.0.0
+Requires-Dist: comm==0.2.2
+Requires-Dist: contourpy==1.2.1
+Requires-Dist: cycler==0.12.1
+Requires-Dist: debugpy==1.8.1
+Requires-Dist: decorator==5.1.1
+Requires-Dist: exceptiongroup==1.2.1
+Requires-Dist: executing==2.0.1
+Requires-Dist: filelock==3.13.1
+Requires-Dist: fonttools==4.51.0
+Requires-Dist: fsspec==2024.2.0
+Requires-Dist: grpcio==1.62.2
+Requires-Dist: h5py==3.11.0
+Requires-Dist: idna==3.4
+Requires-Dist: importlib-metadata==7.1.0
+Requires-Dist: importlib-resources==6.4.0
+Requires-Dist: ipykernel==6.29.4
+Requires-Dist: ipython==8.18.1
+Requires-Dist: jedi==0.19.1
+Requires-Dist: jinja2==3.1.3
+Requires-Dist: joblib==1.4.0
+Requires-Dist: jupyter-client==8.6.1
+Requires-Dist: jupyter-core==5.7.2
+Requires-Dist: kiwisolver==1.4.5
+Requires-Dist: llvmlite==0.42.0
+Requires-Dist: markdown==3.6
+Requires-Dist: markupsafe==2.1.5
+Requires-Dist: matplotlib-inline==0.1.7
+Requires-Dist: matplotlib-venn==1.1.1
+Requires-Dist: matplotlib==3.8.4
+Requires-Dist: memory-profiler==0.61.0
+Requires-Dist: mpmath==1.3.0
+Requires-Dist: munkres==1.1.4
+Requires-Dist: natsort==8.4.0
+Requires-Dist: nest-asyncio==1.6.0
+Requires-Dist: networkx==3.2.1
+Requires-Dist: numba==0.59.1
+Requires-Dist: numpy==1.26.4
+Requires-Dist: nvidia-cublas-cu11==11.11.3.6
+Requires-Dist: nvidia-cuda-cupti-cu11==11.8.87
+Requires-Dist: nvidia-cuda-nvrtc-cu11==11.8.89
+Requires-Dist: nvidia-cuda-runtime-cu11==11.8.89
+Requires-Dist: nvidia-cudnn-cu11==8.7.0.84
+Requires-Dist: nvidia-cufft-cu11==10.9.0.58
+Requires-Dist: nvidia-curand-cu11==10.3.0.86
+Requires-Dist: nvidia-cusolver-cu11==11.4.1.48
+Requires-Dist: nvidia-cusparse-cu11==11.7.5.86
+Requires-Dist: nvidia-nccl-cu11==2.19.3
+Requires-Dist: nvidia-nvtx-cu11==11.8.86
+Requires-Dist: olefile==0.47
+Requires-Dist: packaging==24.0
+Requires-Dist: pandas==2.2.2
+Requires-Dist: parso==0.8.4
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: pillow==10.2.0
+Requires-Dist: pip==23.3.1
+Requires-Dist: platformdirs==4.2.1
+Requires-Dist: prompt-toolkit==3.0.43
+Requires-Dist: protobuf==5.26.1
+Requires-Dist: psutil==5.9.8
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pure-eval==0.2.2
+Requires-Dist: pydeseq2==0.4.9
+Requires-Dist: pygments==2.17.2
+Requires-Dist: pyparsing==3.0.9
+Requires-Dist: pyqt5-sip==12.13.0
+Requires-Dist: pyqt5==5.15.10
+Requires-Dist: pytest==8.3.2
+Requires-Dist: python-dateutil==2.9.0
+Requires-Dist: pytz==2024.1
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: pyzmq==26.0.2
+Requires-Dist: requests==2.28.1
+Requires-Dist: scanpy==1.10.1
+Requires-Dist: scikit-learn==1.4.2
+Requires-Dist: scipy==1.13.0
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: setuptools==68.2.2
+Requires-Dist: shap==0.45.0
+Requires-Dist: sip==6.5.1
+Requires-Dist: six==1.16.0
+Requires-Dist: slicer==0.0.7
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: statsmodels==0.14.1
+Requires-Dist: sympy==1.12
+Requires-Dist: tensorboard-data-server==0.7.2
+Requires-Dist: tensorboard==2.16.2
+Requires-Dist: threadpoolctl==3.4.0
+Requires-Dist: toml==0.10.2
+Requires-Dist: torch==2.2.0
+Requires-Dist: torchaudio==2.2.0
+Requires-Dist: torchvision==0.17.0
+Requires-Dist: tornado==6.4
+Requires-Dist: tqdm==4.64.1
+Requires-Dist: traitlets==5.14.3
+Requires-Dist: triton==2.2.0
+Requires-Dist: typing-extensions==4.9.0
+Requires-Dist: tzdata==2024.1
+Requires-Dist: unicodedata2==15.1.0
+Requires-Dist: urllib3==1.26.13
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: werkzeug==3.0.2
+Requires-Dist: wheel==0.41.2
+Requires-Dist: yapf==0.40.2
+Requires-Dist: zipp==3.17.0
+Description-Content-Type: text/markdown
+
+<left><img src="ScaLR_logo1.png" width="150" height="180"></left>
+
+# Single-cell analysis using Low Resource (scaLR) 
+
+<!-- [![Paper](https://img.shields.io/badge/Paper-insert_paper_id_here-white)]() -->
+[![GitHub](https://img.shields.io/github/license/InFoCusp/scaLR)](https://github.com/infocusp/scaLR?tab=GPL-3.0-1-ov-file#)
+
+## 📖 Overview 
+
+<b>scaLR</b> is a comprehensive end-to-end pipeline that is equipped with a range of advanced features to streamline and enhance the analysis of scRNA-seq data. The major steps of the platform are:
+
+1. <b>Data Processing</b>: Large datasets undergo preprocessing and normalization (if the user opts to) and are segmented into training, testing, and validation sets.
+
+2. <b>Features Extraction</b>: A model is trained on feature subsets in a batch-wise process, so all features and samples are utilized in the feature selection process. Then, the top-k features are selected to train the final model, using a feature score based on the model's coefficients/weights.
+
+3. <b>Training</b>: A Deep Neural Network (DNN) is trained on the training dataset. The validation dataset is used to validate the model at each epoch and early stopping is performed if applicable. Also, a batch correction method is available to correct batch effects during training in the pipeline.
+
+4. <b>Evaluation & Downstream Analysis</b>: The trained model is evaluated using the test dataset by calculating metrics such as precision, recall, f1-score, and accuracy. Various visualizations such as ROC curve of class annotation, feature rank plots, heatmap of top genes per class, DGE analysis, and gene recall curves are generated.
+
+The following flowchart explains the major steps of the scaLR platform.
+
+![image.jpg](Schematic-of-scPipeline.jpg)
+
+## Pre-requisites and installation scaLR
+
+
+- ScalR can be installed using Conda or pip. It is tested in Python 3.9 and recommended to use that environment.
+
+```
+conda create -n scaLR_env python=3.9
+```
+
+- Clone the git repository and install the required packages by activating the conda environment.
+
+```
+conda activate scaLR_env
+
+pip install -r requirements.txt
+```
+
+## Input Data
+- Currently the pipeline expects all datasets in [anndata](https://anndata.readthedocs.io/en/latest/tutorials/notebooks/getting-started.html) formats (`.h5ad` files only).
+- The anndata object should contain cell samples as `obs` and genes as `var`.
+- `adata.X`: contains all gene counts/expression values.
+- `adata.obs`: contains any metadata regarding cells, including a column for `target` which will be used for classification. The index of `adata.obs` is cell_barcodes.
+- `adata.var`: contains all gene_names as Index.
+
+             
+## How to run
+
+1. It is necessary that the user modify the configuration file and each stage of the pipeline is available inside the config folder [config.yml] or [full_config.yml] as per your requirements. Simply omit/comment out stages of the pipeline you do not wish to run.
+2. Refer config.yml & it's detailed config [README](config_README.md) file on how to use different parameters and files.
+3. Then use the `pipeline.py` file to run the entire pipeline according to your configurations. This file takes as argument the path to config (`-c | --config`), and an optional flag to log all parts of the pipelines (`-l | --log`).
+4. `python pipeline.py --config /path/to/config -c config.yaml -l` to run the scaLR.
+
+
+## Interactive tutorials
+Detailed tutorials have been made on how to use some functionalities as a scaLR library. Find the links below.
+
+- [Normalization](tutorials/preprocessing/normalization.ipynb)
+- [Batch correction](tutorials/preprocessing/batchc_correction.ipynb)
+- [Gene recall curve](tutorials/analysis/gene_recall_curve/gene_recall_curve.ipynb)
+- [Differential gene expression analysis](tutorials/analysis/differential_gene_expression/dge.ipynb)
+- [SHAP analysis](tutorials/analysis/shap_analysis/shap_heatmap.ipynb)
+
+## Experiment Output Structure
+- **pipeline.py**:
+The main script that perform end to end run.
+    - `exp_dir`: root experiment directory for the storage of all step outputs of the platform specified in the config.
+    - `config.yml`: copy of config file to reproduce the user defined experiment.
+
+- **data_ingestion**:
+Reads the data, and splits it into Train/Validation/Test sets for the pipeline. Then performs sample-wise normalization on the data.
+    - `exp_dir`
+        - `data`
+            - `train_val_test_split.json`: contains sample indices for train/validation/test splits.
+            - `label_mappings.json`: contains mappings of all metadata columns between labels and IDs.
+            - `train_val_test_split`: directory containing the train, validation, and test samples and data files.
+
+- **feature_extraction**:
+Performs feature selection and extraction of new datasets containing subset of features.
+    - `exp_dir`
+        - `feature_extraction`
+            - `chunked_models`: contains weights of each model trained on feature subset data (refer to feature subsetting algorithm).
+            - `feature_subset_data`: directory containing the new feature-subsetted train, val, and test samples anndatas.
+            - `score_matrix.csv`: combined scores of all individual models, for each feature and class. shape: n_classes X n_features.
+            - `top_features.json`: a file containing a list of top features selected / to be subsetted from total features.
+
+- **final_model_training**:
+Trains a final model based on `train_datapath` and `val_datapath` in config.
+    - `exp_dir`
+        - `model`
+            - `logs`: directory containing Tensorboard Logs for the training of the model.
+            - `checkpoints`: directory containing model weights checkpointed at every interval specified in config.
+            - `best_model`: the best model checkpoint contains information to use model for inference/resume training.
+                - `model_config.yaml`: config file containing model parameters.
+                - `mappings.json`: contains mapping of class_names to class_ids used by model during training.
+                - `model.pt`: contains model weights.
+
+- **eval_and_analysis**:
+Performs evaluation of best model trained on user-defined metrics on the test set. Also performs various downstream tasks.
+   - `exp_dir`
+        - `analysis`
+            - `classification_report.csv`: contains classification report showing Precision, Recall, F1, and accuracy metrics for each class, on the test set.
+            - `gene_recall_curve.svg`: contains gene recall curve plots.
+            - `gene_recall_curve_info.json`: contains reference genes list which are present in top_K ranked genes per class for each model.
+            - `gene_analysis`
+                - `score_matrix.csv`: score of the final model, for each feature and class. shape: n_classes X n_features.
+                - `top_features.json`: a file containing a list of selected top features/biomarkers.
+            -  `heatmaps`
+                - `class_name.svg`: heatmap for top genes of particular class w.r.t those genes association in other classes. E.g. B.svg, C.svg etc.
+            - `roc_auc.svg`: contains ROC-AUC plot for all classes.
+            - `pseudobulk_dge_result`
+                - `pbkDGE_celltype_factor_categories_0_vs_factor_categories_1.csv`: contains Pseudobulk DGE results between selected factor categories for a celltype.
+                - `pbkDGE_celltype_factor_categories_0_vs_factor_categories_1.svg`: volcano plot of Log2Foldchange vs -log10(p-value) of genes.
+            - `lmem_dge_result`
+                - `lmem_DGE_celltype.csv`: contains LMEM DGE results between selected factor categories for a celltype.
+                - `lmem_DGE_fixed_effect_factor_X.svg`: volcano plot of coefficient vs -log10(p-value) of genes.
+  
+
+<center >
+  <b>scaLR © 2024 Infocusp Innovations</b>
+</center>
+
+<!-- ## Citation
+Will update soon. -->
+
