@@ -1,0 +1,8 @@
+LICENSE
+README.md
+packer.py
+setup.py
+robbiblubber.spellbook.backpack.egg-info/PKG-INFO
+robbiblubber.spellbook.backpack.egg-info/SOURCES.txt
+robbiblubber.spellbook.backpack.egg-info/dependency_links.txt
+robbiblubber.spellbook.backpack.egg-info/top_level.txt
