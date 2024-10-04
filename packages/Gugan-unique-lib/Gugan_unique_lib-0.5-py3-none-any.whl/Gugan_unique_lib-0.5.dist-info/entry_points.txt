@@ -1,0 +1,4 @@
+[console_scripts]
+AVLTree = Gugan_unique_lib:display_avl_tree_from_input
+Addition = GUgan_unique_lib:addition
+Hello = Gugan_unique_lib:hello
