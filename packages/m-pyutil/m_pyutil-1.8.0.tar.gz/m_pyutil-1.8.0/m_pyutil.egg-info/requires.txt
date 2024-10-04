@@ -1,0 +1,6 @@
+
+[mip]
+psutil>=6.0.0
+
+[mmongo]
+pymongo>=4.9.1
