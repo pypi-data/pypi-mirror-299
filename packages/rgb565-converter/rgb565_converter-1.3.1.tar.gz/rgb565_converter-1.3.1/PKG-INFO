@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: rgb565-converter
+Version: 1.3.1
+Summary: Convert a file from png to rgb565 (cpp) and vice versa.
+Home-page: https://github.com/CommanderRedYT/rgb565-converter
+Author: CommanderRedYT
+License: GPLv3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse~=1.4.0
+Requires-Dist: Pillow==10.0.1
+
+# rgb565-converter
+
+[![CI](https://github.com/CommanderRedYT/rgb565-converter/actions/workflows/ci.yaml/badge.svg)](https://github.com/CommanderRedYT/rgb565-converter/actions/workflows/ci.yaml)
+
+A simple script to help converting png files to rgb565 (used in [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI))
+
+## Install
+
+### Archlinux
+
+```bash
+# If you use Archlinux, you can install it from the AUR
+yay -S python-rgb565-converter
+```
+
+### Via Python Packager
+
+```bash
+# Then, install the package
+pip install rgb565-converter
+# or
+pip3 install rgb565-converter
+```
