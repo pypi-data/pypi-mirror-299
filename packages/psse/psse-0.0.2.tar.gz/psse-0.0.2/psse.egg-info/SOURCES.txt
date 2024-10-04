@@ -1,0 +1,9 @@
+README.md
+setup.py
+psse/__init__.py
+psse/helpers.py
+psse/searchengine.py
+psse.egg-info/PKG-INFO
+psse.egg-info/SOURCES.txt
+psse.egg-info/dependency_links.txt
+psse.egg-info/top_level.txt
