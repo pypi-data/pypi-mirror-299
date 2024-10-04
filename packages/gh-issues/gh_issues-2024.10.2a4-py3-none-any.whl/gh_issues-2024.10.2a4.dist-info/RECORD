@@ -1,0 +1,10 @@
+gh_issues/__init__.py,sha256=4gkpcAysFsfRdkmfk_awqp044C9HHUaiyZs7-KSN_5Q,2290
+gh_issues/_api.py,sha256=MTyjivNCkx0IdUK_u727N3i1h_buORp28gl1m7BzXUg,40
+gh_issues/_github.py,sha256=yhGvA88TX2nWXkGrM64ite4dHf3uAhEqBlOXR7dai4U,1280
+gh_issues/_issue_parser.py,sha256=4wn3M_3d_Xt9pk_C-KCYZMslE8X0KfbMQLSYEJiDP8Q,1155
+gh_issues/_repo.py,sha256=pYZkIetdJYVV3Dp2uqxw88PxdxjfKJNjNMWBJVyrsko,594
+gh_issues-2024.10.2a4.dist-info/LICENSE,sha256=aYbK8EleR3wtHNfIyJDmuIykkPUmhlcVPpq12IYwLxQ,1078
+gh_issues-2024.10.2a4.dist-info/METADATA,sha256=bDWXj0T35RppYGzaeuhD-DS_zQQP1DbmB677MhMCLo0,1871
+gh_issues-2024.10.2a4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+gh_issues-2024.10.2a4.dist-info/top_level.txt,sha256=cPWlAnEaRb48l7JdH5Ejc0FIeROhrCP2PNjdazhOe4g,10
+gh_issues-2024.10.2a4.dist-info/RECORD,,
