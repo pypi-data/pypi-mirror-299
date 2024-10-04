@@ -1,0 +1,10 @@
+hatch_bazel_and_pybind11/BUILD.bazel,sha256=_y-5A7qyA2jXZwv334zx7a1GBOZtPnZPqn8McDZAExM,199
+hatch_bazel_and_pybind11/MODULE.bazel,sha256=reQFlLGU8DHDjjHB6_K892jJxKY4HOROFghPHxwMer0,257
+hatch_bazel_and_pybind11/MODULE.bazel.lock,sha256=iQWL_1G-e6ZPRs7qjuCOsO-EnMktL4r5UwzNM1MCVGQ,11095
+hatch_bazel_and_pybind11/__about__.py,sha256=az2NTe-8BU52jlVBlr_9QmetWQ2g24AKtg_xPrMHNdY,132
+hatch_bazel_and_pybind11/__init__.py,sha256=qUOgaVAchW8ci-457dPrLcV4qLNAI_nHWWYs7cJ_cG4,188
+hatch_bazel_and_pybind11/pybind_extension.so,sha256=cMQa7IPVHLMqfLxhqVoz0Hfu6CNoEINdwlLUk5dgpso,781072
+hatch_bazel_and_pybind11-0.0.5.dist-info/METADATA,sha256=a6JP5DIsYr7RPzYQeRb0jBegVCUs2oVuceRbWManu1w,2501
+hatch_bazel_and_pybind11-0.0.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+hatch_bazel_and_pybind11-0.0.5.dist-info/licenses/LICENSE.txt,sha256=sYboIV-5JV4o7jA_OxJS-f6ShWdlJdpRwWQxBh74BMU,1102
+hatch_bazel_and_pybind11-0.0.5.dist-info/RECORD,,
