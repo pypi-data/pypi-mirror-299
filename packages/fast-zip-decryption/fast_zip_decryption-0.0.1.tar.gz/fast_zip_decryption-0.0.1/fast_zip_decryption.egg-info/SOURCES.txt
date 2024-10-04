@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+extension/_zipdecryptermodule.c
+fast_zip_decryption.egg-info/PKG-INFO
+fast_zip_decryption.egg-info/SOURCES.txt
+fast_zip_decryption.egg-info/dependency_links.txt
+fast_zip_decryption.egg-info/top_level.txt
+tests/test_fastzipfile.py
