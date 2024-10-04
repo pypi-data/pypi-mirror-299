@@ -1,0 +1,15 @@
+rest_framework_jwt/__init__.py,sha256=5PGbuIr9dbIprRAJP1uf9lNBhZZ2Jzd0oGyhi0Cm2E8,224
+rest_framework_jwt/authentication.py,sha256=Fn5vCAukgF1KpsZhR4UMQUN8Z6oO3nLVAPiK_HdRfiY,3758
+rest_framework_jwt/compat.py,sha256=NtXo_A7wkoxMgCjm7gSg65fYwMsPcmDZRKyi4Fj_pL4,850
+rest_framework_jwt/models.py,sha256=pVyDPm6SAu-lYcKcFgVuQHvjNermXm9fzHwseTqpuQM,50
+rest_framework_jwt/serializers.py,sha256=J3Ky6TtHWH7lk6Mcx5o0VhfR7C-kmfnGV5Fpiq_mcKg,5318
+rest_framework_jwt/settings.py,sha256=xx8uAm8pzLNjyn-Er5zbBbVN-GSZ-SGlcfYEhTvHlHs,1628
+rest_framework_jwt/test.py,sha256=kkWr7Rh0MwpWXwNbDA1fjSRDuwNQ3-46W3KLOzJb58g,770
+rest_framework_jwt/utils.py,sha256=zEXwUxvs2eMP1Apcw_it5mdLUBrQSYdlBEUgtPW36aM,3834
+rest_framework_jwt/views.py,sha256=PfeKrmpoCv6aS9nKAksXQM3qX5rHXDDSv9yGSY5dfgk,3608
+rest_framework_jwt/locale/en_US/LC_MESSAGES/django.po,sha256=_GfXjqBpKeKXlclYPQR0fhIVQti_9buHjmgnqyuR4fE,1571
+djangorestframework_jwt_joinup-1.12.2.dist-info/LICENSE,sha256=_OvwGlQ2tkiDPApD9N_g23Y18JN35JUDujogpsGL_4I,1081
+djangorestframework_jwt_joinup-1.12.2.dist-info/METADATA,sha256=MMexOGqqt2yGnx1WuRqDd4N_BetLidVANk76H9otSpI,3083
+djangorestframework_jwt_joinup-1.12.2.dist-info/WHEEL,sha256=AHX6tWk3qWuce7vKLrj7lnulVHEdWoltgauo8bgCXgU,109
+djangorestframework_jwt_joinup-1.12.2.dist-info/top_level.txt,sha256=tDhHXFiYpRVqem1Qo5O260T55cz2v2aErJ08R6Y30ew,19
+djangorestframework_jwt_joinup-1.12.2.dist-info/RECORD,,
