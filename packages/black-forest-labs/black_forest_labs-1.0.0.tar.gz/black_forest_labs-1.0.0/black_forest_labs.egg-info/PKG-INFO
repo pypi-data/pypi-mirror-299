@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: black-forest-labs
+Version: 1.0.0
+Summary: Unofficial Black Forest Labs API client
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: httpx>=0.27.2
+Requires-Dist: pydantic>=2.9.2
+Requires-Dist: typing-extensions>=4.12.2
+Provides-Extra: testing
+Requires-Dist: pytest>=8.3.3; extra == "testing"
+Requires-Dist: respx>=0.21.1; extra == "testing"
+
+# Black Forest Labs API Client
+
+This is an unofficial Python client for interacting with the
+[Black Forest Labs API](https://api.bfl.ml/).
+
+```console
+$ export BFL_API_KEY="..."
+```
+
+```python
+import black_forest_labs
+import time
+
+task = black_forest_labs.generate(
+    "flux-pro",
+    prompt="ein fantastisches bild",
+)
+
+print(f"Task created with id `{task.id}`")
+
+print("Polling for results...", end="", flush=True)
+while not task.is_done:
+    print(".", end="", flush=True)
+    task = black_forest_labs.get_result(task.id)
+    time.sleep(1)
+
+print(f"\nTask finished with status `{task.status}`")
+if task.result:
+    print(f"Prompt: {task.result.prompt}")
+    print(f"Image URL: {task.result.sample}")
+
+```
+
+<output>
+
+```
+Task created with id `ce9e065d-dc90-4633-9c1e-44ea839ed569`
+Polling for results............
+Task finished with status `Ready`
+Prompt: ein fantastisches bild
+Image URL: https://bflapistorage.blob.core.windows.net/public/db43e36806f74c1a9c6972127c9d71ea/sample.jpg
+```
+
+</output>
