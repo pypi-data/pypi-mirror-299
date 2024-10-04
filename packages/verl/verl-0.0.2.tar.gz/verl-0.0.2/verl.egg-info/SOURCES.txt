@@ -1,0 +1,8 @@
+README.rst
+setup.py
+./verl/__init__.py
+verl.egg-info/PKG-INFO
+verl.egg-info/SOURCES.txt
+verl.egg-info/dependency_links.txt
+verl.egg-info/requires.txt
+verl.egg-info/top_level.txt

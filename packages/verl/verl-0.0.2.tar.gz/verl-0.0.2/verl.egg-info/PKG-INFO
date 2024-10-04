@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: verl
+Version: 0.0.2
+Summary: VeRL: Volcano Engine Reinforcement Learning for LLM
+Home-page: https://github.com/volcengine/verl
+Author: Bytedance - Seed - MLSys
+Author-email: zhangchi.usc1992@bytedance.com, gmsheng@connect.hku.hk
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: demo
+Provides-Extra: single-controller-ray
+Provides-Extra: single-controller
