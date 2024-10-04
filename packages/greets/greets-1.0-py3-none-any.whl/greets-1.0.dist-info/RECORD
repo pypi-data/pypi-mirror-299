@@ -1,0 +1,9 @@
+greets/English.py,sha256=DEaKw3OhItRv5hZi_tfidIixgrl49fwURy4Dl8-yroo,29
+greets/French.py,sha256=tSngPeRhhPOf9nowmwgct82lm41IKFjmt_ImJhjcHNk,30
+greets/Italian.py,sha256=VR3cxy89Y6phC9I4IDT1wUubAuSGnSfyDVGzM_EmqiY,30
+greets/Spanish.py,sha256=R0CtqrtLhmg8JMV1NdBojGZmQGdBO5GCqsRrUAUQvck,27
+greets/__init__.py,sha256=PHyBveS45XAI8Bs6IoDC0_KAxBpwue0dpH2IYa6ilvI,262
+greets-1.0.dist-info/METADATA,sha256=l131peWJsXRBr872RTFKNNzcU0y5dcwygl6DFqaigp8,91
+greets-1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+greets-1.0.dist-info/top_level.txt,sha256=R3I7G4z_zJxUINCTzeGlHh9dp2-EutSLPcrMj5CRaN4,7
+greets-1.0.dist-info/RECORD,,
