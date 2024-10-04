@@ -1,0 +1,109 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+dynamic = []
+name = "maldump"
+description = "Multi-quarantine extractor"
+authors = [
+    { name = "Erik Kuna, Jež Dominik, Jonáš Novotný, Nikola Knežević" },
+]
+dependencies = [
+    "colorama==0.4.6",
+    "defusedxml==0.7.1",
+    "kaitaistruct==0.10",
+    "arc4==0.4.0",
+    "types-colorama==0.4.15.12",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+version = "0.5.0"
+
+[project.license]
+text = "GPLv3"
+
+[project.urls]
+Homepage = "https://github.com/NUKIB/maldump"
+"Bug Tracker" = "https://github.com/NUKIB/maldump/issues"
+
+[project.scripts]
+maldump = "maldump.__main__:main"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.version]
+source = "file"
+path = "maldump/__main__.py"
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "ruff>=0.6.8",
+    "mypy>=1.11.1",
+    "typing>=3.7.4.3",
+]
+
+[tool.ruff]
+exclude = [
+    "maldump/parsers/kaitai",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "W",
+    "C90",
+    "I",
+    "UP",
+    "YTT",
+    "ASYNC",
+    "S",
+    "BLE",
+    "FBT",
+    "B",
+    "A",
+    "C4",
+    "T10",
+    "EM",
+    "FA",
+    "ISC",
+    "ICN",
+    "LOG",
+    "G",
+    "INP",
+    "PIE",
+    "PYI",
+    "Q",
+    "RSE",
+    "RET",
+    "SLF",
+    "SLOT",
+    "SIM",
+    "TID",
+    "TCH",
+    "INT",
+    "ARG",
+    "PL",
+    "TRY",
+    "FLY",
+    "PERF",
+    "FURB",
+    "RUF",
+]
+ignore = [
+    "ANN101",
+    "ANN102",
+    "S324",
+    "PLE0605",
+    "ISC001",
+]
