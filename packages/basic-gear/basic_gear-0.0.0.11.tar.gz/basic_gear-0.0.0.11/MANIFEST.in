@@ -1,0 +1,3 @@
+include shared_library/*.dll
+include shared_library/*.so
+include shared_library/*.dylib
