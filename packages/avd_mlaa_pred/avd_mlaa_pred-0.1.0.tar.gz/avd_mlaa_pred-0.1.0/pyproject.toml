@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "avd_mlaa_pred"
+version = "0.1.0"
+description = "Experimentation-Predictive"
+authors = ["Prabhakar Ananya <pananya21t@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ananyanaik22/app_1.git"
+repository = "https://github.com/ananyanaik22/app_1.git"
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"
+numpy = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
