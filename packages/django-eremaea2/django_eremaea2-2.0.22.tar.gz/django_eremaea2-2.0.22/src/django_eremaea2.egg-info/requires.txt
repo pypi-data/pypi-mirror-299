@@ -1,0 +1,12 @@
+click
+djangorestframework
+python-magic
+requests
+requests_toolbelt
+
+[dev]
+Django>=4.2
+mock
+pytest
+pytest-django
+requests-mock
