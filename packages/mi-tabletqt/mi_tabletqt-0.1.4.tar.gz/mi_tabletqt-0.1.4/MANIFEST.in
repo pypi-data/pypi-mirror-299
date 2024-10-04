@@ -1,0 +1,2 @@
+include src/tabletlib/log.conf
+include src/tabletlib/config/*.yaml
