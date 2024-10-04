@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: psse
+Version: 0.0.1
+Summary: PSSE
+Author: Sebastian Gonzalez
+Author-email: sebastiang1493@gmail.com
+Keywords: python,psse,search engine,inverted matrix
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+A Python Simple Search Engine (PSSE) for documents using an inverted matrix and Okapi BM25.
