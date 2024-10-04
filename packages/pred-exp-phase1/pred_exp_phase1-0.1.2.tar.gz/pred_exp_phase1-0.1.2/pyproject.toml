@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pred_exp_phase1"
+version = "0.1.2"
+description = "Experimentation-Predictive"
+authors = ["Prabhakar Ananya <pananya21t@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ananyanaik22/app_1.git"
+repository = "https://github.com/ananyanaik22/app_1.git"
+[tool.poetry.dependencies]
+python = '>=3.9'
+pandas = "2.2.2"
+scikit-learn = ">=1.13"
+numpy = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
