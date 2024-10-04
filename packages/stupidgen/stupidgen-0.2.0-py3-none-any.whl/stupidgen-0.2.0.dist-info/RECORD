@@ -1,0 +1,12 @@
+stupidgen/__init__.py,sha256=JumcYRYe2qBuq7cVlEhjJYmlb_JwPp2guIS7pJvX90A,63
+stupidgen/__main__.py,sha256=aLRD6_x0k94eg5PWajGzrd0ZYBFUkRjfD6WDvpJNSKk,5379
+stupidgen/basichandlers.py,sha256=soCv1EyUBoHj84AXmv1wLcfKtxQm_D13K8dvjCSqSBk,4034
+stupidgen/languages.py,sha256=KK2ft_egDvd8E1RgPoEjYT81DhkpsWdPNSJkaCufAQk,2985
+stupidgen/processor.py,sha256=jkvQdazqTBCxg5QYJNMn4YGwfC_KuBXClvVFVerEut8,7502
+stupidgen/stringprocessing.py,sha256=ULhb3h_eJr1lnyHezt2JPPLj25Vqx2f_djWikgjvT90,6089
+stupidgen-0.2.0.dist-info/LICENSE,sha256=lmSRI8h3_ExuZGYugYFYsZfQnwO-1ExBtarvFmCN4Qc,35139
+stupidgen-0.2.0.dist-info/METADATA,sha256=-64t19dNCRmURi14VSQvARDz7RNwE17_UwV0c0Vn1AQ,2836
+stupidgen-0.2.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+stupidgen-0.2.0.dist-info/entry_points.txt,sha256=9Z0-dM4FCVvR4kKcSzjqxfhH3BjUQlWAJM2JIXt4Sqk,54
+stupidgen-0.2.0.dist-info/top_level.txt,sha256=_U-6eiILHOYQAbfaWij-0tdrGPBl9DZDNoyTeFfcLS4,10
+stupidgen-0.2.0.dist-info/RECORD,,
