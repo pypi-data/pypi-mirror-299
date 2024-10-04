@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "xnano"
+version = "0.0.1"
+description = "XNANO"
+authors = ["hammad saeed <hvmmad@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
