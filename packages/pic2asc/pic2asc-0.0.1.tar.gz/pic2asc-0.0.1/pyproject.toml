@@ -1,0 +1,23 @@
+[project]
+name = "pic2asc"
+version = "0.0.1"
+description = "turn pic to ascii with color"
+dependencies = [
+  "Pillow"
+]
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+keywords = ["ascii art","picture"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+pic2asc = "pic2asc:main"
+
+[project.urls]
+"Source" = "https://github.com/Boooooom030/pic2asc"

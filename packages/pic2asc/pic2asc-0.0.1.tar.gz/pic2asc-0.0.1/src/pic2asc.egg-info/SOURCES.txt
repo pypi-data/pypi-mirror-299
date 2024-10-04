@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pic2asc/__init__.py
+src/pic2asc/color.py
+src/pic2asc/pic2asc.py
+src/pic2asc.egg-info/PKG-INFO
+src/pic2asc.egg-info/SOURCES.txt
+src/pic2asc.egg-info/dependency_links.txt
+src/pic2asc.egg-info/entry_points.txt
+src/pic2asc.egg-info/requires.txt
+src/pic2asc.egg-info/top_level.txt
