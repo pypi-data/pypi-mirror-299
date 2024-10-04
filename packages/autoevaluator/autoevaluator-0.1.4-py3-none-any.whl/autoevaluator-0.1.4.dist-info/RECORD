@@ -1,0 +1,8 @@
+autoevaluator/__init__.py,sha256=dkuyGFMZY2k1Unef3UjNMMul9mr7dvkFkkcfinGIxYs,1339
+autoevaluator/client.py,sha256=jVo8H1YW6Xp1Hb7F5TYkpGofWrYvfIkD25SpRha-bMA,318
+autoevaluator/eval.py,sha256=8p-X3pCrLEFZjJpzPxRFD6bHXTWOQuH9oTJ1RAYbwZk,2013
+autoevaluator/simplify.py,sha256=c91taZXD5ZtffCART9Ksdp11dRthttW3dhq3Ygodjyg,1599
+autoevaluator-0.1.4.dist-info/LICENSE,sha256=dhdlsAs1Z8jttggNJSoRqXVB0vBvF37igQUiYABVKh8,1072
+autoevaluator-0.1.4.dist-info/METADATA,sha256=aZSQeLvXStkq4pDZxHHBYwHJgdDgSwFTPJQLX3bKOhM,3016
+autoevaluator-0.1.4.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+autoevaluator-0.1.4.dist-info/RECORD,,
