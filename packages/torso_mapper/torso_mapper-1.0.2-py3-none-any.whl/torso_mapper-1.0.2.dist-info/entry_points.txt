@@ -1,0 +1,3 @@
+[console_scripts]
+torso-mapper=torso_mapper.cli:main
+
