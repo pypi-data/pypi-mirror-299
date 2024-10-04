@@ -1,0 +1,2 @@
+[console_scripts]
+karys_quiz = package.main:main

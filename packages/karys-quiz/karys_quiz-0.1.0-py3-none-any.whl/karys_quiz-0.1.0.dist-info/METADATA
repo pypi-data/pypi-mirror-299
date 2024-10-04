@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: karys_quiz
+Version: 0.1.0
+Summary: Karys trivia quiz library using Open Trivia DB.
+Author: Karys Hautmont
+Author-email: hautmont.karys@gmail.com
+Requires-Dist: requests
+

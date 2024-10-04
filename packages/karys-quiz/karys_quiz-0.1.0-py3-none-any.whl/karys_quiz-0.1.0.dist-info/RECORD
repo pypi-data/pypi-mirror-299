@@ -1,0 +1,10 @@
+package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package/data.py,sha256=KruTFTSrSf4xOV0xhUckocy1n2Hjv3uFF66yeOKQvwU,1077
+package/main.py,sha256=DgervgA4KZBf0mhvALic_eFGs84nLGHy55wqhfDBQhA,929
+package/question_model.py,sha256=0aXGqkXq8oCMrX5-QrDNGz902Enqyb9GplrGzciGy3Q,106
+package/quiz_brain.py,sha256=sOBDLRn0-lbSNKSN2JSqIuswfJDaHAV9-BTxvHRIBcM,920
+karys_quiz-0.1.0.dist-info/METADATA,sha256=OCylsPHbc9e9TMcGg1kyMgol4d2FeIQYa0HeCDXQc6U,198
+karys_quiz-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+karys_quiz-0.1.0.dist-info/entry_points.txt,sha256=MPB06NowEozX8247Aprs4OkQkDL-RxgLToPQYrgIlFs,49
+karys_quiz-0.1.0.dist-info/top_level.txt,sha256=TpQW7893uEAT8mPh-QCMZWhhKYvlqryC9Fjm5Hxg2f8,8
+karys_quiz-0.1.0.dist-info/RECORD,,
