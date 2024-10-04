@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ml4gw-hermes
+Version: 0.2.0
+Summary: Inference-as-a-Service deployment made simple
+Author: Alec Gunny
+Author-email: alec.gunny@ligo.org
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: gcs
+Provides-Extra: tensorflow
+Provides-Extra: tensorrt
+Provides-Extra: torch
+Requires-Dist: google-cloud-storage (>=1.38,<2.0) ; extra == "gcs"
+Requires-Dist: numpy (>=1.22,<2.0)
+Requires-Dist: nvidia-tensorrt (>=8.0,<9.0) ; extra == "tensorrt"
+Requires-Dist: onnx (>=1.15.0,<2.0.0) ; extra == "torch"
+Requires-Dist: protobuf (>=3.17,<4.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: spython (>=0.2,<0.3)
+Requires-Dist: tblib (>=1.7,<2.0)
+Requires-Dist: tensorflow (<2.17) ; extra == "tensorflow"
+Requires-Dist: tf-keras (>=2.16,<2.17) ; extra == "tensorflow"
+Requires-Dist: torch (>=2.0,<3.0) ; extra == "torch"
+Requires-Dist: tritonclient[all] (>=2.22,<3.0)
+Requires-Dist: urllib3 (>=1.26,<2.0) ; extra == "torch"
