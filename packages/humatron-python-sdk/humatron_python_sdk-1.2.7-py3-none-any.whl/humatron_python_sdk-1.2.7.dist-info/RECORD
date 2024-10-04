@@ -1,0 +1,17 @@
+humatron/__init__.py,sha256=WBSPm85RpZMuCVUI4FuhuS5bwGNlQ_Xtu2iY7WfX1u4,1313
+humatron/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+humatron/channels/__init__.py,sha256=X9-pBKx15d6zow3AqdGCgkajuHHLaAOa3-X0k35M2t8,1304
+humatron/channels/rest/__init__.py,sha256=tsGpip-TfJvV56bK2Wmqs8KGYuBNb0eR_xuo8sN54Zw,1295
+humatron/channels/rest/client.py,sha256=sSjpTOefu8DHHGenETjeCymSBh8YIeES0GiG9GJkDZM,15382
+humatron/worker/__init__.py,sha256=FOCeSKYi-6IQK0BXFZY9NL-y7PD5Vny9zAO9Glc5C0k,1288
+humatron/worker/client.py,sha256=6YDp-miuasBnnL6z8FJxTYAVHv5IDTkrSY4yLupxiSA,47998
+humatron/worker/utils.py,sha256=b903mDat2xB6KhkBLxZptJ44EBa76JCdoJ_OU-alBz8,3443
+humatron/worker/rest/__init__.py,sha256=9taSFzGgVS8zOjjer88PSMxJzta2A9V1puJXJz7_ezo,1349
+humatron/worker/rest/utils.py,sha256=123U8wfKZY0Eu-lZUMgoS_vUWo4HH8OYSjX0Ot2sfTA,2234
+humatron/worker/rest/flask/__init__.py,sha256=dHU_4CYCW8HySfHOIUYVsd6-ig-ncy-CRhzYjf4KNKI,1347
+humatron/worker/rest/flask/flask_server.py,sha256=fdy4gWy1kIyEEKfWoU2Fq3QYL6pksiCo9T7jNGjz5n8,7166
+humatron_python_sdk-1.2.7.dist-info/LICENSE.txt,sha256=4hfIwcNArqnXc32s1Oiso26k490793ayi_wLboHr5F4,1084
+humatron_python_sdk-1.2.7.dist-info/METADATA,sha256=_eR0-IMjvSCCSxkMGG3UhTc81wKlMGVek3jHXUyh6k8,2241
+humatron_python_sdk-1.2.7.dist-info/WHEEL,sha256=UvcQYKBHoFqaQd6LKyqHw9fxEolWLQnlzP0h_LgJAfI,91
+humatron_python_sdk-1.2.7.dist-info/top_level.txt,sha256=vxkdxub6mETblksC-8Zt1F28sS_-rDxsXZWeRr1a-NU,114
+humatron_python_sdk-1.2.7.dist-info/RECORD,,
