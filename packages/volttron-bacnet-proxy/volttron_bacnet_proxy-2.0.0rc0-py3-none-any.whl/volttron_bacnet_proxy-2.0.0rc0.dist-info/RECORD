@@ -1,0 +1,8 @@
+IDENTITY,sha256=4b5qlshXyVumeSYAXwjge1Oy3ysBUt2LkkykKm6WvWs,22
+bacnet_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bacnet_proxy/agent.py,sha256=kh4f6fTfeJMw_IhOYnXdkOfwyjtGF8Qzxyt8ndvk3PE,37905
+volttron_bacnet_proxy-2.0.0rc0.dist-info/LICENSE,sha256=TRD-XzqhdrBbIpokiGa61wuDTBc_ElKoFP9HSNihODc,10255
+volttron_bacnet_proxy-2.0.0rc0.dist-info/METADATA,sha256=SezRgUIWVwuv6Ug6EsSnlUF8Im85oHfZAl1k_NOqQD4,4863
+volttron_bacnet_proxy-2.0.0rc0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+volttron_bacnet_proxy-2.0.0rc0.dist-info/entry_points.txt,sha256=RbKMUHAVeA8doTzehbGHMeXBjhCLM9_HWkHMhBx1RzQ,65
+volttron_bacnet_proxy-2.0.0rc0.dist-info/RECORD,,
