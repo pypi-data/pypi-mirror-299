@@ -1,0 +1,2 @@
+include src/tabletlib/log.conf
+recursive-include src/tabletlib/config/*
