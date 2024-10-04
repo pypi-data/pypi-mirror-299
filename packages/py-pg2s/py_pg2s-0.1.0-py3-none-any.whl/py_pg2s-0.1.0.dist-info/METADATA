@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: py-pg2s
+Version: 0.1.0
+Summary: pg2s metric implementation
+Author-email: Michele Brienza <brienza@diag.uniroma1.it>, Francesco Argenziano <argenziano@diag.uniroma1.it>
+Project-URL: Homepage, https://lab-rococo-sapienza.github.io/map-vlm/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy ==1.26.4
+Requires-Dist: sentence-transformers ==3.1.1
+Requires-Dist: gensim ==4.3.3
+Requires-Dist: spacy ==3.7.5
+
+# PG2S
+*A full Python library for the PG2S metric [(paper)](https://arxiv.org/abs/2408.05478).*
+
+
+## Quickstart
+#### Clone & Install
+```shell
+git clone https://github.com/Lab-RoCoCo-Sapienza/pg2s
+cd pg2s
+pip install .
+```
+or from pip:
+```
+pip install pg2s
+```
+#### Usage
+To use the pg2s_score, you need to define:
+
+1. a tuple of list tuples, containing the tasks and for each of them the truth and prediction actions;
+2. an hyperparameter alpha that can be tuned to give more importance to 
+    the goal-wise similarity or to the sentence-wise similarity. Default value is 0.5
+Here is how to call the function in your Python code:
+
+```
+from pg2s.metric import pg2s_score
+
+plans = {
+    "name-task-1": {
+        'truth':[
+            'Action 1',
+            'Action 2',
+            ...
+            'Action N'
+                    ],
+        'predict':[
+            'Action 1',
+            'Action 2',
+            ...
+            'Action M'
+        ]
+    },
+}
+
+# Calculate the similarity score with a custom alpha value
+score = pg2s_score(plans, alpha=0.7)
+print(f"PG2S Score: {score}")
+```
