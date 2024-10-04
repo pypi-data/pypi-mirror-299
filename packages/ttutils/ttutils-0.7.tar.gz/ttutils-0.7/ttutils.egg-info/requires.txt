@@ -1,0 +1,10 @@
+PyYaml
+toml
+python-dateutil
+
+[dev]
+pytest-runner
+pytest
+pytest-cov
+ruff
+mypy
