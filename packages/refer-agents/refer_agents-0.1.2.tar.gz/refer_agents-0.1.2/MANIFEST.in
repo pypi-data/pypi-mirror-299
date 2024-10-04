@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include ReFeR *.py *.json *.md
+recursive-include tests *.py
+global-exclude *.py[cod] __pycache__ *.so .DS_Store
