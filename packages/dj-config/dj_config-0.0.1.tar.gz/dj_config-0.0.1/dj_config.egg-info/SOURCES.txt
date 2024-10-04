@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+dj_config/__init__.py
+dj_config/__version__.py
+dj_config/core.py
+dj_config.egg-info/PKG-INFO
+dj_config.egg-info/SOURCES.txt
+dj_config.egg-info/dependency_links.txt
+dj_config.egg-info/requires.txt
+dj_config.egg-info/top_level.txt
+test/test_django_heroku.py
