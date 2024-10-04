@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: docxhtml-converter
+Version: 0.1.2
+Summary: A package to convert DOCX to HTML and HTML to DOCX with formatting preservation.
+Home-page: https://github.com/MarlNox/docxhtml-converter
+Author: Marl Nox
+Author-email: marlind.maksuti@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+---
+
+# DOCX-HTML Converter
+
+This package provides tools to convert DOCX documents to HTML and HTML back to DOCX, while preserving formatting such as tables, lists, and paragraphs. Now supports conversions from binary input and output via `BytesIO` objects, enabling in-memory processing.
+
+## Features
+
+- Convert DOCX to HTML with support for paragraphs, lists, tables, and inline formatting.
+- Convert HTML to DOCX with support for lists, tables, inline styles (bold, italic), and more.
+- New support for in-memory conversions using binary inputs/outputs (`BytesIO`).
+- Preserve complex formatting such as text alignment, indentation, and font styles during conversion.
+
+## Installation
+
+Install the package via pip after uploading it to PyPI:
+
+```bash
+pip install docxhtml-converter
+```
+
+## Usage
+
+### Convert DOCX to HTML
+
+Use the `htmlifier` function to convert a DOCX file into HTML:
+
+```python
+from docxhtml_converter.docxhtml import htmlifier
+
+docx_path = "document.docx"
+output_html = "output.html"
+htmlifier(docx_path, output_html)
+```
+
+### Convert HTML to DOCX
+
+Use the `docxifier` function to convert an HTML file back into DOCX:
+
+```python
+from docxhtml_converter.htmldocx import docxifier
+
+input_html = "output.html"
+output_docx = "regenerated.docx"
+docxifier(input_html, output_docx)
+```
+
+### Convert DOCX (Binary) to HTML String
+
+For in-memory conversions, use the `get_html_from_docx_binary` function to convert a binary DOCX object (like a `BytesIO` object) into an HTML string:
+
+```python
+from docxhtml_converter.docxhtml import get_html_from_docx_binary
+
+with open("document.docx", "rb") as f:
+    docx_binary = f.read()
+
+html_content = get_html_from_docx_binary(docx_binary)
+print(html_content)
+```
+
+### Convert HTML String to DOCX (Binary Output)
+
+To convert an HTML string directly to a DOCX binary (useful for working with in-memory files), use the `docxifier_from_html_string` function:
+
+```python
+from docxhtml_converter.htmldocx import docxifier_from_html_string
+
+html_string = "<html><body><p>Hello, World!</p></body></html>"
+docx_binary = docxifier_from_html_string(html_string)
+
+# Save to a file
+with open("output.docx", "wb") as f:
+    f.write(docx_binary.read())
+```
+
+### Example Script
+
+Here’s an example script demonstrating both file-based and in-memory conversions:
+
+```python
+from docxhtml_converter.docxhtml import htmlifier, get_html_from_docx_binary
+from docxhtml_converter.htmldocx import docxifier, docxifier_from_html_string
+
+# Convert DOCX to HTML file
+docx_path = "document.docx"
+output_html = "output.html"
+htmlifier(docx_path, output_html)
+
+# Convert HTML file back to DOCX
+input_html = "output.html"
+output_docx = "regenerated.docx"
+docxifier(input_html, output_docx)
+
+# Convert DOCX binary to HTML string
+with open(docx_path, "rb") as f:
+    docx_binary = f.read()
+
+html_string = get_html_from_docx_binary(docx_binary)
+print(html_string)
+
+# Convert HTML string to DOCX binary and save to file
+docx_binary_output = docxifier_from_html_string(html_string)
+with open("new_output.docx", "wb") as f:
+    f.write(docx_binary_output.read())
+```
+
+---
+
