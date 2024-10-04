@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mlaaa_experiment_module1
+Version: 0.2.2
+Summary: Experimentation
+Home-page: https://github.com/ananyanaik22/app_1.git
+License: MIT
+Author: Prabhakar Ananya
+Author-email: pananya21t@gmail.com
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: arrow (>=1.3.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: numpy (>=2.1.1)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: plotly (>=5.24.1,<6.0.0)
+Requires-Dist: python-dateutil (>=2.9.0.post0,<3.0.0)
+Requires-Dist: scikit-learn (==1.5.2)
+Requires-Dist: seaborn (>=0.13.2,<0.14.0)
+Project-URL: Repository, https://github.com/ananyanaik22/app_1.git
+Description-Content-Type: text/markdown
+
+# Sales Prediction Custom Package
