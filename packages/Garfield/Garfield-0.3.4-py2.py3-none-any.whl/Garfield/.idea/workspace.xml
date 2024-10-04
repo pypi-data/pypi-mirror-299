@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfbf0a20-74df-4d32-8c3b-1d1a41012fe3" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Garfield_bak.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_version.py" beforeDir="false" afterPath="$PROJECT_DIR$/_version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/GarfieldTrainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/GarfieldTrainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/_loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/prepare_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/prepare_Data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/spatial_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/_pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/_pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/_qc.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/_qc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/adj_construction.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/adj_construction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/match_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/match_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/other_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/read_adata.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/read_adata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/source/API.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/source/API.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/source/About Garfield.rst" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/source/About Garfield.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/ILC_T_mapping_Garfield.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/ILC_T_mapping_Garfield.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/RNA_10x_pbmc_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/panc_mapping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../test/panc_mapping.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ilkd5Wi6GCrJztnnGUR8d03TmH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.read_adata.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hhuikevin/Desktop/phd_project/Garfield-reproducibility/Garfield&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="bfbf0a20-74df-4d32-8c3b-1d1a41012fe3" name="更改" comment="" />
+      <created>1720072641185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720072641185</updated>
+      <workItem from="1720072641545" duration="123423000" />
+      <workItem from="1726664200982" duration="70419000" />
+      <workItem from="1726849297573" duration="83370000" />
+      <workItem from="1727003809041" duration="13002000" />
+      <workItem from="1727054577427" duration="34665000" />
+      <workItem from="1727100433133" duration="3684000" />
+      <workItem from="1727141536557" duration="7841000" />
+      <workItem from="1727154305928" duration="33289000" />
+      <workItem from="1727362324510" duration="4345000" />
+      <workItem from="1727396616181" duration="12484000" />
+      <workItem from="1727422650181" duration="46714000" />
+      <workItem from="1727582061296" duration="15242000" />
+      <workItem from="1727600153696" duration="44000" />
+      <workItem from="1727659055500" duration="18726000" />
+      <workItem from="1727704897173" duration="15267000" />
+      <workItem from="1727756215648" duration="36534000" />
+      <workItem from="1727801059491" duration="31816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Garfield_revise$read_adata.coverage" NAME="read_adata Coverage Results" MODIFIED="1726664261668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+  </component>
+</project>
