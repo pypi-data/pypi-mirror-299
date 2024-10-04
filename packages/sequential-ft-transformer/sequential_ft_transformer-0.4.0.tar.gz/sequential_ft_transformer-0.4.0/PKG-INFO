@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sequential_ft_transformer
+Version: 0.4.0
+Summary: FT Transformer applied to sequential tabular data
+License: MIT
+Author: Christian Orr
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jax (==0.4.33)
+Requires-Dist: jupyter (>=1.1.1,<2.0.0)
+Requires-Dist: keras (>=3.5.0,<4.0.0)
+Requires-Dist: matplotlib (>=3.9.2,<4.0.0)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: pyarrow (>=17.0.0,<18.0.0)
+Requires-Dist: scikit-learn (>=1.5.2,<2.0.0)
+Requires-Dist: tensorflow (>=2.17.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Sequential FT-Transformer
+
+This is an adaptation of the FT-Transformer model architecture for sequential data. The model has been reworked from Antons Ruberts Tensorflow FT-Transformer implementation. In addition to changing the model to support sequential data, the model has undergone numerous changes to enable support for Keras 3. Some design changes have also been made to allow for more flexibility. For example the old implementation required passing numpy arrays through the model to create the bins for the PLE numerical embedding layer. This has been moved out of the model, since it creates a bottlneck when performing distributed training using Horovod for example.
+
+## Installation
+
+```bash
+$ pip install sequential_ft_transformer
+```
+
+## Usage
+
+The notebooks folder shows multiple examples of the FT-Transformer being used in different situations. 
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`sequential_ft_transformer` was created by Christian Orr. It is licensed under the terms of the MIT license.
+
+## References
+
+- [FT-Transformer] - [Revisiting Deep Learning Models for Tabular Data](https://arxiv.org/pdf/2106.11959)
+- [Numerical Embeddings] - [OnEmbeddings for Numerical Features in Tabular Deep Learning](https://arxiv.org/abs/2203.05556)
+- [Antons Ruberts Tensorflow FT-Transformer] - [TabTransformerTF](https://github.com/aruberts/TabTransformerTF)
+
