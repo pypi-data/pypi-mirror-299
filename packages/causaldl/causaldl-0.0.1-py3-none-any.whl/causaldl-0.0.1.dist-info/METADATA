@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: causaldl
+Version: 0.0.1
+Summary: A Python package for causal inference with deep learning.
+Author-email: Jeong-Yoon Lee <jeongyoon.lee1@gmail.com>
+Project-URL: Homepage, https://github.com/jeongyoonlee/causaldl
+Project-URL: Issues, https://github.com/jeongyoonlee/causaldl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tensorflow
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# Causal DL: A Python Package for Causal Inference with Deep Learning
+
+This is a spin off project from [the Causal ML project](https://github.com/uber/causalml/).
