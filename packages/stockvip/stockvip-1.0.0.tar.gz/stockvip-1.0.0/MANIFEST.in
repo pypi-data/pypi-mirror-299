@@ -1,0 +1,9 @@
+include stockvip/config/*.pyx
+include stockvip/config/*.pxd
+include stockvip/config/*.c
+include stockvip/client/*.pyx
+include stockvip/client/*.pxd
+include stockvip/client/*.c
+include stockvip/stock/*.pyx
+include stockvip/stock/*.pxd
+include stockvip/stock/*.c
