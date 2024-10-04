@@ -1,0 +1,8 @@
+sklesion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sklesion/model.keras,sha256=ydMHZJdyxvMybePe5sS3V8FsCXlJm1GAv_k78OrBnWg,86237188
+sklesion/model.py,sha256=C4CSBsY76VN3mA2VSKxF1I39b-1xtn_ZVxgqwpQru1Y,5491
+sklesion/prob_to_label.py,sha256=H0KUvdh_PbjszW5GajDpEdDFfit4GNmVDxsoKSxMirc,2628
+sklesion-0.1.dist-info/METADATA,sha256=S3c9UJIaQ0ljQ5vsxQ2MQAwzohOGD_bHtWv4C7eTRYY,394
+sklesion-0.1.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+sklesion-0.1.dist-info/top_level.txt,sha256=TFFyz3AwrSpgs7oAtoP9A_ZfDqZs6f9saMHPvobHRpI,9
+sklesion-0.1.dist-info/RECORD,,
