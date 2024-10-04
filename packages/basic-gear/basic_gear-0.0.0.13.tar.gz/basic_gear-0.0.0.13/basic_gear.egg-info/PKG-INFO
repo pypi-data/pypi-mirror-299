@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: basic-gear
+Version: 0.0.0.13
+Summary: Basic Template Gear
+Home-page: https://github.com/enricozanardo/basic-gear.git
+Author: Enrico Zanardo
+Author-email: enrico.zanardo101@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cffi
+Requires-Dist: pyfiglet
+
+# basic-gear
