@@ -1,0 +1,5 @@
+examples/onion_example_files
+test/__pycache__
+src/tropea_clustering/__pycache__
+src/tropea_clustering/_internal/__pycache__
+src/tropea_clustering.egg-info
