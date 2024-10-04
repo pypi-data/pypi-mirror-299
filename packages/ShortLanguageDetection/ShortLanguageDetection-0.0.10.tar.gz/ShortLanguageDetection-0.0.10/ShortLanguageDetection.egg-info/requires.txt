@@ -1,0 +1,3 @@
+emoji
+fasttext-wheel
+lingua-language-detector==1.3.1

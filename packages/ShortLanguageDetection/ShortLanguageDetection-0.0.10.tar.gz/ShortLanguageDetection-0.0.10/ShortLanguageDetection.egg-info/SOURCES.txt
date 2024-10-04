@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ShortLanguageDetection.egg-info/PKG-INFO
+ShortLanguageDetection.egg-info/SOURCES.txt
+ShortLanguageDetection.egg-info/dependency_links.txt
+ShortLanguageDetection.egg-info/requires.txt
+ShortLanguageDetection.egg-info/top_level.txt
