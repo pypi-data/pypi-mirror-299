@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lakehouse-ns
+Version: 0.0.1.dev3
+Summary: A library with the Lakehouse Framework
+Author: Data with Nikk The Greek
+Author-email: nikolaos.servos@outlook.com
+Requires-Python: >=3.10.0
+License-File: LICENSE
+Requires-Dist: aiohttp (==3.10.5)
+Requires-Dist: PyYAML (==6.0.1)
+
