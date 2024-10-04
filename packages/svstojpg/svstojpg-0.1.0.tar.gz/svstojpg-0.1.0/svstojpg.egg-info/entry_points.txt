@@ -1,0 +1,2 @@
+[console_scripts]
+stj = svstojpg.process_files:process_file

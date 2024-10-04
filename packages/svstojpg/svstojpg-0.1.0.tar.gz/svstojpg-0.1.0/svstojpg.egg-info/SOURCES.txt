@@ -1,0 +1,8 @@
+README.md
+setup.py
+svstojpg.egg-info/PKG-INFO
+svstojpg.egg-info/SOURCES.txt
+svstojpg.egg-info/dependency_links.txt
+svstojpg.egg-info/entry_points.txt
+svstojpg.egg-info/requires.txt
+svstojpg.egg-info/top_level.txt
