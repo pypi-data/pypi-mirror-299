@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: capacities-python
+Version: 0.1.2
+Summary: Collection of tools to interact with your Capacities spaces via the API.
+Author: Jorge Gómez Zarzosa
+Author-email: jorge.gomzar@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-telegram-bot (>=21.6,<22.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# capacities-python
+
+This package can be used to interact with Capacities API.
+
+## Extra: cool implementations of the API client (more might be added in the future!)
+
+- **CapacitiesTelegramBot**: all messages sent in presence of this bot will be added to your daily notes.
+When in supergroups, the topic name will be used to tag the message.
+
