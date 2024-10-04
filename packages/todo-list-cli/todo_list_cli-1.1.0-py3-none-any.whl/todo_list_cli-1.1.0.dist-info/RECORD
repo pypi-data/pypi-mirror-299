@@ -1,0 +1,11 @@
+todo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo/__main__.py,sha256=HR65ExHTrqoxM16sA05h-R7NURudNHjg2Yb3VSzNI4I,1123
+todo/file_utils.py,sha256=_lBt2rPhIVilIRzynz3xpxuuyuR35dxKUu_DlGHw3KM,410
+todo/interactive_shell.py,sha256=HcctxccdtHyZRtQh2laQXDR4dFKAhKCnX29gQt_kkVs,1428
+todo/task_manager.py,sha256=yX8hVsrgUFPb4Kpw9I5zDuV4jrnrAf6Dc11j1j02FaM,2652
+todo_list_cli-1.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+todo_list_cli-1.1.0.dist-info/METADATA,sha256=j-lGHRsD25mDUd3Rl1eSVC-iEa9JG3PXO1LMnJXOJpg,534
+todo_list_cli-1.1.0.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+todo_list_cli-1.1.0.dist-info/entry_points.txt,sha256=Qa_5e99gkuaR5s_F5nlyfC1ImMm03d4xGeKdGlY42mw,60
+todo_list_cli-1.1.0.dist-info/top_level.txt,sha256=c1x0MAVpTPy2QFoNZ9fz48_PoX9pcGKJOwNu8vee_hs,5
+todo_list_cli-1.1.0.dist-info/RECORD,,
