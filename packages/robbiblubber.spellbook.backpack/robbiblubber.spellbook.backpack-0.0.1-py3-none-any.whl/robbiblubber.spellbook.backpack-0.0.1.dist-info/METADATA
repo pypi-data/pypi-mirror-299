@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: robbiblubber.spellbook.backpack
+Version: 0.0.1
+Summary: Provides support for file packpacking.
+Author: Alexander Lang
+Author-email: al@robbiblubber.org
+Keywords: ddn,ddp
+License-File: LICENSE
+
