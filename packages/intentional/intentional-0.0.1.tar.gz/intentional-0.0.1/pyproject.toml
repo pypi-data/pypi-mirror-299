@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "intentional"
+dynamic = ["version"]
+description = 'TBD'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "ZanSara", email = "github@zansara.dev" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/ZanSara/intentional#readme"
+Issues = "https://github.com/ZanSara/intentional/issues"
+Source = "https://github.com/ZanSara/intentional"
+
+[tool.hatch.version]
+path = "src/intentional/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/intentional tests}"
+
+[tool.coverage.run]
+source_pkgs = ["intentional", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/intentional/__about__.py",
+]
+
+[tool.coverage.paths]
+intentional = ["src/intentional", "*/intentional/src/intentional"]
+tests = ["tests", "*/intentional/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

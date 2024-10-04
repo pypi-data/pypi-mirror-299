@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: intentional
+Version: 0.0.1
+Summary: TBD
+Project-URL: Documentation, https://github.com/ZanSara/intentional#readme
+Project-URL: Issues, https://github.com/ZanSara/intentional/issues
+Project-URL: Source, https://github.com/ZanSara/intentional
+Author-email: ZanSara <github@zansara.dev>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# intentional
+
+[![PyPI - Version](https://img.shields.io/pypi/v/intentional.svg)](https://pypi.org/project/intentional)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/intentional.svg)](https://pypi.org/project/intentional)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install intentional
+```
+
+## License
+
+`intentional` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
