@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+add_labels_to_fcs/__init__.py
+add_labels_to_fcs/hello.py
+add_labels_to_fcs.egg-info/PKG-INFO
+add_labels_to_fcs.egg-info/SOURCES.txt
+add_labels_to_fcs.egg-info/dependency_links.txt
+add_labels_to_fcs.egg-info/entry_points.txt
+add_labels_to_fcs.egg-info/top_level.txt

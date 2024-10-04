@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: add_labels_to_fcs
+Version: 0.1
+Summary: Package for adding columns of data to FCS files as additional channels
+Home-page: https://github.com/SimonsonLab/add-labels-to-fcs
+Author: Paul D. Simonson
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# add-labels-to-fcs
+
+This repository (soon to be updated) will include code for adding data labels to FCS files as additional data channels.
