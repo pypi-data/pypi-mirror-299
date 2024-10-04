@@ -1,0 +1,104 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scikit-spatial"
+version = "8.0.0"
+description = "Spatial objects and computations based on NumPy arrays."
+
+license = { text = "BSD-3-Clause" }
+authors = [
+    { name = "Andrew Hynes", email = "andrewjhynes@gmail.com" },
+]
+
+readme = "README.md"
+keywords = ["NumPy", "matplotlib", "visualization", "spatial", "linear algebra"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "matplotlib>=3",
+    "numpy>=1.24",
+    "scipy>=1.9",
+]
+
+[project.urls]
+repository = "https://github.com/ajhynes7/scikit-spatial"
+documentation = "https://scikit-spatial.readthedocs.io"
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
+
+[tool.uv]
+dev-dependencies = [
+    "pytest-cov>=5.0.0",
+    "pytest>=8.3.3",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    # pydocstyle
+    "D",
+    # flake8-bugbear
+    "B",
+    # flake8-builtins
+    "A",
+    # flake8-commas
+    "COM",
+    # flake8-comprehensions
+    "C4",
+    # flake8-eradicate
+    "ERA",
+    # flake8-print
+    "T20",
+    # flake8-pytest-style
+    "PT",
+    # flake8-simplify
+    "SIM",
+    # flake8-unused-arguments
+    "ARG",
+    # isort
+    "I",
+    # pycodestyle
+    "E", "W",
+    # pyflakes
+    "F",
+    # NumPy 2 deprecation
+    "NPY201",
+]
+
+ignore = [
+    "D104",
+    "D105",
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D"]
+"examples/*" = ["D"]
+"docs/*" = ["D"]
+
+[tool.ruff.format]
+quote-style = "preserve"
