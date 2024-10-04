@@ -1,0 +1,15 @@
+flops_utils/env_vars.py,sha256=CaRxmEgcHyRRP-gyurDudmEcYi7qjwqou7jDFrlM35c,414
+flops_utils/logging.py,sha256=mjzQBXI5CGll6NbbYFcCEWSU8H-9KjKXfk1ToqLxzSg,1716
+flops_utils/ml_model_flavor_proxy.py,sha256=Xjq8ufKytEC43p2gVT99HJ6CxhJSFoU7yFQvXa7Cudw,830
+flops_utils/ml_repo_building_blocks/__init__.py,sha256=J_2o3iZHmkfiaeI06HkbP40wxTEdhXvWMVSi0DHxnWg,52
+flops_utils/ml_repo_building_blocks/flops_learner_files_proxy.py,sha256=G6rKTwOstlCU6q_E6NFPy1TDqlFXrQRPIHpi5UQ5Un0,1153
+flops_utils/ml_repo_files_proxy.py,sha256=X2z7ZDt2GPyUl3uUrOklAXTyfCGsWZiKrr9PHZ-BTbc,498
+flops_utils/ml_repo_templates.py,sha256=AG1_NL5i0kzRKMKZc9RgxqBxugaRhBbpMc08iNLHygY,3181
+flops_utils/mqtt_topics.py,sha256=J-Xo_e9qRlq0rZFabkG4Q3Kk2Z2W5hLmyTvSHP0-d_U,2242
+flops_utils/notifications.py,sha256=H1_8LgmDMwAWJJSg-Feh20Qq8yzyKex4kmUbPltgLnA,1512
+flops_utils/shell.py,sha256=oRmt-fjX4wzgfQWmi8tGox0RRJUloS0oVlsorYpZr4E,288
+flops_utils/timer.py,sha256=AP_NW481r3qV4RndRqcgsyZdu_oSoiuK5ht2bnYXmh4,2456
+flops_utils/types.py,sha256=jJj2hIh9iVzYhIY0mblq0dTzDtzxALa5vLJHMSDWrGc,843
+flops_utils-0.6.0.dist-info/METADATA,sha256=U6IcRNN7JWzsUzRj5sKJ1pHisUqKRcbxlvF5vTXzaJ0,495
+flops_utils-0.6.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+flops_utils-0.6.0.dist-info/RECORD,,
