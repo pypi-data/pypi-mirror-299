@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+livepng/__init__.py
+livepng/constants.py
+livepng/exceptions.py
+livepng/inspector.py
+livepng/model.py
+livepng/objects.py
+livepng/observer.py
+livepng/validator.py
+livepng.egg-info/PKG-INFO
+livepng.egg-info/SOURCES.txt
+livepng.egg-info/dependency_links.txt
+livepng.egg-info/requires.txt
+livepng.egg-info/top_level.txt
