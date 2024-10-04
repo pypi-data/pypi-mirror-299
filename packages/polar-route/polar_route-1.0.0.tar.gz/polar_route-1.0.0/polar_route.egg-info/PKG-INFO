@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: polar-route
+Version: 1.0.0
+Summary: PolarRoute: Long-distance maritime polar route planning taking into account complex changing environmental conditions
+Author-email: "Autonomous Marine Operations Planning (AMOP) Team, AI Lab, British Antarctic Survey" <amop@bas.ac.uk>
+License: MIT License
+        
+        Copyright (c) 2022 British Antarctic Survey
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://www.bas.ac.uk/project/autonomous-marine-operations-planning
+Project-URL: Documentation, https://antarctica.github.io/PolarRoute
+Project-URL: Repository, https://github.com/antarctica/PolarRoute
+Project-URL: Issues, https://github.com/antarctica/PolarRoute/issues
+Keywords: Polar Science,Marine Routing,Marine Science,Marine Operations
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: meshiphi==2.1.13
+Requires-Dist: dask
+Requires-Dist: geopandas
+Requires-Dist: jsonschema
+Requires-Dist: matplotlib
+Requires-Dist: netcdf4
+Requires-Dist: numpy>=1.21.6
+Requires-Dist: pandas>=1.3.5
+Requires-Dist: pyproj
+Requires-Dist: pytest
+Requires-Dist: shapely
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Requires-Dist: fiona
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# PolarRoute
+
+![](logo.jpg)
+
+<a href="https://antarctica.github.io/PolarRoute/"><img src="https://img.shields.io/badge/Manual%20-github.io%2FPolarRoute%2F-red" alt="Manual Page">
+<a href="https://colab.research.google.com/drive/12D-CN10X7xAcXn_df0zNLHtdiiXxZVkz?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" alt="Colab">
+<a href="https://pypi.org/project/polar-route/"><img src="https://img.shields.io/pypi/v/polar-route" alt="PyPI">
+<a href="https://github.com/antarctica/PolarRoute/tags"><img src="https://img.shields.io/github/v/tag/antarctica/PolarRoute" alt="Release Tag"></a>
+<a href="https://github.com/antarctica/PolarRoute/issues"><img src="https://img.shields.io/github/issues/antarctica/PolarRoute" alt="Issues"></a>
+<a href="https://github.com/antarctica/PolarRoute/blob/main/LICENSE"><img src="https://img.shields.io/github/license/antarctica/PolarRoute" alt="License"></a>
+
+PolarRoute is a long-distance maritime polar route planning package, able to take into account complex and changing environmental conditions. It allows the construction of optimised routes through three main stages: discrete modelling of the environmental conditions using a non-uniform mesh, the construction of mesh-optimal paths, and physics informed path smoothing. In order to account for different vehicle properties we construct a series of data-driven functions that can be applied to the environmental mesh to determine the speed limitations and fuel requirements for a given vessel and mesh cell. The environmental modelling component of this functionality is provided by the [MeshiPhi](https://github.com/antarctica/MeshiPhi) library.
+
+## Installation
+
+PolarRoute is available from PyPI and can be installed by running: 
+```
+pip install polar-route
+```
+
+Alternatively you can install PolarRoute by downloading the source code from GitHub:
+```
+git clone https://github.com/Antarctica/PolarRoute
+pip install -e ./PolarRoute
+```
+Use of `-e` is optional, based on whether you want to be able to edit the installed copy of the package.
+
+In order to run the test suite you will also need to include the `[test]` flag to install the optional test dependencies:
+
+```
+pip install -e ./PolarRoute[test]
+```
+
+> NOTE: Some features of the PolarRoute package require GDAL to be installed. Please consult the documentation for further guidance.
+
+## Required Data sources
+PolarRoute has been built to work with a variety of open-source atmospheric and oceanographic data sources. For testing and demonstration purposes it is also possible to generate artificial Gaussian Random Field data.  
+
+A full list of supported data sources and their associated dataloaders is given in the 
+'Dataloader Overview' section of the [MeshiPhi manual](https://antarctica.github.io/MeshiPhi/)
+
+## Documentation
+The documentation for the package is available to read at: https://antarctica.github.io/PolarRoute/
+
+If you make changes to the source of the documentation you will need to rebuild the corresponding html files using Sphinx.
+The dependencies for this can be installed through pip:
+```
+pip install sphinx sphinx_markdown_builder sphinx_rtd_theme rinohtype
+```
+When updating the docs, run the following command within the PolarRoute directory to recompile.
+```
+sphinx-build -b html ./docs/source ./docs/html
+```
+Sometimes the cache needs to be cleared for internal links to update. If facing this problem, run this from the PolarRoute directory.
+```
+rm -r docs/html/.doctrees/
+```
+## Developers
+Autonomous Marine Operations Planning (AMOP) Team, AI Lab, British Antarctic Survey
+
+## Collaboration
+We are currently assessing the best practice for collaboration on the codebase, until then please contact [amop@bas.ac.uk](amop@bas.ac.uk) for further info.
+
+## License
+This software is licensed under a MIT license, but request users cite our publication.  
+
+Jonathan D. Smith, Samuel Hall, George Coombs, James Byrne, Michael A. S. Thorne, J. Alexander Brearley, Derek Long, Michael Meredith, Maria Fox, (2022), Autonomous Passage Planning for a Polar Vessel, arXiv, https://arxiv.org/abs/2209.02389
+
+For more information please see the attached ``LICENSE`` file. 
+
+[version]: https://img.shields.io/PolarRoute/v/datadog-metrics.svg?style=flat-square
+[downloads]: https://img.shields.io/PolarRoute/dm/datadog-metrics.svg?style=flat-square
