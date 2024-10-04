@@ -1,0 +1,2 @@
+graft src/pypackit_test1/data
+global-exclude *.py[cod] __pycache__ *.so

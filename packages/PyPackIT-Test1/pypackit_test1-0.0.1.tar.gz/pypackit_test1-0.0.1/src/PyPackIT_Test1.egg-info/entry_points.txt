@@ -1,0 +1,2 @@
+[console_scripts]
+pypackit_test1 = pypackit_test1:__main__
