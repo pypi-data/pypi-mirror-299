@@ -1,0 +1,18 @@
+Metadata-Version: 2.3
+Name: powerdominationtoolbox
+Version: 2.3
+Summary: A package for research into power domination and variations
+Project-URL: Homepage, https://github.com/JibJibFlutterhousen/PowerDominationToolbox
+Project-URL: Documentation, https://arxiv.org/abs/2305.13446
+Author-email: Johnathan Koch <jkoch@appliedres.com>
+License: MIT License
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sympy
