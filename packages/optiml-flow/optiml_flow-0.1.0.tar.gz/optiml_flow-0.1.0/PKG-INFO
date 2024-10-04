@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: optiml_flow
+Version: 0.1.0
+Summary: A simple package to track various computational resources, usage statistics, energy consumption, etc. of any ML experiment
+Author: Rishabh Aggarwal
+Requires-Python: >=3.6
