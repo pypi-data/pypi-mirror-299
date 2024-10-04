@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "cx-tool"
+version = "0.1.0.36"
+description = "Crossover utility tool"
+authors = ["Yurzs <me@yurzs.dev>"]
+readme = "README.md"
+packages = [
+    { include = "cx_tool", from = "." }
+]
+license = "MIT"
+
+[tool.poetry.scripts]
+cx-tool = "cx_tool.cli:main"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+click = "^8.1.7"
+plumbum = "^1.8.3"
+pytz = "^2024.2"
+pydantic = "^2.9.2"
+typing-extensions = "^4.12.2"
+vdf = "^3.4"
+rich = "^13.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
