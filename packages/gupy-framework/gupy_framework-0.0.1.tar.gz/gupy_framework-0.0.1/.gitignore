@@ -1,0 +1,4 @@
+venv/
+gupy_apps/
+__pycache__
+dist
