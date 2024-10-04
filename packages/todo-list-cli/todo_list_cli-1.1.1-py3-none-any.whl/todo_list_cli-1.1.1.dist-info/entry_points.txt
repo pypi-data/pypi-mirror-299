@@ -1,0 +1,2 @@
+[console_scripts]
+todo_list_cli = todo.__main__:start_shell
