@@ -1,0 +1,2 @@
+recursive-include QuantTraderLib/_backtest_source *.js
+recursive-include docs/demo *.ipynb
