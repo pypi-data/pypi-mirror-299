@@ -1,0 +1,6 @@
+sb-db-common>=0.0.1
+mysql-connector-python~=8.1.0
+psycopg2~=2.9.9
+sb-db-common>=0.0.1
+pymongo~=4.10.1
+sb-serializer~=0.0.3
