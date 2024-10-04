@@ -1,0 +1,3 @@
+[console_scripts]
+cx-tool=cx_tool.cli:main
+
