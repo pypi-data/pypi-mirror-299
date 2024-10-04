@@ -1,0 +1,31 @@
+Metadata-Version: 2.3
+Name: thinsos
+Version: 0.1.0
+Summary: Python API to the 52North SOS implementation
+Project-URL: Documentation, https://github.com/mullenkamp/ThinSOS
+Project-URL: Source, https://github.com/mullenkamp/ThinSOS
+Author-email: thinsos <mullenkamp1@gmail.com>
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Requires-Dist: pandas
+Requires-Dist: requests
+Description-Content-Type: text/x-rst
+
+ThinSOS - Python API to the 52North SOS implementation
+===================================================================
+Still a work in progress...but GetCapabilities, GetDataAvailability, GetFeatureOfInterest, and GetObservation have been implemented.
+
+This package was inspired by `py4sos <https://github.com/manuGil/py4sos>`_.
+
+ThinSOS GitHub repo is here: `ThinSOS <https://github.com/mullenkamp/ThinSOS>`_
+
+Installation
+------------
+ThinSOS can be installed via pip or conda::
+
+  pip install ThinSOS
+
+or::
+
+  conda install -c mullenkamp ThinSOS
