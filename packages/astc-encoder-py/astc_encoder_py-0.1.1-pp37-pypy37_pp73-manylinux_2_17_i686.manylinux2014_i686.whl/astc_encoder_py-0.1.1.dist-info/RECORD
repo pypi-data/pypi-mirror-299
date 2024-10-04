@@ -1,0 +1,10 @@
+astc_encoder/enum.py,sha256=KHhs0U-LUVawsS5l-qPRX3DBkzaxsa9uA2OBxyey5fI,2203
+astc_encoder/__init__.pyi,sha256=6NuFJctdDobdgYTdmtUquGdNYTCM-JPYGdiXzNnqQaw,7893
+astc_encoder/_encoder_none.pypy37-pp73-x86-linux-gnu.so,sha256=xxaOLjMo9MrES_tPZCdxn8O_W_MBjld84tXFUk90gm0,272916
+astc_encoder/__init__.py,sha256=cfoqJ71QKrxkNk0LLHAvHxZz-clFY1wVe9PP7oAO0rI,1163
+astc_encoder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astc_encoder_py-0.1.1.dist-info/LICENSE,sha256=hxsBoG6tUMQl_gNofmfgSxdD5ZRmQ4sTAd5-GvsRcx4,1069
+astc_encoder_py-0.1.1.dist-info/METADATA,sha256=nODGvnkw8a5FUMGNPk5rC-4T_Z32-qWwHEP3UrL4Mpg,4198
+astc_encoder_py-0.1.1.dist-info/RECORD,,
+astc_encoder_py-0.1.1.dist-info/WHEEL,sha256=czeuuiCoa6HX4byPGZs05yl0eTWSNWIj7Ct1zDGLY9Q,158
+astc_encoder_py-0.1.1.dist-info/top_level.txt,sha256=R4vI4dAALAfMnXFMMrW7PZc-_2RDaOTxFIFcwYBdiEU,13
