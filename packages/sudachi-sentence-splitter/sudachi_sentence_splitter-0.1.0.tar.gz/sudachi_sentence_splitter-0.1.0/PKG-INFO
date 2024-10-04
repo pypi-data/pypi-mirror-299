@@ -1,0 +1,26 @@
+Metadata-Version: 2.3
+Name: sudachi_sentence_splitter
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: marimo >=0.8.22
+Requires-Dist: maturin >=1.7.4
+Requires-Dist: pip >=24.2
+Requires-Dist: pytest >=8.3.3
+Summary: A Python binding for the sentence splitter component of Sudachi
+License: Apache License 2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# sudachi-sentence-splitter
+
+A small module that exposes Sudachi Sentence Splitting to Python.
+
+## Getting Started
+
+### Prerequisites
+
+* uv
+* Rust stable
+

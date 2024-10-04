@@ -1,0 +1,16 @@
+[package]
+name = "sudachi_sentence_splitter"
+version = "0.1.0"
+edition = "2021"
+description = "A Python binding for the sentence splitter component of Sudachi"
+license = "Apache License 2.0"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "sudachi_sentence_splitter"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.22.0"
+sudachi = { git = "https://github.com/WorksApplications/sudachi.rs.git" }
