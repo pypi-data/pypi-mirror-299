@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tests/test_images.py
+tests/test_io.py
+visor_image/__init__.py
+visor_image/images.py
+visor_image/io.py
+visor_image_suite.egg-info/PKG-INFO
+visor_image_suite.egg-info/SOURCES.txt
+visor_image_suite.egg-info/dependency_links.txt
+visor_image_suite.egg-info/requires.txt
+visor_image_suite.egg-info/top_level.txt

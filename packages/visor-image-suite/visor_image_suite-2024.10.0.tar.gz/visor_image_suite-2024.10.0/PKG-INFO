@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: visor-image-suite
+Version: 2024.10.0
+Summary: A Specialized Suite for VISoR Images.
+Home-page: https://github.com/visor-tech/visor-image-suite
+Author: Zijian Yi
+Author-email: zj.yi1@siat.ac.cn
+Keywords: VISoR
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dask[complete]==2024.9.1
+Requires-Dist: zarr==2.18.3
+Requires-Dist: numcodecs==0.13.0
+
+# VISoR Image Suite
+visor-image-suite is a python package for VISoR images type definition, input/output (I/O) etc.
+
+## Usage
+### Install Module
+```pip install visor-image-suite```
+
+### Import Module
+```import visor_image```
+
+### Run Test
+```python3 -m unittest discover -s tests```
