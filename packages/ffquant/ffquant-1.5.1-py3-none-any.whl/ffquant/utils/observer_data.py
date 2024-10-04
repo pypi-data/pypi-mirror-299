@@ -1,0 +1,6 @@
+treturn = list()
+portfolio = list()
+buysell = list()
+drawdown = list()
+kline = list()
+position = list()
