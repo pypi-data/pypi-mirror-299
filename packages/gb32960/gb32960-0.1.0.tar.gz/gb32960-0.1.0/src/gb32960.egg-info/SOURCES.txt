@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gb32960/__init__.py
+src/gb32960.egg-info/PKG-INFO
+src/gb32960.egg-info/SOURCES.txt
+src/gb32960.egg-info/dependency_links.txt
+src/gb32960.egg-info/top_level.txt
