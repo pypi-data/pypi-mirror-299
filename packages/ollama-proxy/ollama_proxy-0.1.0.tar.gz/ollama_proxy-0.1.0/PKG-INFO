@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ollama-proxy
+Version: 0.1.0
+Summary: ollama proxy to other cloud model service
+License: Apache 2.0
+Author: lipi
+Author-email: lipicoder@qq.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.115.0,<0.116.0)
+Requires-Dist: pydantic (>=2.9.2,<3.0.0)
+Requires-Dist: setuptools (>=75.1.0,<76.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: uvicorn (>=0.31.0,<0.32.0)
+Description-Content-Type: text/markdown
+
+# ollama-proxy
+ollama run as a proxy
+
