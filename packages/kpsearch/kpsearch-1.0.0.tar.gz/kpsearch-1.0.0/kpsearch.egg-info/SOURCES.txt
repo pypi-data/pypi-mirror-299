@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+kpsearch/__init__.py
+kpsearch/kpsearch.py
+kpsearch.egg-info/PKG-INFO
+kpsearch.egg-info/SOURCES.txt
+kpsearch.egg-info/dependency_links.txt
+kpsearch.egg-info/requires.txt
+kpsearch.egg-info/top_level.txt
