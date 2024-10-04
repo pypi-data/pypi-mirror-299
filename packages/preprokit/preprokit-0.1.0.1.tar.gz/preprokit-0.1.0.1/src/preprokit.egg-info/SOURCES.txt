@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/preprokit/__init__.py
+src/preprokit/filters.py
+src/preprokit/utils.py
+src/preprokit.egg-info/PKG-INFO
+src/preprokit.egg-info/SOURCES.txt
+src/preprokit.egg-info/dependency_links.txt
+src/preprokit.egg-info/top_level.txt
+src/preprokit/trasformers/__init__.py
+src/preprokit/trasformers/dictT.py
+src/preprokit/trasformers/frameT.py
+src/preprokit/trasformers/listT.py
+src/preprokit/trasformers/ndarrayT.py
+src/preprokit/trasformers/seriesT.py
