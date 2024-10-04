@@ -1,0 +1,14 @@
+automated_marking/__init__.py,sha256=_rA5wT6qXHmYPJT2Lsw_7KLeq40ukKXNpTF1XzczE8Q,457
+automated_marking/clone_utils.py,sha256=6NimigO0i-ebxN3WUvpGEB1xV8qcy0sEdHZvONqin0I,1947
+automated_marking/html_css_utils.py,sha256=mitesL_UlBprlb7bKoTEnNbvwKI-w_DPegQ7IdUl4Dk,4386
+automated_marking/java_utils.py,sha256=xX2T6NFAbONXORPoqgpdUeJd2GQ-Wl1FYEt19e_gsQs,5035
+automated_marking/language_utils.py,sha256=yGrXzsi7YSNBb-_-mbobGHEGwcQlmjSPVB508drlCtM,1296
+automated_marking/logging_utils.py,sha256=_XPvq-v6BPnkXJAFzz3z8SsDlDxEDE2JBo4gEwmSiDM,7550
+automated_marking/main.py,sha256=CXNZfORmfJc9iQKFioSjeNvh7ZReQRVTFUBgLTwWYSc,279
+automated_marking/repo_processing.py,sha256=_iOzYLa6UEJ0InstEpg4AETWQPI8MmfGYPnWZFUegx4,6389
+automated_marking/sql_utils.py,sha256=hJ_1HbcIdr_KbBTSpi8fgrEGtTWTm0PoC1KeXp6MWE8,1256
+automated_marking-0.1.4.dist-info/METADATA,sha256=EXFdx1mNf7UqTg90m3Jer1_U2_HJ4pXDWft3M9f0CLE,2494
+automated_marking-0.1.4.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+automated_marking-0.1.4.dist-info/entry_points.txt,sha256=sfxo9tPLPy8kTbfn2_LUjAVSUEjyZSVee3kMLD6_hVQ,66
+automated_marking-0.1.4.dist-info/top_level.txt,sha256=qKCutCLiu27q2y3TxZIEGUcRWExD8z2uFj89c5kPd_g,18
+automated_marking-0.1.4.dist-info/RECORD,,
