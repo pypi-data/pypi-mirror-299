@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "neops_worker_sdk"
+version = "0.1.0"
+description = ""
+authors = ["zebbra AG"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+neops_graphql = "^1.7.31"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+mypy = "*"
+
+[tool.poetry.scripts]
+neops_worker = 'neops_worker_sdk.cli.neops_worker:main'
+
+[tool.black]
+line-length = 120
+
+[tool.mypy]
+disallow_untyped_defs = true
+check_untyped_defs  = true
+disallow_incomplete_defs  = true
+disallow_any_unimported  = true
+disallow_any_expr  = true
+disallow_any_decorated  = true
+disallow_any_explicit  = true
+disallow_any_generics  = true
+disallow_subclassing_any  = true
+disallow_untyped_calls  = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: neops_worker_sdk
+Version: 0.1.0
+Summary: 
+Author: zebbra AG
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: neops_graphql (>=1.7.31,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Neops Task Runner for Python
+
+This repository provides the base infrastructure and SDK to create workers for your own function blocks. 
+
+
+## Run nepos Worker
+
+To run th neops worker, simply execute
+
+```
+poetry run neops_worker
+```
+
+## Code Style
+
+We enforce typing for all python files. You can check if typing is correct by running the following command
+
+```shell
+poetry run mypy ./neops_worker_sdk examples/
+```
+
+Formatting is enforced by black
+
+```shell
+poetry run black ./neops_worker_sdk examples/
+```
