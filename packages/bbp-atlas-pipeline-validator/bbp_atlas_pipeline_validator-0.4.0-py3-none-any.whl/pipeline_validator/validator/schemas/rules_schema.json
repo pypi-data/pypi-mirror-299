@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "properties": {
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rule": {
+            "type": "string"
+          },
+          "execute": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "brainRegion": {
+                   "type": "string"
+                },
+                "container": {
+                  "type": "string",
+                  "pattern": "^docker:\\/\\/\\S+$"
+                },
+                "CLI": {
+                  "type": "object",
+                  "properties": {
+                    "command": {
+                      "type": "string"
+                    },
+                    "args": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["command"]
+                }
+              },
+              "required": ["brainRegion", "CLI"]
+            }
+          }
+        },
+        "required": [
+          "rule",
+          "execute"
+        ]
+      }
+    }
+  },
+  "required": ["rules"]
+}
