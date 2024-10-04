@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "z-backup"
+version = "0.1.1"
+description = "Simple backup service"
+authors = ["Wenyu Zhao <wenyuzhaox@gmail.com>"]
+readme = "README.md"
+
+packages = [{ include = "zbackup" }]
+
+[tool.poetry.scripts]
+z-backup = "zbackup.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.12.3"
+schedule = "^1.2.2"
+setuptools = "^72.1.0"
+python-dotenv = "^1.0.1"
+google-cloud-storage = "^2.18.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
