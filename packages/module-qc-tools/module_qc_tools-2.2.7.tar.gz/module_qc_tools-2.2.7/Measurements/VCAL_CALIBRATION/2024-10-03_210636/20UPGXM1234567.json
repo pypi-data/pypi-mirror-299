@@ -1,0 +1,2602 @@
+[
+    [
+        {
+            "serialNumber": "dummy_chip1",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.022270810485559633,
+                            0.06334997351636756,
+                            0.09636423024232581,
+                            0.13399113721784778,
+                            0.17836212740085375,
+                            0.21179013707851968,
+                            0.2563538715590782,
+                            0.28986346359084286,
+                            0.3314027691887233,
+                            0.374141393574968,
+                            0.40715533202475107,
+                            0.4520260403102197,
+                            0.4899652796179047,
+                            0.52787954400658,
+                            0.5635520967281953,
+                            0.60328258892022,
+                            0.6461743854032739,
+                            0.6794942286077564,
+                            0.7191793710271317,
+                            0.7630215759311889
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 2,
+                                "DataMergeOutMux1": 3,
+                                "DataMergeOutMux2": 0,
+                                "DataMergeOutMux3": 1,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 4,
+                                "SldoTrimA": 3,
+                                "SldoTrimD": 4,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    4.247,
+                                    0.204,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip1",
+                                "ChipId": 12,
+                                "InjCap": 8.09,
+                                "NfDSLDO": 1.288113319545111,
+                                "NfASLDO": 1.2729076673036923,
+                                "NfACB": 1.2698521239148954,
+                                "VcalPar": [
+                                    5.36,
+                                    0.216
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21326.065,
+                                "KSenseInD": 21248.092,
+                                "KSenseShuntA": 26403.699523809522,
+                                "KSenseShuntD": 26307.161523809526,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 12,
+                    "Name": "dummy_chip1",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip1",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.014384601645495146,
+                            0.032084384039657944,
+                            0.05285414896543841,
+                            0.06512710282939231,
+                            0.08916371340702443,
+                            0.10283801673861892,
+                            0.1278295707217771,
+                            0.14739352991481416,
+                            0.1618429249992244,
+                            0.18528176901056953,
+                            0.2002942457988033,
+                            0.22069513241135444,
+                            0.24682709991917656,
+                            0.2642203996939148,
+                            0.28773211895069745,
+                            0.2993804531758202,
+                            0.3247517051945695,
+                            0.3445169993211099,
+                            0.35895273015922863,
+                            0.37739221816624496
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 2,
+                                "DataMergeOutMux1": 3,
+                                "DataMergeOutMux2": 0,
+                                "DataMergeOutMux3": 1,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 4,
+                                "SldoTrimA": 3,
+                                "SldoTrimD": 4,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    4.247,
+                                    0.204,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip1",
+                                "ChipId": 12,
+                                "InjCap": 8.09,
+                                "NfDSLDO": 1.288113319545111,
+                                "NfASLDO": 1.2729076673036923,
+                                "NfACB": 1.2698521239148954,
+                                "VcalPar": [
+                                    5.36,
+                                    0.216
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21326.065,
+                                "KSenseInD": 21248.092,
+                                "KSenseShuntA": 26403.699523809522,
+                                "KSenseShuntD": 26307.161523809526,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 12,
+                    "Name": "dummy_chip1",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip1",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.01649559665714573,
+                            0.055032725025512506,
+                            0.09387457504628531,
+                            0.13975999526182262,
+                            0.18005687551006508,
+                            0.2193999825704697,
+                            0.25524600111681084,
+                            0.2939291755323437,
+                            0.3272096178397699,
+                            0.37140144590599056,
+                            0.4088980904340718,
+                            0.44669714562951357,
+                            0.4839468385695518,
+                            0.5237824693297114,
+                            0.5625611506366536,
+                            0.6063801881611097,
+                            0.6482812994223461,
+                            0.6810876257583222,
+                            0.7228937794871764,
+                            0.7577098814157988
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 2,
+                                "DataMergeOutMux1": 3,
+                                "DataMergeOutMux2": 0,
+                                "DataMergeOutMux3": 1,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 4,
+                                "SldoTrimA": 3,
+                                "SldoTrimD": 4,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    4.247,
+                                    0.204,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip1",
+                                "ChipId": 12,
+                                "InjCap": 8.09,
+                                "NfDSLDO": 1.288113319545111,
+                                "NfASLDO": 1.2729076673036923,
+                                "NfACB": 1.2698521239148954,
+                                "VcalPar": [
+                                    5.36,
+                                    0.216
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21326.065,
+                                "KSenseInD": 21248.092,
+                                "KSenseShuntA": 26403.699523809522,
+                                "KSenseShuntD": 26307.161523809526,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 12,
+                    "Name": "dummy_chip1",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip1",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.012785883802735935,
+                            0.029657555359476374,
+                            0.0502237577123711,
+                            0.06568507440528874,
+                            0.08974805845455945,
+                            0.10570548705004688,
+                            0.12728034776065741,
+                            0.148432356288185,
+                            0.16827278128271428,
+                            0.18855571676085098,
+                            0.20261195853839187,
+                            0.22525888111472442,
+                            0.24713307216512068,
+                            0.2598429106590011,
+                            0.2849154391330859,
+                            0.3013762951777205,
+                            0.32164466537198755,
+                            0.3445998899390939,
+                            0.3658400716000384,
+                            0.3817419549996922
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 2,
+                                "DataMergeOutMux1": 3,
+                                "DataMergeOutMux2": 0,
+                                "DataMergeOutMux3": 1,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 4,
+                                "SldoTrimA": 3,
+                                "SldoTrimD": 4,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    4.247,
+                                    0.204,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip1",
+                                "ChipId": 12,
+                                "InjCap": 8.09,
+                                "NfDSLDO": 1.288113319545111,
+                                "NfASLDO": 1.2729076673036923,
+                                "NfACB": 1.2698521239148954,
+                                "VcalPar": [
+                                    5.36,
+                                    0.216
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21326.065,
+                                "KSenseInD": 21248.092,
+                                "KSenseShuntA": 26403.699523809522,
+                                "KSenseShuntD": 26307.161523809526,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 12,
+                    "Name": "dummy_chip1",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        }
+    ],
+    [
+        {
+            "serialNumber": "dummy_chip2",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.018920034397520522,
+                            0.06120514701990353,
+                            0.10192389988848602,
+                            0.13726459787015835,
+                            0.17432650968129867,
+                            0.21451096003727035,
+                            0.2585813473243421,
+                            0.2892679650533547,
+                            0.3353580319605784,
+                            0.36996853379030176,
+                            0.40522987269751004,
+                            0.4488079077553834,
+                            0.48799221206143134,
+                            0.5279358216074541,
+                            0.5654915364372464,
+                            0.6034046875776669,
+                            0.6435951186144007,
+                            0.6858173435059645,
+                            0.7246194537507774,
+                            0.7603368761055339
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 4,
+                                "SldoTrimD": 3,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    14.711,
+                                    0.199,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip2",
+                                "ChipId": 13,
+                                "InjCap": 7.943,
+                                "NfDSLDO": 1.2637118923511266,
+                                "NfASLDO": 1.2843549338108475,
+                                "NfACB": 1.2760313594416939,
+                                "VcalPar": [
+                                    0.134,
+                                    0.213
+                                ],
+                                "IrefTrim": 14,
+                                "KSenseInA": 21100.694,
+                                "KSenseInD": 21688.841,
+                                "KSenseShuntA": 26124.668761904763,
+                                "KSenseShuntD": 26852.850761904763,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 13,
+                    "Name": "dummy_chip2",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip2",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.013851431907076071,
+                            0.031465776891589955,
+                            0.04838588789833611,
+                            0.07192551784092376,
+                            0.08873160468912736,
+                            0.10736178319244519,
+                            0.12365905468536886,
+                            0.14171241371029697,
+                            0.1658822083083816,
+                            0.18321663163091895,
+                            0.20834104424194358,
+                            0.2263317759303981,
+                            0.24021803445955897,
+                            0.2623810978386244,
+                            0.2811123033814012,
+                            0.2981834811939233,
+                            0.3261735499087852,
+                            0.3434134876316776,
+                            0.36569625650533777,
+                            0.37765205808157737
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 4,
+                                "SldoTrimD": 3,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    14.711,
+                                    0.199,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip2",
+                                "ChipId": 13,
+                                "InjCap": 7.943,
+                                "NfDSLDO": 1.2637118923511266,
+                                "NfASLDO": 1.2843549338108475,
+                                "NfACB": 1.2760313594416939,
+                                "VcalPar": [
+                                    0.134,
+                                    0.213
+                                ],
+                                "IrefTrim": 14,
+                                "KSenseInA": 21100.694,
+                                "KSenseInD": 21688.841,
+                                "KSenseShuntA": 26124.668761904763,
+                                "KSenseShuntD": 26852.850761904763,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 13,
+                    "Name": "dummy_chip2",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip2",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.017634486729000948,
+                            0.05373311287708202,
+                            0.09771954931620633,
+                            0.13887282129615802,
+                            0.1747570319382494,
+                            0.21270821226882056,
+                            0.24996522403750754,
+                            0.2972989822160021,
+                            0.32812268996765737,
+                            0.3721539082070001,
+                            0.4094150708637351,
+                            0.4465853736299758,
+                            0.4892255866375645,
+                            0.5315534547248745,
+                            0.5616177301633644,
+                            0.6072758952679951,
+                            0.6480425662682221,
+                            0.6843060765174277,
+                            0.7186729690290372,
+                            0.7651544995159776
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 4,
+                                "SldoTrimD": 3,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    14.711,
+                                    0.199,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip2",
+                                "ChipId": 13,
+                                "InjCap": 7.943,
+                                "NfDSLDO": 1.2637118923511266,
+                                "NfASLDO": 1.2843549338108475,
+                                "NfACB": 1.2760313594416939,
+                                "VcalPar": [
+                                    0.134,
+                                    0.213
+                                ],
+                                "IrefTrim": 14,
+                                "KSenseInA": 21100.694,
+                                "KSenseInD": 21688.841,
+                                "KSenseShuntA": 26124.668761904763,
+                                "KSenseShuntD": 26852.850761904763,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 13,
+                    "Name": "dummy_chip2",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip2",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.01256040040771329,
+                            0.029439103701904144,
+                            0.04649275817500846,
+                            0.06703449310115128,
+                            0.08585938974571285,
+                            0.10777622289830004,
+                            0.1282823012926762,
+                            0.15009156568325893,
+                            0.1618605571882352,
+                            0.18648369504466353,
+                            0.2059788839535831,
+                            0.2253336801403385,
+                            0.2440621571557543,
+                            0.2595489651191077,
+                            0.28153950258328236,
+                            0.3008787748020426,
+                            0.3210988232277741,
+                            0.34159057064124543,
+                            0.3575129107721704,
+                            0.3827203386510545
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 4,
+                                "SldoTrimD": 3,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    14.711,
+                                    0.199,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip2",
+                                "ChipId": 13,
+                                "InjCap": 7.943,
+                                "NfDSLDO": 1.2637118923511266,
+                                "NfASLDO": 1.2843549338108475,
+                                "NfACB": 1.2760313594416939,
+                                "VcalPar": [
+                                    0.134,
+                                    0.213
+                                ],
+                                "IrefTrim": 14,
+                                "KSenseInA": 21100.694,
+                                "KSenseInD": 21688.841,
+                                "KSenseShuntA": 26124.668761904763,
+                                "KSenseShuntD": 26852.850761904763,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 13,
+                    "Name": "dummy_chip2",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        }
+    ],
+    [
+        {
+            "serialNumber": "dummy_chip3",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.023117229199113826,
+                            0.061454393052769535,
+                            0.09909490120080665,
+                            0.13235692256104176,
+                            0.18048823024394903,
+                            0.21028178765787228,
+                            0.25216450358138154,
+                            0.29272579926225933,
+                            0.3340339010200225,
+                            0.36897703103930246,
+                            0.4130254937750214,
+                            0.4499061619595289,
+                            0.48893361106481187,
+                            0.5253832509806261,
+                            0.5699402807326817,
+                            0.6070879151472689,
+                            0.6476714538466604,
+                            0.6832125223025138,
+                            0.7221178127557403,
+                            0.757595249193161
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 65535,
+                                "DataMergeOutMux0": 1,
+                                "DataMergeOutMux1": 2,
+                                "DataMergeOutMux2": 3,
+                                "DataMergeOutMux3": 0,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 8,
+                                "SldoTrimA": 12,
+                                "SldoTrimD": 8,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    16.892,
+                                    0.193,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip3",
+                                "ChipId": 14,
+                                "InjCap": 7.929000000000001,
+                                "NfDSLDO": 1.2899371430024733,
+                                "NfASLDO": 1.2851400704055398,
+                                "NfACB": 1.2810776846027314,
+                                "VcalPar": [
+                                    3.056,
+                                    0.206
+                                ],
+                                "IrefTrim": 12,
+                                "KSenseInA": 21431.85,
+                                "KSenseInD": 21441.496,
+                                "KSenseShuntA": 26534.67142857143,
+                                "KSenseShuntD": 26546.614095238096,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 14,
+                    "Name": "dummy_chip3",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip3",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.011762696338107496,
+                            0.028790490021437888,
+                            0.0458517586479523,
+                            0.0709445702983521,
+                            0.0893890910155482,
+                            0.10572048712332785,
+                            0.13120432618376798,
+                            0.15106996713241444,
+                            0.1659226949435452,
+                            0.1838625649734255,
+                            0.20903973271839768,
+                            0.22242171283839007,
+                            0.24830074345137607,
+                            0.26696977243132414,
+                            0.28335369629231716,
+                            0.30208534560003036,
+                            0.32620009139697864,
+                            0.3405334522887371,
+                            0.35873783075005683,
+                            0.3818532029152084
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 65535,
+                                "DataMergeOutMux0": 1,
+                                "DataMergeOutMux1": 2,
+                                "DataMergeOutMux2": 3,
+                                "DataMergeOutMux3": 0,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 8,
+                                "SldoTrimA": 12,
+                                "SldoTrimD": 8,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    16.892,
+                                    0.193,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip3",
+                                "ChipId": 14,
+                                "InjCap": 7.929000000000001,
+                                "NfDSLDO": 1.2899371430024733,
+                                "NfASLDO": 1.2851400704055398,
+                                "NfACB": 1.2810776846027314,
+                                "VcalPar": [
+                                    3.056,
+                                    0.206
+                                ],
+                                "IrefTrim": 12,
+                                "KSenseInA": 21431.85,
+                                "KSenseInD": 21441.496,
+                                "KSenseShuntA": 26534.67142857143,
+                                "KSenseShuntD": 26546.614095238096,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 14,
+                    "Name": "dummy_chip3",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip3",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.022305298382411777,
+                            0.05589031029998855,
+                            0.09959887435642886,
+                            0.1391085900391554,
+                            0.17379073691780939,
+                            0.21909183429312026,
+                            0.25030964597063915,
+                            0.2960123591561297,
+                            0.3353255361488274,
+                            0.3747711395377601,
+                            0.41167556025579977,
+                            0.45167889280243445,
+                            0.484742982441927,
+                            0.5239990672273528,
+                            0.5619602040916426,
+                            0.6044050545683203,
+                            0.6399660006201279,
+                            0.682756374257032,
+                            0.7259908355378856,
+                            0.7657452814392762
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 65535,
+                                "DataMergeOutMux0": 1,
+                                "DataMergeOutMux1": 2,
+                                "DataMergeOutMux2": 3,
+                                "DataMergeOutMux3": 0,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 8,
+                                "SldoTrimA": 12,
+                                "SldoTrimD": 8,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    16.892,
+                                    0.193,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip3",
+                                "ChipId": 14,
+                                "InjCap": 7.929000000000001,
+                                "NfDSLDO": 1.2899371430024733,
+                                "NfASLDO": 1.2851400704055398,
+                                "NfACB": 1.2810776846027314,
+                                "VcalPar": [
+                                    3.056,
+                                    0.206
+                                ],
+                                "IrefTrim": 12,
+                                "KSenseInA": 21431.85,
+                                "KSenseInD": 21441.496,
+                                "KSenseShuntA": 26534.67142857143,
+                                "KSenseShuntD": 26546.614095238096,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 14,
+                    "Name": "dummy_chip3",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip3",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.011190457759955476,
+                            0.032872596441225574,
+                            0.04522580910953957,
+                            0.06702329949826247,
+                            0.0923792042671534,
+                            0.11090747988773625,
+                            0.12483468114182461,
+                            0.14280540337301545,
+                            0.17037502322700626,
+                            0.18837311604629547,
+                            0.201028616975644,
+                            0.22426922652981227,
+                            0.24513655941522614,
+                            0.26525050785040527,
+                            0.28718679047361534,
+                            0.29931049148625,
+                            0.3245624820867738,
+                            0.34056046973480825,
+                            0.36483346179190784,
+                            0.37598240185888604
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 65535,
+                                "DataMergeOutMux0": 1,
+                                "DataMergeOutMux1": 2,
+                                "DataMergeOutMux2": 3,
+                                "DataMergeOutMux3": 0,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 8,
+                                "SldoTrimA": 12,
+                                "SldoTrimD": 8,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    16.892,
+                                    0.193,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip3",
+                                "ChipId": 14,
+                                "InjCap": 7.929000000000001,
+                                "NfDSLDO": 1.2899371430024733,
+                                "NfASLDO": 1.2851400704055398,
+                                "NfACB": 1.2810776846027314,
+                                "VcalPar": [
+                                    3.056,
+                                    0.206
+                                ],
+                                "IrefTrim": 12,
+                                "KSenseInA": 21431.85,
+                                "KSenseInD": 21441.496,
+                                "KSenseShuntA": 26534.67142857143,
+                                "KSenseShuntD": 26546.614095238096,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 14,
+                    "Name": "dummy_chip3",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        }
+    ],
+    [
+        {
+            "serialNumber": "dummy_chip4",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.021504930290593638,
+                            0.05487488632675546,
+                            0.1008838661327083,
+                            0.13999506171992582,
+                            0.17971246121322199,
+                            0.21138664492067546,
+                            0.2526108470603487,
+                            0.29023784349050885,
+                            0.3301549164138204,
+                            0.3729187050397498,
+                            0.4118047585659203,
+                            0.44561671998127655,
+                            0.49093123857416027,
+                            0.5226519283456794,
+                            0.5637456448586534,
+                            0.6060390715234127,
+                            0.641200979199077,
+                            0.680206467790336,
+                            0.7214664622609648,
+                            0.7578988090212051
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 8,
+                                "SldoTrimD": 5,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    10.352,
+                                    0.198,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip4",
+                                "ChipId": 15,
+                                "InjCap": 7.994,
+                                "NfDSLDO": 1.280846634029738,
+                                "NfASLDO": 1.2967912615564348,
+                                "NfACB": 1.305268152140248,
+                                "VcalPar": [
+                                    5.122,
+                                    0.211
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21263.868,
+                                "KSenseInD": 21459.463,
+                                "KSenseShuntA": 26326.693714285713,
+                                "KSenseShuntD": 26568.858952380953,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 15,
+                    "Name": "dummy_chip4",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip4",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_MED_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux8": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.007424324614595195,
+                            0.02701929061845159,
+                            0.046887691241506525,
+                            0.07055400455950937,
+                            0.0837350682113989,
+                            0.10386711688866047,
+                            0.12776373639700395,
+                            0.14630740936942901,
+                            0.17039388954974982,
+                            0.1857535990247154,
+                            0.20148061588998611,
+                            0.22620360134691903,
+                            0.2414427649089488,
+                            0.266754389720643,
+                            0.28076277590567605,
+                            0.30765813064055836,
+                            0.3224542086038645,
+                            0.33774154168061515,
+                            0.3575557043241149,
+                            0.3846049954083747
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 8,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 8,
+                                "SldoTrimD": 5,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    10.352,
+                                    0.198,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip4",
+                                "ChipId": 15,
+                                "InjCap": 7.994,
+                                "NfDSLDO": 1.280846634029738,
+                                "NfASLDO": 1.2967912615564348,
+                                "NfACB": 1.305268152140248,
+                                "VcalPar": [
+                                    5.122,
+                                    0.211
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21263.868,
+                                "KSenseInD": 21459.463,
+                                "KSenseShuntA": 26326.693714285713,
+                                "KSenseShuntD": 26568.858952380953,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 15,
+                    "Name": "dummy_chip4",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip4",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.024249514260609673,
+                            0.05491197217786521,
+                            0.09846741609220902,
+                            0.13302932751557314,
+                            0.17566709045351533,
+                            0.21009234491386256,
+                            0.25309739319316304,
+                            0.29264256601555294,
+                            0.33499942088325163,
+                            0.3721248215733873,
+                            0.41383115631752326,
+                            0.4523844376342391,
+                            0.4915278919045634,
+                            0.5251909508233794,
+                            0.5631526647093585,
+                            0.6036486609695205,
+                            0.6413462340959653,
+                            0.679086291199276,
+                            0.718175868664651,
+                            0.7665144568058659
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 8,
+                                "SldoTrimD": 5,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 1
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    10.352,
+                                    0.198,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip4",
+                                "ChipId": 15,
+                                "InjCap": 7.994,
+                                "NfDSLDO": 1.280846634029738,
+                                "NfASLDO": 1.2967912615564348,
+                                "NfACB": 1.305268152140248,
+                                "VcalPar": [
+                                    5.122,
+                                    0.211
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21263.868,
+                                "KSenseInD": 21459.463,
+                                "KSenseShuntA": 26326.693714285713,
+                                "KSenseShuntD": 26568.858952380953,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 15,
+                    "Name": "dummy_chip4",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        },
+        {
+            "serialNumber": "dummy_chip4",
+            "testType": "VCAL_CALIBRATION",
+            "subtestType": "VCAL_HIGH_SMALL_RANGE",
+            "results": {
+                "property": {
+                    "YARR_VERSION": "emulator",
+                    "VCAL_CALIBRATION_MEASUREMENT_VERSION": "2.2.7"
+                },
+                "comment": "",
+                "Measurements": {
+                    "DACs_input": {
+                        "X": true,
+                        "Unit": "Count",
+                        "Values": [
+                            100,
+                            300,
+                            500,
+                            700,
+                            900,
+                            1100,
+                            1300,
+                            1500,
+                            1700,
+                            1900,
+                            2100,
+                            2300,
+                            2500,
+                            2700,
+                            2900,
+                            3100,
+                            3300,
+                            3500,
+                            3700,
+                            3900
+                        ]
+                    },
+                    "Vmux7": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.01255558854578129,
+                            0.02892486865593516,
+                            0.04860689774023746,
+                            0.06663433064412545,
+                            0.09205410519538178,
+                            0.10894774840560102,
+                            0.1293020566231029,
+                            0.1476281724054192,
+                            0.16238970430037802,
+                            0.18849802338983085,
+                            0.2062397820002412,
+                            0.22483569275513124,
+                            0.24845298735690102,
+                            0.2628579580079038,
+                            0.28582844647070654,
+                            0.2992122087254219,
+                            0.322795555652529,
+                            0.3466631904492432,
+                            0.36269886383991207,
+                            0.3804025546184175
+                        ]
+                    },
+                    "Vmux30": {
+                        "X": false,
+                        "Unit": "V",
+                        "Values": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Metadata": {
+                    "FirmwareVersion": "",
+                    "FirmwareIdentifier": "",
+                    "ChannelConfig": "",
+                    "SoftwareVersion": "",
+                    "ChipConfigs": {
+                        "RD53B": {
+                            "GlobalConfig": {
+                                "AuroraActiveLanes": 1,
+                                "CmlBias0": 500,
+                                "CmlBias1": 100,
+                                "CmlBias2": 0,
+                                "ServiceBlockEn": 1,
+                                "DiffPreComp": 350,
+                                "DiffPreampL": 500,
+                                "DiffPreampM": 500,
+                                "DiffPreampR": 500,
+                                "DiffPreampT": 500,
+                                "DiffPreampTL": 500,
+                                "DiffPreampTR": 500,
+                                "EnCoreCol0": 65535,
+                                "EnCoreCol1": 65535,
+                                "EnCoreCol2": 65535,
+                                "EnCoreCol3": 63,
+                                "DataMergeOutMux0": 0,
+                                "DataMergeOutMux1": 1,
+                                "DataMergeOutMux2": 2,
+                                "DataMergeOutMux3": 3,
+                                "MonitorI": 63,
+                                "MonitorV": 7,
+                                "SerEnLane": 1,
+                                "SldoTrimA": 8,
+                                "SldoTrimD": 5,
+                                "MonitorEnable": 1,
+                                "InjVcalRange": 0
+                            },
+                            "Parameter": {
+                                "ADCcalPar": [
+                                    10.352,
+                                    0.198,
+                                    4990.0
+                                ],
+                                "Name": "dummy_chip4",
+                                "ChipId": 15,
+                                "InjCap": 7.994,
+                                "NfDSLDO": 1.280846634029738,
+                                "NfASLDO": 1.2967912615564348,
+                                "NfACB": 1.305268152140248,
+                                "VcalPar": [
+                                    5.122,
+                                    0.211
+                                ],
+                                "IrefTrim": 10,
+                                "KSenseInA": 21263.868,
+                                "KSenseInD": 21459.463,
+                                "KSenseShuntA": 26326.693714285713,
+                                "KSenseShuntD": 26568.858952380953,
+                                "KShuntA": 1092.985,
+                                "KShuntD": 1085.872
+                            }
+                        }
+                    },
+                    "SoftwareType": "",
+                    "ChipID": 15,
+                    "Name": "dummy_chip4",
+                    "Institution": "TEST",
+                    "ModuleSN": "20UPGXM1234567",
+                    "TimeStart": 1727989597,
+                    "TimeEnd": 1727989612
+                }
+            }
+        }
+    ]
+]
