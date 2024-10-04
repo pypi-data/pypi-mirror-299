@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ics_2000_python
+Version: 0.1.0
+Summary: 
+Author: iiTzArcur
+Author-email: zefanjaj@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pycryptodome (>=3.21.0,<4.0.0)
+Requires-Dist: requests (>=2.32.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+
