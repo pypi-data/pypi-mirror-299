@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tw_dayoff/__init__.py
+tw_dayoff/__main__.py
+tw_dayoff/cli.py
+tw_dayoff/main.py
+tw_dayoff.egg-info/PKG-INFO
+tw_dayoff.egg-info/SOURCES.txt
+tw_dayoff.egg-info/dependency_links.txt
+tw_dayoff.egg-info/requires.txt
+tw_dayoff.egg-info/top_level.txt
