@@ -1,0 +1,13 @@
+DepthFlow/Motion.py,sha256=2-LbIYWi6CDi6RE0P8yGRHfQM9dQYfjNRXn2WRqrw0o,17062
+DepthFlow/Scene.py,sha256=gwqFokZnyQF0MPBBrGovcPUFnZkUa2sRs3VxLcqFDOw,7500
+DepthFlow/State.py,sha256=DHSj9MRhPmfEdQ2rzc8xkJ1HAGSexO04jDIl0rGZrpo,9576
+DepthFlow/Webui.py,sha256=3iUHWmQTmVg6AibA82iPzNjUjC6Q5pGgDhD4hue1ARg,13644
+DepthFlow/__init__.py,sha256=3E5RWQ65SpPI2W9PHeCOXaSCQmi3rFqChr-p3tEfmHw,681
+DepthFlow/__main__.py,sha256=kQXZpj-daUuz1AeVky_1FT3Pl-BikWduf_yOmWE_qB8,572
+DepthFlow/Resources/Images/DepthFlow.png,sha256=oUlRG-luFGw_D4vEEK4YX_fyNlJVoosIp3fYTXRUld8,14623
+DepthFlow/Resources/Images/DepthFlow.svg,sha256=PJ4PG-Bg9guS_kCOrmWrjPAF4R7i9WG26zJIIjT4rmc,1445
+DepthFlow/Resources/Shaders/DepthFlow.glsl,sha256=YwyTkzTBd7RJvUu0ZRcbytbeveuAVTTYwQNpcXRREYU,5717
+depthflow-0.7.0.dev1.dist-info/METADATA,sha256=nLMJuA7t_KVd6p-IHq-3qrr7v0SjltMQDo3uvd3MenI,4990
+depthflow-0.7.0.dev1.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+depthflow-0.7.0.dev1.dist-info/entry_points.txt,sha256=Q_H176mgCBDrXkDbUDXjFfFAczZBwlPTaCQiaVM_0gQ,219
+depthflow-0.7.0.dev1.dist-info/RECORD,,
