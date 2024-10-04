@@ -1,0 +1,12 @@
+pyimager/__init__.py,sha256=Ehmo6C4sq32QYab7Bbl7SplXTr_D2Rvs_o9GIzJM8Qs,911
+pyimager/__main__.py,sha256=HfKfOacjpMnboNXHs138DRspb1YgDTAjeL_BL4sNjtQ,206
+pyimager/compressing.py,sha256=YSFsBBR_mPgIhkFP9nl6Yj_e9QUeGpDNz8Q3EXBd_Ww,5025
+pyimager/data.py,sha256=xelKPNGmV8WLS-BU1-cDmsMfgspd-_rtENCdeFkTfzo,456
+pyimager/designer.py,sha256=rJ09Igt1uxT87DVIQASkuXt8wG_PdU2_ZnEgE5Nq520,3118
+pyimager/displaying.py,sha256=uKqPfnV5SYleYZhjK8Ijkn9_wX3GWaFTs0HeCmePD0w,1329
+pyimager/utils.py,sha256=TJJvnFPwbwzZS7qRZSonkYJThX0oNEQqIZT5HSjs1gA,801
+pyimager-3.4.3.dist-info/LICENSE.txt,sha256=R3vTAAeDVwV9Ka4q__hTfk1X1CmbqqJdtvMq9iWANAE,1082
+pyimager-3.4.3.dist-info/METADATA,sha256=k5_Y5vTVwL6DdH4s-g_FaomLm3C2Zf7aTikKTD_WqKg,584
+pyimager-3.4.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyimager-3.4.3.dist-info/top_level.txt,sha256=qfFMnRUdwcA01YZLX9FJ35DYUwmS2S_XmX3lOqdHgWY,9
+pyimager-3.4.3.dist-info/RECORD,,
