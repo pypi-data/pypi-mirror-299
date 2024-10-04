@@ -1,0 +1,149 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "dearpygui"
+version = "1.11.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/c8/3d06c3197a82959c23967486bc6dde81ce8b23027943b494d9b82799443c/dearpygui-1.11.1-cp312-cp312-macosx_10_6_x86_64.whl", hash = "sha256:ccf576117ed2159cd66b419458d060923c9dcebe7fe57c65b4f4c4889287845d", size = 2323059 },
+    { url = "https://files.pythonhosted.org/packages/e0/31/b1962c58ab707ac9eb36813d4ca53d78f0f5b6df5729764cb12b4c284cc2/dearpygui-1.11.1-cp312-cp312-macosx_13_0_arm64.whl", hash = "sha256:1d632e1acdaa986a8c32b57112b84685b92d9a41f18580e14d463d7ed7a52673", size = 1784499 },
+    { url = "https://files.pythonhosted.org/packages/e7/12/dc4c9c6af70f7971e94f273dede5e63d14d5fe217d8c3a3954afaf87b92e/dearpygui-1.11.1-cp312-cp312-manylinux1_x86_64.whl", hash = "sha256:ca4f7ba667f64ee682dfcb3399d9d43df6821b2d962b96b4fa4535de5776f538", size = 2764917 },
+    { url = "https://files.pythonhosted.org/packages/2c/31/95f3b363356ca52ba5e860859840e873fc0d65afe9d4c40f0b6d10ca5e91/dearpygui-1.11.1-cp312-cp312-win_amd64.whl", hash = "sha256:8ce9881a629de72e05ca8b1ce7cefcdd77b624eb7eba6f7d6629848d84a797f6", size = 1723424 },
+]
+
+[[package]]
+name = "dearpygui-ext"
+version = "0.9.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cc/a2/d42902e19af61b72226682f5f708e512e557909715bc962b15f02dce424f/dearpygui_ext-0.9.5.tar.gz", hash = "sha256:2ac650936e974aa2b05d5c81528944ad4c446e0bd7aa96dbfd5f66bcc476848d", size = 11221 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a4/ca/52d7acf998e7ff6216e49a3ede273249b7c1833f6f11e1a3df5b0fdea309/dearpygui_ext-0.9.5-py3-none-any.whl", hash = "sha256:cbdf28c681d8aacc26ddaa875f4ffbd5d32971522cfafc37b43df9c331c21dc2", size = 9327 },
+]
+
+[[package]]
+name = "evdev"
+version = "1.7.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/12/bb/f622a8a5e64d46ca83020a761877c0ead19140903c9aaf1431f3c531fdf6/evdev-1.7.1.tar.gz", hash = "sha256:0c72c370bda29d857e188d931019c32651a9c1ea977c08c8d939b1ced1637fde", size = 30705 }
+
+[[package]]
+name = "pynput"
+version = "1.7.7"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "evdev", marker = "'linux' in sys_platform" },
+    { name = "pyobjc-framework-applicationservices", marker = "sys_platform == 'darwin'" },
+    { name = "pyobjc-framework-quartz", marker = "sys_platform == 'darwin'" },
+    { name = "python-xlib", marker = "'linux' in sys_platform" },
+    { name = "six" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ef/1d/fdef3fdc9dc8dedc65898c8ad0e8922a914bb89c5308887e45f9aafaec36/pynput-1.7.7-py2.py3-none-any.whl", hash = "sha256:afc43f651684c98818de048abc76adf9f2d3d797083cb07c1f82be764a2d44cb", size = 90243 },
+]
+
+[[package]]
+name = "pyobjc-core"
+version = "10.3.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b7/40/a38d78627bd882d86c447db5a195ff307001ae02c1892962c656f2fd6b83/pyobjc_core-10.3.1.tar.gz", hash = "sha256:b204a80ccc070f9ab3f8af423a3a25a6fd787e228508d00c4c30f8ac538ba720", size = 935027 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cd/4d/d5d552b209fbca644cf9e0115a4cef8bc5f6726a44303eb7ae8d8a920a9e/pyobjc_core-10.3.1-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:6ff5823d13d0a534cdc17fa4ad47cf5bee4846ce0fd27fc40012e12b46db571b", size = 825968 },
+    { url = "https://files.pythonhosted.org/packages/2e/8b/341571ac5d625968083cbd718e1af7eac54197ed3d404dfff9467c3a8c88/pyobjc_core-10.3.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:2581e8e68885bcb0e11ec619e81ef28e08ee3fac4de20d8cc83bc5af5bcf4a90", size = 827410 },
+]
+
+[[package]]
+name = "pyobjc-framework-applicationservices"
+version = "10.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyobjc-core" },
+    { name = "pyobjc-framework-cocoa" },
+    { name = "pyobjc-framework-coretext" },
+    { name = "pyobjc-framework-quartz" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/66/a6/3704b63c6e844739e3b7e324d1268fb6f7cb485550267719660779266c60/pyobjc_framework_applicationservices-10.3.1.tar.gz", hash = "sha256:f27cb64aa4d129ce671fd42638c985eb2a56d544214a95fe3214a007eacc4790", size = 182738 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/af/01/bf2d335e3f176227a142f466419a9400dd752e7f02f03674a276f39c1d78/pyobjc_framework_ApplicationServices-10.3.1-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:be157f2c3ffb254064ef38249670af8cada5e519a714d2aa5da3740934d89bc8", size = 31072 },
+    { url = "https://files.pythonhosted.org/packages/a5/44/44821633fb0a94e5072997eb56496a72c071ed22a1c93e53915b5a14dbb5/pyobjc_framework_ApplicationServices-10.3.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:57737f41731661e4a3b78793ec9173f61242a32fa560c3e4e58484465d049c32", size = 30950 },
+]
+
+[[package]]
+name = "pyobjc-framework-cocoa"
+version = "10.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyobjc-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a7/6c/b62e31e6e00f24e70b62f680e35a0d663ba14ff7601ae591b5d20e251161/pyobjc_framework_cocoa-10.3.1.tar.gz", hash = "sha256:1cf20714daaa986b488fb62d69713049f635c9d41a60c8da97d835710445281a", size = 4941542 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/29/73/9a913537d6d63758243f76a3d3acbae8eb77705c278eceaf37198e58dcf5/pyobjc_framework_Cocoa-10.3.1-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:11b4e0bad4bbb44a4edda128612f03cdeab38644bbf174de0c13129715497296", size = 396183 },
+    { url = "https://files.pythonhosted.org/packages/93/1f/b203c35ac17ff50b101433783988b527c1b7d7386c175c9aec1c89da5426/pyobjc_framework_Cocoa-10.3.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:de5e62e5ccf2871a94acf3bf79646b20ea893cc9db78afa8d1fe1b0d0f7cbdb0", size = 395004 },
+]
+
+[[package]]
+name = "pyobjc-framework-coretext"
+version = "10.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyobjc-core" },
+    { name = "pyobjc-framework-cocoa" },
+    { name = "pyobjc-framework-quartz" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/9e/9f/d363cb1548808f538d7ae267a9fcb999dfb5693056fdaa5bc93de089cfef/pyobjc_framework_coretext-10.3.1.tar.gz", hash = "sha256:b8fa2d5078ed774431ae64ba886156e319aec0b8c6cc23dabfd86778265b416f", size = 233428 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/66/8e/4341253c550d6cf4da1a8c33d8d310b6ddbbaaea09eca26ea5eaff176e4b/pyobjc_framework_CoreText-10.3.1-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:ae6c09d29eeaf30a67aa70e08a465b1f1e47d12e22b3a34ae8bc8fdb7e2e7342", size = 30404 },
+    { url = "https://files.pythonhosted.org/packages/6d/7a/850261594a2a7ec54f27449db2c2494cc0b79897c765fea1581e03268f7e/pyobjc_framework_CoreText-10.3.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:51ca95df1db9401366f11a7467f64be57f9a0630d31c357237d4062df0216938", size = 30331 },
+]
+
+[[package]]
+name = "pyobjc-framework-quartz"
+version = "10.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyobjc-core" },
+    { name = "pyobjc-framework-cocoa" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f7/a2/f488d801197b9b4d28d0b8d85947f9e2c8a6e89c5e6d4a828fc7cccfb57a/pyobjc_framework_quartz-10.3.1.tar.gz", hash = "sha256:b6d7e346d735c9a7f147cd78e6da79eeae416a0b7d3874644c83a23786c6f886", size = 3775947 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/0f/08/215f38dbebfca74f49276a9471531f360b4fb7888106f78953909919ca53/pyobjc_framework_Quartz-10.3.1-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:ca35f92486869a41847a1703bb176aab8a53dbfd8e678d1f4d68d8e6e1581c71", size = 227195 },
+    { url = "https://files.pythonhosted.org/packages/ce/7a/78b512061af37a4466607143a9876192f04c5810b16e4cb097fbbfa02dc5/pyobjc_framework_Quartz-10.3.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:00a0933267e3a46ea4afcc35d117b2efb920f06de797fa66279c52e7057e3590", size = 226586 },
+]
+
+[[package]]
+name = "python-xlib"
+version = "0.33"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/86/f5/8c0653e5bb54e0cbdfe27bf32d41f27bc4e12faa8742778c17f2a71be2c0/python-xlib-0.33.tar.gz", hash = "sha256:55af7906a2c75ce6cb280a584776080602444f75815a7aff4d287bb2d7018b32", size = 269068 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fc/b8/ff33610932e0ee81ae7f1269c890f697d56ff74b9f5b2ee5d9b7fa2c5355/python_xlib-0.33-py2.py3-none-any.whl", hash = "sha256:c3534038d42e0df2f1392a1b30a15a4ff5fdc2b86cfa94f072bf11b10a164398", size = 182185 },
+]
+
+[[package]]
+name = "six"
+version = "1.16.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/71/39/171f1c67cd00715f190ba0b100d606d440a28c93c7714febeca8b79af85e/six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926", size = 34041 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254", size = 11053 },
+]
+
+[[package]]
+name = "tossnturn"
+version = "0.2.0"
+source = { editable = "." }
+dependencies = [
+    { name = "dearpygui" },
+    { name = "dearpygui-ext" },
+    { name = "pynput" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "dearpygui", specifier = ">=1.11.1" },
+    { name = "dearpygui-ext", specifier = ">=0.9.5" },
+    { name = "pynput", specifier = ">=1.7.7" },
+]

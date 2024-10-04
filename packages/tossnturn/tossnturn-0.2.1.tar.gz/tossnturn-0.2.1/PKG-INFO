@@ -1,0 +1,14 @@
+Metadata-Version: 2.3
+Name: tossnturn
+Version: 0.2.1
+Summary: Add your description here
+License-File: LICENSE
+Requires-Python: >=3.12
+Requires-Dist: dearpygui-ext>=0.9.5
+Requires-Dist: dearpygui>=1.11.1
+Requires-Dist: pynput>=1.7.7
+Description-Content-Type: text/markdown
+
+# Toss 'n' Turn
+
+A simple application that keeps a session alive by emulating a mouse.
