@@ -1,0 +1,3 @@
+[console_scripts]
+MGE = MGE.setup:main
+mge = MGE.setup:main
