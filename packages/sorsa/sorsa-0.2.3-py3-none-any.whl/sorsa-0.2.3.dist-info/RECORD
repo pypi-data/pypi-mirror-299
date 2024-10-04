@@ -1,0 +1,9 @@
+sorsa/__init__.py,sha256=heQSRzrUb4Yawt8IYDXCCS2kbNzqLuhAaMuJ9NvHGic,425
+sorsa/config.py,sha256=1oqntilF7mI3EOGCNDguJOWkD08G_XbNC8XceGOBtIw,1282
+sorsa/layer.py,sha256=3ms_qWMXym9rycQHnAekf0TSkwISxUYINmcdOSBsshU,4564
+sorsa/model.py,sha256=n_tmshmTxsZBxf1Btk4S_TXHDCrSb1wWDGkY4YNFKLg,3302
+sorsa/trainer.py,sha256=qw3Sz9-eHbpxFlLcsFhuSO5nE0Oh3Vt9Smr1ge6p5gE,238191
+sorsa-0.2.3.dist-info/METADATA,sha256=_KWDn3LUKl_koBHGPC0CO4X_e87qHxOsETxozMCAnrg,1329
+sorsa-0.2.3.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+sorsa-0.2.3.dist-info/top_level.txt,sha256=njd9aCUdwYRiHRKVpQSFsiXcIVLw5RVu5HNKA0FiaY4,6
+sorsa-0.2.3.dist-info/RECORD,,
