@@ -1,0 +1,8 @@
+README.md
+setup.py
+dummy/__init__.py
+dummy/package.py
+lucit_ubdcc_restapi.egg-info/PKG-INFO
+lucit_ubdcc_restapi.egg-info/SOURCES.txt
+lucit_ubdcc_restapi.egg-info/dependency_links.txt
+lucit_ubdcc_restapi.egg-info/top_level.txt
