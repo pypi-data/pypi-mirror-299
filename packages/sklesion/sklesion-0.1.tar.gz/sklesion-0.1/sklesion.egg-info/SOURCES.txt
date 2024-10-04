@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+sklesion/__init__.py
+sklesion/model.keras
+sklesion/model.py
+sklesion/prob_to_label.py
+sklesion.egg-info/PKG-INFO
+sklesion.egg-info/SOURCES.txt
+sklesion.egg-info/dependency_links.txt
+sklesion.egg-info/requires.txt
+sklesion.egg-info/top_level.txt
