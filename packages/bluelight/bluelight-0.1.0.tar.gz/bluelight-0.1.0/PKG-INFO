@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bluelight
+Version: 0.1.0
+Summary: This program let's you setup your Raspberry Pi to run moonlight-qt automatically when connecting a controller over bluetooth.
+Author: Zak Espley
+Author-email: zespley@gmail.com
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: bleak (>=0.22.2,<0.23.0)
+Requires-Dist: dbus-next (>=0.2.3,<0.3.0)
+Requires-Dist: typer (>=0.12.5,<0.13.0)
+Description-Content-Type: text/markdown
+
+
