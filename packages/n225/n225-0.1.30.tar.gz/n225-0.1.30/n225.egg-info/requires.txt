@@ -1,0 +1,17 @@
+jpholiday
+kanilog
+mojimoji
+numpy
+pandas
+pdftotext
+tabula_py
+urlpath
+kanirequests
+nth_weekday
+
+[test]
+add_parent_path
+loglevel
+pytest
+stdlogging
+PyYAML

@@ -1,0 +1,10 @@
+jpholiday
+kanilog
+mojimoji
+numpy
+pandas
+pdftotext
+tabula_py
+urlpath
+kanirequests
+nth_weekday
