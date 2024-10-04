@@ -1,0 +1,7 @@
+README.md
+setup.py
+first_env_test/__init__.py
+first_env_test.egg-info/PKG-INFO
+first_env_test.egg-info/SOURCES.txt
+first_env_test.egg-info/dependency_links.txt
+first_env_test.egg-info/top_level.txt
