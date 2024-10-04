@@ -1,0 +1,2 @@
+[console_scripts]
+git-mirror = pygitmirror.__main__:main
