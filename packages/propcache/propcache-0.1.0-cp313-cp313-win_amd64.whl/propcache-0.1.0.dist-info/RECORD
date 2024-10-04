@@ -1,0 +1,15 @@
+propcache/__init__.py,sha256=UAzSMeQ1DBAYEnOO66fJDbaHKcN3zrNWVvnJovScbH0,151
+propcache/_helpers.py,sha256=8CnlWmfTM6RDbMvNDXwL-VMHWiwIUjG8nbeqmvRsbh8,1579
+propcache/_helpers_c.cp313-win_amd64.exp,sha256=YmHeccyFhbqJ_m_SieqDDkA1RhxvIqfKdS6z-1QPUYo,860
+propcache/_helpers_c.cp313-win_amd64.lib,sha256=1KHLtdeFObLjQaZ-bV100IaPGXwcH9DArlswaCGkDfk,2068
+propcache/_helpers_c.cp313-win_amd64.pyd,sha256=jKgm3uu3Uz0ozM3eTtH6vap__5Vvo00lW28yXrMamio,71680
+propcache/_helpers_c.obj,sha256=ZP5sl17IsWMTi_f8D27uH-erSFuieMFhhraqsZw8B5E,699198
+propcache/_helpers_c.pyx,sha256=o09KlMAfyZ4CE_vvvJmdgoraLK05Bi979Yyah8ckNb4,2487
+propcache/_helpers_py.py,sha256=7EhlJV6HK-JDWDP0PQQI54UGpB4IAY3U6hOghIzk04k,1388
+propcache/py.typed,sha256=ay5OMO475PlcZ_Fbun9maHW7Y6MBTk0UXL4ztHx3Iug,14
+propcache-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+propcache-0.1.0.dist-info/METADATA,sha256=JW8Z2_9Z5or0q1lMm1GqhGWwx__aZA_KtSV6mkpBA28,6147
+propcache-0.1.0.dist-info/NOTICE,sha256=VtasbIEFwKUTBMIdsGDjYa-ajqCvmnXCOcKLXRNpODg,609
+propcache-0.1.0.dist-info/WHEEL,sha256=WsITy9NjrxZo875xZQhJpU3vZUHVZRtNnEd5DMBQpxU,101
+propcache-0.1.0.dist-info/top_level.txt,sha256=pVF_GbqSAITPMiX27kfU3QP9-ufhRvkADmudDxWdF3w,10
+propcache-0.1.0.dist-info/RECORD,,
