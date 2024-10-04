@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: beautifull-terminal
+Version: 0.1
+Summary: Automatically beautify your terminal output with colors.
+Home-page: https://github.com/StarGames2025/beautifull_terminal
+Author: starcrusher2025
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.md
