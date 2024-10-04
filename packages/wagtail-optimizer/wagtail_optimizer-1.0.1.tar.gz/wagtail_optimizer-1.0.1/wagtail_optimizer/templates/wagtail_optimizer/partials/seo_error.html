@@ -1,0 +1,42 @@
+{% load i18n %}
+
+{% if error.tag %}
+    <details>
+        <summary class="seo-summary">
+            <strong>{{ error.error_message }}</strong>
+            {% if error.tag.text %}
+                <span>- {{ error.tag.text }}</span>
+            {% endif %}
+        </summary>
+        <div class="seo-summary-meta">
+            {% if error.tag.text %}
+                <p>
+                    <strong>{% translate "Text:" %}</strong>
+                    {{ error.tag.text }}
+                </p>
+            {% endif %}
+            {% if error.tag.src %}
+                <p>
+                    <strong>{% translate "Source:" %}</strong>
+                    {{ error.tag.src }}
+                </p>
+            {% endif %}
+            {% if error.tag.href %}
+                <p>
+                    <strong>{% translate "Href:" %}</strong>
+                    {{ error.tag.href }}
+                </p>
+            {% endif %}
+            {% if error.tag.selector %}
+                <p>
+                    <strong>{% translate "Selector:" %}</strong>
+                    {{ error.tag.selector }}
+                </p>
+            {% endif %}
+        </div>
+    </details>
+{% else %}
+    <p>
+        <strong class="seo-text-large">{{ error.error_message }}</strong>
+    </p>
+{% endif %}
