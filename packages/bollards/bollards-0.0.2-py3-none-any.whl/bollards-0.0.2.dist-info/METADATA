@@ -1,0 +1,12 @@
+Metadata-Version: 2.3
+Name: bollards
+Version: 0.0.2
+Summary: A package that quizzes you on bollards from all over the world (for geoguessr)
+Project-URL: Homepage, https://github.com/zlliu246/bollards
+Project-URL: Issues, https://github.com/zlliu246/bollards/issues
+Author-email: Liu Zuo Lin <zlliu246@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
