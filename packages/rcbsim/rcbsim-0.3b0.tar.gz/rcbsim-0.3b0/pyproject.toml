@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rcbsim"
+description = "A version of RC building simulator that is installable via pip forked from https://github.com/architecture-building-systems/RC_BuildingSimulator Oct  3, 2024 by dlvilla@sandia.gov"
+version = "v0.3b0"
+authors = [{name = "Daniel Villa", email = "dlvilla@sandia.gov"}]
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["building energy models","RC models"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+"numpy",
+"setuptools",
+"matplotlib",
+"pandas"]
+requires-python = ">= 3.9"
+
+[project.urls]
+   Repository = "https://github.com/dlvilla/rcbsim.git"
+
+[tool.distutils.bdist_wheel]
+   universal = true
