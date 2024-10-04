@@ -1,0 +1,9 @@
+requests<3,>=2.24.0
+PyNaCl
+base58~=0.2.5
+ecdsa~=0.17.0
+inflection~=0.5.1
+freezegun~=1.1.0
+mnemonic~=0.20
+eth-utils~=2.0.0
+pycryptodome~=3.12.0
