@@ -1,0 +1,3 @@
+[console_scripts]
+lk-typer-packaging-tutor=lk_typer_packaging_tutor.main:app
+
