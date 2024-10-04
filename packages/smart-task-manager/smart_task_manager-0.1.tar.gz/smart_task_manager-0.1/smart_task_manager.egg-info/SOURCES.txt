@@ -1,0 +1,10 @@
+setup.py
+smart_task_manager/__init__.py
+smart_task_manager/analytics.py
+smart_task_manager/scheduler.py
+smart_task_manager/task_manager.py
+smart_task_manager.egg-info/PKG-INFO
+smart_task_manager.egg-info/SOURCES.txt
+smart_task_manager.egg-info/dependency_links.txt
+smart_task_manager.egg-info/top_level.txt
+test/test_task_manager.py
