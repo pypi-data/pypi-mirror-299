@@ -1,0 +1,8 @@
+README.md
+setup.py
+hello_earth/__init__.py
+hello_earth/main.py
+hello_earth.egg-info/PKG-INFO
+hello_earth.egg-info/SOURCES.txt
+hello_earth.egg-info/dependency_links.txt
+hello_earth.egg-info/top_level.txt
