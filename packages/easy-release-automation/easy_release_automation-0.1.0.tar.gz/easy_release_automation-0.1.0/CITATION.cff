@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "Easy Release Automation"
+version: 0.1.0
+date-released: TODO-update-for-release 0.1.0
+license: "MIT"
+copyright: "Copyright (c) 2024 Ingenics Digital GmbH"
+authors:
+  - family-names: "Kauschke"
+    given-names: "David"
+  - family-names: "Seibold"
+    given-names: "Claus"

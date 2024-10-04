@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: easy_release_automation
+Version: 0.1.0
+Summary: Easy-Release-Automation for Multi-Package-Versioning.
+Author-email: Claus Seibold <claus.seibold@ingenics-digital.com>, David Kauschke <david.kauschke@ingenics-digital.com>, Martin Lautenbacher <martin.lautenbacher@ingenics-digital.com>
+Project-URL: Homepage, https://github.com/IngenicsDigital/easy-release-automation
+Project-URL: Issues, https://github.com/IngenicsDigital/easy-release-automation/issues
+Keywords: EasyReleaseAutomation,git,AutomatedModification,AutomatedTesting
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip-tools>=7.4.1
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: GitPython>=3.1.43
+Requires-Dist: ruamel.yaml>=0.18.6
+Requires-Dist: tomlkit>=0.12.5
+Requires-Dist: pydantic>=2.7.1
+Provides-Extra: test
+Requires-Dist: black==24.4.2; extra == "test"
+Requires-Dist: Flake8==3.8.0; extra == "test"
+Requires-Dist: flakehell==0.9.0; extra == "test"
+Requires-Dist: mypy==1.3.0; extra == "test"
+Requires-Dist: tox==4.15.0; extra == "test"
+Requires-Dist: pytest==7.1.2; extra == "test"
+Requires-Dist: pytest-cov==2.12.1; extra == "test"
+Requires-Dist: pytest-html==3.1.1; extra == "test"
+Requires-Dist: pytest-mock==3.1.1; extra == "test"
+Requires-Dist: deepdiff==7.0.1; extra == "test"
+Requires-Dist: license-header-check==0.2.1; extra == "test"
+Requires-Dist: build==1.2.1; extra == "test"
+
+# ERA (**E**asy **R**elease **A**utomation)
+
+Imagine reducing the time and complexity of managing multiple software releases to a single click.
+That's exactly what the ERA tool does - it streamlines the tagging of multiple interdependent
+repositories by integrating ERA into your CI pipeline or your local development environment.
+
+This robust automation not only **saves us over four hours per release** but also simplifies our
+release process, crucial for software project with frequent monthly updates.
+
+ERA is an open source Python tool crafted to enhance efficiency and convenience in handling multiple
+repository tags.
+
+## Table of Contents
+
+- [ERA (**E**asy **R**elease **A**utomation)](#era-easy-release-automation)
+  - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
+  - [Quick Start Guide](#quick-start-guide)
+  - [What is ERA?](#what-is-era)
+  - [What is ERA not?](#what-is-era-not)
+  - [ERA Release With Continuous Integration](#era-release-with-continuous-integration)
+  - [Getting Started](#getting-started)
+  - [Additional Documentation](#additional-documentation)
+  - [FAQ](#faq)
+    - [What Should I Know Before Using ERA?](#what-should-i-know-before-using-era)
+    - [Does ERA Natively Run On Windows?](#does-era-natively-run-on-windows)
+
+## Requirements
+
+- Windows Subsystem for Linux (WSL2)
+- Ubuntu Version 20.04 LTS or higher
+- Python Version 3.9 or higher
+
+## Quick Start Guide
+
+Explore the [ERA Getting Started For End Users](doc/getting_started_end_user.md).
+This hands-on tutorial will guide you through releasing ERA and then applying it to your own Git
+project, all within approximately one hour.
+
+## What is ERA?
+
+- ERA provides a `easy-release-automation` CLI entry point to release multiple repositories in your project.
+- ERA configures the release process for modification, validation and tagging according to a lightweight `release-config.yml` (see [Release-Config Example](./era/release-config.yml)).
+- During the release process:
+  - ERA offers repository validation steps before a repository is tagged.
+  - ERA offers repository modification steps before and after a repository is tagged.
+  - ERA tags the repositories.
+  - ERA pushes the updated and tagged branches to the remote repository.
+- ERA offers an existing set of versatile modification and validation plugins.
+- ERA offers customization by enabling you to create your own modification and validation plugins to meet specific requirements.
+
+ERA automatically generates the following **three commit messages for each repository during the release process**:
+
+```bash
+    Main branch (Merge Commit from stable into main)
+    │
+    ├─ chore: :wastebasket: ERA: Preparation for merging back into main with the plugin(s): changelog_unreleased_setter
+
+    Stable branch (Commit for Tag 0.1.0)
+    │
+    ├─ chore: :bookmark: ERA: Release-Commit for Version: 0.1.0
+
+    Stable branch (Commit for modification based on defined plugins in release-config.yml)
+    │
+    ├─ chore: :white_check_mark: ERA: Modification with the plugin(s): changelog_version_updater, yaml_updater
+    │  and Validation with the plugin(s): validate_changelog 
+```
+
+## What is ERA not?
+
+ERA is not responsible for the following tasks:
+
+1. Building and deploying a package from the source code.
+2. Integrating manual testing during the release process.
+3. Testing created packages on end-devices or in cloud environment.
+
+## ERA Release With Continuous Integration
+
+ERA is a practical tool that can be integrated into a Continuous Integration (CI) environment,
+such as GitHub, GitLab, or Azure pipelines.
+The following diagram illustrates a possible flow for integrating ERA into a CI pipeline within
+the `Release With ERA` step to ensure smooth and consistent tagging:
+
+```mermaid
+graph LR
+    DevTeam(Dev Team) --> CodeRepo[Code Repository]
+
+    CodeRepo --> CI_CD_Pipeline[CI/CD Pipeline]
+    CI_CD_Pipeline --> BuildTests[Linting & Building & Testing]
+    BuildTests --> Release[Release With ERA]
+    Release --> Deployment[Deployment]
+    style Release fill:#00ACA9
+```
+
+**Diagram 1:** _ERA CI for Release Automation_
+
+## Getting Started
+
+- [ERA Project Integration Guide](./doc/project_integration.md)
+- [ERA Getting Started For Developers](doc/getting_started_developer.md)
+
+## Additional Documentation
+
+- [How does ERA work?](./doc/overview.md)
+- [Feature Matrix](./doc/features.md)
+
+## FAQ
+
+### What Should I Know Before Using ERA?
+
+- Basics of using Git
+- Basics of GitFlow
+
+### Does ERA Natively Run On Windows?
+
+ERA is primarily developed and used on Linux developer machines (see `scripts/setup-era.sh`) or in CI environment with Linux agents.
+
+ERA operates in the following environments:
+
+1. ERA is supported on Ubuntu 20.04 or higher and on WSL2.
+2. ERA was tested on Ubuntu 20.04 and on WSL2 on Windows machines.
+3. ERA is not tested on native Windows machines.
