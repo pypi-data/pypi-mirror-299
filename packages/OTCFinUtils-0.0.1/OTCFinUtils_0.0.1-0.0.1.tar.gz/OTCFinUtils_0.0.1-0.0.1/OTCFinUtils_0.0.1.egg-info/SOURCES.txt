@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+OTCFinUtils/data_structs.py
+OTCFinUtils/dataverse_handler.py
+OTCFinUtils/utils.py
+OTCFinUtils_0.0.1.egg-info/PKG-INFO
+OTCFinUtils_0.0.1.egg-info/SOURCES.txt
+OTCFinUtils_0.0.1.egg-info/dependency_links.txt
+OTCFinUtils_0.0.1.egg-info/not-zip-safe
+OTCFinUtils_0.0.1.egg-info/top_level.txt
