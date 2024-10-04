@@ -1,0 +1,14 @@
+auto_i18n-0.7.1.dist-info/METADATA,sha256=3a_2I_noG38x0OYG-dWjudwaWz756rTQz_B68acAUtU,7376
+auto_i18n-0.7.1.dist-info/WHEEL,sha256=Vza3XR51HW1KmFP0iIMUVYIvz0uQuKJpIXKYOBGQyFQ,90
+auto_i18n-0.7.1.dist-info/entry_points.txt,sha256=Xt8UsNYXWspWZ9ipX9Qmazld25ZV9BhxIXs-JAHoTUs,89
+auto_i18n/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_i18n/cli.py,sha256=w3Q5amuKsi73OrKcqtvSUUbaxk1DYKRhNfwrD4vQbAY,5998
+auto_i18n/config.py,sha256=DDEd-zpx1J5QZHnLE3mfrKumvQD2z4nAhLkoMCLMNIs,5100
+auto_i18n/extract.py,sha256=BdNPAkqFwqCXJAj7wBD6pJNOQpv_Xlxv9l2Y24jDGZc,4174
+auto_i18n/gpt.py,sha256=VQbSZfBNJheCuAhQacGI-bSyWq4WGe7a5oZlRMorPVI,1245
+auto_i18n/io.py,sha256=rLBCr1cMEaW-YCW3hz-z-wAiqS20g0NaxRD3zsMKsfc,2578
+auto_i18n/translate.py,sha256=mbyFjzdRoSD1HaVhhmmVLvhxyRjKzVcoMVmCnTRN0Mw,2694
+auto_i18n/utils/__init__.py,sha256=s8owtfETXNCOOHGqATTilfeWE5gB3ssMZV91bwRkgy8,74
+auto_i18n/utils/object.py,sha256=PB4sLExn0WvsngUGWFWm1jMMT_vQokCUk77DsW0xIlo,806
+auto_i18n/utils/string.py,sha256=iunN9_jhNrHTlJjUOFfsK9O_wLLXkc4I8lzKJYFaMIM,808
+auto_i18n-0.7.1.dist-info/RECORD,,
