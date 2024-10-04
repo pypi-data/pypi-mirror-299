@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: pyiron_dataclasses
+Version: 0.0.1
+Summary: Dataclasses for the pyiron workflow framework
+Author-email: Jan Janssen <janssen@mpie.de>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Jan Janssen
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/pyiron/pyiron_dataclasses
+Project-URL: Documentation, https://github.com/pyiron/pyiron_dataclasses
+Project-URL: Repository, https://github.com/pyiron/pyiron_dataclasses
+Keywords: pyiron
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dataclasses for pyiron
+The `pyiron_dataclasses` module provides a series of [dataclasses](https://docs.python.org/3/library/dataclasses.html) 
+for the `pyiron` workflow framework. It can load HDF5 files created by `pyiron_atomistics` and read the content stored 
+in those files, without depending on `pyiron_atomistics`. Furthermore, it is not fixed to a single version of 
+`pyiron_atomistics` but rather matches multiple versions of `pyiron_atomistics` to the same API version of 
+`pyiron_dataclasses`. 
+
+## Usage 
+Using the `get_dataclass()` function of the built-in converter:
+```python
+from h5io_browser import read_dict_from_hdf
+from pyiron_dataclasses.v1.converter import get_dataclass
+
+job_classes = get_dataclass(
+    job_dict=read_dict_from_hdf(
+        file_name=job.project_hdf5.file_name,
+        h5_path="/",
+        recursive=True,
+        slash='ignore',
+    )[job.job_name]
+)
+job_classes
+```
+
+## Supported Versions 
+### Version 1 - `v1`
+Supported versions of `pyiron_atomistics`:
+* `0.6.13`
+* `0.6.12`

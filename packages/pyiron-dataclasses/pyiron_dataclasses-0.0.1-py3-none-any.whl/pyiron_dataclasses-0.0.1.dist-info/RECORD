@@ -1,0 +1,15 @@
+pyiron_dataclasses/__init__.py,sha256=n9jCC2ovB9sVfEEjmoJBR_rAOnc1kKiEvhX01NZZTPw,76
+pyiron_dataclasses/_version.py,sha256=v0YjEQlsbYrQ7CaZywu9BOUnjakYwL1SUt3UgfOgNF4,24645
+pyiron_dataclasses/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyiron_dataclasses/v1/atomistic.py,sha256=HKCXGViZJFZD2AeMExSLj5fBiqDESLbfu9BwAw3LV2s,1973
+pyiron_dataclasses/v1/converter.py,sha256=RLk0oeWbO2UtxaHOiL-rcdTdO_eM-Y7NFPS4KabdYh4,47018
+pyiron_dataclasses/v1/dft.py,sha256=-urmx6N1KvdgXKw5DG5vjp11GZglNVzN8R_QXw6GFbs,1650
+pyiron_dataclasses/v1/job.py,sha256=B6j82oIitpruIgCzvkMDa4pwhBWtHHVrwoErXxrxPyA,1037
+pyiron_dataclasses/v1/lammps.py,sha256=JnaRfXaOzgChprOxAcbNekXy9if1bxOHVaTjR9CEX0A,963
+pyiron_dataclasses/v1/sphinx.py,sha256=gBf6-FthNf0Q5hQaGvoOLel1qRoEDh_mWK6yWRxIjIc,3487
+pyiron_dataclasses/v1/vasp.py,sha256=mkQT-TqdSxWZKvnRnUCQmzcJHTQMjeMr7lQSXLN2lrI,1417
+pyiron_dataclasses-0.0.1.dist-info/LICENSE,sha256=xbFsSsUmPYV1fLlKrIpzWyrFnHUBUInDcbjRZZ3v_eU,1511
+pyiron_dataclasses-0.0.1.dist-info/METADATA,sha256=EqZMKV19GdeBIcTQXs2a9EG3cwONa6GStTdNrPWi-Nk,3666
+pyiron_dataclasses-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+pyiron_dataclasses-0.0.1.dist-info/top_level.txt,sha256=GWESmNu7XqIuDQco-j6iMhF875N98wBaeXwdByC0YKg,19
+pyiron_dataclasses-0.0.1.dist-info/RECORD,,
