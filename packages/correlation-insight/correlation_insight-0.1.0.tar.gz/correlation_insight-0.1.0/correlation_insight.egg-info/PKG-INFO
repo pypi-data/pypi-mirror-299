@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: correlation-insight
+Version: 0.1.0
+Summary: Un package Python pour analyser la corrélation, incluant des tests de normalité, de linéarité, et des visualisations pour évaluer les relations entre variables.
+Home-page: https://github.com/chabiadjobo/correlation_insight
+Author: CHABI ADJOBO AYEDESSO
+Author-email: aurelus.chabi@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE

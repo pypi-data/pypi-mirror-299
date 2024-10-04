@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+correlation_insight.egg-info/PKG-INFO
+correlation_insight.egg-info/SOURCES.txt
+correlation_insight.egg-info/dependency_links.txt
+correlation_insight.egg-info/requires.txt
+correlation_insight.egg-info/top_level.txt
