@@ -1,0 +1,7 @@
+historian/sqlite/__init__.py,sha256=bXhe5yDgXSXF8DgnWz7cXaA-4pbA0E-qF1f9ZQWODns,1078
+historian/sqlite/sqlitefuncts.py,sha256=hvn4LAVlZ-OUZQgd7m0rk7oYIe_bcpzhKGI5jBfAcII,30450
+volttron_sqlite_historian-2.0.0rc0.dist-info/LICENSE,sha256=jbS35gpEFbSo_UigScg0Qfr4UrqpPxpsRAtb7T00LYY,11928
+volttron_sqlite_historian-2.0.0rc0.dist-info/METADATA,sha256=cz9mwNEak3LgdH_bjJA_leKAphPQ0jQ2b5Ig-aze9j4,4547
+volttron_sqlite_historian-2.0.0rc0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+volttron_sqlite_historian-2.0.0rc0.dist-info/entry_points.txt,sha256=gcisMhe-AgZmzfjd172joDF6xcKU8ugCBa8z2aJrGHE,74
+volttron_sqlite_historian-2.0.0rc0.dist-info/RECORD,,
