@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: p115client
+Version: 0.0.0.1
+Summary: Python 115 webdisk client.
+Home-page: https://github.com/ChenyangGao/web-mount-packs/tree/main/python-module/p115client
+License: MIT
+Keywords: 115,webdisk,client
+Author: ChenyangGao
+Author-email: wosiwujm@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: http_response
+Requires-Dist: httpx
+Requires-Dist: httpx_request (>=0.0.8.2)
+Requires-Dist: multidict
+Requires-Dist: orjson
+Requires-Dist: p115cipher (>=0.0.2)
+Requires-Dist: pycryptodome
+Requires-Dist: python-asynctools (>=0.0.4)
+Requires-Dist: python-cookietools (>=0.0.2)
+Requires-Dist: python-dictattr (>=0.0.4)
+Requires-Dist: python-filewrap (>=0.2)
+Requires-Dist: python-hashtools (>=0.0.3.3)
+Requires-Dist: python-http_request (>=0.0.6)
+Requires-Dist: python-httpfile (>=0.0.4)
+Requires-Dist: python-iterutils (>=0.0.7.1)
+Requires-Dist: python-startfile (>=0.0.2)
+Requires-Dist: python-urlopen (>=0.0.6)
+Requires-Dist: qrcode
+Requires-Dist: yarl
+Project-URL: Repository, https://github.com/ChenyangGao/web-mount-packs/tree/main/python-module/p115client
+Description-Content-Type: text/markdown
+
+# Python 115 webdisk client.
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/p115client)
+![PyPI - Version](https://img.shields.io/pypi/v/p115client)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/p115client)
+![PyPI - Format](https://img.shields.io/pypi/format/p115client)
+![PyPI - Status](https://img.shields.io/pypi/status/p115client)
+
+## Installation
+
+You can install from [pypi](https://pypi.org/project/p115client/)
+
+```console
+pip install -U p115client
+```
+
+## Usage
+
+```python
+from p115client import *
+```
+
+<div style="background-color: yellow; color: red; font-size: 5em; padding: 10px; text-align: center;">To be supplemented ...</div>
+
+
