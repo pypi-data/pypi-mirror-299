@@ -1,0 +1,34 @@
+%YAML 1.2
+---
+# Extracts a concept map from a text.
+transformers:
+    - pos_extract
+    - wordnet
+    - numerals
+    - adjectives
+    - negation
+    - genitive
+    - prepositions
+    - attr_class
+    - verb_collapse
+    - specific_edges
+    - unique
+    - lenient
+transformer_args:
+    sempos:
+        noun: n
+        adjective: j
+    attach_adjectives: True
+    keep_attached_adj: True
+operations:
+    - op: filter_edges
+      remove:
+        - isa
+      rename:
+        be: is
+      frequency:
+        max: 15
+        min: 0
+    - op: spot_domain
+linearizers:
+    - prolog
