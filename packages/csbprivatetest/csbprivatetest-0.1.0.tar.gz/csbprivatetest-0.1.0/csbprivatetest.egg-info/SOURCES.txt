@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+csbprivatetest/__init__.py
+csbprivatetest/georeference.py
+csbprivatetest/uncertainty.py
+csbprivatetest.egg-info/PKG-INFO
+csbprivatetest.egg-info/SOURCES.txt
+csbprivatetest.egg-info/dependency_links.txt
+csbprivatetest.egg-info/top_level.txt
+tests/test.py
