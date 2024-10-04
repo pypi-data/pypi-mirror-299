@@ -1,0 +1,5 @@
+pysmartdl2
+scrapetube
+requests
+yt-dlp
+soundcloud-lib
