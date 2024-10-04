@@ -1,0 +1,13 @@
+udemy_userAPI/__init__.py,sha256=BPle89xE_CMTKKe_Lw6jioYLgpH-q_Lpho2S-n1PIUA,206
+udemy_userAPI/__version__.py,sha256=mAEr0zlmSEAjfDqxvgeci1fw5fg0S1-Kiprgz_SpQlE,404
+udemy_userAPI/api.py,sha256=ttjrMsEa2WTn1TdR1YyfzD_aFnd3ePAQClCptoV8uL4,10728
+udemy_userAPI/authenticate.py,sha256=RKq4CTKj1tufjyFQ-DTvuUhllcdPvNzJ4qLtEKUkXLA,7112
+udemy_userAPI/bultins.py,sha256=1VMem8VNie85kSrwqiKsQ7iNYdbFHDtyRKAIZyTS_KE,8154
+udemy_userAPI/exeptions.py,sha256=nuZoAt4i-ctrW8zx9LZtejrngpFXDHOVE5cEXM4RtrY,508
+udemy_userAPI/sections.py,sha256=zPyDhvTIQCL0nbf7OJZG28Kax_iooILQ_hywUwvHoL8,4043
+udemy_userAPI/udemy.py,sha256=ceaXVTbQhSYkHnPIpYWUVtT6IT6jBvzYO_k4B7EFyj8,2154
+udemy_userAPI-0.1.6.dist-info/LICENSE,sha256=l4jdKYt8gSdDFOGr09vCKnMn_Im55XIcQKqTDEtFfNs,1095
+udemy_userAPI-0.1.6.dist-info/METADATA,sha256=2et7KgSg1hTE85oPFci5uDSroMqbG0mMjs7JmvSQ4eM,1368
+udemy_userAPI-0.1.6.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+udemy_userAPI-0.1.6.dist-info/top_level.txt,sha256=ijTINaSDRKhdahY_X7dmSRFTxBIwQErWv9ATCG55mog,14
+udemy_userAPI-0.1.6.dist-info/RECORD,,
