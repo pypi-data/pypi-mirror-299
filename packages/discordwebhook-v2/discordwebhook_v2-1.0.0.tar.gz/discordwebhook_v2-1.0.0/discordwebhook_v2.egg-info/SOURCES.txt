@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+discordwebhook_v2/__init__.py
+discordwebhook_v2/discordwebhook.py
+discordwebhook_v2.egg-info/PKG-INFO
+discordwebhook_v2.egg-info/SOURCES.txt
+discordwebhook_v2.egg-info/dependency_links.txt
+discordwebhook_v2.egg-info/requires.txt
+discordwebhook_v2.egg-info/top_level.txt
+tests/test_discordwebhook.py
