@@ -1,0 +1,10 @@
+neops_worker_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neops_worker_sdk/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neops_worker_sdk/cli/neops_worker.py,sha256=bJ71yiVPaA5J2O4m1jIhD9gWgbn-LeeY35hjzOS_vmQ,45
+neops_worker_sdk/function_block/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neops_worker_sdk/function_block/function_block.py,sha256=8OH67K-nvupmu-ltIk0Q6W4-xQVFCS-rgsrtZihS1Ro,61
+neops_worker_sdk/registry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neops_worker_sdk-0.1.0.dist-info/METADATA,sha256=Lb5WRgmdlAhiblvWUE8vhlALpHegnbcZOJaJLVB2MDU,813
+neops_worker_sdk-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+neops_worker_sdk-0.1.0.dist-info/entry_points.txt,sha256=a9xJqVaBRMLYizbK9G90eCpa0rPJDaw8ZMYGzch8nVI,71
+neops_worker_sdk-0.1.0.dist-info/RECORD,,

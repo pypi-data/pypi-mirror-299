@@ -1,0 +1,3 @@
+[console_scripts]
+neops_worker=neops_worker_sdk.cli.neops_worker:main
+
