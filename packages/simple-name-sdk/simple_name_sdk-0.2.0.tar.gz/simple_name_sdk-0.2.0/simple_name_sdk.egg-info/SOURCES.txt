@@ -1,0 +1,8 @@
+README.md
+setup.py
+name_sdk/__init__.py
+name_sdk/name_combiner.py
+simple_name_sdk.egg-info/PKG-INFO
+simple_name_sdk.egg-info/SOURCES.txt
+simple_name_sdk.egg-info/dependency_links.txt
+simple_name_sdk.egg-info/top_level.txt

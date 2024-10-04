@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simple-name-sdk
+Version: 0.2.0
+Summary: A simple SDK to combine first and last names.
+Author: Adithya K
+Author-email: adithya.k@setu.co
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Simple Name SDK
+
+A simple SDK to combine first and last names.
+
+## Installation
+
+You can install the package using pip:
+
+```bash
+pip install simple-name-sdk
