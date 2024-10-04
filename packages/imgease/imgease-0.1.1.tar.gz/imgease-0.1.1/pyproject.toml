@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "imgease"
+version = "0.1.1"
+description = "A collection of CLI tools for image processing."
+authors = ["am2b"]
+readme = "README.md"
+packages = [{ include = "imgease", from = "src" }]
+
+[tool.poetry.scripts]
+imgease-grayscale = "imgease.grayscale:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^10.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
