@@ -1,0 +1,12 @@
+modrinthpy/__init__.py,sha256=wX4B8B6qBavOu8jVPt0jq1j7RzyLti2Bc9exs-rXCQ0,234
+modrinthpy/client.py,sha256=MSU2fAKjo4lGPTq4nQWbNrFz8AJo-j9a-HA3x9msroE,9285
+modrinthpy/decorators.py,sha256=awvbaSz3FWF9iI_A6AuUgcRIL0faosOKc-SReiKIlEA,402
+modrinthpy/exceptions.py,sha256=0T75ujYwqo0q2c6waGj0Uwcx7y0ABhY42BkD6YI3C7g,511
+modrinthpy/models.py,sha256=4C8Qp-MORfhmPCjxVmU8AbciI-1jTV09MAq-DvhD1eg,5409
+modrinthpy/objects.py,sha256=Kfv7mu4m1xkY36A1PmmQ_qMKAbD5rat349Dp64Jh_Pw,888
+modrinthpy/utils.py,sha256=v49F67bxqpRDqgw5njbrDM3tsoP8ojgD7-fvmRbnyQQ,1244
+modrinthpy-0.1.0.dist-info/LICENSE,sha256=fP_g-CXiI4sxwyQUlXcMtMGoSFm2OSDoMYpR8RtXYMY,1067
+modrinthpy-0.1.0.dist-info/METADATA,sha256=tbhLbWpzmUtiNJnsVQl7pv2sf0ibPj0wSr8cK0VIh-4,4410
+modrinthpy-0.1.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+modrinthpy-0.1.0.dist-info/top_level.txt,sha256=iaLHqmJ6nICXQlNE7KEmvoWn-kTm8MfSORtyImGrbbk,11
+modrinthpy-0.1.0.dist-info/RECORD,,
