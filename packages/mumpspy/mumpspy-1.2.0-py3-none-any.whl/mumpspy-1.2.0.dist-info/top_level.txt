@@ -1,0 +1,4 @@
+__init__
+mumps_lib_c_struc
+mumpspy
+mumpspy_test
