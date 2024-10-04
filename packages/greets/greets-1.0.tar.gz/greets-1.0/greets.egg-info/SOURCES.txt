@@ -1,0 +1,10 @@
+setup.py
+greets/English.py
+greets/French.py
+greets/Italian.py
+greets/Spanish.py
+greets/__init__.py
+greets.egg-info/PKG-INFO
+greets.egg-info/SOURCES.txt
+greets.egg-info/dependency_links.txt
+greets.egg-info/top_level.txt
