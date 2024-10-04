@@ -1,0 +1,9 @@
+openai==1.50.2
+mistralai==1.1.0
+google-generativeai==0.8.2
+groq==0.11.0
+together==1.3.0
+pillow
+tqdm==4.66.5
+asyncio==3.4.3
+regex==2024.9.11
