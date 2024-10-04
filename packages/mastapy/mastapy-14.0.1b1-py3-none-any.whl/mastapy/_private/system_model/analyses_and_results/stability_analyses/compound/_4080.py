@@ -1,0 +1,725 @@
+"""MountableComponentCompoundStabilityAnalysis"""
+
+from __future__ import annotations
+
+from typing import ClassVar, TYPE_CHECKING
+
+from mastapy._private._internal import conversion, utility
+from mastapy._private._internal.cast_exception import CastException
+from mastapy._private._internal.dataclasses import extended_dataclass
+from mastapy._private._internal.python_net import (
+    python_net_import,
+    pythonnet_property_get,
+)
+from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+    _4026,
+)
+
+_MOUNTABLE_COMPONENT_COMPOUND_STABILITY_ANALYSIS = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.StabilityAnalyses.Compound",
+    "MountableComponentCompoundStabilityAnalysis",
+)
+
+if TYPE_CHECKING:
+    from typing import Any, List, Type, TypeVar
+
+    from mastapy._private.system_model.analyses_and_results import _2737
+    from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+        _7714,
+        _7717,
+    )
+    from mastapy._private.system_model.analyses_and_results.stability_analyses import (
+        _3946,
+    )
+    from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+        _4005,
+        _4009,
+        _4012,
+        _4015,
+        _4016,
+        _4017,
+        _4024,
+        _4029,
+        _4030,
+        _4033,
+        _4037,
+        _4040,
+        _4043,
+        _4048,
+        _4051,
+        _4054,
+        _4059,
+        _4063,
+        _4067,
+        _4070,
+        _4073,
+        _4076,
+        _4077,
+        _4081,
+        _4082,
+        _4085,
+        _4088,
+        _4089,
+        _4090,
+        _4091,
+        _4092,
+        _4095,
+        _4099,
+        _4102,
+        _4107,
+        _4108,
+        _4111,
+        _4114,
+        _4115,
+        _4117,
+        _4118,
+        _4119,
+        _4122,
+        _4123,
+        _4124,
+        _4125,
+        _4126,
+        _4129,
+    )
+
+    Self = TypeVar("Self", bound="MountableComponentCompoundStabilityAnalysis")
+    CastSelf = TypeVar(
+        "CastSelf",
+        bound="MountableComponentCompoundStabilityAnalysis._Cast_MountableComponentCompoundStabilityAnalysis",
+    )
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("MountableComponentCompoundStabilityAnalysis",)
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class _Cast_MountableComponentCompoundStabilityAnalysis:
+    """Special nested class for casting MountableComponentCompoundStabilityAnalysis to subclasses."""
+
+    __parent__: "MountableComponentCompoundStabilityAnalysis"
+
+    @property
+    def component_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4026.ComponentCompoundStabilityAnalysis":
+        return self.__parent__._cast(_4026.ComponentCompoundStabilityAnalysis)
+
+    @property
+    def part_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4082.PartCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4082,
+        )
+
+        return self.__parent__._cast(_4082.PartCompoundStabilityAnalysis)
+
+    @property
+    def part_compound_analysis(self: "CastSelf") -> "_7717.PartCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7717,
+        )
+
+        return self.__parent__._cast(_7717.PartCompoundAnalysis)
+
+    @property
+    def design_entity_compound_analysis(
+        self: "CastSelf",
+    ) -> "_7714.DesignEntityCompoundAnalysis":
+        from mastapy._private.system_model.analyses_and_results.analysis_cases import (
+            _7714,
+        )
+
+        return self.__parent__._cast(_7714.DesignEntityCompoundAnalysis)
+
+    @property
+    def design_entity_analysis(self: "CastSelf") -> "_2737.DesignEntityAnalysis":
+        from mastapy._private.system_model.analyses_and_results import _2737
+
+        return self.__parent__._cast(_2737.DesignEntityAnalysis)
+
+    @property
+    def agma_gleason_conical_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4005.AGMAGleasonConicalGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4005,
+        )
+
+        return self.__parent__._cast(
+            _4005.AGMAGleasonConicalGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def bearing_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4009.BearingCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4009,
+        )
+
+        return self.__parent__._cast(_4009.BearingCompoundStabilityAnalysis)
+
+    @property
+    def bevel_differential_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4012.BevelDifferentialGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4012,
+        )
+
+        return self.__parent__._cast(
+            _4012.BevelDifferentialGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def bevel_differential_planet_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4015.BevelDifferentialPlanetGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4015,
+        )
+
+        return self.__parent__._cast(
+            _4015.BevelDifferentialPlanetGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def bevel_differential_sun_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4016.BevelDifferentialSunGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4016,
+        )
+
+        return self.__parent__._cast(
+            _4016.BevelDifferentialSunGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def bevel_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4017.BevelGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4017,
+        )
+
+        return self.__parent__._cast(_4017.BevelGearCompoundStabilityAnalysis)
+
+    @property
+    def clutch_half_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4024.ClutchHalfCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4024,
+        )
+
+        return self.__parent__._cast(_4024.ClutchHalfCompoundStabilityAnalysis)
+
+    @property
+    def concept_coupling_half_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4029.ConceptCouplingHalfCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4029,
+        )
+
+        return self.__parent__._cast(_4029.ConceptCouplingHalfCompoundStabilityAnalysis)
+
+    @property
+    def concept_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4030.ConceptGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4030,
+        )
+
+        return self.__parent__._cast(_4030.ConceptGearCompoundStabilityAnalysis)
+
+    @property
+    def conical_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4033.ConicalGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4033,
+        )
+
+        return self.__parent__._cast(_4033.ConicalGearCompoundStabilityAnalysis)
+
+    @property
+    def connector_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4037.ConnectorCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4037,
+        )
+
+        return self.__parent__._cast(_4037.ConnectorCompoundStabilityAnalysis)
+
+    @property
+    def coupling_half_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4040.CouplingHalfCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4040,
+        )
+
+        return self.__parent__._cast(_4040.CouplingHalfCompoundStabilityAnalysis)
+
+    @property
+    def cvt_pulley_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4043.CVTPulleyCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4043,
+        )
+
+        return self.__parent__._cast(_4043.CVTPulleyCompoundStabilityAnalysis)
+
+    @property
+    def cylindrical_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4048.CylindricalGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4048,
+        )
+
+        return self.__parent__._cast(_4048.CylindricalGearCompoundStabilityAnalysis)
+
+    @property
+    def cylindrical_planet_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4051.CylindricalPlanetGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4051,
+        )
+
+        return self.__parent__._cast(
+            _4051.CylindricalPlanetGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def face_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4054.FaceGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4054,
+        )
+
+        return self.__parent__._cast(_4054.FaceGearCompoundStabilityAnalysis)
+
+    @property
+    def gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4059.GearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4059,
+        )
+
+        return self.__parent__._cast(_4059.GearCompoundStabilityAnalysis)
+
+    @property
+    def hypoid_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4063.HypoidGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4063,
+        )
+
+        return self.__parent__._cast(_4063.HypoidGearCompoundStabilityAnalysis)
+
+    @property
+    def klingelnberg_cyclo_palloid_conical_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4067.KlingelnbergCycloPalloidConicalGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4067,
+        )
+
+        return self.__parent__._cast(
+            _4067.KlingelnbergCycloPalloidConicalGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_hypoid_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4070.KlingelnbergCycloPalloidHypoidGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4070,
+        )
+
+        return self.__parent__._cast(
+            _4070.KlingelnbergCycloPalloidHypoidGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def klingelnberg_cyclo_palloid_spiral_bevel_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4073.KlingelnbergCycloPalloidSpiralBevelGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4073,
+        )
+
+        return self.__parent__._cast(
+            _4073.KlingelnbergCycloPalloidSpiralBevelGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def mass_disc_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4076.MassDiscCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4076,
+        )
+
+        return self.__parent__._cast(_4076.MassDiscCompoundStabilityAnalysis)
+
+    @property
+    def measurement_component_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4077.MeasurementComponentCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4077,
+        )
+
+        return self.__parent__._cast(
+            _4077.MeasurementComponentCompoundStabilityAnalysis
+        )
+
+    @property
+    def oil_seal_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4081.OilSealCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4081,
+        )
+
+        return self.__parent__._cast(_4081.OilSealCompoundStabilityAnalysis)
+
+    @property
+    def part_to_part_shear_coupling_half_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4085.PartToPartShearCouplingHalfCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4085,
+        )
+
+        return self.__parent__._cast(
+            _4085.PartToPartShearCouplingHalfCompoundStabilityAnalysis
+        )
+
+    @property
+    def planet_carrier_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4088.PlanetCarrierCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4088,
+        )
+
+        return self.__parent__._cast(_4088.PlanetCarrierCompoundStabilityAnalysis)
+
+    @property
+    def point_load_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4089.PointLoadCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4089,
+        )
+
+        return self.__parent__._cast(_4089.PointLoadCompoundStabilityAnalysis)
+
+    @property
+    def power_load_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4090.PowerLoadCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4090,
+        )
+
+        return self.__parent__._cast(_4090.PowerLoadCompoundStabilityAnalysis)
+
+    @property
+    def pulley_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4091.PulleyCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4091,
+        )
+
+        return self.__parent__._cast(_4091.PulleyCompoundStabilityAnalysis)
+
+    @property
+    def ring_pins_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4092.RingPinsCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4092,
+        )
+
+        return self.__parent__._cast(_4092.RingPinsCompoundStabilityAnalysis)
+
+    @property
+    def rolling_ring_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4095.RollingRingCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4095,
+        )
+
+        return self.__parent__._cast(_4095.RollingRingCompoundStabilityAnalysis)
+
+    @property
+    def shaft_hub_connection_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4099.ShaftHubConnectionCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4099,
+        )
+
+        return self.__parent__._cast(_4099.ShaftHubConnectionCompoundStabilityAnalysis)
+
+    @property
+    def spiral_bevel_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4102.SpiralBevelGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4102,
+        )
+
+        return self.__parent__._cast(_4102.SpiralBevelGearCompoundStabilityAnalysis)
+
+    @property
+    def spring_damper_half_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4107.SpringDamperHalfCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4107,
+        )
+
+        return self.__parent__._cast(_4107.SpringDamperHalfCompoundStabilityAnalysis)
+
+    @property
+    def straight_bevel_diff_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4108.StraightBevelDiffGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4108,
+        )
+
+        return self.__parent__._cast(
+            _4108.StraightBevelDiffGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def straight_bevel_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4111.StraightBevelGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4111,
+        )
+
+        return self.__parent__._cast(_4111.StraightBevelGearCompoundStabilityAnalysis)
+
+    @property
+    def straight_bevel_planet_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4114.StraightBevelPlanetGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4114,
+        )
+
+        return self.__parent__._cast(
+            _4114.StraightBevelPlanetGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def straight_bevel_sun_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4115.StraightBevelSunGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4115,
+        )
+
+        return self.__parent__._cast(
+            _4115.StraightBevelSunGearCompoundStabilityAnalysis
+        )
+
+    @property
+    def synchroniser_half_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4117.SynchroniserHalfCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4117,
+        )
+
+        return self.__parent__._cast(_4117.SynchroniserHalfCompoundStabilityAnalysis)
+
+    @property
+    def synchroniser_part_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4118.SynchroniserPartCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4118,
+        )
+
+        return self.__parent__._cast(_4118.SynchroniserPartCompoundStabilityAnalysis)
+
+    @property
+    def synchroniser_sleeve_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4119.SynchroniserSleeveCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4119,
+        )
+
+        return self.__parent__._cast(_4119.SynchroniserSleeveCompoundStabilityAnalysis)
+
+    @property
+    def torque_converter_pump_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4122.TorqueConverterPumpCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4122,
+        )
+
+        return self.__parent__._cast(_4122.TorqueConverterPumpCompoundStabilityAnalysis)
+
+    @property
+    def torque_converter_turbine_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4123.TorqueConverterTurbineCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4123,
+        )
+
+        return self.__parent__._cast(
+            _4123.TorqueConverterTurbineCompoundStabilityAnalysis
+        )
+
+    @property
+    def unbalanced_mass_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4124.UnbalancedMassCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4124,
+        )
+
+        return self.__parent__._cast(_4124.UnbalancedMassCompoundStabilityAnalysis)
+
+    @property
+    def virtual_component_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4125.VirtualComponentCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4125,
+        )
+
+        return self.__parent__._cast(_4125.VirtualComponentCompoundStabilityAnalysis)
+
+    @property
+    def worm_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4126.WormGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4126,
+        )
+
+        return self.__parent__._cast(_4126.WormGearCompoundStabilityAnalysis)
+
+    @property
+    def zerol_bevel_gear_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "_4129.ZerolBevelGearCompoundStabilityAnalysis":
+        from mastapy._private.system_model.analyses_and_results.stability_analyses.compound import (
+            _4129,
+        )
+
+        return self.__parent__._cast(_4129.ZerolBevelGearCompoundStabilityAnalysis)
+
+    @property
+    def mountable_component_compound_stability_analysis(
+        self: "CastSelf",
+    ) -> "MountableComponentCompoundStabilityAnalysis":
+        return self.__parent__
+
+    def __getattr__(self: "CastSelf", name: str) -> "Any":
+        try:
+            return self.__getattribute__(name)
+        except AttributeError:
+            class_name = utility.camel(name)
+            raise CastException(
+                f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+            ) from None
+
+
+@extended_dataclass(frozen=True, slots=True, weakref_slot=True)
+class MountableComponentCompoundStabilityAnalysis(
+    _4026.ComponentCompoundStabilityAnalysis
+):
+    """MountableComponentCompoundStabilityAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE: ClassVar["Type"] = _MOUNTABLE_COMPONENT_COMPOUND_STABILITY_ANALYSIS
+
+    wrapped: "Any"
+
+    def __post_init__(self: "Self") -> None:
+        """Override of the post initialisation magic method."""
+        if not hasattr(self.wrapped, "reference_count"):
+            self.wrapped.reference_count = 0
+
+        self.wrapped.reference_count += 1
+
+    @property
+    def component_analysis_cases(
+        self: "Self",
+    ) -> "List[_3946.MountableComponentStabilityAnalysis]":
+        """List[mastapy.system_model.analyses_and_results.stability_analyses.MountableComponentStabilityAnalysis]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ComponentAnalysisCases")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def component_analysis_cases_ready(
+        self: "Self",
+    ) -> "List[_3946.MountableComponentStabilityAnalysis]":
+        """List[mastapy.system_model.analyses_and_results.stability_analyses.MountableComponentStabilityAnalysis]
+
+        Note:
+            This property is readonly.
+        """
+        temp = pythonnet_property_get(self.wrapped, "ComponentAnalysisCasesReady")
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(self: "Self") -> "_Cast_MountableComponentCompoundStabilityAnalysis":
+        """Cast to another type.
+
+        Returns:
+            _Cast_MountableComponentCompoundStabilityAnalysis
+        """
+        return _Cast_MountableComponentCompoundStabilityAnalysis(self)

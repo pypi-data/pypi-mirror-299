@@ -1,0 +1,138 @@
+"""Subpackage."""
+
+from typing import TYPE_CHECKING as __tc
+
+if __tc:
+    from mastapy._private.system_model.part_model.acoustics._2684 import (
+        AcousticAnalysisOptions,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2685 import (
+        AcousticAnalysisSetup,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2686 import (
+        AcousticAnalysisSetupCacheReporting,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2687 import (
+        AcousticAnalysisSetupCollection,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2688 import (
+        AcousticEnvelopeType,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2689 import (
+        AcousticInputSurfaceOptions,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2690 import (
+        FEPartInputSurfaceOptions,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2691 import (
+        FESurfaceSelectionForAcousticEnvelope,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2692 import HoleInFaceGroup
+    from mastapy._private.system_model.part_model.acoustics._2693 import (
+        MeshedResultPlane,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2694 import (
+        MeshedResultSphere,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2695 import (
+        MeshedResultSurface,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2696 import (
+        MeshedResultSurfaceBase,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2697 import (
+        MicrophoneArrayDesign,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2698 import (
+        PartSelectionForAcousticEnvelope,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2699 import (
+        ResultPlaneOptions,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2700 import (
+        ResultSphereOptions,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2701 import (
+        ResultSurfaceCollection,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2702 import (
+        ResultSurfaceOptions,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2703 import (
+        SphericalEnvelopeCentreDefinition,
+    )
+    from mastapy._private.system_model.part_model.acoustics._2704 import (
+        SphericalEnvelopeType,
+    )
+else:
+    import sys as __sys
+
+    from lazy_imports import LazyImporter as __LazyImporter
+
+    __import_structure = {
+        "_private.system_model.part_model.acoustics._2684": ["AcousticAnalysisOptions"],
+        "_private.system_model.part_model.acoustics._2685": ["AcousticAnalysisSetup"],
+        "_private.system_model.part_model.acoustics._2686": [
+            "AcousticAnalysisSetupCacheReporting"
+        ],
+        "_private.system_model.part_model.acoustics._2687": [
+            "AcousticAnalysisSetupCollection"
+        ],
+        "_private.system_model.part_model.acoustics._2688": ["AcousticEnvelopeType"],
+        "_private.system_model.part_model.acoustics._2689": [
+            "AcousticInputSurfaceOptions"
+        ],
+        "_private.system_model.part_model.acoustics._2690": [
+            "FEPartInputSurfaceOptions"
+        ],
+        "_private.system_model.part_model.acoustics._2691": [
+            "FESurfaceSelectionForAcousticEnvelope"
+        ],
+        "_private.system_model.part_model.acoustics._2692": ["HoleInFaceGroup"],
+        "_private.system_model.part_model.acoustics._2693": ["MeshedResultPlane"],
+        "_private.system_model.part_model.acoustics._2694": ["MeshedResultSphere"],
+        "_private.system_model.part_model.acoustics._2695": ["MeshedResultSurface"],
+        "_private.system_model.part_model.acoustics._2696": ["MeshedResultSurfaceBase"],
+        "_private.system_model.part_model.acoustics._2697": ["MicrophoneArrayDesign"],
+        "_private.system_model.part_model.acoustics._2698": [
+            "PartSelectionForAcousticEnvelope"
+        ],
+        "_private.system_model.part_model.acoustics._2699": ["ResultPlaneOptions"],
+        "_private.system_model.part_model.acoustics._2700": ["ResultSphereOptions"],
+        "_private.system_model.part_model.acoustics._2701": ["ResultSurfaceCollection"],
+        "_private.system_model.part_model.acoustics._2702": ["ResultSurfaceOptions"],
+        "_private.system_model.part_model.acoustics._2703": [
+            "SphericalEnvelopeCentreDefinition"
+        ],
+        "_private.system_model.part_model.acoustics._2704": ["SphericalEnvelopeType"],
+    }
+
+    __sys.modules[__name__] = __LazyImporter(
+        "mastapy",
+        globals()["__file__"],
+        __import_structure,
+    )
+
+__all__ = (
+    "AcousticAnalysisOptions",
+    "AcousticAnalysisSetup",
+    "AcousticAnalysisSetupCacheReporting",
+    "AcousticAnalysisSetupCollection",
+    "AcousticEnvelopeType",
+    "AcousticInputSurfaceOptions",
+    "FEPartInputSurfaceOptions",
+    "FESurfaceSelectionForAcousticEnvelope",
+    "HoleInFaceGroup",
+    "MeshedResultPlane",
+    "MeshedResultSphere",
+    "MeshedResultSurface",
+    "MeshedResultSurfaceBase",
+    "MicrophoneArrayDesign",
+    "PartSelectionForAcousticEnvelope",
+    "ResultPlaneOptions",
+    "ResultSphereOptions",
+    "ResultSurfaceCollection",
+    "ResultSurfaceOptions",
+    "SphericalEnvelopeCentreDefinition",
+    "SphericalEnvelopeType",
+)
