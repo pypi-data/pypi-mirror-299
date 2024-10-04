@@ -1,0 +1,17 @@
+nazoru/__init__.py,sha256=ntt7p7KVKxhr5jvmt5P4o17nBpbHIhb7Z3B9RE2AKFU,190
+nazoru/bluetooth.py,sha256=qFfIrzTLIfOO7RcP3APRBAAvDUyiZYpXOFPGYo7kZXI,1768
+nazoru/core.py,sha256=MYB8Ao7mmgRsBmRTyNAWrYAT4FJU0YrxtdUpBdZObNM,917
+nazoru/keyboard_recorder.py,sha256=6Y7z09nKnzbZfI7hhHcw021lNx1S1A1CPRsOFMigR38,8429
+nazoru/led.py,sha256=tx8oakay20BGhnjPhSt7bOxt3p8TMwieeh_opc5Axco,3866
+nazoru/lib.py,sha256=5D2xjGovWnkxosgrbgBxu12_VZRdl69xaKcAs5Jxc5k,12431
+nazoru/nazoru_test.py,sha256=dag5AUXuwApv-9W35lOK_dgmkBwbfC60tkYgeCIvIKc,946
+nazoru/nazorunet.py,sha256=dp8b6ZHkLfBABjZmeGYAQD7muFTED4iuf1paWiu2RqY,11871
+nazoru/predictor.py,sha256=1waHRLlnWZ7UX1yTVQCaVXBI7YqK3ADNY7Rl7c2ippw,2171
+nazoru/utils.py,sha256=feYRe6l2N5T7UySun7sa2llhOhaBftzivLiLS8lVJLY,983
+nazoru/data/optimized_nazoru.pb,sha256=8sDUPkUTKlVt5mz4kB451DFl5uc3MZuPVz9BpAAIY94,184119
+nazoru_input-0.1.2.data/scripts/nazoru-input,sha256=WxG_lzi832v-dBLhbjYoyS8ISC40Tx2L7O87_2lci8g,3142
+nazoru_input-0.1.2.data/scripts/nazoru-training,sha256=AmOAT6G4R5qWBZCSmX4Vq08D01G7to6putBeCcZ19ic,9993
+nazoru_input-0.1.2.dist-info/METADATA,sha256=xJowsocCARmOqU4bsZIYSQHOnBweEBROBNo-ZrthJ00,11177
+nazoru_input-0.1.2.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+nazoru_input-0.1.2.dist-info/top_level.txt,sha256=SnYJPljeib8dVG4_-3b9ltOz5qG9q8a2V9hXhwp8zBs,7
+nazoru_input-0.1.2.dist-info/RECORD,,
