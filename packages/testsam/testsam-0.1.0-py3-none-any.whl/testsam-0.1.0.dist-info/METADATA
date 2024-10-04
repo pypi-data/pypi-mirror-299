@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: testsam
+Version: 0.1.0
+Summary: A extended vacuum library
+Home-page: https://github.com/yourusername/mylib
+Author: Simron Senapati
+Author-email: simronsenapati@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
