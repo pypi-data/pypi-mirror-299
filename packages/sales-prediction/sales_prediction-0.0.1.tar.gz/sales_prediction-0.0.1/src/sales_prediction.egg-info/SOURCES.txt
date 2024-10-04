@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/sales_prediction.egg-info/PKG-INFO
+src/sales_prediction.egg-info/SOURCES.txt
+src/sales_prediction.egg-info/dependency_links.txt
+src/sales_prediction.egg-info/requires.txt
+src/sales_prediction.egg-info/top_level.txt
