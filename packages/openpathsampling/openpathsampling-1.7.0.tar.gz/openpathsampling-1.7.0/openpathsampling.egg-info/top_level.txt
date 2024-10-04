@@ -1,0 +1,4 @@
+devtools
+docs
+examples
+openpathsampling
