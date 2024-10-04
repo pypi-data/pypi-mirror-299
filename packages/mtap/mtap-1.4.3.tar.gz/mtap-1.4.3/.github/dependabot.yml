@@ -1,0 +1,36 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: daily
+    groups:
+      grpc-deps:
+        patterns:
+          - "grpcio*"
+  - package-ecosystem: gradle
+    directory: /java/
+    schedule:
+      interval: daily
+    ignore:
+      # grpc-java does not support 4.x of protobuf
+      - dependency-name: "com.google.protobuf:*"
+        versions: [">=4.0.0"]
+    groups:
+      grpc-deps:
+        patterns:
+          - "io.grpc*"
+      protobuf:
+        patterns:
+          - "com.google.protobuf*"
+      slf4j:
+        patterns:
+          - "org.slf4j*"
+  - package-ecosystem: gomod
+    directory: /go/
+    schedule:
+      interval: daily
+    groups:
+      grpc-deps:
+        patterns:
+          - "google.golang.org/grpc*"

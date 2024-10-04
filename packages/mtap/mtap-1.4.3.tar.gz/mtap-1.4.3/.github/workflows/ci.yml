@@ -1,0 +1,63 @@
+name: MTAP Continuous Integration
+
+on:
+  pull_request:
+    branches: ['main']
+  schedule:
+    - cron: 0 8 * * *
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      max-parallel: 4
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python-version: ['3.9', '3.12']
+        include:
+          - java-version: '11'
+            python-version: '3.9'
+          - java-version: '21'
+            python-version: '3.12'
+
+    name: ${{ matrix.os }}, py${{ matrix.python-version }}, java${{ matrix.java-version }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK ${{ matrix.java-version }}
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: ${{ matrix.java-version }}
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Build with Gradle
+        working-directory: java
+        run: ./gradlew clean build shadowJar
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: 'go/go.mod'
+          cache-dependency-path: |
+            go/go.sum
+      - name: Install mtap-gateway
+        working-directory: go
+        run: go install mtap-gateway/mtap-gateway.go
+      - name: Install Python package with dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools
+          pip install .[test,consul]
+      - name: Lint with flake8
+        run: |
+          pip install flake8
+          # stop the build if there are Python syntax errors or undefined names
+          flake8 python --count --select=E9,F63,F7,F82 --show-source --statistics \
+                 --exclude python/mtap/api # Generated protos
+          # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+          flake8 python --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics \
+                 --exclude python/mtap/api # Generated protos
+      - name: Test with pytest
+        run: |
+          pip install pytest
+          pytest -s python/tests --integration --gateway --timeout 60
