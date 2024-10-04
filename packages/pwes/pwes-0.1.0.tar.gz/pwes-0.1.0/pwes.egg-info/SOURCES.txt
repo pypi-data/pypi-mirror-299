@@ -1,0 +1,8 @@
+setup.py
+classes/__init__.py
+classes/pwes_class.py
+pwes.egg-info/PKG-INFO
+pwes.egg-info/SOURCES.txt
+pwes.egg-info/dependency_links.txt
+pwes.egg-info/requires.txt
+pwes.egg-info/top_level.txt
