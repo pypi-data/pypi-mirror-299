@@ -1,0 +1,10 @@
+httpx
+markdown-it-py
+
+[dev]
+nox
+pytest
+pytest-httpx
+pip-tools
+pytest-cov
+pre-commit
