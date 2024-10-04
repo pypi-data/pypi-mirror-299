@@ -1,0 +1,23 @@
+Metadata-Version: 2.3
+Name: sphinx-multiversion
+Version: 0.2.4
+Summary: Add support for multiple versions to sphinx
+Project-URL: Homepage, https://holzhaus.github.io/sphinx-multiversion/
+Author-email: Jan Holthuis <holthuis.jan@googlemail.com>
+License-Expression: BSD-2-Clause
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sphinx>=2.1
+Description-Content-Type: text/markdown
+
+# sphinx-multiversion [![Build Status](https://travis-ci.org/Holzhaus/sphinx-multiversion.svg?branch=master)](https://travis-ci.org/Holzhaus/sphinx-multiversion)
+
+Sphinx extension for building self-hosted versioned docs.
+
+This extension aims to provide a clean implementation that tries to avoid
+messing with Sphinx internals as much as possible.
+
+Documentation can be found at: https://holzhaus.github.io/sphinx-multiversion/
