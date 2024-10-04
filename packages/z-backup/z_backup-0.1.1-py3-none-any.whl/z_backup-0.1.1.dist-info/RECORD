@@ -1,0 +1,8 @@
+zbackup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zbackup/backup.py,sha256=qc-If5X6tLHlg3ub6ZxSETc2_B60jDy2DQXNSManbn8,2442
+zbackup/gcs.py,sha256=rBVFN-lmXxesHUcHIaC9zNvDciD8Dwfm5US6mQFrJIs,1167
+zbackup/main.py,sha256=044j7ndamlZQ78xjwqhkgZlNn5Dkegc4SimgFxaC9S8,1672
+z_backup-0.1.1.dist-info/METADATA,sha256=hItZObMC1KWlIwuUoOBkn_lzRozfgDKGGzW0NgCBq2c,1518
+z_backup-0.1.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+z_backup-0.1.1.dist-info/entry_points.txt,sha256=JoexHdrlerjnH7TYG6Gy_0JduPG9jyE-h3NozLIsZnw,46
+z_backup-0.1.1.dist-info/RECORD,,
