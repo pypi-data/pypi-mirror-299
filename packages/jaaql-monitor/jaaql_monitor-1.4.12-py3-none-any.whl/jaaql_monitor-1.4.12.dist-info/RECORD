@@ -1,0 +1,8 @@
+monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitor/main.py,sha256=FbUS6nhVb_7y5GNBUsNbb6qpnSg46JqL_edO-9rkDao,45936
+monitor/version.py,sha256=OH1eFnWXfncqFjlAbyM0nouA12OHNpQv3e-YQDa6fUg,176
+jaaql_monitor-1.4.12.dist-info/LICENSE.txt,sha256=pgehZRvjQicyhhlLn0hFs2H0B04az4aL5hHCod2p-OU,18124
+jaaql_monitor-1.4.12.dist-info/METADATA,sha256=ERK-Z42H117nsVa4dz-HiZkN7xuUfB2rx8ohLdUA81U,1477
+jaaql_monitor-1.4.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jaaql_monitor-1.4.12.dist-info/top_level.txt,sha256=tGkQDkVeyKgP5Rr7acpp0df83NBAnI8up0sGwRxuuQ4,8
+jaaql_monitor-1.4.12.dist-info/RECORD,,
