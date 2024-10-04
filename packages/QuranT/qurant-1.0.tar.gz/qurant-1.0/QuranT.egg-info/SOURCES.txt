@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+QuranT.egg-info/PKG-INFO
+QuranT.egg-info/SOURCES.txt
+QuranT.egg-info/dependency_links.txt
+QuranT.egg-info/top_level.txt
