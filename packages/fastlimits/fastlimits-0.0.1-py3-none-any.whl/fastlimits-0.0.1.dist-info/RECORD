@@ -1,0 +1,14 @@
+fastlimits-0.0.1.dist-info/METADATA,sha256=iWw1Kmqb9FJFLuSC2zfnGmUl8REtzx3LM8_gd-VRea0,6682
+fastlimits-0.0.1.dist-info/WHEEL,sha256=Vza3XR51HW1KmFP0iIMUVYIvz0uQuKJpIXKYOBGQyFQ,90
+fastlimits-0.0.1.dist-info/entry_points.txt,sha256=6OYgBcLyFCUgeqLgnvMyOJxPCWzgy7se4rLPKtNonMs,34
+fastlimits-0.0.1.dist-info/licenses/LICENSE,sha256=19KaD-yL_OqOlIy1OJCTyuqM2lsaxZdBbf1w8WZs0aE,1079
+fastlimits/__init__.py,sha256=zh33JIXWWnWwtefLddaCXgCHgzBNrYXmMkOLTOCzjwo,300
+fastlimits/dependencies.py,sha256=vZpRfOqzJ2LTVr4zcMeEPlGP6ATR_l06K2xNKwdUTTA,6454
+fastlimits/exceptions.py,sha256=h-CVoZJWY2_ocLtHUfBWObX_b-fHULVCHzWktqkDczI,1008
+fastlimits/functions.py,sha256=Cc2IybE8vjqktsLx-_VxgX-NgB2By2eHUcjZABydqNE,378
+fastlimits/limiter.py,sha256=ag4WORMoMH8BAIaWlfTnUv9OtznrmK4gcsFYEeiQgJ4,7561
+fastlimits/middleware.py,sha256=dVXCY-uPs53qMyapnoFQoVwgPOs4f1bUFajP-jGbARc,1708
+fastlimits/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastlimits/types.py,sha256=zQAdWDgz0JmiblNOZQN5LobBBuoIlyYG88cunxmdxRw,518
+fastlimits/utils.py,sha256=IBLC5arEKwRQGyzDXD8-qG4llCNO6rjVOwqLIWIiKjA,2704
+fastlimits-0.0.1.dist-info/RECORD,,
