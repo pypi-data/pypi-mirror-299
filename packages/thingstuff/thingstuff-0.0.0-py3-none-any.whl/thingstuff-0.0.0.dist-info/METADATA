@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: thingstuff
+Version: 0.0.0
+Keywords: object-detection,segmentation,instance-segmentation,annotations
+Home-page: https://github.com/huggingface/pytorch-image-models
+Author-Email: Ross Wightman <ross@huggingface.co>
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Homepage, https://github.com/huggingface/pytorch-image-models
+Project-URL: Repository, https://github.com/huggingface/pytorch-image-models
+Requires-Python: >=3.10
+Requires-Dist: simple_parsing
+Description-Content-Type: text/markdown
+
+# Things & Stuff
+
+objects; utilities for things & stuff
