@@ -1,0 +1,188 @@
+# ReFeR: Reason Feedback Review
+
+ReFeR (Reason Feedback Review) is a LLM or VLM Agents framework for conducting comprehensive evaluations or reasoning using a peer review mechanism and a Hierarchy of Models. It allows for setting up multiple peer models and AC (Area Chair) models, with options to set prompts, hyperparameters, and control over the number of peers and ACs.
+
+## Key Features
+
+- **Multi-Platform Support**: Integrates with multiple AI platforms including OpenAI, Mistral, TogetherAI, Google (Gemini), and Groq.
+- **Flexible Model Configuration**: Easily set up multiple peer models and AC models with customizable parameters.
+- **Optimized Prompt Generation**: Utilizes AutoPrompt to generate optimized prompts based on user-provided task instructions and examples.
+- **Batch Processing**: Supports batch inference with optional multi-threading for improved performance.
+- **Multimodal Capabilities**: Handles both text and image inputs for versatile tasks (currently only supports OpenAI and Google models for multimodal inputs).
+- **Customizable Response Processing**: Allows for regex patterns or custom functions to process peer responses before passing them to the AC model.
+- **Comprehensive Logging**: Detailed logging and error handling for easy debugging and monitoring.
+
+## Installation
+
+You can install ReFeR directly through pip or from this repository:
+
+```bash
+pip install refer-agents
+```
+
+or
+
+```bash
+git clone https://github.com/yaswanth-iitkgp/ReFeR
+cd refer
+pip install .
+```
+
+## Requirements
+
+- Python 3.12 or later
+- API keys for supported platforms (OpenAI, Mistral, TogetherAI, Google, Groq)
+
+## Basic Usage
+
+Here's a simple example of how to use ReFeR:
+
+```python
+from refer_agents.core import ReFeR
+
+# Initialize ReFeR
+refer = ReFeR(log_level='INFO')
+
+# Set API keys
+refer.set_api_key('openai', 'your-openai-api-key')
+refer.set_api_key('mistral', 'your-mistral-api-key')
+refer.set_api_key('togetherai', 'your-togetherai-api-key')
+refer.set_api_key('groq', 'your-groq-api-key')
+
+# Configure models
+refer.set_num_peers(3)
+refer.set_num_acs(1)
+
+refer.add_peer(model_name='meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo', platform='togetherai')
+refer.add_peer(model_name='open-mistral-nemo', platform='mistral')
+refer.add_peer(model_name='gemma2-9b-it', platform='groq')
+
+refer.set_ac_model(model_name='gpt-4o-mini', platform='openai')
+
+# Set prompts and generate optimized versions
+prompt = "Your peer prompt here"
+refer.set_peer_prompt(prompt)
+
+optimized_peer_prompt, optimized_ac_prompt = refer.generate_optimized_prompts()
+
+#skip optimization if you already have optimized prompts.
+#always include placeholder in peer prompt as {{user_input}} and for AC prompt as {{user_input}} ,{{peer_response}}
+optimized_peer_prompt = "Your optimized peer prompt here"
+optimized_ac_prompt = "Your optimized AC prompt here"
+
+# Run inference
+user_input = "The content to be evaluated"
+result = refer.infer(user_input, optimized_peer_prompt, optimized_ac_prompt)
+print(result)
+
+# Run batch inference
+user_inputs = ["Input 1", "Input 2", "Input 3"]
+results = refer.batch_infer(user_inputs, optimized_peer_prompt, optimized_ac_prompt, use_threading=True, max_workers=4, output_file='results.json')
+```
+
+## Advanced Usage
+
+### Multimodal Evaluation
+
+ReFeR supports multimodal inputs, allowing you to evaluate image-text pairs:
+
+```python
+# Configure multimodal models
+refer.add_peer(model_name='gpt-4o-mini', platform='openai')
+refer.add_peer(model_name='gemini-1.5-flash', platform='google')
+
+refer.set_ac_model(model_name='gpt-4o', platform='openai')
+
+#use your optimized prompts
+#always include placeholder in peer prompt as {{user_input}} and for AC prompt as {{user_input}} ,{{peer_response}}
+optimized_peer_prompt = "Your optimized peer prompt here"
+optimized_ac_prompt = "Your optimized AC prompt here"
+
+# Prepare inputs
+inputs = ["Text description 1", "Text description 2"]
+image_paths = ["path/to/image1.jpg", "path/to/image2.jpg"]
+
+# Run multimodal batch inference
+results = refer.batch_infer_multimodal(
+    inputs, 
+    image_paths, 
+    optimized_peer_prompt, 
+    optimized_ac_prompt, 
+    sleep_time=1, 
+    output_file='multimodal_results.json'
+)
+```
+
+### Custom Response Processing
+
+You can set a custom function to process peer responses:
+
+```python
+def custom_processor(response):
+    # Your custom processing logic here for processing peer responses before passing them to AC.
+    return processed_response
+
+refer.set_peer_response_processing_function(custom_processor)
+```
+
+### Setting AC Mode
+
+Choose between 'Lite' and 'Turbo' modes for the AC model:
+
+```python
+refer.set_ac_mode('Lite')  # or 'Turbo' (turbo is only supported for openai models as Area Chair and it generates 20 (by default)responses for AC.)
+```
+
+### Setting Hyperparameters
+
+You can set hyperparameters for the AC model:
+
+```python
+refer.set_hyperparameters(temperature=0.7)
+```
+
+## Example Use Cases
+
+ReFeR can be applied to various evaluation tasks, such as:
+
+1. **Mathematical Problem Solving**: Evaluate solutions to complex math problems (see `example_usage_gsm8k.py`).
+2. **Conversational Engagement**: Rate the engagingness of responses in a conversation (see `example_usage_topicalchat.py`).
+3. **Image-Text Alignment**: Assess how well text descriptions match given images (see `example_multimodal.py`).
+
+## Error Handling and Logging
+
+ReFeR includes comprehensive error handling and logging. Set the logging level when initializing:
+
+```python
+refer = ReFeR(log_level='INFO')  # Options: 'INFO', 'WARNING', 'ERROR'
+```
+
+## Contributing
+
+We welcome contributions! For major changes, please open an issue first to discuss what you'd like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Credits
+
+The codebase was developed by Yaswanth Narsupalli and Sreevatsa Muppirala.
+
+For any issues, doubts, or questions regarding the codebase, please feel free to contact us (<yasshu.yaswanth@gmail.com>, <sreevatsa2002@gmail.com>). We are here to help and would be happy to assist you with any concerns or clarifications you may need.
+
+## Citation
+
+If you use this software in your research, please cite the paper as follows:
+
+```bibtex
+@misc{narsupalli2024reviewfeedbackreasonrefernovelframework,
+    title={ReFeR: Improving Evaluation and Reasoning through Hierarchy of Models},
+    author={Yaswanth Narsupalli and Abhranil Chandra and Sreevatsa Muppirala and Manish Gupta and Pawan Goyal},
+    year={2024},
+    eprint={2407.12877},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2407.12877},
+}
+```
