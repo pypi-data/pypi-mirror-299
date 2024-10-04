@@ -1,0 +1,10 @@
+fast2q/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast2q/__main__.py,sha256=dBDlBt6DioQ37coU54--PnjSOWfCxJCqwruS96HHO-4,76
+fast2q/fast2q.py,sha256=O-Yqr7BmqWGJ1sqdDZHyw4DYhuF4YMB1JzrP4ADvOc4,60293
+fast2q/data/D39V_guides.csv,sha256=_PfZtet7unFx4jaCKStetWAkSnq2jdY_HAcabBfSaig,47969
+fast2q/data/example.fastq.gz,sha256=--vGP0_eby9ao2Qn2isQsbIeLOr23kGIeSG5rnkYW7w,5544622
+fast2q-2.7.1.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+fast2q-2.7.1.dist-info/METADATA,sha256=M5iqolFp3uhCx3y9H8R_ku_ICwS_ZSuQvErUkoU4wZE,12933
+fast2q-2.7.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fast2q-2.7.1.dist-info/top_level.txt,sha256=heeO5vC0JpqKA-mQYIwiqLTPLQs4gHWzl2UB8VE5zgo,7
+fast2q-2.7.1.dist-info/RECORD,,
