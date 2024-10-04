@@ -1,0 +1,8 @@
+setup.py
+pyutiltool/__init__.py
+pyutiltool/my_module.py
+pyutiltool.egg-info/PKG-INFO
+pyutiltool.egg-info/SOURCES.txt
+pyutiltool.egg-info/dependency_links.txt
+pyutiltool.egg-info/requires.txt
+pyutiltool.egg-info/top_level.txt
