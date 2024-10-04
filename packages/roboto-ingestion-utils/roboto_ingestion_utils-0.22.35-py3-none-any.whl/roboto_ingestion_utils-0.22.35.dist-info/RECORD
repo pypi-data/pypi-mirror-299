@@ -1,0 +1,15 @@
+roboto_ingestion_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboto_ingestion_utils/csv.py,sha256=-Y5aZgcM2CtN_u4GZjz8hc_AE9crW1CdEsRw9t9kOw0,15620
+roboto_ingestion_utils/image_dir.py,sha256=b5pKxZH0VnLwAKXx0W2m4IdqHOLHuNNj4IoBuzRxwtg,9658
+roboto_ingestion_utils/ingestion_utils.py,sha256=a6su07nOa-47JMiY-9vlbP8WXxq8UNn4DrDMdpPoJ94,5984
+roboto_ingestion_utils/metrics.py,sha256=Oudo4reyHDceoV_D1GbGE8u-7j8718hMew3p8rHhIyQ,1648
+roboto_ingestion_utils/timed.py,sha256=DbFRGmS5fVFKIsZTp2sF4x2WIW0Ps7fMCl5ctGIzCq4,985
+roboto_ingestion_utils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roboto_ingestion_utils/tests/test_csv_utils.py,sha256=GBNhOL8JQyKStqFcC2j-X-vSQOMR-emHcNSqM-6Owt8,4561
+roboto_ingestion_utils/tests/test_img_utils.py,sha256=QOvU0nP9G-JH6G0lX_jSdywPuP9K5_4l7a2ga4A5Bfs,3462
+roboto_ingestion_utils/tests/test_utils.py,sha256=HG_GzDvzpm4IfT3Ctj7cExXAhyW6phw6U4Y42L82doc,358
+roboto_ingestion_utils-0.22.35.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+roboto_ingestion_utils-0.22.35.dist-info/METADATA,sha256=lWE1GZT2QxoQipQHgKFx8SebVDifGicljByVcCzV3oo,915
+roboto_ingestion_utils-0.22.35.dist-info/WHEEL,sha256=eOLhNAGa2EW3wWl_TU484h7q1UNgy0JXjjoqKoxAAQc,92
+roboto_ingestion_utils-0.22.35.dist-info/top_level.txt,sha256=cC9c6m0wV3yyJ6_35CuXe6r-3XgG_8uzv-cyo1bKS2w,23
+roboto_ingestion_utils-0.22.35.dist-info/RECORD,,
