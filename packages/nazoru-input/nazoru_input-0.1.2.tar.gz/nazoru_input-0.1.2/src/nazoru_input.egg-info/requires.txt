@@ -1,0 +1,12 @@
+cairocffi
+pillow
+tensorflow~=2.12.1
+tf_slim~=1.1.0
+pyserial
+
+[:platform_system == "Linux"]
+evdev
+wiringpi
+
+[:python_version < "3.4"]
+enum34
