@@ -1,0 +1,2 @@
+[console_scripts]
+slyvek-setup = slyvek_setup.main:main
