@@ -1,0 +1,7 @@
+[console_scripts]
+openbuildings = vdownload.openbuildings.openbuildings:main
+osm2geojson = vdownload.osm.osm2geojson:main
+osmdownload = vdownload.osm.osmdownload:main
+osminfo = vdownload.osm.osminfo:main
+osmpub = vdownload.osm.osmpub:main
+osmreplication = vdownload.osm.osmreplication:main
