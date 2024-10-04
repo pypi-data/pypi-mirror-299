@@ -1,0 +1,11 @@
+torch
+torchvision
+
+[dev]
+black
+isort
+pytest
+
+[publish]
+build
+twine
