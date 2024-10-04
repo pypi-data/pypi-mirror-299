@@ -1,0 +1,16 @@
+pygtknodesb/__init__.py,sha256=MGeQ6mxlyKeXFkXlsZqKK3L8vPoPwpLNXX8LlGWEs9E,222
+pygtknodesb/include/gtknodes/gtknode.h,sha256=ItzFgnYxAkASe1xYeDvNmZ8f3JuUXUfShn1YpqzRTvQ,5937
+pygtknodesb/include/gtknodes/gtknodesocket.h,sha256=c445pbWOwBctWUx2oGAIXRcLW3xAfMz_sd6WcOBCNZo,6813
+pygtknodesb/include/gtknodes/gtknodeview.h,sha256=mHjl215ZUiVHHQ5voQ61kMfNMB2CqqlseIUcCIMhh3I,2991
+pygtknodesb/lib/libgtknodes-0.1.a,sha256=vCcJWy8_bXnuMbEnYBsFNffpcB2J9KpiblwwPb61dXc,524338
+pygtknodesb/lib/libgtknodes-0.1.la,sha256=WplOr33J1pBrs2ocvmkvmvC8BMcwnuUbRNvgUx1oN5Y,1183
+pygtknodesb/lib/libgtknodes-0.1.so,sha256=SftCltIo4zdLC-nOWpoLtU9ODPb13Q3lzp5DvWYgjd0,265416
+pygtknodesb/lib/libgtknodes-0.1.so.0,sha256=SftCltIo4zdLC-nOWpoLtU9ODPb13Q3lzp5DvWYgjd0,265416
+pygtknodesb/lib/libgtknodes-0.1.so.0.0.0,sha256=SftCltIo4zdLC-nOWpoLtU9ODPb13Q3lzp5DvWYgjd0,265416
+pygtknodesb/lib/girepository-1.0/GtkNodes-0.1.typelib,sha256=PKeLpQpySrFnAbuAopFYLXZrkEDInaWht9vm7QjTd8A,7948
+pygtknodesb/lib/pkgconfig/gtknodes.pc,sha256=fVBN4TXsy72947E3pIICznhLr9FtG3pR4BM3Q-5Slmc,372
+pygtknodesb/share/gir-1.0/GtkNodes-0.1.gir,sha256=py7eiEs829yKAv-qP7ovaTwm6HmYJmqph_Mh5A4yy-Q,73913
+pygtknodesb-0.1.6.dist-info/METADATA,sha256=IdPu-jaAVxd6axGWKCp-MOQjJR07tlwf93ZicGjZIic,73
+pygtknodesb-0.1.6.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pygtknodesb-0.1.6.dist-info/top_level.txt,sha256=QMjmFeYB9bcZX1dosRuycTIIczYQhVZNTvpI-puVcug,12
+pygtknodesb-0.1.6.dist-info/RECORD,,
