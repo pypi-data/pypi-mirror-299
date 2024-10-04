@@ -1,0 +1,9 @@
+include vnstockdata/config/*.pyx
+include vnstockdata/config/*.pxd
+include vnstockdata/config/*.c
+include vnstockdata/client/*.pyx
+include vnstockdata/client/*.pxd
+include vnstockdata/client/*.c
+include vnstockdata/stock/*.pyx
+include vnstockdata/stock/*.pxd
+include vnstockdata/stock/*.c
