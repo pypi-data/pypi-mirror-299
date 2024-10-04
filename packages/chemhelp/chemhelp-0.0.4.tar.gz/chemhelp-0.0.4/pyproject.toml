@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chemhelp"
+version = "0.0.4"
+authors = [
+	{name="Tieu Long Phan", email="tieu@bioinf.uni-leipzig.de"}
+	]
+description = "Test."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent",
+]
+dependencies = [
+	"rdkit==2024.3.5"
+]
+
+[project.urls]
+homepage = "https://github.com/TieuLongPhan/chemhelp"
+source = "https://github.com/TieuLongPhan/chemhelp"
+issues = "https://github.com/TieuLongPhan/chemhelp/issues"
