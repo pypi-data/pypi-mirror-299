@@ -1,0 +1,9 @@
+ImageDataAugmentor/__init__.py,sha256=pUib6Bjie2AoLvIB6LkdP8fAzEE3GZmAEDTsLM6gZwQ,384
+ImageDataAugmentor/config.py,sha256=pv9lPIBG-oFszF26kmnPcwBwKsBeni_ygXJuhaiq-_0,23
+ImageDataAugmentor/image_data_augmentation.py,sha256=ojfqrYmVLS1IyQOlpgjFB6NHqU91Qj8s7l8lEadA5nU,5162
+ImageDataAugmentor/utils.py,sha256=KwxfE2yhgZdRNEjQGHpd5uuLkf7eKbUvWn3zejSNPmw,7224
+ImageDataAugmentor-1.0.1.dist-info/LICENSE,sha256=lgumJDRGBAa-bNmo3L5fpbg8WcyDqU9FXDYvwIggowg,1073
+ImageDataAugmentor-1.0.1.dist-info/METADATA,sha256=v8WbGu0h5T3dtpFEt9M6DXBkqrQMZ8xDjsq-1n1Y1W8,2529
+ImageDataAugmentor-1.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+ImageDataAugmentor-1.0.1.dist-info/top_level.txt,sha256=XjOq6PBLnKw-vKG71stnJt-FtqQ6NUvvPH7QLLMshUU,19
+ImageDataAugmentor-1.0.1.dist-info/RECORD,,
