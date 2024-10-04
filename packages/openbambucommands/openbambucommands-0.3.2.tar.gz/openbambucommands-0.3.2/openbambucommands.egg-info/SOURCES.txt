@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+openbambucommands/__init__.py
+openbambucommands.egg-info/PKG-INFO
+openbambucommands.egg-info/SOURCES.txt
+openbambucommands.egg-info/dependency_links.txt
+openbambucommands.egg-info/requires.txt
+openbambucommands.egg-info/top_level.txt
