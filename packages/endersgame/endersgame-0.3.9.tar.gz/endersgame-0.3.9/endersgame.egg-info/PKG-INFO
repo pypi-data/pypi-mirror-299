@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: endersgame
+Version: 0.3.9
+Summary: Online autonomous time series prediction of near martingales
+Home-page: https://github.com/microprediction/endersgame
+Author: microprediction
+Author-email: peter.cotton@microprediction.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: river
+Provides-Extra: full
+
+# endersgame ![tests](https://github.com/microprediction/endersgame/actions/workflows/tests.yml/badge.svg)
+
+
+- See the [Attackers](https://github.com/microprediction/endersgame/tree/main/endersgame/attackers) README
+- It is strongly recommended that you read the [FAQ](https://github.com/microprediction/endersgame/blob/main/endersgame/attackers/FAQ.md). 
+
+
+### Install 
+Coming to PyPI soon but for now...
+
+     pip install git+https://github.com/microprediction/endersgame.git
+
