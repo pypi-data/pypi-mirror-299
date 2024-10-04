@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+jupiter-python/__init__.py
+jupiter-python/jupiter-python.py
+jupiter-python/__pycache__/__init__.cpython-312.pyc
+jupiter-python/__pycache__/jupiter.cpython-312.pyc
+jupiter_python.egg-info/PKG-INFO
+jupiter_python.egg-info/SOURCES.txt
+jupiter_python.egg-info/dependency_links.txt
+jupiter_python.egg-info/top_level.txt
