@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyYel"
+version = "0.1.0"
+description = "Transformers release"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    { name="Nayel BLIDI", email="nayel.blidi@gmail.com" }
+]
+dependencies = [
+    "numpy<2",
+    "pandas",
+    "opencv-python",
+    "python-dotenv==1.0.1",
+    "tqdm",
+    "scikit-learn",
+    "matplotlib",
+    "transformers",
+    "torch==2.4.1",
+    "torchvision",
+    "datasets",
+    "accelerate",
+    "protobuf==5.28.2",
+    "sentencepiece==0.2.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
