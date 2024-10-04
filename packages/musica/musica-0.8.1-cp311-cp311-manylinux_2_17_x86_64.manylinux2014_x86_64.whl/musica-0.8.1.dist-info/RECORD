@@ -1,0 +1,9 @@
+libyaml-cpp.so.0.8.0,sha256=h1k3NfBSLlpgyX9vkFohxYeYIVxZAzDjgrARxpBEIXo,595824
+musica.cpython-311-x86_64-linux-gnu.so,sha256=0tS3zPv5zLtkPhOZO94pbKsN6BIvpt5w7f4ZoJDD-sk,948496
+libyaml-cpp.so.0.8,sha256=h1k3NfBSLlpgyX9vkFohxYeYIVxZAzDjgrARxpBEIXo,595824
+libyaml-cpp.so,sha256=h1k3NfBSLlpgyX9vkFohxYeYIVxZAzDjgrARxpBEIXo,595824
+musica/_version.py,sha256=zdNAVnAjBndeJIHwOgYUG1405Px0Xcqmi990xI2r5E4,18
+musica-0.8.1.dist-info/METADATA,sha256=87I9YbhK8OJ_UZcm_YC9qMtVQbOyVBWSEigH8NA-TYQ,19965
+musica-0.8.1.dist-info/RECORD,,
+musica-0.8.1.dist-info/WHEEL,sha256=VOupRnfug01GtQYX1iAM3IeNFJwbRXAxOEBUtSnOhO4,156
+musica-0.8.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
