@@ -1,0 +1,7 @@
+requests>=2.32.0
+
+[:python_version <= "3.12"]
+setuptools<=74.1.2
+
+[:python_version >= "3.12"]
+setuptools
