@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: yambot_client
+Version: 0.0.1
+Summary: Client for Yandex Messenger Bot API
+Home-page: https://github.com/abugrin/yambot
+Author: Anton Bugrin
+Author-email: abugrin@yandex.ru
+Keywords: python yandex.messenger api-client
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.32.0
+Requires-Dist: setuptools<=74.1.2; python_version <= "3.12"
+Requires-Dist: setuptools; python_version >= "3.12"
+
+Yandex Messenger Bot API library
+
+Add .env file with
+
+```
+BOT_KEY = "Bot Token"
+TRACKER_KEY = "" // Optional
+TRACKER_ORG="123456" // Optional
+TRACKER_QUEUE="PASS" // Optional
+GPT_FOLDER="b1gtb931231231" // Optional
+GPT_API_KEY="AQVN......." // Optional
+```
