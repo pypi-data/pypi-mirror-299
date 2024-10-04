@@ -1,0 +1,29 @@
+Metadata-Version: 2.3
+Name: nicegui-calculator
+Version: 0.1.2
+Summary: calculator on NiceGUI
+Project-URL: homepage, https://github.com/SaitoTsutomu/nicegui-calculator
+Author-email: Saito Tsutomu <tsutomu7@hotmail.co.jp>
+License: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.11
+Requires-Dist: nicegui>=2.2.0
+Requires-Dist: pywebview>=5.2
+Description-Content-Type: text/markdown
+
+# NiceGUI Calculator
+
+NiceGUI Calculator is a calculator that runs on NiceGUI.
+
+## Usage
+
+```
+% calculator
+```
+
+![](https://raw.githubusercontent.com/SaitoTsutomu/nicegui-calculator/master/images/main.png)
