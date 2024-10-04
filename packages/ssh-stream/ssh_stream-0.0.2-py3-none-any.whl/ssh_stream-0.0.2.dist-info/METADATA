@@ -1,0 +1,15 @@
+Metadata-Version: 2.3
+Name: ssh-stream
+Version: 0.0.2
+Summary: Stream sensor data over ssh for real-time offboard computation
+Project-URL: Homepage, https://github.com/qleml/ssh-stream
+Project-URL: Issues, https://github.com/qleml/ssh-stream/issues
+Author-email: Clemens Christoph <cchristoph@ethz.ch>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ssh-stream
