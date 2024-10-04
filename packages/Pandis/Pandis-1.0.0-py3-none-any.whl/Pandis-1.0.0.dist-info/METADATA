@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Pandis
+Version: 1.0.0
+Summary: A Redis-like interface using pandas as the data store.
+Author: Hamsa AI
+Author-email: support@tryhamsa.com
+Requires-Dist: pandas==2.2.3
+
