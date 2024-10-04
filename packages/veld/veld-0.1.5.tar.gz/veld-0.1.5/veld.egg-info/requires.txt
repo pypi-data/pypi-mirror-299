@@ -1,0 +1,15 @@
+matplotlib>=3.3.4
+numpy>=1.19
+wilderness>=0.1.7
+
+[dev]
+mypy
+green
+pytest
+
+[docs]
+
+[tests]
+mypy
+green
+pytest
