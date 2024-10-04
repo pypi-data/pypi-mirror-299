@@ -1,0 +1,8 @@
+hermesConnector/__init__.py,sha256=PPlZZL6gWtVFBprbfrG4zZir0uAJK30QaMBCSrFDGS8,82
+hermesConnector/connector.py,sha256=-QeTX21agNphCuJadNjEDqZ-MNnaEtNauT-9q8WHvbo,1485
+hermesConnector/connector_binance.py,sha256=vtB84egmu-Qbgr1xD7LR8uovADBRKr8A6e00Y54TbA0,10195
+hermesConnector-0.0.1.dist-info/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+hermesConnector-0.0.1.dist-info/METADATA,sha256=H2Jd-INgYL8mPzM5-uZwLNxseia-4-MZXNGLhYqccy4,21905
+hermesConnector-0.0.1.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+hermesConnector-0.0.1.dist-info/top_level.txt,sha256=RG6cGczKBM045geMnYScq3rw8vqNnO2VMHP3etIKFYU,16
+hermesConnector-0.0.1.dist-info/RECORD,,
