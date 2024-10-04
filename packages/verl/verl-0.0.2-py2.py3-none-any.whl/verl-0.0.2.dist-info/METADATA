@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: verl
+Version: 0.0.2
+Summary: VeRL: Volcano Engine Reinforcement Learning for LLM
+Home-page: https://github.com/volcengine/verl
+Author: Bytedance - Seed - MLSys
+Author-email: zhangchi.usc1992@bytedance.com, gmsheng@connect.hku.hk
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: tensordict (<0.3.1,>=0.3.0)
+Requires-Dist: transformers
+Requires-Dist: codetiming
+Requires-Dist: pybind11
+Requires-Dist: hydra-core
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: yapf
+Requires-Dist: dill
+Requires-Dist: accelerate
+Provides-Extra: demo
+Requires-Dist: hydra-core ; extra == 'demo'
+Requires-Dist: transformers ; extra == 'demo'
+Provides-Extra: single-controller
+Requires-Dist: ray ; extra == 'single-controller'
+Requires-Dist: kubernetes ; extra == 'single-controller'
+Provides-Extra: single-controller-ray
+Requires-Dist: ray ; extra == 'single-controller-ray'
+
+UNKNOWN
+
+
