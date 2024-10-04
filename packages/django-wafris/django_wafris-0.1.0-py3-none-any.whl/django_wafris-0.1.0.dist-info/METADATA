@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: django-wafris
+Version: 0.1.0
+Summary: Django Wafris
+License: MIT
+Author: Turkalp Burak Kayrancioglu
+Author-email: bkayranci@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=5.1.1,<6.0.0)
+Requires-Dist: redis (>=5.1.0,<6.0.0)
+Description-Content-Type: text/markdown
+
+# Django Wafris
+
+## Installation
+
+1. Install `django-wafris` package
+
+```terminal
+pip install django-wafris
+```
+
+2. Add `INSTALLED_APP` in `settings.py`
+
+```python
+INSTALLED_APPS = [
+    ...
+    "django.contrib.staticfiles",
+    "django_wafris",
+]
+```
+
+3. Add `MIDDLEWARE` in `settings.py`
+
+```python
+MIDDLEWARE = [
+    "django_wafris.middleware.WafrisMiddleware",
+    "django.middleware.security.SecurityMiddleware",
+    ...
+]
+```
+
+4. Declare WAFRIS config in `settings.py`
+
+```python
+
+WAFRIS = {
+    "REDIS_URL": "redis://:password@host:port",
+}
+```
+

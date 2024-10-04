@@ -1,0 +1,15 @@
+django_wafris/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_wafris/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_wafris/apps.py,sha256=kWlfy85RSs1xeqpIO_T6ERNsrtzKZB0MkC9ItqRzRoE,157
+django_wafris/lua/wafris_core.lua,sha256=Y-Wjgjf_hcNgEK8L9sx0q4uMmAeUUEKLjKwsHzLZqWc,10039
+django_wafris/middleware.py,sha256=faSZCmOz_4onZht1pht74G6ZzPEVVrwkIBVytDkTmk8,897
+django_wafris/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_wafris/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_wafris/settings.py,sha256=HYcc04w2QNg8oa0ZZzOiIWNvEQeqfy3t7exTCiooRto,212
+django_wafris/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_wafris/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_wafris/wafris_core.py,sha256=G7a0FDFEEL9yaJViBP2l2ZN75WwjSCcLDvFzUYnc0kw,2992
+django_wafris-0.1.0.dist-info/LICENSE,sha256=xymfis6jBQl2Z8RUFEShGuywIzDuH3YtedEynTQSVQE,1083
+django_wafris-0.1.0.dist-info/METADATA,sha256=q77vMI914nHewBkRhDqaDDxCfgS507WG86MKDmUUlm8,1012
+django_wafris-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+django_wafris-0.1.0.dist-info/RECORD,,
