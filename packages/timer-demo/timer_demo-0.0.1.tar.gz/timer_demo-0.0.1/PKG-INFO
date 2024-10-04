@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: timer-demo
+Version: 0.0.1
+Summary: A demo package for Python User Group, 22 Oct 2024
+Home-page: https://github.com/wyhwong/20241022-pyusergroup
+License: MIT
+Keywords: python
+Author: wyhwong
+Author-email: wyhwong@link.cuhk.edu.hk
+Maintainer: wyhwong
+Maintainer-email: wyhwong@link.cuhk.edu.hk
+Requires-Python: >=3.11,<3.12
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Repository, https://github.com/wyhwong/20241022-pyusergroup
+Description-Content-Type: text/markdown
+
+## Run in Docker Container
+
+```bash
+# Build Docker image
+docker build -t timer-demo:test .
+
+# Run Docker container
+docker run --rm -it timer-demo:test python3 app
+```
+
