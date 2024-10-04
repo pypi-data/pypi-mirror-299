@@ -1,0 +1,11 @@
+freezcord/Cog.py,sha256=u9DEK9dFDbI8jxOK3RG5PKsk3dBKksMlsQHJsHqsnzY,215
+freezcord/__init__.py,sha256=eKO7MfmPLzLRADh8_2JAGLF_OBM3G6N1iMZxuo8qCHQ,236
+freezcord/bot.py,sha256=suLXyKU6J3KfCznvBUdqFxUvRxWN6eQDrXAQ-qiQGH4,6651
+freezcord/guild.py,sha256=Xv9va662sN4xcPjSdSXGOcuH4Jxx17g56NeaKGGEqm0,151
+freezcord/load_cogs.py,sha256=LRBqQ6WniTlPdpU8AETLWg8VnAHkNCWNpTHKcQVTdfA,1126
+freezcord/load_yaml.py,sha256=DEaMdqgEfzB1iAcy-vLqRCjdZX2Va1k9veGRQKRLy1g,152
+freezcord/webhook.py,sha256=QNpxRe7wXXALuFnh0yIMY5AQkehi06wJ3kU8DOHE2M8,1035
+freezcord-0.4.4.dist-info/METADATA,sha256=okyyq7Iw7trpqTNMn3x3nHroNr-zCzSWmlC_1qUXCWU,785
+freezcord-0.4.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+freezcord-0.4.4.dist-info/top_level.txt,sha256=o53DM9yS-SvHSDji0P1xjqgcoCPHQeYtuJjLDkNry6E,10
+freezcord-0.4.4.dist-info/RECORD,,
