@@ -1,0 +1,15 @@
+fix:
+    rye fmt
+
+mypy:
+    rye run mypy --strict src/
+
+check: mypy
+    rye fmt --check
+
+css:
+    python -c 'from pygments.formatters import HtmlFormatter; print(HtmlFormatter().get_style_defs(".highlight"))'
+
+example:
+    rye run obsidian2html example/index.md example/www/index.html    
+    rye run obsidian2html example/note.md  example/www/note.html    
