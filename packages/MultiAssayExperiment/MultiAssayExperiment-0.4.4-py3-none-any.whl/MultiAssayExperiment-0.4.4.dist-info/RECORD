@@ -1,0 +1,10 @@
+multiassayexperiment/MultiAssayExperiment.py,sha256=PNzCotQuWgFE05nalloWteCQjgJ2GbN32IRF4SOtkWk,46526
+multiassayexperiment/__init__.py,sha256=1UfyVXsPNeZ7r7DgmCA05THIn1tSI6miV9QvUbxWPCU,683
+multiassayexperiment/io/__init__.py,sha256=8JMVTCahjTSrcn86sa2bIaW2m_srm0aiLnlHLLuajj0,60
+multiassayexperiment/io/h5ad.py,sha256=AkQqyP_nr_2qVsuYQe9-FBS8zJdnGHhT7EC7cOxyLVM,692
+multiassayexperiment/io/interface.py,sha256=4KTEwcvxF6e1O22FfGf8rJqMUzxnd7-pjO-4FLdCPos,2907
+MultiAssayExperiment-0.4.4.dist-info/LICENSE.txt,sha256=pkwgQ8WMTR1-Qa0qwIaBf5I1-8OGN1B20E_eeDg-bqc,1082
+MultiAssayExperiment-0.4.4.dist-info/METADATA,sha256=t6XCi-EyXtM3y3pRQLuslBgjrq0ffHTFd7WngnRPTtk,5873
+MultiAssayExperiment-0.4.4.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+MultiAssayExperiment-0.4.4.dist-info/top_level.txt,sha256=c2FZrOyX5ZhMQRtdDeV43NDbMeqZL3ZvMG52Ptaiqu0,21
+MultiAssayExperiment-0.4.4.dist-info/RECORD,,
