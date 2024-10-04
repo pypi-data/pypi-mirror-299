@@ -1,0 +1,38 @@
+include:
+  - project: nse/ci
+    file:
+      - /ci/lib/common.yml
+      - /ci/jobs/build-package.yml
+      - /ci/jobs/publish-package.yml
+
+stages:
+  - lint
+  - test
+  - build
+  - publish
+
+run-python-linter:
+  stage: lint
+  image: pyfound/black:22.12.0
+  before_script:
+    - black --version
+  script:
+    - black . --check
+
+
+run-unit-tests:
+  stage: test
+  image: python:3.9
+  before_script:
+    - pip install .
+  script:
+    - cd ./pipeline_validator
+    - pytest
+
+
+build-package:
+  rules:
+    - when: on_success
+publish-package:
+  rules:
+    - if: $CI_COMMIT_TAG
