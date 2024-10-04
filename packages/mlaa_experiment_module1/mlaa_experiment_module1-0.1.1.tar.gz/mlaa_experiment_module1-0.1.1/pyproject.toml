@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mlaa_experiment_module1"
+version = "0.1.1"
+description = "Experimentation"
+authors = ["Prabhakar Ananya <pananya21t@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/ananyanaik22/app_1.git"
+repository = "https://github.com/ananyanaik22/app_1.git"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+pandas = "2.2.2"
+scikit-learn = "1.5.2"
+numpy = ">=2.1.1"
+plotly = "^5.24.1"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+python-dateutil = "^2.9.0.post0"
+arrow = "^1.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
