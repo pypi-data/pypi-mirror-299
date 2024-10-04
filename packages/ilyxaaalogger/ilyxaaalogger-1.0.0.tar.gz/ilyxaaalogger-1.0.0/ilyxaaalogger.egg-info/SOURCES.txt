@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+Logger/Logger.py
+Logger/__init__.py
+ilyxaaalogger.egg-info/PKG-INFO
+ilyxaaalogger.egg-info/SOURCES.txt
+ilyxaaalogger.egg-info/dependency_links.txt
+ilyxaaalogger.egg-info/top_level.txt
