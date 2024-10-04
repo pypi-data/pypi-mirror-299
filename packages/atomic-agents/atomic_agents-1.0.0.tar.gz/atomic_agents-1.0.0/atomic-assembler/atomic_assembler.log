@@ -1,0 +1,5 @@
+2024-09-29 22:36:14,031 - asyncio - DEBUG - proactor_events.py:634 - Using proactor: IocpProactor
+2024-09-29 22:36:22,026 - git.cmd - DEBUG - cmd.py:1253 - Popen(['git', 'clone', '-v', '--branch=main', '--', 'https://github.com/BrainBlend-AI/atomic-agents.git', 'C:\\Users\\kenny\\AppData\\Local\\Temp\\tmp_zgo9syr\\atomic-agents'], cwd=C:\dev_new\BrainAtomics\atomic-monorepo\atomic-assembler, stdin=None, shell=False, universal_newlines=True)
+2024-09-29 22:36:22,979 - git.repo.base - DEBUG - base.py:1395 - Cmd(['git', 'clone', '-v', '--branch=main', '--', 'https://github.com/BrainBlend-AI/atomic-agents.git', 'C:\\Users\\kenny\\AppData\\Local\\Temp\\tmp_zgo9syr\\atomic-agents'])'s unused stdout: 
+2024-09-29 22:36:22,986 - root - INFO - utils.py:24 - Repository cloned to C:\Users\kenny\AppData\Local\Temp\tmp_zgo9syr\atomic-agents on branch main
+2024-09-29 22:36:22,986 - root - INFO - atomic_tool_explorer.py:74 - Repository cloned successfully
