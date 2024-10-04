@@ -1,0 +1,5 @@
+include README.md       # Include the README file
+include LICENSE          # Include the LICENSE file
+include setup.py         # Include the setup.py file
+graft volkanoban         # Include all files in the volkanoban/ directory (the package itself)
+global-exclude __pycache__/* *.py[cod] # Exclude cache files
