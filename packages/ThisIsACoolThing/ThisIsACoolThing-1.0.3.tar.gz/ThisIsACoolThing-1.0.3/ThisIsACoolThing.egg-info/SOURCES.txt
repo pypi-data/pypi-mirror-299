@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+LUCY/__init__.py
+LUCY/app.py
+LUCY/eth_lstm_best_model_1hour.h5
+LUCY/eth_lstm_model_1h_optimized.h5
+LUCY/ppa.py
+LUCY/scaler-1h.pkl
+LUCY/scaler_custom.pkl
+ThisIsACoolThing.egg-info/PKG-INFO
+ThisIsACoolThing.egg-info/SOURCES.txt
+ThisIsACoolThing.egg-info/dependency_links.txt
+ThisIsACoolThing.egg-info/entry_points.txt
+ThisIsACoolThing.egg-info/requires.txt
+ThisIsACoolThing.egg-info/top_level.txt
