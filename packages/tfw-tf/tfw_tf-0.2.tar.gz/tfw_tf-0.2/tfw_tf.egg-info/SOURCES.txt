@@ -1,0 +1,8 @@
+README.md
+setup.py
+tfw/__init__.py
+tfw/my_tf.py
+tfw_tf.egg-info/PKG-INFO
+tfw_tf.egg-info/SOURCES.txt
+tfw_tf.egg-info/dependency_links.txt
+tfw_tf.egg-info/top_level.txt
