@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "amon.wayfinder"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+keywords = []
+authors = [{ name = "ManMade2", email = "madskris@proton.me" }]
+classifiers = [
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = ["numpy", "trimesh", "fast_simplification"]
+
+[project.urls]
+Documentation = "https://github.com/ManMade2/wayfinder#readme"
+Issues = "https://github.com/ManMade2/wayfinder/issues"
+Source = "https://github.com/ManMade2/wayfinder"
+
+[tool.hatch.version]
+path = "src/wayfinder/__about__.py"
+
+[tool.hatch.envs.types]
+extra-dependencies = ["mypy>=1.0.0"]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/wayfinder tests}"
+
+[tool.coverage.run]
+source_pkgs = ["wayfinder", "tests"]
+branch = true
+parallel = true
+omit = ["src/wayfinder/__about__.py"]
+
+[tool.coverage.paths]
+wayfinder = ["src/wayfinder", "*/wayfinder/src/wayfinder"]
+tests = ["tests", "*/wayfinder/tests"]
+
+[tool.coverage.report]
+exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
+
+[tool.black]
+line-length = 100
