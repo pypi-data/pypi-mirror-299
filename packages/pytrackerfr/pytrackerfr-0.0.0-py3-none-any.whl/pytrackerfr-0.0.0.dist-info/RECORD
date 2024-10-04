@@ -1,0 +1,17 @@
+pytrackerfr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytrackerfr/main.py,sha256=9b4p-Q7pMbe9RmiXQbbc-PXtUAjVW2AdJgxOFcYPGmM,5590
+pytrackerfr/url_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytrackerfr/url_generator/affiliation.py,sha256=0gzqPqw2BxzEZiawyGxL9psf6ytsiBdzla_2wruZTls,2450
+pytrackerfr/url_generator/bing_ads.py,sha256=ef_Qaqw-PBXrHkiXpThav9_ZNO3kgrsGUx_WXkUlr2o,2630
+pytrackerfr/url_generator/colaboration.py,sha256=FFaFKGIfl7zLSMhNWSH1jyWTFPJMDbQupOcTo4_T68U,2635
+pytrackerfr/url_generator/comparateur.py,sha256=cZFmzVLHZls8EB-u5-U3x7iVu2TUfsvE4PfYV4CkiHk,2291
+pytrackerfr/url_generator/core.py,sha256=uzy__OSVW-Ri-mHiCOtzy07uaI58FH_qJYNYkgtFO6o,3425
+pytrackerfr/url_generator/display.py,sha256=zCAwlHv6aPdreIiXuTNEI7C7-Kt8tGKpYaI6Y17cwp0,3935
+pytrackerfr/url_generator/emailing.py,sha256=1viHrZrvLyoW2kbWKSCCeDf0J9xJQEfWN26XXI5a_l8,2367
+pytrackerfr/url_generator/google_ads.py,sha256=sMJe7KddLaHIiFZpQKwQMbAY6CzR3-yl9Vm7xpJuq3o,2602
+pytrackerfr/url_generator/social.py,sha256=QR8vUMx-mXj_d0hUJfYF9J1MSd7ducJOX8t7hw23gso,2623
+pytrackerfr-0.0.0.dist-info/METADATA,sha256=iE7c33_c99anSxjdGyWoMoZSv084DHJq1VhrtY_Ep70,480
+pytrackerfr-0.0.0.dist-info/WHEEL,sha256=GJ7t_kWBFywbagK5eo9IoUwLW6oyOeTKmQ-9iHFVNxQ,92
+pytrackerfr-0.0.0.dist-info/entry_points.txt,sha256=XCGW7vaxMgVGPVrFkqN730SJEZ3SFIFMc4oVfPS2oVE,42
+pytrackerfr-0.0.0.dist-info/top_level.txt,sha256=j0RygMNnr4JdzYKWTczNw_NddFM4DemtDGQOijfkYx4,12
+pytrackerfr-0.0.0.dist-info/RECORD,,
