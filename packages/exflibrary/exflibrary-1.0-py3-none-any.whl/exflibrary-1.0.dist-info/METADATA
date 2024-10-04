@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: exflibrary
+Version: 1.0
+Summary: A package that downloads a Python script, saving it to a user-accessible directory.
+Home-page: https://github.com/miracledevelop/exflibrary
+Author: Adam Johns
+Author-email: rusty128944@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: os
+Requires-Dist: subprocess
+Requires-Dist: uuid
+Requires-Dist: ctypes
+
