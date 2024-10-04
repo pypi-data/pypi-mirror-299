@@ -1,0 +1,11 @@
+fastmask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastmask/cli.py,sha256=jdqqa2nqdkHdE2PKb0wTDaDGMUgEesLMRMejGv9Mx1U,8035
+fastmask/config.py,sha256=cdrGUPqnUYwac6e1cxuE2nQIOSuKTXY2F46Er9iTJZs,1421
+fastmask/masked_email.py,sha256=PWp5WlJhlGNTbCj0fqEqANYx58g549kiBuhvXhke0Kg,8388
+fastmask/utils.py,sha256=MxzG-s5H3unt7k2QsorJ_P2JYtBGc938cuZwX57xMvc,2170
+fastmask/version.py,sha256=oJSalUWG2ttcT11vxI08kKlRMDMdsGH7rL5zIJl3Gx0,19
+fastmask-0.1.5.dist-info/METADATA,sha256=18n4zwzMJBGw0n_ma4M_2nWu66xkudApKp6GidLB9hs,4442
+fastmask-0.1.5.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+fastmask-0.1.5.dist-info/entry_points.txt,sha256=uuEOM30jmhXBw4LFzezoZw1lqDpYV9nlC8otKxjAMm0,46
+fastmask-0.1.5.dist-info/top_level.txt,sha256=kZG4XHLU8D0pGHcBFlIy-wnqt1ScVRq0BwdSw9QNomI,9
+fastmask-0.1.5.dist-info/RECORD,,
