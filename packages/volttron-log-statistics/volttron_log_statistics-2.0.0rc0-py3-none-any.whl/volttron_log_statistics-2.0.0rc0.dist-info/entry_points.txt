@@ -1,0 +1,3 @@
+[console_scripts]
+volttron-log-statistics=log_statistics.agent:main
+
