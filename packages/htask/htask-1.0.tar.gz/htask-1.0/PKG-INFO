@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: htask
+Version: 1.0
+Summary: This project helps to solve basics problems where you stuck every time because these are basic tasks and we forget it everytime then when suddenly asked by someone or during collage projects.This tool covers every basics problems such as fibnacci series , complex patterns, reverse string, find  duplicate values and more. 
+Home-page: https://github.com/MrHorbio/
+Author: Ankush Kumar Rajput (Mr.Horbio)
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# HTASK
+`htask` is a Python package designed to simplify the process of solving common problems that students frequently encounter while coding. With just one line of code, `htask` helps you reduce the amount of code you write, making it easier to implement solutions for various tasks.
+
+
+## Features
+
+- **Pattern Generation**: Create and display various patterns easily.
+    - ***Right-angle triangle***
+    - ***Inverse Right-angle triangle***
+    - ***Pascal's Triangle***
+    - ***Hollow Square***
+    - ***Hollow Triangle***
+    - ***Inverse Pyramid***
+    - ***Pyramid***
+    - ***Diamond***
+    - ***Square***
+- **Fibonacci Series**: Generate Fibonacci numbers with minimal effort.
+- **Check Palindrome**: Easily check if a given string is a palindrome.
+- **Reverse a String**: Reverse any string with a simple function.
+- **Duplicate Element**: Identify duplicate elements in a list.
+
+
+## Installation
+
+` pip install htask `
+
+
+
+## USAGE
+```
+import htask
+
+# [1] Right-Angled Triangle
+htask.RAT(5, "*")
+
+# [2] Inverted Right-Angled Triangle
+htask.IRAT(5, "*")
+
+# [3] Pyramid
+htask.PRM(5, "*")
+
+# [4] Inverse Pyramid
+htask.IPRM(5, "*")
+
+# [5] Diamond
+htask.DIA(5, "*")
+
+# [6] Square
+htask.SQR(5, "*")
+
+# [7] Hollow Square
+htask.HSQR(5, "*")
+
+# [8] Hollow Triangle
+htask.HTRI(5, "*")
+
+# [9] Hourglass
+htask.HGLASS(5, "*")
+
+
+#[10] Fibnacci series
+htask.fib(5)
+
+#[11] Check palidrome
+htask.palindrome("civic")
+
+#[12] Reverse string
+htask.rev("civic")
+
+#[13]Find Duplicate element
+arr = [1,2,3,4,5,6,7,8,1,9,11,5,3]
+htask.duplicate(arr)
+
+```
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+
+Contributions to `htask` are welcome! If you have suggestions, improvements, or bug fixes, please fork the repository and submit a pull request. Ensure your contributions adhere to the coding standards and include appropriate documentation.
+
+## Contact
+For any inquiries or feedback, please contact:
+
+- Author: Ankush Kumar Rajput (Mr.Horbio)
+- GitHub: https://github.com/MrHorbio/bpix/blob/main/bpix_package/README.md
+- Youtube: https://www.youtube.com/@Mr-Horbio
+
+
+
+Thank you for using htask!
+
+
+
+
+
+
+

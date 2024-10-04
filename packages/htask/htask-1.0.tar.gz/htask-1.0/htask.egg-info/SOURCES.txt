@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+htask/__init__.py
+htask/module.py
+htask.egg-info/PKG-INFO
+htask.egg-info/SOURCES.txt
+htask.egg-info/dependency_links.txt
+htask.egg-info/top_level.txt
