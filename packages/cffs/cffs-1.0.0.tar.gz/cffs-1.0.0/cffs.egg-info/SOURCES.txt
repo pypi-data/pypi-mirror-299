@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+cffs/__init__.py
+cffs/combi_expressions.py
+cffs/combi_solving.py
+cffs/expressions.py
+cffs/feature_qualities.py
+cffs/solving.py
+cffs.egg-info/PKG-INFO
+cffs.egg-info/SOURCES.txt
+cffs.egg-info/dependency_links.txt
+cffs.egg-info/requires.txt
+cffs.egg-info/top_level.txt
