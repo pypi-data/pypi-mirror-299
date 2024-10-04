@@ -1,0 +1,3 @@
+include mathCalculations/*.dll
+include mathCalculations/*.so
+include mathCalculations/*.dylib
