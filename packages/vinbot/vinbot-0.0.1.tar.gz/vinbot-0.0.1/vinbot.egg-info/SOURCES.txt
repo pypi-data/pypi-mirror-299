@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+openai_chatbot_project/__init__.py
+openai_chatbot_project/__main__.py
+openai_chatbot_project/openai_chatbot.py
+vinbot.egg-info/PKG-INFO
+vinbot.egg-info/SOURCES.txt
+vinbot.egg-info/dependency_links.txt
+vinbot.egg-info/entry_points.txt
+vinbot.egg-info/top_level.txt
