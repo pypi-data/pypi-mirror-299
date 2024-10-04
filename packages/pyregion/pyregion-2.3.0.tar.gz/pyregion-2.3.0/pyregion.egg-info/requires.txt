@@ -1,0 +1,13 @@
+astropy>=5
+numpy>=1.23
+pyparsing>=2
+
+[docs]
+matplotlib
+sphinx
+sphinx-astropy
+sphinx-rtd-theme
+
+[test]
+pytest
+pytest-astropy
