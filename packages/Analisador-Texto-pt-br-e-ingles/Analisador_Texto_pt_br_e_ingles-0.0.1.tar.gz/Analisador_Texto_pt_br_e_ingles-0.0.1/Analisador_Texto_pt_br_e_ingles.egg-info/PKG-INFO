@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: Analisador-Texto-pt-br-e-ingles
+Version: 0.0.1
+Summary: Analisador de texto em português e inglês usando spaCy.
+Home-page: https://github.com/alexxs2/package-template
+Author: Alexsandro
+Author-email: alecsbezerra@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# analisador_texto_pt_br_e_eng
+
+Description. 
+The package analisador_texto_pt_br_e_eng is used to:
+	-Analisa os textos em portuguÃªs ou em inglÃªs, identificando palavras mais comuns, removendo stopwords e realizando outras anÃ¡lises de texto.
+	-Usa a biblioteca spaCy para processamento de linguagem natural em ambas as lÃ­nguas.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install analisador_texto_pt_br_e_eng
+```
+
+## Usage
+
+```python
+from analisador_texto_pt_br_e_eng.analisador_texto_pt_br import pt_br
+pt_br.analisar_texto("Seu texto em portuguÃªs aqui.")
+```
+
+```
+from analisador_texto_pt_br_e_eng.analisador_texto_eng import eng
+eng.analyze_text("Your English text here.")
+```
+## Author
+Alexsandro
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

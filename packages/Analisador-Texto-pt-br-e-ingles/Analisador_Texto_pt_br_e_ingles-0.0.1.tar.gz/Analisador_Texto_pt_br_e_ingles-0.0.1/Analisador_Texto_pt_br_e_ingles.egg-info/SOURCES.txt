@@ -1,0 +1,12 @@
+README.md
+setup.py
+Analisador_Texto_pt_br_e_ingles.egg-info/PKG-INFO
+Analisador_Texto_pt_br_e_ingles.egg-info/SOURCES.txt
+Analisador_Texto_pt_br_e_ingles.egg-info/dependency_links.txt
+Analisador_Texto_pt_br_e_ingles.egg-info/requires.txt
+Analisador_Texto_pt_br_e_ingles.egg-info/top_level.txt
+analisador_texto_pt_br_e_eng/__init__.py
+analisador_texto_pt_br_e_eng/analisador_texto_pt_br/__init__.py
+analisador_texto_pt_br_e_eng/analisador_texto_pt_br/pt_br.py
+analisador_texto_pt_br_e_eng/analyze_text_eng/__init__.py
+analisador_texto_pt_br_e_eng/analyze_text_eng/eng.py
