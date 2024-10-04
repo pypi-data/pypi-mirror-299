@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: slyvek-setup
+Version: 0.2.3
+Summary: Un paquet pour configurer un serveur VPS automatiquement.
+Author: guiguito
+Requires-Dist: bcrypt >=4.2.0
+
