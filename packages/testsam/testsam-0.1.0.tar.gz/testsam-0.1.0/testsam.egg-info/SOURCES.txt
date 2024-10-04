@@ -1,0 +1,6 @@
+README.md
+setup.py
+testsam.egg-info/PKG-INFO
+testsam.egg-info/SOURCES.txt
+testsam.egg-info/dependency_links.txt
+testsam.egg-info/top_level.txt
