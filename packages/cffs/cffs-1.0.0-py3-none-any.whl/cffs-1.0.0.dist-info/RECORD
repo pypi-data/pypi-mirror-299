@@ -1,0 +1,11 @@
+cffs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cffs/combi_expressions.py,sha256=20vMr_VV1NmjAaDMYnIcdSfhdm-lcLFxs1C2_3eqFaI,8469
+cffs/combi_solving.py,sha256=r6OSlwIiHKXNQJLZ5SrP8RcANSDc1CYZDoyI_Q3q-aU,4798
+cffs/expressions.py,sha256=5yv2pUf5xA4QATG_GDejZ1tl1A1rQb1AcjU0k_ZjUWg,13027
+cffs/feature_qualities.py,sha256=GqL0RVsHgYea0A0q7zhXhL9XE0kNnRwixqxufpEW9R4,2583
+cffs/solving.py,sha256=b2dS6fvXEsnUAd7_k9R2zYFsWYhR62f-Ml8ajJDTbcE,5431
+cffs-1.0.0.dist-info/LICENSE,sha256=QRsClRYrtrBY3qHs1POb5QDAtZniNSNz20uUpXHhxgA,1067
+cffs-1.0.0.dist-info/METADATA,sha256=Io2_WfVYRPJOsMBVduKrFjx9wTM2R1N-VJpzrH-bxR4,9420
+cffs-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cffs-1.0.0.dist-info/top_level.txt,sha256=cNXWA9e-s1pY3B0ybdu8B3BOITVTuAV3BPl_fgpIFAU,5
+cffs-1.0.0.dist-info/RECORD,,
