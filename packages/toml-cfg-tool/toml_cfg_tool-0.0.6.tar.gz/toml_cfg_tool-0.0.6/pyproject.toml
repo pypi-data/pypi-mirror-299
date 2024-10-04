@@ -1,0 +1,26 @@
+[build-system]
+requires = [ "setuptools>=61.0", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toml_cfg_tool"
+version = "0.0.6"
+description = "Never gonna give you up!"
+readme = "README.md"
+requires-python = ">=3.10"
+[[project.authors]]
+name = "VinnyVanGogh"
+email = "computerscience@vinny-van-gogh.com"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/VinnyVanGogh/toml_cfg_tool.git"
+
+[project.scripts]
+toml_cfg_tool = "toml_cfg_tool.toml_cfg_tool:main"
+
+[tool.setuptools.packages.find]
+where = [ ".",]
+exclude = [ "tests*",]
