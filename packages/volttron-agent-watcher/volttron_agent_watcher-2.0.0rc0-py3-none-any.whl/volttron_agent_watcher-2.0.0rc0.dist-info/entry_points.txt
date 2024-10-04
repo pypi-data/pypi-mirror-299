@@ -1,0 +1,3 @@
+[console_scripts]
+volttron-agent-watcher=agent_watcher.agent:main
+
