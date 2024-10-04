@@ -1,0 +1,39 @@
+Metadata-Version: 2.3
+Name: amon.wayfinder
+Version: 0.0.8
+Project-URL: Documentation, https://github.com/ManMade2/wayfinder#readme
+Project-URL: Issues, https://github.com/ManMade2/wayfinder/issues
+Project-URL: Source, https://github.com/ManMade2/wayfinder
+Author-email: ManMade2 <madskris@proton.me>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.12
+Requires-Dist: fast-simplification
+Requires-Dist: numpy
+Requires-Dist: trimesh
+Description-Content-Type: text/markdown
+
+# wayfinder
+
+[![PyPI - Version](https://img.shields.io/pypi/v/wayfinder.svg)](https://pypi.org/project/wayfinder)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wayfinder.svg)](https://pypi.org/project/wayfinder)
+
+-----
+
+## Table of Contents
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install wayfinder
+```
+
+## License
+
+`wayfinder` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

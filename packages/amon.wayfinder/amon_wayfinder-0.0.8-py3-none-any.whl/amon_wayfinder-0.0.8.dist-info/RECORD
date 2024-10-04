@@ -1,0 +1,9 @@
+wayfinder/__about__.py,sha256=IGQWFlNabDYg5Y2t37NP5tvLbkgAR8bG5wDizFq-EnM,128
+wayfinder/__init__.py,sha256=VecvvDyKkwBPfDC6PPdibcxNCfPB6ns7XP4Ku_eplCU,95
+wayfinder/assets.py,sha256=i_sSInTO0lR2zFi7bKfvmrCSJ_QVXxqx0-tSTOperI0,648
+wayfinder/mesh_generator.py,sha256=h1dtIqgb5eSlZZLaIiJld4EqdQCyB3nKeXb-e0mc9iM,2005
+wayfinder/utils.py,sha256=_sS9GAT-lR2pAQ9_k668r5qKdWQiIAkqwsudLdqlbGg,414
+amon_wayfinder-0.0.8.dist-info/METADATA,sha256=tOjmTsLsbQDvoeIGc2tPYdoX17W44zvVP4ZHReXHbjA,1170
+amon_wayfinder-0.0.8.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+amon_wayfinder-0.0.8.dist-info/licenses/LICENSE.txt,sha256=6_R8jRmMgFfNHP6BxlCDB0BfyuXXDbu8dlMR8B2VY9c,1103
+amon_wayfinder-0.0.8.dist-info/RECORD,,
