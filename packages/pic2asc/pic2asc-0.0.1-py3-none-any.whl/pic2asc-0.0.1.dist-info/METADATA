@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pic2asc
+Version: 0.0.1
+Summary: turn pic to ascii with color
+License: MIT License
+        
+        Copyright (c) 2024 Boooooom030
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Source, https://github.com/Boooooom030/pic2asc
+Keywords: ascii art,picture
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+
+# pic2ascc
+
+A tool to print pictrue on your terminal or into file
+
+
+## install
+```
+pip install pic2asc
+```
+require python 3.12+, beacuse I use `type`
+## Usage
+
+### use in cmd
+```
+usage: pic2asc [-h] [--size WIDTH HEIGHT] [--no-color] [--mode {3bit,4bit,256bit}] [--file FILE] [--replace-str REPLACE_STR] path
+
+positional arguments:
+  path                  pictrue path
+
+options:
+  -h, --help            show this help message and exit
+  --size WIDTH HEIGHT   size of asciipic. like --size 50 50. defalut is your terminal witdh/2, it is because two char with eque one char height
+  --no-color            print no color ascii picture
+  --mod {3bit,4bit,256bit}
+                        3bit 4bit or regular RGB mod
+  --file FILE           print ascii into file
+  --replace-str REPLACE_STR
+                        the chr you wang to show on the ascii pic, the string will be mapped to 0-255 in order
+```
+### use as module
+```python
+from pic2asc import pic2asc, color_type
+
+p = pic2asc("path",show_color=False,mod = color_type.bit4)
+
+p.pic2ascii(size=(50,50))
+```
+## Example
+
+picture:
+
+![karby](karby.jfif)
+
+1. `color_type.bit3`
+ 
+   ![Karby-3bit](./karby-3bit.png)
+2. `color_type.bit4`
+ 
+   ![Karby-3bit](./karby-4bit.png)
+3. `color_type.bit256(default)`
+ 
+   ![Karby-3bit](./karby-256bit.png)
