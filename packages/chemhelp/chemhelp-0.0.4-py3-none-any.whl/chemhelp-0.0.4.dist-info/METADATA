@@ -1,0 +1,17 @@
+Metadata-Version: 2.3
+Name: chemhelp
+Version: 0.0.4
+Summary: Test.
+Project-URL: homepage, https://github.com/TieuLongPhan/chemhelp
+Project-URL: source, https://github.com/TieuLongPhan/chemhelp
+Project-URL: issues, https://github.com/TieuLongPhan/chemhelp/issues
+Author-email: Tieu Long Phan <tieu@bioinf.uni-leipzig.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: rdkit==2024.3.5
+Description-Content-Type: text/markdown
+
+test
