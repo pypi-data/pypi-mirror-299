@@ -1,0 +1,124 @@
+2024-09-27 11:47:04,533 - corpus-loader - INFO - Logger started
+2024-09-27 11:47:13,345 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-09-27 11:47:13,592 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-27 11:47:25,420 - corpus-loader - DEBUG - All files unloaded
+2024-09-27 11:47:28,005 - corpus-loader - INFO - Logger started
+2024-09-27 11:47:31,814 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-09-27 11:47:32,135 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-27 11:48:44,152 - corpus-loader - INFO - Logger started
+2024-09-27 11:48:48,067 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-09-27 11:48:48,250 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-09-27 11:48:50,935 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-09-27 11:48:50,952 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-09-27 11:48:50,952 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-09-27 11:48:50,956 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-09-27 11:48:51,095 - corpus-loader - DEBUG - All files unloaded
+2024-09-27 11:48:51,147 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-09-27 11:48:51,153 - corpus-loader - DEBUG - All files unloaded
+2024-09-27 12:06:55,716 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 09:25:17,307 - corpus-loader - INFO - Logger started
+2024-10-03 09:25:29,595 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 09:25:29,833 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 09:25:32,293 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 09:25:32,314 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 09:25:32,314 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 09:25:32,319 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 09:25:32,450 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 09:25:32,503 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-10-03 09:25:32,509 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 10:47:31,078 - corpus-loader - INFO - Logger started
+2024-10-03 10:47:56,866 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 10:47:57,102 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 10:48:05,426 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 10:48:05,438 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 10:48:05,438 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 10:48:05,441 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 10:48:05,572 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 10:48:05,624 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-10-03 10:48:05,629 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:31:33,692 - corpus-loader - INFO - Logger started
+2024-10-03 12:32:02,055 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 12:32:02,292 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 12:32:09,853 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 12:32:09,867 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 12:32:09,867 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 12:32:09,869 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 12:32:10,000 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:32:10,054 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-10-03 12:32:10,059 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:33:17,273 - corpus-loader - INFO - Logger started
+2024-10-03 12:33:21,618 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 12:33:21,856 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 12:33:24,166 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 12:33:24,185 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 12:33:24,185 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 12:33:24,189 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 12:33:24,322 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:33:24,377 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-10-03 12:33:24,384 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:34:45,716 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:34:52,286 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/csv_corpus/philosophers.csv']
+2024-10-03 12:34:52,671 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 12:34:54,249 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: 
+2024-10-03 12:34:54,269 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 12:34:54,269 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 12:34:54,272 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 12:34:54,460 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:34:54,529 - corpus-loader - INFO - Success displayed: Corpus Corpus-2024-10-03 12:34:54.267627 built successfully
+2024-10-03 12:34:54,535 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:35:36,371 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:35:46,863 - corpus-loader - INFO - Logger started
+2024-10-03 12:35:52,551 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 12:35:52,791 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 12:35:57,186 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 12:35:57,201 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 12:35:57,201 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 12:35:57,205 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 12:35:57,338 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:35:57,390 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-10-03 12:35:57,396 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:36:15,519 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:36:16,806 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 12:36:17,042 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 12:36:21,031 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 12:36:21,045 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 12:36:21,047 - corpus-loader - ERROR - Exception while adding corpus to corpora: Traceback (most recent call last):
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/Controller.py", line 182, in build_corpus
+    self.corpora.add(corpus)
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/data_objects/UniqueNameCorpora.py", line 52, in add
+    self._verify_unique_name(corpus.name)
+  File "/Users/hcro4489/Documents/SIH_Repositories/Repos/atap-corpus-loader/atap_corpus_loader/controller/data_objects/UniqueNameCorpora.py", line 35, in _verify_unique_name
+    raise ValueError(f"Corpus with name '{name}' already exists. Select a different name")
+ValueError: Corpus with name 'test' already exists. Select a different name
+
+2024-10-03 12:36:21,048 - corpus-loader - ERROR - Error displayed: Corpus with name 'test' already exists. Select a different name
+2024-10-03 12:36:24,490 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test2
+2024-10-03 12:36:24,502 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 12:36:24,503 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 12:36:24,506 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 12:36:24,727 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 12:36:24,796 - corpus-loader - INFO - Success displayed: Corpus test2 built successfully
+2024-10-03 12:36:24,802 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 14:31:36,987 - corpus-loader - INFO - Logger started
+2024-10-03 14:32:26,401 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 14:32:26,631 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 14:32:30,095 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test
+2024-10-03 14:32:30,111 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 14:32:30,111 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 14:32:30,114 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 14:32:30,247 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 14:32:30,299 - corpus-loader - INFO - Success displayed: Corpus test built successfully
+2024-10-03 14:32:30,306 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 14:34:56,854 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 14:34:57,003 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 14:35:00,798 - corpus-loader - DEBUG - Files loaded as corpus: ['tests/test_data/txt_corpus/aristotle.txt', 'tests/test_data/txt_corpus/heraclitus.txt', 'tests/test_data/txt_corpus/plato.txt', 'tests/test_data/txt_corpus/pythagoras.txt', 'tests/test_data/txt_corpus/socrates.txt']
+2024-10-03 14:35:01,216 - corpus-loader - INFO - Success displayed: Corpus files loaded successfully
+2024-10-03 14:35:13,491 - corpus-loader - DEBUG - Files loaded as meta: ['tests/test_data/csv_split_meta/philosophers.csv', 'tests/test_data/csv_split_meta/philosophers2.csv']
+2024-10-03 14:35:13,864 - corpus-loader - INFO - Success displayed: Metadata files loaded successfully
+2024-10-03 14:35:23,992 - corpus-loader - DEBUG - build_corpus method: Building corpus with name: test2
+2024-10-03 14:35:24,026 - corpus-loader - DEBUG - build_corpus method: corpus built
+2024-10-03 14:35:24,026 - corpus-loader - DEBUG - build_corpus method: corpus added to corpora
+2024-10-03 14:35:24,028 - corpus-loader - DEBUG - build_corpus method: corpus building complete
+2024-10-03 14:35:24,680 - corpus-loader - DEBUG - All files unloaded
+2024-10-03 14:35:24,834 - corpus-loader - INFO - Success displayed: Corpus test2 built successfully
+2024-10-03 14:35:24,840 - corpus-loader - DEBUG - All files unloaded
