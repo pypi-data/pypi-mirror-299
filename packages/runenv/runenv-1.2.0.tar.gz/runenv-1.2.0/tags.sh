@@ -1,0 +1,5 @@
+TAGS=("0.1.0 0.1.1 0.1.2 0.1.3 0.1.4 0.2.0 0.2.1 0.2.2 0.2.3 0.2.4")
+for tag in ${TAGS[@]}; do
+    echo $tag
+    git tag -f v${tag} -m v${tag} ${tag}^{}
+done
