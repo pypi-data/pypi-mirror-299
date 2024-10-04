@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+corex/__init__.py
+corex/crawlex.py
+corex/exelion.py
+corex/templax.py
+exelion.egg-info/PKG-INFO
+exelion.egg-info/SOURCES.txt
+exelion.egg-info/dependency_links.txt
+exelion.egg-info/entry_points.txt
+exelion.egg-info/requires.txt
+exelion.egg-info/top_level.txt
