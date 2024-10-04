@@ -1,0 +1,4 @@
+include perculus_sdk/*
+recursive-include perculus_sdk/user *
+recursive-include perculus_sdk/session *
+recursive-include perculus_sdk/attendee *
