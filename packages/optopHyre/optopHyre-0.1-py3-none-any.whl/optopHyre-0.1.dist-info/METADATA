@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: optopHyre
+Version: 0.1
+Summary: optopHyre: processing optode datasets from Pyroscience sensors
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Oceanography
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# optopHyre
+
+## General
+
+  - [ ] Write numpy-style docstrings throughout
+
+## `lag`
+
+  - [ ] Create new sub-module for lag analysis.
+  - [ ] Find optimised value for the lag --- with multiple methods!
+
+## `merge`
+
+  - [ ] Smoothing / moving average before interpolating in `ship_to_optode`
+  - [ ] Preparing data ready for `optode_to_ship`
+  - [ ] Calculating datenum
+  - [ ] Dealing with time zones
+  - [ ] Converting from pandas to numpy and back again
+
+## `plot`
+
+  - [ ] Check smoothing applied (`ship_to_optode`)
+  - [ ] Check interpolations (`ship_to_optode`)
+  - [ ] Check matching (`optode_to_ship`)
+  - [ ] Check lag correction
+
+## `read`
+
+
+
+## `uncertainty`
+
+Make functions that take numpy arrays as inputs and outputs
+
+  - [ ] Bootstrapping
+  - [ ] Kriging
+
+## Packaging
