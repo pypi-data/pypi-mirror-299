@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pred_exp_phase1
+Version: 0.1.2
+Summary: Experimentation-Predictive
+Home-page: https://github.com/ananyanaik22/app_1.git
+License: MIT
+Author: Prabhakar Ananya
+Author-email: pananya21t@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=2.1.1,<3.0.0)
+Requires-Dist: pandas (==2.2.2)
+Requires-Dist: scikit-learn (>=1.13)
+Project-URL: Repository, https://github.com/ananyanaik22/app_1.git
+Description-Content-Type: text/markdown
+
+# Sales Prediction Custom Package
