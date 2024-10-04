@@ -1,0 +1,2 @@
+[console_scripts]
+toml_cfg_tool = toml_cfg_tool.toml_cfg_tool:main
