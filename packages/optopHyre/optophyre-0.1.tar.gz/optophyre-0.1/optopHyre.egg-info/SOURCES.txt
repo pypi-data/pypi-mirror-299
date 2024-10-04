@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+optopHyre/__init__.py
+optopHyre/merge.py
+optopHyre/meta.py
+optopHyre/read.py
+optopHyre/read_old.py
+optopHyre.egg-info/PKG-INFO
+optopHyre.egg-info/SOURCES.txt
+optopHyre.egg-info/dependency_links.txt
+optopHyre.egg-info/requires.txt
+optopHyre.egg-info/top_level.txt
+tests/test_read_file.py
+tests/test_read_folder.py
