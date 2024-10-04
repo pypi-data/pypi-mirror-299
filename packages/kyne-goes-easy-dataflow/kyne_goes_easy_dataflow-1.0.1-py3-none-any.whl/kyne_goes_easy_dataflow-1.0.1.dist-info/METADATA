@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: kyne-goes-easy-dataflow
+Version: 1.0.1
+Summary: Automatización de procesos de Data para Kynegos
+Home-page: https://gitlab.com/GabiAnt95/kynegoeasy-dataflow
+Author: Kynegos - Capital Energy
+Author-email: digital.data@capitalenergy.com
+License: Kynegos License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-auth
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-storage
+Requires-Dist: google-cloud-aiplatform
+Requires-Dist: pandas
+Requires-Dist: atoma
+Requires-Dist: gdal
+
+
+# Kyne Goes Easy Dataflow
+
+`kyne-goes-easy-dataflow` es una colecciÃ³n de funciones genÃ©ricas diseÃ±adas para simplificar las operaciones con Google Cloud Platform (GCP). Este paquete facilita la interacciÃ³n con servicios como Google Cloud Storage, BigQuery, y otros componentes clave de GCP, permitiendo a los desarrolladores integrar estas herramientas de manera mÃ¡s eficiente en sus proyectos.
+
+## Licencia
+
+Este proyecto estÃ¡ licenciado bajo la Kynegos License. Para mÃ¡s detalles, consulta el archivo [LICENSE](./LICENSE).
+
+
+## InstalaciÃ³n
+
+Para instalar el paquete, utiliza pip:
+
+```bash
+pip install kyne-goes-easy-dataflow
+```
+
+## ActualizaciÃ³n
+
+Para instalar el paquete, utiliza pip:
+
+```bash
+pip install --upgrade kyne-goes-easy-dataflow
+```
+
+## Uso
+
+### Importar el Paquete
+
+Para comenzar a utilizar las funciones disponibles, simplemente importa el paquete en tu script de Python:
+
+```python
+import kynegoes_easy_dataflow.Kynegos_functions as KYNEGOS_FUNCTIONS
+```
+
+### ExploraciÃ³n de Funciones
+
+Para ver quÃ© funciones estÃ¡n disponibles en el paquete, puedes utilizar la funciÃ³n `dir()` de Python:
+
+```python
+print(dir(KYNEGOS_FUNCTIONS))
+```
+
+Esto te mostrarÃ¡ una lista de todas las funciones disponibles en `kyne-goes-easy-dataflow`.
+
+### Ejemplo de Uso
+
+Cada funciÃ³n en el paquete estÃ¡ diseÃ±ada para realizar una tarea especÃ­fica en GCP. AquÃ­ te mostramos un ejemplo bÃ¡sico de cÃ³mo utilizar una de las funciones para cargar un archivo a Google Cloud Storage:
+
+```python
+# Ejemplo de cÃ³mo subir un archivo a Google Cloud Storage
+KYNEGOS_FUNCTIONS.upload_to_gcs(bucket_name='nombre_del_bucket', source_file='ruta/del/archivo.txt', destination_blob='carpeta/archivo.txt')
+```
+
+### DocumentaciÃ³n de Funciones
+
+Para obtener detalles sobre cÃ³mo usar cada funciÃ³n, puedes consultar la documentaciÃ³n inline mediante `help()`:
+
+```python
+help(KYNEGOS_FUNCTIONS.upload_to_gcs)
+```
+
+Esto te proporcionarÃ¡ una descripciÃ³n detallada de los parÃ¡metros y el propÃ³sito de la funciÃ³n.
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, por favor, envÃ­e un correo mediante la plataforma Pypy.org
+
+## Posibles Problemas
+
+### SoluciÃ³n a posibles problemas con `ogr2ogr`
+
+Si al ejecutar el paquete encuentras problemas relacionados con `ogr2ogr`, sigue estos pasos para instalar correctamente GDAL en tu entorno:
+
+#### Paso 1: Actualizar los repositorios e instalar `gdal-bin`
+
+Ejecuta los siguientes comandos en una celda de cÃ³digo o en tu terminal:
+
+```bash
+# Actualizar la lista de paquetes
+!apt-get update
+
+# Instalar gdal-bin y libgdal-dev
+!apt-get install -y gdal-bin libgdal-dev
+```
+
+##### ExplicaciÃ³n:
+- **gdal-bin**: Este paquete incluye las herramientas de lÃ­nea de comandos de GDAL, como `ogr2ogr`, `gdal_translate`, entre otras.
+- **libgdal-dev**: Proporciona los archivos necesarios para desarrollar o compilar extensiones que dependen de GDAL.
+
+#### Paso 2: Verificar que `ogr2ogr` estÃ¡ instalado
+
+DespuÃ©s de la instalaciÃ³n, verifica que `ogr2ogr` estÃ¡ disponible ejecutando el siguiente comando en tu terminal o celda de cÃ³digo en Python:
+
+```bash
+!ogr2ogr --version
+```
+
+La salida deberÃ­a ser algo como:
+
+```bash
+GDAL 3.4.1, released 2021/12/27
+```
+
+#### Paso 3: Verificar en Python que `ogr2ogr` estÃ¡ en el `PATH`
+
+Para asegurarte de que `ogr2ogr` estÃ¡ en el `PATH` y accesible desde Python, ejecuta el siguiente cÃ³digo:
+
+```python
+import shutil
+print(shutil.which('ogr2ogr'))
+```
+
+La salida deberÃ­a ser algo como:
+
+```bash
+/usr/bin/ogr2ogr
+```
+
+Esto confirma que `ogr2ogr` estÃ¡ disponible en tu entorno y que Python puede encontrarlo correctamente.
+
+### Crear un directorio si no existe
+
+Si necesitas crear un directorio solo si no existe, puedes usar la siguiente funciÃ³n en tu cÃ³digo:
+
+```python
+import os
+
+# Ruta del directorio que deseas crear
+directorio = 'ruta/del/directorio'
+
+# Crear el directorio solo si no existe
+os.makedirs(directorio, exist_ok=True)
+```
+
+Este cÃ³digo crearÃ¡ el directorio especificado, y si ya existe, no lanzarÃ¡ ningÃºn error.
