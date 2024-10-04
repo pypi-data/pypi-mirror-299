@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pg2s/__init__.py
+pg2s/metric.py
+py_pg2s.egg-info/PKG-INFO
+py_pg2s.egg-info/SOURCES.txt
+py_pg2s.egg-info/dependency_links.txt
+py_pg2s.egg-info/requires.txt
+py_pg2s.egg-info/top_level.txt
