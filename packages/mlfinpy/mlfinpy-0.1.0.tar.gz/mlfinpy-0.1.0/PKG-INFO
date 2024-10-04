@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: mlfinpy
+Version: 0.1.0
+Summary: Mlfin.py is an Advance Machine Learning toolbox for financial applications.
+Home-page: https://github.com/baobach/mlfinpy
+License: MIT
+Keywords: finance,machine learning,algorithmic trading,quant,investing
+Author: Robert Bach
+Author-email: robert@quantfin.net
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Provides-Extra: optionals
+Requires-Dist: numba (>=0.60.0,<0.61.0)
+Requires-Dist: numpy (>=1.22,<1.27)
+Requires-Dist: pandas (>=2.2.3,<3.0.0)
+Requires-Dist: scikit-learn (>=1.5.2,<2.0.0) ; extra == "optionals"
+Requires-Dist: scipy (>=1.14.1,<2.0.0)
+Project-URL: Documentation, https://mlfinpy.readthedocs.io/en/latest/
+Project-URL: Issues, https://github.com/baobach/mlfinpy/issues
+Project-URL: Personal website, https://quantfin.net
+Project-URL: Repository, https://github.com/baobach/mlfinpy
+Description-Content-Type: text/x-rst
+
+=======
+mlfinpy
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/mlfinpy.svg
+        :target: https://pypi.python.org/pypi/mlfinpy
+
+.. image:: https://img.shields.io/travis/baobach/mlfinpy.svg
+        :target: https://travis-ci.com/baobach/mlfinpy
+
+.. image:: https://readthedocs.org/projects/mlfinpy/badge/?version=latest
+        :target: https://mlfinpy.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+.. image:: https://pyup.io/repos/github/baobach/mlfinpy/shield.svg
+     :target: https://pyup.io/repos/github/baobach/mlfinpy/
+     :alt: Updates
+
+
+
+Mlfin.py is an Advance Machine Learning toolbox for financial applications.
+
+
+* Free software: MIT license
+* Documentation: https://mlfinpy.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
