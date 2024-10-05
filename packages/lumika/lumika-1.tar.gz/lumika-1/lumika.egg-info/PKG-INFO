@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lumika
+Version: 1
+Summary: Version control at its fullest.
+Home-page: https://github.com/elemenom/pbm
+Author: elemenom
+Author-email: pixilreal@gmail.com
+License: GPLv3
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cx-freeze
+
+# Lumika
+
+Lightweight WSL console
