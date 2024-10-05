@@ -1,0 +1,76 @@
+
+# DeepTracer
+
+**DeepTracer** is a powerful Python tool designed to detect and analyze deepfake images and videos. Utilizing state-of-the-art deep learning techniques, it provides reliable predictions to identify manipulated media.
+
+## Installation
+
+You can install DeepTracer using pip:
+
+```bash
+pip install deeptracer
+```
+
+## Usage
+
+here's how you can use the `deeptracer` package to detect deepfakes in images and videos.
+
+### Import the DeepFakeDetector
+
+To begin using DeepTracer, simply import the `DeepFakeDetector` class:
+
+```python
+from deeptracer import DeepFakeDetector
+```
+
+### Image Prediction
+
+You can detect whether an image is a deepfake using the `predict_image` method. Here's an example:
+
+```python
+detector = DeepFakeDetector()
+image_result = detector.predict_image('path\image.jpg')
+print(image_result)
+```
+
+### Video Prediction
+
+Similarly, you can analyze videos for deepfake detection using the `predict_video` method:
+
+```python
+detector = DeepFakeDetector()
+video_result = detector.predict_video('path\video.mp4')
+print(video_result)
+```
+
+### Expected Output
+
+The output of both `predict_image` and `predict_video` methods will be in a format that indicates whether the media is likely to be real or fake, along with a confidence score. For example:
+
+```python
+{
+  "label": "fake",  # or "real"
+  "confidence": 0.95  # Confidence score in percentage
+}
+```
+
+## Requirements
+
+The following dependencies are required and automatically installed when using the package:
+
+- `torch`
+- `facenet-pytorch`
+- `Pillow`
+- `opencv-python`
+- `numpy`
+- `gdown`
+
+These libraries are critical for the deep learning models and image/video processing.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Author
+
+Developed by Vishwa. For any inquiries or suggestions, feel free to reach out at jvishu06@gmail.com.
