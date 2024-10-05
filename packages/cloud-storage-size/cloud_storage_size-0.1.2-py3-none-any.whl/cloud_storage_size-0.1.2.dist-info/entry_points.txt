@@ -1,0 +1,3 @@
+[console_scripts]
+rsize=cloud_storage_size.cli:main
+
