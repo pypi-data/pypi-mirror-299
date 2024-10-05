@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: stellaspark-utils
+Version: 0.5
+Summary: A collection of python utilities for StellaSpark Nexus Digital Twin
+Home-page: https://github.com/StellaSpark/stellaspark_utils
+Download-URL: https://github.com/StellaSpark/stellaspark_utils/archive/v0.5.tar.gz
+Author: StellaSpark
+Author-email: support@stellaspark.com
+Maintainer: StellaSpark
+Maintainer-email: support@stellaspark.com
+License: MIT
+Keywords: stellaspark,nexus,utils,calculation,python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+[Nexus Digital Twin]:https://www.stellaspark.com/ 
+[Pypi account]:https://pypi.org/account/register/
+
+### Description
+A collection of python utilities for StellaSpark [Nexus Digital Twin] technology.
+
+
+### Usage
+```
+TODO
+```
+
+### Development
+
+###### Create an environment:
+```
+# Install virtualenv if you didn't do that already
+pip install virtualenv
+
+# Navigate to the project root directory
+cd <project_root>
+
+# Create your new environment (called 'venv' here)
+virtualenv venv
+
+# Enter the virtual environment
+.\venv\Scripts\activate
+       
+# Install the requirements in the current environment
+pip install -r requirements.txt
+
+# Install the development requirements in the current environment
+pip install -r requirements_dev.txt   
+```
+
+###### Autoformat your code with:
+```
+# Navigate to the project root directory
+cd <project_root>
+
+# Enter the virtual environment
+.\venv\Scripts\activate
+
+# Make the code look nice              
+black .
+
+# Sort the import statements
+isort .
+
+# Validate the code syntax
+flake8
+```
+
+###### Prepare release
+1. Create a [Pypi account] and after registering, make sure your account has a pypi token
+2. Update version in version.txt
+3. Update the CHANGES.rst with a change and release date of today
+4. Optionally, autoformat code (see above)
+5. Optionally, create a pull request in a branch "release <version>"
+6. Optionally, Add commit message "release <version>"
+7. Optionally, Merge the pull request in main branch
+8. Optionally, Checkout main branch and pull
+
+
+###### Release automatically
+```
+cd <project_root>
+.\venv\Scripts\activate
+python release.py
+```
+
+###### Release manually
+```
+# Navigate to the project root directory
+cd <project_root>
+
+# Enter the virtual environment
+.\venv\Scripts\activate
+
+# Create distribution (with a '.tar.gz' in it)
+python setup.py sdist
+
+# Validate all distibutions in stellaspark_utils/dist
+twine check dist/*
+
+# Upload distribution to pypi.org
+twine upload dist/stellaspark_utils-<version>.tar.gz
+
+# You will be prompted for a username and password. 
+# - for the username, use __token__ (yes literally '__token__')
+# - for the password, use the pypi token value, including the 'pypi-' prefix
+```
