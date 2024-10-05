@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pfmath"
+version = "0.0.1.dev2"
+description = ""
+license = "Apache-2.0"
+authors = ["Stephen Yau <softwareentrepreneer+pfmath@gmail.com>"]
+readme = "README.md"
+homepage = "https://pfund.ai"
+repository = "https://github.com/PFund-Software-Ltd/pfmath"
+documentation = "https://pfmath-docs.pfund.ai"
+keywords = ["financial engineering", "financial mathematics"]
+
+[tool.poetry.dependencies]
+python = ">=3.10 <3.12"
+quantlib = "^1.33"
+gs-quant = "^1.0.71"
+arch = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
