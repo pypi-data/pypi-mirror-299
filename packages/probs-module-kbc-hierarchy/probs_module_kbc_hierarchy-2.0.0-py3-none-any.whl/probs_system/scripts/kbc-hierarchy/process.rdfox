@@ -1,0 +1,9 @@
+
+# Include the additional rules
+import rules.dlog
+
+# Import ontology rules
+import probs_ontology_rules.dlog
+
+# Composition-Equivalence 'algorithm'
+exec equivalence_composition/y_main

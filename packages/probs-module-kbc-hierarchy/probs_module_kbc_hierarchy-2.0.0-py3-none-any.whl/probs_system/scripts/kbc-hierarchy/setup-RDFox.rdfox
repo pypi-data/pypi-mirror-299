@@ -1,0 +1,15 @@
+
+# Set directories
+set dir.facts "$(dir.root)/data"
+set dir.output "$(dir.root)/data/"
+set dir.dlog "$(dir.root)/scripts/kbc-hierarchy"
+set dir.queries "$(dir.root)/scripts/kbc-hierarchy"
+
+# Create datastore
+dstore create default type parallel-nn
+
+# Printing on stdout by default
+set output out
+
+# Load prefixes
+exec set_prefixes

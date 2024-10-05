@@ -1,0 +1,99 @@
+CONSTRUCT
+{
+    ?Observation
+        :processInferredDefinedBy ?Process ;
+        prov:wasDerivedFrom ?WDF .
+    ?ObservationComposition
+        :measurement ?Measurement ;
+        :hasRole ?Role ;
+        :hasRegion ?Region ;
+        :hasTime ?Time ;
+        :hasMetric ?Metric .
+    ?ObservationObject
+        :objectInferredDefinedBy ?Object .
+    ?ObservationLowerBound
+        :hasBound :LowerBound .
+    ?ObservationExactBound
+        :hasBound :ExactBound .
+}
+WHERE
+{
+    {
+        SELECT DISTINCT ?Observation ?Process
+        WHERE {
+            GRAPH ufu:PW
+            {
+                VALUES ?ExportObsWDF
+                    {
+                    ufu:EquivalenceObservationToExport
+                    ufu:CompositionObservationToExport
+                    }
+                ?Observation
+                    a ?ExportObsWDF ;
+                    :processInferredDefinedBy ?Process
+            }
+        }
+    }
+    UNION
+    {
+        SELECT DISTINCT ?Observation ?WDF
+        WHERE {
+            GRAPH ufu:PW
+            {
+                VALUES ?ExportObsWDF
+                    {
+                    ufu:EquivalenceObservationToExport
+                    ufu:CompositionObservationToExport
+                    }
+                ?Observation
+                    a ?ExportObsWDF ;
+                    :wasDerivedFrom ?WDF
+            }
+        }
+    }
+    UNION
+    {
+        GRAPH ufu:PW
+        {
+            ?ObservationComposition
+                a ufu:CompositionObservationToExport ;
+                :measurement ?Measurement ;
+                ufu:CompatibilitySignature ?CompatibilitySignature .
+
+            TT SKOLEM { "Compatibility signature" ?Object ?Role ?Region ?Time ?Metric ?CompatibilitySignature }
+        }
+    }
+    UNION
+    {
+        GRAPH ufu:PW
+        {
+            ?ObservationObject
+                a ufu:CompositionObservationToExport ;
+                ufu:CompatibilitySignature ?CompatibilitySignature .
+
+            TT SKOLEM { "Compatibility signature" ?Object ?Role ?Region ?Time ?Metric ?CompatibilitySignature }
+
+            FILTER ( ?Object != :DummyObject )
+        }
+    }
+    UNION
+    {
+        GRAPH ufu:PW
+        {
+            ?ObservationLowerBound
+                a ufu:CompositionObservationToExport ;
+                :hasBound :LowerBound
+        }
+    }
+    UNION
+    {
+        GRAPH ufu:PW
+        {
+            ?ObservationExactBound
+                a ufu:CompositionObservationToExport .
+            FILTER NOT EXISTS {
+                ?ObservationExactBound :hasBound :LowerBound
+            }
+        }
+    }
+}

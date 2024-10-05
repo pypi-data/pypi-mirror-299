@@ -1,0 +1,17 @@
+###################################
+##### Equivalence aggregation #####
+###################################
+
+#####
+# If an process is equivalent to another one, the observation of one must be propagated to the other.
+#####
+
+ufu:EquivalenceObservationToExport[?Observation] ufu:PW ,
+:processInferredDefinedBy[?Observation,?Process1] ufu:PW ,
+:wasDerivedFrom[?Observation,?Observation] ufu:PW :-
+        # if 2 processes are equivalent but they are not the same process
+        :processEquivalentTo[?Process1,?Process2] ufu:PW , FILTER(?Process1 != ?Process2) ,
+        # and one process has an observation
+        :processDefinedBy[?Observation,?Process2] ufu:PW ,
+        # and this observation is not already a direct observation of the equivalent process
+        NOT :processDirectlyDefinedBy[?Observation,?Process1] ufu:PW .

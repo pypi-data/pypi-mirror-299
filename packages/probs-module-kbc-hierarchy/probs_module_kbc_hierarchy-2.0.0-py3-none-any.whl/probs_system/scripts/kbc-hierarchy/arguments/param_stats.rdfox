@@ -1,0 +1,3 @@
+
+# Set `stats` variable
+set stats $(1)
