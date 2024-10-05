@@ -1,0 +1,9 @@
+mumpspy/__init__.py,sha256=yqjRs1Vj6cq-BQBvH17p1O6FIKE9_9SfXwBOASyr-Ik,78
+mumpspy/mumps_lib_c_struc.py,sha256=nJ5VRbmBdNp_9rFnf7JZL2NsI18C27CWdvCX1y5UKkY,6618
+mumpspy/mumpspy.py,sha256=wF79DqQJiIeuviKIfDBoTck7JALZXJM28CGg7bWz_j8,10903
+mumpspy/mumpspy_test.py,sha256=tqh2Uz3lI4gr9H2xgO4vZmCxxzoaBDQIyXVWTKVIU7w,3386
+mumpspy-1.3.0.dist-info/LICENSE,sha256=p7KBoDVKmfkGgx-Zf_9kM6hzybaPTpYYVBc8xGxAVDs,1071
+mumpspy-1.3.0.dist-info/METADATA,sha256=bJxZRyJhWETtLBWEL6_dnVCtWrWPHXsdcy-GW7OPZSg,3044
+mumpspy-1.3.0.dist-info/WHEEL,sha256=GV9aMThwP_4oNCtvEC2ec3qUYutgWeAzklro_0m4WJQ,91
+mumpspy-1.3.0.dist-info/top_level.txt,sha256=qa69jTFmz1ppdJL0VIy8CL8HLFr_Bp8OWX7022DuwGg,8
+mumpspy-1.3.0.dist-info/RECORD,,
