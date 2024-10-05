@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+MoreUtilspy.egg-info/PKG-INFO
+MoreUtilspy.egg-info/SOURCES.txt
+MoreUtilspy.egg-info/dependency_links.txt
+MoreUtilspy.egg-info/requires.txt
+MoreUtilspy.egg-info/top_level.txt
+my_utils/__init__.py
+my_utils/converter_utils.py
+my_utils/text_utils.py
