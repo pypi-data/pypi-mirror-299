@@ -1,0 +1,10 @@
+src/__init__.py,sha256=MuqDDs0jRchl8K6_mzUigCLq2GXlIbnhuoTf-OrUpgo,33
+src/gencommit.py,sha256=fVNfDLGHZ245pTJ7MUWelpm43m80j-7yoWDkz2c0m4Q,6070
+src/utils/config.py,sha256=DAu8AB2XQlF2s34TFSNAguDsesfC_DnYa2FDXtiOXHA,862
+src/utils/llm_wrapper.py,sha256=xT-DDR_2aYVhCfm0fOIIsp-mxNaHaKK3ZxUQIP5V_ZY,1758
+src/utils/prompts.py,sha256=IsQCrq0ZN-RFDUymrFIsskkNjm9ooJ02oL2wZ2vspII,1292
+gen_commit-0.8.5.dist-info/METADATA,sha256=tQB2WBi0FWqrhVgIcd1uvmgP1xsWA2s124hNZomPKLA,3802
+gen_commit-0.8.5.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+gen_commit-0.8.5.dist-info/entry_points.txt,sha256=EOvG5Lj2tDiJzFIPY_xEbi6qBxkKC0AYQEavEpOytDA,54
+gen_commit-0.8.5.dist-info/licenses/LICENSE,sha256=DQSHi9ad9Kr1OLXfUxojK4d7dn9PGMV_y-qAdMYBTv8,1070
+gen_commit-0.8.5.dist-info/RECORD,,
