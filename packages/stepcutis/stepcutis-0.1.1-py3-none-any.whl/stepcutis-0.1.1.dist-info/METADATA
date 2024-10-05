@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: stepcutis
+Version: 0.1.1
+Summary: A document analysis program
+Home-page: https://github.com/yourusername/stepcutis
+Author: Emile Aucoin
+Author-email: eaucoi9@lsu.edu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: markdown2[all]
+Requires-Dist: requests==2.32.3
+Requires-Dist: sentencepiece==0.1.99
+Requires-Dist: tokenizers>=0.15.2
+Requires-Dist: wandb==0.18.2
+Requires-Dist: shortuuid==1.0.13
+Requires-Dist: httpx==0.24.0
+Requires-Dist: deepspeed==0.12.3
+Requires-Dist: peft==0.4.0
+Requires-Dist: albumentations
+Requires-Dist: tiktoken==0.6.0
+Requires-Dist: accelerate==0.28.0
+Requires-Dist: transformers==4.37.2
+Requires-Dist: bitsandbytes==0.41.0
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: einops==0.6.1
+Requires-Dist: einops-exts==0.0.4
+Requires-Dist: timm==0.6.13
+Requires-Dist: Pillow==10.4.0
+Requires-Dist: Shapely==2.0.6
+Requires-Dist: apex==0.9.10dev
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: boto3==1.35.28
+Requires-Dist: fairscale==0.4.13
+Requires-Dist: filetype==1.2.0
+Requires-Dist: ftfy==6.2.3
+Requires-Dist: huggingface-hub==0.24.6
+Requires-Dist: jieba==0.42.1
+Requires-Dist: megfile==3.1.3
+Requires-Dist: natsort==8.4.0
+Requires-Dist: nltk==3.9.1
+Requires-Dist: pandas==2.2.3
+Requires-Dist: playwright==1.47.0
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: pydantic-settings==2.5.2
+Requires-Dist: pypdfium2==4.30.0
+Requires-Dist: pytesseract==0.3.13
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: scikit-image==0.24.0
+Requires-Dist: smart-open==7.0.4
+Requires-Dist: tqdm==4.66.5
+Requires-Dist: verovio==4.3.1
+Requires-Dist: opencv-python==4.10.0.84
+Requires-Dist: numpy==1.26.4
+Requires-Dist: PyMuPDF==1.24.10
+
+# stepcutis
+
+A document analysis program.
+
+## Prerequisites
+
+- Linux operating system
+- CUDA >= 12.1
+- Python 3.10
+
+## Installation
+
+Install stepcutis using pip:
+
+```
+pip install stepcutis
+```
+
+This will automatically download the necessary model files during installation.
+
+## Usage
+
+Run stepcutis:
+
+```
+stepcutis INPUT_DIR CHUNK_SIZE
+```
+
+or
+
+```
+python -m stepcutis.start --input_dir INPUT_DIR --chunk_size CHUNK_SIZE
+```
+
+## Uninstallation
+
+To uninstall stepcutis, run:
+
+```
+pip uninstall stepcutis
+```
+```
