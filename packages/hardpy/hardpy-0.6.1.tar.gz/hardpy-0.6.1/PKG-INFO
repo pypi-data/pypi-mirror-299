@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: hardpy
+Version: 0.6.1
+Summary: HardPy library for device testing
+Project-URL: Homepage, https://github.com/everypinio/hardpy/
+Project-URL: Documentation, https://everypinio.github.io/hardpy/
+Project-URL: Repository, https://github.com/everypinio/hardpy/
+Project-URL: Changelog, https://everypinio.github.io/hardpy/changelog/
+Author: Everypin
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Utilities
+Requires-Python: <4,>=3.10
+Requires-Dist: fastapi>=0.100.1
+Requires-Dist: glom>=23.3.0
+Requires-Dist: natsort>=8.4.0
+Requires-Dist: pycouchdb>=1.14.2
+Requires-Dist: pydantic>=2.4.0
+Requires-Dist: pytest<9,>=7
+Requires-Dist: rtoml~=0.11.0
+Requires-Dist: typer<1.0,>=0.12
+Requires-Dist: uvicorn>=0.23.2
+Provides-Extra: build
+Requires-Dist: build==1.0.3; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: wemake-python-styleguide; extra == 'dev'
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+    <img src="https://everypinio.github.io/hardpy/img/logo256.png" alt="HardPy" style="width:200px;">
+</h1>
+
+<h1 align="center">
+    <b>HardPy</b>
+</h1>
+
+<p align="center">
+HardPy is a python library for creating a test bench for devices.
+</p>
+
+---
+
+**Documentation**: <a href=https://everypinio.github.io/hardpy/ target="_blank">https://everypinio.github.io/hardpy/</a>
+
+**Source Code**: <a href=https://github.com/everypinio/hardpy target="_blank">https://github.com/everypinio/hardpy</a>
+
+**PyPi**: <a href=https://pypi.org/project/hardpy/ target="_blank">https://pypi.org/project/hardpy/</a>
+
+---
+
+## Overview
+
+HardPy allows you to:
+
+* Create test benches for devices using [pytest](https://docs.pytest.org/);
+* Use a browser to view, start, stop, and interact with tests;
+* Store test results in the [CouchDB](https://couchdb.apache.org/) database.
+
+## To Install
+
+```bash
+pip install hardpy
+```
+
+## Getting Started
+
+1. Create your first test bench.
+```bash
+hardpy init
+```
+2. Launch [CouchDB](https://couchdb.apache.org/) database via [docker compose](https://docs.docker.com/compose/) in the background.
+```bash
+cd tests
+docker compose up -d
+```
+3. Launch HardPy operator panel.
+```bash
+hardpy run
+```
+4. View operator panel in browser: http://localhost:8000/
+
+  <h1 align="center">
+      <img src="https://everypinio.github.io/hardpy/img/hardpy_operator_panel_hello_hardpy.png"
+      alt="hardpy operator panel" style="width:600px;">
+  </h1>
+
+5. View the latest test report: http://localhost:5984/_utils
+
+    Login and password: **dev**, database - **runstore**, document - **current**.
+
+  <h1 align="center">
+      <img src="https://everypinio.github.io/hardpy/img/runstore_hello_hardpy.png"
+      alt="hardpy runstore" style="width:500px;">
+  </h1>
+
+## Examples
+
+Find more examples of using the **HardPy** in the [examples](https://github.com/everypinio/hardpy/tree/main/examples) folder.
