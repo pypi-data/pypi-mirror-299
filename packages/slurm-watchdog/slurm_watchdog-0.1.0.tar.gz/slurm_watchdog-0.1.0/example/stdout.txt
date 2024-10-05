@@ -1,0 +1,11 @@
+Step 0
+Step 1
+Step 2
+Step 3
+Step 4
+Now, I will hang forever
+2024-10-04T14:37:38.395286: ERROR: No output in last 15 seconds to stdout.txt. Klling job.
+Killing job 78592 due to inactivity.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 78592.0 ON gpu1-mat CANCELLED AT 2024-10-04T14:37:38 ***
+slurmstepd: error: *** JOB 78592 ON gpu1-mat CANCELLED AT 2024-10-04T14:37:38 ***
