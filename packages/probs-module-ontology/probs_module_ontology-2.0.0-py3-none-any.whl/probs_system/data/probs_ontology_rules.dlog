@@ -1,0 +1,147 @@
+@prefix : <http://w3id.org/probs-lab/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfox: <https://rdfox.com/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix ufu: <http://w3id.org/probs-lab/ontology/utility/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+owl:Nothing[?X] :- :Dataset[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :MeasurementBound[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Object[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Observation[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Process[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :Role[?X], :ClassificationCode[?X] .
+owl:Nothing[?X] :- :MeasurementBound[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Object[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Observation[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Process[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Role[?X], :Dataset[?X] .
+owl:Nothing[?X] :- :Object[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Observation[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Process[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Role[?X], :MeasurementBound[?X] .
+owl:Nothing[?X] :- :Observation[?X], :Object[?X] .
+owl:Nothing[?X] :- :Process[?X], :Object[?X] .
+owl:Nothing[?X] :- :Role[?X], :Object[?X] .
+owl:Nothing[?X] :- :Process[?X], :Observation[?X] .
+owl:Nothing[?X] :- :Role[?X], :Observation[?X] .
+owl:Nothing[?X] :- :Role[?X], :Process[?X] .
+:objectEquivalentTo[?X, ?Y] :- :objectEquivalentTo[?Y, ?X] .
+:processEquivalentTo[?X, ?Y] :- :processEquivalentTo[?Y, ?X] .
+:objectEquivalentTo[?X, ?Z] :- :objectEquivalentTo[?X, ?Y], :objectEquivalentTo[?Y, ?Z] .
+:processEquivalentTo[?X, ?Z] :- :processEquivalentTo[?X, ?Y], :processEquivalentTo[?Y, ?Z] .
+:Role[?X] :- :Stock[?X] .
+:Flow[?X] :- :SoldProduction[?X] .
+<http://purl.obolibrary.org/obo/BFO_0000019>[?X] :- :Role[?X] .
+:Object[?X] :- :ReferenceObject[?X] .
+:Flow[?X] :- :ProcessOutput[?X] .
+:Flow[?X] :- :ProcessInput[?X] .
+<http://purl.obolibrary.org/obo/BFO_0000031>[?X] :- :Process[?X] .
+<http://www.w3.org/ns/prov#Entity>[?X] :- :Observation[?X] .
+<http://purl.obolibrary.org/obo/BFO_0000031>[?X] :- :Observation[?X] .
+<http://purl.obolibrary.org/obo/BFO_0000031>[?X] :- :Object[?X] .
+<http://purl.obolibrary.org/obo/BFO_0000019>[?X] :- :MeasurementBound[?X] .
+:Observation[?X] :- :InferredObservation[?X] .
+:Flow[?X] :- :Import[?X] .
+:Role[?X] :- :Flow[?X] .
+:Flow[?X] :- :Export[?X] .
+:Observation[?X] :- :DirectObservation[?X] .
+:processDefinedBy[?X, ?Y] :- :processInferredDefinedBy[?X, ?Y] .
+:processDefinedBy[?X, ?Y] :- :processDirectlyDefinedBy[?X, ?Y] .
+:objectDefinedBy[?X, ?Y] :- :objectInferredDefinedBy[?X, ?Y] .
+:objectDefinedBy[?X, ?Y] :- :objectDirectlyDefinedBy[?X, ?Y] .
+:Process[?X] :- :processDescription[?X, ?X1] .
+:Object[?X] :- :objectDescription[?X, ?X1] .
+:Observation[?X] :- :measurement[?X, ?X1] .
+:ClassificationCode[?X] :- :codeDescription[?X, ?X1] .
+:Process[?X] :- :produces[?X, ?X1] .
+:InferredObservation[?X] :- :processInferredDefinedBy[?X, ?X1] .
+:Process[?X] :- :processEquivalentTo[?X, ?X1] .
+:DirectObservation[?X] :- :processDirectlyDefinedBy[?X, ?X1] .
+:Observation[?X] :- :processDefinedBy[?X, ?X1] .
+:Process[?X] :- :processComposedOf[?X, ?X1] .
+:ClassificationCode[?X] :- :partOfList[?X, ?X1] .
+:Observation[?X] :- :partOfDataset[?X, ?X1] .
+:InferredObservation[?X] :- :objectInferredDefinedBy[?X, ?X1] .
+:Object[?X] :- :objectEquivalentTo[?X, ?X1] .
+:DirectObservation[?X] :- :objectDirectlyDefinedBy[?X, ?X1] .
+:Observation[?X] :- :objectDefinedBy[?X, ?X1] .
+:Object[?X] :- :objectComposedOf[?X, ?X1] .
+:Observation[?X] :- :hasTime[?X, ?X1] .
+:Observation[?X] :- :hasRole[?X, ?X1] .
+:Observation[?X] :- :hasRegion[?X, ?X1] .
+:Observation[?X] :- :hasMetric[?X, ?X1] .
+:Object[?X] :- :hasClassificationCode[?X, ?X1] .
+:Observation[?X] :- :hasBound[?X, ?X1] .
+:Process[?X] :- :consumes[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!(DATATYPE(?X1) = xsd:string) || isIRI(?X1) || isBlank(?X1)), :processDescription[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!(DATATYPE(?X1) = xsd:string) || isIRI(?X1) || isBlank(?X1)), :objectDescription[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!isDecimal(?X1) || isIRI(?X1) || isBlank(?X1)), :measurement[?X, ?X1] .
+owl:Nothing[?X1] :- FILTER(!(DATATYPE(?X1) = xsd:string) || isIRI(?X1) || isBlank(?X1)), :codeDescription[?X, ?X1] .
+:Object[?X1] :- :produces[?X, ?X1] .
+:Process[?X1] :- :processInferredDefinedBy[?X, ?X1] .
+:Process[?X1] :- :processEquivalentTo[?X, ?X1] .
+:Process[?X1] :- :processDirectlyDefinedBy[?X, ?X1] .
+:Process[?X1] :- :processDefinedBy[?X, ?X1] .
+:Process[?X1] :- :processComposedOf[?X, ?X1] .
+:ClassificationCodeList[?X1] :- :partOfList[?X, ?X1] .
+:Dataset[?X1] :- :partOfDataset[?X, ?X1] .
+:Object[?X1] :- :objectInferredDefinedBy[?X, ?X1] .
+:Object[?X1] :- :objectEquivalentTo[?X, ?X1] .
+:Object[?X1] :- :objectDirectlyDefinedBy[?X, ?X1] .
+:Object[?X1] :- :objectDefinedBy[?X, ?X1] .
+:Object[?X1] :- :objectComposedOf[?X, ?X1] .
+<http://www.w3.org/2006/time#TemporalEntity>[?X1] :- :hasTime[?X, ?X1] .
+:Role[?X1] :- :hasRole[?X, ?X1] .
+<http://www.geonames.org/ontology#Feature>[?X1] :- :hasRegion[?X, ?X1] .
+<http://qudt.org/schema/qudt/QuantityKind>[?X1] :- :hasMetric[?X, ?X1] .
+:ClassificationCode[?X1] :- :hasClassificationCode[?X, ?X1] .
+:MeasurementBound[?X1] :- :hasBound[?X, ?X1] .
+:Object[?X1] :- :consumes[?X, ?X1] .
+owl:sameAs[?Y1, ?Y2] :- :hasRegion[?X, ?Y1], :hasRegion[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :processDescription[?X, ?Y1], :processDescription[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :objectDescription[?X, ?Y1], :objectDescription[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :measurement[?X, ?Y1], :measurement[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :codeDescription[?X, ?Y1], :codeDescription[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :partOfList[?X, ?Y1], :partOfList[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :partOfDataset[?X, ?Y1], :partOfDataset[?X, ?Y2] .
+owl:sameAs[?Y1, ?Y2] :- :hasTime[?X, ?Y1], :hasTime[?X, ?Y2] .
+:MeasurementBound[:UpperBound] :-  .
+:MeasurementBound[:LowerBound] :-  .
+:MeasurementBound[:ExactBound] :-  .
+<http://xmlns.com/foaf/0.1/homepage>[_:genid3, "https://www.bath.ac.uk"] :-  .
+<http://xmlns.com/foaf/0.1/name>[<https://orcid.org/0000-0001-8622-3085>, "Rick Lupton"] :-  .
+<http://www.w3.org/ns/org#memberOf>[<https://orcid.org/0000-0001-8622-3085>, _:genid3] :-  .
+<http://purl.org/vocab/vann/example>[:Dataset, "The 2018 PRODCOM dataset."@en] :-  .
+<http://purl.org/dc/elements/1.1/abstract>[<http://w3id.org/probs-lab/ontology>, "Information about energy and material production and consumption is important for understanding issues such as decarbonisation of industry, recycling, and waste management. The Physical Resources Observatory (PRObs) ontology defines entities useful for describing and integrating this type of data. It reuses existing vocabularies for provenance (PROV), measurements (QUDT), time (OWL Time) and spatial regions (Geonames). It can be used to describe existing data, and as a basis to compute derived data aggregated according to different hierarchies."@en] :-  .
+<http://purl.org/dc/elements/1.1/contributor>[<http://w3id.org/probs-lab/ontology>, "UK FIRES partners"@en] :-  .
+<http://purl.org/dc/elements/1.1/description>[<http://w3id.org/probs-lab/ontology>, "The ontology describes entities useful for the development of the Physical Resources Observatory (PRObs) data integration system."@en] :-  .
+<http://purl.org/dc/elements/1.1/issued>[<http://w3id.org/probs-lab/ontology>, "2020-10-02"] :-  .
+<http://purl.org/dc/elements/1.1/modified>[<http://w3id.org/probs-lab/ontology>, "2023-01-27"] :-  .
+<http://purl.org/dc/elements/1.1/title>[<http://w3id.org/probs-lab/ontology>, "Physical Resources Observatory (PRObs) Ontology"@en] :-  .
+<http://purl.org/dc/terms/created>[<http://w3id.org/probs-lab/ontology>, "2020-10-02"] :-  .
+<http://purl.org/dc/elements/1.1/creator>[<http://w3id.org/probs-lab/ontology>, "Stefano Germano"] :-  .
+<http://purl.org/vocab/vann/preferredNamespaceUri>[<http://w3id.org/probs-lab/ontology>, "http://w3id.org/probs-lab/ontology#"] :-  .
+<http://purl.org/vocab/vann/preferredNamespacePrefix>[<http://w3id.org/probs-lab/ontology>, "probs"] :-  .
+<http://creativecommons.org/ns#license>[<http://w3id.org/probs-lab/ontology>, <https://creativecommons.org/licenses/by/4.0>] :-  .
+rdfs:subClassOf[owl:Nothing, ?X], rdfs:subClassOf[?X, ?X], rdfs:subClassOf[?X, owl:Thing] :- owl:Class[?X], FILTER(isIRI(?X)) .
+rdfs:subClassOf[owl:Nothing, ?X], rdfs:subClassOf[?X, ?X], rdfs:subClassOf[?Y, ?Y], rdfs:subClassOf[?Y, owl:Thing] :- rdfs:subClassOf[?X, ?Y], FILTER(isIRI(?X)), FILTER(isIRI(?Y)) .
+rdfs:subClassOf[?X, ?Z] :- rdfs:subClassOf[?X, ?Y], rdfs:subClassOf[?Y, ?Z], FILTER(isIRI(?Z)) .
+rdfs:subClassOf[?X, ?Y], rdfs:subClassOf[?Y, ?X] :- owl:equivalentClass[?X, ?Y], FILTER(isIRI(?X)), FILTER(isIRI(?Y)) .
+owl:equivalentClass[?X, ?Y] :- rdfs:subClassOf[?X, ?Y], rdfs:subClassOf[?Y, ?X], FILTER(isIRI(?X)), FILTER(isIRI(?Y)) .
+rdfs:subPropertyOf[owl:bottomDataProperty, ?X], rdfs:subPropertyOf[?X, ?X], rdfs:subPropertyOf[?X, owl:topDataProperty] :- owl:DatatypeProperty[?X] .
+rdfs:subPropertyOf[owl:bottomObjectProperty, ?X], rdfs:subPropertyOf[?X, ?X], rdfs:subPropertyOf[?X, owl:topObjectProperty] :- owl:ObjectProperty[?X] .
+rdfs:subPropertyOf[?X, ?X], rdfs:subPropertyOf[?Y, ?Y] :- rdfs:subPropertyOf[?X, ?Y] .
+rdfs:subPropertyOf[?X, ?Z] :- rdfs:subPropertyOf[?X, ?Y], rdfs:subPropertyOf[?Y, ?Z] .
+rdfs:subPropertyOf[?X, ?Y], rdfs:subPropertyOf[?Y, ?X] :- owl:equivalentProperty[?X, ?Y] .
+owl:equivalentProperty[?X, ?Y] :- rdfs:subPropertyOf[?X, ?Y], rdfs:subPropertyOf[?Y, ?X] .
+rdfs:domain[?P, ?B] :- rdfs:domain[?P, ?A], rdfs:subClassOf[?A, ?B] .
+rdfs:domain[?P, ?A] :- rdfs:domain[?Q, ?A], rdfs:subPropertyOf[?P, ?Q] .
+rdfs:range[?P, ?B] :- rdfs:range[?P, ?A], rdfs:subClassOf[?A, ?B] .
+rdfs:range[?P, ?A] :- rdfs:range[?Q, ?A], rdfs:subPropertyOf[?P, ?Q] .
+:objectEquivalentTo[?Object, ?Object] :- :Object[?Object] .
+:processEquivalentTo[?Process, ?Process] :- :Process[?Process] .
