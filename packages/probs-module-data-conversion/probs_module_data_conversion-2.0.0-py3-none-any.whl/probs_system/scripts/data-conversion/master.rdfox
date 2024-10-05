@@ -1,0 +1,16 @@
+# run `RDFox sandbox <root> scripts/data-conversion/master`
+# where <root> is the path to the "probs-module-data-conversion" folder
+
+# Stop execution on any error
+set on-error stop
+
+# Process command line arguments
+scripts/data-conversion/arguments/process_args
+
+exec scripts/data-conversion/setup-RDFox
+
+exec input
+
+exec output
+
+quit

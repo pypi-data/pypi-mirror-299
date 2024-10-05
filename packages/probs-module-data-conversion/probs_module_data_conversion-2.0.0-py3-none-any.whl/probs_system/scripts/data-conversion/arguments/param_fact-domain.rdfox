@@ -1,0 +1,3 @@
+
+# Set `fact-domain` variable
+set fact-domain $(1)
