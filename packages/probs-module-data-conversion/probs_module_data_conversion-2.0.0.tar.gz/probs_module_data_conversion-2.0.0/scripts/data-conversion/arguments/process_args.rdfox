@@ -1,0 +1,15 @@
+
+# Temporary set scripts directory
+set dir.scripts "$(dir.root)/scripts/data-conversion/arguments"
+
+# Default values
+set fact-domain "all" # (| "derived" | "explicit")
+
+# Read 2 "key-value" arguments and set them
+param_$(1) $(2)
+param_$(3) $(4)
+
+echo "fact-domain: $(fact-domain)"
+
+# Reset scripts directory
+set dir.scripts "$(dir.root)/scripts/data-conversion"
