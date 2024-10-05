@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tf-validator
+Version: 0.1
+Summary: Use for train and test model
+Author: Abinesh
+Author-email: abinesh530@gmail.com
+Requires-Python: >=3.5
+
