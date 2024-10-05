@@ -1,0 +1,15 @@
+
+# Temporary set scripts directory
+set dir.scripts "$(dir.root)/scripts/endpoint/arguments"
+
+# Default values
+# set endpoint.port not needed to use the default RDFox port
+
+# Read 2 "key-value" arguments and set them
+param_$(1) $(2)
+param_$(3) $(4)
+
+echo "endpoint.port: $(endpoint.port)"
+
+# Reset scripts directory
+set dir.scripts "$(dir.root)/scripts/endpoint"

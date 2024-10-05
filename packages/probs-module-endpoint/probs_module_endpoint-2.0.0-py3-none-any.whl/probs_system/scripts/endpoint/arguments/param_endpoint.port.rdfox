@@ -1,0 +1,3 @@
+
+# Set `endpoint.port` variable
+set endpoint.port $(1)
