@@ -1,0 +1,8 @@
+argcomplete
+psutil
+PyYAML
+py-notifier
+
+[:platform_system == "Windows"]
+pywin32>=1.0
+win10toast>=0.9
