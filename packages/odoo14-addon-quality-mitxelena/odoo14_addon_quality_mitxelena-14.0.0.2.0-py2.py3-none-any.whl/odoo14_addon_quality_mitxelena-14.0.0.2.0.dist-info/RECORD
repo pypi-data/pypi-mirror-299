@@ -1,0 +1,9 @@
+odoo/addons/quality_mitxelena/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/quality_mitxelena/__manifest__.py,sha256=VG3GdkdM78jP61RTvTwc507IqZmuJtHQQEttbAR4rzk,494
+odoo/addons/quality_mitxelena/models/__init__.py,sha256=McM1G23wXnfYCuATpO07QSIvCBg7Kjjqg03sk7mxqcA,32
+odoo/addons/quality_mitxelena/models/quality_mitxelena.py,sha256=i2XIdUSr3slv4Rr9CylSFkAT2OFNHHW44oMbq5Nuae4,1089
+odoo/addons/quality_mitxelena/views/quality_views.xml,sha256=vJuavQ_x4z9WKhWvmbRXLHBjzopWlwPpw6V6JdT6qQA,5144
+odoo14_addon_quality_mitxelena-14.0.0.2.0.dist-info/METADATA,sha256=4v2SxWx7M0QzmJt1a746fvhjp3XNd14ZU6SKo8sdJlc,468
+odoo14_addon_quality_mitxelena-14.0.0.2.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+odoo14_addon_quality_mitxelena-14.0.0.2.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_quality_mitxelena-14.0.0.2.0.dist-info/RECORD,,
