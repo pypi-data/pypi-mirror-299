@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+winlnks.py
+winlnks.egg-info/PKG-INFO
+winlnks.egg-info/SOURCES.txt
+winlnks.egg-info/dependency_links.txt
+winlnks.egg-info/entry_points.txt
+winlnks.egg-info/requires.txt
+winlnks.egg-info/top_level.txt
