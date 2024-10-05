@@ -1,0 +1,11 @@
+# run `RDFox sandbox <root> scripts/ontology-conversion/master`
+# where <root> is the path to the "probs-module-ontology-conversion" folder
+
+# Stop execution on any error
+set on-error stop
+
+exec scripts/ontology-conversion/setup-RDFox
+
+exec convert_rules
+
+quit
