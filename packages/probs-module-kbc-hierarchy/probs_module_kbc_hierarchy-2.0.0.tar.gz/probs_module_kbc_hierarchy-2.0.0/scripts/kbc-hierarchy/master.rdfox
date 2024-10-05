@@ -1,0 +1,18 @@
+# run `RDFox sandbox <root> scripts/kbc-hierarchy/master`
+# where <root> is the path to the "probs-module-kbc-hierarchy" folder
+
+# Stop execution on any error
+set on-error stop
+
+# Process command line arguments
+scripts/kbc-hierarchy/arguments/process_args
+
+exec setup-RDFox
+
+exec input
+
+exec process
+
+exec save_data
+
+quit

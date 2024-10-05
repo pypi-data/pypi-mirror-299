@@ -1,0 +1,77 @@
+
+# 1: in the original data
+
+# this must be 0
+ufs:y_stat[ufs:1_observations_without_metric, ?Count] :-
+    AGGREGATE(
+        :Observation[?Observation]
+        BIND COUNT(DISTINCT(?Observation)) AS ?CountObs
+    ) ,
+    AGGREGATE(
+        :hasMetric[?Observation, ?Measurement]
+        BIND COUNT(DISTINCT(?Observation)) AS ?CountM
+    ) ,
+    BIND (?CountObs-?CountM AS ?Count).
+
+ufs:y_stat[ufs:1_observations_without_measurement, ?Count] :-
+    AGGREGATE(
+        :Observation[?Observation]
+        BIND COUNT(DISTINCT(?Observation)) AS ?CountObs
+    ) ,
+    AGGREGATE(
+        :measurement[?Observation, ?Measurement]
+        BIND COUNT(DISTINCT(?Observation)) AS ?CountM
+    ) ,
+    BIND (?CountObs-?CountM AS ?Count).
+
+ufs:y_stat[ufs:1_observations_with_0_as_measurement, ?Count] :-
+    AGGREGATE(
+        :measurement[?Observation, 0]
+        BIND COUNT(?Observation) AS ?Count
+    ) .
+
+ufs:y_stat[ufs:1_observations, ?Count] :-
+    AGGREGATE(
+        :Observation[?Observation]
+        BIND COUNT(?Observation) AS ?Count
+    ) .
+
+ufs:y_stat[ufs:1_processDefinedBy, ?Count] :-
+    AGGREGATE(
+        :processDefinedBy[?Observation, ?Process]
+        BIND COUNT(?Observation, ?Process) AS ?Count
+    ) .
+
+ufs:y_stat[ufs:1_processes, ?Count] :-
+    AGGREGATE(
+        :Process[?Process]
+        BIND COUNT(?Process) AS ?Count
+    ) .
+
+ufs:y_stat[ufs:1_processEquivalentTo, ?Count] :-
+    AGGREGATE(
+        :processEquivalentTo[?O1, ?O2]
+        BIND COUNT(?O1, ?O2) AS ?Count
+    ) .
+
+ufs:y_stat[ufs:1_processComposedOf, ?Count] :-
+    AGGREGATE(
+        :processComposedOf[?Process, ?Component]
+        BIND COUNT(?Process, ?Component) AS ?Count
+    ) .
+
+# Processes that have at least a component
+ufs:y_stat[ufs:1_composite_processes, ?Count] :-
+    AGGREGATE(
+        :processComposedOf[?Process, ?Component]
+        BIND COUNT(DISTINCT(?Process)) AS ?Count
+    ) .
+
+# Processes involved in more than one composition hierarchy
+ufs:y_stat[ufs:1_components_with_multiple_composites, ?Count] :-
+    AGGREGATE(
+        :processComposedOf[?O1, ?Component] ,
+        :processComposedOf[?O2, ?Component] ,
+        FILTER (?O1 != ?O2)
+        BIND COUNT(?Component) AS ?Count
+    ) .

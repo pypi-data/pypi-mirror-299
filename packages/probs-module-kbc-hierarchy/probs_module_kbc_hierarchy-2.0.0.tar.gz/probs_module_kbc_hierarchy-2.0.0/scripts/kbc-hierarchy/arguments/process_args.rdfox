@@ -1,0 +1,21 @@
+
+# Temporary set scripts directory
+set dir.scripts "$(dir.root)/scripts/kbc-hierarchy/arguments"
+
+# Default values
+set stats "disabled" # (| "enabled")
+set wdf "direct" # (| "primary")
+set variant "equivalence_composition" # (customisable for other tasks)
+
+# Read 4 "key-value" arguments and set them
+param_$(1) $(2)
+param_$(3) $(4)
+param_$(5) $(6)
+param_$(7) $(8)
+
+echo "stats: $(stats)"
+# Not currently implemented: echo "wdf: $(wdf)"
+echo "variant: $(variant)"
+
+# Reset scripts directory
+set dir.scripts "$(dir.root)/scripts/kbc-hierarchy"

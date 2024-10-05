@@ -1,0 +1,58 @@
+#####################################
+##### Compatibility signatures  #####
+#####################################
+
+ufu:OriginalCompatibilitySignature[?Observation,?CompatibilitySignature] ufu:PW :-
+        :objectDefinedBy[?Observation,?Object] ,
+        :hasRole[?Observation,?Role] ,
+        :hasRegion[?Observation,?Region] ,
+        :hasTime[?Observation,?Time] ,
+        :hasMetric[?Observation,?Metric] ,
+        SKOLEM("Compatibility signature", ?Object, ?Role, ?Region, ?Time, ?Metric, ?CompatibilitySignature) .
+
+ufu:OriginalCompatibilitySignature[?Observation,?CompatibilitySignature] ufu:PW :-
+        NOT EXISTS ?Object IN (
+                        :objectDefinedBy[?Observation,?Object]
+                ) ,
+        :hasRole[?Observation,?Role] ,
+        :hasRegion[?Observation,?Region] ,
+        :hasTime[?Observation,?Time] ,
+        :hasMetric[?Observation,?Metric] ,
+        SKOLEM("Compatibility signature", :DummyObject, ?Role, ?Region, ?Time, ?Metric, ?CompatibilitySignature) .
+
+# Identify observations without measurement
+ufu:missingMeasurement[?Observation,true] ufu:PW :-
+        :processDefinedBy[?Observation,?Process] ,
+        NOT EXISTS ?Measurement IN (
+                        :measurement[?Observation,?Measurement]
+                ) .
+
+#####
+# Compatibility signature of each process (direct or inferred via composition or equivalence).
+# This is useful to identify which empty/dummy observations we need to add to each process.
+#####
+
+# Compatibility signature from "direct" (i.e., original) observations.
+# `ufu:processOriginalCompatibilitySignature` is only used in this section.
+ufu:processOriginalCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW :-
+        :processDefinedBy[?Observation,?Process] ,
+        ufu:OriginalCompatibilitySignature[?Observation,?CompatibilitySignature] ufu:PW .
+
+# Propagate the compatibility signature to the equivalent processes.
+# `ufu:processEquivalentCompatibilitySignature` is only used in this section.
+ufu:processEquivalentCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW :-
+        :processEquivalentTo[?Process,?EquivalentProcess] ,
+        ufu:processCompatibilitySignature[?EquivalentProcess,?CompatibilitySignature] ufu:PW .
+
+# Propagate the compatibility signature from the component to the composite.
+ufu:processComponentsCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW :-
+        :processComposedOf[?Process,?Component] ,
+        ufu:processCompatibilitySignature[?Component,?CompatibilitySignature] ufu:PW .
+
+# Transitivity-like rules for compatibility signature (i.e., recursion for the compatibility signature derived with previous rules)
+ufu:processCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW :-
+        ufu:processOriginalCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW.
+ufu:processCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW :-
+        ufu:processEquivalentCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW.
+ufu:processCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW :-
+        ufu:processComponentsCompatibilitySignature[?Process,?CompatibilitySignature] ufu:PW.

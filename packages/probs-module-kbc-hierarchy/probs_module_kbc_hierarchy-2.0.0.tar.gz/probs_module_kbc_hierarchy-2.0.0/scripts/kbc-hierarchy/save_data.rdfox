@@ -1,0 +1,5 @@
+
+# Output in N-Triples format
+set query.answer-format "application/n-triples"
+set output probs_enhanced_data.nt.gz
+evaluate $(variant)/export_enhanced_data.rq

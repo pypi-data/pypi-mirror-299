@@ -1,0 +1,4 @@
+# Note: this option is not currently fully implemented
+
+# Set `wdf` variable
+set wdf $(1)

@@ -1,0 +1,6 @@
+
+# Our prefixes
+PREFIX :             <http://w3id.org/probs-lab/ontology#>
+PREFIX ufu:          <http://w3id.org/probs-lab/ontology/utility/>
+PREFIX ufs:          <http://w3id.org/probs-lab/ontology/stats/>
+PREFIX prov:         <http://www.w3.org/ns/prov#>
