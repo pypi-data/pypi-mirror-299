@@ -1,0 +1,27 @@
+Metadata-Version: 2.3
+Name: cdef-utils
+Version: 0.2.0
+Summary: Utility for converting CSV to Parquet files
+Project-URL: Homepage, https://github.com/tkragholm/cdef-utils
+Project-URL: Bug Tracker, https://github.com/tkragholm/cdef-utils/issues
+Author-email: Tobias Kragholm <tkragholm@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: csv,data processing,parquet
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# 
+
+# Installing
+
+```bash
+pip install cdef-utils
+```
