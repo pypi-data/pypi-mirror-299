@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pfmath
+Version: 0.0.1.dev2
+Summary: 
+Home-page: https://pfund.ai
+License: Apache-2.0
+Keywords: financial engineering,financial mathematics
+Author: Stephen Yau
+Author-email: softwareentrepreneer+pfmath@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: arch (>=7.0.0,<8.0.0)
+Requires-Dist: gs-quant (>=1.0.71,<2.0.0)
+Requires-Dist: quantlib (>=1.33,<2.0)
+Project-URL: Documentation, https://pfmath-docs.pfund.ai
+Project-URL: Repository, https://github.com/PFund-Software-Ltd/pfmath
+Description-Content-Type: text/markdown
+
+# pfmath
