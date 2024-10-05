@@ -1,0 +1,10 @@
+include README.md
+include requirements.txt
+recursive-include stepcutis *.py
+recursive-include stepcutis/GOT-OCR2_0 *
+recursive-include stepcutis/projectpackages/surya *
+recursive-include stepcutis/projectpackages/CRAFT *
+recursive-include stepcutis/projectpackages/LakeOCR *
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
