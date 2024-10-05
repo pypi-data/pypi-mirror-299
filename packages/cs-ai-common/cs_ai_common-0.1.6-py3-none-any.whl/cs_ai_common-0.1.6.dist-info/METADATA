@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cs-ai-common
+Version: 0.1.6
+Summary: 
+Author: Adrian Gajewski
+Author-email: adrian.gajewski001@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
