@@ -1,0 +1,16 @@
+
+# Set directories
+set dir.facts "$(dir.root)/data"
+set dir.dlog "$(dir.root)/data"
+set dir.scripts "$(dir.root)/scripts/ontology-conversion"
+
+# Create datastore
+dstore create default type parallel-nn
+# Invalid literals are converted to string literals in the import data, queries, and updates, but without emitting a warning
+dsprop set invalid-literal-policy as-string-silent
+
+# Printing on stdout by default
+set output out
+
+# Load prefixes
+exec set_prefixes

@@ -1,0 +1,20 @@
+
+# Import the ontology
+import > ufu:FNG ontology.nt
+
+# Parse the axioms in the triples
+importaxioms ufu:FNG assertions
+
+# Drop triples not needed in the output
+tupletable delete Quads force
+tupletable create Quads type quad-table-lg
+
+# A simple, builtin rule set for subsumption reasoning
+import <rdfox:TBoxReasoning>
+
+# Reflexivity (needed because RDFox does not support ReflexiveProperty)
+import ! :objectEquivalentTo[?Object,?Object] :- :Object[?Object] .
+import ! :processEquivalentTo[?Process,?Process] :- :Process[?Process] .
+
+# Converts axioms to Datalog rules
+export probs_ontology_rules.dlog "application/x.datalog" rule-domain "user axioms"
