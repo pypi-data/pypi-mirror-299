@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/mumps_lib_c_struc.py
+src/mumpspy.py
+src/mumpspy_test.py
+src/mumpspy.egg-info/PKG-INFO
+src/mumpspy.egg-info/SOURCES.txt
+src/mumpspy.egg-info/dependency_links.txt
+src/mumpspy.egg-info/requires.txt
+src/mumpspy.egg-info/top_level.txt
