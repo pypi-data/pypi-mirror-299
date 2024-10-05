@@ -1,0 +1,14 @@
+fastapi_async_sql_profiler/__init__.py,sha256=3iv32_lmHHI-8TPI4-Ck_gWLLwu5U1m2naVmthGBKIo,164
+fastapi_async_sql_profiler/config.py,sha256=-N_QetJBtgGMejBuAEFoid6lpdOjt1yu1RESJFeX99A,1182
+fastapi_async_sql_profiler/crud.py,sha256=wYEQEFlB7_X3gdO-o381Wckf0TRW27l8gvStyOvCmnA,1498
+fastapi_async_sql_profiler/database.py,sha256=h8jYLch4NBtcf-F9QGGWjWs5AAM75szBTG7KLVAzIoA,867
+fastapi_async_sql_profiler/main.py,sha256=WUd2P0M6vSSPzJ2WdKnn_XGnrIDVWRl8OxaY4aUlBy0,1533
+fastapi_async_sql_profiler/models.py,sha256=ltoFLsZSdQa8Uy2_0KVcdHuHKj-6azsdY8VW2-UPGMs,2043
+fastapi_async_sql_profiler/routers.py,sha256=mz_Odlo1ZGrABJngMEjynyAUkPvHvkJzSYgtfXwFBsY,1928
+fastapi_async_sql_profiler/schemas.py,sha256=Y9SNjZC0T4VvX56P9EFn3s6DGdjRT2taT4j1huvDoEc,664
+fastapi_async_sql_profiler/sql_middleware.py,sha256=HGoHacckT0YzPiCO0mGbVRW4eq_l_b4UqN9_hUTIQ4s,8610
+fastapi_async_sql_profiler/start_debugger.py,sha256=J1ktmwB1YF918lLMEp1AESItTEQGDTYcq-W3OIx8v3g,337
+fastapi_async_sql_profiler-0.1.3.8.dist-info/LICENSE,sha256=V8_yHtbWdw4btkQexd4ieVkGcfcov8WLazv9z_ouc-g,1062
+fastapi_async_sql_profiler-0.1.3.8.dist-info/METADATA,sha256=SNzb9c30Q4I8TL7JxxzyjqgUI3NwpAFveNchAE2F7ME,660
+fastapi_async_sql_profiler-0.1.3.8.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fastapi_async_sql_profiler-0.1.3.8.dist-info/RECORD,,
