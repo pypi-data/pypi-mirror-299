@@ -1,0 +1,20 @@
+# run `RDFox sandbox <root> scripts/endpoint/master`
+# where <root> is the path to the "probs-module-endpoint" folder
+
+# Stop execution on any error
+set on-error stop
+
+# Process command line arguments
+scripts/endpoint/arguments/process_args
+
+exec scripts/endpoint/setup-RDFox
+
+begin
+
+exec input
+
+exec process
+
+commit
+
+endpoint start
