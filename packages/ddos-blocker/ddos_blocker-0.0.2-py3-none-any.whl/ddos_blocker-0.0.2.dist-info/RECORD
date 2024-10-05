@@ -1,0 +1,7 @@
+ddos_blocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddos_blocker/middleware.py,sha256=NF4TCdB4M4-Qha6LcGSrjJ1f6SMPY-2k74nr82FpKvk,962
+ddos_blocker/redis_adapter.py,sha256=niQR2qyp3nhSLn8RnKnQ0OVKlzO1wQvT96CwZ_6n4UU,1231
+ddos_blocker-0.0.2.dist-info/METADATA,sha256=zuCYtbMJucnCm-hHEa6t6WuBJRTzMd6HU36T3NS9-K8,585
+ddos_blocker-0.0.2.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+ddos_blocker-0.0.2.dist-info/licenses/LICENSE,sha256=CttUfeA4Pq4-_3ogSoAHzaLzN_Gm-mVmAhT7ghBuFH4,1492
+ddos_blocker-0.0.2.dist-info/RECORD,,
