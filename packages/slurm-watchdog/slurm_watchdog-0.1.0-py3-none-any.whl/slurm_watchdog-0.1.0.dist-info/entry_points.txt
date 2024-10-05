@@ -1,0 +1,2 @@
+[console_scripts]
+slurm-watchdog = slurm_watchdog.main:main

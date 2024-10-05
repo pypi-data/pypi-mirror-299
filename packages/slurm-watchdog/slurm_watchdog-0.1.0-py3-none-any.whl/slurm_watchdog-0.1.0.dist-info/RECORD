@@ -1,0 +1,7 @@
+slurm_watchdog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slurm_watchdog/dummyjob.py,sha256=lcvL3khM170i2zr-tZVxGrfDy0iRPj79mz_WxfPAElI,221
+slurm_watchdog/main.py,sha256=dhSxhdDmDWIsVQN5Oy-NebPxx-OaJobeU_vgcyug568,2665
+slurm_watchdog-0.1.0.dist-info/METADATA,sha256=riy0AkQBU8viiWobLiOQcDPgvYlTM026S5V6dwqQCEs,637
+slurm_watchdog-0.1.0.dist-info/WHEEL,sha256=1yFddiXMmvYK7QYTqtRNtX66WJ0Mz8PYEiEUoOUUxRY,87
+slurm_watchdog-0.1.0.dist-info/entry_points.txt,sha256=8ZsaSV3VhO1dy9G6a7_p_5EtZ9T_D9kS4scp4YwYSLk,60
+slurm_watchdog-0.1.0.dist-info/RECORD,,
