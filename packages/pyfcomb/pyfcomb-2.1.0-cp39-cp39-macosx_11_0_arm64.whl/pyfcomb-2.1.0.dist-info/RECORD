@@ -1,0 +1,6 @@
+pyfcomb-2.1.0.dist-info/METADATA,sha256=QLEQ8qlomSeWsUxpuTJ_NgDtf6yw32v_BECGIuLZf1I,1481
+pyfcomb-2.1.0.dist-info/WHEEL,sha256=MBppgnVXfELcxVuEOC4sQuqQhNR48M5Zb8JoOj6or3w,102
+pyfcomb/__init__.py,sha256=887ChOIwiNyWcIU2jMXVr_Usk1iVK298AYDphMwCIMg,199
+pyfcomb/reader.py,sha256=WpHyLvj2ETqT205qYhYEgSmICfPlUOGM73Hp-X5hntk,5834
+pyfcomb/rfcomb.cpython-39-darwin.so,sha256=gwHl0xqG1ComhzVHEhHIamGztOFo_M7W3v3_01ES200,636000
+pyfcomb-2.1.0.dist-info/RECORD,,
