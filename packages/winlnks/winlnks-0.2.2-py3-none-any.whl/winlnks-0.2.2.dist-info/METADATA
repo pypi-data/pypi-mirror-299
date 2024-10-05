@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: winlnks
+Version: 0.2.2
+Summary: Windows LNK File Parser and Creator
+Author: BIG
+License: MIT
+Keywords: lnk,shortcut,windows
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: asciitoart
+
+<h1 align="center"> WinLnks </h1><br>
+
+<div align="center">
+<img src="https://img.shields.io/badge/release-0.2.2-brightgray">  <img src="https://camo.githubusercontent.com/298c9cc02146ab7bc77e9fa31da10fd37891a216c5aecbd9037ea019ac43eba2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f707974686f6e2d76332e362b2d626c75652e737667"> <img src="https://img.shields.io/badge/License-MIT-blue">  <img src="https://img.shields.io/badge/downloads-10k/Month-brightgreen">   <img src="https://camo.githubusercontent.com/87ddab2ef405aee70f76af73b8184fccbe88f9f3551c178af03018ac86db8bfc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d6f72616e67652e737667">
+</div>
+<br>
+
+Python library for reading and writing Windows shortcut files (.lnk).  
+
+This library can parse .lnk files and extract all relevant information from
+them. Parsing a .lnk file yields a LNK object which can be altered and saved
+again. Moreover, .lnk file can be created from scratch be creating a LNK
+object, populating it with data and then saving it to a file. As that
+process requires some knowledge about the internals of .lnk files, some
+convenience functions are provided.
+
+
+## CLI
+
+Mainly tool has two basic commands.
+
+#### Parse existed lnk file
+
+```sh
+winlnks parse [-h] filename [props [props ...]]
+
+positional arguments:
+  filename    lnk filename to read
+  props       props path to read
+ 
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+#### Create new lnk file
+
+```sh
+usage: winlnks create [-h] [--target [TARGET]][--arguments [ARGUMENTS]] [--description [DESCRIPTION]] [--icon [ICON]]
+                     [--icon-index [ICON_INDEX]] [--workdir [WORKDIR]] [--mode [{Maximized,Normal,Minimized}]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --target [TARGET], -t [TARGET]
+			Target path
+  --output [OUTPUT], -o [OUTPUT]
+                        .lnk file path
+  --arguments [ARGUMENTS], -a [ARGUMENTS]
+                        additional arguments
+  --description [DESCRIPTION], -d [DESCRIPTION]
+                        description
+  --icon [ICON], -i [ICON]
+                        icon filename
+  --icon-index [ICON_INDEX], -ii [ICON_INDEX]
+                        icon index
+  --workdir [WORKDIR], -w [WORKDIR]
+                        working directory
+  --mode [{Maximized,Normal,Minimized}], -m [{Maximized,Normal,Minimized}]
+                        window mode
+```
+
+#### Examples
+```sh
+py winlnks.py parse C:\Temp\calc.lnk
+py winlnks.py create -t C:\windows\system32\calc.exe -o C:\Temp\calc.lnk              
+winlnks create -h
+winlnks p C:\Temp\calc.lnk
+winlnks c --target C:\windows\system32\calc.exe --output C:\Temp\calc.lnk --mode Minimized --description "calc shortcut"          
+```
+
